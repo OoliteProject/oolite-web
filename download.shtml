@@ -1,0 +1,69 @@
+<!--#include virtual="shared/top.html" -->
+
+<title>Download Oolite</title>
+
+<script src="download.js" type="application/javascript"></script>
+
+</head>
+<body onLoad="hideOtherPlatforms();">
+
+
+<!-- 
+	The contents of this file are subject to the terms of the Creative Commons
+	Attribution-ShareAlike license version 3.0. For more information, see
+	http://creativecommons.org/licenses/by-sa/3.0/
+	
+	Design ©2007-2008 Jens Ayton.
+	Some content ©2005–2007 Giles Williams.
+-->
+
+
+<!--#include virtual="shared/pageheader1.html" --> Download <!--#include virtual="shared/pageheader2.html" -->
+
+
+<h3>Oolite&nbsp;1.65</h3>
+<p>Version 1.65, released in June 2006, is the latest full release of Oolite.</p>
+
+<div id="oolite-dl-mac-os-x">
+<h4>Mac&nbsp;OS&nbsp;X</h4>
+<p>Universal Binary for Mac&nbsp;OS&nbsp;X 10.3.9 or later, 21.3 MiB</p>
+<ul>
+	<li>Mirror 1 (digitalnervouswreck.com): <a href="http://www.digitalnervouswreck.com/oolite/oolite.dmg">Download</a></li>
+	<li>Mirror 2 (<a href="http://www.apple.com/dotmac/">.Mac</a>): <a href="http://homepage.mac.com/aegidian/download/oolite1.65.dmg">Download</a></li>
+	<li>Mirror 3 (<a href="http://www.spymac.com">Spymac.com</a>): <a href="http://aegidian.spymac.com/oolite1.65.dmg">Download</a></li>
+	<li>Mirror 4: <a href="http://www.versiontracker.com/dyn/moreinfo/macosx/23929">VersionTracker.com</a>
+</ul>
+</div>
+
+
+<div id="oolite-dl-windows">
+<h4>Windows</h4>
+<p>Installer for Windows&nbsp;XP and Windows&nbsp;Vista, 18.8 MiB</p>
+<ul>
+	<li>Mirror 1 (<a href="http://oolite-pc.berlios.de/">BerliOS.de</a>): <a href="http://prdownload.berlios.de/oolite-pc/OoliteInstall-v1.65.exe">Download</a></li>
+</ul>
+</div>
+
+
+<div id="oolite-dl-linux">
+<h4>Linux</h4>
+<p>Autopackage for GNU/Linux, 20.6 MiB</p>
+<ul>
+	<li>Mirror 1 (<a href="http://oolite-linux.berlios.de/">BerliOS.de</a>): <a href="http://prdownload.berlios.de/oolite-linux/oolite-1.65.x86.package">Download</a></li>
+</ul>
+</div>
+
+
+<h3>Test releases and source code</h3>
+<p>Test releases add more features and improved performance, but are not as well tested as the full release and have unresolved bugs. Test releases and source code for all platforms are available from <a href="http://developer.berlios.de/project/showfiles.php?group_id=3577">BerliOS</a>. New test releases are announced on the <a href="http://www.aegidian.org/bb/">forum</a>.</p>
+
+<h3>Add-ons</h3>
+<p>There are numerous expansion packs and other add-ons for Oolite. Don’t forget to look at the <a href="links.shtml" title="Oolite Links">Links</a> page!</p>
+
+
+<div style="color:red">
+<script type="application/javascript">hideOtherPlatforms();</script>
+</div>
+
+
+<!--#include virtual="shared/end.html" -->

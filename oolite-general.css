@@ -1,0 +1,258 @@
+/*
+	The contents of this file are subject to the terms of the Creative Commons
+	Attribution-ShareAlike license version 3.0. For more information, see
+	http://creativecommons.org/licenses/by-sa/3.0/
+	
+	©2007 Jens Ayton
+*/
+
+
+/* Base appearance */
+body
+{
+	font:					normal 1em "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+	background-color:		black;
+	color:					#ffc;
+}
+
+html
+{
+	overflow-Y:				scroll;	/* Naughty non-standard attribute. */
+}
+
+img
+{
+	border:					0;
+}
+
+p
+{
+	padding:				0;
+	margin:					0.2em 0 0.8em 0;
+	line-height:			1.4;
+}
+
+
+div#content
+{
+	padding:				0 2em;
+}
+
+
+div#berlios-badge
+{
+	padding-top:			2em;
+}
+
+
+/* Headers (and navigation link font) */
+h1, h2, h3, h4, h5, h6, div#main-navigation p.pseudo-control
+{
+	color:					yellow;
+	font:					bold 1em "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+	margin:					0;
+	padding:				0;
+	border-bottom:			0;
+}
+
+h1
+{
+	font-size:				2em;
+}
+
+h2
+{
+	font-size:				1.2em;
+}
+
+h3
+{
+	margin-left:			-1em;
+	font-size:				1.2em;
+}
+
+h4
+{
+	margin-left:			-0.4em;
+	font-size:				1.05em;
+}
+
+
+/* Title block: centred block with Oolite logo, "Oolite" as h1, page name as h2. */
+div#title-block
+{
+	text-align:				center;
+	margin-bottom:			2em;
+}
+
+
+/*	General links. */
+a:link
+{
+	-webkit-transition:		all 200ms linear;
+	color:					#dde;
+}
+
+a:hover, a:active, a:visited:hover
+{
+	text-decoration:		underline;
+	color:					#eef;
+}
+
+a:visited
+{
+	color:					#fbf;
+}
+
+
+code a,pre.code a
+{
+	text-decoration:		none
+}
+
+
+a.pseudo-control
+{
+	font-size:				0.8em;
+	cursor:					pointer;
+	color:					yellow;
+}
+
+
+
+/*	Navigation link block. Text-shadow is used to add glow effects, currently only
+	supported in Safari (and, kinda, in iCab). Note: the W3C CSS validator
+	claims there is no text-shadow property... while helpfully linking to the
+	definition of text-shadow in the CSS 2.0 specification. Fun, eh?
+*/
+div#main-navigation
+{
+	text-align:				right;
+	list-style:				none;
+	border-bottom:			1px solid #468;
+	margin-bottom:			1em;
+}
+
+
+div#main-navigation a
+{
+	text-align:				left;
+	display:				inline-block;
+	width:					12ex;
+	margin-right:			1em;
+	text-decoration:		none;
+	color:					yellow;
+	-webkit-transition:		all 200ms linear;
+}
+
+
+div#main-navigation a:before
+{
+	content:				"\25B8\ ";	/* U+25B8 "Black right-pointing small triangle" */
+}
+
+
+div#main-navigation a:hover
+{
+	text-shadow:			#ccf 0px 0px 4px;
+	text-decoration:		none;
+	color:					#ff8;
+}
+
+
+div#main-navigation a:active a:visited:active
+{
+	text-shadow:			#fff 0px 0px 4px;
+}
+
+
+div#main-navigation a:visited:hover
+{
+	text-shadow:			#f8f 0px 0px 4px;
+}
+
+
+/* Styles for story extract on main page. */
+
+div.extract
+{
+	padding:				0 0 1.5em 0;
+}
+
+div.extract blockquote
+{
+	font-style:				italic;
+	display:				block;
+	text-align:				justify;
+	margin:					0 4em;
+}
+
+div.extract blockquote:before
+{
+	margin-left:			-1ex;
+	content:				"\201C";	/* U+201C "Left double quotation mark" */
+}
+
+div.extract blockquote:after
+{
+	content:				"\201D";	/* U+201D "Right double quotation mark" */
+}
+
+div.extract cite
+{
+	display:				block;
+	font-size:				0.8em;
+	text-align:				right;
+	margin:					0 5em;
+}
+
+div.extract cite:before
+{
+	content:				"\2013\ ";	/* U+2013 "En dash" */
+}
+
+
+/* News page. */
+
+p.news-tag
+{
+	margin:					0;
+	font-size:				0.8em;
+}
+
+
+/* Gallery page. */
+
+div.gallery
+{
+	display:				table;
+	border-spacing:			0 1em;
+}
+
+div.gallery > div
+{
+	display:				table-row;
+}
+
+div.gallery > div > a
+{
+	display:				table-cell;
+	width:					200px;
+	vertical-align:			top;
+}
+div.gallery > div > a > img
+{
+	border:					1px solid yellow;
+}
+
+div.gallery > div > div
+{
+	display:				table-cell;
+	padding-left:			2em;
+	vertical-align:			top;
+}
+
+div.gallery > div > div > p
+{
+	margin-top:				0;
+}

@@ -1,0 +1,6 @@
+<IfModule mod_rewrite.c>
+RewriteEngine On
+	RewriteCond %{HTTP_HOST} ^www\.oolite\.org$ [NC,OR]
+	RewriteCond %{HTTP_HOST} ^oolite-linux\.berlios\.de$ [NC]
+	RewriteRule ^(.*)$ http://oolite.org/$1 [R=permanent,L]
+</IfModule>
