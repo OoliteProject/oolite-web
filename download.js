@@ -136,3 +136,33 @@ function platformFromUserAgentString()
 	
 	return null;
 }
+
+
+function init()
+{
+	// Only execute once
+	if (arguments.callee.done)  return;
+	hideOtherPlatforms();
+}
+
+
+var onDOMLoaded=function(f,t)
+{
+    if(typeof document.getElementsByTagName!='undefined' && (document.getElementsByTagName('body')[0]!=null || document.body!=null))
+	{
+        var h=document.getElementsByTagName('HTML')[0];
+        var s=document.createElement('script');
+        s.type='text/javascript';
+        h.appendChild(s);
+        s.text=f+'()';
+    }
+	else if(100 > t)
+	{
+        setTimeout(function () { onDOMLoaded(f,t) } ,t);
+        if (10 > t) { t++; } else { t += 10; }
+    }
+};
+
+
+onDOMLoaded('init', 0);
+window.onload = init;

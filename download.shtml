@@ -2,7 +2,7 @@
 
 <title>Download Oolite</title>
 
-<script src="download.js" type="application/javascript"></script>
+<script src="download.js" type="text/javascript"></script>
 
 </head>
 <body onLoad="hideOtherPlatforms();">
