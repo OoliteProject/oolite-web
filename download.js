@@ -136,11 +136,3 @@ function platformFromUserAgentString()
 	
 	return null;
 }
-
-
-function printDiagnostics()
-{
-	document.write("platformFromPlatformString(): " + platformFromPlatformString() + "<br>");
-	document.write("platformFromUserAgentString(): " + platformFromUserAgentString() + "<br>");
-	document.write("identifyPlatform(): " + identifyPlatform() + "<br>");
-}
