@@ -34,7 +34,7 @@ function hideOtherPlatforms()
 			// This is the current platform; add (or show) "Show all platforms..." link.
 			if (!showAllLink)
 			{
-				div.innerHTML += '<p id="oolite-dl-show-all"><a class="pseudo-control" href="javascript:showAllPlatforms()">Show all platforms...</a></p>';
+				div.innerHTML += '<p id="oolite-dl-show-all" class="pseudo-control"><a href="javascript:showAllPlatforms()">Show all platforms...</a></p>';
 				showAllLink = document.getElementById('oolite-dl-show-all');
 				if (!showAllLink && div.children)
 				{
@@ -43,7 +43,7 @@ function hideOtherPlatforms()
 			}
 			else
 			{
-				showAllLink.style.display = "inline";
+				showAllLink.style.display = 'block';
 			}
 		}
 	}
@@ -68,7 +68,7 @@ function showAllPlatforms()
 	}
 	
 	// Remove "Show all platforms..." link.
-	showAllLink.style.display = "none";
+	showAllLink.style.display = 'none';
 }
 
 
