@@ -46,7 +46,7 @@ div#berlios-badge
 
 
 /* Headers (and navigation link font) */
-h1, h2, h3, h4, h5, h6, div#main-navigation .pseudo-control
+h1, h2, h3, h4, h5, h6, div#main-navigation .pseudo-control .major-link
 {
 	color:					yellow;
 	font:					bold 1em "Helvetica Neue", "Helvetica", "Arial", sans-serif;
@@ -121,6 +121,12 @@ code a,pre.code a
 {
 	font-size:				0.8em;
 	cursor:					pointer;
+	color:					yellow;
+}
+
+
+a.major-link
+{
 	color:					yellow;
 }
 
