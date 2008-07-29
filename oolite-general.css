@@ -262,3 +262,9 @@ div.gallery > div > div > p
 {
 	margin-top:				0;
 }
+
+
+div.old-gallery img
+{
+	border:					1px solid yellow;
+}
