@@ -1,1 +1,49 @@
-<!--#include virtual="shared/top.html" --><title>Oolite Links</title><style type="text/css">ul.linklist>li{	display: block;}</style></head><body><!-- 	The contents of this file are subject to the terms of the Creative Commons	Attribution-ShareAlike license version 3.0. For more information, see	http://creativecommons.org/licenses/by-sa/3.0/		Design ©2007 Jens Ayton.	Some content ©2005–2007 Giles Williams.	Extract from Status Quo ©2006 Drew Wagar. This extract is subject to the	Creative Commons Attribution-NonCommercial-ShareAlike license; see	http://creativecommons.org/licenses/by-nc-sa/2.0/--><!--#include virtual="shared/pageheader1.html" --> Links <!--#include virtual="shared/pageheader2.html" --><h3>Community</h3><ul class="linklist"><li> <a href="http://aegidian.org/bb/">Oolite Bulletin Board</a>, Oolite’s official web forum.</li><li> <a href="http://wiki.alioth.net/index.php/Category:Oolite">Elite Wiki</a>, a user-edited guide to the world of Oolite and Elite.</li><li> <a href="http://wiki.alioth.net/index.php/Oolite_FAQ">Oolite Frequently Asked Questions</a> at Elite Wiki.</li><li> <a href="http://wiki.alioth.net/index.php/OXP">Expansion Pack list</a> at Elite Wiki</a>.</ul><h3>Development</h3><ul class="linklist"><li> <a href="http://developer.berlios.de/projects/oolite-linux/">Project Page</a> – the centre of Oolite development. Source code, test releases and bug tracking can be found here.</a></li><li> <a href="http://developer.berlios.de/bugs/?group_id=3577">Bug Tracker</a> – please report bugs here.</li></ul><!--#include virtual="shared/end.html" -->
+<!--#include virtual="shared/top.html" -->
+
+<title>Oolite Links</title>
+
+
+<style type="text/css">
+
+ul.linklist>li
+{
+	display: block;
+}
+
+</style>
+
+</head>
+<body>
+
+
+<!-- 
+	The contents of this file are subject to the terms of the Creative Commons
+	Attribution-ShareAlike license version 3.0. For more information, see
+	http://creativecommons.org/licenses/by-sa/3.0/
+	
+	Design ©2007 Jens Ayton.
+	Some content ©2005–2007 Giles Williams.
+	Extract from Status Quo ©2006 Drew Wagar. This extract is subject to the
+	Creative Commons Attribution-NonCommercial-ShareAlike license; see
+	http://creativecommons.org/licenses/by-nc-sa/2.0/
+-->
+
+
+<!--#include virtual="shared/pageheader1.html" --> Links <!--#include virtual="shared/pageheader2.html" -->
+
+<h3>Community</h3>
+<ul class="linklist">
+<li> <a href="http://aegidian.org/bb/">Oolite Bulletin Board</a>, Oolite’s official web forum.</li>
+<li> <a href="http://wiki.alioth.net/index.php/Category:Oolite">Elite Wiki</a>, a user-edited guide to the world of Oolite and Elite.</li>
+<li> <a href="http://wiki.alioth.net/index.php/Oolite_FAQ">Oolite Frequently Asked Questions</a> at Elite Wiki.</li>
+<li> <a href="http://wiki.alioth.net/index.php/OXP">Expansion Pack list</a> at Elite Wiki</a>.
+</ul>
+
+<h3>Development</h3>
+<ul class="linklist">
+<li> <a href="http://developer.berlios.de/projects/oolite-linux/">Project Page</a> – the centre of Oolite development. Source code, test releases and bug tracking can be found here.</a></li>
+<li> <a href="http://developer.berlios.de/bugs/?group_id=3577">Bug Tracker</a> – please report bugs here.</li>
+</ul>
+
+
+<!--#include virtual="shared/end.html" -->
