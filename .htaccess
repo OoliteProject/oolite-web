@@ -4,3 +4,5 @@ RewriteEngine On
 	RewriteCond %{HTTP_HOST} ^oolite-linux\.berlios\.de$ [NC]
 	RewriteRule ^(.*)$ http://oolite.org/$1 [R=permanent,L]
 </IfModule>
+
+ErrorDocument 404 /e404.shtml
