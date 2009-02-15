@@ -2,6 +2,8 @@
 
 <title>Download Oolite</title>
 
+<link rel="canonical" href="http://oolite.org/download">
+
 <meta name="keywords" content="download,downloads,oolite,download oolite" />
 <meta name="description" content="Download the space sim Oolite here (for Mac OS X, Windows or Linux)." />
 
@@ -61,7 +63,7 @@
 <p>Test releases add more features and improved performance, but are not as well tested as the full release and have unresolved bugs. Test releases and source code for all platforms are available from <a href="http://developer.berlios.de/project/showfiles.php?group_id=3577">BerliOS</a>. New test releases are announced on the <a href="http://www.aegidian.org/bb/">forum</a>.</p>
 
 <h3>Add-ons</h3>
-<p>There are numerous expansion packs and other add-ons for Oolite. Don’t forget to look at the <a href="links.shtml" title="Oolite Links">Links</a> page!</p>
+<p>There are numerous expansion packs and other add-ons for Oolite. Don’t forget to look at the <a href="links" title="Oolite Links">Links</a> page!</p>
 
 
 <!--#include virtual="shared/end.html" -->

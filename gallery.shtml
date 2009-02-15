@@ -2,6 +2,8 @@
 
 <title>Oolite Gallery</title>
 
+<link rel="canonical" href="http://oolite.org/gallery">
+
 </head>
 <body>
 
@@ -109,7 +111,7 @@
 </div>
 
 
-<p align="center"><a class="major-link" href="gallery-old2.shtml">Older pictures</a></p>
+<p align="center"><a class="major-link" href="gallery-old2">Older pictures</a></p>
 
 
 <!--#include virtual="shared/end.html" -->
