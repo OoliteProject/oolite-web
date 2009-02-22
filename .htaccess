@@ -1,8 +1,10 @@
 <IfModule mod_rewrite.c>
-RewriteEngine On
+	RewriteEngine On
+	RewriteRule ^faq\.html$ http://wiki.alioth.net/index.php/Oolite_FAQ [R=permanent]
+	
 	RewriteCond %{HTTP_HOST} ^www\.oolite\.org$ [NC,OR]
 	RewriteCond %{HTTP_HOST} ^oolite-linux\.berlios\.de$ [NC]
-	RewriteRule ^(.*)$ http://oolite.org/$1 [R=permanent,L]
+	RewriteRule ^(.*)$ http://oolite.org/$1 [R=permanent]
 </IfModule>
 
 ErrorDocument 404 /e404.shtml
