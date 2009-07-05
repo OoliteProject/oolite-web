@@ -3,6 +3,8 @@
 <title>Oolite Gallery</title>
 
 <link rel="canonical" href="http://oolite.org/gallery">
+<link rel="shorturl" href="http://oolite.org/pic">
+<link rev="canonical" href="http://oolite.org/pic">
 
 </head>
 <body>
@@ -111,7 +113,8 @@
 </div>
 
 
-<p align="center"><a class="major-link" href="gallery-old2">Older pictures</a></p>
+<p align="center"><a class="major-link" href="gallery-old2">Older pictures</a><br />
+<a class="major-link" href="http://www.aegidian.org/bb/viewtopic.php?t=4494">Screenshot thread in Oolite forum</a></p>
 
 
 <!--#include virtual="shared/end.html" -->

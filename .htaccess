@@ -1,6 +1,11 @@
 <IfModule mod_rewrite.c>
 	RewriteEngine On
 	RewriteRule ^faq\.html$ http://wiki.alioth.net/index.php/Oolite_FAQ [R=permanent]
+	RewriteRule ^dl$ http://oolite.org/download [R=permanent]
+	RewriteRule ^lk$ http://oolite.org/links [R=permanent]
+	RewriteRule ^pic$ http://oolite.org/gallery [R=permanent]
+	RewriteRule ^pic2$ http://oolite.org/gallery-old1 [R=permanent]
+	RewriteRule ^pic3$ http://oolite.org/gallery-old2 [R=permanent]
 	
 	RewriteCond %{HTTP_HOST} ^www\.oolite\.org$ [NC,OR]
 	RewriteCond %{HTTP_HOST} ^oolite-linux\.berlios\.de$ [NC]
