@@ -15,7 +15,7 @@
 	Attribution-ShareAlike license version 3.0. For more information, see
 	http://creativecommons.org/licenses/by-sa/3.0/
 	
-	Design ©2007-2008 Jens Ayton.
+	Design ©2007-2009 Jens Ayton.
 	Some content ©2005–2007 Giles Williams.
 	Extract from Status Quo ©2006 Drew Wagar. This extract is subject to the
 	Creative Commons Attribution-NonCommercial-ShareAlike license; see
@@ -31,9 +31,17 @@
 
 <p>Oolite is a space sim game, inspired by Elite, powered by Objective-C and OpenGL, and designed as a small game that is easy for users to pick up, modify and expand upon. Almost every aspect of the game can be changed by using simple, free graphics packages and text editors.</p>
 
-<p>Originally written for Mac OS X, and under continuous development for over four years, Oolite is available for Mac&nbsp;OS&nbsp;X (10.3.9 and higher), Windows&nbsp;XP and Vista, and Linux. It requires at least a 400&nbsp;MHz processor, 256&nbsp;MiB of memory, and a graphics card capable of accelerating OpenGL graphics.</p>
+<p>Originally written for Mac OS X, and under continuous development for over five years, Oolite is available for Mac&nbsp;OS&nbsp;X (10.3.9 and higher), Windows&nbsp;XP and Vista, and Linux. It requires at least a 400&nbsp;MHz processor, 256&nbsp;MiB of memory, and a graphics card capable of accelerating OpenGL graphics.</p>
 
 <p>The game and source code are offered for free under the <a href="http://creativecommons.org/licenses/GPL/2.0/" title="Creative Commons Deed: GNU General Public License">GNU General Public License</a>.</p>
+
+<div class="review">
+<p id="macworlduk-review">Oolite (Object Oriented Elite) is as addictive and compelling today as Elite was in 1984. ★★★★ (Editor’s Choice)</p>
+<cite><a href="http://www.macworld.co.uk/macsoftware/reviews/index.cfm?reviewid=2154">Macworld UK</a></cite>
+
+<p id="linuxformat-review">They may seem archaic, but <i>Elite</i> and <i>Oolite</i> are hugely engrossing and enjoyable.</p>
+<cite>Linux Format</cite>
+</div>
 
 
 <!--#include virtual="shared/end.html" -->

@@ -3,7 +3,7 @@
 	Attribution-ShareAlike license version 3.0. For more information, see
 	http://creativecommons.org/licenses/by-sa/3.0/
 	
-	©2007 Jens Ayton
+	©2007–2009 Jens Ayton
 */
 
 
@@ -224,12 +224,34 @@ div.extract cite:before
 }
 
 
+div.review
+{
+	font-size: 				smaller;
+	margin:					2em 4em 0 4em;
+}
+
+div.review p
+{
+	margin:	 				0;
+}
+
+div.review cite:before
+{
+	content:				"\2013\ ";	/* U+2013 "En dash" */
+}
+
+div.review cite
+{
+	display:				block;
+	margin:					0 0 1em 0;
+}
+
+
 /* Gallery page. */
 
 div.gallery
 {
 	display:				table;
-	border-spacing:			0 1em;
 }
 
 div.gallery > div
