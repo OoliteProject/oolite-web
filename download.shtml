@@ -35,8 +35,9 @@
 <h4>Mac&nbsp;OS&nbsp;X</h4>
 <p>Universal Binary for Mac&nbsp;OS&nbsp;X 10.3.9 or later, 21.3 MiB</p>
 <ul>
-	<li>Mirror 1 (<a href="http://www.apple.com/dotmac/">.Mac</a>): <a href="http://homepage.mac.com/aegidian/download/oolite1.65.dmg">Download</a></li>
-	<li>Mirror 2: <a href="http://www.versiontracker.com/dyn/moreinfo/macosx/23929">VersionTracker.com</a>
+	<li>Mirror 1 (<a href="https://developer.berlios.de/projects/oolite-linux/">BerliOS.de</a>): <a href="http://prdownload.berlios.de/oolite-linux/oolite-1.65-mac-full.zip">Download</a></li>
+
+	<li>Mirror 2 (<a href="http://www.apple.com/mobileme/">MobileMe</a>): <a href="http://homepage.mac.com/aegidian/download/oolite1.65.dmg">Download</a></li>
 </ul>
 </div>
 
@@ -45,7 +46,7 @@
 <h4>Windows</h4>
 <p>Installer for Windows&nbsp;XP and Windows&nbsp;Vista, 18.8 MiB</p>
 <ul>
-	<li>Mirror 1 (<a href="http://oolite-pc.berlios.de/">BerliOS.de</a>): <a href="http://prdownload.berlios.de/oolite-pc/OoliteInstall-v1.65.exe">Download</a></li>
+	<li>Mirror 1 (<a href="https://developer.berlios.de/projects/oolite-pc/">BerliOS.de</a>): <a href="http://prdownload.berlios.de/oolite-pc/OoliteInstall-v1.65.exe">Download</a></li>
 </ul>
 </div>
 
@@ -54,7 +55,7 @@
 <h4>Linux</h4>
 <p>Autopackage for GNU/Linux, 20.6 MiB</p>
 <ul>
-	<li>Mirror 1 (<a href="http://oolite-linux.berlios.de/">BerliOS.de</a>): <a href="http://prdownload.berlios.de/oolite-linux/oolite-1.65.x86.package">Download</a></li>
+	<li>Mirror 1 (<a href="https://developer.berlios.de/projects/oolite-linux/">BerliOS.de</a>): <a href="http://prdownload.berlios.de/oolite-linux/oolite-1.65.x86.package">Download</a></li>
 </ul>
 </div>
 
