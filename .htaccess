@@ -6,10 +6,10 @@
 	RewriteRule ^pic$ http://oolite.org/gallery [R=permanent]
 	RewriteRule ^pic2$ http://oolite.org/gallery-old1 [R=permanent]
 	RewriteRule ^pic3$ http://oolite.org/gallery-old2 [R=permanent]
+	RewriteRule ^bb$ http://aegidian.org/bb/ [R=temp]
 	
-	RewriteCond %{HTTP_HOST} ^www\.oolite\.org$ [NC,OR]
 	RewriteCond %{HTTP_HOST} ^oolite-linux\.berlios\.de$ [NC]
-	RewriteRule ^(.*)$ http://oolite.org/$1 [R=permanent]
+	RewriteRule ^(.*)$ http://www.oolite.org/$1 [R=permanent]
 </IfModule>
 
 ErrorDocument 404 /e404.shtml
