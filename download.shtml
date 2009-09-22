@@ -28,16 +28,15 @@
 <!--#include virtual="shared/pageheader1.html" --> Download <!--#include virtual="shared/pageheader2.html" -->
 
 
-<h3>Oolite&nbsp;1.65</h3>
-<p>Version 1.65, released in June 2006, is the latest full release of Oolite. However, the test releases (see below) are faster, prettier, more stable and use less memory, so ignoring the full release and using the test releases instead is recommended. Yes, we realise this sounds silly.</p>
+<h3>Versions</h3>
+<p>Version 1.65, released in June 2006, is the latest full release of Oolite. However, the test releases are faster, prettier, more stable and use less memory, so ignoring the full release and using the test releases instead is recommended. Yes, we realise this sounds silly.</p>
 
 <div id="oolite-dl-mac-os-x">
 <h4>Mac&nbsp;OS&nbsp;X</h4>
-<p>Universal Binary for Mac&nbsp;OS&nbsp;X 10.3.9 or later, 21.3 MiB</p>
 <ul>
-	<li>Mirror 1 (<a href="https://developer.berlios.de/projects/oolite-linux/">BerliOS.de</a>): <a href="http://prdownload.berlios.de/oolite-linux/oolite-1.65-mac-full.zip">Download</a></li>
-
-	<li>Mirror 2 (<a href="http://www.apple.com/mobileme/">MobileMe</a>): <a href="http://homepage.mac.com/aegidian/download/oolite1.65.dmg">Download</a></li>
+	<li> <a href="/no-such-file-yet">Oolite Test Release 1.73.4</a> for Mac OS X 10.3.9 or later (? MiB)</li>
+	<li> <a href="/no-such-file-yet">Oolite Test Release 1.73.4 updater</a> for Oolite 1.65 or later (? MiB)</li>
+	<li> <a href="http://prdownload.berlios.de/oolite-linux/oolite-1.65-mac-full.zip">Oolite 1.65</a> for Mac&nbsp;OS&nbsp;X 10.3.9 or later (20 MiB)</li>
 </ul>
 </div>
 
@@ -46,7 +45,9 @@
 <h4>Windows</h4>
 <p>Installer for Windows&nbsp;XP and Windows&nbsp;Vista PCs, 18.8 MiB</p>
 <ul>
-	<li>Mirror 1 (<a href="https://developer.berlios.de/projects/oolite-linux/">BerliOS.de</a>): <a href="http://prdownload.berlios.de/oolite-linux/oolite-1.65-windows-full.exe">Download</a></li>
+	<li> <a href="/no-such-file-yet">Oolite Test Release 1.73.4</a> for Windows XP service pack 3 or later (? MiB)</li>
+	<li> <a href="/no-such-file-yet">Oolite Test Release 1.73.4 updater</a> for Oolite 1.73.3 only (? MiB)</li>
+	<li> <a href="https://developer.berlios.de/projects/oolite-linux/">Oolite 1.65</a>) for Windows XP service pack 3 or later (19 MiB)</li>
 </ul>
 </div>
 
@@ -55,13 +56,15 @@
 <h4>Linux</h4>
 <p>Autopackage for GNU/Linux, 20.6 MiB</p>
 <ul>
-	<li>Mirror 1 (<a href="https://developer.berlios.de/projects/oolite-linux/">BerliOS.de</a>): <a href="http://prdownload.berlios.de/oolite-linux/oolite-1.65.x86.package">Download</a></li>
+	<li> <a href="/no-such-file-yet">Oolite Test Release 1.73.4</a> for x86 Linux systems (? MiB, uses <a href="http://autopackage.org/">Autopackage</a>)
+	<li> <a href="http://debs.oolite.org/">Oolite Test Release 1.73.4 packages</a> for Ubuntu 8.04 and 9.04
+	<li> <a href="http://prdownload.berlios.de/oolite-linux/oolite-1.65.x86.package">Oolite 1.65</a> for x86 Linux systems (21 MiB, uses <a href="http://autopackage.org/">Autopackage</a>)
 </ul>
 </div>
 
 
-<h3>Test releases and source code</h3>
-<p>Test releases add more features and improved performance, but are not as well tested as the full release and have unresolved bugs. Test releases and source code for all platforms are available from <a href="http://developer.berlios.de/project/showfiles.php?group_id=3577">BerliOS</a>. New test releases are announced on the <a href="http://www.aegidian.org/bb/">forum</a>.</p>
+<h3>Source Code and Updates</h3>
+<p>Source code for all platforms is available from <a href="http://developer.berlios.de/project/showfiles.php?group_id=3577">BerliOS</a>. New test releases are announced on the <a href="http://www.aegidian.org/bb/">forum</a>.</p>
 
 <h3>Add-ons</h3>
 <p>There are numerous expansion packs and other add-ons for Oolite. Don’t forget to look at the <a href="links" title="Oolite Links">Links</a> page!</p>
