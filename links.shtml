@@ -51,5 +51,10 @@ ul.linklist>li
 <li> <a href="http://developer.berlios.de/bugs/?group_id=3577">Bug Tracker</a> – please report bugs here.</li>
 </ul>
 
+<h3>Contact</h3>
+<ul class="linklist">
+<li> Project lead: Jens Ayton <a href="mailto:Jens%20Ayton%20&lt;ahruman@oolite.org&gt;">ahruman@oolite.org</li>
+</ul>
+
 
 <!--#include virtual="shared/end.html" -->
