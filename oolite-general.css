@@ -95,7 +95,6 @@ div#title-block
 /*	General links. */
 a:link
 {
-	-webkit-transition:		all 200ms linear;
 	color:					#dde;
 }
 
@@ -154,7 +153,6 @@ div#main-navigation a
 	margin-right:			1em;
 	text-decoration:		none;
 	color:					yellow;
-	-webkit-transition:		all 200ms linear;
 }
 
 

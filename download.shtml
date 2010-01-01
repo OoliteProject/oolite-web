@@ -34,8 +34,8 @@
 <div id="oolite-dl-mac-os-x">
 <h4>Mac&nbsp;OS&nbsp;X</h4>
 <ul>
-	<li> <a href="/no-such-file-yet">Oolite Test Release 1.73.4</a> for Mac OS X 10.3.9 or later (? MiB)</li>
-	<li> <a href="/no-such-file-yet">Oolite Test Release 1.73.4 updater</a> for Oolite 1.65 or later (? MiB)</li>
+	<li> <a href="http://prdownload.berlios.de/oolite-linux/oolite-1.73.4-test-mac-full.zip">Oolite Test Release 1.73.4</a> for Mac OS X 10.3.9 or later (19 MiB)</li>
+	<li> <a href="http://prdownload.berlios.de/oolite-linux/oolite-1.73.4-test-mac-update.zip">Oolite Test Release 1.73.4 updater</a> for Oolite 1.65 or later (3 MiB)</li>
 	<li> <a href="http://prdownload.berlios.de/oolite-linux/oolite-1.65-mac-full.zip">Oolite 1.65</a> for Mac&nbsp;OS&nbsp;X 10.3.9 or later (20 MiB)</li>
 </ul>
 </div>
@@ -43,22 +43,22 @@
 
 <div id="oolite-dl-windows">
 <h4>Windows</h4>
-<p>Installer for Windows&nbsp;XP and Windows&nbsp;Vista PCs, 18.8 MiB</p>
 <ul>
-	<li> <a href="/no-such-file-yet">Oolite Test Release 1.73.4</a> for Windows XP service pack 3 or later (? MiB)</li>
-	<li> <a href="/no-such-file-yet">Oolite Test Release 1.73.4 updater</a> for Oolite 1.73.3 only (? MiB)</li>
-	<li> <a href="https://developer.berlios.de/projects/oolite-linux/">Oolite 1.65</a>) for Windows XP service pack 3 or later (19 MiB)</li>
+	<li> <a href="http://prdownload.berlios.de/oolite-linux/Oolite-1.73.4-test.exe">Oolite Test Release 1.73.4</a> for Windows XP service pack 3 or later (21 MiB)</li>
+	<li> <a href="http://prdownload.berlios.de/oolite-linux/Oolite-1.73.3-to-1.73.4-update.zip">Oolite Test Release 1.73.4 updater</a> for Oolite 1.73.3 only (794 KiB)</li>
+	<li> <a href="http://prdownload.berlios.de/oolite-linux/oolite-1.65-windows-full.exe">Oolite 1.65</a>) for Windows XP service pack 3 or later (19 MiB)</li>
 </ul>
 </div>
 
 
 <div id="oolite-dl-linux">
 <h4>Linux</h4>
-<p>Autopackage for GNU/Linux, 20.6 MiB</p>
 <ul>
-	<li> <a href="/no-such-file-yet">Oolite Test Release 1.73.4</a> for x86 Linux systems (? MiB, uses <a href="http://autopackage.org/">Autopackage</a>)
-	<li> <a href="http://debs.oolite.org/">Oolite Test Release 1.73.4 packages</a> for Ubuntu 8.04 and 9.04
-	<li> <a href="http://prdownload.berlios.de/oolite-linux/oolite-1.65.x86.package">Oolite 1.65</a> for x86 Linux systems (21 MiB, uses <a href="http://autopackage.org/">Autopackage</a>)
+	<li> <a href="http://prdownload.berlios.de/oolite-linux/oolite-1.73.4-test.x86.package">Oolite Test Release 1.73.4</a> for x86 Linux systems (23 MiB, uses <a href="http://autopackage.org/">Autopackage</a>)</li>
+	<li> <a href="http://prdownload.berlios.de/oolite-linux/oolite-1.65.x86.package">Oolite 1.65</a> for x86 Linux systems (21 MiB, uses <a href="http://autopackage.org/">Autopackage</a>)</li>
+</ul>
+<ul>
+	<li> <a href="http://debs.oolite.org/">Oolite Test Release 1.73.4 packages</a> for Ubuntu 8.04 and 9.04</li>
 </ul>
 </div>
 
