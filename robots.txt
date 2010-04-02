@@ -1,3 +1,3 @@
 User-agent: *
 Disallow: /old/
-Disallow: /images/gallery/old/images/
+Disallow: /new/

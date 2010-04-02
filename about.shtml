@@ -1,0 +1,85 @@
+<!--#include virtual="shared/top.html" -->
+<title>About Oolite</title>
+
+<link rel="canonical" href="http://www.oolite.org/about">
+<link rel="shorturl" href="http://oolite.org/ab">
+<link rev="canonical" href="http://oolite.org/ab">
+ 
+</head>
+<body>
+
+<!-- 
+	The contents of this file are subject to the terms of the Creative Commons
+	Attribution-ShareAlike license version 3.0. For more information, see
+	http://creativecommons.org/licenses/by-sa/3.0/
+	
+	Design ©2007-2010 Jens Ayton and Eugene Chernyakov.
+	Some content ©2005–2007 Giles Williams.
+	Extract from Status Quo ©2006 Drew Wagar. This extract is subject to the
+	Creative Commons Attribution-NonCommercial-ShareAlike license; see
+	http://creativecommons.org/licenses/by-nc-sa/2.0/
+-->
+
+
+<script type="text/javascript">
+$(function() {
+menu('about')
+})
+</script>
+<!--#include virtual="shared/pageheader.html" -->
+
+
+<div style="position:absolute; top:300px; left:0;  width:100%">
+<div style=" padding-left:10%; padding-right:5%; margin-top:20px">
+<div style="width:100%">
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr valign="top">
+    <td width="65%"><div class="txt" style="line-height:1.8em; width:90%">
+<span style="font-size:1.6em;">Oolite</span> is a space sim game, inspired by Elite, powered by Objective-C and OpenGL, and designed as a small game that is easy for users to pick up, modify and expand upon. Almost every aspect of the game can be changed by using simple, free graphics packages and text editors.<br>
+<br>
+
+
+Originally written for Mac OS X, and under continuous development for over five years, Oolite is available for Mac&nbsp;OS&nbsp;X (10.3.9 and higher) and PCs running Windows XP, Windows Vista or Linux. It requires at least a 400&nbsp;MHz processor, 256&nbsp;MiB of memory, and a graphics card capable of accelerating OpenGL graphics.
+
+The game and source code are offered for free under the <a href="http://www.gnu.org/licenses/gpl-2.0.html">GNU General Public License</a>.
+<br>
+<br>
+</div></td>
+    <td width="7%">&nbsp;</td>
+    <td><div class="txt" style="font-style:italic; margin-top:10px; font-size:0.75em; color:#999">
+Oolite (Object Oriented Elite) is as addictive and compelling today as Elite was in 1984. ★★★★ (Editor’s Choice)<br>
+&mdash; <a href="#">Macworld UK</a></div>
+<div style="width:90%; margin-left:5%; height:1em; border-bottom:#222 1px dotted">&nbsp;</div><br>
+<br>
+
+
+
+<div class="txt" style="font-style:italic; font-size:0.75em; color:#999">
+They may seem archaic, but Elite and Oolite are hugely engrossing and enjoyable.<br>
+&mdash; Linux Format</div>
+<div style="width:90%; margin-left:5%; height:1em; border-bottom:#222 1px dotted">&nbsp;</div><br>
+<br>
+
+
+<div class="txt" style="font-style:italic; font-size:0.75em; color:#999">Oolite takes the exact same, brilliantly compulsive gameplay [as Elite] and makes it slicker, faster and better looking - for free. If the core package isn't thrilling enough, there are expansion packs available, too.<br>
+&mdash; <a href="#">TechRadar.com, The 10 best free PC games you should play today</a></div>
+<div style="width:90%; margin-left:5%; height:1em; border-bottom:#222 1px dotted">&nbsp;</div>
+
+</td>
+<td width="4%">&nbsp;</td>
+  </tr>
+</table> 
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+<!--#include virtual="shared/end.html" -->
+
