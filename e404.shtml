@@ -1,30 +1,35 @@
 <!--#include virtual="shared/top.html" -->
-
-<meta name="robots" content="noindex" />
-
 <title>Oolite: page not found</title>
-
+ 
 </head>
 <body>
-
 
 <!-- 
 	The contents of this file are subject to the terms of the Creative Commons
 	Attribution-ShareAlike license version 3.0. For more information, see
 	http://creativecommons.org/licenses/by-sa/3.0/
 	
-	Design ©2007-2008 Jens Ayton.
-	Some content ©2005–2007 Giles Williams.
-	Extract from Status Quo ©2006 Drew Wagar. This extract is subject to the
-	Creative Commons Attribution-NonCommercial-ShareAlike license; see
-	http://creativecommons.org/licenses/by-nc-sa/2.0/
+	Design ©2007-2010 Jens Ayton and Eugene Chernyakov.
 -->
 
 
-<!--#include virtual="shared/pageheader1.html" --> 404 – page not found <!--#include virtual="shared/pageheader2.html" -->
+<script type="text/javascript">
+$(function() {
+menu('index')
+})
+</script>
+<!--#include virtual="shared/pageheader2.html" -->
 
+
+
+
+<div style=" position:absolute; top:300px; left:0; width:100%">
+<div style=" padding-left:3%; padding-right:5%">
+<div style="width:100%">
 
 <p>The page you requested could not be found. Perhaps it was attacked by a thargoid?</p>
+
+<p><br /></p>
 
 
 <style type="text/css">
@@ -42,5 +47,12 @@
 <script type="text/javascript" 
     src="http://linkhelp.clients.google.com/tbproxy/lh/wm/fixurl.js"></script>
 
+</div>
+
+</div>
+
+
+
 
 <!--#include virtual="shared/end.html" -->
+
