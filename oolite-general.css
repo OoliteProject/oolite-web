@@ -47,8 +47,8 @@ h1{
 
 h2{
 clear:both;
-color:#ffffff; 
-cursor:pointer; 
+color:#ffffff;
+cursor:pointer;
 font-size:1.5em;
 font-weight:normal;
 display:inline;
@@ -120,4 +120,20 @@ cursor:pointer;
 .galseparator {
 	clear:both;
 	margin-top:2em
+}
+
+
+.gallery a, .gallery a:active, .video a, .video a:active  {
+   color:#24de34;
+   text-decoration:underline;
+}
+
+.gallery a:visited, .video a:visited  {
+   text-decoration:underline;
+   color:#a79fc7;
+}
+
+.gallery a:hover, .video a:hover  {
+   text-decoration:underline;
+   color:#fff;
 }
