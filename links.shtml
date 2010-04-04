@@ -32,30 +32,33 @@ menu('links')
 <div style=" position:absolute; z-index:10; top:300px; left:0; width:100%">
 <div style=" padding-left:15%; padding-right:5%">
 
-<h1>Community</h1>
+<h1 id="community">Community</h1>
 <div class="txt" style="width:70%; margin-top:20px">
-<a href="http://www.cafepress.com/oolite">The Oolite Interplanetary Gift Shop</a>, official Oolite merchandise.<br>
-<a href="http://aegidian.org/bb/">Oolite Bulletin Board</a>, Oolite’s official web forum.<br>
-<a href="irc://irc.oftc.net/oolite">Oolite IRC channel</a> (#oolite on irc.oftc.net)<br>
-<a href="http://wiki.alioth.net/index.php/Oolite_Main_Page">Elite Wiki</a>, a user-edited guide to the world of Oolite and Elite.<br>
-<a href="http://wiki.alioth.net/index.php/Oolite_FAQ">Oolite Frequently Asked Questions</a> at Elite Wiki.<br>
-<a href="http://wiki.alioth.net/index.php/OXP">Expansion Pack list</a> at Elite Wiki.<br>
+<a href="http://www.cafepress.com/oolite">The Oolite Interplanetary Gift Shop</a>, official Oolite merchandise.<br />
+<a href="http://aegidian.org/bb/">Oolite Bulletin Board</a>, Oolite’s official web forum.<br />
+<a href="irc://irc.oftc.net/oolite">Oolite IRC channel</a> (#oolite on irc.oftc.net)<br />
+<a href="http://wiki.alioth.net/index.php/Oolite_Main_Page">Elite Wiki</a>, a user-edited guide to the world of Oolite and Elite.<br />
+<a href="http://wiki.alioth.net/index.php/Oolite_FAQ">Oolite Frequently Asked Questions</a> at Elite Wiki.<br />
+<a href="http://wiki.alioth.net/index.php/OXP">Expansion Pack list</a> at Elite Wiki.<br />
 <a href="http://twitter.com/Oolite">Twitter feed</a> with announcements and develoment information.
 </div>
 
 
-
-
-
-<h1 style="margin-top:50px">Development</h1>
+<h1 id="fiction" style="margin-top:50px">Fiction</h1>
 <div class="txt" style="width:70%; margin-top:20px">
-<a href="http://developer.berlios.de/projects/oolite-linux/">Project Page</a> &mdash; the centre of Oolite development. Source code, test releases and bug tracking can be found here.<br>
+<a href="http://wiki.alioth.net/index.php/Category:Oolite_stories">Oolite stories</a> on Elite Wiki.<br />
+<a href="http://aegidian.org/bb/viewforum.php?f=11">Fiction section</a> of Oolite forum.
+</div>
+
+
+<h1 id="development" style="margin-top:50px">Development</h1>
+<div class="txt" style="width:70%; margin-top:20px">
+<a href="http://developer.berlios.de/projects/oolite-linux/">Project Page</a> &mdash; the centre of Oolite development. Source code, test releases and bug tracking can be found here.<br />
 <a href="http://developer.berlios.de/bugs/?group_id=3577">Bug Tracker</a> &mdash; please report bugs here.
 </div>
 
 
-
-<h1 style="margin-top:50px">Contact</h1>
+<h1 id="contact" style="margin-top:50px">Contact</h1>
 <div class="txt" style="width:70%; margin-top:20px">
 Project lead: Jens Ayton <a href="mailto:ahruman@oolite.org">ahruman@oolite.org</a>
 </div>
