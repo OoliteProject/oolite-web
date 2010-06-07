@@ -44,47 +44,50 @@ menu('download')
 <div style="padding-left:11%; padding-right:10%">
 <div style="width:100%; margin-top:50px">
 <table width="100%" border="0" cellspacing="0" cellpadding="0">
-  <tr valign="top">
-    <td width="33%">
-    <div style="border:1px solid #333; width:80%; background-color:#111; padding:10px">
-   <h1><span style="font-weight:bold; color:#777">&darr;</span> Mac OS X</h1>
+<tr valign="top">
+
+<td width="33%">
+<div style="border:1px solid #333; width:80%; background-color:#111; padding:10px">
+<h1><span style="font-weight:bold; color:#777">&darr;</span> Mac OS X</h1>
 <div class="txt" style=" margin-top:20px; width:100%">
-<ul  style="padding-left:20px">
+<ul style="padding-left:20px">
 <li><a href="http://prdownload.berlios.de/oolite-linux/oolite-1.73.4-test-mac-full.zip">Oolite Test Release 1.73.4</a><br>
 for Mac&nbsp;OS&nbsp;X&nbsp;10.3.9 or later (19&nbsp;MiB)</li>
 <li><a href="http://prdownload.berlios.de/oolite-linux/oolite-1.73.4-test-mac-update.zip">Oolite Test Release 1.73.4 updater</a><br>
 for Oolite 1.65 or later (3&nbsp;MiB)</li>
 <li><a href="http://prdownload.berlios.de/oolite-linux/oolite-1.65-mac-full.zip">Oolite 1.65</a><br>
 for Mac OS X 10.3.9 or later (20&nbsp;MiB)</li>
-</ul>
-</div>
-</div>
+</ul></div></div>
 </td>
-    <td width="33%">
-    <div style="border:1px solid #333; width:80%; background-color:#111; padding:10px">
-   <h1><span style="font-weight:bold; color:#777">&darr;</span> Windows</h1>
-<div class="txt" style="margin-top:20px;width:100%">
 
-<ul  style="padding-left:20px">
+<td width="33%">
+<div style="border:1px solid #333; width:80%; background-color:#111; padding:10px">
+<h1><span style="font-weight:bold; color:#777">&darr;</span> Windows</h1>
+<div class="txt" style="margin-top:20px;width:100%">
+<ul style="padding-left:20px">
 <li><a href="http://prdownload.berlios.de/oolite-linux/Oolite-1.73.4-test.exe">Oolite Test Release 1.73.4</a><br>
 for Windows XP service pack 3 or later (21&nbsp;MiB)</li>
 <li><a href="http://prdownload.berlios.de/oolite-linux/Oolite-1.73.3-to-1.73.4-update.zip">Oolite Test Release 1.73.4 updater</a><br>
 for Oolite 1.73.3 only (794&nbsp;KiB)</li>
 <li><a href="http://prdownload.berlios.de/oolite-linux/oolite-1.65-windows-full.exe">Oolite 1.65</a><br>
-  for Windows XP service pack 3 or later (19&nbsp;MiB)</li></ul></div>
-</div>
+for Windows XP service pack 3 or later (19&nbsp;MiB)</li>
+</ul></div></div>
 </td>
-    <td> <div style="border:1px solid #333; width:80%; background-color:#111; padding:10px"> <h1><span style="font-weight:bold; color:#777">&darr;</span> Linux</h1>
+
+<td>
+<div style="border:1px solid #333; width:80%; background-color:#111; padding:10px">
+<h1><span style="font-weight:bold; color:#777">&darr;</span> Linux</h1>
 <div class="txt" style="margin-top:20px;">
-<ul  style="padding-left:20px">
+<ul style="padding-left:20px">
 <li><a href="http://prdownload.berlios.de/oolite-linux/oolite-1.73.4-test.x86.package">Oolite Test Release 1.73.4</a><br>
-for x86 Linux systems (23&nbsp;MiB, uses Autopackage)</li>
+for all x86 Linux systems (23&nbsp;MiB, uses Autopackage)</li>
 <li><a href="http://prdownload.berlios.de/oolite-linux/oolite-1.65.x86.package">Oolite&nbsp;1.65</a><br>
-for x86 Linux systems (21&nbsp;MiB, uses Autopackage)</li>
-<li><a href="http://debs.oolite.org/">Oolite Test Release 1.73.4 packages</a><br>
-for Ubuntu 8.04 and 9.04</li>
-</ul>
-</div></div></td>
+for all x86 Linux systems (21&nbsp;MiB, uses Autopackage)</li>
+<li><a href="http://debs.oolite.org/">Oolite Test Release 1.73.4 .deb packages</a><br>
+specific to Ubuntu 8.04 and 9.04</li>
+</ul></div></div>
+</td>
+
 </tr>
 </table>
 </div>
