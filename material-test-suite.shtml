@@ -38,7 +38,7 @@ menu('index')
 <p style="margin-bottom:1em">The Material Test Suite for Oolite 1.74 is an expansion pack which tests Oolite’s material model and built-in shaders. We request that as many people as possible try out the test suite, on as many machines as they can – within reason – and on multiple operating systems if practical.</p>
 
 <p style="margin-bottom:1em">To run the test suite:</p><ul style="margin-bottom:1em">
-<li> <a href="http://jens.ayton.se/oolite/files/material-test-suite-oxp.zip">Download the test sute</a> and install it. (For information on installing expansion packs, see <a href="http://wiki.alioth.net/index.php/OXP#Installing_an_OXP">the OXP article on Elite Wiki</a>.)</li>
+<li> <a href="http://jens.ayton.se/oolite/files/material-test-suite-oxp.zip">Download the test suite</a> and install it. (For information on installing expansion packs, see <a href="http://wiki.alioth.net/index.php/OXP#Installing_an_OXP">the OXP article on Elite Wiki</a>.)</li>
 <li> Run Oolite 1.74, and decline when asked whether you want to start a new game. (If you are using Strict Mode, disable it and restart Oolite.)</li>
 <li> You should now be presented with an information screen and the options “Run test suite” and “Cancel”. Select “Run test suite”.</li>
 <li> You will now be shown a series of spinning cubes. The precise number shown depends on your system’s capabilities. A successfull test shows a grey box with a number on it. (The details vary; for instance, for test #13 the number is only visible as a shiny reflection at certain angles.) A failed test will show something else, typically a solid black box.</li>
