@@ -80,11 +80,13 @@ for Windows XP service pack 3 or later (19&nbsp;MiB)</li>
 <div class="txt" style="margin-top:20px;">
 <ul style="padding-left:20px">
 <li><a href="http://prdownload.berlios.de/oolite-linux/oolite-1.74-test.x86.tgz">Oolite Test Release 1.74</a><br>
-for all x86 Linux systems (22&nbsp;MiB, uses Autopackage)</li>
+for 32-bit x86 Linux systems (22&nbsp;MiB, uses Autopackage)</li>
+<li><a href="http://prdownload.berlios.de/oolite-linux/oolite-1.74-test.x86_64.tgz">Oolite Test Release 1.74</a><br>
+for 64-bit x86 Linux systems (22&nbsp;MiB, uses Autopackage)</li>
 <li><a href="http://prdownload.berlios.de/oolite-linux/oolite-1.65.x86.package">Oolite&nbsp;1.65</a><br>
 for all x86 Linux systems (21&nbsp;MiB, uses Autopackage)</li>
-<li><a href="http://debs.oolite.org/">Oolite Test Release 1.73.4 .deb packages</a> (1.74 delayed)<br>
-specific to Ubuntu 8.04 and 9.04</li>
+<li><a href="http://debs.oolite.org/">Oolite Test Release 1.74 .deb packages</a><br>
+specific to Debian 5.04 and Ubuntu 8.04, 9.04 and 9.10.</li>
 </ul></div></div>
 </td>
 
