@@ -51,9 +51,9 @@ menu('download')
 <h1><span style="font-weight:bold; color:#777">&darr;</span> Mac OS X</h1>
 <div class="txt" style=" margin-top:20px; width:100%">
 <ul style="padding-left:20px">
-<li><a href="http://prdownload.berlios.de/oolite-linux/oolite-1.74.1-test-mac-full.zip">Oolite Test Release 1.74.1</a><br>
+<li><a href="http://prdownload.berlios.de/oolite-linux/oolite-1.74.2-test-mac-full.zip">Oolite Test Release 1.74.2</a><br>
 for Mac&nbsp;OS&nbsp;X&nbsp;10.4 or later (22&nbsp;MiB)</li>
-<li><a href="http://prdownload.berlios.de/oolite-linux/oolite-1.74.1-test-mac-update.zip">Oolite Test Release 1.74.1 updater</a><br>
+<li><a href="http://prdownload.berlios.de/oolite-linux/oolite-1.74.2-test-mac-update.zip">Oolite Test Release 1.74.2 updater</a><br>
 for Oolite 1.65 or test relase 1.73 or later (6.2&nbsp;MiB)</li>
 <li><a href="http://prdownload.berlios.de/oolite-linux/oolite-1.65-mac-full.zip">Oolite 1.65</a><br>
 for Mac OS X 10.3.9 or later (20&nbsp;MiB)</li>
@@ -65,9 +65,9 @@ for Mac OS X 10.3.9 or later (20&nbsp;MiB)</li>
 <h1><span style="font-weight:bold; color:#777">&darr;</span> Windows</h1>
 <div class="txt" style="margin-top:20px;width:100%">
 <ul style="padding-left:20px">
-<li><a href="http://prdownload.berlios.de/oolite-linux/Oolite-1.74.1-test.exe">Oolite Test Release 1.74.1</a><br>
+<li><a href="http://prdownload.berlios.de/oolite-linux/Oolite-1.74.2-test.exe">Oolite Test Release 1.74.2</a><br>
 for Windows XP service pack 3 or later (22&nbsp;MiB)</li>
-<li><a href="http://prdownload.berlios.de/oolite-linux/Oolite-1.74-to-1.74.1-update.zip">Oolite Test Release 1.74.1 updater</a><br>
+<li><a href="http://prdownload.berlios.de/oolite-linux/Oolite-1.74.1-to-1.74.2-update.zip">Oolite Test Release 1.74.2 updater</a><br>
 for Oolite 1.74 only (1.0&nbsp;MiB)</li>
 <li><a href="http://prdownload.berlios.de/oolite-linux/oolite-1.65-windows-full.exe">Oolite 1.65</a><br>
 for Windows XP service pack 3 or later (19&nbsp;MiB)</li>
@@ -79,9 +79,9 @@ for Windows XP service pack 3 or later (19&nbsp;MiB)</li>
 <h1><span style="font-weight:bold; color:#777">&darr;</span> Linux</h1>
 <div class="txt" style="margin-top:20px;">
 <ul style="padding-left:20px">
-<li><a href="http://prdownload.berlios.de/oolite-linux/oolite-1.74.1-test.x86.tgz">Oolite Test Release 1.74.1</a><br>
+<li><a href="http://prdownload.berlios.de/oolite-linux/oolite-1.74.2-test.x86.tgz">Oolite Test Release 1.74.2</a><br>
 for 32-bit x86 Linux systems (22&nbsp;MiB, uses Autopackage)</li>
-<li><a href="http://prdownload.berlios.de/oolite-linux/oolite-1.74.1-test.x86_64.tgz">Oolite Test Release 1.74.1</a><br>
+<li><a href="http://prdownload.berlios.de/oolite-linux/oolite-1.74.2-test.x86_64.tgz">Oolite Test Release 1.74.2</a><br>
 for 64-bit x86 Linux systems (22&nbsp;MiB, uses Autopackage)</li>
 <li><a href="http://prdownload.berlios.de/oolite-linux/oolite-1.65.x86.package">Oolite&nbsp;1.65</a><br>
 for all x86 Linux systems (21&nbsp;MiB, uses Autopackage)</li>
