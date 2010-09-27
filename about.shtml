@@ -46,28 +46,32 @@ The game and source code are offered for free under the <a href="http://www.gnu.
 <br>
 </div></td>
     <td width="7%">&nbsp;</td>
-    <td><div class="txt" style="font-style:italic; margin-top:10px; font-size:0.75em; color:#999">
-Oolite (Object Oriented Elite) is as addictive and compelling today as Elite was in 1984. ★★★★ (Editor’s Choice)<br>
-&mdash; <a href="http://www.macworld.co.uk/macsoftware/reviews/index.cfm?reviewid=2154">Macworld UK</a></div>
-<div style="width:90%; margin-left:5%; height:1em; border-bottom:#222 1px dotted">&nbsp;</div><br>
-<br>
-
-
-
-<div class="txt" style="font-style:italic; font-size:0.75em; color:#999">
-They may seem archaic, but Elite and Oolite are hugely engrossing and enjoyable.<br>
-&mdash; Linux Format</div>
-<div style="width:90%; margin-left:5%; height:1em; border-bottom:#222 1px dotted">&nbsp;</div><br>
-<br>
-
-
-<div class="txt" style="font-style:italic; font-size:0.75em; color:#999">Oolite takes the exact same, brilliantly compulsive gameplay [as Elite] and makes it slicker, faster and better looking - for free. If the core package isn't thrilling enough, there are expansion packs available, too.<br>
-&mdash; <a href="http://www.techradar.com/news/gaming/10-best-free-pc-games-you-should-play-today-619129?artc_pg=2">TechRadar.com, The 10 best free PC games you should play today</a></div>
-<div style="width:90%; margin-left:5%; height:1em; border-bottom:#222 1px dotted">&nbsp;</div>
-
-</td>
+    <td>
+	
+	<div id="review-macworld-uk" class="review" style="margin-top:10px;">
+	Oolite (Object Oriented Elite) is as addictive and compelling today as Elite was in 1984.<br>★★★★ (Editor’s Choice)<br>
+	&mdash; <a href="http://www.macworld.co.uk/macsoftware/reviews/index.cfm?reviewid=2154">Macworld UK</a></div>
+	<div class="review-divider">&nbsp;</div><br>
+	<br>
+	
+	<div id="review-linux-format" class="review">
+	They may seem archaic, but Elite and Oolite are hugely engrossing and enjoyable.<br>
+	&mdash; Linux Format</div>
+	<div class="review-divider">&nbsp;</div><br>
+	<br>
+	
+	<div id="review-techradar" class="review">Oolite takes the exact same, brilliantly compulsive gameplay [as Elite] and makes it slicker, faster and better looking - for free. If the core package isn't thrilling enough, there are expansion packs available, too.<br>
+	&mdash; <a href="http://www.techradar.com/news/gaming/10-best-free-pc-games-you-should-play-today-619129?artc_pg=2">TechRadar.com, The 10 best free PC games you should play today</a></div>
+	<div class="review-divider">&nbsp;</div><br>
+	<br>
+	
+	<div id="review-nag-online" class="review">
+	A true classic reincarnated and reimagined; a must-play for space-sim fans.<br>(Rating: 85)<br>
+	&mdash; <a href="http://www.nag.co.za/2010/09/review-oolite/">NAG Online</a></div>
+	
+	</td>
 <td width="4%">&nbsp;</td>
-  </tr>
+</tr>
 </table> 
 </div>
 </div>
