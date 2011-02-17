@@ -15,3 +15,5 @@
 </IfModule>
 
 ErrorDocument 404 /e404.shtml
+
+Header always append X-Frame-Options DENY
