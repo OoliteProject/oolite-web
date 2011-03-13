@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle">
+	<channel>
+		<docs>http://www.rssboard.org/rss-specification</docs>
+		
+		<title>Oolite test release updates</title>
+		<description>Most recent test releases of Oolite.</description>
+		<link>http://www.oolite.org/</link>
+		<language>en</language>
+		<webMaster>ahruman@oolite.org</webMaster>
+		
+		<item>
+			<title>Version 1.75.1</title>
+			<guid isPermaLink="false">org.aegidian.oolite updatefeed-testrelease 1.75.1</guid>
+			<pubDate>Sun, 13 Mar 2011 01:30:00 +0200</pubDate>
+			
+			<description><![CDATA[
+<h3>Changes between Oolite 1.75 and Oolite 1.75.1:</h3>
+<ul>
+<li> Joystick deadzone restored to previous value (does not affect Mac OS X). (Bug <a href="https://developer.berlios.de/bugs/?func=detailbug&group_id=3577&17945>#17945</a>)</li>
+<li> (Mac OS X) Support for game pads that don’t pretend to be joysticks.</li>
+<li> (Windows) Uninstaller is now more discriminating about which files it deletes.</li>
+<li> The fast docking button now defaults to the main station if within the aegis, even if it’s outside scanner range, as intended. (Bug <a href="https://developer.berlios.de/bugs/?func=detailbug&group_id=3577&bug_id=17923">#17923</a>)</li>
+<li> Ship mass calculations, and thus mass lock behaviour, have been restored (except for very small ships). (Bug <a href="https://developer.berlios.de/bugs/?func=detailbug&group_id=3577&bug_id=17940">#17940</a>)</li>
+<li> Thargoids no longer randomly shoot in entirely the wrong direction.</li>
+<li> Fixed “jousting” behaviour where attacking ships would veer off after one hit.</li>
+<li> Various fixes for wormhole behaviour in interstellar space, post-nova systems and with ships with escorts.</li>
+<li> Interim fix for mass-dependent fuel prices not working. (Bug <a href="https://developer.berlios.de/bugs/?func=detailbug&group_id=3577&bug_id=17947">#17947</a>).</li>
+<li> Various bug fixes and cosmetic tweaks, including but not limited to bugs <a href="https://developer.berlios.de/bugs/?func=detailbug&group_id=3577&bug_id=17944">#17944</a>, <a href="https://developer.berlios.de/bugs/?func=detailbug&group_id=3577&bug_id=17968">#17968</a>, <a href="https://developer.berlios.de/bugs/?func=detailbug&group_id=3577&bug_id=17975">#17975</a>, <a href="https://developer.berlios.de/bugs/?func=detailbug&group_id=3577&bug_id=17992">#17992</a>, <a href="https://developer.berlios.de/bugs/?func=detailbug&group_id=3577&bug_id=17993">#17993</a> and <a href="https://developer.berlios.de/bugs/?func=detailbug&group_id=3577&bug_id=17995">#17995</a>.</li>
+</ul>
+
+<h4>JavaScript:</h4>
+<ul>
+<li> JavaScript <code>Ship equipmentStatus()</code> now works for primary and secondary weapons.</li>
+<li> Calling <code>spawn()</code> on a subentity previously put the spawnees near the witchpoint. It now works like calling <code>spawn()</code> on the parent ship, which is suboptimal but less confusing. Relying on the current begaviour is not recommended as it may be improved in future.</li>
+<li> JavaScript <code>system.addShipsToRoute()</code> now adds ships within scanner range of the route, and ships added with <code>system.addGroupToRoute()</code> are clustered.</li>
+<li> JavaScript <code>SystemInfo systemsInRange()</code> once again works as an instance method (which is now the recommended usage).</li>
+<li> New ship event <code>entityDestroyed()</code>. This fires immediately <em>after</em> the ship becomes invalid, regardless of the reason, except when the game restarts.</li>
+<li> New SystemInfo property internalCoordinates and new PlayerShip properties <code>cursorCoordinatesInLY</code>, <code>galacticHyperspaceFixedCoordsInLY</code> and <code>galaxyCoordinatesInLY</code>. This resolves the problem that different coordinate systems were being used for galactic coordinates in different contexts.</li>
+<li> Mission screens can now be run in flight without generating warnings about the player being both docked and not docked. (Bug <a href="https://developer.berlios.de/bugs/?func=detailbug&group_id=3577&bug_id=17953">#17953</a>)</li>
+</ul>
+]]></description>
+			
+			<enclosure	url="http://download2.berlios.de/oolite-linux/oolite-1.75.1-beta-mac-full.zip"
+						length="24958239"
+						type="application/octet-stream"
+						sparkle:version="1.75.1"
+						sparkle:dsaSignature="MCwCFGXwuyIFOOjzsudF5qooreWbvgb/AhRGjht77nzcmb1JJRegEDmEHMazOA=="
+					/>
+			<sparkle:minimumSystemVersion>10.4</sparkle:minimumSystemVersion>
+		</item>
+	</channel>
+</rss>
