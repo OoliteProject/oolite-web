@@ -10,6 +10,66 @@
 		<webMaster>ahruman@oolite.org</webMaster>
 		
 		<item>
+			<title>Version 1.75.2</title>
+			<guid isPermaLink="false">org.aegidian.oolite updatefeed-testrelease 1.75.2</guid>
+			<pubDate>Sun, 8 May 2011 05:00:00 +0200</pubDate>
+			
+			<description><![CDATA[
+<h3>Changes between Oolite 1.75.1 and Oolite 1.75.2:</h3>
+<ul>
+<li> New Linux/POSIX installer.</li>
+<li> Disabled shaders on certain ATi GPUs using Gallium drivers because of crashes.</li>
+<li> Clock adjustments now accumulate in the obvious way Bug <a href="https://developer.berlios.de/bugs/?func=detailbug&group_id=3577&bug_id=17969">#17969</a>.</li>
+<li> Improved texture filtering for planets and generated emission maps (in non-shader mode).</li>
+<li> Fixed bug where a ship was apparently attacking itself whenever one of its
+  subentities was taking energy damage.</li>
+<li> Friendly fire between ships in the same group, and between police, military
+  or thargoid vessels, no longer leads to hostilities.</li>
+<li> Ships following the player through a wormhole now have jump rings.</li>
+<li> Ships with beacon codes now retain them after jumping to a new system. Bug <a href="https://developer.berlios.de/bugs/?func=detailbug&group_id=3577&bug_id=18068">#18068</a></li>
+<li> Fixes to mass-dependent fuel pricing.</li>
+<li> Fixed mouse control starting in yaw mode. Bug <a href="https://developer.berlios.de/bugs/?func=detailbug&group_id=3577&bug_id=18052">#18052</a></li>
+<li> Descriptions.plist strings are now scanned for "%n", which could be used maliciously on GNUstep systems.</li>
+<li> New AI message: <code>ACCEPTED_ESCORT</code>.</li>
+<li> Various bug fixes, inluding Bug <a href="https://developer.berlios.de/bugs/?func=detailbug&group_id=3577&bug_id=17916">#17916</a>, Bug <a href="https://developer.berlios.de/bugs/?func=detailbug&group_id=3577&bug_id=17919">#17919</a> and Bug <a href="https://developer.berlios.de/bugs/?func=detailbug&group_id=3577&bug_id=18083">#18083</a>.</ul>
+</ul>
+
+<h4>JavaScript</h4>
+<ul>
+<li> Raised certain JavaScript time limits.</li>
+<li> The shipSpawned() event now fires for the main station.</li>
+<li> Fixed scripted misjumps not working when set from within the shipWillEnterWitchspace handler for wormholes created by NPCs.</li>
+<li> NPCs in interstellar space can now jump back to their origin system. Bug <a href="https://developer.berlios.de/bugs/?func=detailbug&group_id=3577&bug_id=18082">#18082</a>, partial)</li>
+<li> Scripts can no longer give the player an out-of-range target. Bug <a href="https://developer.berlios.de/bugs/?func=detailbug&group_id=3577&bug_id=18011">#18011</a></li>
+<li> Q-mines awarded to NPCs in flight now work. (More accurately, q-mines for NPCs used to be represented internally as <code>EQ_ENERGY_BOMB</code> instead of <code>EQ_QC_MINE</code>.)</ul>
+</ul>
+
+<h4>Known bugs:</h4>
+<ul>
+<li> Intermittent crashes when removing pylon-mounted equipment ([url]http://www.aegidian.org/bb/viewtopic.php?f=3&t=9761[/url])</li>
+<li> Freeze when script resurrects a ship being killed by a Q-bomb Bug <a href="https://developer.berlios.de/bugs/?func=detailbug&group_id=3577&bug_id=18054">#18054</a></li>
+<li> AI crash triggered by large groups of thargoids Bug <a href="https://developer.berlios.de/bugs/?func=detailbug&group_id=3577&bug_id=18055">#18055</a></li>
+<li> Bugs related to repeated misjumps Bug <a href="https://developer.berlios.de/bugs/?func=detailbug&group_id=3577&bug_id=18082">#18082</a></li>
+<li> Unhelpful docking clearance behaviour changing priorities when a ship is on final approach Bug <a href="https://developer.berlios.de/bugs/?func=detailbug&group_id=3577&bug_id=17997">#17997</a></li>
+<li> Fuel indicator is not drawn correctly in interstellar space Bug <a href="https://developer.berlios.de/bugs/?func=detailbug&group_id=3577&bug_id=18097">#18097</a></li>
+<li> Q-bomb explosions are not drawn properly on some systems Bug <a href="https://developer.berlios.de/bugs/?func=detailbug&group_id=3577&bug_id=17276">#17276</a></li>
+<li> In some conditions, the "break pattern" effect is drawn off-centre.</li>
+<li> Problem with roles of tharglets used as subentities Bug <a href="https://developer.berlios.de/bugs/?func=detailbug&group_id=3577&bug_id=17979">#17979</a></li>
+<li> Problem with frame callbacks and jumps Bug <a href="https://developer.berlios.de/bugs/?func=detailbug&group_id=3577&bug_id=17956">#17956</a></ul>
+</ul>
+]]></description>
+			
+			<enclosure	url="http://download2.berlios.de/oolite-linux/oolite-1.75.2-beta-mac-full.zip"
+						length="24971583"
+						type="application/octet-stream"
+						sparkle:version="1.75.2"
+						sparkle:dsaSignature="MCwCFA+klgG/eqk/pU/V49L2YUsUNVJsAhQukbDKB3Dsn1LqEkrDbc4sw0iP1w=="
+					/>
+			<sparkle:minimumSystemVersion>10.4</sparkle:minimumSystemVersion>
+		</item>
+		
+		
+		<item>
 			<title>Version 1.75.1</title>
 			<guid isPermaLink="false">org.aegidian.oolite updatefeed-testrelease 1.75.1</guid>
 			<pubDate>Sun, 13 Mar 2011 01:30:00 +0200</pubDate>

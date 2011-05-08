@@ -38,7 +38,7 @@ menu('download')
 <div style=" padding-left:10%; padding-right:5%">
 
 <h1>Versions</h1>
-<div class="txt" style="width:70%; margin-top:20px">The latest version of Oolite is beta test release 1.75.1. In case you’re allergic to beta tests, the previous “stable” version, 1.65, is also available. However, 1.75.1 is less crash-prone, more efficicent and supports far more expansion packs, so it is strongly recommended.</div>
+<div class="txt" style="width:70%; margin-top:20px">The latest version of Oolite is beta test release 1.75.2. In case you’re allergic to beta tests, the previous “stable” version, 1.65, is also available. However, 1.75.2 is less crash-prone, more efficicent and supports far more expansion packs, so it is strongly recommended.</div>
 </div>
 <div>
 <div style="padding-left:11%; padding-right:10%">
@@ -51,10 +51,10 @@ menu('download')
 <h1><span style="font-weight:bold; color:#777">&darr;</span> Mac OS X</h1>
 <div class="txt" style=" margin-top:20px; width:100%">
 <ul style="padding-left:20px">
-<li><a href="http://prdownload.berlios.de/oolite-linux/oolite-1.75.1-beta-mac-full.zip">Oolite beta 1.75.1</a><br>
+<li><a href="http://prdownload.berlios.de/oolite-linux/oolite-1.75.2-beta-mac-full.zip">Oolite beta 1.75.2</a><br>
 for Mac&nbsp;OS&nbsp;X&nbsp;10.4 or later (25&nbsp;MiB)</li>
-<li><a href="http://prdownload.berlios.de/oolite-linux/oolite-1.75.1-beta-mac-update.zip">Oolite beta 1.75.1 updater</a><br>
-for Oolite beta 1.75 only (7&nbsp;MiB)</li>
+<!-- <li><a href="http://prdownload.berlios.de/oolite-linux/oolite-1.75.2-beta-mac-update.zip">Oolite beta 1.75.2 updater</a><br>
+for Oolite beta 1.75.1 only (7&nbsp;MiB)</li> -->
 <li><a href="http://prdownload.berlios.de/oolite-linux/oolite-1.65-mac-full.zip">Oolite 1.65</a><br>
 for Mac OS X 10.3.9 or later (20&nbsp;MiB)</li>
 </ul></div></div>
@@ -65,10 +65,10 @@ for Mac OS X 10.3.9 or later (20&nbsp;MiB)</li>
 <h1><span style="font-weight:bold; color:#777">&darr;</span> Windows</h1>
 <div class="txt" style="margin-top:20px;width:100%">
 <ul style="padding-left:20px">
-<li><a href="http://prdownload.berlios.de/oolite-linux/Oolite-1.75.1-test.exe">Oolite beta 1.75.1</a><br>
+<li><a href="http://prdownload.berlios.de/oolite-linux/Oolite-1.75.2-beta.exe">Oolite beta 1.75.2</a><br>
 for Windows XP service pack 3 or later (23&nbsp;MiB)</li>
-<li><a href="http://prdownload.berlios.de/oolite-linux/Oolite-1.75-to-1.75.1-update.zip">Oolite beta 1.75.1 updater</a><br>
-for Oolite 1.75 only (1.7&nbsp;MiB)</li>
+<li><a href="http://prdownload.berlios.de/oolite-linux/Oolite-1.75.1-to-1.75.2-update.zip">Oolite beta 1.75.2 updater</a><br>
+for Oolite 1.75.1 only (1.7&nbsp;MiB)</li>
 <li><a href="http://prdownload.berlios.de/oolite-linux/oolite-1.65-windows-full.exe">Oolite 1.65</a><br>
 for Windows XP service pack 3 or later (20&nbsp;MiB)</li>
 </ul></div></div>
@@ -79,10 +79,10 @@ for Windows XP service pack 3 or later (20&nbsp;MiB)</li>
 <h1><span style="font-weight:bold; color:#777">&darr;</span> Linux</h1>
 <div class="txt" style="margin-top:20px;">
 <ul style="padding-left:20px">
-<li><a href="http://prdownload.berlios.de/oolite-linux/oolite-1.75.1-test.x86.tgz">Oolite beta 1.75.1</a><br>
-for 32-bit x86 Linux systems (24&nbsp;MiB, uses Autopackage)</li>
-<li><a href="http://prdownload.berlios.de/oolite-linux/oolite-1.75.1-test.x86_64.tgz">Oolite beta 1.75.1</a><br>
-for 64-bit x86 Linux systems (24&nbsp;MiB, uses Autopackage)</li>
+<li><a href="http://prdownload.berlios.de/oolite-linux/oolite-1.75.2-beta.linux-x86.run.tgz">Oolite beta 1.75.2</a><br>
+for 32-bit x86 Linux systems (24&nbsp;MiB)</li>
+<li><a href="http://prdownload.berlios.de/oolite-linux/oolite-1.75.2-beta.linux-x86_64.run.tgz">Oolite beta 1.75.2</a><br>
+for 64-bit x86 Linux systems (24&nbsp;MiB)</li>
 <li><a href="http://prdownload.berlios.de/oolite-linux/oolite-1.65.x86.package">Oolite&nbsp;1.65</a><br>
 for all x86 Linux systems (21&nbsp;MiB, uses Autopackage)</li>
 <!--<li><a href="http://debs.oolite.org/">Oolite Test Release 1.74 .deb packages</a><br>
