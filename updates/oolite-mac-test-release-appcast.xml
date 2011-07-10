@@ -10,9 +10,41 @@
 		<webMaster>ahruman@oolite.org</webMaster>
 		
 		<item>
+			<title>Version 1.75.3</title>
+			<guid isPermaLink="false">org.aegidian.oolite updatefeed-testrelease 1.75.3</guid>
+			<pubDate>Sun, 10 July 2011 20:30:00 +0200</pubDate>
+			
+			<description><![CDATA[
+<h3>Changes between Oolite 1.75.2 and Oolite 1.75.3:</h3>
+<ul></li>
+<li> Subentities are now set up correctly when buying a new ship.</li>
+<li> Ships now take subentities into account when deciding whether they can dock.</li>
+<li> Fixed ghost wormholes. Wormholes can no longer have a jump range of zero.</li>
+<li> The fuel indicator is now drawn correctly in interstellar space.</li>
+<li> Additional guards against out-of-range targets for the player.</li>
+<li> Sounds now stop playing when starting a new game. (Bug <a href="https://developer.berlios.de/bugs/?func=detailbug&group_id=3577&bug_id=18108">#18108</a>)</li>
+<li> [Mac] Growl display support is disabled due to upcoming changes to Growl.</li>
+<li> Ships with sun skimmer AI in interstellar space no longer cause errors in the log, and AIs can handle the situation by responding to <code>NO_SUN_FOUND</code>.</li>
+<li> "sunskim-trader" added to default pirate victim roles.</li>
+<li> <code>interstellar_undocking</code> now works when in interstellar space 0&nbsp;LY from a system.</li>
+<li> HUD changes are now deferred, so changing HUDs during HUD drawing is safe.</li>
+<li> The debugging function <code>callObjC()</code> has been disabled.</li>
+</ul>
+]]></description>
+			
+			<enclosure	url="http://download2.berlios.de/oolite-linux/oolite-1.75.3-beta-mac-full.zip"
+						length="25045228"
+						type="application/octet-stream"
+						sparkle:version="1.75.3"
+						sparkle:dsaSignature="MCwCFHQKVgSXtQTJ0xtbc004Ce1Vou1pAhRYkQpu+jQagUbiiGuzKex+xojxQw=="
+					/>
+			<sparkle:minimumSystemVersion>10.4</sparkle:minimumSystemVersion>
+		</item>
+		
+		<item>
 			<title>Version 1.75.2</title>
 			<guid isPermaLink="false">org.aegidian.oolite updatefeed-testrelease 1.75.2</guid>
-			<pubDate>Sun, 8 May 2011 05:00:00 +0200</pubDate>
+			<pubDate>Sun, 8 May 2011 17:00:00 +0200</pubDate>
 			
 			<description><![CDATA[
 <h3>Changes between Oolite 1.75.1 and Oolite 1.75.2:</h3>
