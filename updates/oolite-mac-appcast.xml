@@ -10,6 +10,24 @@
 		<webMaster>ahruman@oolite.org</webMaster>
 		
 		<item>
+			<title>Version 1.76</title>
+			<guid isPermaLink="false">org.oolite updatefeed-testrelease 1.76</guid>
+			<pubDate>Fri, 16 December 2011 15:30:00 +0100</pubDate>
+			
+			<description><![CDATA[
+Oolite 1.76.
+]]></description>
+			
+			<enclosure	url="http://download2.berlios.de/oolite-linux/oolite-1.76-mac.zip"
+						length="24782437"
+						type="application/octet-stream"
+						sparkle:version="1.76"
+						sparkle:dsaSignature="MC4CFQDPtiGJMYsXEyoDGqNqms2dw3BThAIVAKH7S0JeLjWkTU/0rTgJVDDHpq54"
+					/>
+			<sparkle:minimumSystemVersion>10.4</sparkle:minimumSystemVersion>
+		</item>
+		
+		<item>
 			<title>Version 1.65</title>
 			<guid isPermaLink="false">org.aegidian.oolite updatefeed 1.65</guid>
 			<pubDate>Tue, 25 Jan 2011 22:40:00 +0100</pubDate>

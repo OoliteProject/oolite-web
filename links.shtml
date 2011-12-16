@@ -36,7 +36,7 @@ menu('links')
 <div class="txt" style="width:70%; margin-top:20px">
 <a href="http://www.cafepress.com/oolite">The Oolite Interplanetary Gift Shop</a>, official Oolite merchandise.<br />
 <a href="http://aegidian.org/bb/">Oolite Bulletin Board</a>, Oolite’s official web forum.<br />
-<!-- a href="http://www.smivsonline.co.uk/oolite-messages.htm">Emergency message centre</a></br -->
+<!-- a href="http://www.smivsonline.co.uk/oolite-messages.htm">Emergency message centre</a><br/ -->
 <a href="irc://irc.oftc.net/oolite">Oolite IRC channel</a> (#oolite on irc.oftc.net)<br />
 <a href="http://wiki.alioth.net/index.php/Oolite_Main_Page">Elite Wiki</a>, a user-edited guide to the world of Oolite and Elite.<br />
 <a href="http://wiki.alioth.net/index.php/Oolite_FAQ">Oolite Frequently Asked Questions</a> at Elite Wiki.<br />
