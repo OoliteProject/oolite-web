@@ -48,7 +48,7 @@ menu('download')
 <h1><span style="font-weight:bold; color:#777">&darr;</span> Mac OS X</h1>
 <div class="txt" style=" margin-top:20px; width:100%">
 <ul style="padding-left:20px">
-<li><a href="http://prdownload.berlios.de/oolite-linux/oolite-1.76-mac.zip">Oolite beta 1.76</a><br>
+<li><a href="http://prdownload.berlios.de/oolite-linux/oolite-1.76-mac.zip">Oolite 1.76</a><br>
 for Mac&nbsp;OS&nbsp;X&nbsp;10.4 or later (25&nbsp;MiB)</li>
 </ul></div></div>
 </td>
@@ -68,10 +68,10 @@ for Windows XP service pack 3 or later (22&nbsp;MiB)</li>
 <h1><span style="font-weight:bold; color:#777">&darr;</span> Linux</h1>
 <div class="txt" style="margin-top:20px;">
 <ul style="padding-left:20px">
-<li><a href="http://prdownload.berlios.de/oolite-linux/oolite-1.76.linux-x86.tgz">Oolite beta 1.76</a><br>
+<li><a href="http://prdownload.berlios.de/oolite-linux/oolite-1.76.linux-x86.tgz">Oolite 1.76</a><br>
 for 32-bit x86 Linux systems (23&nbsp;MiB)</li>
-<li><a href="http://prdownload.berlios.de/oolite-linux/oolite-1.76.linux-x86_64.tgz">Oolite beta 1.76</a><br>
-for 64-bit x86 Linux systems (23&nbsp;MiB)</li>
+<li><!--a href="http://prdownload.berlios.de/oolite-linux/oolite-1.76.linux-x86_64.tgz"-->Oolite 1.76<!--/a--><br>
+for 64-bit x86 Linux systems (23&nbsp;MiB) – temporarily unavailable</li>
 </ul></div></div>
 </td>
 
