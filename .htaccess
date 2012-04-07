@@ -1,3 +1,5 @@
+Options +MultiViews
+
 <IfModule mod_rewrite.c>
 	RewriteEngine On
 	RewriteRule ^faq\.html$ http://wiki.alioth.net/index.php/Oolite_FAQ [R=permanent]
