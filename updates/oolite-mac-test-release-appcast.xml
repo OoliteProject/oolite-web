@@ -10,6 +10,55 @@
 		<webMaster>ahruman@oolite.org</webMaster>
 		
 		<item>
+			<title>Version 1.76.1</title>
+			<guid isPermaLink="false">org.oolite updatefeed-testrelease 1.76.1</guid>
+			<pubDate>Sun, 13 May 2012 15:30:00 +0100</pubDate>
+			
+			<description><![CDATA[
+<h2>Changes between Oolite 1.76 and Oolite 1.76.1:</h2>
+
+<ul>
+<li>Fixed potential bug loading player with no <code>mission_variables</code> dictionary.</li>
+<li><code>player.ship.launch()</code> can now also be used within the <code>shipWillDockWithStation</code> and the <code>shipDockedWithStation</code> handler without side effects.</li>
+<li>Ships that have a specific commodity defined as cargo, no longer get their bounty reduced to 10&nbsp;% when the pilot ejects.</li>
+<li>The scoop icon now correctly shows a full cargo hold when special cargo is transported.</li>
+<li>Fixed a problem with the shipyard screen when a ship with chance=1 defined non-installed optional equipment.</li>
+<li>Don&rsquo;t disgorge and revive dead ships from wormholes.</li>
+<li>32-bit GL contexts are now strongly preferred on SDL systems, with 16-bit fallback.</li>
+<li>Fixed weapon facing not resetting to forward view when launching from station.</li>
+<li><code>takeSnapShot()</code> is excluded from the JavaScript time limiter.</li>
+<li>Added code to prevent overcorrection pitch and roll with low frame rates. Should lower the change of ships jumping between two headings, without proceeding.</li>
+<li><code>weapon_range</code> and <code>weapon_energy</code> keys in the turret subentity declaration now work as intended. Values are maximised at 7500 and 100 respectively.</li>
+<li>Buggy <code>consoleMessage()</code> behaviour when called from JS debug console has been rectified.</li>
+<li>JS debug console macros are saved when Oolite exits to desktop in all platforms, as originally intended.</li>
+<li>Regression fix: in the log, the <code>searchPaths.dumpAll</code> is shown once every time searchPaths change (strict/unrestricted mode).</li>
+<li>No more negative ship distances, see <a href="http://aegidian.org/bb/viewtopic.php?t=11785">http://aegidian.org/bb/viewtopic.php?t=11785</a>.</li>
+<li>Fix for <code>guiScreenWillChange</code> for system data screen not firing when double clicking on systems.</li>
+<li>Fixed crash with malformed gui declarations inside hud plists.</li>
+<li>Fixed timer related crashes.</li>
+<li>The Windows Oolite executable is now large address aware, allowing for more than 2GB of memory to be allocated to the game.</li>
+<li>Fix for bug where standard subentities defined after any turret subentity would exhibit turret behaviour.</li>
+<li>Savefiles with wrong passengers and/or passengers berths data are now handled a bit better.</li>
+<li>Fix bug where equipment depending on currently damaged equipment would be silently removed from the player&rsquo;s ship on game load.</li>
+<li>Target system memory expansion doesn&rsquo;t try to restore locks on cloaked ships anymore.</li>
+<li>Fixed bug with resetting of passenger contracts on ship change.</li>
+<li>Fixed Nav Array not showing distance and time information when target system was selected by using the Find Planet method.</li>
+<li>Frame Callbacks now transfer the correct time difference when <code>timeAccelerationFactor</code> is active.</li>
+<li>The <code>available_to_all</code> key is now also respected by JS methods that add equipment.</li>
+<li>Improved the docking approach when arriving from the backside of a station.</li>
+<li>Fixed fuel scoops sound loop issue, discussed in <a href="http://www.aegidian.org/bb/viewtopic.php?f=4&t=11611">http://www.aegidian.org/bb/viewtopic.php?f=4&t=11611</a>.</li>
+<li>Fixed intermittent crash on missile removal.</ul>]]></description>
+			
+			<enclosure	url="http://download.berlios.de/oolite-linux/Oolite-1.76.1-mac.zip"
+			length="24765080"
+			type="application/octet-stream"
+			sparkle:version="1.76.1"
+			sparkle:dsaSignature="MC0CFQCn5ZLJmfK8nwOluY7nqtSaGf0tlgIUXI5n3sU1laFqKjU16FGll28TaOY="
+			/>
+			<sparkle:minimumSystemVersion>10.4</sparkle:minimumSystemVersion>
+		</item>
+		
+		<item>
 			<title>Version 1.76</title>
 			<guid isPermaLink="false">org.oolite updatefeed-testrelease 1.76</guid>
 			<pubDate>Fri, 16 December 2011 15:30:00 +0100</pubDate>
