@@ -39,7 +39,7 @@ menu('about')
 <br>
 
 
-Originally written for Mac OS X, and under continuous development for over five years, Oolite is available for Mac&nbsp;OS&nbsp;X (10.3.9 and higher) and PCs running Windows XP, Windows Vista or Linux. It requires at least a 400&nbsp;MHz processor, 256&nbsp;MiB of memory, and a graphics card capable of accelerating OpenGL graphics.
+Originally written for Mac OS X, Oolite is available for Mac&nbsp;OS&nbsp;X (10.4 and higher) and PCs running Windows XP, Windows Vista or Linux. It requires at least a 1&nbsp;GHz processor, 1&nbsp;GiB of memory, and a graphics card capable of accelerating OpenGL graphics.
 
 The game and source code are offered for free under the <a href="http://www.gnu.org/licenses/gpl-2.0.html">GNU General Public License</a>.
 <br>
