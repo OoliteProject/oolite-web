@@ -46,32 +46,48 @@ menu('download')
 <td width="33%">
 <div style="border:1px solid #333; width:80%; background-color:#111; padding:10px">
 <h1><span style="font-weight:bold; color:#777">&darr;</span> Mac OS X</h1>
-<div class="txt" style=" margin-top:20px; width:100%">
+<div class="txt" style=" margin-top:10px; width:100%">
 <ul style="padding-left:20px">
-<li><a href="http://prdownload.berlios.de/oolite-linux/Oolite-1.76.1-mac.zip">Oolite 1.76.1</a><br>
-for Mac&nbsp;OS&nbsp;X&nbsp;10.4 or later (25&nbsp;MiB)</li>
+<li>Latest Release <i>(recommended)</i><br>
+Intel Mac&nbsp;OS&nbsp;X&nbsp;10.5 or later<br>
+<a href="http://prdownload.berlios.de/oolite-linux/Oolite-1.77-mac.zip">Oolite 1.77</a>&nbsp;(24&nbsp;MiB)<br><br>
+</li>
+<li>Stable Release<br>
+Mac&nbsp;OS&nbsp;X&nbsp;10.4 or later<br>
+<a href="http://prdownload.berlios.de/oolite-linux/Oolite-1.76.1-mac.zip">Oolite 1.76.1</a>&nbsp;(24&nbsp;MiB)<br><br>
+</li>
 </ul></div></div>
 </td>
 
 <td width="33%">
 <div style="border:1px solid #333; width:80%; background-color:#111; padding:10px">
 <h1><span style="font-weight:bold; color:#777">&darr;</span> Windows</h1>
-<div class="txt" style="margin-top:20px;width:100%">
+<div class="txt" style="margin-top:10px;width:100%">
+Windows XP service pack 3 or later<br><br>
 <ul style="padding-left:20px">
-<li><a href="http://prdownload.berlios.de/oolite-linux/Oolite-1.76.1.exe">Oolite 1.76.1</a><br>
-for Windows XP service pack 3 or later (22&nbsp;MiB)</li>
+<li>Latest Release <i>(recommended)</i><br>
+<a href="http://prdownload.berlios.de/oolite-linux/Oolite-1.77.exe">Oolite 1.77</a>&nbsp;(24&nbsp;MiB)<br><br>
+</li>
+<li>Stable Release<br><a href="http://prdownload.berlios.de/oolite-linux/Oolite-1.76.1.exe">Oolite 1.76.1</a>&nbsp;(22&nbsp;MiB)<br><br>
+</li>
 </ul></div></div>
 </td>
 
 <td>
 <div style="border:1px solid #333; width:80%; background-color:#111; padding:10px">
 <h1><span style="font-weight:bold; color:#777">&darr;</span> Linux</h1>
-<div class="txt" style="margin-top:20px;">
+<div class="txt" style="margin-top:10px;">
+<b>Note:</b> If you are running a 64-bit kernel, install the AMD64 package.<br>
+It does not matter if you have an Intel or an AMD CPU.<br><br>
 <ul style="padding-left:20px">
-<li><a href="http://prdownload.berlios.de/oolite-linux/oolite-1.76.1.linux-x86.tgz">Oolite 1.76.1</a><br>
-for 32-bit x86 Linux systems (23&nbsp;MiB)</li>
-<li><a href="http://prdownload.berlios.de/oolite-linux/oolite-1.76.1.linux-x86_64.tgz">Oolite 1.76.1</a><br>
-for 64-bit x86 Linux systems (23&nbsp;MiB)</li>
+<li>Latest Release <i>(recommended)</i><br>
+Oolite 1.77 &nbsp;(24&nbsp;MiB)<br>
+<a href="http://prdownload.berlios.de/oolite-linux/oolite-1.77.linux-x86.tgz">i386</a>&nbsp;|&nbsp;<a href="http://prdownload.berlios.de/oolite-linux/oolite-1.77.linux-x86_64.tgz">AMD64</a><br><br>
+</li>
+<li>Stable Release<br>
+Oolite 1.76.1 &nbsp;(23&nbsp;MiB)<br>
+<a href="http://prdownload.berlios.de/oolite-linux/oolite-1.76.1.linux-x86.tgz">i386</a>&nbsp;|&nbsp;<a href="http://prdownload.berlios.de/oolite-linux/oolite-1.76.1.linux-x86_64.tgz">AMD64</a><br><br>
+</li>
 </ul></div></div>
 </td>
 
@@ -90,10 +106,28 @@ for 64-bit x86 Linux systems (23&nbsp;MiB)</li>
   
   
 
-  <div style=" padding-left:10%; padding-right:5%">
-  
-  
- <h1 style="margin-top:50px">Source Code and Updates</h1>
+<div style=" padding-left:10%; padding-right:5%">
+<h1 style="margin-top:50px">Test Release configuration</h1>
+<div class="txt" style="width:70%; margin-top:20px">
+Oolite releases (version 1.77 or later) are delivered using Deployment Release configuration to ensure maximum performance.
+Patch programs for Test Release configuration are available from <a href="http://developer.berlios.de/project/showfiles.php?group_id=3577">BerliOS</a>.<br>
+<br>
+Test Release configuration is intended for testers, maintainers, OXP developers and in general for whoever has an interest in having Oolite configured with the following debugging features (at the expense of performance):<br>
+<ul style="margin-left:30px">
+<li>Debug OXP and Debug Console are supported.</li>
+<li>OXP Verifier functionality is included.</li>
+<li>Localization tools support is included.</li>
+<li>AI Graphviz support is included.</li>
+<li>Debug information is added. (e.g. AI stack, collision, dump target state, entities, memory usage, script tracing etc.)</li>
+<li>JS monitor support is enabled.</li>
+<li>The JS method takeSnapshot() is enabled.</li>
+<li>Shift-F displays FPS, entities, coordinates and TAF info.</li>
+<li>TAF is enabled.</li>
+<li>Sanity checks are included.</li>
+</ul>
+</div>
+
+<h1 style="margin-top:50px">Source Code and Updates</h1>
 <div class="txt" style="width:70%; margin-top:20px">Source code for all platforms is available from <a href="http://developer.berlios.de/project/showfiles.php?group_id=3577">BerliOS</a>. New test releases are announced on the <a href="http://www.aegidian.org/bb/">forum</a>.</div>
   
    <h1 style="margin-top:50px">Add-ons</h1>
