@@ -10,6 +10,176 @@
 		<webMaster>ahruman@oolite.org</webMaster>
 		
 		<item>
+			<title>Version 1.77</title>
+			<guid isPermaLink="false">org.oolite updatefeed-testrelease 1.77</guid>
+			<pubDate>Tue, Jan 08 2013 12:40:00 +0100</pubDate>
+			
+			<description><![CDATA[<h2>Changes between Oolite 1.76.1 and Oolite 1.77:</h2>
+				<h3>Gameplay</h3>
+				<ul><li> Enabled reverse-stepping through list of beacons shown by the Advanced Space Compass. The default key is '|' (Shift-'\').
+				<li> Energy bomb made strict mode only.
+				<li> Ships with a bounty will often avoid the main station
+				<li> A certain classified device is now possible to repair and has had minor changes to its behaviour.
+				<li> Improvements to sound effect handling for scoop and laser
+				<li> Several efficiency improvements for smoother gameplay
+				<li> New combat behaviour and AI, including:
+				<ul><li> More consistent missile explosion behaviour
+				<li> Smarter Thargoids
+				<li> Smarter use of turret weapons
+				<li> Better reactions against cloaked opponents
+				<li> Better reaction to deployment of Q-mines
+				<li> NPCs can now use side weapons
+				<li> NPC lasers now equivalent to player lasers in terms of rate of fire and overheating.</ul>
+				<li> Gamma control for SDL builds
+				<li> System populator cleaner, and hermits now semi-persistent
+				<li> Longer visibility distance
+				<li> Criminal behaviour sanctions now equivalent for player and NPCs
+				<li> Witchspace exit speed now depends on the lead ship, and player following NPC through a wormhole now behaves better.
+				<li> Keyboard precision mode
+				<li> Stations can now have multiple docks
+				<li> Docking Clearance Protocol now a Game Option
+				<li> Interfaces screen on docked F4 for accessing arbitrary station or ship systems. Passenger and cargo contracts moved to this screen; parcel contracts added.
+				<li> Can switch to custom views while paused
+				<li> Improved rendering of planetary atmosphere and sun
+				<li> New 'b' key for activation of secondary function of primable equipment (e.g. a mode switch)
+				<li> New starfield textures
+				<li> New laser textures
+				<li> New exhaust textures
+				<li> Mac specific: ctrl-cmd-f is the new toggle key for full screen display</ul>
+				
+				<h3>Expansion Pack Development</h3>
+				<h4>AI</h4>
+				<ul><li> New events:
+				<ul><li> DEFENSE_TARGET_LOST
+				<li> DEFENSE_TARGET_DESTROYED
+				<li> CASCADE_WEAPON_DETECTED
+				<li> ATTACKER_MISSED</ul>
+				<li> New commands:
+				<ul><li> addFoundTargetAsDefenseTarget
+				<li> addPrimaryAggressorAsDefenseTarget
+				<li> broadcastEnergyBlastImminent
+				<li> clearDefenseTargets
+				<li> findNewDefenseTarget
+				<li> performLandOnPlanet
+				<li> performScriptedAI
+				<li> performScriptedCombatAI
+				<li> recallStoredTarget
+				<li> setTargetToLastStation
+				<li> setTargetToRandomStation
+				<li> storeTarget</ul>
+				<li> Higher skill combat AIs available through 'accuracy' setting
+				<li> Full frame-by-frame control over ship AI now available from script</ul>
+				
+				<h4>Config files</h4>
+				<ul><li> Required space in equipment.plist now works as intended
+				<li> damage_probability setting in equipment.plist
+				<li> Ship role list now automatically includes "[shipDataKey]"; roles beginning with "[" are forbidden.
+				<li> Shipdata weapon_facings property to set available laser mounts
+				<li> bright_fraction property for flasher subentities
+				<li> Crosshair plist files separate from HUD
+				<li> Several new descriptions.plist and missiontext.plist entries
+				<li> New effectdata.plist to define visual effects - items with a visual appearance, and perhaps a scanner and compass signal, but no physical presence. These can be used to supplement/replace break patterns, among other effects.
+				<li> shipdata.plist exhaust z-size now acts as a z-scale within the range 0.5 to 2.0. Out of range values default to 1.0 = standard size
+				<li> cloud_alpha property in planetinfo.plist to control atmosphere opacity</ul>
+				
+				<h4>Scripting</h4>
+				<ul><li> Various debug console improvements
+				<li> Additional 'b' key and mode() function for primable equipment
+				<li> "Dock" entity type, for control over docking and launching, especially in multidock stations.
+				<li> More parameters for mission.markSystem, to allow custom markers
+				<li> Condition scripts for equipment, ships, and shipyard to replace legacy conditions.
+				<li> Numerous additional options for mission.runScreen, and related properties for mission objects
+				<li> "VisualEffect" entity type, for management of effects defined through effectdata.plist
+				<li> guiScreenChanged fires for entering mission screens
+				<li> New properties:
+				<ul><li> clock.adjustedSeconds
+				<li> entity.isInSpace
+				<li> player.ship.hyperspaceSpinTime
+				<li> player.ship.missilesOnline
+				<li> player.ship.price
+				<li> player.ship.serviceLevel
+				<li> ship.*Weapon now editable
+				<li> ship.AIFoundTarget
+				<li> ship.AIPrimaryAggressor
+				<li> ship.autoAI
+				<li> ship.beaconCode	
+				<li> ship.boundingBox
+				<li> ship.commodity
+				<li> ship.commodityCount
+				<li> ship.currentWeapon
+				<li> ship.dataKey
+				<li> ship.desiredRange
+				<li> ship.destination
+				<li> ship.laserHeatLevel
+				<li> ship.maxEscorts
+				<li> ship.pitch, ship.roll, ship.yaw
+				<li> ship.weaponFacings
+				<li> ship.weaponPosition*
+				<li> station.breakPattern
+				<li> station.hasShipyard
+				<li> station.market
+				<li> system.breakPattern</ul>
+				<li> New methods:
+				<ul><li> global.autoAIForRole(role)
+				<li> player.replaceShip(key)
+				<li> player.ship.beginHyperspaceCountdown(delay)
+				<li> player.ship.cancelHyperspaceCountdown([delay])
+				<li> player.ship.resetCustomView()
+				<li> player.ship.setCustomView(position,orientation)
+				<li> player.ship.takeInternalDamage()
+				<li> ship.dealEnergyDamage()
+				<li> ship.getMaterials()
+				<li> ship.getShaders()
+				<li> ship.setBounty(amount,reason)
+				<li> station.setMarketPrice(cargo,price)
+				<li> station.setMarketQuantity(cargo,price)
+				<li> system.addVisualEffect(key,position)</ul>
+				<li> New events:
+				<ul><li> cascadeWeaponDetected(weapon)
+				<li> dayChanged(day)
+				<li> equipmentRepaired(equipment)
+				<li> playerBoughtCargo(commodity, units, price)
+				<li> playerSoldCargo(commodity, units, price)
+				<li> shipBeingAttackedUnsuccessfully(attacker)
+				<li> shipBountyChanged(delta,reason)
+				<li> shipHitByECM {new 'whom' argument}
+				<li> shipLandedOnPlanet(planet)
+				<li> shipScoopedFuel()</ul></ul>
+				
+				<h3>Miscellaneous</h3>
+				<ul><li> TAF changes only possible when FPS display is active (Test Release builds only)
+				<li> Planettool updated</ul>
+				
+				<h3>Bug fixes</h3>
+				<ul><li> 'sendAllShipsAway' no longer tries to send ships without a hyperspace motor away.
+				<li> Added missing new keyboard controls to the BBC keyconfig.plist
+				<li> Scoop icon fixed for ships carrying special cargo
+				<li> Docking behaviour now more reliable at low frame rates and at odd approach angles
+				<li> Negative ship distances on HUD fixed
+				<li> Laser position display fix
+				<li> Target system memory expansion now works properly with cloaked ships
+				<li> Cargo rounding and save/load bugs fixed
+				<li> Advanced Navigation Array display bug fixed
+				<li> Being on board a witchspacing carrier now works more sensibly
+				<li> Larger witchbuoys no longer a collision risk
+				<li> Several crash bugs fixed
+				<li> Turret declarations now work as intended
+				<li> Planetinfo overrides now cleaned up from savegames
+				<li> Problems with wormholes in zero-distance doubles fixed
+				<li> Fines now only applied at main stations
+				<li> Attempting to calculate a route to or from interstellar space no longer crashes
+				<li> Scooped and released escape pods work properly</ul>]]></description>
+			
+			<enclosure	url="http://oolite.org/releases/Oolite-1.77-mac.zip"
+						length="24858651"
+						type="application/octet-stream"
+						sparkle:version="1.77"
+						sparkle:dsaSignature="MCwCFEOPHUHgm0NCI2JSnH5CY5UO/RGzAhRzh8NWlgIU1rmcXV7igbSmMQhFAg=="
+			/>
+			<sparkle:minimumSystemVersion>10.5</sparkle:minimumSystemVersion>
+		</item>
+		
+		<item>
 			<title>Version 1.76.1</title>
 			<guid isPermaLink="false">org.oolite updatefeed-testrelease 1.76.1</guid>
 			<pubDate>Sun, 13 May 2012 15:30:00 +0100</pubDate>
@@ -50,10 +220,10 @@
 <li>Fixed intermittent crash on missile removal.</ul>]]></description>
 			
 			<enclosure	url="http://download.berlios.de/oolite-linux/Oolite-1.76.1-mac.zip"
-			length="24765080"
-			type="application/octet-stream"
-			sparkle:version="1.76.1"
-			sparkle:dsaSignature="MC0CFQCn5ZLJmfK8nwOluY7nqtSaGf0tlgIUXI5n3sU1laFqKjU16FGll28TaOY="
+						length="24765080"
+						type="application/octet-stream"
+						sparkle:version="1.76.1"
+						sparkle:dsaSignature="MC0CFQCn5ZLJmfK8nwOluY7nqtSaGf0tlgIUXI5n3sU1laFqKjU16FGll28TaOY="
 			/>
 			<sparkle:minimumSystemVersion>10.4</sparkle:minimumSystemVersion>
 		</item>
