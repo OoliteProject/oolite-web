@@ -41,8 +41,8 @@ menu('download')
 <div style="padding-left:11%; padding-right:10%">
 <div style="width:100%; margin-top:50px">
 <table width="100%" border="0" cellspacing="0" cellpadding="0">
-<tr valign="top">
 
+<tr valign="top">
 <td width="33%">
 <div style="border:1px solid #333; width:80%; background-color:#111; padding:10px">
 <h1><span style="font-weight:bold; color:#777">&darr;</span> Mac OS X</h1>
@@ -50,11 +50,11 @@ menu('download')
 <ul style="padding-left:20px">
 <li>Latest Release <i>(recommended)</i><br>
 Intel Mac&nbsp;OS&nbsp;X&nbsp;10.5 or later<br>
-<a href="http://prdownload.berlios.de/oolite-linux/Oolite-1.77-mac.zip">Oolite 1.77</a>&nbsp;(24&nbsp;MiB)<br><br>
+<a href="http://oolite.org/releases/Oolite-1.77-mac.zip">Oolite 1.77</a>&nbsp;(24&nbsp;MiB)<br><br>
 </li>
 <li>Stable Release<br>
 Mac&nbsp;OS&nbsp;X&nbsp;10.4 or later<br>
-<a href="http://prdownload.berlios.de/oolite-linux/Oolite-1.76.1-mac.zip">Oolite 1.76.1</a>&nbsp;(24&nbsp;MiB)<br><br>
+<a href="http://oolite.org/releases/Oolite-1.76.1-mac.zip">Oolite 1.76.1</a>&nbsp;(24&nbsp;MiB)<br><br>
 </li>
 </ul></div></div>
 </td>
@@ -66,9 +66,9 @@ Mac&nbsp;OS&nbsp;X&nbsp;10.4 or later<br>
 Windows XP service pack 3 or later<br><br>
 <ul style="padding-left:20px">
 <li>Latest Release <i>(recommended)</i><br>
-<a href="http://prdownload.berlios.de/oolite-linux/Oolite-1.77.exe">Oolite 1.77</a>&nbsp;(24&nbsp;MiB)<br><br>
+<a href="http://oolite.org/releases/Oolite-1.77.exe">Oolite 1.77</a>&nbsp;(24&nbsp;MiB)<br><br>
 </li>
-<li>Stable Release<br><a href="http://prdownload.berlios.de/oolite-linux/Oolite-1.76.1.exe">Oolite 1.76.1</a>&nbsp;(22&nbsp;MiB)<br><br>
+<li>Stable Release<br><a href="http://oolite.org/releases/Oolite-1.76.1.exe">Oolite 1.76.1</a>&nbsp;(22&nbsp;MiB)<br><br>
 </li>
 </ul></div></div>
 </td>
@@ -82,11 +82,11 @@ It does not matter if you have an Intel or an AMD CPU.<br><br>
 <ul style="padding-left:20px">
 <li>Latest Release <i>(recommended)</i><br>
 Oolite 1.77 &nbsp;(24&nbsp;MiB)<br>
-<a href="http://prdownload.berlios.de/oolite-linux/oolite-1.77.linux-x86.tgz">i386</a>&nbsp;|&nbsp;<a href="http://prdownload.berlios.de/oolite-linux/oolite-1.77.linux-x86_64.tgz">AMD64</a><br><br>
+<a href="http://oolite.org/releases/oolite-1.77.linux-x86.tgz">i386</a>&nbsp;|&nbsp;<a href="http://oolite.org/releases/oolite-1.77.linux-x86_64.tgz">AMD64</a><br><br>
 </li>
 <li>Stable Release<br>
 Oolite 1.76.1 &nbsp;(23&nbsp;MiB)<br>
-<a href="http://prdownload.berlios.de/oolite-linux/oolite-1.76.1.linux-x86.tgz">i386</a>&nbsp;|&nbsp;<a href="http://prdownload.berlios.de/oolite-linux/oolite-1.76.1.linux-x86_64.tgz">AMD64</a><br><br>
+<a href="http://oolite.org/releases/oolite-1.76.1.linux-x86.tgz">i386</a>&nbsp;|&nbsp;<a href="http://oolite.org/releases/oolite-1.76.1.linux-x86_64.tgz">AMD64</a><br><br>
 </li>
 </ul></div></div>
 </td>
