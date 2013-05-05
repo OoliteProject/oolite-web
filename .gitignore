@@ -1,0 +1,12 @@
+# Binary releases and nightlies are not included in repository
+/releases/
+/nightly/
+
+
+# Windows cruft
+Thumbs.db
+ehthumbs.db
+
+# Mac OS X cruft
+.DS_Store
+Icon?
