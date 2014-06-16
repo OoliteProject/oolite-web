@@ -110,7 +110,7 @@ Oolite 1.76.1 &nbsp;(23&nbsp;MiB)<br>
 <h1 style="margin-top:50px">Test Release configuration</h1>
 <div class="txt" style="width:70%; margin-top:20px">
 Oolite releases (version 1.77 or later) are delivered using Deployment Release configuration to ensure maximum performance.
-Patch programs for Test Release configuration are available from <a href="http://developer.berlios.de/project/showfiles.php?group_id=3577">BerliOS</a>.<br>
+Patch programs for Test Release configuration are available from <a href="https://github.com/OoliteProject/oolite/releases">GitHub</a>.<br>
 <br>
 Test Release configuration is intended for testers, maintainers, OXP developers and in general for whoever has an interest in having Oolite configured with the following debugging features (at the expense of performance):<br>
 <ul style="margin-left:30px">
@@ -128,7 +128,7 @@ Test Release configuration is intended for testers, maintainers, OXP developers 
 </div>
 
 <h1 style="margin-top:50px">Source Code and Updates</h1>
-<div class="txt" style="width:70%; margin-top:20px">Source code for all platforms is available from <a href="http://developer.berlios.de/project/showfiles.php?group_id=3577">BerliOS</a>. New test releases are announced on the <a href="http://www.aegidian.org/bb/">forum</a>.</div>
+<div class="txt" style="width:70%; margin-top:20px">Source code for all platforms is available from <a href="https://github.com/OoliteProject/oolite">GitHub</a>. New test releases are announced on the <a href="http://www.aegidian.org/bb/">forum</a>.</div>
   
    <h1 style="margin-top:50px">Add-ons</h1>
 <div class="txt" style="width:70%; margin-top:20px">There are numerous expansion packs and other add-ons for Oolite. Don’t forget to look at the <a href="http://www.oolite.org/links">Links</a> page!</div>

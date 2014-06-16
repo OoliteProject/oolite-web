@@ -54,8 +54,8 @@ menu('links')
 
 <h1 id="development" style="margin-top:50px">Development</h1>
 <div class="txt" style="width:70%; margin-top:20px">
-<a href="http://developer.berlios.de/projects/oolite-linux/">Project Page</a> &mdash; the centre of Oolite development. Source code, test releases and bug tracking can be found here.<br />
-<a href="http://developer.berlios.de/bugs/?group_id=3577">Bug Tracker</a> &mdash; please report bugs here.
+<a href="https://github.com/OoliteProject/oolite">Project Page</a> &mdash; the centre of Oolite development. Source code, test releases and bug tracking can be found here.<br />
+<a href="https://github.com/OoliteProject/oolite/issues">Bug Tracker</a> &mdash; please report bugs here.
 </div>
 
 
