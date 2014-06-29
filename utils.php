@@ -41,6 +41,18 @@ function manifestString($mdata) {
 			}
 		}
 	}
+	/* add tags */
+	$tags = $dbh->prepare("SELECT tag FROM Tags WHERE manifest_id = ?");
+	$tags->execute(array($mdata['manifest_id']));
+	$tlines = array();
+	while ($tdata = $tags->fetch()) {
+		$tlines[] = "\t\t\"".str_replace('"','\"',$tdata['tag'])."\"";
+	}
+	if (count($tlines) > 0) {
+		$plist .= "\t\"tags\" = (\n";
+		$plist .= join(",\n",$tlines)."\n";
+		$plist .= "\t);\n";
+	}
 	/* add dependencies */
 	$deps = $dbh->prepare("SELECT dependency_identifier AS identifier,dependency_version AS version,dependency_maximum_version AS maximum_version,dependency_description AS description FROM Dependencies WHERE dependency_type = ? AND manifest_id = ?");
 	$types = array("Required"=>"requires_oxps",

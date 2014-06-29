@@ -125,6 +125,7 @@ function admin_edit_manifest($user,$manifest) {
 					   "file_size" => "",
 					   "information_url" => "",
 					   "license" => "",
+					   "tags" => array(),
 					   "maximum_oolite_version" => "",
 					   "uploaded_by" => $udata['user_id'],
 					   "upload_date" => date("Y-m-d H:i:s"));
@@ -135,12 +136,7 @@ function admin_edit_manifest($user,$manifest) {
 		return false;
 	}
 	
-	if (isset($_POST['dependency'])) {
-		admin_alter_dependency($udata,$mdata);
-		admin_dependency_form($udata,$mdata);
-	} else if (isset($_GET['dependency'])) {
-		admin_dependency_form($udata,$mdata);
-	} else if (isset($_POST['edit'])) {
+	if (isset($_POST['edit'])) {
 		admin_alter_manifest($udata,$mdata);
 		admin_manifest_form($udata,$mdata);
 	} else {
@@ -174,6 +170,12 @@ function admin_form_selector($mdata,$key,$options,$label,$help,$assoc=false) {
 	print ("</select></td></tr><tr><td colspan='2'>$help</td></tr>\n");
 
 }
+
+function admin_form_tag($mdata,$ddata) {
+	$id = $ddata['tag_id'];
+	admin_form_text($ddata,"tag[$id]",20,$ddata['idx'],"");
+}
+	
 
 function admin_form_dependency($mdata,$ddata) {
 	$id = $ddata['dependency_id'];
@@ -215,6 +217,26 @@ function admin_manifest_form($udata,$mdata) {
 	admin_form_text($mdata,"license",50,"License","A short summary of the license terms of the OXP (e.g. CC-BY-NC-SA 3.0). Note that since the purpose of this system is to allow players to download OXPs, using it requires you to grant a license to download and make copies for personal use, and that minimal permission will be assumed if this field is left blank.");
 	admin_form_selector($mdata,"maximum_oolite_version",oolite_max_versions(),"Maximum Oolite version","If you know that this OXP is only applicable to versions of Oolite before a particular release, enter the latest applicable version here. Almost always this should be left blank for 'no maximum version'.");
 	print ("</table></fieldset>\n");
+
+	print ("<fieldset><legend>Tags</legend>\n");
+	print ("<p>Tags are not yet used by Oolite itself, but future versions will use them for filtering, and other OXP cataloguing tools may also make use of them.</p>\n");
+	print ("<table>\n");
+	if ($mdata['manifest_id'] != 0) {
+		$dbh = DB::dbh();
+		$deps = $dbh->prepare("SELECT tag_id,tag FROM Tags WHERE manifest_id = ?");
+		$deps->execute(array($mdata['manifest_id']));
+		$idx = 0;
+		while ($ddata = $deps->fetch()) {
+			$ddata['idx'] = "Tag ".++$idx;
+			admin_form_tag($mdata,$ddata);
+		}
+	}
+	admin_form_tag($mdata,
+				   array("tag_id"=>0,
+						 "tag"=>"",
+					   "idx"=>"New tag"));
+	print ("</table>\n");
+	print ("</fieldset>\n");
 
 	print ("<fieldset><legend>Dependencies</legend>\n");
 	if ($mdata['manifest_id'] != 0) {
@@ -261,7 +283,7 @@ function admin_alter_manifest($udata,&$mdata) {
 		if ($idx == 0) {
 			if ($dtype != "None") {
 				// insert
-				admin_update_database(admin_manifest_keys($idx,$mdata['manifest_id']),"Dependencies","dependency_id",array());
+				admin_update_database(admin_manifest_keys($idx,$mdata['manifest_id'],array("dependency_type","dependency_identifier","dependency_version","dependency_maximum_version","dependency_description")),"Dependencies","dependency_id",array());
 			}
 			// else no new additions
 		} else {
@@ -272,23 +294,49 @@ function admin_alter_manifest($udata,&$mdata) {
 					$clear->execute(array($idx));
 				} else {
 					// update
-					admin_update_database(admin_manifest_keys($idx,$mdata['manifest_id']),"Dependencies","dependency_id",array());
+					admin_update_database(admin_manifest_keys($idx,$mdata['manifest_id'],array("dependency_type","dependency_identifier","dependency_version","dependency_maximum_version","dependency_description")),"Dependencies","dependency_id",array());
 				}
 			} /* else query returns no rows, so this dependency is no
 				 longer attached to this manifest */
 			
 		}
 	}
-
+	/* foreach tag, update it, add it or delete it */
+	$verify = $dbh->prepare("SELECT tag_id FROM Tags WHERE tag_id = ? AND manifest_id = ?");
+	$clear = $dbh->prepare("DELETE FROM Tags WHERE tag_id = ?");
+	foreach ($_POST['tag'] as $idx => $content) {
+		if ($idx == 0) {
+			if (trim($content) != "") {
+				// insert
+				admin_update_database(admin_manifest_keys($idx,$mdata['manifest_id'],array("tag")),"Tags","tag_id",array());
+			}
+			// else no new additions
+		} else {
+			$verify->execute(array($idx,$mdata['manifest_id']));
+			if ($verify->fetch()) {
+				if (trim($content) == "") {
+					// delete
+					$clear->execute(array($idx));
+				} else {
+					// update
+					admin_update_database(admin_manifest_keys($idx,$mdata['manifest_id'],array("tag")),"Tags","tag_id",array());
+				}
+			} /* else query returns no rows, so this dependency is no
+				 longer attached to this manifest */
+			
+		}
+	}
 }
 
-function admin_manifest_keys($idx,$manifest) {
+function admin_manifest_keys($idx,$manifest,$extras=array()) {
 	$keys = array(
-		"dependency_id" => $idx,
+		in_array("tag",$extras)?"tag_id":"dependency_id" => $idx,
 		"manifest_id" => $manifest
 		);
-	foreach (array("dependency_type","dependency_identifier","dependency_version","dependency_maximum_version","dependency_description") as $field) {
-		$keys[$field] = $_POST[$field][$idx];
+	foreach ($extras as $field) {
+		if (isset($_POST[$field][$idx])) {
+			$keys[$field] = $_POST[$field][$idx];
+		}
 	}
 	return $keys;
 }
@@ -300,9 +348,12 @@ function admin_update_database($keys,$table,$primary,$update) {
 		$qvals = array();
 		foreach ($keys as $key => $val) {
 			if ($key != $primary) {
-				$qkeys[] = $key;
-				$qvals[] = ":".$key;
-				$params[":".$key] = isset($update[$key])?$update[$key]:$val;
+				$kval = isset($update[$key])?$update[$key]:$val;
+				if (!is_array($kval)) {
+					$qkeys[] = $key;
+					$qvals[] = ":".$key;
+					$params[":".$key] = $kval;
+				}
 			}
 		}
 		$keystr = join(",",$qkeys);
