@@ -2,6 +2,7 @@
 /releases/
 /nightly/
 
+local-config.php
 
 # Windows cruft
 Thumbs.db
