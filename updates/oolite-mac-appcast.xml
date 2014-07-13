@@ -8,6 +8,68 @@
 		<link>http://www.oolite.org/</link>
 		<language>en</language>
 		<webMaster>ahruman@oolite.org</webMaster>
+
+		<item>
+			<title>Version 1.77.1</title>
+			<guid isPermaLink="false">org.oolite updatefeed 1.77.1</guid>
+			<pubDate>Sun, 29 September 2013 19:00:00 +0200</pubDate>
+			
+			<description><![CDATA[
+<h2>Changes between Oolite 1.77 and Oolite 1.77.1:</h2>
+
+<ul>
+<li>Bug with planetary cloud display fixed
+<li>Cargo/Passenger contracts correctly report premium/advance again
+<li>Fix to escort scan class initialisation
+<li>Fix for mission screen not allowing exit when HUD off
+<li>Fix quaternion constructor to produce identity quaternion as documented when called as <code>new Quaternion()</code>.
+<li><code>guiScreenChanged</code> now fires on transition when launching
+<li>Yaw and velocity are now also zeroed when launching from a station
+<li>Autopilot status reset on death
+<li>Regression: HUD <code>n_bars</code> now works again
+<li>Bug with NPCs continuing to lock on dead ships fixed
+<li>Laser shot positioning fixed
+<li>Bug with manifest checks in <code>guiScreenChanged</code> when launching fixed
+<li>Reasonably skilled pilots will now remember to look where they're going when fleeing
+<li>Shields now also protect subentities
+<li>Edge-case for damage to main station fixed
+<li>Frustum culling over-enthusiasm fixed
+<li>Some 'ghost' ship bugs fixed
+<li>Fix mission screen crash with numeric choice keys
+<li>Fix bug with cancelling galactic jump by script
+<li>Fix bug in validation for station interface creation
+<li>Use correct types in JS <code>Station.market</code> object
+<li>Fix bug with docking with stations where dock is very slightly off-axis
+<li>Fix contract reputation calculations so that negative rep works properly
+<li>Fix inconsistencies with cloaking device behaviour
+<li>Fix calculation of heat damage to subentities
+<li>Fix updates of energy, laser temp, alert condition related to autopilot
+<li>Fix for crash when pressing up on long manifest screen
+<li>Fix conflict between "pilot" and "unpiloted" shipdata keys
+<li>Fix equipment condition check in <code>player.replaceShip()</code>
+<li>Fix flasher scaling in visual effects
+<li>Add fuel scoop icon to small HUD
+<li>Lighten mouse cursor cross color
+<li>Sort save-game list alphabetically
+<li>Slightly lengthen deadlines on parcel contracts to avoid impossible ones
+<li>Prevent docking with dead stations
+<li>Fix memory leaks.
+<li>Remove <code>performBroadside</code> AI command
+<li>Fix scanner display bug
+<li>Display correct key in 'pause' message
+<li>Fix rotational_velocity for subentities
+<li>Fix <code>shipEnergyBecameFull</code> event to fire as documented</ul>]]></description>
+			
+			<enclosure	url="http://oolite.org/releases/Oolite-1.77.1-mac.zip"
+			length="24161395"
+			type="application/octet-stream"
+			sparkle:version="1.77.1"
+			sparkle:dsaSignature="MC4CFQDBfEVqPHaVPEKIeadTUmVH5i+lQwIVAKBKKyIC2qmI+7E1dvw1hljEbj9M"
+			/>
+			<sparkle:minimumSystemVersion>10.5</sparkle:minimumSystemVersion>
+		</item>
+
+		<item>
 			<title>Version 1.76.1</title>
 			<guid isPermaLink="false">org.oolite updatefeed 1.76.1</guid>
 			<pubDate>Sun, 13 May 2012 15:30:00 +0100</pubDate>
