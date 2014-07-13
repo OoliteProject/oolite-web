@@ -22,7 +22,7 @@
 
 		<p>One of the most important aspects of Oolite is customisation: almost all parts of the game can be modified using simple free text and graphics tools, and over five hundred <a href='/oxps/'>expansion packs</a> are available, ranging from minor tweaks such as a new ship or replacement sound effects, all the way up to giant missions it could take you weeks to play through.</p>
 
-		<p>Oolite runs on Mac OS X (10.5 or later), Windows (XP or later), and Linux. It is designed not to need the latest hardware, and requires only a 1GHz processor, 1GB of RAM, and an Open GL-capable graphics card for basic performance (though a higher specification is recommended, and some expansion packs may require a more modern computer).</p>
+		<p>Oolite runs on Mac OS X (10.6 or later), Windows (XP or later), and Linux. It is designed not to need the latest hardware, and requires only a 1GHz processor, 1GB of RAM, and an Open GL-capable graphics card for basic performance (though a higher specification is recommended, and some expansion packs may require a more modern computer).</p>
 
 		<p>The game and source code are freely available under the <a href="http://www.gnu.org/licenses/gpl-2.0.html">GNU General Public License</a>.</p>
 
