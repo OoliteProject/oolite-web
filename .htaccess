@@ -14,6 +14,6 @@ Options +MultiViews
 	RewriteRule ^material-test-suite http://wiki.alioth.net/index.php/Material_Test_Suite_OXP [R=permanent]
 </IfModule>
 
-ErrorDocument 404 /e404.shtml
+ErrorDocument 404 /e404.php
 
 Header always append X-Frame-Options DENY
