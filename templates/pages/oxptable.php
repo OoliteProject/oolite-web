@@ -1,3 +1,4 @@
+<p style="color: #aaa; margin: 0; margin-top: 0em; padding: 0em; font-size: 90%;">Click column header to sort table.</p>
 <table class='oxzs'>
 <tr><th><a href='./?sort=c'>Category</a></th><th><a href='./?sort=t'>Title</a></th><th><a href='./?sort=a'>Author</a></th><th><a href='./?sort=d'>Updated</a></th><th title='Download'>↓</th></tr>
 <?php

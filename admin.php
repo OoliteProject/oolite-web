@@ -44,8 +44,8 @@ function admin_login_form() {
 	print ("<form action='./' method='post'>\n");
 	print ("<p>If you are a new expansion pack writer, you can request a username and password on the <a href='http://aegidian.org/bb/'>forums</a>.</p>"); // TODO: should have a specific thread for this
 	print ("<fieldset><legend>Log in</legend>\n");
-	print ("<div>Username: <input name='user'></div>\n");
-	print ("<div>Password: <input name='pass' type='password'></div>\n");
+	print ("<div><table style='width:1em'><tr><td>Username:</td><td align='left'><input name='user' style='width:12em'></td></tr>");
+	print ("<tr><td>Password:</td><td align='left'><input name='pass' type='password' style='width:12em'></td></tr></table></div>\n");
 	print ("<input type='submit' value='Log in'>");
 	print ("</fieldset>\n");
 	print ("</form>");
