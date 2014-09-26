@@ -36,6 +36,26 @@ function manifestString($mdata) {
 					$catname->execute(array($v));
 					$cdata = $catname->fetch();
 					$v = $cdata['cat_name'];
+				} else if ($k == "description") {
+					$shortdesc = false;
+					if (substr($_SERVER['HTTP_USER_AGENT'],0,7) == "Oolite/") {
+						$version = explode(" ",substr($_SERVER['HTTP_USER_AGENT'],7));
+						if ($version[0] != "") {
+							$components = explode(".",$version[0]);
+							if ($components[0] < 1 || ($components[0] == 1 && $components[1] <= 80)) {
+								// 1.79 and 1.80 don't support
+								// extended descriptions
+								$shortdesc = true;
+							}
+						} else {
+							// old 1.79 build
+							$shortdesc = true;
+						}
+					} // else not Oolite, so give full description
+					if ($shortdesc) {
+						// trim to first line only
+						$v = preg_replace("/[\r\n].*/","",$v);
+					}
 				}
 				$plist .= "\t\"$k\" = \"".str_replace('"','\"',$v)."\";\n";
 			}
