@@ -30,12 +30,17 @@ function manifestString($mdata) {
 	$catname = $dbh->prepare("SELECT cat_name FROM Categories WHERE category_id = ?");
 	$plist = "{\n";
 	foreach ($mdata as $k => $v) {
-		if ($k != "manifest_id" && $k != "uploaded_by" && $k != "upload_date" && $k != "active") {
+		if ($k != "manifest_id" && $k != "uploaded_by" && $k != "active") {
 			if ($v) {
 				if ($k == "category") {
 					$catname->execute(array($v));
 					$cdata = $catname->fetch();
 					$v = $cdata['cat_name'];
+				} else if ($k == "upload_date") {
+					if (defined("OOLITE_MANIFEST_API")) {
+						// automated key provided by API
+						$v = strtotime($v);
+					}
 				} else if ($k == "description") {
 					$shortdesc = false;
 					if (substr($_SERVER['HTTP_USER_AGENT'],0,7) == "Oolite/") {
