@@ -5,15 +5,15 @@ require("utils.php");
 
 // default version for new OXZ manifests (should probably be latest
 // stable release)
-define("OOLITE_DEFAULT_OXZ_OOLITE_VERSION","1.80");
+define("OOLITE_DEFAULT_OXZ_OOLITE_VERSION","1.82");
 
 function oolite_versions() {
-	return array("1.79","1.80","1.81","1.82");
+	return array("1.79","1.80","1.81","1.82","1.83","1.84");
 }
 
 function oolite_max_versions() {
 	// assume that more than 99 point releases of a named release are unlikely
-	$array = array_merge(oolite_versions(),array("1.79.99","1.80.99","1.81.99","1.82.99",""));
+	$array = array_merge(oolite_versions(),array("1.79.99","1.80.99","1.81.99","1.82.99","1.83.99","1.84.99"));
 	sort($array);
 	return $array;
 }

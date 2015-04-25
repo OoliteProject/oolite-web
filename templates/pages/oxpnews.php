@@ -2,6 +2,7 @@
 		<h2>Latest Expansion Releases...</h2>
 		<ul>
 <?php		  
+try {
 $oxzs = getOXZs("d");
 for ($i=0;$i<5;$i++) {
 	$oxz = $oxzs->fetch();
@@ -17,6 +18,9 @@ for ($i=0;$i<5;$i++) {
 	}
 	print (" <span class='newsdate'>".date("j F Y",$oxz['released'])."</span>");
 	print ("</li>\n");
+}
+} catch (Exception $e) {
+    print ("<li>Unable to load release list</li>");
 }
 ?>
 		</ul>
