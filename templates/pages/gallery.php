@@ -3,7 +3,7 @@
 
 $images = array(
 	"Basic game" => array(
-		"Main.jpg" => "Oolite 1.80's start screen includes an expansion pack manager and quick reference guides",
+		"Main.jpg" => "Oolite's start screen includes an expansion pack manager and quick reference guides",
 		"Tutorial.png" => "A tutorial introduces the basics of piloting, combat, and travel.",
 		"Maraus.jpg" => "Oolite has over 2000 systems to explore. This is Maraus, a wealthy industrial world.",
 		"Contracts.png" => "A route finder allows long journeys to be planned - great for transport contracts",

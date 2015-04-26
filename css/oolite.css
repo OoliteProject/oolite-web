@@ -195,6 +195,7 @@ p {
 	color: #fff;
 	height: 160px;
 	background-position: center center;
+	background-repeat: no-repeat;
 	margin: 0 0.5em;
 }
 
@@ -211,6 +212,7 @@ p {
 	color: #fff;
 	height: 310px;
 	background-position: center center;
+	background-repeat: no-repeat;
 	margin: 0;
 }
 
@@ -357,6 +359,10 @@ table.oxzs td {
 	margin: 1em 0;
 }
 
+#nightlybuilds {
+	clear: both;
+}
+
 
 /* Admin pages */
 
@@ -379,3 +385,17 @@ form table tr.field td {
 form table p {
 	padding: 0;
 }
+
+@media (max-width: 50em) {
+	#navigation, #body, #maincontent, .news, .oxpnews, .relatedlinks {
+		float: none;
+		clear: both;
+		width: 100%;
+	}
+
+	.galleryitem {
+		width: 98%;
+	}
+
+}
+
