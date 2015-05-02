@@ -1,5 +1,18 @@
 <?php
 
+function admin_superuser($user) {
+	$dbh = DB::dbh();
+	$checksu = $dbh->prepare("SELECT user_id FROM Administrators WHERE user_id = ?");
+	$checksu->execute(array($user));
+	if ($result = $checksu->fetch()) {
+		// double-check here should be unnecessary
+		if ($result['user_id'] == $user) {
+			return true;
+		}
+	}
+	return false;
+}
+
 function admin_manifests() {
 	if (isset($_GET['logout'])) {
 		setcookie("login",false);
@@ -57,9 +70,21 @@ function admin_actions($user) {
 		admin_edit_manifest($user,(int)$_REQUEST['edit']);
 	} else if (isset($_REQUEST['cnpwd'])) {
 		admin_change_password($user);
+	} else if (admin_superuser($user) && isset($_REQUEST['adduser'])) {
+		admin_adduser($user);
 	} else {
 		admin_menu($user);
 	}
+}
+
+function admin_adduser($user) {
+	
+	$dbh = DB::dbh();
+	$adduser = $dbh->prepare("INSERT INTO Users (username,password) VALUES (?,MD5(CONCAT(?,?)))");
+	$adduser->execute(array($_POST['adduser'],$_POST['initpass'],OOLITE_PWHASH));
+	print ("<p class='ok'>Created user ".htmlspecialchars($_POST['adduser'])."</p>\n");
+
+	admin_menu($user);
 }
 
 function admin_userdata($user) {
@@ -93,6 +118,15 @@ function admin_menu($user) {
 	print ("<h2>Manage account</h2>\n");
 	print ("<p><a href='./?cnpwd=1'>Change password</a></p>\n");
 	print ("<p><a href='./?logout=1'>Log out</a></p>\n");
+
+	if (admin_superuser($user)) {
+		print ("<h2>Create account</h2>\n");
+		print ("<form action='./' method='post'>\n");
+		print ("<div>Username: <input name='adduser'> (usually the same as their forum username)</div>\n");
+		print ("<div>Initial password: <input name='initpass'> (remember to advise user to change on first login)</div>\n");
+		print ("<div><input type='submit' value='Add User'></div>");
+		print ("</form>\n");
+	}
 }
 
 function admin_edit_manifest($user,$manifest) {
