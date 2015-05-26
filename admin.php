@@ -104,7 +104,8 @@ function admin_userdata($user) {
 
 function admin_menu($user) {
 	$dbh = DB::dbh();
-	$getmanifests = $dbh->prepare("SELECT manifest_id,active,identifier,title,version FROM Manifests WHERE uploaded_by = ? ORDER BY title, version");
+    // do not show deleted manifests older than 7 days
+	$getmanifests = $dbh->prepare("SELECT manifest_id,active,identifier,title,version FROM Manifests WHERE uploaded_by = ? AND (active != 'Deleted' OR TO_DAYS(upload_date) + 7 > TO_DAYS(NOW())) ORDER BY title, version");
 	$getmanifests->execute(array($user));
 	print ("<h2>Manage manifests</h2>");
 	print ("<ul>");
