@@ -11,6 +11,7 @@ $images = array(
 		"Equipment.png" => "A wide range of equipment is available to increase your chances of survival."
 		),
 	"Expansion packs" => array(
+		"NovaMining.jpg" => "Mining...my own business",
 		"CrescentPlanet.jpg" => "Crescent Planet",
 		"GriffThargoid.png" => "Thargoid warships",
 		"CatII.png" => "A Cat Mark II launching a missile under heavy fire",
@@ -23,6 +24,7 @@ $images = array(
 	);
 
 $meta = array(
+	"NovaMining.jpg" => "Screenshot by another_commander with Zygo Cinematic Skies, Griff Ships, Zygo Explosions and other OXPs",
 	"CrescentPlanet.jpg" => "Screenshot by Cody with CinematicSky&Nebulas, Farsun, and Povray Planets OXPs", // http://s1355.photobucket.com/user/Commander-Cody/media/Oolite/Crescent-2_zpsaf930f29.png.html
 	"Maraus.jpg" => "Screenshot by Cody",
 	"GriffThargoid.png" => "Screenshot with CinematicSky&Nebulas and Griff's Ship set",
