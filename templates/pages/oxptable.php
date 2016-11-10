@@ -22,6 +22,7 @@ function showOXZ($oxz)
 		print ("<a href='".$oxz['download_url']."'><img src='/images/template/download.png' alt=\"$vstr\" title=\"$vstr\"></a>");
 	}
 	print ("</td></tr>");
+	print ("<tr><td colspan='5'>".$oxz['description']."</td></tr>");
 }
 
 function nextOXZ($query) {
