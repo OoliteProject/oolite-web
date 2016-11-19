@@ -1,6 +1,23 @@
-<p style="color: #aaa; margin: 0; margin-top: 0em; padding: 0em; font-size: 90%;">Click column header to sort table.</p>
+<?php
+if($_GET['desc']>0) {
+  $desc="&desc=1";
+  $invdesc = 0;
+  $invdescshow = "Hide";
+} else {
+  $desc="";
+  $invdesc = 1;
+  $invdescshow = "Show";
+}
+?>
+<p style="color: #aaa; margin: 0; margin-top: 0em; padding: 0em; font-size: 90%;">Click column header to sort table.
+<a href='./?sort=<?php echo sort_parameter();?>&desc=<?php echo $invdesc;?>'><?php echo $invdescshow;?> descriptions.</a></p>
 <table class='oxzs'>
-<tr><th><a href='./?sort=c'>Category</a></th><th><a href='./?sort=t'>Title</a></th><th><a href='./?sort=a'>Author</a></th><th><a href='./?sort=d'>Updated</a></th><th title='Download'>↓</th></tr>
+<tr><th><a href='./?sort=c<?php
+echo $desc?>'>Category</a></th><th><a href='./?sort=t<?php
+echo $desc?>'>Title</a></th><th><a href='./?sort=a<?php
+echo $desc?>'>Author</a></th><th><a href='./?sort=d<?php
+echo $desc?>'>Updated</a></th><th title='Download'>↓</th></tr>
+
 <?php
 
 function showOXZ($oxz) 
@@ -22,14 +39,18 @@ function showOXZ($oxz)
 		print ("<a href='".$oxz['download_url']."'><img src='/images/template/download.png' alt=\"$vstr\" title=\"$vstr\"></a>");
 	}
 	print ("</td></tr>");
-	print ("<tr><td colspan='5'>".htmlspecialchars($oxz['description'])."</td></tr>");
+	if($_GET['desc']>0) print ("<tr><td colspan='5'>".htmlspecialchars($oxz['description'])."</td></tr>");
 }
 
 function nextOXZ($query) {
 	return $query->fetch();
 }
 
-$oxzs = getOXZs(isset($_GET['sort'])?$_GET['sort']:"d");
+function sort_parameter() {
+    return(isset($_GET['sort'])?$_GET['sort']:"d");
+}
+	
+$oxzs = getOXZs(sort_parameter());
 while ($oxz = nextOXZ($oxzs))
 {
 	showOXZ($oxz);
