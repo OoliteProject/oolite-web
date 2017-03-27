@@ -42,7 +42,7 @@ function showOXZ($oxz, $forcedesc)
 	}
 	print ("</td></tr>");
 	if($forcedesc || $_GET['desc']>0) 
-		print ("<tr><td colspan='5'>".htmlspecialchars($oxz['description'])."</td></tr>");
+		print ("<tr><td colspan='5' class='desc'>".htmlspecialchars($oxz['description'])."</td></tr>");
 }
 
 function nextOXZ($query) {
