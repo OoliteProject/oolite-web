@@ -285,6 +285,10 @@ table.oxzs td {
 	vertical-align: top;
 }
 
+table.oxzs td.desc {
+	color: #bbb;
+}
+
 /* Gallery page */
 
 #gallery {
