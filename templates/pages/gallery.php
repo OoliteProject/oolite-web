@@ -5,7 +5,7 @@ $images = array(
 	"Basic game" => array(
 		"Main.jpg" => "Oolite's start screen includes an expansion pack manager and quick reference guides",
 		"Tutorial.png" => "A tutorial introduces the basics of piloting, combat, and travel.",
-		"Maraus.jpg" => "Oolite has over 2000 systems to explore. This is Maraus, a wealthy industrial world.",
+		"Maraus.png" => "Oolite has over 2000 systems to explore. This is Maraus, a wealthy industrial world.",
 		"Contracts.png" => "A route finder allows long journeys to be planned - great for transport contracts",
 		"Station.png" => "Orbital stations provide facilities and protection to pilots",
 		"Equipment.png" => "A wide range of equipment is available to increase your chances of survival."
@@ -32,7 +32,7 @@ $images = array(
 		"another_commander-iguana05.png" => "",
 		"another_commander-oolite-016.png" => "",
 		"another_commander-oolite-1015.png" => "",
-		"another_commander-oolite-1029.png" => "",
+		"another_commander-oolite-1029.png" => "Thargoid lurking in interstellar space",
 		"another_commander-oolite-1159.png" => "",
 		"another_commander-oolite-1169.png" => "",
 		"another_commander-oolite-1209.png" => "",
@@ -56,13 +56,13 @@ $images = array(
 		"another_commander-Boa_Chase03.jpg" => "",
 		"another_commander-earth_Like01.jpg" => "Earth-like system",
 		"another_commander-stationApproach.jpg" => "Station Approach",
-		"cody20160213-Ceerti.png" => "Ceerti system",
-		"cody20160217-Xeonar.png" => "Xeonar system",
+		"cody20160213-Ceerti.png" => "Ceerti - a revolting little planet",
+		"cody20160217-Xeonar.png" => "Xeonar - scourged by evil disease",
 		"cody20160415-Outbound.png" => "",
-		"cody20170319-Gebeti.png" => "Gebeti system",
+		"cody20170319-Gebeti.png" => "Gebeti - fabled for its ancient Et banana plantations",
 		"cody20170626-Rings-1.png" => "",
-		"cody20170819-Ceraxete.png" => "Ceraxete system",
-		"cody20170924-Ribior.png" => "Ribior system",
+		"cody20170819-Ceraxete.png" => "Ceraxete - inhabited by fierce harmless slimy frogs",
+		"cody20170924-Ribior.png" => "Ribior - noted for its mountain slugs",
 		"devium20151110-interstellar.png" => "Interstellar jump hijack",
 		"gsagostinho20160128-oolite.png" => "",
 		"gsagostinho20170705-shot.png" => "",
@@ -93,7 +93,7 @@ $images = array(
 $meta = array(
 	"NovaMining.jpg" => "Screenshot by another_commander with Zygo Cinematic Skies, Griff Ships, Zygo Explosions and other OXPs",
 	"CrescentPlanet.jpg" => "Screenshot by Cody with CinematicSky&Nebulas, Farsun, and Povray Planets OXPs", // http://s1355.photobucket.com/user/Commander-Cody/media/Oolite/Crescent-2_zpsaf930f29.png.html
-	"Maraus.jpg" => "Screenshot by Cody",
+	"Maraus.png" => "Screenshot by Another_Commander",
 	"GriffThargoid.png" => "Screenshot with CinematicSky&Nebulas and Griff's Ship set",
 	"CatII.png" => "Cat Mark II from Random Hits",
 	"Kiota.png" => "Wildships and Griff's Ship set",
@@ -108,8 +108,10 @@ function image_randomiser($a,$b)
 
 foreach ($images as $header => $imageset) 
 {
+	print ("<h2 class='galleryhead'>$header</h2>\n");
 	if (count($imageset) > 9)
 	{
+		print ("<p style=\"color: #aaa; margin: 0; margin-top: 0em; padding: 0em; font-size: 75%;\"><i><b>[Refresh page for a new set of random screenshots]</b></i></p>");
 		uksort($imageset,"image_randomiser");
 		$imageset = array_slice($imageset,0,9);
 	}
@@ -118,7 +120,6 @@ foreach ($images as $header => $imageset)
 		uksort($imageset,"image_randomiser");
 	}
 	
-	print ("<h2 class='galleryhead'>$header</h2>\n");
 	print ("<div class='galleryblock'>");
 	$set = 0;
 	foreach ($imageset as $image => $caption) 
@@ -138,6 +139,7 @@ foreach ($images as $header => $imageset)
 		}
 	}
 	print ("</div>");
+	print ("</br></br>");
 }
 
 ?>
