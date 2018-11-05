@@ -6,93 +6,91 @@
 		<a href="/whatsnew/v1.80/"> << </a>
 	 </td>
      <td>
-		<a href="/whatsnew/v1.84/"> <-- previously on Oolite</a>
+		<a href="/whatsnew/v1.86/"> <-- previously on Oolite</a>
 	 </td>
    </tr>
 </table> 
 </br></br>
 
-<p>Welcome to Oolite 1.86. A new release with lots of features and 
-enhancements. Together with the significant number of stability fixes 
-applied, we hope and expect you will get even better and smoother gaming 
-experience. Check out some highlights:</p>
+<p>Welcome to Oolite 1.88. New features in this version:
 
 <ul>
-<li><a href="#sub1">Overhauled Planets</a></li>
-<li><a href="#sub2">8K UHD Support</a></li>
-<li><a href="#sub3">"Easy Start" Option</a></li>
-<li><a href="#sub4">Customization, Scripting Improvements and Additional Features</a></li>
+<li><a href="#sub1">Much improved lighting system and graphics enhancements</a></li>
+<li><a href="#sub2">New look for planets and atmospheres</a></li>
+<li><a href="#sub3">Support for up to four joysticks and flight control improvements</a></li>
+<li><a href="#sub4">Scripting and AI improvements, optimizations, quality of life improvements and bug fixes</a></li>
 </ul>
 
-<img src="/images/whatsnew/TheTraveller-banner.png" alt="The dawn of a new version. (screenshot by another_commander)">
+<div style="text-align: center; ">
+	<img src="/images/whatsnew/ferdelancesun.png" style="max-width: 100%; height: auto" alt="Fer-de-Lence towards sun. (screenshot by another_commander)" />
+</div>
 
 </br></br>
-<h2 id="sub1">Overhauled Planets</h2>
+<h2 id="sub1">Much improved lighting system and graphics enhancements</h2>
 
-<p>Probably the first thing that you will notice in this release, is how the planets' 
-look has been thoroughly upgraded, receiving the following enhancements:
-<ul>
-<li>Shader-based atmosphere effects. Atmosphere scattering effects have been 
-implemented and the planets have a new moving clouds layer applied. The 
-combined result can lead to some very interesting new planetary vistas and 
-adds a lot of... atmosphere to the game.</li>
-<li>New ground textures generator. A new and improved Perlin 
-3D based algorithm is used for generating the textures for planets. Ground detail is 
-enhanced and features like mountains can now be identified from space. The 
-new textures generator is available at the highest graphics detail level.</li>
-<li>Lowered the default ambient light in all systems to a quarter of its 
-previous value. With the introduction of the new atmospheric scattering 
-effect, we found that a lower ambient light was improving further the way 
-planets look. The unlit side of planets is now actually dark, creating a more 
-realistic view in space. You can still adjust ambient light levels for each 
-system if you want to though, just like before.</li>
-</ul>
-</p>
+<p>The entire lighting system has been reworked for this version. 
+Oolite now has physically accurate specular lighting for all  ship entities. 
+Furthermore, the materials system has been upgraded to enable creation 
+of materials utilizing the capabilities of the new GGX lighting system 
+and generate materials previously not possible.</p>
+<p>But that's not all. Effect entities can now make use of opacity and this opens a whole new world of 
+possibilities when designing visual effects. The screens below show examples of 
+the new graphics system in action and make use of expansion packs for demonstration purposes. </p>
 
-<img src="/images/whatsnew/cody20171004-Lave-overhauled.png" alt="System Lave (screenshot by Cody)">
+<div style="text-align: center; border: thin #888 solid;">
+	<img src="/images/whatsnew/CobraLeavingStation.png" style="max-width: 100%; height: auto" alt="Cobra Leaving Station" />
+</div>
 
-</br></br>
-<h2 id="sub2">8K UHD Support</h2>
+<div style="text-align: center; border: thin #888 solid;">
+	<img src="/images/whatsnew/CobraRingsAsteroid.png" style="max-width: 100%; height: auto" alt="Cobra Rings Asteroid" />
+</div>
 
-<p>Ready for 8K gaming! Ultra High Definition 4K resolutions are becoming 
-standard for games. We have, therefore, taken an extra step and raised the 
-maximum screen resolution reachable by Oolite to 7680 x 4320 pixels. Reports 
-received from our testers indicate that Oolite loaded with expansion packs 
-easily hits 200 FPS at 4K on an NVidia GTX 1070.</p>
+<div style="text-align: center; border: thin #888 solid;">
+	<img src="/images/whatsnew/GriffBoaProto.png" style="max-width: 100%; height: auto" alt="Griff Boa Prototype" />
+</div>
 
-<img src="/images/whatsnew/UHD8K.jpg" alt="Resolution comparison">
+<div style="text-align: center; border: thin #888 solid;">
+	<img src="/images/whatsnew/ChromeCobra.png" style="max-width: 100%; height: auto" alt="Chrome Cobra" />
+</div>
 
 </br></br>
-<h2 id="sub3">"Easy Start" Option</h2>
+<h2 id="sub2">New look for planets and atmospheres</h2>
 
-<p>An alternative starting scenario is now offered to those Harmless Commanders 
-being intimitaded by the game's entry difficulty level. In addition to 
-the classic start at Lave with just 100Cr, you will have the option of 
-starting the game at Tionisla, which is of considerably higher technological 
-level, with ten times as many credits. Spend them wisely and you will be able 
-to equip your ship quickly so that you can survive those first few tough 
-encounters. You will still need to fight a lot and fight hard though!</p>
+<p>Planets and atmospheres have received a visual upgrade and look better than 
+ever in version 1.88. The planets are also subject to the new lighting system improvements 
+and atmospheres utilize completely new and revised shaders.</p>
 
-<img src="/images/whatsnew/EasyStartOption.png" alt="\"Easy Start\" Option">
+<div style="text-align: center; border: thin #888 solid;">
+	<img src="/images/whatsnew/Lave.png" style="max-width: 100%; height: auto" alt="Lave" />
+</div>
+
+<div style="text-align: center; border: thin #888 solid;">
+	<img src="/images/whatsnew/Reorte.png" style="max-width: 100%; height: auto" alt="Reorte" />
+</div>
 
 </br></br>
-<h2 id="sub4">Customization, Scripting Improvements and Additional Features</h2>
+<h2 id="sub3">Support for up to four joysticks and flight control improvements</h2>
 
-<p>For this version, we are providing expansion pack creators with a plethora 
-of scripting enhancements. New events, new methods and more control over 
-game object properties are made available. In addition, more customization 
-options for the player ship's HUD are delivered, making previously unachievable HUD designs 
-now possible.</p>
+<p>In v1.88 we have responded to requests for a higher number of joysticks in the game. 
+Users wanting to play with a HOTAS and pedals can now do so. Oolite will support up to 
+four joysticks instead of the two we had up to now. Mouse wheel support is another part 
+of the control system that has received notable improvements in this version.</p>
 
+<div style="text-align: center; ">
+	<img src="/images/whatsnew/4joy.png" style="max-width: 100%; height: auto" alt="Four Joysticks Support" />
+</div>
 
-<p>But that's not all. Listening to Commanders and Engineers requests, while 
-anticipating some more, a variety of quality of life features have been added 
-too, such as High-DPI support on Windows, HTTPS support for expansion packs loading, 
-mouse wheel control for changing speed when piloting your ship using a mouse (Windows / Linux), 
-a new option to launch the game in silent mode and more.</p>
+</br></br>
+<h2 id="sub4">Scripting and AI improvements, optimizations, quality of life improvements and bug fixes</h2>
 
-</br><p>Read the <a href='http://aegidian.org/bb/viewtopic.php?p=259915#p259915'>Oolite Bulletins announcement</a> and 
-get the complete log of Oolite 1.86 changes from the <a href='https://github.com/OoliteProject/oolite/blob/1.86/Doc/CHANGELOG.TXT'>GitHub repository.</a></p>
+<p>In this version combat has become just a little bit more challenging with AI that deploy more complex defence 
+patterns and can even decide to make desperate attacks when fleeing. Scripting additions have concentrated mostly 
+on mission screens for this version, while at the same time new scripting properties have been introduced for the 
+chart screens and the ship's scanner. For the Windows port, multiple monitor support is now considered complete 
+and DPI scaling is fully supported also for multiple screens.</p>
+
+</br><p>Read the <a href='http://aegidian.org/bb/viewtopic.php?p=265272#p265272'>Oolite Bulletins announcement</a> and 
+get the complete log of Oolite 1.88 changes from the <a href='https://github.com/OoliteProject/oolite/blob/1.88/Doc/CHANGELOG.TXT'>GitHub repository.</a></p>
 
 </br>
 <table width="100%">
@@ -101,7 +99,7 @@ get the complete log of Oolite 1.86 changes from the <a href='https://github.com
 		<a href="/whatsnew/v1.80/"> << </a>
 	 </td>
      <td>
-		<a href="/whatsnew/v1.84/"> <-- previously on Oolite</a>
+		<a href="/whatsnew/v1.86/"> <-- previously on Oolite</a>
 	 </td>
    </tr>
 </table> 

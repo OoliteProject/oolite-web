@@ -234,6 +234,7 @@ p {
 .os {
 	float: left;
 	width: 32%;
+	min-width: 13em;
 	margin: 0 1% 1em 0;
 	border: thin #888 solid;
 	background: #002;

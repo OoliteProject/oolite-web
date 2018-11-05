@@ -18,7 +18,9 @@
 
 		<p>For those new to the game, the <a href='/starting'>getting started</a> page has some hints for beginners to see you safely through your first flight, and suggests ways to continue in future.</p>
 
-		<img src='/images/expansions.png' alt='Over five hundred expansion packs.'>
+		<div style="text-align: center; ">
+			<img src='/images/expansions.png' style="max-width: 100%; height: auto" alt='Over five hundred expansion packs.' />
+		</div>
 
 		<p>One of the most important aspects of Oolite is customisation: almost all parts of the game can be modified using simple free text and graphics tools, and over five hundred <a href='/oxps/'>expansion packs</a> are available, ranging from minor tweaks such as a new ship or replacement sound effects, all the way up to giant missions it could take you weeks to play through.</p>
 

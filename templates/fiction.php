@@ -59,7 +59,12 @@ $f->add("On arrival at Edbeis it was mayhem all the way in. I found myself shado
 
 $f->add("A ship glints in the darkness up ahead. For once I'm actually hoping I run into a pirate. Maybe then I can slip away while the cops have a bigger fish to catch. But the blip that pops up on my scanner is another purple. Reinforcements?! This just isn't fair; I'm barely staying alive as it is. I've already got my eye on a huge asteroid up ahead. If it's a Rock Hermit, I can give them the slip by ducking in there, or at least buy time to recharge my shields.",
 		"from <a href='http://aegidian.org/bb/viewtopic.php?f=2&t=8667&start=720#p197636'>Tales from the Spacelanes</a> by rayner"
-);
+	);
+	
+$f->add("Oolite is a bottomless well of Elite style space entertainment. (95%)",
+		"from <a href='https://plnehry.idnes.cz/oolite-recenze-013-/Clanek.aspx?c=A180803_222830_bw-plnehry-simul_haj'>plnehry.idnes.cz</a> (8 August 2018)"
+	);
+	
 
 
 
