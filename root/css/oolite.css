@@ -1,0 +1,406 @@
+body {
+	background: #000000;
+	color: white;
+	padding: 0;
+	margin: 0;
+	font-family: Verdana, Geneva, sans-serif;
+	max-width: 100em;
+	margin-right: auto;
+}
+
+#navigation {
+	padding: 0;
+	width: 23%;
+	float: left;
+}
+
+#navigation ul {
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
+}
+
+#navigation li {
+	color: white;
+	padding: 0.5em;
+	margin: 0.5em 0;
+	background: #000618;
+	border-right: thin #009 solid;
+	border-top: thin #009 solid;
+	border-bottom: thin #009 solid;
+	border-top-right-radius: 6px;
+	border-bottom-right-radius: 6px;
+}
+
+#navigation .selected {
+	background: #0c0c55;
+}
+
+#navigation li:hover {
+	background: #118;
+}
+
+#navigation li a {
+	display: block;
+	text-decoration: none;
+}
+
+#navigation ul a:link {
+	color: white;
+	background: transparent;
+}
+
+#navigation ul a:visited {
+	color: white;
+	background: transparent;
+}
+
+
+#body {
+	margin-top: 20px;
+	margin-right: 2%;
+/*	margin-left: 27%; */
+	width: 73%;
+	background: #000003;
+	color: white;
+	border: thin #009 solid;
+	border-radius: 6px;
+	float: right;
+}
+
+h1 {
+	padding: 0.2em;
+	text-align: center;
+	margin: 0;
+	border-bottom: thin #009 solid;
+	color: white;
+	background: #002;
+	border-top-left-radius: 6px;
+	border-top-right-radius: 6px;
+}
+
+h2 {
+	font-family: monospace;
+	margin: 0;
+	padding: 0.2em 0;
+}
+
+h3 {
+	font-family: monospace;
+	font-size: 140%;
+	margin: 0;
+	padding: 0.2em 0;
+}
+
+
+#footer {
+	clear: both;
+	margin: 0 2%;
+	padding: 1em 0;
+	font-size: 90%;
+	text-align: right;
+}
+
+a:link {
+	color: #9cf;
+}
+
+a:visited {
+	color: #99f;
+}
+
+blockquote#setting {
+	color: #aaa;
+	background: #000;
+	margin: 0;
+	margin-top: 2em;
+	padding: 1em;
+	font-style: italic;
+	font-size: 90%;
+}
+
+#setting i {
+	font-style: normal;
+}
+
+#setting cite {
+	font-style: normal;
+	display: block;
+}
+
+#content {
+	margin-top: 0.5em;
+	padding: 1em;
+	min-height: 40em;
+}
+
+/* Main page */
+
+#maincontent {
+	width: 70%;
+	padding-right: 2.5%;
+	border-right: thin #005 dotted;
+}
+
+p {
+	margin: 0 0 0.5em;
+}
+
+.news {
+	float: right;
+	width: 25%;
+	border-bottom: thin #005 dotted;
+}
+
+.news .item {
+	padding: 0.5em 0;
+	border-top: thin #005 dotted;
+}
+
+.newsdate {
+	margin: 0;
+	padding: 0;
+	text-align: right;
+	font-style: italic;
+}
+
+.oxpnews {
+	clear: right;
+	float: right;
+	width: 25%;
+	border-bottom: thin #005 dotted;
+	border-top: thin #005 dotted;
+	margin-top: 2px;
+}
+
+.oxpnews ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+.oxpnews .newsdate {
+	display: block;
+	text-align: right;
+}
+
+.oxpnews li {
+	margin: 0.5em 0;
+	padding: 0;
+}
+
+
+.imgbar {
+	background-color: #000;
+	color: #fff;
+	height: 160px;
+	background-position: center center;
+	background-repeat: no-repeat;
+	margin: 0 0.5em;
+}
+
+.imgbar-chart1 {
+	background-image: url("/images/chart1.jpg");
+}
+
+.imgbar-starfield {
+	background-image: url("/images/starfield.jpg");
+}
+
+.imgbanner {
+	background-color: #000;
+	color: #fff;
+	height: 310px;
+	background-position: center center;
+	background-repeat: no-repeat;
+	margin: 0;
+}
+
+.imgbanner-img1 {
+	background-image: url("/images/banner1.jpg");
+}
+
+
+.clear {
+	clear: both;
+}
+
+/* Download page */
+
+#download {
+	padding: 0 1em;
+}
+
+.os {
+	float: left;
+	width: 32%;
+	min-width: 13em;
+	margin: 0 1% 1em 0;
+	border: thin #888 solid;
+	background: #002;
+	min-height: 10em;
+}
+
+p.req {
+	font-size: 90%;
+	padding: 0 1em;
+	margin: 0.5em 0;
+}
+
+.os ul {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+
+.os li {
+	margin: 0 1em;
+	padding-bottom: 0.5em;
+}
+
+#download h3:before {
+	content: "↓";
+	padding: 0 1em;
+}
+
+#download h3 {
+	font-size: 110%;
+	margin: 0.5em 0 0;
+}
+
+/* OXP list */
+
+#download {
+	padding: 0 1em;
+}
+
+table.oxzs {
+	border-collapse: collapse;
+	width: 100%;
+}
+
+table.oxzs th,
+table.oxzs td {
+	border: thin white solid;
+	padding: 0.2em;
+	vertical-align: top;
+}
+
+table.oxzs td.desc {
+	color: #bbb;
+}
+
+/* Gallery page */
+
+#gallery {
+	padding: 0 1em;
+}
+
+.galleryhead {
+	clear: left;
+}
+
+.galleryblock {
+	
+}
+
+.galleryitem {
+	width: 31%;
+	padding: 0.2em;
+	margin: 0.2em;
+	float: left;
+	border: thin #888 solid;
+	min-height: 260px;
+}
+
+.galleryitem img {
+	display: block;
+	max-width: 100%;
+	border: 0;
+}
+
+.galleryitem a {
+	color: #fff;
+	text-decoration: none;
+	border: 0;
+}
+
+.galleryitem span {
+	display:block;
+	margin: 0 0.2em;
+}
+
+
+.gallerysep {
+	clear: left;
+}
+
+/* Other pages */
+
+#community {
+	padding: 0 1em;
+}
+
+#whatsnew {
+	padding: 0 1em;
+}
+
+
+.relatedlinks {
+	float: right;
+	width: 20%;
+	padding-top: 220px;
+	background-image: url("/images/cobra.jpg");
+	background-repeat: no-repeat;
+	background-position: top right;
+}
+
+.relatedlinks ul {
+	margin: 0;
+	padding: 0;
+}
+.relatedlinks li {
+	list-style-type: none;
+	margin: 1em 0;
+}
+
+#nightlybuilds {
+	clear: both;
+}
+
+
+/* Admin pages */
+
+form table {
+	border-collapse: collapse;
+	width: 100%;
+}
+
+form table td {
+	padding-bottom: 0.4em;
+}
+
+form table tr.field th,
+form table tr.field td {
+	border-top: thin #009 solid;
+	padding: 0.2em;
+	vertical-align: top;
+}
+
+form table p {
+	padding: 0;
+}
+
+@media (max-width: 50em) {
+	#navigation, #body, #maincontent, .news, .oxpnews, .relatedlinks {
+		float: none;
+		clear: both;
+		width: 100%;
+	}
+
+	.galleryitem {
+		width: 98%;
+	}
+
+}
+
