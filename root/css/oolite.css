@@ -211,13 +211,17 @@ a.ctrl-btn {
 
 /* = = = = = = = = = = = = = = = = = = = = = = = = = = */
 
-#navigation blockquote {
+#quote {
     padding: 2.5em 1em 0 0.2em;
-    font-style: italic;
     font-size: 90%;
 }
-
-#navigation cite {
+#quote blockquote {
+    padding: 0;
+    margin: 0 0 0.2em 0;
+    font-style: italic;
+    color: var(--main-secondary-color);
+}
+#quote cite {
     font-style: normal;
     display: block;
 }
@@ -244,7 +248,7 @@ a.ctrl-btn {
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
     padding: 0.8em;
-    min-height: 54em;
+    min-height: 64em;
 }
 
 #content-wrapper .row.active {
@@ -443,7 +447,7 @@ a.show-more-oxp, #show-all-oxp-desc {
 }
 
 tr.oxp-tr-desc td {
-    color: #aaa;
+    color: var(--main-secondary-color);
     font-size: 90%;
     padding-top: 0;
     padding-bottom: 4px;
@@ -467,7 +471,7 @@ tr.oxp-tr-desc td {
 }
 
 .oxp-table .oxp-ver {
-    color: #aaa;
+    color: var(--main-secondary-color);
 }
 
 .oxp-table .oxp-up {

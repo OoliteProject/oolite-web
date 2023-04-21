@@ -22,6 +22,7 @@ const introBanner = (()=>{
 })();
 
 const titleManager = (()=>{
+    let headTitle;
     let titleHeader;
 
     const pageTitles = {
@@ -36,6 +37,7 @@ const titleManager = (()=>{
 
     const _init = (config) => {
         titleHeader = $q('#title-text');
+        headTitle = $q('head title');
         pageTitles['whatsnew'] = `What&#39;s New in Oolite ${config.stableVersion.num} (stable)`;
         _set();
     };
@@ -43,8 +45,7 @@ const titleManager = (()=>{
     const _set = ( page, title ) => {
         if (page) {
             if (title) pageTitles[page] = title;
-            titleHeader.innerHTML = pageTitles[page];
-            $q('#page-title').innerHTML = pageTitles[page];
+            titleHeader.innerHTML = headTitle.innerHTML = pageTitles[page];
         }
         else {
             _set('home');
@@ -59,19 +60,31 @@ const titleManager = (()=>{
 
 const mainMenu = (()=>{
     let currentPage = 'home';
+    let quoteEl, citeEl;
 
     const _init = (config) => {
         $on( '#navigation .nav-link', 'show.bs.tab', el => {
             let t = $attr( el, 'data-bs-target' );
             currentPage = t.split('-')[1];
             titleManager.set(currentPage);
+            scrollTop(1);
+            _setRandomQuote();
         }, false );
+        quoteEl = $q('#navigation blockquote');
+        citeEl  = $q('#navigation cite');
+        _setRandomQuote();
     };
 
-    const _show = (name, top) => {
+    const _setRandomQuote = () => {
+        let j = Math.floor(Math.random() * window.QUOTE_DATA.length);
+        let q = window.QUOTE_DATA[j];
+        quoteEl.innerHTML = '“'+q[0]+'”';
+        citeEl.innerHTML  = '&mdash; from '+q[1];
+    };
+
+    const _show = (name) => {
         let tb = new bootstrap.Tab(`#nav-${name}-tab`);
         tb.show();
-        scrollTop(top || 10);
     };
 
     const _getCurrent = () => {
@@ -462,10 +475,10 @@ function bindLinks( container, html ) {
 
     if (html) $push( container, html );
 
-    $on( $qq('a[href="#started"]',container),  'click', () => mainMenu.show('started',80)  );
-    $on( $qq('a[href="#oxp"]',container),      'click', () => mainMenu.show('oxp',70)      );
-    $on( $qq('a[href="#whatsnew"]',container), 'click', () => mainMenu.show('whatsnew',70) );
-    $on( $qq('a[href="#download"]',container), 'click', () => mainMenu.show('download',70) );
+    $on( $qq('a[href="#started"]',container),  'click', () => mainMenu.show('started')  );
+    $on( $qq('a[href="#oxp"]',container),      'click', () => mainMenu.show('oxp')      );
+    $on( $qq('a[href="#whatsnew"]',container), 'click', () => mainMenu.show('whatsnew') );
+    $on( $qq('a[href="#download"]',container), 'click', () => mainMenu.show('download') );
 }
 
 function setupDownloadVersions( container, html ) {
