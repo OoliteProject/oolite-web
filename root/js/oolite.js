@@ -186,10 +186,11 @@ const galleryManager = (()=>{
     ];
 
     let basicWrappers, basicCaption, basicCarousel, basicSlide = 0,
-    oxpThumbs, oxpWrappers, oxpCaption, oxpInner, oxpCarousel,
+    oxpThumbsCarousel, oxpThumbsInner, oxpThumbsLoaded = {},
+    oxpCaption, oxpInner, oxpCarousel,
     oxpSlide = 0, oxpSlideMove = 0, oxpPage = 0, oxpPageSize = 6, oxpMaxPage;
 
-    const _activate = ( el, set ) => {
+    const _activateSet = ( el, set ) => {
         if ( el.classList.contains('active') ) return;
         $tglClass('#gallery-buttons .ctrl-btn', 'active' );
         $setClass('#page-gallery .gallery', `gallery ${set}-set`);
@@ -229,111 +230,136 @@ const galleryManager = (()=>{
 
         $on( basicWrappers, 'click', el => _basicTo( el.dataset.idx ) );
 
+        _basicTo(0);
     };
 
-    const _oxpTo = ( idx, noCarousel ) => {
-        if ( ! window.GALLERY_DATA ) return;
+    // = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+    const _oxpSetActiveThumb = ( idx ) => {
         oxpSlide = +idx;
         const absIdx = oxpPage*oxpPageSize+oxpSlide;
         oxpCaption.innerHTML = window.GALLERY_DATA[absIdx][1];
-        if ( ! noCarousel ) oxpCarousel.to(+oxpSlide);
-        $rmClass(oxpWrappers, 'active');
-        $addClass(`.oxp-thumbs .thumb-wrapper:nth-child(${+oxpSlide+1})`, 'active');
+
+        $rmClass('#gallery-oxp-thumbs .thumb-wrapper.active', 'active');
+        $addClass($q(`.carousel-item:nth-child(${+oxpPage+1}) .thumb-wrapper:nth-child(${+idx+1})`, oxpThumbsInner), 'active');
     };
 
-    const _oxpPageTo = ( num, activeLast ) => {
-        if ( ! window.GALLERY_DATA ) return;
+    const _oxpSetActiveSlide = ( idx ) => {
+        oxpSlide = +idx;
+        oxpCarousel.to(+oxpSlide);
+    };
+
+    const _oxpLoadThumbsPage = ( idx ) => {
+        if ( oxpThumbsLoaded[idx] ) return;
         const bp = '/i/gallery/oxp/';
-        oxpPage = +num;
+        const offset = idx*oxpPageSize;
+
+        let html = '';
+        for ( let i = 0; i < oxpPageSize; i++ ) {
+            let absIdx = offset+i;
+            if ( absIdx >= window.GALLERY_DATA.length ) break;
+            let l = `${bp}small/`+window.GALLERY_DATA[absIdx][0];
+            html += `<div class="thumb-wrapper"><img data-idx="${i}"src="${l}"/></div>`;
+        }
+        if (html)
+            $push( oxpThumbsInner, `<div class="carousel-item"><div class="thumbs oxp-thumbs">${html}</div></div>` );
+
+        $on( $qq('.thumb-wrapper', oxpThumbsInner.lastChild), 'click', el => _oxpSetActiveSlide( el.dataset.idx ) );
+
+        oxpThumbsLoaded[idx] = true;
+    };
+
+    const _oxpSetPageSlides = () => {
+        const bp = '/i/gallery/oxp/';
         const offset = oxpPage*oxpPageSize;
 
-        let thumbs = $qq('img', oxpThumbs);
         let hrefs  = $qq('a', oxpInner);
         let imgs   = $qq('img', oxpInner);
-
-        $rmClass( $qq('.carousel-item' ,oxpInner), 'active' );
 
         for ( let i = 0; i < oxpPageSize; i++ ) {
             let absIdx = offset+i;
             let ok = !!(absIdx < window.GALLERY_DATA.length);
-            let l1 = ok ? `${bp}small/`+window.GALLERY_DATA[absIdx][0] : '';
-            let l2 = ok ? `${bp}large/`+window.GALLERY_DATA[absIdx][0] : '';
-            $attr( thumbs[i], 'src',  l1 );
-            $attr( hrefs[i],  'href', l2 );
-            $attr( imgs[i],   'src',  l2 );
+            let ln = ok ? `${bp}large/`+window.GALLERY_DATA[absIdx][0] : '';
+            $attr( hrefs[i], 'href', ln );
+            $attr( imgs[i],  'src',  ln );
         }
-        _oxpTo( activeLast ? oxpPageSize-1 : 0 );
-
-        $rmClass( $qq('.carousel-item' ,oxpInner), 'active' );
-        $addClass( activeLast ? oxpInner.lastChild : oxpInner.firstChild, 'active' );
-        oxpSlideMove = 0;
-    };
-
-    const _oxpPrvPage = () => {
-        let p = oxpPage-1;
-        if ( p < 0 ) return;
-        _oxpPageTo(--oxpPage, true);
-    };
-
-    const _oxpNxtPage = () => {
-        let p = oxpPage+1;
-        if ( p > oxpMaxPage ) return;
-        _oxpPageTo(++oxpPage);
     };
 
     const _oxpSlideBtn = (button) => {
         if (oxpSlideMove) return;
-        if ( button.classList.contains('pprv') ) {
-            if ( oxpSlide === 0 ) _oxpPrvPage();
+        if ( button.dataset.bsSlide === 'prev' ) {
+            if ( oxpSlide === 0 && oxpPage > 0 ) _oxpChangePageBySlideBtn(-1);
         }
         else {
-            if ( oxpSlide === oxpPageSize-1 ) _oxpNxtPage();
+            if ( oxpSlide === oxpPageSize-1 && oxpPage < oxpMaxPage ) _oxpChangePageBySlideBtn(1);
         }
     };
 
-    const _initOxp = (config) => {
-        oxpCaption  = $q('#page-gallery .oxp-caption');
-        oxpCarousel = $q('#gallery-oxp-items');
+    const _oxpChangePageBySlideBtn = (delta) => {
+        oxpPage += delta;
+        oxpThumbsCarousel.to(oxpPage);
+        _oxpSetPageSlides();
+        _oxpSetActiveSlide( delta < 0 ? oxpPageSize-1 : 0 );
+        oxpSlideMove = 0;
+    };
 
-        oxpThumbs = $q('#page-gallery .oxp-thumbs');
+    const _initOxp = (config) => {
+        oxpCaption = $q('#page-gallery .oxp-caption');
+        oxpCarousel = $q('#gallery-oxp-items');
         oxpInner  = $q('.carousel-inner', oxpCarousel);
 
+        oxpThumbsCarousel = $q('#gallery-oxp-thumbs');
+        oxpThumbsInner = $q('.carousel-inner', oxpThumbsCarousel);
+
+        oxpThumbsCarousel.addEventListener('slide.bs.carousel', event => {
+            _oxpSetPageSlides( oxpPage = event.to );
+        });
+
+        oxpThumbsCarousel.addEventListener('slid.bs.carousel', event => {
+            let idx = event.from < event.to ? 0 : oxpPageSize-1;
+            _oxpSetActiveThumb(idx);
+            _oxpSetActiveSlide(idx);
+            if ( oxpPage < oxpMaxPage ) _oxpLoadThumbsPage(oxpPage+1);
+        });
+        
         oxpCarousel.addEventListener('slide.bs.carousel', event => {
             oxpSlideMove = 1;
-            _oxpTo( event.to, true );
+            _oxpSetActiveThumb( event.to );
         });
         oxpCarousel.addEventListener('slid.bs.carousel', event => {
             oxpSlideMove = 0;
         });
 
         oxpCarousel = new bootstrap.Carousel(oxpCarousel, {wrap: false});
+        oxpThumbsCarousel = new bootstrap.Carousel(oxpThumbsCarousel, {wrap: false});
 
         oxpMaxPage = Math.trunc((window.GALLERY_DATA.length-1) / oxpPageSize);
 
-        let html1 = '', html2 = '';
-        for ( let i = 0; i < oxpPageSize; i++ ) {
-            html1 += `<div class="thumb-wrapper"><img data-idx="${i}"src=""/></div>`;
-            html2 += `<div class="carousel-item"><a target="_blank"href=""><img src=""/></a></div>`;
-        }
-        $push( oxpThumbs, html1 );
-        $push( oxpInner, html2 );
+        _oxpLoadThumbsPage(0);
+        if (oxpMaxPage) _oxpLoadThumbsPage(1);
 
-        oxpWrappers = $qq('.thumb-wrapper', oxpThumbs);
-        $on( oxpWrappers, 'click', el => _oxpTo( el.dataset.idx ) );
+        let html = '';
+        for ( let i = 0; i < oxpPageSize; i++ ) {
+            html += `<div class="carousel-item"><a target="_blank"href=""><img src=""/></a></div>`;
+        }
+        $push( oxpInner, html );
+
+        _oxpSetPageSlides(0);
 
         $on( '#gallery-oxp-items button', 'click', el => _oxpSlideBtn(el) );
 
-        _oxpPageTo(0);
+        $addClass('#page-gallery .carousel-item:nth-child(1)', 'active');
+
+        _oxpSetActiveThumb(0);
+        _oxpSetActiveSlide(0);
     };
 
     const _init = (config) => {
         _initBasic(config);
         _initOxp(config);
 
-        $on('#gallery-buttons .btn-basic', 'click', el => _activate(el, 'basic') );
-        $on('#gallery-buttons .btn-oxp',   'click', el => _activate(el, 'oxp') );
-
-        _basicTo(0);
+        $on('#gallery-buttons .btn-basic', 'click', el => _activateSet(el, 'basic') );
+        $on('#gallery-buttons .btn-oxp',   'click', el => _activateSet(el, 'oxp') );
     };
 
     return ({

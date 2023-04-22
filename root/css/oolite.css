@@ -139,7 +139,15 @@ a.ctrl-btn {
     flex: 2 1 min-content;
 }
 .site-main {
-    flex: 0 1 1200px;
+    flex: 0 1 auto;
+    max-width: 1200px; 
+}
+
+.star-bg {
+}
+
+.carousel-item img {
+    width: 100%;
 }
 
 /* = = = = = = = = = = = = = = = = = = = = = = = = = = */
@@ -400,10 +408,12 @@ a.ctrl-btn {
 #page-gallery .thumb-wrapper {
     flex: 1 0 auto;
     width: 16%;
+    height: 110px;
     text-align: center;
     opacity: 0.5;
     cursor: pointer;
     border: thin #000 solid;
+    overflow: hidden;
 }
 
 #page-gallery .thumb-wrapper.active {
@@ -415,6 +425,10 @@ a.ctrl-btn {
 #page-gallery .thumb-wrapper:hover {
     opacity: 1;
     border-bottom: thin #888 solid !important;
+}
+
+#gallery-oxp-thumbs button {
+    width: 5%;
 }
 
 /* = = = = = = = = = = = = = = = = = = = = = = = = = = */

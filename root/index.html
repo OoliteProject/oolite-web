@@ -20,10 +20,10 @@
 </head>
 
 <body>
-<div class="flex-row flex-jc-c flex-ai-s site-wrapper">
-    <div class="flex-1"></div>
+<div class="flex-row flex-jc-c site-wrapper">
+    <div class="flex-1 star-bg"></div>
 
-    <div class="site-menu">
+    <div class="site-menu star-bg">
         <div id="navigation">
             <div class="logo-wrp d-sm-none d-md-block">
                 <a href='#'><img src="/i/template/logo.png" alt="Oolite"></a>
@@ -164,7 +164,19 @@
                     </div>
                 </div>
                 <div class="oxp-set">
-                    <div class="thumbs oxp-thumbs"></div>
+
+                    <div id="gallery-oxp-thumbs" class="carousel slide">
+                        <div class="carousel-inner"></div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#gallery-oxp-thumbs" data-bs-slide="prev">
+                             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                             <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#gallery-oxp-thumbs" data-bs-slide="next">
+                             <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                             <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+
                     <div class="caption-container oxp-caption mt-1"></div>
                     <div id="gallery-oxp-items" class="carousel slide">
                         <div class="carousel-inner"></div>
@@ -254,7 +266,7 @@
         </footer>
     </div>
 
-    <div class="flex-3"></div>
+    <div class="flex-3 star-bg"></div>
 </div>
 
 <template id="version-navigator-tpl"><div class="version-navigator">
