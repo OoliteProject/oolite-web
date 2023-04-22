@@ -1,0 +1,147 @@
+<div id='whatsnew'>
+
+<table width="100%">
+   <tr>
+     <td>
+		<a href="/whatsnew/"> <-- back to Oolite stable</a>
+	 </td>
+   </tr>
+</table> 
+</br></br>
+
+<p>Welcome to <strong>Oolite 1.89 Nightly Build</strong>. Bug fixes and new features, 
+under test and development with frequent updates, will be listed here. 
+If you would like to try out the <strong>bleeding edge stuff</strong>, and give us 
+feedback on the new features, then you can download the installer from <a href='https://github.com/OoliteProject/nightlies/releases'>GitHub Oolite nightly repo</a>. 
+Alternative download links can be found on the <a href='http://aegidian.org/bb/'>Oolite forum</a>.</p>
+<!--<p><strong>Warning: these builds may at any time contain serious 
+bugs, prototype features, and other unstable code. We do not 
+recommend these for regular play, and you should take backups of 
+your saved games before using them.</strong></p>
+<br>-->
+<p>Oolite bug fixes and new features, listed below, are grouped in:
+<ul>
+<li><a href="#sub1">General Enhancements</a> <i>(last update: 08 August 2020)</i></li>
+<li><a href="#sub2">Expansion Pack Development - Scripting</a> <i>(last update: 07 August 2020)</i></li>
+<li><a href="#sub3">Bug Fixes</a> <i>(last update: 28 July 2020)</i></li>
+</ul></p>
+
+<div style="text-align: center; ">
+	<img src="/images/whatsnew/lavearth.jpg" style="max-width: 100%; height: auto" alt="Lave is Earth expansion pack. (screenshot by another_commander)" />
+</div>
+
+<br>
+<h2 id="sub1">General Enhancements</h2>
+<ul>
+<li><i>(08 August 2020)</i> Enhanced cursor visibility.</li>
+<li><i>(25 July 2020)</i> Enhanced basic compass icon shapes, improving perception of what is being targeted.</li>
+<li>Cloaked ships do mass lock the player now.</li>
+<li>The number of turrets on a ship, if they exist, is now shown on the Ship Library screen.</li>
+<li>Temporarily activated the newly introduced Oren-Nayar diffuse BRDF alternative.</li>
+<li>Temporarily increase sunlight source using the introduced light source radiance and exposure multipliers in the planet, 
+  atmosphere and ship shaders.</li>
+<li>Enhanced long-distance torus speed travelling.</li>
+<li>Illumination mapping of the dark side of custom planets is now
+  supported on the diffuse map's alpha channel.</li>
+<li>Custom planets now support normal maps, with specular on their alpha
+  channel.</li>
+<li>Visual improvements made on atmospheres.</li>
+<li>New nav and witchspace beacons deployed, replacing the previous ones.</li>
+<li>Added the ability to limit star and nebula textures to particular
+  galaxies, providing the opportunity to make galaxies more visually 
+  unique.</li>
+<li>View Keyboard Settings item from start menu has been replaced with
+  Game Options, which are now accessible from the get-go rather than
+  after starting a game first.</li>
+<li>Requesting 16 bits per color component from OpenGL during
+  initialization is now an option (-16bpcc startup parameter).</li>
+<li>Keyboard controls to cycle and select MFDs in reverse.</li>
+<li>Mac port: Right mouse button to center pitch and roll should now 
+  work the same way as in the Windows and Linux ports.</li>
+<li>Pressing Ctrl while handling the external camera view will now slow 
+  rotation and zoom speeds down. Allows for more precise external
+  camera control.</li>
+<li>Changed appearance of Lave to reflect the rain forests mentioned in
+  its description.</li>
+<li>Windows port: CPU type and clock speed are now reported at the log
+  header.</li>
+<li>Added docking clearance joystick button control to stickmapper.</li>
+<li>Added joystick button support for docking computer (standard and fast).</li>
+<li>Default ambient light level set to 0.1.</li>
+<li>Added filmic tonemapping to default shaders.</li>
+</ul>
+
+<div style="text-align: center; ">
+	<img src="/images/whatsnew/BoaOverBemaera.jpg" style="max-width: 100%; height: auto" alt="Extra illuminated Boa over Bemaera. (screenshot by another_commander)" />
+</div>
+
+<br>
+<h2 id="sub2">Expansion Pack Development - Scripting</h2>
+<ul>
+<li><i>(07 August 2020)</i> Planetary terminator threshold vector is added as a user defined parameter. It can either be defined in planetinfo.plist using the terminator_threshold_vector key or by script using the Planet property terminatorThresholdVector.</li>
+<li>Added airColor and airColorMixRatio properties to the JS Planet object, enabling script control over the atmosphere color parameters for OXP added planets.</li>
+<li>Amount of air color mix with atmosphere standard color is now settable from planetinfo.plist, using the air_color_mix_ratio key; scripts can set it too, using the read/write system.info.air_color_mix_ratio property.</li>
+<li>Atmosphere color is now settable from planetinfo.plist, using the air_color key; scripts can set it too, using the read/write system.info.air_color property.</li>
+<li>An override mechanism is provided, for the amount of time a rescue in an escape pod takes.</li>
+<li>The Javascript runtime size can now be adjusted.</li>
+<li>Added activeMissile property.</li>
+<li>Added 'IsSunlit' to entity.</li>
+<li>Added support for equipment-overrides.plist.</li>
+<li>Added playerWillBuyNewShip and playerWillReplaceShip world events.
+  Replacing a ship is now considered a different event to buying one.</li>
+<li>Added EquipmentInfo.calculatedPrice property. This is the calculated
+  price of the equipment item, if the equipment item utilises the
+  updateEquipmentPrice() condition script function.</li>
+<li>Added amount paid parameter to playerBoughtEquipment event. Gives
+  instant visibility of the actual price paid by the player, taking
+  into account any rebates or adjustments in the purchase.</li>
+<li>addShipToShipyard can now look for and add lasers from extras array.
+  This is so a laser weapon can be included in "extras" array and added
+  to the ship.</li>
+<li>Station shipyard is now accessible from Javascript (station.shipyard).</li>
+<li>World event "commsMessageReceived" will now be triggered when the
+  "player.commsMessage" function is called. The "sender" argument will
+  be null in this case. Scripts that implement "commsMessageReceived"
+  will need to check for a null value, otherwise an error will occur.</li>
+</ul>
+
+<div style="text-align: center; ">
+	<img src="/images/whatsnew/EarthCoriolisCloseup.jpg" style="max-width: 100%; height: auto" alt="Coriolis close-up with background moon. (screenshot by another_commander)" />
+</div>
+
+<br>
+<h2 id="sub3">Bug Fixes</h2>
+<ul>
+<li><i>(28 July 2020)</i> Fixed kg and g unit commodities not being removed when player ship was being replaced or when a new one was bought and excess kg and g quantities beyond station's capacity remained unsold during the cargo selling phase.</li>
+<li><i>(25 July 2020)</i> Fixed RGB to HSB conversion in OOColor class.</li>
+<li>Improved stability for ship launches, when ship is too big for a dock and can't be launched.</li>
+<li>Fixed system inhabitants handling, description and error message.</li>
+<li>Fixed air_color key, previously ignored in planetinfo.plist, making possible other than blue color for skies.</li>
+<li>Fixed the thargoidStrikes populator setting.</li>
+<li>Fixed missiles in ship missiles array using primary role instead of equipment key.</li>
+<li>Fixed scoopOverride causing scoop sound to play once when set to false.</li>
+<li>Fixed a bogus ship AI warning about jumping further than allowed.</li>
+<li>Fixed case where an empty cargopod would be generated for specific
+  quantities of precious metals and gemstones.</li>
+<li>Fixed an 'index out of range' error on F5 Status screen.</li>
+<li>Fixed issue where sometimes no rows would be selected in the shipyard
+  screen.</li>
+<li>Docks scripted to not accept player docking now result in autopilot
+  docking rejection also in the case of fast autodock.</li>
+<li>Fixed native exception when a dictionary was passed to OOIsNumberLiteral
+  by OOJSSystemInfo.</li>
+<li>Fixed dust color not getting mixed with 50 percent white, as intended
+  when sun color was set manually.</li>
+<li>Fixed effectRemoved event not triggering when hyperspacing.</li>
+<li>Fixed bug where credits could be generated by 'failing to buy'
+  multiple mount lasers.</li>
+</ul>
+</br>
+<table width="100%">
+   <tr>
+     <td>
+		<a href="/whatsnew/"> <-- back to Oolite stable</a>
+	 </td>
+   </tr>
+</table> 
+</div>
