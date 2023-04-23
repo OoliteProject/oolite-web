@@ -1,5 +1,7 @@
 import mustache from "./mustache.min.js";
 
+const ibp = 'https://raw.githubusercontent.com/OoliteProject/oolite-web/only-media/i/';
+
 const introBanner = (()=>{
     const slideCount = 10;
 
@@ -11,7 +13,7 @@ const introBanner = (()=>{
             let v = arr[i];
             let n = v>999?v:(v>99?'0'+v:(v>9?'00'+v:'000'+v));
             let cls = i === 0 ? ' active' : '';
-            html += `<div class="carousel-item${cls}"><img src="/i/intro-banner/${n}.jpg"></div>`;
+            html += `<div class="carousel-item${cls}"><img src="${ibp}intro-banner/${n}.jpg"></div>`;
         }
         $push( $q('#intro-banner-items .carousel-inner'), html );
     };
@@ -214,7 +216,7 @@ const galleryManager = (()=>{
 
         basicCarousel = new bootstrap.Carousel(basicCarousel);
 
-        const bp = '/i/gallery/basic/';
+        const bp = `${ibp}gallery/basic/`;
         let html1 = '', html2 = '';
         for ( let i = 0; i < basicSlides.length; i++ ) {
             let cls = i === 0 ? ' active' : '';
@@ -251,7 +253,7 @@ const galleryManager = (()=>{
 
     const _oxpLoadThumbsPage = ( idx ) => {
         if ( oxpThumbsLoaded[idx] ) return;
-        const bp = '/i/gallery/oxp/';
+        const bp = `${ibp}gallery/oxp/`;
         const offset = idx*oxpPageSize;
 
         let html = '';
@@ -270,7 +272,7 @@ const galleryManager = (()=>{
     };
 
     const _oxpSetPageSlides = () => {
-        const bp = '/i/gallery/oxp/';
+        const bp = `${ibp}gallery/oxp/`;
         const offset = oxpPage*oxpPageSize;
 
         let hrefs  = $qq('a', oxpInner);
