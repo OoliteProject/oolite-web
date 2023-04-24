@@ -136,10 +136,10 @@ a.ctrl-btn {
 .site-wrapper {
 }
 .site-menu {
-    flex: 2 1 min-content;
+    flex: 2 1 12%;
 }
 .site-main {
-    flex: 0 1 1200px;
+    flex: 1 1 auto;
     max-width: 1200px; 
 }
 
@@ -177,7 +177,7 @@ a.ctrl-btn {
 }
 
 #navigation .nav-link {
-    padding-top: 2px 1em 0 1em;
+    padding: 2px 1em 0 1em;
     height: 2.8em;
     position: relative;
     color: white;
