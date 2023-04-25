@@ -1,6 +1,6 @@
 import mustache from "./mustache.min.js";
 
-const ibp = 'https://raw.githubusercontent.com/OoliteProject/oolite-web/only-media/i/';
+const ibp = 'https://media.oolite.site/i/';
 
 const introBanner = (()=>{
     const slideCount = 10;
@@ -61,15 +61,17 @@ const titleManager = (()=>{
 })();
 
 const mainMenu = (()=>{
-    let currentPage = 'home';
-    let quoteEl, citeEl;
+    let currentPage = 'home',
+    quoteEl, citeEl,
+    fScroll = false;
 
     const _init = (config) => {
         $on( '#navigation .nav-link', 'show.bs.tab', el => {
             let t = $attr( el, 'data-bs-target' );
             currentPage = t.split('-')[1];
             titleManager.set(currentPage);
-            scrollTop(1);
+            if ( fScroll || window.pageYOffset > 500 ) scrollTop(1);
+            fScroll = false;
             _setRandomQuote();
         }, false );
         quoteEl = $q('#navigation blockquote');
@@ -84,8 +86,9 @@ const mainMenu = (()=>{
         citeEl.innerHTML  = '&mdash; from '+q[1];
     };
 
-    const _show = (name) => {
-        let tb = new bootstrap.Tab(`#nav-${name}-tab`);
+    const _show = (name, forceScroll = false) => {
+        fScroll = forceScroll;
+        const tb = new bootstrap.Tab(`#nav-${name}-tab`);
         tb.show();
     };
 
@@ -503,10 +506,10 @@ function bindLinks( container, html ) {
 
     if (html) $push( container, html );
 
-    $on( $qq('a[href="#started"]',container),  'click', () => mainMenu.show('started')  );
-    $on( $qq('a[href="#oxp"]',container),      'click', () => mainMenu.show('oxp')      );
-    $on( $qq('a[href="#whatsnew"]',container), 'click', () => mainMenu.show('whatsnew') );
-    $on( $qq('a[href="#download"]',container), 'click', () => mainMenu.show('download') );
+    $on( $qq('a[href="#started"]',container),  'click', () => mainMenu.show('started',1)  );
+    $on( $qq('a[href="#oxp"]',container),      'click', () => mainMenu.show('oxp',1)      );
+    $on( $qq('a[href="#whatsnew"]',container), 'click', () => mainMenu.show('whatsnew',1) );
+    $on( $qq('a[href="#download"]',container), 'click', () => mainMenu.show('download',1) );
 }
 
 function setupDownloadVersions( container, html ) {

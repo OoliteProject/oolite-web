@@ -139,7 +139,7 @@ a.ctrl-btn {
     flex: 2 1 12%;
 }
 .site-main {
-    flex: 1 1 auto;
+    flex: 1 1 1200px;
     max-width: 1200px; 
 }
 
@@ -364,7 +364,19 @@ a.ctrl-btn {
 }
 
 .imgbar-starfield {
-    background-image: url("https://raw.githubusercontent.com/OoliteProject/oolite-web/only-media/i/starfield.jpg");
+    background-image: url("https://media.oolite.site/i/starfield.jpg");
+}
+
+/* = = = = = = = = = = = = = = = = = = = = = = = = = = */
+
+#getting-started .img-wrp {
+    display: flex;
+    justify-content: center;
+}
+
+#getting-started .img-wrp img {
+    flex: 0 1 min-content;
+    width: 100%;
 }
 
 /* = = = = = = = = = = = = = = = = = = = = = = = = = = */
@@ -442,10 +454,10 @@ a.show-more-oxp, #show-all-oxp-desc {
     width: 24px;
     height: 18px;
     background-color: #9cf;
-    -webkit-mask-image: url(https://raw.githubusercontent.com/OoliteProject/oolite-web/only-media/i/download.svg);
+    -webkit-mask-image: url(https://media.oolite.site/i/download.svg);
     -webkit-mask-repeat: no-repeat;
     -webkit-mask-position: center;
-    mask-image: url(https://raw.githubusercontent.com/OoliteProject/oolite-web/only-media/i/download.svg);
+    mask-image: url(https://media.oolite.site/i/download.svg);
     mask-repeat: no-repeat;
     mask-position: center;
 }
