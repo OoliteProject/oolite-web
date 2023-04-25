@@ -82,7 +82,8 @@
 
     <div class="px-0 site-main">
         <div id="title-wrapper" class="ctrl-bg">
-            <h1 id="title-text">Oolite: an open-world space opera</h1>
+            <h1 class="p-title d-sm-none d-md-block"></h1>
+            <h1 class="p-title p-title-small d-sm-block d-md-none"></h1>
         </div>
 
         <div id="content-wrapper" class="tab-content">
@@ -270,17 +271,17 @@
 </div>
 
 <template id="version-navigator-tpl"><div class="version-navigator">
-    <div class="row">
-        <div class="col-md-6">
+    <div class="flex-row flex-jc-sb">
+        <div class="btn-wrp">
             <div class="vnav vnav-first btn-set-3 btn-set-4 btn-set-5"><span class="ctrl-btn">❮ ❮</span></div>
-            <div class="vnav vnav-prev btn-set-2 btn-set-3 btn-set-4 btn-set-5"><span class="ctrl-btn">❮&nbsp;&nbsp;previously&nbsp;on&nbsp;Oolite</span></div>
-            <div class="vnav vnav-last btn-set-6"><span class="ctrl-btn">❮&nbsp;&nbsp;back&nbsp;to&nbsp;Oolite&nbsp;stable</span></div>
+            <div class="vnav vnav-prev btn-set-2 btn-set-3 btn-set-4 btn-set-5"><span class="ctrl-btn">❮&nbsp;&nbsp;<span class="d-sm-none d-md-inline">previously&nbsp;on&nbsp;Oolite</span></span></div>
+            <div class="vnav vnav-last btn-set-6"><span class="ctrl-btn">❮&nbsp;&nbsp;<span class="d-sm-none d-md-inline">back&nbsp;to&nbsp;Oolite&nbsp;stable</span></span></div>
         </div>
 
-        <div class="col-md-6 text-end">
-            <div class="vnav vnav-next btn-set-1 btn-set-2 btn-set-3"><span class="ctrl-btn">back&nbsp;to&nbsp;the&nbsp;future&nbsp;of&nbsp;Oolite&nbsp;&nbsp;❯</span></div>
+        <div class="btn-wrp">
+            <div class="vnav vnav-next btn-set-1 btn-set-2 btn-set-3"><span class="ctrl-btn"><span class="d-sm-none d-md-inline">back&nbsp;to&nbsp;the&nbsp;future&nbsp;of&nbsp;Oolite</span>&nbsp;&nbsp;❯</span></div>
             <div class="vnav vnav-last btn-set-1 btn-set-2 btn-set-3"><span class="ctrl-btn">❯ ❯</span></div>
-            <div class="vnav vnav-nightly btn-set-4"><span class="ctrl-btn">Oolite&nbsp;on&nbsp;the&nbsp;bleeding&nbsp;edge&nbsp;&nbsp;❯</span></div>
+            <div class="vnav vnav-nightly btn-set-4"><span class="ctrl-btn"><span class="d-sm-none d-md-inline">Oolite&nbsp;on&nbsp;the&nbsp;bleeding&nbsp;edge</span>&nbsp;&nbsp;❯</span></div>
         </div>
     </div>
 </div>

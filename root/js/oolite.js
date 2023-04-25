@@ -24,8 +24,7 @@ const introBanner = (()=>{
 })();
 
 const titleManager = (()=>{
-    let headTitle;
-    let titleHeader;
+    let titleHeaders;
 
     const pageTitles = {
         'home':      'Oolite: an open-world space opera',
@@ -38,8 +37,7 @@ const titleManager = (()=>{
     };
 
     const _init = (config) => {
-        titleHeader = $q('#title-text');
-        headTitle = $q('head title');
+        titleHeaders = $qq('#title-wrapper .p-title, head title');
         pageTitles['whatsnew'] = `What&#39;s New in Oolite ${config.stableVersion.num} (stable)`;
         _set();
     };
@@ -47,7 +45,7 @@ const titleManager = (()=>{
     const _set = ( page, title ) => {
         if (page) {
             if (title) pageTitles[page] = title;
-            titleHeader.innerHTML = headTitle.innerHTML = pageTitles[page];
+            $html(titleHeaders, pageTitles[page]);
         }
         else {
             _set('home');
@@ -373,7 +371,7 @@ const galleryManager = (()=>{
 })();
 
 const oxpManager = (()=>{
-    let oxpData, oxpTable, descHidden = true, notVisible, visible = 10,
+    let oxpData, oxpTable, descHidden = true, notVisible, visible = 20,
     curSort = '', curDir = 1;
 
     const _fetchData = () => {

@@ -120,6 +120,10 @@ const $_opClass = ( sel, names, cb ) => {
     } );
 };
 
+const $html = ( sel, html ) => {
+    return $_bulk( sel, el => el.innerHTML = html );
+};
+
 const $unshift = ( sel, content ) => {
     if ( typeof content === 'string' )
         return $_bulk( sel, el => el.insertAdjacentHTML('afterbegin', content) );
