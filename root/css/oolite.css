@@ -165,7 +165,7 @@ a.ctrl-btn {
 }
 
 #navigation .logo-wrp img {
-    width: 80%;
+    width: 100%;
     max-width: 164px;
 }
 
@@ -395,7 +395,7 @@ a.ctrl-btn {
 /* = = = = = = = = = = = = = = = = = = = = = = = = = = */
 
 #gallery-buttons {
-    padding: 0.5em 0 1em 0;
+    padding: 0.5em 0 1.4em 0;
 }
 
 #page-gallery .gallery .basic-set, #page-gallery .gallery .oxp-set {
@@ -499,6 +499,7 @@ tr.oxp-tr-desc td {
 .oxp-table {
     color: #FFF;
     font-size: 90%;
+    width: 100%;
 }
 
 .oxp-table th a {
