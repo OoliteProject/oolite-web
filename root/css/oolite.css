@@ -10,11 +10,12 @@
 
 body {
     background-color: #000;
-    color: #FFF;
+    color: #DFDFDF;
     padding: 0;
     margin: 0;
     font-family: Verdana, Geneva, sans-serif;
-    padding: 1em 0 1em 0;
+    padding: 1em 4px 1em 4px;
+    font-size: 1.042em;
 }
 
 #footer {
@@ -32,19 +33,27 @@ a:visited {
     color: #99f;
 }
 
+h1 {
+    color: #FFF;
+}
+
 h2 {
     font-family: monospace;
     margin: 0;
     padding: 0.2em 0;
-    font-size: 1.4em;
+    font-size: 1.5em;
+    color: #FFF;
+    letter-spacing: 0.05em;
 }
 
 h3 {
     font-family: monospace;
     margin: 0;
     padding: 0.2em 0;
-    font-size: 1.2em;
+    font-size: 1.25em;
     font-weight: bold;
+    color: #FFF;
+    letter-spacing: 0.055em;
 }
 
 .ctrl-bg {
@@ -52,16 +61,16 @@ h3 {
 }
 
 a.ctrl-btn {
-    color: white;
     text-decoration: none;
 }
 
 .ctrl-btn {
+    color: #FFF;
     cursor: pointer;
     vertical-align: middle;
     overflow: hidden;
     font-size: 90% !important;
-    padding: 0.5em 1em 0.6em 1em;
+    padding: 0.6em 1em 0.6em 1em;
     border-radius: 5px;
     border: thin var(--main-ctrl-border-color) solid;
     background-color: var(--main-ctrl-bg-color);
@@ -72,20 +81,21 @@ a.ctrl-btn {
     border-color: var(--main-border-color);
 }
 
-.imgbar {
-    height: 160px;
-    background-position: center center;
-    background-repeat: no-repeat;
-}
-
-.imgbar img {
-    width: 100%;
-}
-
 .ctrl-btn.active {
     cursor: default !important;
     background-color: var(--main-selected-color) !important;
     border-color: var(--main-border-color);
+}
+
+.imgbar {
+    height: 160px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-color: #000;
+}
+
+.imgbar img {
+    width: 100%;
 }
 
 .secondary-text {
@@ -161,7 +171,7 @@ a.ctrl-btn {
 
 #navigation .logo-wrp {
     text-align: center;
-    padding: 1em 1em 0 1em;
+    padding: 2em 2em 0 1em;
 }
 
 #navigation .logo-wrp img {
@@ -180,10 +190,11 @@ a.ctrl-btn {
 }
 
 #navigation .nav-link {
-    padding: 2px 1em 0 1em;
+    padding: 2px 1em 3px 1em;
     height: 2.8em;
     position: relative;
     color: white;
+    font-size: 1.1em;
     cursor: pointer;
     transition: none;
     border: thin #202066 solid;
@@ -344,9 +355,12 @@ a.ctrl-btn {
 /* = = = = = = = = = = = = = = = = = = = = = = = = = = */
 
 .download-blk {
+    padding-top: 0.42em;
+    padding-bottom: 0.42em;
     border: thin #888 solid;
-    background-color: #002;
+    background-color: var(--main-ctrl-bg-color);
     min-height: 10em;
+    flex: 0 1 32%;
 }
 
 .download-blk p.req {

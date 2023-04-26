@@ -1,4 +1,4 @@
-import mustache from "./mustache.min.js";
+import mustache from "https://cdnjs.cloudflare.com/ajax/libs/mustache.js/4.2.0/mustache.min.js";
 
 const ibp = 'https://media.oolite.site/i/';
 
@@ -78,8 +78,8 @@ const mainMenu = (()=>{
     };
 
     const _setRandomQuote = () => {
-        let j = Math.floor(Math.random() * window.QUOTE_DATA.length);
-        let q = window.QUOTE_DATA[j];
+        let j = Math.floor(Math.random() * window.FICTIONS_DATA.length);
+        let q = window.FICTIONS_DATA[j];
         quoteEl.innerHTML = '“'+q[0]+'”';
         citeEl.innerHTML  = '&mdash; from '+q[1];
     };

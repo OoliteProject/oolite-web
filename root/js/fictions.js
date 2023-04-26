@@ -1,6 +1,6 @@
 'use strict';
 
-window.QUOTE_DATA = [
+window.FICTIONS_DATA = [
 ["The Courier turned, its rear gun mounting tracking Coran’s Mk1 Cobra. Fierce energy fire burst out. The Mk1 Cobra was sent tumbling and exploded, pieces of hull and equipment dispersing into the darkness.",
 "<a href='http://www.drewwagar.com/downloads/books/oolite/Status_Quo.pdf'>Status Quo</a> by Drew Wagar"],
 ["Smuggling was an offence; violating docking protocols was an offence. Attacking merchant ships, blasting open their hulls to steal their cargo and sending their crews to a choking death in the blackness of space was an offence. In a system like Qudira one did not have to be an expert in Co-op law to know what kind of offender to expect.",
