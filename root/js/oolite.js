@@ -358,6 +358,7 @@ const galleryManager = (()=>{
     };
 
     const _init = (config) => {
+        shuffleArray( window.GALLERY_DATA, Math.floor( Date.now() / 86400000 ) );
         _initBasic(config);
         _initOxp(config);
 
