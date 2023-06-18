@@ -52,6 +52,10 @@ const sFormat = ( s, ...args ) => {
     return s;
 };
 
+const rmUrlHash = () => {
+    history.pushState('', document.title, window.location.pathname + window.location.search);
+};
+
 const $q = ( sel, parent = document ) => {
     return typeof sel === 'string' ? parent.querySelector(sel) : sel || null;
 };
@@ -164,12 +168,12 @@ const fetchHTML = ( sel, url, cb, mode ) => {
 };
 
 const mulberry32 = (v) => {
-    return function() {
+    return () => {
         let t = (v += 0x6D2B79F5) >>> 0;
         t = Math.imul(t ^ t >>> 15, t | 1);
         t ^= t + Math.imul(t ^ t >>> 7, t | 61);
         return ((t ^ t >>> 14) >>> 0) / 4294967296;
-    }
+    };
 };
 
 const shuffleArray = ( arr, seed ) => {
