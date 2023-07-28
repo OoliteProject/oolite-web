@@ -1,6 +1,6 @@
 import mustache from "https://cdnjs.cloudflare.com/ajax/libs/mustache.js/4.2.0/mustache.min.js";
 
-const ibp = 'https://media.oolite.site/i/';
+const ibp = 'https://media.oolite.space/i/';
 
 const introBanner = (()=>{
     const slideCount = 10;
@@ -71,10 +71,19 @@ const mainMenu = (()=>{
             if ( fScroll || window.pageYOffset > 500 ) scrollTop(1);
             fScroll = false;
             _setRandomQuote();
+            if ( currentPage === 'home' ) {
+                rmUrlHash();
+            }
+            else {
+                window.location.hash = currentPage;
+            }
         }, false );
         quoteEl = $q('#navigation blockquote');
         citeEl  = $q('#navigation cite');
         _setRandomQuote();
+        if ( window.location.hash ) {
+            _show(window.location.hash.substring(1));
+        }
     };
 
     const _setRandomQuote = () => {
@@ -493,12 +502,11 @@ document.addEventListener( 'DOMContentLoaded', () => {
     fetchHTML( '#page-download .loadable-html', '/html/download.html', setupDownloadVersions );
 
     titleManager.init(OONFIG);
-    mainMenu.init(OONFIG);
     introBanner.init(OONFIG);
     versionNavigator.init(OONFIG);
     galleryManager.init(OONFIG);
     oxpManager.init(OONFIG);
-
+    mainMenu.init(OONFIG);
 } );
 
 function bindLinks( container, html ) {
