@@ -14,6 +14,7 @@
 
     <script src="/js/config.js"></script>
     <script src="/js/helper.js"></script>
+    <script src="/js/auth.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.3/css/bootstrap.min.css" integrity="sha512-SbiR/eusphKoMVVXysTKG/7VseWii+Y3FdHrt0EpKgpToZeemhqHeZeLWLhJutz/2ut2Vw1uQEj2MbRF+TVBUA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.3/js/bootstrap.min.js" integrity="sha512-1/RvZTcCDEUjY/CypiMz+iqqtaoQfAITmNSJY17Myp4Ms5mdxPS5UV7iOfdZoxcGhzFbOm6sntTKJppjvuhg4g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
@@ -200,7 +201,7 @@
         <!-- = = = = PAGE OXP BEGIN = = = = -->
         <div id="page-oxp" class="row tab-pane fade show" role="tabpanel" aria-labelledby="nav-oxp-tab" tabindex="5">
             <div class="col">
-                <div>
+                <div id="page-oxp-list">
                     <p>There are well over a thousand expansion packs released for
                     Oolite. There are two expansion pack formats in use since Oolite 1.80,
                     usually referred to as OXZ and OXP. The OXZ format is more modern and
@@ -240,6 +241,32 @@
                         <a class="show-more-oxp" data-cnt="50" href="#">50</a>&nbsp;&nbsp;
                         <a class="show-more-oxp" data-cnt="100" href="#">100</a>&nbsp;&nbsp;
                         <a class="show-more-oxp" data-cnt="ALL" href="#">ALL</a> ]</p>
+                    </div>
+                </div>
+                <div id="page-oxp-manager" class="d-none">
+                    <div class="row pb-5 pt-2">
+                        <div class="col-2"><a class="ctrl-btn" href="#oxpmanager">❮ Back to OXP List</a></div>
+                    </div>
+                    <div class="row">
+                        <div class="col-1">
+                            <span>Login</span>
+                        </div>
+                        <div class="col-2">
+                            <input type="text" class="form-control" id="signin-login"><br />
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-1">
+                            <span>Pass</span>
+                        </div>
+                        <div class="col-2">
+                            <input type="text" class="form-control" id="signin-pass"><br />
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-2 offset-1 text-end">
+                            <button type="button" class="btn btn-success" onclick="auth.signin()">Signin</button>
+                        </div>
                     </div>
                 </div>
             </div>

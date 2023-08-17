@@ -95,8 +95,11 @@ const mainMenu = (()=>{
 
     const _show = (name, forceScroll = false) => {
         fScroll = forceScroll;
-        const tb = new bootstrap.Tab(`#nav-${name}-tab`);
-        tb.show();
+        try {
+            const tb = new bootstrap.Tab(`#nav-${name}-tab`);
+            tb.show();
+        }
+        catch (err) { };
     };
 
     const _getCurrent = () => {
@@ -381,7 +384,7 @@ const galleryManager = (()=>{
 })();
 
 const oxpManager = (()=>{
-    let oxpData, oxpTable, descHidden = true, notVisible, visible = 20,
+    let oxpMode = 0, oxpData, oxpTable, descHidden = true, notVisible, visible = 20,
     curSort = '', curDir = 1;
 
     const _fetchData = () => {
@@ -476,15 +479,20 @@ const oxpManager = (()=>{
         curSort = t;
         if (sfn) oxpData.sort(sfn);
         if ( ! noClear ) _clearTbl();
-        $on('.oxp-table thead a', 'click', el => _sort(el.dataset.sort) );
+        $on( '.oxp-table thead a', 'click', el => _sort(el.dataset.sort) );
         _drawTbl();
     };
-    
+
+    const _modeSwitcher = () => {
+        $tglClass('#page-oxp-list', 'd-none');
+        $tglClass('#page-oxp-manager', 'd-none');
+    };
+
     const _init = (config) => {
         oxpTable = $q('#page-oxp .oxp-table');
-        $on('#show-all-oxp-desc', 'click', _showAllDesc );
-        $on('a.show-more-oxp', 'click', _showMore );
-        $on( $q('#page-oxp a[href="#oxpmanager"]'), 'click', () => alert('Work In Progress...') );
+        $on( '#show-all-oxp-desc', 'click', _showAllDesc );
+        $on( 'a.show-more-oxp', 'click', _showMore );
+        $on( $qq('a[href="#oxpmanager"]'), 'click', _modeSwitcher );
         _fetchData();
     };
 
