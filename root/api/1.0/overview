@@ -4400,7 +4400,7 @@ Both are player-buyable, and will appear as NPCs from time to time.";
 	"identifier" = "oolite.oxp.phkb.BroadcastCommsMFD";
 	"required_oolite_version" = "1.79";
 	"title" = "MFD - Broadcast Comms";
-	"version" = "1.3.4";
+	"version" = "1.3.5";
 	"category" = "HUDs";
 	"description" = "Provides a way to send communications to other ships via a multi-function display and primable equipment.";
 	"download_url" = "http://wiki.alioth.net/img_auth.php/9/97/BroadcastCommsMFD.oxz";
@@ -4408,7 +4408,7 @@ Both are player-buyable, and will appear as NPCs from time to time.";
 	"file_size" = "47000";
 	"information_url" = "http://wiki.alioth.net/index.php/BroadcastComms_MFD";
 	"license" = "CC-BY-NC-SA 4.0";
-	"upload_date" = "1670935693";
+	"upload_date" = "1691984591";
 }
 ,{
 	"identifier" = "oolite.oxp.Wildeblood.Contracted_Goods_Reminder";
@@ -9167,7 +9167,7 @@ Automatically imports the history from the Explorers Club.";
 	"identifier" = "oolite.oxp.phkb.ShipConfiguration";
 	"required_oolite_version" = "1.82";
 	"title" = "Ship Configuration";
-	"version" = "1.4.1";
+	"version" = "1.4.2";
 	"category" = "Mechanics";
 	"description" = "**Important note: This OXP significantly changes the way Oolite plays. Please take the time to read the Wiki entry for this OXP, or read the \"readme.txt\" file inside the package for more information.
 
@@ -9177,7 +9177,7 @@ This OXP makes all equipment take up space on your ship, and your ship's perform
 	"file_size" = "816000";
 	"information_url" = "http://wiki.alioth.net/index.php/Ship_Configuration_OXP";
 	"license" = "CC-BY-NC-SA 3.0";
-	"upload_date" = "1670936620";
+	"upload_date" = "1691986977";
 	"requires_oxps" = (
 		{
 			"identifier" = "oolite.oxp.phkb.EquipmentStorage";
@@ -13898,22 +13898,23 @@ The similarly nearby but potentially more lucrative routes of Zaonce/Tionisle - 
 	"identifier" = "oolite.oxp.Cholmondely.Addons_for_Beginners_(Vital_Statistics)";
 	"required_oolite_version" = "1.88";
 	"title" = "Addons for Beginners (Vital Statistics)";
-	"version" = "1.1";
+	"version" = "1.2";
 	"category" = "Activities";
-	"description" = "Downloads data OXP's to help you succeed with Oolite. In-game Ship's Manual, ship identifier, galaxy guide, Market info & helpful HUD.
+	"description" = "Downloads data OXP's to help you succeed with Oolite. In-game Ship's Manual, ship identifier, galaxy guide, current system guide, Market info & helpful HUD.
 *Ship's Library
 *XenonUI
 *Technical Reference Library
 *GalCop Galactic Registry
+*Galactic Almanac
 *Market Observer
-*Vimana HUD (flashes warnings for High Temperature, Low Altitude, Low Energy & Low Shields)
+*Vimana-X HUD (flashes warnings for Incoming Missiles, High Temperature, Low Altitude, Low Energy & Low Shields)
 *HUD selector (optional)";
-	"download_url" = "http://wiki.alioth.net/img_auth.php/9/99/Oolite.oxp.Cholmondeley.Addons_for_Beginners_%28Vital_Statistics%29.oxz";
+	"download_url" = "Oolite.oxp.Cholmondeley.Addons_for_Beginners_(Vital_Statistics).v.1.2.oxz ";
 	"author" = "Cholmondely";
-	"file_size" = "2255";
+	"file_size" = "2544";
 	"information_url" = "http://wiki.alioth.net/index.php/Addons_for_Beginners_(Vital_Statistics)";
 	"license" = "CC-BY-NC-SA 4.0";
-	"upload_date" = "1629984388";
+	"upload_date" = "1691972126";
 	"tags" = (
 		"collection"
 	);
@@ -13943,14 +13944,18 @@ The similarly nearby but potentially more lucrative routes of Zaonce/Tionisle - 
 			"description" = "Market Ads - adverts for Market Observer";
 		},
 		{
-			"identifier" = "oolite.oxp.Gnievmir.VimanaHUD";
-			"description" = "Vimana HUD";
+			"identifier" = "oolite.oxp.phkb.VimanaX_HUD";
+			"description" = "Vimana-X HUD";
+		},
+		{
+			"identifier" = "oolite.oxp.LittleBear.GalacticAlmanac";
+			"description" = "Galactic Almanac - guide to the local system";
 		}
 	);
 	"optional_oxps" = (
 		{
 			"identifier" = "oolite.oxp.Norby.HUDSelector";
-			"description" = "HUD selector: swaps between HUDs";
+			"description" = "HUD selector: swaps between HUDs (and alters scanner settings)";
 		}
 	);
 }
@@ -14667,17 +14672,17 @@ In short, they neither need fuel injectors nor are their long term interests alw
 }
 ,{
 	"identifier" = "oolite.oxp.LittleBear.GalacticAlmanac";
-	"required_oolite_version" = "1.90";
+	"required_oolite_version" = "1.80";
 	"title" = "Galactic Almanac";
-	"version" = "0.91";
+	"version" = "0.92";
 	"category" = "Ambience";
-	"description" = "Adds unique and persistent names to all stars, planets, gas giants, asteroids and space stations in all 2,048 star systems. Also adds a list of all artificial and natural satellites to the F4 Screen and a purchasable MFD Unit to view information whilst in flight. Version 0.91 is compatible with all OXZs except its own Alpha Version (Random Station Names).  ";
+	"description" = "Adds unique and persistent names to all stars, planets, gas giants, asteroids and space stations in all 2,048 star systems. Also adds a list of all artificial and natural satellites to the F4 Screen and a purchasable MFD Unit to view information whilst in flight. Version 0.92 is compatible with all OXZs except its own Alpha Version (Random Station Names).  ";
 	"download_url" = "https://wiki.alioth.net/img_auth.php/7/74/Oolite.oxp.LittleBear.GalacticAlmanac.oxz";
 	"author" = "LittleBear";
 	"file_size" = "1200000";
 	"information_url" = "https://wiki.alioth.net/index.php/The_Galactic_Almanac_OXZ";
 	"license" = "CC BY-NC-SA 4.0";
-	"upload_date" = "1673605287";
+	"upload_date" = "1691840615";
 	"conflict_oxps" = (
 		{
 			"identifier" = "oolite.oxp.LittleBear.RandomStationNames";
@@ -15021,5 +15026,65 @@ In short, they neither need fuel injectors nor are their long term interests alw
 	"file_size" = "2500";
 	"information_url" = "http://aegidian.org/bb/viewtopic.php?f=4&t=21392";
 	"upload_date" = "1686352580";
+}
+,{
+	"identifier" = "oolite.oxp.phkb.TionislaOrbitalGraveyard_Memorials";
+	"required_oolite_version" = "1.79";
+	"title" = "Tionisla Orbital Graveyard - Memorials";
+	"version" = "2.0";
+	"category" = "Ambience";
+	"description" = "Adds two memorials to the Tionisla Orbital Graveyard for Ironfist and Svengali.";
+	"download_url" = "https://wiki.alioth.net/img_auth.php/a/ae/TionislaOrbitalGraveyard_Memorials.oxz";
+	"author" = "smivs, Selezen, phkb";
+	"file_size" = "2355000";
+	"information_url" = "https://wiki.alioth.net/index.php/Tionisla_Orbital_Graveyard";
+	"license" = "CC-BY-NC-SA 3.0";
+	"upload_date" = "1691551790";
+	"requires_oxps" = (
+		{
+			"identifier" = "oolite.oxp.phkb.TionislaOrbitalGraveyard";
+			"version" = "2.0";
+		}
+	);
+}
+,{
+	"identifier" = "oolite.oxp.phkb.VimanaX_HUD";
+	"required_oolite_version" = "1.86";
+	"title" = "Vimana-X HUD";
+	"version" = "1.3";
+	"category" = "HUDs";
+	"description" = "A system-wide tweak, refinement and rework of the Vimana HUD.";
+	"download_url" = "https://wiki.alioth.net/img_auth.php/6/69/VimanaX_HUD.oxz";
+	"author" = "phkb";
+	"file_size" = "12475000";
+	"information_url" = "https://wiki.alioth.net/index.php/Vimana-X_HUD";
+	"license" = "CC-BY-NC-SA 4.0";
+	"upload_date" = "1691733915";
+	"requires_oxps" = (
+		{
+			"identifier" = "oolite.oxp.Norby.CombatMFD";
+		}
+	);
+	"conflict_oxps" = (
+		{
+			"identifier" = "oolite.oxp.Lone_Wolf.ShieldCycler";
+		},
+		{
+			"identifier" = "oolite.oxp.Lone_Wolf.ShieldCyclerNext";
+			"version" = "1.13";
+		},
+		{
+			"identifier" = "oolite.oxp.Wildeblood.alerting_crosshairs";
+		},
+		{
+			"identifier" = "oolite.oxp.Wildeblood.LaserificCrosshairs";
+		},
+		{
+			"identifier" = "oolite.oxp.Wildeblood.ShieldtasticCrosshairs";
+		},
+		{
+			"identifier" = "oolite.oxp.Wildeblood.ActiveCrosshairs";
+		}
+	);
 }
 )
