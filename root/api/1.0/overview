@@ -3577,7 +3577,8 @@ Both are player-buyable, and will appear as NPCs from time to time.";
 	"upload_date" = "1677575617";
 	"tags" = (
 		"bounty",
-		"scanner"
+		"scanner",
+		"hunter"
 	);
 }
 ,{
