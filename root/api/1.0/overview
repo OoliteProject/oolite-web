@@ -2889,10 +2889,10 @@ Both are player-buyable, and will appear as NPCs from time to time.";
 	"identifier" = "oolite.oxp.smivs.CombatHUD_v3.0";
 	"required_oolite_version" = "1.80";
 	"title" = "CombatHUD";
-	"version" = "4.1";
+	"version" = "4.2";
 	"category" = "HUDs";
-	"description" = "A fully-featured HUD with a neat, logical layout. At Red Alert vital information is presented around the crosshairs";
-	"download_url" = "http://wiki.alioth.net/img_auth.php/9/9d/CombatHUD_v4.1.oxz";
+	"description" = "A fully-featured HUD with a neat, logical layout. At Red Alert vital information is presented around the crosshairs. Includes widescreen version. Now compatible with HUD Selector.";
+	"download_url" = "http://wiki.alioth.net/img_auth.php/e/e4/CombatHUD_v4.2.oxz";
 	"author" = "Smivs";
 	"file_size" = "41668";
 	"information_url" = "http://wiki.alioth.net/index.php/CombatHUD";
@@ -2900,23 +2900,6 @@ Both are player-buyable, and will appear as NPCs from time to time.";
 	"upload_date" = "1404664187";
 	"tags" = (
 		"Balance=blue"
-	);
-}
-,{
-	"identifier" = "oolite.oxp.smivs.CombatHUD-Widescreen";
-	"required_oolite_version" = "1.80";
-	"title" = "CombatHUD-WS";
-	"version" = "4.1";
-	"category" = "HUDs";
-	"description" = "A fully-featured HUD with a neat, logical layout. At Red Alert vital information is presented around the crosshairs";
-	"download_url" = "http://wiki.alioth.net/img_auth.php/0/07/CombatHUD-WS_v4.1.oxz";
-	"author" = "Smivs";
-	"file_size" = "41682";
-	"information_url" = "http://wiki.alioth.net/index.php/CombatHUD";
-	"license" = "CC-BY-NC-SA 3.0";
-	"upload_date" = "1404664200";
-	"tags" = (
-		"balance=blue"
 	);
 }
 ,{
@@ -3708,10 +3691,10 @@ Both are player-buyable, and will appear as NPCs from time to time.";
 	"identifier" = "oolite.oxp.zireael.oranged-hud";
 	"required_oolite_version" = "1.80";
 	"title" = "OrangED HUD";
-	"version" = "0.1.1";
+	"version" = "0.2.0";
 	"category" = "HUDs";
-	"description" = "An orange-blue HUD inspired by a certain game.";
-	"download_url" = "http://wiki.alioth.net/img_auth.php/5/5f/OrangED_HUD_0.1.1.oxz";
+	"description" = "An orange-blue HUD inspired by a certain game. Now compatible with HUD Selector.";
+	"download_url" = "http://wiki.alioth.net/img_auth.php/a/aa/OrangED_HUD_0.2.0.oxz";
 	"author" = "Zireael";
 	"upload_date" = "1407325206";
 }
