@@ -2946,32 +2946,17 @@ Both are player-buyable, and will appear as NPCs from time to time.";
 	"identifier" = "oolite.oxp.smivs.SmartHUD";
 	"required_oolite_version" = "1.80";
 	"title" = "Smart HUD";
-	"version" = "1.0";
+	"version" = "1.1";
 	"category" = "HUDs";
-	"description" = "The Smart HUD is a neatly laid out, fully featured HUD, with information grouped logically around the main scanner.";
-	"download_url" = "http://wiki.alioth.net/img_auth.php/4/4d/SmartHUD_v1.0.oxz";
+	"description" = "The Smart HUD is a neatly laid out, fully featured HUD, with information grouped logically around the main scanner.
+Includes both the normal and widescreen versions.
+Now compatible with HUD Selector.";
+	"download_url" = "http://wiki.alioth.net/img_auth.php/6/67/SmartHUD_v1.1.oxz";
 	"author" = "Smivs";
 	"file_size" = "4099";
 	"information_url" = "http://wiki.alioth.net/index.php?title=SmartHUD";
 	"license" = " CC-BY-NC-SA 3.0";
 	"upload_date" = "1404808333";
-	"tags" = (
-		"Balance=green"
-	);
-}
-,{
-	"identifier" = "oolite.oxp.smivs.SmartHUD-WS";
-	"required_oolite_version" = "1.80";
-	"title" = "Smart HUD-WS";
-	"version" = "1.0";
-	"category" = "HUDs";
-	"description" = "The Smart HUD is a neatly laid out, fully featured widescreen HUD, with information grouped logically around the main scanner.";
-	"download_url" = "http://wiki.alioth.net/img_auth.php/3/3c/SmartHUD-WS_v1.0.oxz";
-	"author" = "Smivs";
-	"file_size" = "4109";
-	"information_url" = "http://wiki.alioth.net/index.php?title=SmartHUD";
-	"license" = "CC-BY-NC-SA 3.0";
-	"upload_date" = "1404808612";
 	"tags" = (
 		"Balance=green"
 	);
@@ -4674,7 +4659,8 @@ Both are player-buyable, and will appear as NPCs from time to time.";
 	"title" = "Nova Lux HUD";
 	"version" = "1.4";
 	"category" = "HUDs";
-	"description" = "The Nova Lux (New Light) HUD is the newest in spaceship cockpits, with all functions and features gathered in a slick futuristic design. It changes color based on conditions (Deepspace/Mass-Locked/Alert). It does, however, not brew coffee.";
+	"description" = "The Nova Lux (New Light) HUD is the newest in spaceship cockpits, with all functions and features gathered in a slick futuristic design. It changes color based on conditions (Deepspace/Mass-Locked/Alert). It does, however, not brew coffee.
+Now compatible with HUD Selector.";
 	"download_url" = "http://wiki.alioth.net/img_auth.php/6/67/Oolite.oxp.Vincentz.NovaLuxHUD.oxz";
 	"author" = "Vincentz";
 	"file_size" = "1450967";
