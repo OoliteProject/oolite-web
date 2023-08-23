@@ -4689,7 +4689,7 @@ Both are player-buyable, and will appear as NPCs from time to time.";
 	"identifier" = "oolite.oxp.Vincentz.NovaLuxHUD";
 	"required_oolite_version" = "1.80";
 	"title" = "Nova Lux HUD";
-	"version" = "1.3";
+	"version" = "1.4";
 	"category" = "HUDs";
 	"description" = "The Nova Lux (New Light) HUD is the newest in spaceship cockpits, with all functions and features gathered in a slick futuristic design. It changes color based on conditions (Deepspace/Mass-Locked/Alert). It does, however, not brew coffee.";
 	"download_url" = "http://wiki.alioth.net/img_auth.php/6/67/Oolite.oxp.Vincentz.NovaLuxHUD.oxz";
@@ -13420,7 +13420,7 @@ This OXP still uses legacy scripts, but it is presumed to work... the ships at l
 	"identifier" = "oolite.oxp.Reval.GETTER_HUD";
 	"required_oolite_version" = "1.82";
 	"title" = "GETter HUD";
-	"version" = "1.4";
+	"version" = "1.5";
 	"category" = "HUDs";
 	"description" = "A compact Trader's HUD based on the standard HUD, with digital speed, re-coloured scanner, compass, gauges, MFD and legends. Cargo carried (with quantity) is shown in place of missile loadout, and shipowner, ship class and name, plus hold capacity are displayed just above the scanner. System's name is also displayed.";
 	"download_url" = "https://wiki.alioth.net/img_auth.php/7/7c/GETter_HUD.oxz";
@@ -14316,7 +14316,7 @@ In short, they neither need fuel injectors nor are their long term interests alw
 	"identifier" = "oolite.oxp.Killer_Wolf.Steampunk_hud";
 	"required_oolite_version" = "1.79";
 	"title" = "Steampunk HUD";
-	"version" = "1";
+	"version" = "1.1";
 	"category" = "HUDs";
 	"description" = "Elegant HUD designed by an aesthete (Killer Wolf). The contrast lens is foldable by those who can tweak. The scanner needs some TLC.";
 	"download_url" = "https://wiki.alioth.net/img_auth.php/3/36/Oolite.oxp.KillerWolf.SteampunkHUD.oxz";
