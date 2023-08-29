@@ -11427,16 +11427,16 @@ Co-authors: BlackWolf.";
 	"identifier" = "oolite.oxp.Svengali.BGS";
 	"required_oolite_version" = "1.88";
 	"title" = "BGS";
-	"version" = "2.5.1";
+	"version" = "2.5.4";
 	"category" = "Ambience";
 	"description" = "BackgroundSet - effects, ambient sounds and images.
 Co-authors: Pagroove, PhantorGorth, Thargoid and Tricky.";
-	"download_url" = "http://wiki.alioth.net/img_auth.php/8/88/BGS2.5.1.oxz";
+	"download_url" = "http://wiki.alioth.net/img_auth.php/3/3a/BGS2.5.4.oxz";
 	"author" = "Svengali";
 	"file_size" = "9849971";
 	"information_url" = "http://wiki.alioth.net/index.php/BGS";
 	"license" = "CC-BY-NC-SA 4.0";
-	"upload_date" = "1542745474";
+	"upload_date" = "1693322074";
 	"tags" = (
 		"ambience",
 		"adjustable",
