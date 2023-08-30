@@ -82,15 +82,15 @@
 	"identifier" = "oolite.oxp.cim.escort-formations";
 	"required_oolite_version" = "1.79";
 	"title" = "Escort Formations";
-	"version" = "1.1";
+	"version" = "1.3";
 	"category" = "Mechanics";
 	"description" = "Vary the flight formations used by escort pilots to give some alternatives to the usual 'v' shape.";
-	"download_url" = "http://cim.sotl.org.uk/games/files/oolite/Escort_Formations_1.1.oxz";
+	"download_url" = "https://wiki.alioth.net/img_auth.php/d/d4/Escort_Formations_1.3.oxz";
 	"author" = "cim";
 	"file_size" = "2993";
 	"information_url" = "http://wiki.alioth.net/index.php/Escort_Formations";
 	"license" = "CC-BY-SA 3.0";
-	"upload_date" = "1397317596";
+	"upload_date" = "1693421196";
 }
 ,{
 	"identifier" = "oolite.oxp.cim.combat-simulator";
