@@ -6038,15 +6038,15 @@ This OXP will override any backgrounds currently applied by other OXP's. This is
 	"identifier" = "oolite.oxp.Norby.LaserCannons";
 	"required_oolite_version" = "1.82";
 	"title" = "Laser Cannons";
-	"version" = "1.12";
+	"version" = "1.13.1";
 	"category" = "Weapons";
 	"description" = "Laser Cannons are developed from Mining Lasers. Consume more energy and cause extreme heat, but a single shot deliver similar damage than a series of Beam Lasers. Fit into large ships only except Mini Cannons, usually short ranged and must aim carefully. Pilots tend to eject from cannon hits when energy is low.";
-	"download_url" = "http://wiki.alioth.net/img_auth.php/a/a5/LaserCannons_1.12.oxz";
+	"download_url" = "http://wiki.alioth.net/img_auth.php/9/9f/LaserCannons_1.13.1.oxz";
 	"author" = "Norby";
 	"file_size" = "14861";
 	"information_url" = "http://wiki.alioth.net/index.php/LaserCannons";
 	"license" = "CC-BY-NC-SA 4.0";
-	"upload_date" = "1509468514";
+	"upload_date" = "1693410514";
 	"optional_oxps" = (
 		{
 			"identifier" = "oolite.oxp.redspear.new_lasers";
