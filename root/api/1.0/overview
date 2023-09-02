@@ -10405,7 +10405,7 @@ Update to the original by Eric Walsh, with contributions from spara, Keeper and 
 	"identifier" = "oolite.oxp.Ramirez.Dictators";
 	"required_oolite_version" = "1.82";
 	"title" = "Dictators";
-	"version" = "2.5";
+	"version" = "2.6";
 	"category" = "Systems";
 	"description" = "Adds a range of ships and stations to each dictatorship and offers new trading opportunities to players.";
 	"download_url" = "http://wiki.alioth.net/img_auth.php/a/a5/Dictators.oxz";
@@ -10413,7 +10413,7 @@ Update to the original by Eric Walsh, with contributions from spara, Keeper and 
 	"file_size" = "10118000";
 	"information_url" = "http://wiki.alioth.net/index.php/Dictators_OXP";
 	"license" = "CC-BY-NC-SA 3.0";
-	"upload_date" = "1592876810";
+	"upload_date" = "1693619210";
 	"requires_oxps" = (
 		{
 			"identifier" = "oolite.oxp.spara.ImperialAstrofactory";
