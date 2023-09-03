@@ -1732,15 +1732,15 @@ This OXP is compatible with all other OXPs, and includes considerations for Buoy
 	"identifier" = "oolite.oxp.DrNil.Commies";
 	"required_oolite_version" = "1.79";
 	"title" = "Commies";
-	"version" = "2.17";
+	"version" = "2.19";
 	"category" = "Systems";
 	"description" = "Adds Astro Mines, Factories, Production Units, Commuters & special police ships to Communist systems.";
-	"download_url" = "http://wiki.alioth.net/img_auth.php/1/15/Commies_2.17.oxz";
-	"author" = "Amaranth, Dr. Nil, Eric Walch, Norby, phkb";
-	"file_size" = "26074672";
+	"download_url" = "http://wiki.alioth.net/img_auth.php/d/dd/Commies_2.19.oxz";
+	"author" = "Amaranth, Dr. Nil, Eric Walch, Norby, phkb, GearsNSuch";
+	"file_size" = "34446672";
 	"information_url" = "http://wiki.alioth.net/index.php/Commies";
 	"license" = "CC BY-NC-SA 3";
-	"upload_date" = "1561379595";
+	"upload_date" = "1693737015";
 }
 ,{
 	"identifier" = "oolite.oxp.Ramirez.TridentDown";
