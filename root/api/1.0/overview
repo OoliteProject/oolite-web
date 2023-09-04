@@ -9564,7 +9564,7 @@ Synthesizes 1LY fuel per 1 energy bank. Damage shields due subspace disturbances
 	"file_size" = "8484000";
 	"information_url" = "http://aegidian.org/bb/viewtopic.php?f=4&t=11745";
 	"license" = "CC-BY-NC-SA 3.0";
-	"upload_date" = "1693738256";
+	"upload_date" = "1693824656";
 }
 ,{
 	"identifier" = "oolite.oxp.Astrobe.surjectors";
@@ -13872,7 +13872,7 @@ The similarly nearby but potentially more lucrative routes of Zaonce/Tionisle - 
 *Market Observer
 *Vimana-X HUD (flashes warnings for Incoming Missiles, High Temperature, Low Altitude, Low Energy & Low Shields)
 *HUD selector (optional)";
-	"download_url" = "Oolite.oxp.Cholmondeley.Addons_for_Beginners_(Vital_Statistics).v.1.2.oxz";
+	"download_url" = "https://wiki.alioth/img_auth.php/8/8d/Oolite.oxp.Cholmondeley.Addons_for_Beginners_(Vital_Statistics).v.1.2.oxz";
 	"author" = "Cholmondely";
 	"file_size" = "2544";
 	"information_url" = "http://wiki.alioth.net/index.php/Addons_for_Beginners_(Vital_Statistics)";
