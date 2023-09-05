@@ -14749,7 +14749,7 @@ In short, they neither need fuel injectors nor are their long term interests alw
 	"upload_date" = "1664284034";
 }
 ,{
-	"identifier" = "oolite.oxp.redspear.tech_shuffle.oxz";
+	"identifier" = "oolite.oxp.redspear.tech_shuffle";
 	"required_oolite_version" = "1.80";
 	"title" = "Tech Shuffle";
 	"version" = "1.1";
