@@ -9556,7 +9556,7 @@ Synthesizes 1LY fuel per 1 energy bank. Damage shields due subspace disturbances
 	"identifier" = "oolite.oxp.dertien.Z_GrOovY_SmallSystemStations";
 	"required_oolite_version" = "1.82";
 	"title" = "Z-GrOovY Small System Stations";
-	"version" = "1.7";
+	"version" = "1.8";
 	"category" = "Dockables";
 	"description" = "Adds the Octahedron Outpost and the Tetrahedron Depot to selected systems.";
 	"download_url" = "http://wiki.alioth.net/img_auth.php/7/70/Z-GrOovY_SmallSystemStations.oxz";
