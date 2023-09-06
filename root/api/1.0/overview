@@ -15050,4 +15050,25 @@ In short, they neither need fuel injectors nor are their long term interests alw
 		}
 	);
 }
+,{
+	"identifier" = "oolite.oxp.phkb.XenonUI_SWEconomy_Additions";
+	"required_oolite_version" = "1.80";
+	"title" = "Xenon UI SW Economy Addition";
+	"version" = "1.0";
+	"description" = "Updated F6 Economy list to be compatible with SW Economy OXP.";
+	"download_url" = "https://wiki.alioth.net/img_auth.php/0/07/XenonUI_SWEconomy_Addition.oxz";
+	"author" = "phkb";
+	"file_size" = "166000";
+	"information_url" = "https://wiki.alioth.net/index.php/XenonUI";
+	"license" = "CC-BY-NC-SA 3.0";
+	"upload_date" = "1694006468";
+	"requires_oxps" = (
+		{
+			"identifier" = "oolite.oxp.z.phkb.XenonUI";
+		},
+		{
+			"identifier" = "oolite.oxp.stranger.SW_Economy";
+		}
+	);
+}
 )
