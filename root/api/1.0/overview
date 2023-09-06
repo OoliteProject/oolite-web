@@ -15014,15 +15014,15 @@ In short, they neither need fuel injectors nor are their long term interests alw
 	"identifier" = "oolite.oxp.phkb.VimanaX_HUD";
 	"required_oolite_version" = "1.86";
 	"title" = "Vimana-X HUD";
-	"version" = "1.3";
+	"version" = "1.4";
 	"category" = "HUDs";
 	"description" = "A system-wide tweak, refinement and rework of the Vimana HUD.";
 	"download_url" = "https://wiki.alioth.net/img_auth.php/6/69/VimanaX_HUD.oxz";
 	"author" = "phkb";
-	"file_size" = "12475000";
+	"file_size" = "13901000";
 	"information_url" = "https://wiki.alioth.net/index.php/Vimana-X_HUD";
 	"license" = "CC-BY-NC-SA 4.0";
-	"upload_date" = "1691733915";
+	"upload_date" = "1693980315";
 	"requires_oxps" = (
 		{
 			"identifier" = "oolite.oxp.Norby.CombatMFD";
