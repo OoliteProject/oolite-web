@@ -13560,7 +13560,7 @@ WARNING: this OXP makes NPCs much tougher, with severe consequences to game bala
 	"version" = "1.0";
 	"category" = "Ambience";
 	"description" = "Converts Zaonce to Venus by fully retexturing it with an 8k diffuse texture. This is a demonstration of the custom planet texturing capabilities present in Oolite version 1.89 and later.";
-	"download_url" = "http://oolite.org/oxzs/ZaonceIsVenus8k.oxz";
+	"download_url" = "https://wiki.alioth.net/img_auth.php/5/53/ZaonceIsVenus8k.oxz";
 	"author" = "another_commander";
 	"file_size" = "33527732";
 	"information_url" = "http://wiki.alioth.net/index.php/Zaonce_is_Venus_8k";
