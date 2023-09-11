@@ -1,6 +1,6 @@
 import mustache from "https://cdnjs.cloudflare.com/ajax/libs/mustache.js/4.2.0/mustache.min.js";
 
-const ibp = 'https://media.oolite.space/i/';
+const ibp = 'https://addons.oolite.space/i/';
 
 const introBanner = (()=>{
     const slideCount = 10;
