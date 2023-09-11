@@ -14005,7 +14005,7 @@ Warning: do not install this collection if you plan to read through the whole ad
 	"title" = "Enhanced Vipers";
 	"version" = "0.52";
 	"category" = "Ships";
-	"description" = "This OXP adds enhanced Viper Patrols, Viper Pursuits, and Viper Interceptors, to richer stable systems; GalCop Deputies to stable poor/average systems; and Bounty Hunters to unstable/dangerous systems. They are not über ships - far from it - but with the advent of heavy pirates and heavy assassins into the core game, some toughening of GalCop Vipers seemed appropriate.";
+	"description" = "This OXP adds enhanced Viper Patrols, Viper Pursuits, and Viper Interceptors, to richer stable systems; GalCop Deputies to stable poor/average systems; and Bounty Hunters to unstable/dangerous systems. They are not uber ships - far from it - but with the advent of heavy pirates and heavy assassins into the core game, some toughening of GalCop Vipers seemed appropriate.";
 	"download_url" = "http://wiki.alioth.net/img_auth.php/1/10/Oolite.oxp.zzz.Montana05.FdL_enhanced_vipers.OXZ";
 	"author" = "Montana05, Cody";
 	"file_size" = "9482240";
