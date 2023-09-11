@@ -385,7 +385,7 @@ const oxpManager = (()=>{
     curSort = '', curDir = 1;
 
     const _fetchData = () => {
-        fetch('/data/oxp.json')
+        fetch('http://addons.oolite.space/data/oxp.json')
             .then( response => response.json() )
             .then( data => {
                 oxpData = data;
