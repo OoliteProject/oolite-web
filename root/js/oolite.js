@@ -390,6 +390,9 @@ const oxpManager = (()=>{
             .then( data => {
                 oxpData = data;
                 _sort('d', true);
+                _drawLastOxpNews();
+                _drawTbl();
+                _linkSortCtrls();
             } );
     };
 
@@ -453,13 +456,18 @@ const oxpManager = (()=>{
         $push( oxpTable, html );
     };
 
+    const _linkSortCtrls = () => {
+        $on('.oxp-table thead a', 'click', el => _sort(el.dataset.sort) );
+    };
+
     const _clearTbl = () => {
         let th = $q('thead', oxpTable).cloneNode(true);
         oxpTable.innerHTML = '';
         $push(oxpTable, th);
+        _linkSortCtrls();
     };
 
-    const _sort = (t = 'd', noClear = false) => {
+    const _sort = (t = 'd', noDraw = false) => {
         let sfn, d1, d2;
         if ( t === 'd' ) {
             sfn = (a,b) => { return (b.upload_date - a.upload_date)*curDir };
@@ -475,11 +483,28 @@ const oxpManager = (()=>{
         d1 = curDir, d2 = -curDir;
         curSort = t;
         if (sfn) oxpData.sort(sfn);
-        if ( ! noClear ) _clearTbl();
-        $on('.oxp-table thead a', 'click', el => _sort(el.dataset.sort) );
+        if (noDraw) return;
+        _clearTbl();
         _drawTbl();
     };
-    
+
+    const _drawLastOxpNews = () => {
+        const tplHtml = $q('#oxp-news-item-tpl').innerHTML;
+        mustache.parse(tplHtml);
+
+        let html = '';
+        for ( let i = 0; i < 5; i++ ) {
+            const d = oxpData[i];
+            html += mustache.render(tplHtml, {
+                info: d.information_url,
+                title: d.title,
+                ver: d.version,
+                up: epochToYMD(d.upload_date)
+            });
+        }
+        if (html) $push( $q('#oxp-news-items'), html );
+    };
+
     const _init = (config) => {
         oxpTable = $q('#page-oxp .oxp-table');
         $on('#show-all-oxp-desc', 'click', _showAllDesc );
@@ -497,7 +522,6 @@ document.addEventListener( 'DOMContentLoaded', () => {
 
     fetchHTML( '#page-home-about', '/html/about.html', bindLinks );
     fetchHTML( '#news-items', '/html/news.html', processNews );
-    fetchHTML( '#oxp-news-items', '/html/oxp-news.html' );
     fetchHTML( '#page-started .loadable-html', '/html/starting.html' );
     fetchHTML( '#page-download .loadable-html', '/html/download.html', setupDownloadVersions );
 
