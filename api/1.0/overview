@@ -82,15 +82,15 @@
 	"identifier" = "oolite.oxp.cim.escort-formations";
 	"required_oolite_version" = "1.79";
 	"title" = "Escort Formations";
-	"version" = "1.1";
+	"version" = "1.3";
 	"category" = "Mechanics";
 	"description" = "Vary the flight formations used by escort pilots to give some alternatives to the usual 'v' shape.";
-	"download_url" = "http://cim.sotl.org.uk/games/files/oolite/Escort_Formations_1.1.oxz";
+	"download_url" = "https://wiki.alioth.net/img_auth.php/d/d4/Escort_Formations_1.3.oxz";
 	"author" = "cim";
 	"file_size" = "2993";
 	"information_url" = "http://wiki.alioth.net/index.php/Escort_Formations";
 	"license" = "CC-BY-SA 3.0";
-	"upload_date" = "1397317596";
+	"upload_date" = "1693421196";
 }
 ,{
 	"identifier" = "oolite.oxp.cim.combat-simulator";
@@ -1732,15 +1732,15 @@ This OXP is compatible with all other OXPs, and includes considerations for Buoy
 	"identifier" = "oolite.oxp.DrNil.Commies";
 	"required_oolite_version" = "1.79";
 	"title" = "Commies";
-	"version" = "2.17";
+	"version" = "2.19";
 	"category" = "Systems";
 	"description" = "Adds Astro Mines, Factories, Production Units, Commuters & special police ships to Communist systems.";
-	"download_url" = "http://wiki.alioth.net/img_auth.php/1/15/Commies_2.17.oxz";
-	"author" = "Amaranth, Dr. Nil, Eric Walch, Norby, phkb";
-	"file_size" = "26074672";
+	"download_url" = "http://wiki.alioth.net/img_auth.php/d/dd/Commies_2.19.oxz";
+	"author" = "Amaranth, Dr. Nil, Eric Walch, Norby, phkb, GearsNSuch";
+	"file_size" = "34446672";
 	"information_url" = "http://wiki.alioth.net/index.php/Commies";
 	"license" = "CC BY-NC-SA 3";
-	"upload_date" = "1561379595";
+	"upload_date" = "1693733415";
 }
 ,{
 	"identifier" = "oolite.oxp.Ramirez.TridentDown";
@@ -2889,10 +2889,10 @@ Both are player-buyable, and will appear as NPCs from time to time.";
 	"identifier" = "oolite.oxp.smivs.CombatHUD_v3.0";
 	"required_oolite_version" = "1.80";
 	"title" = "CombatHUD";
-	"version" = "4.1";
+	"version" = "4.2";
 	"category" = "HUDs";
-	"description" = "A fully-featured HUD with a neat, logical layout. At Red Alert vital information is presented around the crosshairs";
-	"download_url" = "http://wiki.alioth.net/img_auth.php/9/9d/CombatHUD_v4.1.oxz";
+	"description" = "A fully-featured HUD with a neat, logical layout. At Red Alert vital information is presented around the crosshairs. Includes widescreen version. Now compatible with HUD Selector.";
+	"download_url" = "http://wiki.alioth.net/img_auth.php/e/e4/CombatHUD_v4.2.oxz";
 	"author" = "Smivs";
 	"file_size" = "41668";
 	"information_url" = "http://wiki.alioth.net/index.php/CombatHUD";
@@ -2900,23 +2900,6 @@ Both are player-buyable, and will appear as NPCs from time to time.";
 	"upload_date" = "1404664187";
 	"tags" = (
 		"Balance=blue"
-	);
-}
-,{
-	"identifier" = "oolite.oxp.smivs.CombatHUD-Widescreen";
-	"required_oolite_version" = "1.80";
-	"title" = "CombatHUD-WS";
-	"version" = "4.1";
-	"category" = "HUDs";
-	"description" = "A fully-featured HUD with a neat, logical layout. At Red Alert vital information is presented around the crosshairs";
-	"download_url" = "http://wiki.alioth.net/img_auth.php/0/07/CombatHUD-WS_v4.1.oxz";
-	"author" = "Smivs";
-	"file_size" = "41682";
-	"information_url" = "http://wiki.alioth.net/index.php/CombatHUD";
-	"license" = "CC-BY-NC-SA 3.0";
-	"upload_date" = "1404664200";
-	"tags" = (
-		"balance=blue"
 	);
 }
 ,{
@@ -2963,32 +2946,17 @@ Both are player-buyable, and will appear as NPCs from time to time.";
 	"identifier" = "oolite.oxp.smivs.SmartHUD";
 	"required_oolite_version" = "1.80";
 	"title" = "Smart HUD";
-	"version" = "1.0";
+	"version" = "1.1";
 	"category" = "HUDs";
-	"description" = "The Smart HUD is a neatly laid out, fully featured HUD, with information grouped logically around the main scanner.";
-	"download_url" = "http://wiki.alioth.net/img_auth.php/4/4d/SmartHUD_v1.0.oxz";
+	"description" = "The Smart HUD is a neatly laid out, fully featured HUD, with information grouped logically around the main scanner.
+Includes both the normal and widescreen versions.
+Now compatible with HUD Selector.";
+	"download_url" = "http://wiki.alioth.net/img_auth.php/6/67/SmartHUD_v1.1.oxz";
 	"author" = "Smivs";
 	"file_size" = "4099";
 	"information_url" = "http://wiki.alioth.net/index.php?title=SmartHUD";
 	"license" = " CC-BY-NC-SA 3.0";
 	"upload_date" = "1404808333";
-	"tags" = (
-		"Balance=green"
-	);
-}
-,{
-	"identifier" = "oolite.oxp.smivs.SmartHUD-WS";
-	"required_oolite_version" = "1.80";
-	"title" = "Smart HUD-WS";
-	"version" = "1.0";
-	"category" = "HUDs";
-	"description" = "The Smart HUD is a neatly laid out, fully featured widescreen HUD, with information grouped logically around the main scanner.";
-	"download_url" = "http://wiki.alioth.net/img_auth.php/3/3c/SmartHUD-WS_v1.0.oxz";
-	"author" = "Smivs";
-	"file_size" = "4109";
-	"information_url" = "http://wiki.alioth.net/index.php?title=SmartHUD";
-	"license" = "CC-BY-NC-SA 3.0";
-	"upload_date" = "1404808612";
 	"tags" = (
 		"Balance=green"
 	);
@@ -3708,10 +3676,10 @@ Both are player-buyable, and will appear as NPCs from time to time.";
 	"identifier" = "oolite.oxp.zireael.oranged-hud";
 	"required_oolite_version" = "1.80";
 	"title" = "OrangED HUD";
-	"version" = "0.1.1";
+	"version" = "0.2.0";
 	"category" = "HUDs";
-	"description" = "An orange-blue HUD inspired by a certain game.";
-	"download_url" = "http://wiki.alioth.net/img_auth.php/5/5f/OrangED_HUD_0.1.1.oxz";
+	"description" = "An orange-blue HUD inspired by a certain game. Now compatible with HUD Selector.";
+	"download_url" = "http://wiki.alioth.net/img_auth.php/a/aa/OrangED_HUD_0.2.0.oxz";
 	"author" = "Zireael";
 	"upload_date" = "1407325206";
 }
@@ -4689,9 +4657,10 @@ Both are player-buyable, and will appear as NPCs from time to time.";
 	"identifier" = "oolite.oxp.Vincentz.NovaLuxHUD";
 	"required_oolite_version" = "1.80";
 	"title" = "Nova Lux HUD";
-	"version" = "1.3";
+	"version" = "1.4";
 	"category" = "HUDs";
-	"description" = "The Nova Lux (New Light) HUD is the newest in spaceship cockpits, with all functions and features gathered in a slick futuristic design. It changes color based on conditions (Deepspace/Mass-Locked/Alert). It does, however, not brew coffee.";
+	"description" = "The Nova Lux (New Light) HUD is the newest in spaceship cockpits, with all functions and features gathered in a slick futuristic design. It changes color based on conditions (Deepspace/Mass-Locked/Alert). It does, however, not brew coffee.
+Now compatible with HUD Selector.";
 	"download_url" = "http://wiki.alioth.net/img_auth.php/6/67/Oolite.oxp.Vincentz.NovaLuxHUD.oxz";
 	"author" = "Vincentz";
 	"file_size" = "1450967";
@@ -5810,17 +5779,17 @@ Install: Asteroid Storm, BetterBuoys, BackGroundSet, BGS Soundset by P.A. Groove
 	"identifier" = "oolite.oxp.z.phkb.XenonUI";
 	"required_oolite_version" = "1.80";
 	"title" = "Xenon UI";
-	"version" = "3.5";
+	"version" = "3.6";
 	"category" = "Ambience";
 	"description" = "New background images all standard gui screens, plus new title screen theme music. Needs one of the Xenon UI Resources packs to be installed: Pack A, C, E, G, I, K or M for 16:9 screens, Pack B, D, F, H, J, L or N for 16:10 screens. Choose a pack that matches the font you are using - see resources pack details for information on which font is used.
 
 This OXP will override any backgrounds currently applied by other OXP's. This is by design, in order to maintain the illusion of looking at a computer display. If conflicts arise, where important information needs to be given to the player via a background screen, code can be applied to allow exceptions to take place. See the Wiki page for more information.";
 	"download_url" = "http://wiki.alioth.net/img_auth.php/0/0b/XenonUI.oxz";
 	"author" = "phkb";
-	"file_size" = "6848000";
+	"file_size" = "6761000";
 	"information_url" = "http://wiki.alioth.net/index.php/XenonUI";
 	"license" = "CC-BY-NC-SA 3.0";
-	"upload_date" = "1624987268";
+	"upload_date" = "1694006468";
 }
 ,{
 	"identifier" = "oolite.oxp.z.phkb.XenonUIResources";
@@ -6069,15 +6038,15 @@ This OXP will override any backgrounds currently applied by other OXP's. This is
 	"identifier" = "oolite.oxp.Norby.LaserCannons";
 	"required_oolite_version" = "1.82";
 	"title" = "Laser Cannons";
-	"version" = "1.12";
+	"version" = "1.13.1";
 	"category" = "Weapons";
 	"description" = "Laser Cannons are developed from Mining Lasers. Consume more energy and cause extreme heat, but a single shot deliver similar damage than a series of Beam Lasers. Fit into large ships only except Mini Cannons, usually short ranged and must aim carefully. Pilots tend to eject from cannon hits when energy is low.";
-	"download_url" = "http://wiki.alioth.net/img_auth.php/a/a5/LaserCannons_1.12.oxz";
+	"download_url" = "http://wiki.alioth.net/img_auth.php/9/9f/LaserCannons_1.13.1.oxz";
 	"author" = "Norby";
 	"file_size" = "14861";
 	"information_url" = "http://wiki.alioth.net/index.php/LaserCannons";
 	"license" = "CC-BY-NC-SA 4.0";
-	"upload_date" = "1509468514";
+	"upload_date" = "1693410514";
 	"optional_oxps" = (
 		{
 			"identifier" = "oolite.oxp.redspear.new_lasers";
@@ -9587,22 +9556,15 @@ Synthesizes 1LY fuel per 1 energy bank. Damage shields due subspace disturbances
 	"identifier" = "oolite.oxp.dertien.Z_GrOovY_SmallSystemStations";
 	"required_oolite_version" = "1.82";
 	"title" = "Z-GrOovY Small System Stations";
-	"version" = "1.5";
+	"version" = "1.8";
 	"category" = "Dockables";
-	"description" = "Adds the Octahedron Outpost and the Tetrahedron Depot to selected systems. The Griff Station Bundle is required and will be installed automatically with this pack.";
+	"description" = "Adds the Octahedron Outpost and the Tetrahedron Depot to selected systems.";
 	"download_url" = "http://wiki.alioth.net/img_auth.php/7/70/Z-GrOovY_SmallSystemStations.oxz";
 	"author" = "dertien, Griff";
-	"file_size" = "14437000";
+	"file_size" = "8484000";
 	"information_url" = "http://aegidian.org/bb/viewtopic.php?f=4&t=11745";
 	"license" = "CC-BY-NC-SA 3.0";
-	"upload_date" = "1523456336";
-	"requires_oxps" = (
-		{
-			"identifier" = "oolite.oxp.Griff.Station_Bundle";
-			"version" = "1.3";
-			"description" = "Config, texture and shader dependancies.";
-		}
-	);
+	"upload_date" = "1693875056";
 }
 ,{
 	"identifier" = "oolite.oxp.Astrobe.surjectors";
@@ -10436,7 +10398,7 @@ Update to the original by Eric Walsh, with contributions from spara, Keeper and 
 	"identifier" = "oolite.oxp.Ramirez.Dictators";
 	"required_oolite_version" = "1.82";
 	"title" = "Dictators";
-	"version" = "2.5";
+	"version" = "2.6";
 	"category" = "Systems";
 	"description" = "Adds a range of ships and stations to each dictatorship and offers new trading opportunities to players.";
 	"download_url" = "http://wiki.alioth.net/img_auth.php/a/a5/Dictators.oxz";
@@ -10444,7 +10406,7 @@ Update to the original by Eric Walsh, with contributions from spara, Keeper and 
 	"file_size" = "10118000";
 	"information_url" = "http://wiki.alioth.net/index.php/Dictators_OXP";
 	"license" = "CC-BY-NC-SA 3.0";
-	"upload_date" = "1592876810";
+	"upload_date" = "1693619210";
 	"requires_oxps" = (
 		{
 			"identifier" = "oolite.oxp.spara.ImperialAstrofactory";
@@ -11458,16 +11420,16 @@ Co-authors: BlackWolf.";
 	"identifier" = "oolite.oxp.Svengali.BGS";
 	"required_oolite_version" = "1.88";
 	"title" = "BGS";
-	"version" = "2.5.1";
+	"version" = "2.5.4";
 	"category" = "Ambience";
 	"description" = "BackgroundSet - effects, ambient sounds and images.
 Co-authors: Pagroove, PhantorGorth, Thargoid and Tricky.";
-	"download_url" = "http://wiki.alioth.net/img_auth.php/8/88/BGS2.5.1.oxz";
+	"download_url" = "http://wiki.alioth.net/img_auth.php/3/3a/BGS2.5.4.oxz";
 	"author" = "Svengali";
 	"file_size" = "9849971";
 	"information_url" = "http://wiki.alioth.net/index.php/BGS";
 	"license" = "CC-BY-NC-SA 4.0";
-	"upload_date" = "1542745474";
+	"upload_date" = "1693322074";
 	"tags" = (
 		"ambience",
 		"adjustable",
@@ -13420,7 +13382,7 @@ This OXP still uses legacy scripts, but it is presumed to work... the ships at l
 	"identifier" = "oolite.oxp.Reval.GETTER_HUD";
 	"required_oolite_version" = "1.82";
 	"title" = "GETter HUD";
-	"version" = "1.4";
+	"version" = "1.5";
 	"category" = "HUDs";
 	"description" = "A compact Trader's HUD based on the standard HUD, with digital speed, re-coloured scanner, compass, gauges, MFD and legends. Cargo carried (with quantity) is shown in place of missile loadout, and shipowner, ship class and name, plus hold capacity are displayed just above the scanner. System's name is also displayed.";
 	"download_url" = "https://wiki.alioth.net/img_auth.php/7/7c/GETter_HUD.oxz";
@@ -13598,7 +13560,7 @@ WARNING: this OXP makes NPCs much tougher, with severe consequences to game bala
 	"version" = "1.0";
 	"category" = "Ambience";
 	"description" = "Converts Zaonce to Venus by fully retexturing it with an 8k diffuse texture. This is a demonstration of the custom planet texturing capabilities present in Oolite version 1.89 and later.";
-	"download_url" = "http://oolite.org/oxzs/ZaonceIsVenus8k.oxz";
+	"download_url" = "https://wiki.alioth.net/img_auth.php/5/53/ZaonceIsVenus8k.oxz";
 	"author" = "another_commander";
 	"file_size" = "33527732";
 	"information_url" = "http://wiki.alioth.net/index.php/Zaonce_is_Venus_8k";
@@ -13768,7 +13730,7 @@ The similarly nearby but potentially more lucrative routes of Zaonce/Tionisle - 
 	"title" = "Griff's Glowroids";
 	"version" = "1.10";
 	"category" = "Ambience";
-	"description" = "Glow Moss, they call it. Little is known about it, other than it's an organic lifeform living on asteroids. Once it gets a hold, it's very difficult to eradicate, hence its other name â€“ Hermit's Bane.";
+	"description" = "Glow Moss, they call it. Little is known about it, other than it's an organic lifeform living on asteroids. Once it gets a hold, it's very difficult to eradicate, hence its other name – Hermit's Bane.";
 	"download_url" = "http://wiki.alioth.net/img_auth.php/1/1c/Oolite.oxp.zzz.Montana05_Griff_Glowroids.OXZ";
 	"author" = "Griff, Montana05, Nite Owl";
 	"file_size" = "5373952";
@@ -13910,7 +13872,7 @@ The similarly nearby but potentially more lucrative routes of Zaonce/Tionisle - 
 *Market Observer
 *Vimana-X HUD (flashes warnings for Incoming Missiles, High Temperature, Low Altitude, Low Energy & Low Shields)
 *HUD selector (optional)";
-	"download_url" = "Oolite.oxp.Cholmondeley.Addons_for_Beginners_(Vital_Statistics).v.1.2.oxz ";
+	"download_url" = "https://wiki.alioth.net/img_auth.php/8/8d/Oolite.oxp.Cholmondeley.Addons_for_Beginners_(Vital_Statistics).v.1.2.oxz";
 	"author" = "Cholmondely";
 	"file_size" = "2544";
 	"information_url" = "http://wiki.alioth.net/index.php/Addons_for_Beginners_(Vital_Statistics)";
@@ -14043,7 +14005,7 @@ Warning: do not install this collection if you plan to read through the whole ad
 	"title" = "Enhanced Vipers";
 	"version" = "0.52";
 	"category" = "Ships";
-	"description" = "This OXP adds enhanced Viper Patrols, Viper Pursuits, and Viper Interceptors, to richer stable systems; GalCop Deputies to stable poor/average systems; and Bounty Hunters to unstable/dangerous systems. They are not über ships - far from it - but with the advent of heavy pirates and heavy assassins into the core game, some toughening of GalCop Vipers seemed appropriate.";
+	"description" = "This OXP adds enhanced Viper Patrols, Viper Pursuits, and Viper Interceptors, to richer stable systems; GalCop Deputies to stable poor/average systems; and Bounty Hunters to unstable/dangerous systems. They are not �ber ships - far from it - but with the advent of heavy pirates and heavy assassins into the core game, some toughening of GalCop Vipers seemed appropriate.";
 	"download_url" = "http://wiki.alioth.net/img_auth.php/1/10/Oolite.oxp.zzz.Montana05.FdL_enhanced_vipers.OXZ";
 	"author" = "Montana05, Cody";
 	"file_size" = "9482240";
@@ -14316,7 +14278,7 @@ In short, they neither need fuel injectors nor are their long term interests alw
 	"identifier" = "oolite.oxp.Killer_Wolf.Steampunk_hud";
 	"required_oolite_version" = "1.79";
 	"title" = "Steampunk HUD";
-	"version" = "1";
+	"version" = "1.1";
 	"category" = "HUDs";
 	"description" = "Elegant HUD designed by an aesthete (Killer Wolf). The contrast lens is foldable by those who can tweak. The scanner needs some TLC.";
 	"download_url" = "https://wiki.alioth.net/img_auth.php/3/36/Oolite.oxp.KillerWolf.SteampunkHUD.oxz";
@@ -14787,7 +14749,7 @@ In short, they neither need fuel injectors nor are their long term interests alw
 	"upload_date" = "1664284034";
 }
 ,{
-	"identifier" = "oolite.oxp.redspear.tech_shuffle.oxz";
+	"identifier" = "oolite.oxp.redspear.tech_shuffle";
 	"required_oolite_version" = "1.80";
 	"title" = "Tech Shuffle";
 	"version" = "1.1";
@@ -15052,15 +15014,15 @@ In short, they neither need fuel injectors nor are their long term interests alw
 	"identifier" = "oolite.oxp.phkb.VimanaX_HUD";
 	"required_oolite_version" = "1.86";
 	"title" = "Vimana-X HUD";
-	"version" = "1.3";
+	"version" = "1.4";
 	"category" = "HUDs";
 	"description" = "A system-wide tweak, refinement and rework of the Vimana HUD.";
 	"download_url" = "https://wiki.alioth.net/img_auth.php/6/69/VimanaX_HUD.oxz";
 	"author" = "phkb";
-	"file_size" = "12475000";
+	"file_size" = "13901000";
 	"information_url" = "https://wiki.alioth.net/index.php/Vimana-X_HUD";
 	"license" = "CC-BY-NC-SA 4.0";
-	"upload_date" = "1691733915";
+	"upload_date" = "1693980315";
 	"requires_oxps" = (
 		{
 			"identifier" = "oolite.oxp.Norby.CombatMFD";
@@ -15085,6 +15047,28 @@ In short, they neither need fuel injectors nor are their long term interests alw
 		},
 		{
 			"identifier" = "oolite.oxp.Wildeblood.ActiveCrosshairs";
+		}
+	);
+}
+,{
+	"identifier" = "oolite.oxp.phkb.XenonUI_SWEconomy_Additions";
+	"required_oolite_version" = "1.80";
+	"title" = "Xenon UI SW Economy Addition";
+	"version" = "1.0";
+	"category" = "Ambience";
+	"description" = "Updated F6 Economy list to be compatible with SW Economy OXP.";
+	"download_url" = "https://wiki.alioth.net/img_auth.php/0/07/XenonUI_SWEconomy_Addition.oxz";
+	"author" = "phkb";
+	"file_size" = "166000";
+	"information_url" = "https://wiki.alioth.net/index.php/XenonUI";
+	"license" = "CC-BY-NC-SA 3.0";
+	"upload_date" = "1694006468";
+	"requires_oxps" = (
+		{
+			"identifier" = "oolite.oxp.z.phkb.XenonUI";
+		},
+		{
+			"identifier" = "oolite.oxp.stranger.SW_Economy";
 		}
 	);
 }
