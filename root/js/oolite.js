@@ -509,7 +509,6 @@ const oxpManager = (()=>{
         oxpTable = $q('#page-oxp .oxp-table');
         $on('#show-all-oxp-desc', 'click', _showAllDesc );
         $on('a.show-more-oxp', 'click', _showMore );
-        $on( $q('#page-oxp a[href="#oxpmanager"]'), 'click', () => alert('Work In Progress...') );
         _fetchData();
     };
 
