@@ -1,0 +1,1771 @@
+<html>
+    <head>
+        <title>Expansion Shield Cycler Next</title>
+        <link rel="stylesheet" href="../style.css">
+    </head>
+    <body>
+        <table border="0" width="100%">
+            <tr>
+                <td>Back to <a href='../index.html'>Index</a></td>
+                <td align="right"><small>Page generated: Oct 11, 2023, 3:16:48 PM</small></td>
+            </tr>
+        </table>
+
+        <h1>Expansion Shield Cycler Next</h1>
+
+        <h2>Content</h2>
+        <ul>
+          <li><a href="#warnings">Warnings</a></li>
+          <li><a href="#manifest">Manifest</a></li>
+          <li><a href="#documentation">Documentation</a></li>
+          <li><a href="#equipment">11 Equipment</a></li>
+          <li><a href="#ships">0 Ships</a></li>
+          <li><a href="#models">0 Models</a></li>
+          <li><a href="#scripts">4 Scripts</a></li>
+        </ul>
+
+          <a name="warnings">
+            <h2>Warnings</h2>
+            <ol>
+                <li>Conflict Expansions mismatch between OXP Manifest and Expansion Manager at character position 0067 (DIGIT ZERO vs LATIN SMALL LETTER N)</li>
+            </ol>
+          </a>
+
+        <a name="manifest">
+        <h2>Manifest</h2>
+            <table border="1">
+                <tr>
+                    <th></th>
+                    <th>from Expansion Manager's OXP list</th>
+                    <th>from Expansion Manifest</th>
+                </tr>
+                <tr>
+                    <td>Description</td>
+                    <td>Distributes shield energy between fore and aft shields.</td>
+                    <td>Distributes shield energy between fore and aft shields.</td>
+                </tr>
+                <tr>
+                    <td>Identifier</td>
+                    <td>oolite.oxp.Lone_Wolf.ShieldCyclerNext</td>
+                    <td>oolite.oxp.Lone_Wolf.ShieldCyclerNext</td>
+                </tr>
+                <tr>
+                    <td>Title</td>
+                    <td>Shield Cycler Next</td>
+                    <td>Shield Cycler Next</td>
+                </tr>
+                <tr>
+                    <td>Category</td>
+                    <td>Equipment</td>
+                    <td>Equipment</td>
+                </tr>
+                <tr>
+                    <td>Author</td>
+                    <td>Lone_Wolf</td>
+                    <td>Lone_Wolf</td>
+                </tr>
+                <tr>
+                    <td>Version</td>
+                    <td>2.1</td>
+                    <td>2.1</td>
+                </tr>
+                <tr>
+                    <td>Tags</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Required Oolite Version</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Maximum Oolite Version</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Required Expansions</td>
+                    <td>
+                            <li>oolite.oxp.Svengali.Library:1.7.1</li>
+                    </td>
+                    <td>
+                            <li>oolite.oxp.Svengali.Library:1.7.1</li>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Optional Expansions</td>
+                    <td>
+                    </td>
+                    <td>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Conflict Expansions</td>
+                    <td>
+                            <li>oolite.oxp.Lone_Wolf.ShieldCycler:0</li>
+                    </td>
+                    <td>
+                            <li>oolite.oxp.Lone_Wolf.ShieldCycler:</li>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Information URL</td>
+                    <td><a target="_blank" href="http://wiki.alioth.net/index.php/ShieldCycler">http://wiki.alioth.net/index.php/ShieldCycler</a></td>
+                    <td><a target="_blank" href="">n/a</a></td>
+                </tr>
+                <tr>
+                    <td>Download URL</td>
+                    <td><a target="_blank" href="https://wiki.alioth.net/img_auth.php/f/f0/ShieldCycler-2.1.oxz">https://wiki.alioth.net/img_auth.php/f/f0/ShieldCycler-2.1.oxz</a></td>
+                    <td><a target="_blank" href="">n/a</a></td>
+                </tr>
+                <tr>
+                    <td>License</td>
+                    <td>CC BY-SA 4</td>
+                    <td>CC BY-SA 4</td>
+                </tr>
+                <tr>
+                    <td>File Size</td>
+                    <td>n/a</td>
+                </tr>
+                <tr>
+                    <td>Upload date</td>
+                    <td>1610873510</td>
+                </tr>
+            </table>
+                </a>
+
+        <a name="documentation">
+        <h2>Documentation</h2>
+        <p>Also read <a href='http://wiki.alioth.net/index.php/Shield%20Cycler%20Next'>http://wiki.alioth.net/index.php/Shield%20Cycler%20Next</a></p>
+        <h3>Readme.txt</h3>
+        <pre>License
+-------
+
+This work is licensed under the Creative Commons Attribution-Share Alike 4.0 Unported License.
+To view a copy of this license, visit http://creativecommons.org/licenses/by-sa/4.0/ or send a letter to Creative Commons, 171 Second Street, Suite 300, San Francisco, California, 94105, USA. 
+
+--------------------------------------------------------------
+
+Now Fully Configurable !
+
+Thanks to Svengali and everyone that contributed to the Library OXP.
+
+Background
+----------
+
+Why do spaceships have 2 shields and not 1 (round ship) or 12 (dodecahedron station) ?
+
+Early shields could not protect a whole spaceship, only small areas of the ship. Engines, power core, cockpit, crew quarters were among the first areas to get shields protection. Soon this let to many small isolated shield pockets throughout the ship, and that was not managable.
+
+The military (well known for having the &#39;right&#39; priorities) decided that the crucial parts of a spaceship were 
+powercore and cockpit. Without power your weapons are useless, and you also need someone to press the trigger (or repair the powercore ...).
+
+In all existing shipdesigns at the time the powercore was at the back of the ship, and the cockpit at the front side (there was no weapon powerful enough to damage a space station, so they didn&#39;t have shields at all). This resulted in aft shields and forward shields.
+
+As shield technology improved, more and more of the ship got shield protection. The closer the aft and forward shielded parts got together, the more they influenced and weakened each other.
+
+A new device was proposed to deal with these problems : a shield inhibitor.
+
+The idea was to put many of these devices in speficic locations in the ship to achieve the desired effect.
+
+During Proof of Concept small scale lab tests of the inhibitor, an intern messed up some settings. Instead of 2 separate shields they had 1 shield for about 2 minutes.
+
+The designer was informed of this, checked and realised he had used simplified algorithms for the basic components. By using the latest quantum physics algortihms for the components, he was able to proof both combining and separation of shields were possible.
+
+Converting the algorithm to a solution usable in a device however was much harder. Analysis showed that solving the combining equations would take atleast 1000 times the computer effort needed for the separation. Guess what solution was chosen by the military ?
+
+Location:
+
+&quot;The Loving Feline&quot;, a Seedy Space Bar somewhere in Santaari
+
+While sipping Zaquession evil juice, commander Lone_Wolf (rated competent) reflected upon his trip here.
+
+During the voyage from the witchpoint to the main station, his cobbie had become the target of 10 pirates at once. Injectors saved the cobbie, but while running 6 equipment items had been damaged.
+
+Lone_Wolf was an engineer before he chose a new career path as a bountyhunter/trader and had repaired the items with succes.
+
+What bothered him however was that when the damage occurred, his forward shields were still at full strength. Only the aft shield was depleted.
+
+He knew the shield technology history, but computers had become much more powerful since that choice was made.
+
+&quot;A combining inhibitor would have saved me a lot of work today, and likely have saved the lives of many pilots&quot;. 
+
+A few tables further a mixed group of 5 pilots was talking, all were rated dangerous or higher. &quot;Time to ask more experienced pilots&quot;
+
+From the experiended pilots Lone_Wolf learned that there were rumours about a &quot;Shield Equalizer&quot; being in development. No details about it were known though, not even the name of the designer or company.
+
+Lone_Wolf decided it was best to start a design by himself and see if he could find more info.
+
+Fortunately the Loving Feline had a high enough tech level and good hyperspace communications, so he decided to stay there a while. (the presence of both clean and pirate ships near would help with testing).
+
+The first prototype of LW&#39;s &quot;Shield Cycler&quot; was ready soon, and worked ok, but lacked options for control and finetuning.
+A few weeks later a redesigned prototype was ready for it&#39;s first in-flight tests, but no clean pilots were available to help with testing. Lone_Wolf decided to take a break and do some research.
+
+He found out the hypermail address of the developer of &quot;Shield Equalizer&quot; , CommonSenseOTB, and contacted him.
+
+It turned out this guy was indeed working on a similar device, but felt it should be fully automated and need very little pilot control. He also planned to combine the equalizer with a capacitor that stored shield energy &amp; indicated he planned to use the Shield Equalizer as the starting point for a company.
+
+LW had no interest in starting a company, but intended to release the design into the public domain, so engineers everywhere could build it. LW and CSOTB did agree to make their designs compatible, so pilots could use both but their goals were to different to make 1 device.
+
+
+Shield Cycler
+-------------
+by Lone_Wolf
+
+Continually adjusts shield energy in automatic or manually chosen configuration:
+
+Equal: equal shields aft and forward
+Forward: max forward shield, remainder on aft shield
+Aft: max aft shield, remainder (if any) on forward shield
+Disabled: inactive
+
+Threshold, launch configuration and enabling/disabling manual cycler settings can be done through Config for AddOns at F4 Station Interfaces while docked if an appropriate version of the Manual Configurator is installed in the player ship.
+
+All adjustments are instantaneous, but use some ship energy.
+
+The energy cost for changing the configuration is related to number of energy banks and the same for all types of cyclers.
+
+Shield adjusting has an energy cost that is a percentage of the amount of energy that needs to be transferred and differs between cycler versions, and the higher versions of the Manual Configurator reduce this energy cost.
+
+Energy cost table for shield adjustments:
+(values for no manual configurator installed - higher versions of manual configurators will reduce the energy cost)
+
+Transferred Energy            &lt; 64    64 - 127    128 - 191   192 - 255   256 - 319   &gt; 320
+Shield Cycler Basic           6.0%      8.40%       11.76%      16.46%      23.05%    32.27%
+Shield Cycler Standard        4.5%      5.85%        7.60%       9.89%      12.85%    16.71%
+Shield Cycler Advanced        3.0%      3.60%        4.32%       5.18%       6.22%     7.46%
+
+Shield Cycler and Manual Configurator devices can be damaged, although NOT destroyed. When damaged they will still work, but with reduced functionality. There is a repair option, accessible from the Ship Outfitting F3 screen.
+
+None of the Shield Cycler and Manual Configurator devices are visible in the Equipment screen (F5), they are however visible in tha Manifest screen (F5+F5).
+
+The basic versions of Shield Cycler and Manual Configurator lay the groundwork which the other versions need, that&#39;s the main reason why the standard/advanced versions are listed as upgrades. Removal is done by downgrading, but to make it easier for pilots the tech will combine several downgrades into one.
+
+To enjoy all options ShieldCycler offers, you should have 2 other oxps installed :
+    Library v1.7.1 or later
+
+
+Buyable Devices
+---------------
+
+Shield Cycler Basic, 100 credits , TL 2
+    Works automatically (Equal setting).
+
+Manual Configurator Basic 200 credits, TL 1
+    Requires SC Basic or better
+    Primable with Shift+n
+    Allows in-flight manual switching between Equal/Forward/Aft/Disabled configurations
+
+Shield Cycler Standard, 24900 credits, TL 11
+    Reduced power loss
+    Requires Shield Booster, compatible with Military Shields
+    Allows the setting of a threshold that determines when adjustments begins
+    
+Manual Configurator Standard, 36600 credits, TL 11
+    Requires SC Standard or Advanced
+    Primable with Shift+n
+    Reduces power loss for shield adjusting by 50%
+    Allows in-flight manual switching between Equal/forward/Aft/Disabled configuration
+    Power loss for each in-flight change is 2*(number of energy banks)
+
+Shield Cycler Advanced, 61500 credits, TL 14
+    Requires Military Shields
+    Reduced power loss
+    Allows choosing of a specific setting on Launch
+    
+Manual Configurator Advanced, 146400 credits, TL 14
+    Requires SC Advanced
+    Primable with Shift+n
+    Reduces power loss for shield adjusting by 80%
+    Allows disabling any of the possible modes (Equal, Forward, Aft), though at least one needs to be enabled
+    Power loss for each in-flight change is 2*(number of energy banks)
+    
+Sell in-flight configurator, 100 credits, TL 1
+    Removes all in-flight configuration devices and thus reverts all to the automatic version, 60% refund
+
+Sell Shield Cycler, 100 credits, TL 1
+    Removes all automatic shield cycler devices, 60% refund
+    Will only be visible if you have no manual configurator anymore
+
+
+Notes for OXP delevopers 
+------------------------
+
+There are two great changes from v1.x to v2.0:
+
+* In v1.x the Shield Cycler equipments bought were removed, &quot;internal&quot; equipments were kept in ship.equipment and the settings object was the source of truth, i.e., defined the actual SC versions installed (or not) in the ship; in v2.0, the internal SC equipments are there for backwards compatibility only (so a save file from v2.0 can still be used with v1.x), but the equipments bought are kept and the source of truth are the installed equipments, i.e., the settings object will be populated to reflect the Shield Cycler and Manual Configurator versions installed in the ship as seen in ship.equipment. This way, if anything mess up the settings object (like bugs in Ship Storage Helper...), the only thing that happens are configurations like functional %, threshold, initial mode and position in the mode cycle being reset to defaults, but the equipment themselves are not lost and remain functional.
+
+* Version 2.0 was tweaked to make its functionality available to NPC ships; to do that a settings object was placed in the ship&#39;s script for NPCs, and the context MUST be set to the ship&#39;s script when calling the SC functions (for the player ship the context must be the &quot;Shield Cycler&quot; worldScript).
+
+* The Shield Cycler settings object is meant to be opaque, so it can be changed as needed without raising compatibility issues with other OXPs. Please use the supplied functions to interact with this OXP and contact the maintainer through the Oolite Bulletin Board (http://aegidian.org/bb/viewtopic.php?f=4&amp;t=9772) if they are not enough for your needs.
+
+To make Shield Cycler available to a NPC ship, call worldScripts[&quot;Shield Cycler&quot;]._sc_award_equipment with the ship&#39;s script as context and passing the equipment key as parameter:
+
+    let ret = worldScripts[&quot;Shield Cycler&quot;]._sc_award_equipment.call(this, &quot;EQ_SC_SHIELD_CYCLER_BASIC&quot;);
+    if (ret)
+        // Shield Cycler was awarded and set up
+    else
+        // Shield Cycler NOT awarded
+
+
+Functions available for OXPs from worldScripts[&quot;Shield Cycler&quot;]
+---------------------------------------------------------------
+
+Some functions expect indexes for the SC equipments, others expect an equipment key... both defined bellow:
+
+Version    Shield Cycler                      Manual Configurator
+           index/key                          index/key
+None       0/None                             0/None
+Basic      1/EQ_SC_SHIELD_CYCLER_BASIC        1/EQ_SC_MANUAL_CONFIGURATOR_BASIC
+Standard   2/EQ_SC_SHIELD_CYCLER_STANDARD     2/EQ_SC_MANUAL_CONFIGURATOR_STANDARD
+Advanced   3/EQ_SC_SHIELD_CYCLER_ADVANCED     3/EQ_SC_MANUAL_CONFIGURATOR_ADVANCED
+
+
+* _sc_get_sc_versions(versions) (MUST be called with the ship&#39;s script as context for NPCs)
+
+Get information about Shield Cycler devices; if the input parameter versions is null, returns info about the devices installed in the ship; if it&#39;s not null, it should be an object specifying the SC equipments to retrieve info on, like { sc:&lt;Shield Cycler index&gt;, manual:&lt;Manual Configurator index&gt;}, where index for the equipments are the ones shown above.
+
+The output is an object like (example of the output with input parameter versions==null for a ship with no Shield Cycler equipment installed):
+    {
+        sc_eqKey: null,
+        version: 0,
+        version_name: &quot;None&quot;,
+        manual_eqKey: null,
+        manual_version: 0,
+        manual_version_name: &quot;None&quot;
+    }
+
+
+* _sc_award_equipment(eqKey) (MUST be called with the ship&#39;s script as context for NPCs)
+
+Awards and sets up Shield Cycler equipment (both Shield Cycler devices and Manual Configurator devices); returns true if succeeds, false otherwise.
+
+
+* _sc_equipment_setup(eqKey) (MUST be called with the ship&#39;s script as context for NPCs)
+
+Sets up a previously awarded Shield Cycler equipment.
+
+
+* _sc_remove_manual() (MUST be called with the ship&#39;s script as context for NPCs)
+
+Removes any Shield Cycler Manual Configurator device the ship has installed and resets relevant settings in the ship&#39;s script.
+
+
+* _sc_remove_shield_cycler() (MUST be called with the ship&#39;s script as context for NPCs)
+
+Removes any Shield Cycler device the ship has installed and resets the Shield Cycler settings in the ship&#39;s script.
+
+
+* _sc_update_status() (Player&#39;s ship only)
+
+Updates Shield Cycler status on Manifest screen (F5).
+
+
+* _sc_sc_adjust(init, caller) (MUST be called with the ship&#39;s script as context for NPCs)
+
+Adjusts the shields, i.e., transfers energy between them if necessary and possible, according to the settings in the ship&#39;s script for NPCs or the &quot;Shield Cycler&quot; worldScript for the player&#39;s ship. It uses the Shield Capacitors if installed, functional and charged.
+
+The input parameter &#39;init&#39; is a boolean that should be true whenever a change was made to the Shield Cycler mode (Equal, Forward, Aft or Disabled), and false otherwise. The input parameter &#39;caller&#39; is a string identifying the caller OXP for logging purposes.
+
+This function updates the ship&#39;s properties with the new shield strengths and deducts any energy cost from the ship&#39;s energy.
+
+
+* _sc_adjust(adjust)
+
+Lower level function to adjust the shields, kept for compatibility with N-Shields v0.7 - please use _sc_sc_adjust described above!
+
+
+* _sc_stop() (MUST be called with the ship&#39;s script as context for NPCs)
+
+Disables Shield Cycler for the ship.
+
+
+* _sc_start() (MUST be called with the ship&#39;s script as context for NPCs)
+
+Enables Shield Cycler for the ship.
+
+
+* _sc_store_devices() (MUST be called with the ship&#39;s script as context for NPCs)
+
+Gets the Shield Cycler settings for storage.
+
+Returns an object like:
+    {
+        json: &lt;JSON string with Shield Cycler settings&gt;,
+        enc: &quot;&quot;
+    }
+
+Compatibility notes:
+    * the return object was kept as is for compatibility reasons, but its property &#39;enc&#39;, that in previous versions had an encrypted version of the JSON settings string, is now empty (Cabal Common Library, used for encryption, is deprecated);
+    * in previous versions calling this function would remove the Shield Cycler and Manual Configurator devices from the ship - THAT IS NOT TRUE ANYMORE... calling this function now doesn&#39;t change anything in the ship... if the equipments really are to be removed, the caller must calli the _sc_remove_* functions after calling this function.
+
+
+* _sc_retrieve_devices(setting_object) (MUST be called with the ship&#39;s script as context for NPCs)
+
+Re-instates the stored settings in the ship. The input parameter &#39;settings_object&#39; must be the output of _sc_store_devices.
+
+If the settings being re-instated are from a 1.x version of Shield Cycler, this function will award the Shield Cycler equipments specified in the settings to the ship, otherwise it will use the auxiliary settings (like thresholds and functional %) from the settings and look at the Shield Cycler equipments previously awarded to the ship and set them up.
+
+
+Version History
+---------------
+
+v2.1 (by Dybal)
+
+* Fixes bug parsing the missionVariable when it holds an empty string.
+* Defines scriptInfo.towbar_max_salvage_price for Shield Cycler and Shield Cycler Manual Configurator Standard and Advanced.
+
+v2.0 (by Dybal)
+
+* Adds functions for other OXPs to award and remove Shield Cycler equipments to NPC ships.
+* Higher level function to be used by other OXPs to adjust shields through Shield Cycler.
+* Feeds Shield Capacitors energy into the shields before adjusting if they are installed and charged for both player&#39;s ship and NPCs.
+* Most functions for other OXPs are NPC-ready and should be called with the ship&#39;s script as context for NPCs.
+* EQ_SC_SHIELD_CYCLER_INTERNAL and EQ_SC_MANUAL_CONFIGURATOR_INTERNAL are not used anymore (but kept for backwards compatibility), the ship keeps the versioned EQ_SHIELD_CYCLER_&lt;version&gt; and EQ_SC_MANUAL_CONFIGURATOR_&lt;version&gt; equipments that are sold at Ship Outfitting (F3).
+* The installed equipments are the &quot;source of truth&quot; and the settings object will be adjusted to reflect them; for player&#39;s ship, that happens at every launch, for NPCs only when the _sc_award_equipment, _se_equipment_setup or _sc_retrieve_devices are called.
+* Doesn&#39;t refund the Shield Cycler equipment value when the player buys a new ship: if the old ship was part of the payment, the equipment value (EQ_SC_SHIELD_CYCLER_&lt;version&gt; and EQ_SC_MANUAL_CONFIGURATOR_&lt;version&gt; keep their acquisition price, while EQ_SC_&lt;equipment&gt;_INTERNAL had 1Cr for price) was factored in the old ship&#39;s resale value; if not part of the payment, the ship was stored in Hyperspace Hangar with the Shield Cycler equipment installed.
+* Energy cost is now proportional to the energy actually transferred between shields instead of a flat-fee for energy transfer range (that was prohibitive for the small transfers that occur after a little while in combat).
+* _sc_store_devices (used by Ship Storage Helper OXP) doesn&#39;t remove the Shield Cycler devices from the ship.
+* _sc_retrieve_devices (used by Ship Storage Helper OXP) is now functional, the bugs have been squashed.
+* Major code re-factoring and many small bug fixes.
+* Should still be backwards compatible, i.e., a savefile of a player ship with Shield Cycler v2.0 should still work with Shield Cycler Next 1.12.
+* Changes from OXPConfig to Library, drops use of Cabal Common Library.
+* Can be promoted from development to production version.
+
+v1.12.1
+- upon repair, equipment wasn&#39;t removed which made consecutive repairs impossible
+- transfer needed in aft &amp; forward setting was calulated wrong, this could sometimes result in unwanted free shield strength out of nowhere.
+- With capacitors and shieldcycler both active, there were some weird effects.
+  Although codewise they don&#39;t clash, i&#39;ve changed the code so that SC will only cycle AFTER relevant capacitors are emptied.
+
+v 1.12
+new stable version
+small fixes
+
+v 1.11.3 :
+Upon buying a new ship, shield cycler devices were not removed anymore, corrected.
+small fixes
+
+v1.11.2
+Cabal Common Library and OxpConfig are now required dependencies
+new external methods _sc_store_devices &amp; _sc_retrieve_devices : allows Ship Storage Helper to store/retrieve ships with SC devices installed correctly
+
+v1.11.1
+    bugfix in shipLaunchedEscapePod
+    implemented 1.82 functionality
+    Minimum Oolite version is now 1.81
+
+v1.11
+
+    switch from unbreakable equipment to loss of functionality when damaged
+    used schema :
+    every direct hit will reduce functionality by 10% , but it won&#39;t go below 40% functionality
+    since the presence / absence of shield booster and mil shields already influences SC performance, there is no additonal functionality loss when they are damaged
+    new repair option when docked (F3 screen) 
+    repair price  :
+    calculate total price of all installed SC devices
+    multiply by .5
+    multiply with (100 -functionality)/100
+
+v1.10.2
+    oxpcSettings : switched from Notify to DynamicNotify
+    conflicts with ShieldCycler 1.0 oxz
+    released as oxz
+
+v1.10.1
+    small bugfixes
+
+v1.10.
+
+    Major rewrite
+    code split over many (currently 9) script files instead of 2 to improve maintainability / flexibility.
+    objects are used to share information between scripts where possible 
+    oxp disables itself if savegame to old or to new.
+    start/stop functionality changed
+    new option through oxpconfig to disable entire oxp
+      (the options for pilots to disable Shield Cycler were limited and dependant on having certain equipment).
+    use JSON for missionvariables
+    add functionality for npc ships to use shield cycler
+      (npc ships wanting to use this will need a custom ship script to give them shield functionality, an alternative would be to adjust customshields oxp to use this new functionality)
+    display device versions &amp; damage level on F5+F5 screen
+      (damage level won&#39;t change until 1.11.0 )
+    power loss for changing configuration was 2 * (nr_of_energybanks + 1) , this led to a ship with 8 banks loosing almost an entire bank of energy after just 3 changes.
+      new formula : nr_of_energybanks + 5
+    added shipLaunchedEscapePod event
+
+1.0
+- added code to test for savegames created with 1.10+ (JSON)
+- minor fix in equipment.plist
+- license changed to CC-by-SA 4
+- released as oxz &amp; oxp
+
+
+0.31
+- new function : b-key sets shieldcycler back to whatever the launch setting is
+- optimizied &amp; simplified code
+- updated CCL / OxpConfig requirements
+- added manifest.plist to oxp
+- requires Oolite 1.80
+
+
+0.30.3
+- adjusted to work with CCL 1.6 &amp; OxpConfig 2.0.12
+
+0.30.2
+- small fixes
+- updated to check for recent cabal_common &amp; oxpconfig versions
+- auto-sell cycler devices when player buys a new ship
+
+0.30.1
+- bugfixes
+- encountered problems related to different JS execution contexts for equipment event handlers, shipscript event handlers and worldscript event handlers
+  rewrite has as side-benefit that the code no longer uses global vars ( except missionvars) .
+- added sc_stop &amp; sc-start functions so other oxps can stop/start cycler functionality
+- more in-script documentation
+
+0.21.2
+- added configurable options
+  requires Cabal Common Library 1.4.1 (or later) and OxpConfig2 2.03 (or later)
+- If CCL / OxpConfig2 are not present or to old, everything works but there will be no configure options
+- cleaned up/ optimised code
+
+0.20.1
+- cycling to forward when forward shield was at full strength used energy, corrected.
+
+0.20
+- brought back disabled setting (was removed in 0.14 )
+- shipLaunchedFromStation didn&#39;t check if player has a shield cycler, fixed
+- Equipment names changed to EQ_SC_AAAAAA scheme
+- variables now all start with sc_
+- both automatic and manual versions are now available, see above for details
+- halved power needed for switching configuration, as old number meant 4 switches would drain a complete energybank
+- preparations to use OxpConfig for changing settings in later version
+
+0.14
+-	Basic Shield cycler made incompatible with Shield Booster and Mil. Shields
+	Standard Shield cycler incompatible with Mil. Shields
+-	cycling the configuration now subtracts 4 * # of energy banks from ship energy. 
+-	adjusting also uses shield energy, but the amount is now fixed and related to the transferred amount of shield energy.
+
+0.13
+-	created basic, standard &amp; advanced version incl. sell option.
+-	cycling / adjusting uses ship energy
+-	added EQ_Shield_Equalizer as incompatible equipment
+-	clean / optimize code
+
+0.12 
+-	first public version with 1 device
+</pre>
+        </a>
+
+        <a name="equipment">          
+        <h2>Equipment</h2>
+            <table>
+                <tr>
+                    <th>Name</th>
+                    <th>Visible</th>
+                    <th>Cost [deci-credits]</th>
+                    <th>Tech-Level</th>
+                </tr>
+                <tr>
+                    <td><a href="../equipment/EQ_SC_MANUAL_CONFIGURATOR_ADVANCED.html">Advanced in-flight Shield Cycler configurator</a></td>
+                    <td>yes</td>
+                    <td align="right">1464000</td>
+                    <td align="center">14+</td>
+                </tr>
+                <tr>
+                    <td><a href="../equipment/EQ_SC_MANUAL_CONFIGURATOR_BASIC.html">Basic in-flight Shield Cycler configurator</a></td>
+                    <td>no</td>
+                    <td align="right">2000</td>
+                    <td align="center">2+</td>
+                </tr>
+                <tr>
+                    <td><a href="../equipment/EQ_SC_MANUAL_CONFIGURATOR_INTERNAL.html">SC Manual Configurator</a></td>
+                    <td>no</td>
+                    <td align="right">1</td>
+                    <td align="center">2+</td>
+                </tr>
+                <tr>
+                    <td><a href="../equipment/EQ_SC_MANUAL_CONFIGURATOR_STANDARD.html">Standard in-flight Shield Cycler configurator</a></td>
+                    <td>no</td>
+                    <td align="right">366000</td>
+                    <td align="center">11+</td>
+                </tr>
+                <tr>
+                    <td><a href="../equipment/EQ_SC_SC_REPAIR.html">Repair SC devices</a></td>
+                    <td>no</td>
+                    <td align="right">0</td>
+                    <td align="center">2+</td>
+                </tr>
+                <tr>
+                    <td><a href="../equipment/EQ_SC_SELL_MANUAL_CONFIGURATOR.html">Sell in-flight configurator</a></td>
+                    <td>yes</td>
+                    <td align="right">1000</td>
+                    <td align="center">2+</td>
+                </tr>
+                <tr>
+                    <td><a href="../equipment/EQ_SC_SELL_SHIELD_CYCLER.html">Sell Shield Cycler</a></td>
+                    <td>yes</td>
+                    <td align="right">1000</td>
+                    <td align="center">2+</td>
+                </tr>
+                <tr>
+                    <td><a href="../equipment/EQ_SC_SHIELD_CYCLER_ADVANCED.html">Advanced Shield Cycler</a></td>
+                    <td>no</td>
+                    <td align="right">615000</td>
+                    <td align="center">14+</td>
+                </tr>
+                <tr>
+                    <td><a href="../equipment/EQ_SC_SHIELD_CYCLER_BASIC.html">Basic Shield Cycler</a></td>
+                    <td>no</td>
+                    <td align="right">1000</td>
+                    <td align="center">2+</td>
+                </tr>
+                <tr>
+                    <td><a href="../equipment/EQ_SC_SHIELD_CYCLER_INTERNAL.html">Shield Cycler</a></td>
+                    <td>no</td>
+                    <td align="right">1</td>
+                    <td align="center">2+</td>
+                </tr>
+                <tr>
+                    <td><a href="../equipment/EQ_SC_SHIELD_CYCLER_STANDARD.html">Standard Shield Cycler</a></td>
+                    <td>no</td>
+                    <td align="right">249000</td>
+                    <td align="center">11+</td>
+                </tr>
+            </table>
+        </a>
+
+        <a name="ships">    
+        <h2>Ships</h2>
+            This expansion declares no ships. This may be related to warnings.
+        </a>
+
+        <a name="models">    
+        <h2>Models</h2>
+            This expansion declares no models. This may be related to warnings.
+        </a>
+
+        <a name="scripts">    
+        <h2>Scripts</h2>
+            <table>
+                <tr>
+                    <th>Path</th>
+                </tr>
+                <tr>
+                    <td valign="top">Scripts/SC_Core.js</td>
+                    <td><pre>&quot;use strict&quot;;
+this.name           = &quot;SC Core&quot;;
+this.author         = &quot;Dybal&quot;;
+this.copyright      = &quot;2020 Dybal&quot;;
+this.licence        = &quot;CC-by-SA 4.0&quot;;
+this.description    = &quot;SC Core compatibility script&quot;;
+this.version        = &quot;2.0&quot;;
+
+//----------------------------------------------------------------------------------------
+this._sc_adjust = function _sc_adjust_compatibility(adjust) {
+    var wsc = worldScripts[&quot;Shield Cycler&quot;];
+    return wsc._sc_adjust(adjust);
+}
+
+</pre></td>
+                </tr>
+                <tr>
+                    <td valign="top">Scripts/SC_Equipment_Conditions.js</td>
+                    <td><pre>&quot;use strict&quot;;
+this.name           = &quot;SC equipment condtion script&quot;;
+this.author         = &quot;Lone_Wolf&quot;;
+this.copyright      = &quot;(C) 2011-2012, 2014-2015 Lone_Wolf.&quot;;
+this.licence        = &quot;CC-by-SA 4.0&quot;;
+this.description    = &quot;SC equipment condition script&quot;;
+this.version        = &quot;2.0&quot;;
+
+//----------------------------------------------------------------------------------------
+this.allowAwardEquipment = function _sc_allowAwardEquipment(equipment, ship, context) {
+    var allowed = false;
+    switch (equipment) {
+        case &quot;EQ_SC_SHIELD_CYCLER_INTERNAL&quot;:
+        case &quot;EQ_SC_MANUAL_CONFIGURATOR_INTERNAL&quot;:
+            allowed = (context === &quot;scripted&quot;) ? true : false;
+            break;
+        case &quot;EQ_SC_SC_REPAIR&quot;:
+            allowed = (worldScripts[&quot;Shield Cycler&quot;].$sc_settings.functional &lt; 100 ) ? true : false;
+            break;
+        default:
+            break;
+    };
+    return allowed;
+};
+
+//----------------------------------------------------------------------------------------
+this.updateEquipmentPrice = function _sc_updateEquipmentPrice(equipment, price) {
+    var ws = worldScripts[&quot;Shield Cycler&quot;];
+    var repair_cost = price;
+    if ( equipment === &quot;EQ_SC_SC_REPAIR&quot; ) {
+        repair_cost = ws.$sc_worm.sc_cost[ws.$sc_settings.version];
+        repair_cost += ws.$sc_worm.manual_cost[ws.$sc_settings.manual_version ];
+        repair_cost *= 0.1;
+        repair_cost = 0.5 * repair_cost * (100 - ws.$sc_settings.functional) / 100;
+    };
+    return repair_cost;
+};
+</pre></td>
+                </tr>
+                <tr>
+                    <td valign="top">Scripts/SC_Equipment_Events.js</td>
+                    <td><pre>&quot;use strict&quot;;
+this.name           = &quot;SC_equipment_events&quot;;
+this.author         = &quot;Lone_Wolf&quot;;
+this.copyright      = &quot;(C) 2011-2012, 2014-2015 Lone_Wolf.&quot;;
+this.licence        = &quot;CC-BY-SA 4.0&quot;;
+this.description    = &quot;SC equipment event handler&quot;;
+this.version        = &quot;2.0&quot;;
+
+
+//--------------------------------------------------------------------------------------------------//
+this.activated = function _sc_activated() {// player ship only
+    var wsc = worldScripts[&quot;Shield Cycler&quot;];
+    var new_config;
+
+    if (wsc == null) return;
+    if (wsc.$sc_disabled) return; 
+    // Triggered by pressing n-key while shieldcycler is primed
+    // is only called when player has a manual configurator installed and player presses n-key while device is primed
+    var loop_ready = false;
+    var new_position = wsc.$sc_settings.current_cycle_position;
+    //var new_config = wsc.$sc_const.cycle[new_position];
+    do {
+        new_position = (new_position + 1) % wsc.$sc_const.cycle.length;
+        new_config = wsc.$sc_const.cycle[new_position];
+        loop_ready = !(wsc.$sc_settings.cycler_mask &amp; Math.pow(2, new_config));
+        if (wsc.$debug) log(wsc.name, &quot;new_position:&quot;+new_position+&quot;, new_config:&quot;+new_config+&quot; (&quot;+wsc.$sc_const.mode_names[new_config]+&quot;), math:&quot;+Math.pow(2, new_config)+&quot;, loop_ready:&quot;+loop_ready);
+    } while (loop_ready);
+    wsc.$sc_settings.current_cycle_position = new_position;
+    wsc.$sc_settings.current_configuration = new_config;
+    wsc._sc_sc_adjust(true, &quot;Shield Cycler&quot;);
+}
+
+//--------------------------------------------------------------------------------------------------//
+this.mode = function _sc_mode() {// player ship only
+    var wsc = worldScripts[&quot;Shield Cycler&quot;];
+
+    if (wsc == null) return;
+    if (wsc.$sc_disabled) {
+        player.commsMessage(&quot;Shield Cycler is disabled&quot;,10);
+        if (wsc.$logging) log(wsc.name, &quot;Shield Cycler disabled&quot;);
+        return; 
+    }
+    wsc.$sc_settings.current_cycle_position = 0;
+    wsc.$sc_settings.current_configuration = wsc.$sc_const.cycle[0];
+    var error = wsc._sc_sc_adjust(true, &quot;Shield Cycler&quot;);
+    if (error &lt; 0 ) {
+        player.commsMessage( &quot;Error - check latest log&quot;,10);
+        log(wsc.name,&quot;error while resetting to start configuration&quot;);
+    }
+}
+
+</pre></td>
+                </tr>
+                <tr>
+                    <td valign="top">Scripts/ShieldCycler.js</td>
+                    <td><pre>&quot;use strict&quot;;
+this.name           = &quot;Shield Cycler&quot;;
+this.author         = &quot;Lone_Wolf&quot;;
+this.copyright      = &quot;(C) 2011-2012, 2014-2015 Lone_Wolf.&quot;;
+this.licence        = &quot;CC-BY-SA 4.0&quot;;
+this.description    = &quot;Keeps shield energy aligned with a specific configuration&quot;;
+this.version        = &quot;2.1&quot;;
+
+/* Main script for Shield Cycler
+ * + functions used in other SC scripts
+ * + functions used by/for other oxps
+*/
+
+/* All settings that need saving are stored in missionVariables.sc_settings using JSON
+   for ease of use &amp; performance the SC scripts internally use the object this._sc_settings / worldScripts[&quot;Shield Cycler&quot;]._sc_settings
+     
+    name                        Type   Comment
+    $sc_settings                obj   
+        threshold               int    percentage, can be 0-100
+        start_configuration     int    number , 0 = disabled, 1 = aft 2 = fwd 3 = equal
+        current_cycle_position  int    number, position in the cycle (Equal, Fwd, Equal, Aft, Disabled), first position being 0
+        current_configuration   int    number , 0 = disabled, 1 = aft 2 = fwd 3 = equal
+        cycler_mask             int    bitmask (size = 4 ) used to keep track which settings are available for cycling
+                                       bit order (MSB first) : equal, forward, aft , disabled
+                                       bit = 1 : available, 0 not available
+        functional              int    percentage, 100 is fully functional, 20 is minimum 
+        version                 int    number, 0=none 1 = basic , 2 = standard, 3 =advanced 
+        manual_version          int    number, 0=none 1 = basic , 2 = standard, 3 =advanced 
+};
+  NOTE 1: missionvariables are loaded at startup, then converted into this._sc_setting object .
+          during game the missionvariables are NOT kept uptodate.
+          they are updated only when player saves game.
+  NOTE 2: the settings object cane change from version to version.
+          other OXPs that need to interact with Shield Cycler
+
+  equipment items
+    EQ_SC_SHIELD_CYCLER_INTERNAL          - present if shield cycler is installed, for backward compatibility
+    EQ_SC_SHIELD_CYCLER_BASIC
+    EQ_SC_SHIELD_CYCLER_STANDARD
+    EQ_SC_SHIELD_CYCLER_ADVANCED
+    EQ_SC_MANUAL_CONFIGURATOR_INTERNAL    - present if a manual configurator is installed, for backward compatibility
+    EQ_SC_MANUAL_CONFIGURATOR_BASIC
+    EQ_SC_MANUAL_CONFIGURATOR_STANDARD
+    EQ_SC_MANUAL_CONFIGURATOR_ADVANCED
+    EQ_SC_SELL_SHIELD_CYCLER
+    EQ_SC_SELL_MANUAL
+    EQ_SC_SC_REPAIR
+    
+    NOTE: EQ_SC_SHIELD_CYCLER_* and EQ_SC_MANUAL_CONFIGURATOR_* will be present in the savefile but NOT visible on the F5 equipment screen
+
+*/
+
+this.$debug = true;
+this.$logging = true;
+this.$compatibility = true;
+
+// RO stuff, i haven&#39;t been able to figure out how to make these read-only, so the values here can be changed by code, but that&#39;s not supposed to happen
+this.$sc_const = {
+    sc_list: [&quot;None&quot;,&quot;EQ_SC_SHIELD_CYCLER_BASIC&quot;,&quot;EQ_SC_SHIELD_CYCLER_STANDARD&quot;,&quot;EQ_SC_SHIELD_CYCLER_ADVANCED&quot;],
+    manual_list: [&quot;None&quot;,&quot;EQ_SC_MANUAL_CONFIGURATOR_BASIC&quot;,&quot;EQ_SC_MANUAL_CONFIGURATOR_STANDARD&quot;,&quot;EQ_SC_MANUAL_CONFIGURATOR_ADVANCED&quot;],
+    sc_names: [&quot;None&quot;, &quot;Basic&quot;, &quot;Standard&quot;, &quot;Advanced&quot;],
+    manual_names: [&quot;None&quot;, &quot;Basic&quot;, &quot;Standard&quot;, &quot;Advanced&quot;],
+    modes: { disabled:0, aft:1, forward:2, both:3, count:4 },
+    cycle: [ 3, 2, 3, 1, 0 ],
+    mode_names: [ &quot;Disabled&quot;, &quot;Aft&quot;, &quot;Forward&quot;, &quot;Equal&quot;],
+};
+
+// WORM stuff
+this.$sc_worm = {
+    sc_cost: [],
+    manual_cost: []
+};
+  
+// R/W stuff
+this.$sc_settings = {
+        threshold: 100,
+        current_cycle_position: 0,
+        start_configuration: this.$sc_const.cycle[0],
+        current_configuration: this.$sc_const.cycle[0],
+        cycler_mask: 0x00f,
+        functional: 100,
+        version: 0,
+        manual_version: 0,
+};
+this.$sc_disabled = false;
+// for backwards compatibility, it&#39;s not used anymore
+// (some OXP might be acessing it)
+// it will reflect changes to this.$sc_settings
+this._sc_settings = {
+        sc : this.$sc_settings,
+        general : {
+            disabled : this.$sc_settings.current_configuration === 0,
+            sc_disabled : this.$sc_settings.current_configuration === 0,
+            savegame_version : 0
+        }
+};
+this._sc_const = this.$sc_const;
+
+//
+// Properties for internal use
+//
+this.$sc_cycler_loss = [
+    // power loss for no cycler, basic, standard, advanced (one sbu-array for each)
+    // each sub-array holds energy cost in % of energy transfer
+    // indexes on the sub-arrays based on &lt;energy transfer&gt; / &lt;energy bank size&gt;
+        [ 0, 0, 0, 0, 0, 0 ], // no cycler present, so no power loss
+        [ 0.0600, 0.0840, 0.1176, 0.1646, 0.2305, 0.3227 ], // basic cycler
+        [ 0.0450, 0.0585, 0.0760, 0.0989, 0.1285, 0.1671 ], // standard cycler
+        [ 0.0300, 0.0360, 0.0432, 0.0518, 0.0622, 0.0746 ], // advanced cycler
+];
+
+// powerloss multiplier for manual configurators
+// none, basic, standard, advanced
+this.$sc_manual_reduction = [ 1, 1, 0.50, 0.20];
+    
+this._sc_error = 0;
+    /* used for error tracking
+    * 0 = no error
+    * 1 = savegame to old
+    * 2 = savegame to new
+    */
+
+this._sc_display_status_title =  &quot;Shield Cycler Status&quot;;
+
+// for Lib_Config 
+this._scConfig =  {
+        Name:           &quot;Shield Cycler&quot;,
+        Display:        &quot;Shield Cycler Config&quot;,
+        Alive:          &quot;_scConfig&quot;,
+        Bool:   {
+                    B0: {
+                            Name:   &quot;$sc_disabled&quot;,
+                            Desc:   &quot;disable SC OXP.&quot;,
+                            Def:    false, 
+                            Hide:   false,
+                            Notify: &quot;_scChange_disabled&quot;,
+                        },
+                    Info:   &quot;enable/disable Shield Cycler oxp functionality&quot;
+                },
+        SInt:   {
+                    S0: {
+                            Name:   &quot;$sc_settings.threshold&quot;,
+                            Desc:   &quot;threshold %&quot;,
+                            Def:100, Min:0, Max:100, 
+                            Hide:   false,
+                            Notify: &quot;_scChange_threshold&quot;,
+                        },
+                    S1: {
+                            Name:   &quot;$sc_settings.start_configuration&quot;,
+                            Desc:   &quot;launch setting&quot;,
+                            Def:3, Min:0, Max:3, 
+                            Hide:   false,
+                            Notify: &quot;_scChange_start_configuration&quot;,
+                        },
+                    Info:   &quot;Threshold % determines when adjusting is done. 100=always, 0=never.\nStart configuration is the configuration that will be set upon launch (3=equal, 2=fwd, 1=aft, 0=disabled).&quot;
+                },
+        EInt:   {
+                    E0: {
+                            Name:   &quot;$sc_settings.cycler_mask&quot;,
+                            Desc:   [&quot;Disabled&quot;,&quot;Aft&quot;,&quot;Forward&quot;,&quot;Equal&quot;],
+                            Def:0x001, Min:0x000, Max:0x00f, 
+                            Hide:   false,
+                            Notify: &quot;_scChange_cycler_mask&quot;,
+                        },
+                    Info:   &quot;enable/disable the availability of the settings for manual cycling. Note: if you disable all, Shield Cycler oxp will enable the disabled setting.&quot;
+                }
+}
+
+
+//
+//  Event Handlers
+//
+
+//--------------------------------------------------------------------------------------------------//
+this.startUp = function _sc_startUp() {
+    var wsc = worldScripts[&quot;Shield Cycler&quot;];
+    var ship = player.ship;
+    var i, list;
+
+    this.ship = ship;
+    if (missionVariables.sc_settings) { 
+        let ret = wsc._parseSavedSettings(missionVariables.sc_settings);
+        if (ret) 
+            log(this.name, &quot;missionVariables sc_settings has invalid JSON string: &quot;+missionVariables.sc_settings);
+        delete missionVariables.sc_settings;
+    } else {
+        wsc._resetSettings(wsc.$sc_settings);
+        wsc.$sc_settings.version = 0;
+        wsc.$sc_settings.manual_version = 0;
+    }
+
+    // set Lib_Config settings visibility
+    wsc._setLibConfigVisibility();
+
+    // calculate price values
+    list = wsc.$sc_const.sc_list;
+    i = list.length;
+    while (i--) 
+        if (i === 0)
+            wsc.$sc_worm.sc_cost[i] = 0;
+        else
+            wsc.$sc_worm.sc_cost[i] = EquipmentInfo.infoForKey(list[i]).price;
+
+    list = wsc.$sc_const.manual_list;
+    i = list.length;
+    while (i--) 
+        if (i === 0)
+            wsc.$sc_worm.manual_cost[i] = 0;
+        else
+            wsc.$sc_worm.manual_cost[i] = EquipmentInfo.infoForKey(list[i]).price;
+
+    if (this.$logging) log(wsc.name, &quot;Shield Cycler completed settings: &quot;+JSON.stringify(wsc.$sc_settings));
+}
+
+//--------------------------------------------------------------------------------------------------//
+this.startUpComplete = function _sc_startUpComplete() {
+    var wsc = worldScripts[&quot;Shield Cycler&quot;];
+    wsc._sc_update_status();
+    if (worldScripts.Lib_Config) {
+        var ret = worldScripts.Lib_Config._registerSet(wsc._scConfig);
+        if (this.$debug) log(wsc.name, &quot;Lib_Config regsterSet returned &quot;+ret);
+    }
+}
+
+//--------------------------------------------------------------------------------------------------//
+this.playerWillSaveGame = function _sc_playerWillSaveGame() {
+    missionVariables.sc_settings = JSON.stringify(worldScripts[&quot;Shield Cycler&quot;]._sc_settings);
+};
+
+//--------------------------------------------------------------------------------------------------//
+this.playerBoughtNewShip = this.playerReplacedShip = function _sc_playerReplacedShip(ship) {// player ship only
+    var wsc = worldScripts[&quot;Shield Cycler&quot;];
+
+    this.ship = player.ship;
+    // sell shieldcycler equipment if still present and reset settings 
+    if (this.$sc_settings.version !== 0) {
+        log(this.name, &quot;Player&#39;s got a new ship, removing Shield Cycler equipments&quot;);
+        if (this.$sc_settings.manual_version !== 0) 
+            wsc._sc_remove_manual();
+        wsc._sc_remove_shield_cycler();
+        wsc._sc_update_status();
+    }
+}
+
+//--------------------------------------------------------------------------------------------------//
+this.equipmentDamaged = this.equipmentDestroyed = function _sc_equipmentDamaged(eqKey) {// NPC-ready
+    // can be called from NPCs ship.script if &#39;this&#39; is made to be the ship&#39;s script
+    var wsc = worldScripts[&quot;Shield Cycler&quot;];
+ 
+    if (eqKey === wsc.$sc_const.sc_list[this.$sc_settings.version] || eqKey === wsc.$sc_const.manual_list[this.$sc_settings.manual_version]) {
+        player.commsMessage(&quot;Shield Cycler devices taking damage, functionality is reduced&quot;,6);
+        this.ship.setEquipmentStatus(EquipmentInfo.infoForKey(eqKey), &quot;EQUIPMENT_OK&quot;);
+        if (this.$sc_settings.functional &gt;= 50 )
+            this.$sc_settings.functional -= 10;
+        else
+            this.$sc_settings.functional = 40;
+        if (this.$logging) log(wsc.name, &quot;Shield Cycler devices taking damage, functionality is reduced to&quot;+this.$sc_settings.functional+&quot;%&quot;);
+    }
+}
+
+//--------------------------------------------------------------------------------------------------//
+this.playerBoughtEquipment = function _sc_playerBoughtEquipment(eqKey) {// player ship only
+    var wsc = worldScripts[&quot;Shield Cycler&quot;];
+
+    if (wsc.$sc_const.sc_list.indexOf(eqKey) &gt;= 0) {
+        // SC device proper (EQ_SHIELD_CYCLER_BASIC, EQ_SHIELD_CYCLER_STANDARD, EQ_SHIELD_CYCLER_ADVANCED)
+        wsc._sc_equipment_setup(eqKey);
+
+    } else if (wsc.$sc_const.manual_list.indexOf(eqKey) &gt;= 0) {
+        // SC Manual Configurator (EQ_SC_MANUAL_CONFIGURATOR_BASIC, EQ_SC_MANUAL_CONFIGURATOR_STANDARD, EQ_SC_MANUAL_CONFIGURATOR_ADVANCED)
+        wsc._sc_equipment_setup(eqKey);
+
+    } else if (eqKey === &quot;EQ_SC_SELL_SHIELD_CYCLER&quot;) {
+        player.credits += wsc._sc_remove_shield_cycler();
+        wsc._sc_update_status();
+
+    } else if (eqKey === &quot;EQ_SC_SELL_MANUAL_CONFIGURATOR&quot;) {
+        player.credits += wsc._sc_remove_manual();
+        wsc._sc_update_status();
+
+    } else if (eqKey === &quot;EQ_SC_SC_REPAIR&quot;) {
+        wsc.$sc_settings.functional = 100;
+        this.ship.removeEquipment(equipmentKey);
+        wsc._sc_update_status();
+    }
+}
+
+//--------------------------------------------------------------------------------------------------//
+this.shipLaunchedFromStation = function _sc_shipLaunchedFromStation(station) {// NPC-ready
+    var wsc = worldScripts[&quot;Shield Cycler&quot;];
+
+    var sc_eqs = wsc._sc_get_sc_versions(null);
+    if (wsc.$sc_settings.version !== sc_eqs.version) {
+        log(this.name, this.ship.displayName+&quot; settings (&quot;+wsc.$sc_settings.version+&quot;/&quot;+wsc.$sc_settings.manual_version+&quot;) don&#39;t match installed equipments (&quot;+sc_eqs.version+&quot;/&quot;+sc_eqs.manual_version+&quot;), adjusting settings&quot;);
+        wsc.$sc_settings.version = sc_eqs.version;    
+        wsc.$sc_settings.manual_version = sc_eqs.manual_version;
+    }
+
+    if (wsc.$sc_disabled) return;
+    // check if player has a Shield Cycler
+    if (this.$sc_settings.version === 0) return;
+    if (this.$sc_settings.current_configuration) 
+        // don&#39;t change it if it&#39;s 0:Disabled
+        this.$sc_settings.current_configuration = this.$sc_settings.start_configuration;
+    this.$sc_settings.current_cycle_position = wsc.$sc_const.cycle.indexOf(this.$sc_settings.start_configuration);
+    wsc._sc_sc_adjust.call(this, true, &quot;Shield Cycler&quot;);
+}
+
+//--------------------------------------------------------------------------------------------------//
+this.shipTakingDamage = function _sc_shipTakingDamage(amount, fromEntity, damageType) {// NPC-ready
+    var wsc = worldScripts[&quot;Shield Cycler&quot;];
+
+    if (wsc.$sc_disabled) return;
+    if (this.$sc_settings.version === 0) return;
+    if (this.$logging) log(wsc.name, this.ship.displayName+&quot; taking &quot;+amount.toFixed(1)+&quot; damage of type &quot;+damageType+&quot; from &quot;+fromEntity.displayName);
+    wsc._sc_sc_adjust.call(this, false, &quot;Shield Cycler&quot;);
+}
+
+//--------------------------------------------------------------------------------------------------//
+this.shipLaunchedEscapePod = function _sc_shipLaunchedEscapePod(escapepod, passengers) {// player ship only
+    var wsc = worldScripts[&quot;Shield Cycler&quot;];
+
+    // reset devices / vars when pilot ejects
+    if (this.$sc_settings.version === 0) return;
+    if (this.$sc_settings.manual_version !== 0) { 
+        wsc._sc_remove_manual();
+    }
+    wsc._sc_remove_shield_cycler();
+}
+
+
+//
+// Internal Functions
+//
+ 
+//--------------------------------------------------------------------------------------------------//
+this._parseSavedSettings = function _sc_parseSavedSettings(saved) {// NPC-ready
+    // can be called to configure NPCs if &#39;this&#39; is made to be the ship&#39;s script
+    // parse a settings JSON string and initialize the OXP settings object
+    // deals with JSON strings in legacy settings format
+    var that = _sc_parseSavedSettings;
+    var wsc = worldScripts[&quot;Shield Cycler&quot;];
+    var unchanged_fields = (that.unchanged_fields = that.unchanged_fields || 
+                            [&quot;threshold&quot;,&quot;start_configuration&quot;,&quot;current_configuration&quot;,&quot;cycler_mask&quot;, &quot;functional&quot;,&quot;version&quot;, &quot;manual_version&quot;]);
+    var tmp;
+
+    if (saved &amp;&amp; saved.length &gt; 0) {
+        try { 
+            tmp = JSON.parse(saved);
+        } catch (e) {
+            log(wsc.name, &quot;JSON exception parsing settings: &quot;+e);
+            return 3;
+        }
+    } else 
+        if (wsc.$debug) log(wsc.name, &quot;empty settings JSON string&quot;);
+
+    // create settings object in NPC ship&#39;s script
+    if (!this.$sc_settings) this.$sc_settings = {};
+
+    if (!tmp) {
+        // empty settings, assume v2.x
+        wsc._resetSettings(this.$sc_settings);
+        // &quot;equipments rule&quot;
+        wsc._reconcileSettings.call(this, false);
+    } else if (&quot;sc&quot; in tmp &amp;&amp; !(&quot;current_cycle_position&quot; in tmp.sc)) {
+        // settings from Shield Cycler v1.x 
+        // copy unchanged fields
+        if (this.$debug) log(wsc.name, this.ship.displayName+&quot;: restoring from v1.x settings&quot;);
+        wsc._resetSettings(this.$sc_settings);
+        var i = unchanged_fields.length;
+        while (i--) if (tmp.sc[unchanged_fields[i]]) this.$sc_settings[unchanged_fields[i]] = tmp.sc[unchanged_fields[i]];
+        // set changed fields
+        this.$sc_settings.current_cycle_position = wsc.$sc_const.cycle.indexOf(wsc.$sc_settings.current_configuration);
+        // will not have the actual equipments installed, so &quot;settings rule!&quot;
+        wsc._reconcileSettings.call(this, true);
+    } else if (&quot;current_cycle_position&quot; in tmp) {
+        // settings from Shield Cycler v2.x
+        if (this.$debug) log(wsc.name, this.ship.displayName+&quot;: restoring from v2.x settings&quot;);
+        this.$sc_settings = tmp;
+        if (typeof this.$sc_settings.version === &quot;string&quot;) {
+            // deprecated development version of settings
+            this.$sc_settings.version =  wsc.$sc_const.sc_list.indexOf(this.$sc_settings.version);
+            this.$sc_settings.manual_version =  wsc.$sc_const.sc_list.indexOf(this.$sc_settings.manual_version);
+        }
+        // already migrated to new version, so &quot;equipments rule!&quot;
+        wsc._reconcileSettings.call(this, false);
+    } else if (&quot;sc&quot; in tmp &amp;&amp; (&quot;current_cycle_position&quot; in tmp.sc)) {
+        // v2.x compatibility object
+        if (this.$debug) log(wsc.name, this.ship.displayName+&quot;: restoring from v2.x compatibility settings&quot;);
+        this.$sc_settings = tmp.sc;
+        if (typeof this.$sc_settings.version === &quot;string&quot;) {
+            // deprecated development version of settings
+            this.$sc_settings.version =  wsc.$sc_const.sc_list.indexOf(this.$sc_settings.version);
+            this.$sc_settings.manual_version =  wsc.$sc_const.sc_list.indexOf(this.$sc_settings.manual_version);
+        }
+        // already migrated to new version, so &quot;equipments rule!&quot;
+        wsc._reconcileSettings.call(this, false);
+    } else {
+        if (this.$debug) log(wsc.name, this.ship.displayName+&quot;: no setting to restore, setting None&quot;);
+        this.$sc_settings.version = this.$sc_settings.manual_version = 0;
+        wsc._resetSettings(this.$sc_settings);
+        wsc._reconcileSettings.call(this, false);
+    }
+
+    if (this.ship == player.ship)
+        // copy reference to legacy settings object
+        wsc._sc_settings.sc = wsc.$sc_settings;
+    return 0;
+}
+
+//--------------------------------------------------------------------------------------------------//
+this._reconcileSettings = function _sc_reconcileSettings(settings_rule) {// NPC-ready
+    // can be called to configure NPCs if &#39;this&#39; is made to be the ship&#39;s script
+    var wsc = worldScripts[&quot;Shield Cycler&quot;];
+    var ship = this.ship;
+    var list, i;
+    if (settings_rule) {
+        // Truth is what&#39;s in the settings (legacy of v1.x)
+        // remove installed SC equipments if not the one in settings
+        if (this.$debug) log(wsc.name, this.ship.displayName+&quot;: reconciling settings with &#39;settings rule&#39; (for legacy settings) :&quot;+JSON.stringify(this.$sc_settings));
+        list = wsc.$sc_const.sc_list;
+        i = list.length;
+        while (i--) 
+            if (i &gt; 0 &amp;&amp; i !== this.$sc_settings.version &amp;&amp; ship.equipmentStatus(list[i]) === &quot;EQUIPMENT_OK&quot;) {
+                if (this.$logging) log(wsc.name, ship.displayName+&quot; &quot;+list[i]+&quot; is not in Shield Cycler settings, removing&quot;);
+                ship.removeEquipment(list[i]);
+            }
+        list = wsc.$sc_const.manual_list;
+        i = list.length;
+        while (i--) 
+            if (i &gt; 0 &amp;&amp; i !== this.$sc_settings.manual_version &amp;&amp; ship.equipmentStatus(list[i]) === &quot;EQUIPMENT_OK&quot;) {
+                if (this.$logging) log(wsc.name, ship.displayName+&quot; &quot;+list[i]+&quot; is not in Shield Cycler settings, removing&quot;);
+                ship.removeEquipment(list[i]);
+            }
+        // award the correct ones
+        if (this.$sc_settings.version !== 0) ship.awardEquipment(wsc.$sc_const.sc_list[this.$sc_settings.version]);
+        if (this.$sc_settings.manual_version !== 0) ship.awardEquipment(wsc.$sc_const.manual_list[this.$sc_settings.manual_version]);
+        if (this.$logging) log(wsc.name, this.ship.displayName+&quot;: awarded &quot;+wsc.$sc_const.sc_list[this.$sc_settings.version]+&quot; and &quot;+wsc.$sc_const.manual_list[this.$sc_settings.manual_version]);
+    } else {
+        // Truth is whatever is installed in the ship (v2.x)
+        log(wsc.name, this.ship.displayName+&quot;: reconciling settings with &#39;equipments rule&#39; (for v2.x SC)&quot;);
+        list = wsc.$sc_const.sc_list;
+        i = list.length;
+        while (i--) 
+            if (i &gt; 0 &amp;&amp; ship.equipmentStatus(list[i]) === &quot;EQUIPMENT_OK&quot;) {
+                if (this.$logging) log(wsc.name, this.ship.displayName+&quot;: found &quot;+list[i]+&quot;, setting it up&quot;);
+                wsc._sc_equipment_setup.call(this, list[i]);
+                break;
+            }
+        list = wsc.$sc_const.manual_list;
+        i = list.length;
+        while (i--) 
+            if (i &gt; 0 &amp;&amp; ship.equipmentStatus(list[i]) === &quot;EQUIPMENT_OK&quot;) {
+                if (this.$logging) log(wsc.name, this.ship.displayName+&quot;: found &quot;+list[i]+&quot;, setting it up&quot;);
+                wsc._sc_equipment_setup.call(this, list[i]);
+                break;
+            }
+        log(wsc.name, this.ship.displayName+&quot;: Shield Cycler settings: &quot;+JSON.stringify(this.$sc_settings));
+    }
+    if (wsc.$compatibility) {
+        // awards the deprecated internal equipments for compatibility reasons 
+        // (so when saved the ship would still work with v1.x)
+        if (this.$sc_settings.version !== 0 &amp;&amp; ship.equipmentStatus(&quot;EQ_SC_SHIELD_CYCLER_INTERNAL&quot;) !== &quot;EQUIPMENT_OK&quot;) 
+            ship.awardEquipment(&quot;EQ_SC_SHIELD_CYCLER_INTERNAL&quot;);
+        if (this.$sc_settings.manual_version !== 0 &amp;&amp; ship.equipmentStatus(&quot;EQ_SC_MANUAL_CONFIGURATOR_INTERNAL&quot;) !== &quot;EQUIPMENT_OK&quot;) 
+            ship.awardEquipment(&quot;EQ_SC_MANUAL_CONFIGURATOR_INTERNAL&quot;);
+    }
+}
+
+//--------------------------------------------------------------------------------------------------//
+this._setLibConfigVisibility = function _sc_setLibConfigVisibility() {// player ship only
+    var wsc = worldScripts[&quot;Shield Cycler&quot;];
+    if (this.ship != player.ship) return;
+    wsc._changeConfiguration(1, (this.$sc_settings.version &lt; 2)); 
+    wsc._changeConfiguration(2, (this.$sc_settings.version &lt; 3)); 
+    wsc._changeConfiguration(3, (this.$sc_settings.manual_version &lt; 3));      
+}
+
+//--------------------------------------------------------------------------------------------------//
+this._changeConfiguration = function _sc_changeConfiguration(setting, hide) {// player ship only
+    // sets/resets visibility of configure options in LibConfig
+    var wsc = worldScripts[&quot;Shield Cycler&quot;];
+
+    if (this.ship != player.ship) return;
+    switch (setting) {
+        case 1:
+            wsc._scConfig.SInt.S0.Hide = hide;
+            break;
+        case 2:
+            wsc._scConfig.SInt.S1.Hide = hide;
+            break;
+        case 3:
+            wsc._scConfig.EInt.E0.Hide = hide;
+            break;
+        default:
+            break;
+    }
+}
+  
+//--------------------------------------------------------------------------------------------------//
+this._resetSettings = function _sc_resetSettings(settings) {// NPC-ready
+    var wsc = worldScripts[&quot;Shield Cycler&quot;];
+
+    settings.threshold = 100;
+    settings.current_cycle_position = 0;
+    settings.start_configuration = wsc.$sc_const.cycle[0];
+    settings.current_configuration = wsc.$sc_const.cycle[0];
+    settings.cycler_mask = 0x00f;
+    settings.functional = 100;
+}
+
+
+//==================================================================================================//
+// 
+// Functions for use by other OXPs
+//
+
+//--------------------------------------------------------------------------------------------------//
+this._sc_get_sc_versions = function _sc_get_sc_versions(versions) {// NPC-ready
+    // can be called for NPCs ship.script if &#39;this&#39; is made to be the ship&#39;s script
+
+    // versions == null means get data from installed equipments
+    // versions = { sc:&lt;integer&gt;, manual:&lt;integer&gt; } means get the data for those sc equipments
+    var wsc = worldScripts[&quot;Shield Cycler&quot;];
+    var ret;
+    var ship = this.ship;
+    var sc = {  
+                sc_eqKey: null,
+                version: 0,
+                version_name: &quot;None&quot;,
+                manual_eqKey: null,
+                manual_version: 0,
+                manual_version_name: &quot;None&quot; 
+            };
+
+    function verify_equipment_list(list) {
+        var i;
+        i = list.length;
+        while (i--)
+            if (i &gt; 0 &amp;&amp; ship.equipmentStatus(list[i]) === &quot;EQUIPMENT_OK&quot;) {
+                 return {eqKey: list[i],  version: i};
+            } 
+        return {eqKey: &quot;None&quot;,  version: 0};
+    }
+    
+    if (!versions) {
+        // data from installed equipments
+        ret = verify_equipment_list(wsc.$sc_const.sc_list);
+        sc.sc_eqKey = (ret.eqKey === &quot;None&quot; ? null : ret.eqKey);
+        sc.version = ret.version;
+        sc.version_name = wsc.$sc_const.sc_names[ret.version];
+
+        ret = verify_equipment_list(wsc.$sc_const.manual_list);
+        sc.manual_eqKey = (ret.eqKey === &quot;None&quot; ? null : ret.eqKey);
+        sc.manual_version = ret.version;
+        sc.manual_version_name = wsc.$sc_const.manual_names[ret.manual_version];
+    } else {
+        // data from specified equipments
+        if (versions.sc &lt; wsc.$sc_const.sc_list.length) {
+            sc.sc_eqKey = wsc.$sc_const.sc_list[versions.sc];
+            sc.version = versions.sc;
+            sc.version_name = wsc.$sc_const.sc_names[sc.version];
+        }
+        if (versions.manual &lt; wsc.$sc_const.manual_list.length) {
+            sc.manual_eqKey = wsc.$sc_const.manual_list[versions.manual];
+            sc.manual_version = versions.manual;
+            sc.manual_version_name = wsc.$sc_const.manual_names[sc.manual_version];
+        }
+    }
+
+    return  sc;
+}
+
+//--------------------------------------------------------------------------------------------------//
+this._sc_award_equipment = function _sc_award_equipment(eqKey) { //NPC-only
+    // can be called from NPCs ship.script if &#39;this&#39; is made to be the ship&#39;s script
+    var wsc = worldScripts[&quot;Shield Cycler&quot;];
+    if (this.ship == player.ship) return false;
+    var ret;
+    var i = wsc.$sc_const.sc_list.indexOf(eqKey);
+    if (i &gt;= 0) {
+        ret = this.ship.awardEquipment(eqKey);
+        if (ret) 
+            wsc._sc_equipment_setup.call(this, eqKey);
+        if (wsc.$debug) log(wsc.name, this.ship.displayName+&quot; awarding &quot;+eqKey+&quot;, success:&quot;+ret);
+        return ret;
+    } else {
+        i = wsc.$sc_const.manual_list.indexOf(eqKey);
+        if (i &gt;= 0) {
+            ret = this.ship.awardEquipment(eqKey);
+            if (ret) 
+                wsc._sc_equipment_setup.call(this, eqKey);
+            if (wsc.$debug) log(wsc.name, this.ship.displayName+&quot; awarding &quot;+eqKey+&quot;, success:&quot;+ret);
+            return ret;
+        }
+    }    
+    return false;
+}
+
+//--------------------------------------------------------------------------------------------------//
+this._sc_equipment_setup = function _sc_equipment_setup(eqKey) { //NPC-ready
+    // can be called from NPCs ship.script if &#39;this&#39; is made to be the ship&#39;s script
+    // sets the equipment up, but the equipment must already have been awarded to the ship
+    var wsc = worldScripts[&quot;Shield Cycler&quot;];
+    var npc = (this.ship != player.ship);
+
+    if (this.ship.equipmentStatus(eqKey) !== &quot;EQUIPMENT_OK&quot;) return;
+
+    var index = wsc.$sc_const.sc_list.indexOf(eqKey);
+    if (index &gt;= 0) {
+        // SC device proper (EQ_SHIELD_CYCLER_BASIC, EQ_SHIELD_CYCLER_STANDARD, EQ_SHIELD_CYCLER_ADVANCED)
+        if (!this.$sc_settings) {
+            // NPC setup!
+            this.$sc_settings = {};
+            wsc._resetSettings(this.$sc_settings);
+            this.$sc_settings.version = 0;
+            this.$sc_settings.manual_version = 0;
+            if (wsc.$compatibility &amp;&amp;  ship.equipmentStatus(&quot;EQ_SC_SHIELD_CYCLER_INTERNAL&quot;) !== &quot;EQUIPMENT_OK&quot;)
+                ship.awardEquipment(&quot;EQ_SC_SHIELD_CYCLER_INTERNAL&quot;);
+        }
+        this.$sc_settings.version = index;
+        wsc._resetSettings(this.$sc_settings);
+        if (!npc) wsc._sc_update_status.call(this);
+    } else {
+        index = wsc.$sc_const.manual_list.indexOf(eqKey);
+        if (index &gt;= 0) {
+            // SC Manual Configurator (EQ_SC_MANUAL_CONFIGURATOR_BASIC, EQ_SC_MANUAL_CONFIGURATOR_STANDARD, EQ_SC_MANUAL_CONFIGURATOR_ADVANCED)
+            this.$sc_settings.manual_version = index;
+            if (wsc.$compatibility &amp;&amp;  ship.equipmentStatus(&quot;EQ_SC_MANUAL_CONFIGURATOR_INTERNAL&quot;) !== &quot;EQUIPMENT_OK&quot;)
+                ship.awardEquipment(&quot;EQ_SC_MANUAL_CONFIGURATOR_INTERNAL&quot;);
+            if (!npc) wsc._sc_update_status();
+        }
+    }
+}
+
+//--------------------------------------------------------------------------------------------------//
+this._sc_remove_manual = function _sc_remove_manual() {// NPC-ready
+    // can be called to configure NPCs if &#39;this&#39; is made to be the ship&#39;s script
+    // removes manual configurator devices only
+    // returns refund value in credits
+    var wsc = worldScripts[&quot;Shield Cycler&quot;];
+
+    if (this.$sc_settings.manual_version === 0) return 0;
+
+    var refund = wsc.$sc_worm.manual_cost[this.$sc_settings.manual_version];
+    refund = refund * this.$sc_settings.functional * 0.01;
+    this.ship.removeEquipment(wsc.$sc_const.manual_list[this.$sc_settings.manual_version]);
+    this.$sc_settings.manual_version = 0;
+    this.$sc_settings.cycler_mask = 0x00f;
+    // hide configuration for advanced manual configurator
+    if (this.ship == player.ship) wsc._changeConfiguration(3, true); 
+    refund = parseInt(refund * 0.1 * 0.6);
+    return refund;
+}  
+
+//--------------------------------------------------------------------------------------------------//
+this._sc_remove_shield_cycler = function _sc_remove_shield_cycler() {// NPC-ready
+    // can be called to configure NPCs if &#39;this&#39; is made to be the ship&#39;s script
+    // removes all shield cycler devices
+    // returns refund value in credits
+    var wsc = worldScripts[&quot;Shield Cycler&quot;];
+
+    if (this.$sc_settings.version === 0) return 0;
+
+    var refund = 0;
+    // if manual configurator devices are present, remove them first
+    if (this.$sc_settings.manual_version !== 0)
+        refund = wsc._sc_remove_manual.call(this);
+    refund += wsc.$sc_worm.sc_cost[this.$sc_settings.version];
+    if (this.ship == player.ship)
+        wsc._changeConfiguration(this.$sc_settings.version-1, true);
+    refund *= this.$sc_settings.functional * 0.01;
+    this.ship.removeEquipment(wsc.$sc_const.sc_list[this.$sc_settings.version]);
+    this.$sc_settings.version = 0;
+    wsc._resetSettings(this.$sc_settings);
+    refund = parseInt(refund * 0.1 * 0.6);
+    return refund;
+}
+  
+//--------------------------------------------------------------------------------------------------//
+this._sc_update_status = function _sc_update_status() {// player ship only
+    var wsc = worldScripts[&quot;Shield Cycler&quot;];
+    var sc_display_status = [];
+    var ship = this.ship;
+
+    if (ship != player.ship) return;
+    sc_display_status.push(wsc._sc_display_status_title);
+    mission.setInstructions(null, &quot;SC Core&quot;); // for old savefiles
+    if (this.$sc_settings.version === 0 ||
+        ship.equipmentStatus(wsc.$sc_const.sc_list[this.$sc_settings.version]) !== &quot;EQUIPMENT_OK&quot;) {
+        if (this.$logging) log(wsc.name, &quot;Player ship has no ShieldCycler, cleaning message in Manifest Screen: &quot;+sc_display_status);
+        mission.setInstructions(null, &quot;Shield Cycler&quot;);
+        return; 
+    };
+    sc_display_status.push(&quot;SC version: &quot; + wsc.$sc_const.sc_names[this.$sc_settings.version]);
+    sc_display_status.push(&quot;Manual Configurator: &quot; + wsc.$sc_const.manual_names[this.$sc_settings.manual_version]);
+    sc_display_status.push(&quot; &quot; + this.$sc_settings.functional + &quot;%% functional&quot;);
+    if (this.$logging) log(wsc.name, &quot;Player ship has ShieldCycler, setting up  message in Manifest Screen: &quot;+sc_display_status);
+    mission.setInstructions(sc_display_status, &quot;Shield Cycler&quot;);
+}
+
+//--------------------------------------------------------------------------------------------------//
+this._sc_sc_adjust = function _sc_sc_adjust(init, caller) {// NPC-ready
+    // can be called from NPCs ship.script if &#39;this&#39; is made to be the ship&#39;s script
+    // adjusts shields based on Shield Cycler settings stored in &#39;this&#39;
+    // uses Shield Capacitors if present and charged
+    // THIS UPDATES THE SHIP&#39;S SHIELD CHARGE AND DEDUCTS ENERGY COST
+    var wsc =  worldScripts[&quot;Shield Cycler&quot;];
+    var ship = this.ship;
+
+    if (wsc == null || this.$sc_settings.version === 0 || 
+        ship.equipmentStatus(wsc.$sc_const.sc_list[this.$sc_settings.version]) !== &quot;EQUIPMENT_OK&quot;) 
+        return;
+
+    // setup things for shield cycling
+    var adjust_input = {
+        caller: (caller ? caller : &quot;Unknown&quot;),
+        setting: this.$sc_settings.current_configuration,
+        functional: this.$sc_settings.functional,
+        fwd: ship.forwardShield,
+        fwd_threshold: (ship.maxForwardShield * this.$sc_settings.threshold * 0.01),
+        aft: ship.aftShield,
+        aft_threshold: (ship.maxAftShield * this.$sc_settings.threshold * 0.01),
+        version: this.$sc_settings.version,
+        manual_version: this.$sc_settings.manual_version,
+        init: init,
+        max_energy: ship.maxEnergy,
+        ship: ship
+    };
+
+    var _old_energy = ship.energy;
+    var adjust_output = {power: 0, fwd:0, aft:0};
+    adjust_output = wsc._sc_adjust(adjust_input);
+
+    if (adjust_input.init)
+        player.commsMessage(&quot;Cycler configuration : &quot; + wsc.$sc_const.mode_names[adjust_input.setting]);
+
+    if (this.$logging || ship == player.ship.target) log(wsc.name, ship.displayName+&quot;: adjusting shields from (F/A) &quot;+adjust_input.fwd.toFixed(0)+&quot;/&quot;+adjust_input.aft.toFixed(0)+&quot; to &quot;+adjust_output.fwd.toFixed(0)+&quot;/&quot;+adjust_output.aft.toFixed(0)+&quot;, energy:&quot;+_old_energy.toFixed(1)+&quot;-&gt;&quot;+ship.energy.toFixed(1))
+    return;
+}
+
+//--------------------------------------------------------------------------------------------------//
+this._sc_adjust = function _sc_adjust(adjust) {// NPC ready
+    // can be called for NPCs withouth having to mess with &#39;this&#39;
+    // adjusts shields based on Shield Cycler settings stored in &#39;adjust&#39; parameter
+    // uses Shield Capacitors if present and charged
+    // THIS UPDATES THE SHIP&#39;S SHIELD CHARGE AND DEDUCTS ENERGY COST IF adjust.ship IS DEFINED
+    
+    /* adjust is an object set by the calling function
+      properties of the object adjust :
+    caller         string  identifier of calling oxp
+    setting        int     0 = disabled, 1 = aft, 2 = forward, 3 = equal
+    functional     %       indicates how much damage shieldcycler device has, 100 = no damage
+    fwd            int     current forward shield strength
+    fwd_threshold  int     see code
+    aft            int     aft shield strength
+    aft_threshold  int     see code
+    version        int     number 0:None,1:Basic,2:Standard,3:advanced determining which version of automatic shield cycler is present
+    manual_version string   number 0:None,1:Basic,2:Standard,3:Advanced determining which version of manual configurator is present
+    init           bool    true : calc powerloss for switching to another setting
+                           false : calc powerloss for cycling
+    max_energy     int     needed to calculate powerloss for init = true
+    ship           object  needed to alter the shield charge
+    
+      returns an object with these properties :
+    power: amount of energy used for cycling or -1 in case of error
+    fwd: new forward shield value
+    aft: new aft shield value
+    
+    NOTE1 : this function is intended to be usable for both player &amp; npc ships
+    NOTE2: this function UPDATES SHIP&#39;S SHIELD PROPERTIES
+    */
+    
+    // set result at power 0, fwd &amp; aft at input values. This corresponds with no changes needed.
+    // initialise some things
+    var wsc = worldScripts[&quot;Shield Cycler&quot;];
+    var wsec = worldScripts[&quot;shieldequalizercapacitors&quot;];
+    var result = { power:0,fwd:adjust.fwd,aft:adjust.aft};
+    var ac = {fwd:adjust.fwd,aft:adjust.aft};
+    var sc_mode = wsc.$sc_const.mode_names[adjust.setting];
+    var sc_cycler_loss = wsc.$sc_cycler_loss[adjust.version];
+    var ship = adjust.ship;
+    var npc = (ship != player.ship);
+    var logging = (npc ? (ship.script.$logging || ship == player.ship.target) : this.$logging);
+    var debug = (npc ? ship.script.$debug : this.$debug);
+    var energy_transfer = -1;
+    var desired_transfer = 0;
+    var shCap, apply_capacitor_fwd, apply_capacitor_aft, energy_range;
+
+    var seen = [];
+    var strip_cycling_obj = function(k, v) { // for use with JSON.stringify in log messages
+        if (v != null &amp;&amp; typeof v == &quot;object&quot;) {
+            if (seen.indexOf(v) &gt;= 0) return;
+            seen.push(v);
+        }
+        return v;
+    }
+    if (ship &amp;&amp; debug) log(wsc.name, ship.displayName+&quot; - adjust_input: &quot;+JSON.stringify(adjust, strip_cycling_obj)+&quot;, energy:&quot;+ship.energy.toFixed(1));
+
+    if (ship) {
+        // caller was updated to use Shield Cycler v1.13
+        if (npc)
+            shCap = ship.script;
+        else
+            shCap = wsec;
+        apply_capacitor_fwd = (shCap.$forwardshieldcapacitor ? shCap.$forwardshieldcapacitor.bind(shCap) : null);
+        apply_capacitor_aft = (shCap.$aftshieldcapacitor ? shCap.$aftshieldcapacitor.bind(shCap) : null);
+    }
+
+
+    if (shCap &amp;&amp; apply_capacitor_fwd) {
+        // ship has Shield Capacitors... use them!
+        apply_capacitor_fwd();
+        apply_capacitor_aft();
+        result.fwd = ac.fwd = ship.forwardShield;
+        result.aft = ac.aft = ship.aftShield;
+    }
+
+    if (wsc.$sc_disabled) return result;
+
+    switch (sc_mode) {
+        case &quot;Equal&quot;:
+            if (ac.aft !== ac.fwd)
+                if ( (ac.fwd &lt; adjust.fwd_threshold) || (ac.aft &lt; adjust.aft_threshold) ) {
+                    desired_transfer = 0.5 * Math.abs(ac.fwd - ac.aft);
+                    energy_transfer = desired_transfer * adjust.functional * 0.01 ;
+                    result.fwd = (ac.fwd &lt; ac.aft) ? ac.fwd + energy_transfer : ac.fwd - energy_transfer ;
+                    result.aft = (ac.fwd &lt; ac.aft) ? ac.aft - energy_transfer : ac.aft + energy_transfer ;
+                }
+            break;
+        case &quot;Forward&quot;:
+            if (ac.fwd &lt; adjust.fwd_threshold) { 
+                desired_transfer  = (adjust.fwd_threshold - ac.fwd &lt;= ac.aft) ? adjust.fwd_threshold - ac.fwd : ac.aft ;
+                energy_transfer = desired_transfer * adjust.functional * 0.01 ;
+                result.fwd = ac.fwd + energy_transfer;
+                result.aft = ac.aft - energy_transfer;
+            }
+            break;
+        case &quot;Aft&quot;:
+            if (ac.aft &lt; adjust.aft_threshold) {
+                desired_transfer  = (adjust.aft_threshold - ac.aft &lt;= ac.fwd) ? adjust.aft_threshold - ac.aft : ac.fwd ;
+                energy_transfer = desired_transfer * adjust.functional * 0.01 ;
+                result.fwd = ac.fwd - energy_transfer;
+                result.aft = ac.aft + energy_transfer;
+            }
+            break;
+        case &quot;Disabled&quot;:
+            // no adjustments are done in disabled configuration, so no energy is transferred
+            desired_transfer = 0;
+            break;
+        default:
+            // should never happen unless caller has set an invalid mode
+            desired_transfer = -1;
+            result.power = -1;
+            log(wsc.name,JSON.stringify(adjust, strip_cycling_obj));
+            log(wsc.name,wsc.$sc_const.names[adjust.setting]);
+            log(wsc.name,JSON.stringify(result));
+            log(wsc.name,&quot;error while adjusting shields&quot;);
+            break;
+    }
+    
+    // no transfer done, so no power loss
+    if (desired_transfer == 0) { 
+        result.power = 0; 
+    } else if (desired_transfer &lt; 0) return result; 
+    else if (adjust.init)
+        // configuration change costs 2 * (number of energy banks) energy units
+        result.power = 2 * (Math.floor(adjust.max_energy / 64) + 1);
+    else { 
+        energy_range = Math.floor(energy_transfer / 64);
+        if (energy_range &gt;= sc_cycler_loss.length) energy_range = sc_cycler_loss.length - 1;
+        result.power = energy_transfer * sc_cycler_loss[energy_range];
+        result.power *= wsc.$sc_manual_reduction[adjust.manual_version];
+    }
+    if (debug) 
+        log(wsc.name, (ship?ship.displayName:&quot;&quot;)+&quot;-&gt; Mode:&quot;+ sc_mode+&quot; threshold:&quot;+adjust.fwd_threshold.toFixed(1)+&quot;/&quot;+adjust.aft_threshold.toFixed(1)+&quot;, desired_transfer:&quot;+desired_transfer.toFixed(1)+&quot;, transfer:&quot;+energy_transfer.toFixed(1)+&quot;, in (after capacitors):&quot;+ac.fwd.toFixed(1)+&quot;/&quot;+ac.aft.toFixed(1)+&quot;, out:&quot;+result.fwd.toFixed(1)+&quot;/&quot;+result.aft.toFixed(1)+&quot;, r_power:&quot;+result.power.toFixed(4)+&quot;(&quot;+(100*result.power/energy_transfer).toFixed(1)+&quot;%)&quot;+(ship &amp;&amp; ship.script &amp;&amp; ship.script.$EscortDeckUsable ?&quot;, escortDeckUsable:&quot;+ship.script.$EscortDeckUsable:&quot;&quot;));
+    else if (logging)
+        log(wsc.name, (ship?ship.displayName:&quot;&quot;)+&quot;: adjusting shields (after capacitors) from (F/A) &quot;+ac.fwd.toFixed(0)+&quot;/&quot;+ac.aft.toFixed(0)+&quot; to &quot;+result.fwd.toFixed(0)+&quot;/&quot;+result.aft.toFixed(0)+&quot; with &quot;+result.power.toFixed(1)+&quot; energy cost (thresholds &quot;+adjust.fwd_threshold.toFixed(1)+&quot;/&quot;+adjust.aft_threshold.toFixed(1)+&quot;)&quot;);
+   
+    if (ship) { 
+        ship.aftShield = result.aft;
+        ship.forwardShield = result.fwd;
+        if (isNaN(result.power))
+            log(&quot;Shield Cycler&quot;, ship.displayName+&quot;: energy cost coul not be applied, invalid value: &quot;+result.power+&quot;, energy trasnfer: &quot;+energy_transfer.toFixed(3)+&quot;, energy range:&quot;+energy_range+&quot;, % cost:&quot;+sc_cycler_loss[energy_range]);
+        else
+            ship.energy -= result.power;
+    }
+    return result;
+}
+
+//--------------------------------------------------------------------------------------------------//
+this._sc_stop = function _sc_stop() { // NPC-ready
+    // can be called from NPCs ship.script if &#39;this&#39; is made to be the ship&#39;s script
+// returns:
+//    -2 if device was stopped already
+//    0 if stopping was succesfull
+
+    var success = -3;
+    if (!this.$sc_settings.current_configuration)
+        return -2;
+    this.$sc_settings.current_configuration  = 0;
+    return 0;
+}
+
+//--------------------------------------------------------------------------------------------------//
+this._sc_start = function _sc_start(device) {// NPC-ready
+    // can be called from NPCs ship.script if &#39;this&#39; is made to be the ship&#39;s script
+// returns:
+//    -2 if device was started already
+//    0 if starting was succesfull
+    var wsc = worldScripts[&quot;Shield Cycler&quot;];
+
+    var success = -3;
+    if (this.$sc_settings.current_configuration)
+        return -2;
+    this.$sc_settings.current_configuration  =  wsc.$sc_const.cycle[this.$sc_settings.current_cycle_position];
+    return 0;
+}
+
+//--------------------------------------------------------------------------------------------------//
+this._sc_store_devices = function _sc_store_devices() {// NPC-ready
+    // can be called for NPCs if &#39;this&#39; is made to be the ship&#39;s script
+    // Shield Cycler devices are not portable between ships and will stay that way.
+    // This poses a problem for oxps (like Ship Storage Helper) that store ships for later retrieval
+    // returns an object with 2 strings :
+    // first holds SC values in JSON format
+    // second (now deprecated) used to hold an encrypted version of first
+    var wsc = worldScripts[&quot;Shield Cycler&quot;];
+    var sc_values = {
+        json: &quot;&quot;,
+        enc: &quot;&quot;
+    };
+    if (this.$sc_settings)
+        sc_values.json = JSON.stringify(this.$sc_settings);
+    else if (this._sc_settings)
+        sc_values.json = JSON.stringify(this._sc_settings);
+    return sc_values;
+}
+  
+//--------------------------------------------------------------------------------------------------//
+this._sc_retrieve_devices = function _sc_retrieve_devices(sc_values) {// NPC-ready
+    // can be called for NPCs if &#39;this&#39; is made to be the ship&#39;s script
+    // counterpart of wsc._sc_store_devices
+    // input : an object created by wsc._sc_store_devices
+    // returns a code value :
+    // 0 : import sucessfull
+    // 1 : input != an object
+    // 2 : object has wrong structure
+    // 3 : invalid json data
+    // 4 : plain version doesn&#39;t match encrypted version
+    // 5 : stored data to old
+    // 6 : stored data to new
+    var wsc = worldScripts[&quot;Shield Cycler&quot;];
+    var npc = (this.ship != player.ship);
+
+    if (typeof sc_values !== &quot;object&quot;) return 1;
+    if (typeof sc_values.json != &quot;string&quot;) return 2;
+//    if (sc_values.json.length == 0) return 0;
+    if (!npc &amp;&amp; worldScripts.Lib_Config) worldScripts.Lib_Config._unregisterSet(wsc._scConfig);
+    var ret = wsc._parseSavedSettings.call(this, sc_values.json);
+    if (ret) {
+        return ret;
+    }
+    if (!npc &amp;&amp; worldScripts.Lib_Config) {
+        wsc._setLibConfigVisibility();
+        worldScripts.Lib_Config._registerSet(wsc._scConfig);
+    }
+    log(wsc.name,&quot;imported stored ship data&quot;);
+    if (this.ship == player.ship) 
+        wsc._sc_update_status();
+    return 0;
+}
+
+//--------------------------------------------------------------------------------------------------//
+this._scChange_disabled = function _scChange_disabled() {
+    var wsc = worldScripts[&quot;Shield Cycler&quot;];
+    wsc._sc_settings.general.disabled = wsc._sc_settings.general.sc_disabled = wsc.$sc_disabled;
+}
+
+//--------------------------------------------------------------------------------------------------//
+this._scChange_threshold = function _scChange_threshold() {
+    return;
+}
+
+//--------------------------------------------------------------------------------------------------//
+this._scChange_start_configuration = function _scChange_start_configuration() {
+    return;
+}
+
+//--------------------------------------------------------------------------------------------------//
+this._scChange_cycler_mask = function _scChange_cycler_mask() {
+    return;
+}
+
+</pre></td>
+                </tr>
+            </table>
+        </a>
+    </body>
+</html>

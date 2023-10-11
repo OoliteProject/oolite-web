@@ -1,0 +1,515 @@
+<html>
+    <head>
+        <title>Expansion Additional Planets SR Base</title>
+        <link rel="stylesheet" href="../style.css">
+    </head>
+    <body>
+        <table border="0" width="100%">
+            <tr>
+                <td>Back to <a href='../index.html'>Index</a></td>
+                <td align="right"><small>Page generated: Oct 11, 2023, 3:16:49 PM</small></td>
+            </tr>
+        </table>
+
+        <h1>Expansion Additional Planets SR Base</h1>
+
+        <h2>Content</h2>
+        <ul>
+          <li><a href="#warnings">Warnings</a></li>
+          <li><a href="#manifest">Manifest</a></li>
+          <li><a href="#documentation">Documentation</a></li>
+          <li><a href="#equipment">0 Equipment</a></li>
+          <li><a href="#ships">0 Ships</a></li>
+          <li><a href="#models">0 Models</a></li>
+          <li><a href="#scripts">1 Scripts</a></li>
+        </ul>
+
+          <a name="warnings">
+            <h2>Warnings</h2>
+            <ol>
+                <li>Tags mismatch between OXP Manifest and Expansion Manager at character position 0002 (RIGHT SQUARE BRACKET vs LATIN SMALL LETTER E)(&#39;[]&#39; vs &#39;[extra planets]&#39;)</li>
+            </ol>
+          </a>
+
+        <a name="manifest">
+        <h2>Manifest</h2>
+            <table border="1">
+                <tr>
+                    <th></th>
+                    <th>from Expansion Manager's OXP list</th>
+                    <th>from Expansion Manifest</th>
+                </tr>
+                <tr>
+                    <td>Description</td>
+                    <td>Add persistent extra planets (max 4) to the system and moons (max 3) around the main planet and occasionally around other planets. At least one texture pack is required. Can be configured via OXPConfig or Library as System Redux.</td>
+                    <td>Add persistent extra planets (max 4) to the system and moons (max 3) around the main planet and occasionally around other planets. At least one texture pack is required. Can be configured via OXPConfig or Library as System Redux.</td>
+                </tr>
+                <tr>
+                    <td>Identifier</td>
+                    <td>oolite.oxp.spara.additional_planets_sr_base</td>
+                    <td>oolite.oxp.spara.additional_planets_sr_base</td>
+                </tr>
+                <tr>
+                    <td>Title</td>
+                    <td>Additional Planets SR Base</td>
+                    <td>Additional Planets SR Base</td>
+                </tr>
+                <tr>
+                    <td>Category</td>
+                    <td>Ambience</td>
+                    <td>Ambience</td>
+                </tr>
+                <tr>
+                    <td>Author</td>
+                    <td>Redspear, spara, phkb</td>
+                    <td>Redspear, spara, phkb</td>
+                </tr>
+                <tr>
+                    <td>Version</td>
+                    <td>0.8</td>
+                    <td>0.8</td>
+                </tr>
+                <tr>
+                    <td>Tags</td>
+                    <td></td>
+                    <td>extra planets</td>
+                </tr>
+                <tr>
+                    <td>Required Oolite Version</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Maximum Oolite Version</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Required Expansions</td>
+                    <td>
+                    </td>
+                    <td>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Optional Expansions</td>
+                    <td>
+                    </td>
+                    <td>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Conflict Expansions</td>
+                    <td>
+                    </td>
+                    <td>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Information URL</td>
+                    <td><a target="_blank" href="http://aegidian.org/bb/viewtopic.php?f=4&amp;t=15683">http://aegidian.org/bb/viewtopic.php?f=4&amp;t=15683</a></td>
+                    <td><a target="_blank" href="">n/a</a></td>
+                </tr>
+                <tr>
+                    <td>Download URL</td>
+                    <td><a target="_blank" href="https://wiki.alioth.net/img_auth.php/4/42/Additional_planets_sr_base_0.8.oxz">https://wiki.alioth.net/img_auth.php/4/42/Additional_planets_sr_base_0.8.oxz</a></td>
+                    <td><a target="_blank" href="">n/a</a></td>
+                </tr>
+                <tr>
+                    <td>License</td>
+                    <td>CC-BY-NC-SA 4.0</td>
+                    <td>CC-BY-NC-SA 4.0</td>
+                </tr>
+                <tr>
+                    <td>File Size</td>
+                    <td>n/a</td>
+                </tr>
+                <tr>
+                    <td>Upload date</td>
+                    <td>1610873283</td>
+                </tr>
+            </table>
+                </a>
+
+        <a name="documentation">
+        <h2>Documentation</h2>
+        <p>Also read <a href='http://wiki.alioth.net/index.php/Additional%20Planets%20SR%20Base'>http://wiki.alioth.net/index.php/Additional%20Planets%20SR%20Base</a></p>
+        <h3>old_readmes/Update_SystemRedux1.2.3 Readme.txt</h3>
+        <pre>Contains updated script and planetinfo.plist for System Redux 1.2.
+New version is 1.2.3.
+
+Usage:
+Make a copy of the Config folder in SR and store the copy somewhere.
+Then replace the OXP folders with the folders in this zip.
+
+What the modification does:
+In SR:
+- Script uses JS strict mode.
+- Changes the OXP name to &quot;System Redux&quot; (instead of &quot;System Redux 1.2&quot;).
+- Adds OXPConfig compatibility (starting with v2.0.4).
+- Adds compatibility to FP2.5.1.
+- Textures target planets (on F7). This is switched off by default, but can be enabled (editing or OXPConfig2.0.4).
+- Adds offset for G2-G8.
+
+Note:
+- The target system texturing uses System.infoForSystem() to set the textures on the fly and deletes the entries
+after switching to another system. But scripts can&#39;t clean up completely, resulting in empty dicts left over in the savedgame.
+This won&#39;t harm Oolite and has no affect on gameplay, but still is a unnecessary bloat of the savedgame.
+
+CaptKev has already nicked the new script and will use it for his next version, so I&#39;d say have fun .-)
+
+Thanks:
+- Okti for spotting a bug in the external exclusion function
+
+Svengali</pre>
+        <h3>old_readmes/system_redux.txt</h3>
+        <pre>======================================================
+System Redux is an Add-on for Oolite by Giles Williams
+
+Author: CaptKev
+
+Created on: 20 Apr 07
+
+Updated on: 12 Jul 08
+
+version: 1.2.1
+======================================================
+
+Add more variety to each system.
+
+Features:
+Texture the home planet to best match it&#39;s description.
+Add a planet/moon combination to each system which will aways remain the same.
+
+Installation:
+Place the folder System_Redux.oxp inside the Oolite\AddOns folder.
+
+This OXP will use optimised 1024 x 512 textures as standard if you have a low-spec computer rename the Textures folder to Textures1024x512 then
+rename the Textures256x128 folder to Textures.
+
+Credits:
+To Kaks for adding the function setTexture to Oolites game engine which fixed display artifacts and reduced loading times.
+To Kaks and pagroove for there excellent textures.
+To elite for conceiving of the idea to texture the home planets.
+</pre>
+        </a>
+
+        <a name="equipment">          
+        <h2>Equipment</h2>
+            This expansion declares no equipment. This may be related to warnings.
+        </a>
+
+        <a name="ships">    
+        <h2>Ships</h2>
+            This expansion declares no ships. This may be related to warnings.
+        </a>
+
+        <a name="models">    
+        <h2>Models</h2>
+            This expansion declares no models. This may be related to warnings.
+        </a>
+
+        <a name="scripts">    
+        <h2>Scripts</h2>
+            <table>
+                <tr>
+                    <th>Path</th>
+                </tr>
+                <tr>
+                    <td valign="top">Config/script.js</td>
+                    <td><pre>&quot;use strict&quot;;
+this.name = &quot;System Redux&quot;;
+this.author = &quot;spara, redspear&quot;;
+this.copyright = &quot;spara, redspear 2014&quot;;
+this.description = &quot;Add a planet/moon combinations to each system. Derived from System Redux code by Kaks, CaptKev and Svengali&quot;;
+this.licence = &quot;CC-BY-SA 3.0&quot;;
+this.version = &quot;0.8&quot;;
+
+//pools for textures
+this.$planetPool = new Array();
+this.$moonPool = new Array();
+this.$giantPool = new Array();
+this.planet_mult = 5;
+this.moon_mult = 2.5;
+
+this.libSettings = {Name:this.name, Display:&quot;Config&quot;, Alias:this.name, Alive:&quot;libSettings&quot;, Notify:&quot;oxpcNotifyOnChange&quot;,
+SInt:{
+	S0:{Name:&quot;max_moons&quot;, Def:3, Min:0, Max:3, Desc:&quot;Max number moons&quot;},
+	S1:{Name:&quot;max_planets&quot;, Def:4, Min:0, Max:4, Desc:&quot;Max number planets&quot;},
+	S2:{Name:&quot;moon_mult&quot;, Def:2.5, Min:2.5, Max:8.0, Desc:&quot;Moon dist mult&quot;, Float:true},
+	S3:{Name:&quot;planet_mult&quot;, Def:5, Min:5.0, Max:12.0, Desc:&quot;Planet dist mult&quot;, Float:true},
+	Info:&quot;0 - Maximum number of moons, 1 - Maximum number of planets,\n2 - Moon distance multiplier, 3 - Planet distance multiplier\nChanges will take effect after save/reload or next jump.&quot;},
+EInt:{
+	E0:{Name:&quot;exSys&quot;, Def:0, Min:0, Max:7, Desc:[&quot;Lave&quot;,&quot;Diso&quot;,&quot;Tianve&quot;]},
+	Info:&quot;Exclude systems. If set, SystemRedux is bypassed in these systems.\nChanges may require save/reload.&quot;},
+};
+
+//public function to add planet textures to the pool
+//call with array of texture names
+this.addPlanetsToPool = function(planets) {
+	if (planets) {
+		for (var i = 0; i &lt; planets.length; i++) {
+			if (this.$planetPool.indexOf(planets[i]) === -1)
+				this.$planetPool.push(planets[i]);
+		}
+	}
+}
+
+//public function to add moon textures to the pool
+//call with array of texture names
+this.addMoonsToPool = function(moons) {
+	if (moons) {
+		for (var i = 0; i &lt; moons.length; i++) {
+			if (this.$moonPool.indexOf(moons[i]) === -1)
+				this.$moonPool.push(moons[i]);
+		}
+	}
+}
+
+//public function to add giant textures to the pool
+//call with array of texture names
+this.addGiantsToPool = function(giants) {
+	if (giants) {
+		for (var i = 0; i &lt; giants.length; i++) {
+			if (this.$giantPool.indexOf(giants[i]) === -1)
+				this.$giantPool.push(giants[i]);
+		}
+	}
+}
+
+//public function to exclude specific systems
+//call with an array of length 8 consisting of arrays of systems to exclude per galaxy
+this.changeSystems = function(ar) {
+	if(ar){
+		//i galaxy, ar[i][j] system
+		for(var i=0;i&lt;ar.length;i++){
+			for(var j=0;j&lt;ar[i].length;j++){
+				if (this.excl[i].indexOf(ar[i][j]) === -1)
+					this.excl[i].push(ar[i][j]);
+			}
+		}
+	}
+}
+
+//oxp config
+this.oxpcSettings = {
+	Info: {Name:&quot;System Redux&quot;,EarlyCall:true,EarlySet:true,Notify:true,
+		InfoE:&quot;Exclude systems. If set SystemRedux is bypassed in these systems.\nChanges may require restart / reload.&quot;
+	},
+	SInt0: {Name:&quot;max_moons&quot;,Def:0x3,Max:0x3,Desc:&quot;Max number of moons&quot;},
+	SInt1: {Name:&quot;max_planets&quot;,Def:0x4,Max:0x4,Desc:&quot;Max number of planets&quot;},
+	EInt0: {Name:&quot;exSys&quot;,Def:0x0,Max:0x7,Desc:[&quot;Lave&quot;,&quot;Diso&quot;,&quot;Tianve&quot;]}
+};
+
+this.oxpcNotifyOnChange = function(n) {
+	this.excl = [[],[],[],[],[],[],[],[]];
+	if((this.exSys&amp;1)) this.excl[0].push(7); //Lave
+	if((this.exSys&amp;2)) this.excl[0].push(147); //Diso
+	if((this.exSys&amp;4)) this.excl[0].push(246); //Tianve
+	return;
+}
+
+this.startUp = function() {
+	//4 moons are currently defined in the planetdata.
+	this.max_moons = 3;//max number of moons around a planet. There&#39;s no limit here.
+	this.max_planets = 4;//maximum number of extra planets per system. extra planets might have moon. There&#39;s no limit here.
+	this.extraPlanetMoonsProbability = 0.1;//the probablitity for an extra planet to have moons.
+
+	this.exSys = 0;//for oxp config
+	this.excl = [[],[],[],[],[],[],[],[]];//excluded systems
+	this.systemDone = false;//flag so that system gets populated only once
+	this.runOnce = true;//controls the sorting of the pools
+
+	if (missionVariables.SystemRedux_MaxMoons) this.max_moons = parseInt(missionVariables.SystemRedux_MaxMoons);
+	if (missionVariables.SystemRedux_MaxPlanets) this.max_planets = parseInt(missionVariables.SystemRedux_MaxPlanets);
+	if (missionVariables.SystemRedux_PlanetDistMult) this.planet_mult = parseFloat(missionVariables.SystemRedux_PlanetDistMult);
+	if (missionVariables.SystemRedux_MoonDistMult) this.moon_mult = parseFloat(missionVariables.SystemRedux_MoonDistMult);
+	if (missionVariables.SystemRedux_Exclude) this.exSys = JSON.parse(missionVariables.SystemRedux_Exclude);
+	
+}
+
+this.startUpComplete = function() {
+	// register our settings, if Lib_Config is present
+	if (worldScripts.Lib_Config) worldScripts.Lib_Config._registerSet(this.libSettings);
+}
+
+this.playerWillSaveGame = function() {
+	missionVariables.SystemRedux_MaxMoons = this.max_moons;
+	missionVariables.SystemRedux_MaxPlanets = this.max_planets;
+	missionVariables.SystemRedux_PlanetDistMult = this.planet_mult;
+	missionVariables.SystemRedux_MoonDistMult = this.moon_mult;
+	missionVariables.SystemRedux_Exclude = JSON.stringify(this.exSys);
+}
+
+this.systemWillPopulate = function (){
+	//sort the pools on first launch so that the textures stay consistently regardless of the load order of the texture packs
+	if (this.runOnce) {
+		this.$planetPool.sort();
+		this.$moonPool.sort();
+		this.runOnce = false;
+	}
+	if(this.excl[galaxyNumber].indexOf(system.ID)===-1)
+		//init station array in sfap oxp
+		if (worldScripts[&quot;stations_for_extra_planets&quot;])
+			worldScripts[&quot;stations_for_extra_planets&quot;].initStationArray();
+		this.$addPlanets();
+}
+
+//the actual planet populator
+this.$addPlanets = function() {
+
+	//temporary arrays to be used with splice so that no two planet/moons/giant get the same texture in one system
+	var tempPlanets = new Array();
+	tempPlanets = tempPlanets.concat(this.$planetPool);
+	var tempMoons = new Array();
+	tempMoons = tempMoons.concat(this.$moonPool);
+	var tempGiants = new Array();
+	tempGiants = tempGiants.concat(this.$giantPool);
+	var usedTextures = new Array();
+
+	//inner functions need this
+	var max_moon = this.max_moons;
+
+	//function to manage textures so that if the same texture is used as moon and planet, it won&#39;t get shown twice in the same system
+	function getTexture(pool, seed) {
+		while (true) {
+			if (pool.length !== 0) {
+				var texNum = Math.floor(system.scrambledPseudoRandomNumber(seed) * pool.length);
+				var texture = pool.splice(texNum, 1)[0];
+				if (usedTextures.indexOf(texture) === -1) {
+					usedTextures.push(texture);
+					return texture;
+				}
+			}
+			else return null;
+		}
+	}
+
+	//function to add moons around given planet
+	function addMoons(planet_position, planet_radius, seed) {
+		//number of moon sizes defined in planetinfo.plist
+		var moonSizes = 4;
+
+		//number of moons to be added. extremes have probability weight of 0.5, others 1.
+		var numberOfMoons = Math.round(system.scrambledPseudoRandomNumber(seed) * max_moons);
+
+		//orbits. lowest is 2.5 * planet radius. station is usually at 2 * planet radius.
+		var moonOrbits = new Array();
+		for (var i = 0; i &lt; max_moons; i++) moonOrbits.push(i);
+		var baseMoonOrbit = planet_radius * worldScripts[&quot;System Redux&quot;].moon_mult;
+		var moonOrbitDifference = 30000;
+
+		//for cinematic reasons moons are positioned so that when you view the main planet from wp, you should be able to see all the moons around it.
+		//wp-planet line is kept empty.
+		for (var i = 0; i &lt; numberOfMoons; i++) {
+
+			//texture
+			var moonTexture = getTexture(tempMoons, system.scrambledPseudoRandomNumber(2 * (seed + i)));
+			if (moonTexture === null) return;//if we&#39;re out of textures, abort.
+
+			//body
+			var moonBody = &quot;ap-moon&quot; + Math.floor(system.scrambledPseudoRandomNumber(3 * (seed + i)) * moonSizes);
+
+			//position
+			var moonOrbit = moonOrbits.splice(Math.floor(system.scrambledPseudoRandomNumber(11 * (seed + i)) * moonOrbits.length), 1)[0];
+			var polar = Math.acos(1.4 * system.scrambledPseudoRandomNumber(5 * (seed + i)) - 0.7);
+			var azimuth = 2.0 * Math.PI * system.scrambledPseudoRandomNumber(7 * (seed + i));
+			var directionV = Vector3D(Math.sin(polar) * Math.cos(azimuth), Math.sin(polar) * Math.sin(azimuth), Math.cos(polar));
+			var distance = baseMoonOrbit + moonOrbitDifference * moonOrbit;
+			var moonPosition = planet_position.toCoordinateSystem(&quot;pwm&quot;).add(directionV.multiply(distance)).fromCoordinateSystem(&quot;pwm&quot;);
+
+			setPopulatorMoon(moonTexture, moonBody, moonPosition);
+		}
+	}
+
+	function setPopulatorPlanet(texture, body, coords, giant, radius) {
+		system.setPopulator(&quot;ap_planet&quot;+texture, {
+			callback: function(pos) {
+				var addedPlanet = system.addPlanet(body);
+				addedPlanet.texture = texture;
+				if (giant) {
+					//for planetfall
+					addedPlanet.solarGasGiant = true;
+					//for gas giant skimmer
+					addedPlanet.isGasGiant = true;
+				}
+				addedPlanet.position = pos;
+			}.bind(this),
+			location: &quot;COORDINATES&quot;,
+			coordinates: coords,
+			priority: 100
+		});
+		//add station to planets with atmosphere
+		if (worldScripts[&quot;stations_for_extra_planets&quot;] &amp;&amp; !giant)
+			worldScripts[&quot;stations_for_extra_planets&quot;].setStationPopulator(coords, radius);
+	}
+
+	function setPopulatorMoon(texture, body, coords) {
+		system.setPopulator(&quot;ap_moon&quot;+texture, {
+			callback: function(pos) {
+				var addedMoon = system.addMoon(body);
+				addedMoon.texture = texture;
+				addedMoon.position = pos;
+			}.bind(this),
+			location: &quot;COORDINATES&quot;,
+			coordinates: coords,
+			priority: 101
+		});
+	}
+
+	//all extra planets are positioned on incrementing distances calculated from the main planet. baseOrbit is the distance of the closest possible planet and orbitDifference is the increment from there on. These are multiples of unit calculated from wp-planet distance, so they differ from system to system. unit range is ~ 300 km - 400 km. For reference wp-planet range is ~ 300 km - 900 km.
+	var orbits = new Array();
+	for (var i = 0; i &lt; this.max_planets; i++) orbits.push(i);
+	var baseUnit = 1.0 / 6.0 * system.mainPlanet.position.magnitude() + 250000;
+	var baseOrbit = this.planet_mult * baseUnit;//I would not go under 5. With 4, it&#39;s possible that an added planet is as close to the wp buoy as the main planet.
+	var orbitDifference = 2.5 * baseUnit;
+
+	//the number of extra planets in system. using Math.round gives smaller probabilities to the extremes, 0 and this.max_planets. With max planets 4, you&#39;ll be seeing more 1-3 extra planet systems than 0 or 4 extra planet systems. Probabitity weights are 0.5, 1, 1, 1, 0.5.
+	var planetsInSystem = Math.round(system.pseudoRandomNumber * this.max_planets);
+
+	for (var i = 0; i &lt; planetsInSystem; i++) {
+
+		//orbit.
+		var orbit = orbits.splice(Math.floor(system.scrambledPseudoRandomNumber(galaxyNumber + 7 * (i + 1)) * orbits.length),1)[0];
+		//planet size. there are 9+1 different sizes defined in planetinfo.plist. 10th is reserved for gas giants that can only appear on outer orbits.
+		var planetSizes = 9;
+		if (orbit &gt; 1 &amp;&amp; tempGiants.length &gt; 0) planetSizes = 10;
+		var planetInd = Math.floor(system.scrambledPseudoRandomNumber(galaxyNumber + 2 * (i + 1)) * planetSizes);
+
+		//texture
+		if (planetInd === 9)
+			var planetTexture = getTexture(tempGiants, system.scrambledPseudoRandomNumber(galaxyNumber + 11 * (i + 1)));
+		else
+			var planetTexture = getTexture(tempPlanets, system.scrambledPseudoRandomNumber(galaxyNumber + 11 * (i + 1)));
+		if (planetTexture === null) continue; //if we&#39;re out of textures, skip to the next iteration.
+
+		//body
+		var planetBody = &quot;ap-planet&quot; + planetInd;
+		if (planetInd === 9) var giant = true;
+		else var giant = false;
+
+		//position. planet is placed on a zone of a sphere around the main planet opposite to the sun.
+		var polar = Math.acos(1.4 * system.scrambledPseudoRandomNumber(galaxyNumber + 5 * (i + 1)) - 1);
+		var azimuth = 2.0 * Math.PI * system.scrambledPseudoRandomNumber(galaxyNumber + 3 * (i + 1));
+		var directionV = Vector3D(Math.sin(polar) * Math.cos(azimuth), Math.sin(polar) * Math.sin(azimuth), Math.cos(polar));
+		var distance = baseOrbit + orbitDifference * orbit;
+		var planetPosition = directionV.multiply(distance).fromCoordinateSystem(&quot;psm&quot;);
+
+		var radiuses = [5000, 5250, 5500, 5750, 6000, 6250, 6500, 6750, 7000, 20000];
+		setPopulatorPlanet(planetTexture, planetBody, planetPosition, giant, radiuses[planetInd]*10);
+
+
+		//moons for extra planets
+		if (system.scrambledPseudoRandomNumber(galaxyNumber + 17 * (i + 1)) &lt; this.extraPlanetMoonsProbability) {
+			//positioning depends on planet radius. Moon populator is set before the planet is added. Hence radiuses are given here.
+			addMoons(planetPosition, radiuses[planetInd]*10, galaxyNumber + 13);
+		}
+	}
+	addMoons(system.mainPlanet.position, system.mainPlanet.radius, galaxyNumber + 19);
+}
+</pre></td>
+                </tr>
+            </table>
+        </a>
+    </body>
+</html>

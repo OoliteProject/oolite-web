@@ -1,0 +1,248 @@
+<html>
+    <head>
+        <title>Expansion Station Self-Destruction Codes</title>
+        <link rel="stylesheet" href="../style.css">
+    </head>
+    <body>
+        <table border="0" width="100%">
+            <tr>
+                <td>Back to <a href='../index.html'>Index</a></td>
+                <td align="right"><small>Page generated: Oct 11, 2023, 3:16:49 PM</small></td>
+            </tr>
+        </table>
+
+        <h1>Expansion Station Self-Destruction Codes</h1>
+
+        <h2>Content</h2>
+        <ul>
+          
+          <li><a href="#manifest">Manifest</a></li>
+          <li><a href="#documentation">Documentation</a></li>
+          <li><a href="#equipment">1 Equipment</a></li>
+          <li><a href="#ships">0 Ships</a></li>
+          <li><a href="#models">0 Models</a></li>
+          <li><a href="#scripts">1 Scripts</a></li>
+        </ul>
+
+
+        <a name="manifest">
+        <h2>Manifest</h2>
+            <table border="1">
+                <tr>
+                    <th></th>
+                    <th>from Expansion Manager's OXP list</th>
+                    <th>from Expansion Manifest</th>
+                </tr>
+                <tr>
+                    <td>Description</td>
+                    <td>It&#39;s incredible, the things you can buy.</td>
+                    <td>It&#39;s incredible, the things you can buy.</td>
+                </tr>
+                <tr>
+                    <td>Identifier</td>
+                    <td>oolite.oxp.Wildeblood.Station_Self_Destruction</td>
+                    <td>oolite.oxp.Wildeblood.Station_Self_Destruction</td>
+                </tr>
+                <tr>
+                    <td>Title</td>
+                    <td>Station Self-Destruction Codes</td>
+                    <td>Station Self-Destruction Codes</td>
+                </tr>
+                <tr>
+                    <td>Category</td>
+                    <td>Equipment</td>
+                    <td>Equipment</td>
+                </tr>
+                <tr>
+                    <td>Author</td>
+                    <td>Wildeblood</td>
+                    <td>Wildeblood</td>
+                </tr>
+                <tr>
+                    <td>Version</td>
+                    <td>1.0</td>
+                    <td>1.0</td>
+                </tr>
+                <tr>
+                    <td>Tags</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Required Oolite Version</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Maximum Oolite Version</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Required Expansions</td>
+                    <td>
+                    </td>
+                    <td>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Optional Expansions</td>
+                    <td>
+                    </td>
+                    <td>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Conflict Expansions</td>
+                    <td>
+                    </td>
+                    <td>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Information URL</td>
+                    <td><a target="_blank" href="http://aegidian.org/bb/viewtopic.php?f=4&amp;t=17178">http://aegidian.org/bb/viewtopic.php?f=4&amp;t=17178</a></td>
+                    <td><a target="_blank" href="">n/a</a></td>
+                </tr>
+                <tr>
+                    <td>Download URL</td>
+                    <td><a target="_blank" href="https://wiki.alioth.net/img_auth.php/f/fe/Station_Self-Destruction_Codes.oxz">https://wiki.alioth.net/img_auth.php/f/fe/Station_Self-Destruction_Codes.oxz</a></td>
+                    <td><a target="_blank" href="">n/a</a></td>
+                </tr>
+                <tr>
+                    <td>License</td>
+                    <td>Use your common sense.</td>
+                    <td>Use your common sense.</td>
+                </tr>
+                <tr>
+                    <td>File Size</td>
+                    <td>n/a</td>
+                </tr>
+                <tr>
+                    <td>Upload date</td>
+                    <td>1610873522</td>
+                </tr>
+            </table>
+                </a>
+
+        <a name="documentation">
+        <h2>Documentation</h2>
+        <p>Also read <a href='http://wiki.alioth.net/index.php/Station%20Self-Destruction%20Codes'>http://wiki.alioth.net/index.php/Station%20Self-Destruction%20Codes</a></p>
+        </a>
+
+        <a name="equipment">          
+        <h2>Equipment</h2>
+            <table>
+                <tr>
+                    <th>Name</th>
+                    <th>Visible</th>
+                    <th>Cost [deci-credits]</th>
+                    <th>Tech-Level</th>
+                </tr>
+                <tr>
+                    <td><a href="../equipment/EQ_STATION_DESTRUCTION_CODES.html">Station Self-Destruction Codes</a></td>
+                    <td>no</td>
+                    <td align="right">500000</td>
+                    <td align="center">2+</td>
+                </tr>
+            </table>
+        </a>
+
+        <a name="ships">    
+        <h2>Ships</h2>
+            This expansion declares no ships. 
+        </a>
+
+        <a name="models">    
+        <h2>Models</h2>
+            This expansion declares no models. 
+        </a>
+
+        <a name="scripts">    
+        <h2>Scripts</h2>
+            <table>
+                <tr>
+                    <th>Path</th>
+                </tr>
+                <tr>
+                    <td valign="top">Config/script.js</td>
+                    <td><pre>&quot;use strict&quot;;
+
+this.name    = &quot;Station Self-Destruction&quot;;
+this.version = &quot;1.0&quot;;
+
+/* ====================================================================================
+			EVENT HANDLERS
+======================================================================================= */
+
+    this.startUpComplete = function () {
+        &quot;use strict&quot;;
+        if (player.ship.equipmentStatus(&quot;EQ_STATION_DESTRUCTION_CODES&quot;) === &quot;EQUIPMENT_OK&quot;) {
+            this._applyCode();
+        }
+        delete this.startUpComplete;
+    }
+
+    this.playerBoughtEquipment = function (equipment) {
+        &quot;use strict&quot;;
+        if (equipment === &quot;EQ_STATION_DESTRUCTION_CODES&quot;) {
+            this._applyCode();
+        }
+        delete this.playerBoughtEquipment;
+    }
+
+    this.shipDockedWithStation = function () {
+        &quot;use strict&quot;;
+        if (player.ship.equipmentStatus(&quot;EQ_STATION_DESTRUCTION_CODES&quot;) === &quot;EQUIPMENT_OK&quot;) {
+            this._applyCode();
+        }
+    }
+
+    this.shipWillLaunchFromStation = function () {
+        &quot;use strict&quot;;
+        player.ship.dockedStation.setInterface(&quot;self_destruct&quot;, null);
+    }
+
+/* ====================================================================================
+			STATION SELF-DESTRUCT ACTIVATION CODES
+======================================================================================= */
+
+    this._applyCode = function () {
+        &quot;use strict&quot;;
+        if (player.ship.dockedStation) {
+            player.ship.dockedStation.setInterface(&quot;self_destruct&quot;, {
+                title: &quot;Station self-destruct&quot;,
+                category: &quot;DANGER&quot;,
+                summary: &quot;Activate this to cause the complete destruction of this station in 60 seconds. WARNING: there is no option to change your mind.&quot;,
+                callback: this._destructionSequence.bind(this)
+            });
+        }
+    }
+
+    this._destructionSequence = function (callback) {
+        &quot;use strict&quot;;
+        if (callback === &quot;self_destruct&quot;) {
+            this.$victim = player.ship.dockedStation;
+            this.$destructTimer = new Timer(this, function () {this._destroyStation();}, 60);
+            this.$warning3Timer = new Timer(this, function () {player.consoleMessage(&quot;STATION DESTRUCTION MECHANISM ACTIVATED.\nStation will be completely destroyed in 20 seconds.&quot;, 5);}, 40);
+            this.$warning2Timer = new Timer(this, function () {player.consoleMessage(&quot;STATION DESTRUCTION MECHANISM ACTIVATED.\nStation will be completely destroyed in 40 seconds.&quot;, 5);}, 20);
+            player.consoleMessage(&quot;STATION DESTRUCTION MECHANISM ACTIVATED.\nThis station will be completely destroyed in 60 seconds.&quot;, 5);
+        }
+    }
+
+    this._destroyStation = function () {
+        &quot;use strict&quot;;
+        if (this.$victim) {
+            this.$victim.explode();
+        }
+    }
+
+/* ====================================================================================
+			THE END
+======================================================================================= */
+</pre></td>
+                </tr>
+            </table>
+        </a>
+    </body>
+</html>

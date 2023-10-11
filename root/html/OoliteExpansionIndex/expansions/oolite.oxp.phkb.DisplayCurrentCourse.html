@@ -1,0 +1,388 @@
+<html>
+    <head>
+        <title>Expansion Display Current Course</title>
+        <link rel="stylesheet" href="../style.css">
+    </head>
+    <body>
+        <table border="0" width="100%">
+            <tr>
+                <td>Back to <a href='../index.html'>Index</a></td>
+                <td align="right"><small>Page generated: Oct 11, 2023, 3:16:49 PM</small></td>
+            </tr>
+        </table>
+
+        <h1>Expansion Display Current Course</h1>
+
+        <h2>Content</h2>
+        <ul>
+          <li><a href="#warnings">Warnings</a></li>
+          <li><a href="#manifest">Manifest</a></li>
+          <li><a href="#documentation">Documentation</a></li>
+          <li><a href="#equipment">0 Equipment</a></li>
+          <li><a href="#ships">0 Ships</a></li>
+          <li><a href="#models">0 Models</a></li>
+          <li><a href="#scripts">1 Scripts</a></li>
+        </ul>
+
+          <a name="warnings">
+            <h2>Warnings</h2>
+            <ol>
+                <li>Information URL mismatch between OXP Manifest and Expansion Manager string length at character position 0</li>
+            </ol>
+          </a>
+
+        <a name="manifest">
+        <h2>Manifest</h2>
+            <table border="1">
+                <tr>
+                    <th></th>
+                    <th>from Expansion Manager's OXP list</th>
+                    <th>from Expansion Manifest</th>
+                </tr>
+                <tr>
+                    <td>Description</td>
+                    <td>Shows players current course on the galactic map when contract courses are shown</td>
+                    <td>Shows players current course on the galactic map when contract courses are shown</td>
+                </tr>
+                <tr>
+                    <td>Identifier</td>
+                    <td>oolite.oxp.phkb.DisplayCurrentCourse</td>
+                    <td>oolite.oxp.phkb.DisplayCurrentCourse</td>
+                </tr>
+                <tr>
+                    <td>Title</td>
+                    <td>Display Current Course</td>
+                    <td>Display Current Course</td>
+                </tr>
+                <tr>
+                    <td>Category</td>
+                    <td>Mechanics</td>
+                    <td>Mechanics</td>
+                </tr>
+                <tr>
+                    <td>Author</td>
+                    <td>phkb</td>
+                    <td>phkb</td>
+                </tr>
+                <tr>
+                    <td>Version</td>
+                    <td>1.9</td>
+                    <td>1.9</td>
+                </tr>
+                <tr>
+                    <td>Tags</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Required Oolite Version</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Maximum Oolite Version</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Required Expansions</td>
+                    <td>
+                    </td>
+                    <td>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Optional Expansions</td>
+                    <td>
+                    </td>
+                    <td>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Conflict Expansions</td>
+                    <td>
+                    </td>
+                    <td>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Information URL</td>
+                    <td><a target="_blank" href=""></a></td>
+                    <td><a target="_blank" href="">n/a</a></td>
+                </tr>
+                <tr>
+                    <td>Download URL</td>
+                    <td><a target="_blank" href="https://wiki.alioth.net/img_auth.php/9/96/DisplayCurrentCourse.oxz">https://wiki.alioth.net/img_auth.php/9/96/DisplayCurrentCourse.oxz</a></td>
+                    <td><a target="_blank" href="">n/a</a></td>
+                </tr>
+                <tr>
+                    <td>License</td>
+                    <td>CC-BY-NC-SA 4.0</td>
+                    <td>CC-BY-NC-SA 4.0</td>
+                </tr>
+                <tr>
+                    <td>File Size</td>
+                    <td>n/a</td>
+                </tr>
+                <tr>
+                    <td>Upload date</td>
+                    <td>1610873378</td>
+                </tr>
+            </table>
+                </a>
+
+        <a name="documentation">
+        <h2>Documentation</h2>
+        <p>Also read <a href='http://wiki.alioth.net/index.php/Display%20Current%20Course'>http://wiki.alioth.net/index.php/Display%20Current%20Course</a></p>
+        <h3>readme.txt</h3>
+        <pre>Display Current Course
+By Nick Rogers
+
+Overview
+========
+This OXP aims to improve the usefulness of the Advanced Navigational Array by adding the players current plotted course to all contract detail pages, enabling them to see if the contract is on a similar path to what they are currently travelling along.
+
+Installation and use
+====================
+In order to get the benefits of this enhancement, the Advanced Navigation Array must be installed and functional. Once installed, and you have a course plotted on the F6 galactic chart, you will then see your current course plotted in green whenever you examine the details of a contract.
+
+Link Color Variation
+====================
+It is possible to switch the color of the current course on the map, if the Library OXP is installed. You can switch between the default green, red, blue, orange, purple, white and magenta.
+
+Third Party OXP&#39;s
+=================
+If a third party OXP would like to have their mission screen included in those screens which get the current course plotted, all they need to do is:
+1. Make sure their mission screen has a &quot;screenID&quot; property set.
+2. Add the following code to their worldScript (usually in the startUpComplete function):
+
+	var dcc = worldScripts.DisplayCurrentCourse;
+	if (dcc) dcc._screenIDList.push(&quot;my_screen_id&quot;);
+	
+License
+=======
+This work is licensed under the Creative Commons Attribution-Noncommercial-Share Alike 4.0 Unported License. To view a copy of this license, visit http://creativecommons.org/licenses/by-nc-sa/4.0/
+
+Version History
+===============
+1.9
+- Version number change only, to test Mac download problems.
+
+1.8
+- Added ability to change the link color (via Library Config).
+
+1.7
+- Better handling of Galactic jumps.
+- Code refactoring.
+
+1.6
+- Updated list of known screenID&#39;s.
+- Fixed issue where viewing Escort Contracts would potentially stop the current route from showing.
+- Added Random Hits screen ID inclusion.
+
+1.5
+- Fixed the issue with the course being reset to the contract destination if only 1 contract was available.
+
+1.4
+- Changed assumptions about &quot;Route Mode - None&quot; - this mode will now turn off the display of your current course on contract screens, rather than default to a &quot;fewest jumps&quot; route.
+
+1.3
+- Added contract summary pages to the list of screen ID&#39;s to monitor to fix issue where player&#39;s current course is sometimes not displayed.
+
+1.2
+- Attempts to fix issue where player&#39;s true current course is sometimes not displayed.
+
+1.1
+- Small improvements to marking logic, so only one link is required.
+
+1.0
+- Initial release.</pre>
+        </a>
+
+        <a name="equipment">          
+        <h2>Equipment</h2>
+            This expansion declares no equipment. This may be related to warnings.
+        </a>
+
+        <a name="ships">    
+        <h2>Ships</h2>
+            This expansion declares no ships. This may be related to warnings.
+        </a>
+
+        <a name="models">    
+        <h2>Models</h2>
+            This expansion declares no models. This may be related to warnings.
+        </a>
+
+        <a name="scripts">    
+        <h2>Scripts</h2>
+            <table>
+                <tr>
+                    <th>Path</th>
+                </tr>
+                <tr>
+                    <td valign="top">Scripts/displaycurrentcourse.js</td>
+                    <td><pre>&quot;use strict&quot;;
+this.name = &quot;DisplayCurrentCourse&quot;;
+this.author = &quot;phkb&quot;;
+this.copyright = &quot;2015 phkb&quot;;
+this.description = &quot;Routines for adding the players current course to the galactic map when also showing a contract course.&quot;;
+this.licence = &quot;CC BY-NC-SA 4.0&quot;;
+
+this._debug = false;
+this._currentRoute = null;
+this._currentTarget = null;
+this._currentRouteMode = &quot;&quot;;
+this._marked = false;
+this._screenIDList = [
+	&quot;oolite-contracts-parcels-details&quot;, 
+	&quot;oolite-contracts-passengers-details&quot;, 
+	&quot;oolite-contracts-cargo-details&quot;,
+	&quot;oolite-damagereport-detail-map&quot;, 
+	&quot;damage_report_detail&quot;, 
+	&quot;oolite-galcopsecoffice-screen4-map&quot;, 
+	&quot;oolite-galcopsecoffice-screen8-map&quot;, 
+	&quot;oolite-smuggling-contracts-map&quot;, 
+	&quot;smuggling-contracts-details&quot;,
+	&quot;rrs_mission_map&quot;, 
+	&quot;blackmonks-map&quot;, 
+	&quot;ups-map&quot;, 
+	&quot;escort-contracts&quot;, 
+	&quot;random_hits_map&quot;
+];
+this._refresh = null;
+this._holdDestination = -1;
+this._colorList = [
+	&quot;greenColor&quot;, 
+	&quot;redColor&quot;, 
+	&quot;blueColor&quot;, 
+	&quot;orangeColor&quot;, 
+	&quot;purpleColor&quot;, 
+	&quot;whiteColor&quot;, 
+	&quot;magentaColor&quot;
+];
+this._color = 0;
+this._libSettings = {
+	Name: this.name,
+	Display: &quot;UI Settings&quot;,
+	Alias: &quot;Display Current Course&quot;,
+	Alive: &quot;_libSettings&quot;,
+	SInt: {
+		S0: {
+			Name: &quot;_color&quot;,
+			Def: 0,
+			Min: 0,
+			Max: 6,
+			Desc: &quot;Link Color&quot;
+		},
+		Info: &quot;0 = green, 1 = red, 2 = blue, 3 = orange, 4 = purple, 5 = white, 6 = magenta&quot;
+	},
+};
+
+// IDEA: Include course plot info from any contracts currently in play
+
+//-------------------------------------------------------------------------------------------------------------
+this.startUpComplete = function () {
+	if (worldScripts.Lib_Config) {
+		if (missionVariables.DCC_LinkColor) this._color = parseInt(missionVariables.DCC_LinkColor);
+		worldScripts.Lib_Config._registerSet(this._libSettings);
+	}
+
+	// make sure we get a copy of the player&#39;s target system after a game load
+	if (player.ship.targetSystem &gt;= 0) this._holdDestination = player.ship.targetSystem;
+}
+
+//-------------------------------------------------------------------------------------------------------------
+this.playerWillSaveGame = function () {
+	if (worldScripts.Lib_Config) {
+		missionVariables.DCC_LinkColor = this._color;
+	}
+}
+
+//-------------------------------------------------------------------------------------------------------------
+this.guiScreenChanged = function (to, from) {
+	if (guiScreen != &quot;GUI_SCREEN_LONG_RANGE_CHART&quot; &amp;&amp; guiScreen != &quot;GUI_SCREEN_SHORT_RANGE_CHART&quot; &amp;&amp; (from == &quot;GUI_SCREEN_LONG_RANGE_CHART&quot; || from == &quot;GUI_SCREEN_SHORT_RANGE_CHART&quot;)) {
+		if (this._marked) this.$unmarkSystems();
+		// grab a copy of the player&#39;s destination set on the galactic chart
+		this._holdDestination = player.ship.targetSystem;
+		this._currentTarget = null;
+	}
+
+	if (guiScreen == &quot;GUI_SCREEN_MISSION&quot;) {
+		var p = player.ship;
+		if (p.equipmentStatus(&quot;EQ_ADVANCED_NAVIGATIONAL_ARRAY&quot;) == &quot;EQUIPMENT_OK&quot;) {
+			// if the route mode is set to &quot;NONE&quot;, jump out now.
+			if (p.routeMode == &quot;OPTIMIZED_BY_NONE&quot;) {
+				// make sure we don&#39;t get a residue from previous visits to the galactic chart
+				if (this._marked) this.$unmarkSystems();
+				return;
+			}
+			// if we don&#39;t yet have a target set, get a copy now.
+			if (this._currentTarget == null &amp;&amp; this._holdDestination != -1) {
+				if (this._debug) log(this.name, &quot;setting current target details&quot;);
+				this._currentTarget = this._holdDestination;
+				this._currentRouteMode = p.routeMode;
+				if (this._debug) log(this.name, &quot;A: curr &quot; + system.ID + &quot;, curr dest &quot; + this._currentTarget + &quot;, route mode &quot; + this._currentRouteMode + &quot;, route length &quot; + (this._currentRoute &amp;&amp; this._currentRoute.route.length &gt; 0 ? this._currentRoute.route.length : 0));
+			}
+			// if the screen ID mataches one in our list, then we can add the system links in now
+			if (this._screenIDList.indexOf(mission.screenID) &gt;= 0 &amp;&amp; this._marked == false) {
+				if (this._refresh &amp;&amp; this._refresh.isRunning) this._refresh.stop();
+				var info = System.infoForSystem(galaxyNumber, this._currentTarget);
+				this._currentRoute = system.info.routeToSystem(info, this._currentRouteMode);
+				if (this._debug) log(this.name, &quot;B: curr &quot; + system.ID + &quot;, curr dest &quot; + this._currentTarget + &quot;, route mode &quot; + this._currentRouteMode + &quot;, route length &quot; + (this._currentRoute &amp;&amp; this._currentRoute.route.length &gt; 0 ? this._currentRoute.route.length : 0));
+				if (this._currentRoute &amp;&amp; this._currentRoute.route.length &gt; 1) {
+					for (var i = 0; i &lt; this._currentRoute.route.length - 1; i++) {
+						if (this._currentRoute.route[i] &lt; this._currentRoute.route[i + 1]) {
+							SystemInfo.setInterstellarProperty(galaxyNumber, this._currentRoute.route[i], this._currentRoute.route[i + 1], 2, &quot;link_color&quot;, this._colorList[this._color]);
+						} else {
+							SystemInfo.setInterstellarProperty(galaxyNumber, this._currentRoute.route[i + 1], this._currentRoute.route[i], 2, &quot;link_color&quot;, this._colorList[this._color]);
+						}
+					}
+					this._marked = true;
+				}
+			}
+			if (this._screenIDList.indexOf(mission.screenID) == -1) {
+				// this is a bit of a hack to cope with mission screens that actually set the player&#39;s target system as part of their actions
+				// start a timer to reset the marked system
+				if (!this._refresh || this._refresh.isRunning == false) this._refresh = new Timer(this, this.missionScreenEnded, 0.25, 0);
+			}
+		}
+	}
+}
+
+//-------------------------------------------------------------------------------------------------------------
+this.missionScreenEnded = function () {
+	if (this._marked == true) this.$unmarkSystems();
+	// reset the holding destination in case a mission screen updated it
+	this._holdDestination = player.ship.targetSystem;
+}
+
+//-------------------------------------------------------------------------------------------------------------
+this.shipWillEnterWitchspace = function (cause) {
+	if (cause == &quot;galactic jump&quot;) {
+		this.$unmarkSystems();
+		this._holdDestination = -1;
+	}
+}
+
+//-------------------------------------------------------------------------------------------------------------
+this.$unmarkSystems = function $unmarkSystems () {
+	if (this._currentRoute) {
+		for (var i = 0; i &lt; this._currentRoute.route.length - 1; i++) {
+			if (this._currentRoute.route[i] &lt; this._currentRoute.route[i + 1]) {
+				SystemInfo.setInterstellarProperty(galaxyNumber, this._currentRoute.route[i], this._currentRoute.route[i + 1], 2, &quot;link_color&quot;, null);
+			} else {
+				SystemInfo.setInterstellarProperty(galaxyNumber, this._currentRoute.route[i + 1], this._currentRoute.route[i], 2, &quot;link_color&quot;, null);
+			}
+		}
+	}
+	this._currentTarget = null;
+	this._currentRoute = null;
+	this._currentRouteMode = &quot;&quot;;
+	this._marked = false;
+}</pre></td>
+                </tr>
+            </table>
+        </a>
+    </body>
+</html>

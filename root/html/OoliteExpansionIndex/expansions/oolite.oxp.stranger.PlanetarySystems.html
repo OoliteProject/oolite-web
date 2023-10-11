@@ -1,0 +1,1303 @@
+<html>
+    <head>
+        <title>Expansion Planetary Systems</title>
+        <link rel="stylesheet" href="../style.css">
+    </head>
+    <body>
+        <table border="0" width="100%">
+            <tr>
+                <td>Back to <a href='../index.html'>Index</a></td>
+                <td align="right"><small>Page generated: Oct 11, 2023, 3:16:49 PM</small></td>
+            </tr>
+        </table>
+
+        <h1>Expansion Planetary Systems</h1>
+
+        <h2>Content</h2>
+        <ul>
+          <li><a href="#warnings">Warnings</a></li>
+          <li><a href="#manifest">Manifest</a></li>
+          <li><a href="#documentation">Documentation</a></li>
+          <li><a href="#equipment">0 Equipment</a></li>
+          <li><a href="#ships">0 Ships</a></li>
+          <li><a href="#models">0 Models</a></li>
+          <li><a href="#scripts">2 Scripts</a></li>
+        </ul>
+
+          <a name="warnings">
+            <h2>Warnings</h2>
+            <ol>
+                <li>Tags mismatch between OXP Manifest and Expansion Manager at character position 0002 (RIGHT SQUARE BRACKET vs LATIN SMALL LETTER P)(&#39;[]&#39; vs &#39;[planets, system]&#39;)</li>
+                <li>Conflict Expansions mismatch between OXP Manifest and Expansion Manager at character position 0077 (DIGIT ZERO vs LATIN SMALL LETTER N)</li>
+            </ol>
+          </a>
+
+        <a name="manifest">
+        <h2>Manifest</h2>
+            <table border="1">
+                <tr>
+                    <th></th>
+                    <th>from Expansion Manager's OXP list</th>
+                    <th>from Expansion Manifest</th>
+                </tr>
+                <tr>
+                    <td>Description</td>
+                    <td>This OXP simulates (pseudo)dynamic solar systems with terrestrial planets and gas giants.</td>
+                    <td>This OXP simulates (pseudo)dynamic solar systems with terrestrial planets and gas giants.</td>
+                </tr>
+                <tr>
+                    <td>Identifier</td>
+                    <td>oolite.oxp.stranger.PlanetarySystems</td>
+                    <td>oolite.oxp.stranger.PlanetarySystems</td>
+                </tr>
+                <tr>
+                    <td>Title</td>
+                    <td>Planetary Systems</td>
+                    <td>Planetary Systems</td>
+                </tr>
+                <tr>
+                    <td>Category</td>
+                    <td>Ambience</td>
+                    <td>Ambience</td>
+                </tr>
+                <tr>
+                    <td>Author</td>
+                    <td>stranger</td>
+                    <td>stranger</td>
+                </tr>
+                <tr>
+                    <td>Version</td>
+                    <td>1.8.0</td>
+                    <td>1.8.0</td>
+                </tr>
+                <tr>
+                    <td>Tags</td>
+                    <td></td>
+                    <td>planets, system</td>
+                </tr>
+                <tr>
+                    <td>Required Oolite Version</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Maximum Oolite Version</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Required Expansions</td>
+                    <td>
+                            <li>oolite.oxp.stranger.SunGear:4.4.0</li>
+                    </td>
+                    <td>
+                            <li>oolite.oxp.stranger.SunGear:4.4.0</li>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Optional Expansions</td>
+                    <td>
+                    </td>
+                    <td>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Conflict Expansions</td>
+                    <td>
+                            <li>oolite.oxp.spara.additional_planets_sr_base:0</li>
+                    </td>
+                    <td>
+                            <li>oolite.oxp.spara.additional_planets_sr_base:</li>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Information URL</td>
+                    <td><a target="_blank" href="http://aegidian.org/bb/viewtopic.php?f=4&amp;t=20016">http://aegidian.org/bb/viewtopic.php?f=4&amp;t=20016</a></td>
+                    <td><a target="_blank" href="">n/a</a></td>
+                </tr>
+                <tr>
+                    <td>Download URL</td>
+                    <td><a target="_blank" href="https://wiki.alioth.net/img_auth.php/a/ac/PlanetarySystems.oxz">https://wiki.alioth.net/img_auth.php/a/ac/PlanetarySystems.oxz</a></td>
+                    <td><a target="_blank" href="">n/a</a></td>
+                </tr>
+                <tr>
+                    <td>License</td>
+                    <td>CC-BY-NC-SA 3.0</td>
+                    <td>CC-BY-NC-SA 3.0</td>
+                </tr>
+                <tr>
+                    <td>File Size</td>
+                    <td>n/a</td>
+                </tr>
+                <tr>
+                    <td>Upload date</td>
+                    <td>1626308174</td>
+                </tr>
+            </table>
+                </a>
+
+        <a name="documentation">
+        <h2>Documentation</h2>
+        <p>Also read <a href='http://wiki.alioth.net/index.php/Planetary%20Systems'>http://wiki.alioth.net/index.php/Planetary%20Systems</a></p>
+        <h3>Planetary Systems Readme.txt</h3>
+        <pre>---------------------
+Planetary Systems OXP
+---------------------
+
+This package based of Orbits 1.2.1 (authors - Ebi, Kaks) with textured planets and some tweaks in main script.
+Tweaked by Stranger.
+
+This OXP is released under the Creative Commons Attribution - Non-Commercial - Share Alike 3.0 license.
+You are free to use and distribute this OXP on non-commercial basis. 
+Rebundling of this OXP within another distribution is permitted as long as it is unchanged.
+Any mods/derivatives of this OXP must be distributed under another names.
+The license information (either as this file or merged into a larger one) must be included in the OXP.
+
+Features:
+
+This OXP simulates a bit more realistic (pseudo)dynamic solar systems with terrestrial planets and gas giants.
+Smart algorithm of planet texture selection is implemented (texture selected based on planet radius, temperature and atmosphere pressure).
+Original dynamic orbital mechanism supplemented with variation of main planet orbital period (function of calculated sun mass and orbit radius).
+Orbital parameters and physical properties of planets and moons are calculated as function of their radii and insolation levels. Besides using these parameters in texture selection this is planet/moon properties page displayed only if you are docked in surface port. Select F4 screen and open �Planet Data Sheet� interface to view this info page.
+
+There are up to eight additional planets in system, selected randomly:
+
+Miniterra (Mercury analog)
+Subterra (Mars analog)
+Terra (Earth or Venus analog)
+Superterra
+Two gas giants (Jupiter and Saturn analogs)
+Ice giant (Neptune analog)
+Transneptunian (Pluto analog)
+
+Non-linear scale is implemented to large planets (super-earths, ice and gas giants). Being only 172500 m radius in game really, largest gas giant is displayed in Planet Data Sheet page as gas giant of 72500 km radius instead 17250 km of default planet scale. Planet mass, escape velocity and surface gravity is displayed scaled too.
+There are no �surface� in case of gas giants. Planet Data Sheet page takes 1 bar atmosphere pressure level as reference point in this case. 
+
+Dependencies:
+
+This OXP uses AstroLibrary functions in Sun Gear OXP to calculate properties of system planets and moons.
+Habitable Main Planets OXP is highly recommended to provide more reliable data for main planet. This is no way to match calculated atmosphere density and surface temperature for planet of 3000 km radius, for example, with vanilla game classification of such world as agricultural/tropical paradise. :-)
+
+Known issues:
+
+Interaction of Planetary Systems OXP with planets added by other OXPs can cause inflation of system far beyond planned size. Diso.oxp with 4 additional planets is a good example of such system.
+Planetary Systems OXP is incompatible with Additional Planets SR due to same reason.
+Like original Orbits, Planetary Systems needs some time to generate solar system, so problems with positioning of moons, stations and ships added by third party OXPs or system populator can appear.
+Specific case of incompatibility is Market Cooldown OXZ (author spara). It uses sum of station distances to witchpoint and to sun as unique key for port identification. This method works in static deterministic system dynamic system, but fails in dynamic systems with changing psw triangle.
+
+INSTALLATION:
+
+To provide easy updates all planet textures repacked as separate texture packs.
+
+Planetary Systems.oxp - core package.
+Planetary Systems Texture Pack A.oxp - Ice Deserts	
+Planetary Systems Texture Pack B.oxp - Cold Deserts
+Planetary Systems Texture Pack C.oxp - Sand Deserts
+Planetary Systems Texture Pack D.oxp - Volcanic Deserts
+Planetary Systems Texture Pack E.oxp - Cold Mars Analogs
+Planetary Systems Texture Pack F.oxp - Hot Mars Analogs
+Planetary Systems Texture Pack G.oxp - Gas and Ice Giants
+Planetary Systems Texture Pack H.oxp - Misc (Mercury, Pluto, Venus analogs and super-earths).
+
+Download and unzip core package Planetary Systems and all Planetary Systems Texture Pack volumes.
+Place all unzipped packages inside the Oolite/AddOns folder.
+
+Read notifications on my personal page to update packages individually.
+
+---------------
+Version history
+---------------
+
+15.07.2021 - Version 1.8.0	Fixed issue with declaration of function mkPlanetIndex()
+07.07.2020 - Version 1.7.0	Fixed error in log file generated in case of misjump.
+16.06.2020 - Version 1.6.0	Minimal planet radius, used to discriminate planets from moons, decreased from 2700 to 2500 km.
+				Planet radii recalibrated.
+				Minor improvement in algorithm of planet texture selection.
+08.02.2019 - Version 1.5.2	Conversion to OXZ.
+30.12.2018 - Version 1.5.1	manifest.plist and Readme edited.
+15.12.2018 - Version 1.5	Code modified to select three additional planet textures.
+				manifest.plist added.
+				Texture packs rearranged onto 8 volumes.
+				More detailed credit info added onto all 8 texture packs.
+10.12.2018 - Version 1.4	Code modified to select two additional planet textures.
+				Some textures replaced.
+12.08.2018 - Version 1.3	Code preventing displaying physical properties of main planet on Planet Data Sheet is removed.
+19.06.2018 - Version 1.2	Calculation of planet/moon properties added.
+				Planet Engine calculates orbital and physical parameters of planets and moons.
+				New �Planet Data Sheet� interface on F4 screen allows to view planet/moon info page.
+				Planet textures selected as function of planet radius, surface temperature and atmosphere pressure.
+				Non-linear scale for large planets is implemented.
+				Original procedure of orbit scaling is readjusted to decrease too wide gap between main planet and nearest outer planet.
+				Superterrae are placed between terrae ang ice/gas giants.
+				Texture pack divided onto 2 volumes (Texture Pack A and Texture Pack B).
+09.05.2018 - Version 1.1	Maximal planet number increased to 8 planets again.
+				New class of superterrestrial planets introduced.
+				Planet radii covers range from dwarf planets to gas giants without gaps.
+				Code changes again to adopt rewritten AstroLibrary functions.
+17.07.2016 - Version 1.0	Every planet class divided onto 10 subclasses to provide better variability
+				(40 variants of terrestrial planets and 30 variants of gas giants now).
+				All texture files repacked as separate texture pack.
+06.11.2015 - Version 0.9	Code changes to adopt rewritten AstroLibrary functions.
+27.06.2014 - Version 0.8	OXP renamed from Orbits ST to Planetary Systems for clarity reasons.
+				Local year is a function of sun spectral class.
+24.06.2014 - Version 0.7	Texture selection for Pluto analog improved (it takes Mercury texture in case of proximity to sun).
+19.05.2014 - Version 0.6	Planet list rearranged.
+				Planet number reduced to 7 again.
+				Texture selection improved from 8 generic textures to 35 system-dependent textures.
+				Script for texture selection implemented instead of static planetinfo.plist textures.
+08.02.2014 - Version 0.5	Refined system of texture naming.
+20.01.2014 - Version 0.4	Maximal planet number increased to 8.
+				Maximal planet radius increased to 15000 km.
+				planetinfo.plist readjusted to rearranged planet set.
+				Planet rotational velocities set to 0.001 rad/s for terrestrial planets and to 0.002 rad/s for gas giants.
+				Planet textures renamed to improve compatibility with System Redux.
+12.01.2014 - Version 0.3	Maximal moon radius filter parameter increased from 1000 to 2700 km to allow simulation of large moons.
+09.01.2014 - Version 0.2	Cube mapped textures replaced by equirectangular projections.
+23.06.2013 - Version 0.1	Initial release.
+
+Credits:
+Orbits main script - Ebi, Kaks.
+Textures - Celestia Motherlode and freebitmaps.blogspot.com.
+See more detailed texture credits in Texture Pack Readme documents.
+Thanks Milo for reporting issue with function declaration.
+
+*****
+
+Original Ebi&#39;s readme is below.
+
+*****
+
+======================================================
+Orbits is an Add-on for Oolite by Giles Williams
+======================================================
+
+Version:1.2.1   -   01 Jul 2010
+
+Update of v1.2 for Oolite v1.74.x
+
+
+Readme notes included with v1.2:
+
+======================================================
+
+Author: Ebi
+
+Created on: 11 Jul 08
+
+version: 1.1
+======================================================
+
+&quot;Orbits&quot; places planets on concentric and coplanar orbits around the
+sun. It works as stand-alone OXP or in combination with other OXPs
+which add planets to a system. I use it together with Farsun and
+System Redux. Note, the installation order the OXPs may be
+relevant. If you have trouble to get it right you may want to let
+Orbits emulate farsun as well.
+
+The OXP derives the layout of a planet system from the system
+name. Therefore when you return to a system again the same number of
+planets and the same orbits will be there. However, since &quot;Orbits&quot;
+checks the game clock the planets will have move along their orbits a
+little bit. (Hmm, I use a coordinate system which depends on the
+positions of the sun, the main planet, and the witchpoint buoy and in
+the previous sentence I assumed that those positions are
+static. Nothing to worry about, we will not notice the difference
+anyway, just don&#39;t ask the guys in the astro labs:))
+
+In the config folder you will find the file &quot;script.js&quot;. It defines
+some variables which determine the layout. You may want to play with
+them:
+
+this.MaxPlanets = 7;
+
+&quot;Orbits&quot; can add planets to a system. I&#39;ve defined seven planets in
+the planetinfo.plist (see the Config directory). So the maximum value
+is currently 7. If you want even more just extend
+planetinfo.plist. Those planets are not textured, in combination with
+System Redux you can reduce the maximum.
+
+this.Yr = 300;
+
+&quot;Orbits&quot; calculates the distances between the sun and the planets by
+scaling the vector [sun, planet]. It first calulates the orbital
+periods and then by applying Kepler&#39;s law that scalar. The orbital
+period is expressed as multiple of the days per year of the main
+planet. This value is also use to add some pseudo randomness.
+Increasing its value will give larger orbits, I guess.
+
+this.X0
+this.X1
+this.Y0
+this.Y1
+
+The radius of a planet determines the distances to its neighbours. It
+works like a charge which pushes bigger planets away. The idea is that
+a big planet has attracted the bodies in its vicinity and no bodies
+are left there. At startup &quot;Orbits&quot; assigns the &quot;mass&quot; Y1 to the
+biggest and Y0 to the smallest planet and interpolates the other
+values. You can overwrite the min/max radii by defining X0 and/or
+X1. The resulting numbers are factors in the product used to calculate
+the orbital periods. Bigger numbers produce biggers gaps.
+
+this.SpreadFactor = 3;
+
+Adds space between the orbits in sparse system. &quot;Orbits&quot; multiplies
+the orbital periods by SpreadFactor ^ (1 / (#planets - 1))
+
+this.RandomOffsetFactor = 0.1
+
+Let t[i] be the orbital period of planet i. Then &quot;Orbits&quot; gets t[i+1]&#39;
+by multiplying Yr with the weights explained above and adding the
+result to t[i]. After that it adds a pseudo random number in the range
+[0, t[i+1]&#39; * RandomOffsetFactor] to get the final t[i+1].
+
+this.FarsunMultiplier
+
+The initialization order of OXPs seems unpredictable to me. If you are
+using Farsun.OXP and you have the feeling the planets are too close to
+the main planet or they are not orbiting around the sun then the
+installation order is probably wrong. &quot;Orbits&quot; can emulate Farsun. If
+nothing works set FarsunMultiplier to an appropriate value. Set it to
+1 if you don&#39;t want a far sun. I&#39;m using 6.
+
+</pre>
+        </a>
+
+        <a name="equipment">          
+        <h2>Equipment</h2>
+            This expansion declares no equipment. This may be related to warnings.
+        </a>
+
+        <a name="ships">    
+        <h2>Ships</h2>
+            This expansion declares no ships. This may be related to warnings.
+        </a>
+
+        <a name="models">    
+        <h2>Models</h2>
+            This expansion declares no models. This may be related to warnings.
+        </a>
+
+        <a name="scripts">    
+        <h2>Scripts</h2>
+            <table>
+                <tr>
+                    <th>Path</th>
+                </tr>
+                <tr>
+                    <td valign="top">Scripts/orbits.js</td>
+                    <td><pre>&quot;use strict&quot;;
+this.name = &quot;PlanetOrbits&quot;;
+this.author = &quot;Stranger&quot;;
+this.description = &quot;Adds planets on concentric orbits around the sun.&quot;
+this.version = &quot;1.8&quot;;
+this.copyright = &quot;This work is hereby placed in the public domain.&quot;;
+
+/*
+This script tightly based on Ebi, Kaks Orbits 1.2.1 script.
+Original planet seeding procedure is overrided.
+Moon filter radius increased to 2500 km.
+Local year duration is a function of sun spectral class (reference to Sun Gear AstroLibrary included).
+Periods of outer planets readjusted (0.5x multiplier added).
+Original code reformatted to ease readings (yet too complicated to me!).
+*/
+
+function pow(x, y)
+    {
+    return Math.exp(y * Math.log(x));
+    }
+
+// Maximum number of planets to be added (See planetinfo.plist as well).
+this.MaxPlanets = 8;
+// Outer planet orbits scale factor
+this.$scaleOrbits = 0.5;    // No works yet. Edit number in line 360 directly to have effect.
+                            // Default scale value was 1.0. 
+
+// Days per year of the Main planet
+this.Yr = 360;
+
+// Get weights by linearily interpolating the planet radii as defined
+// by [X0,Y0] and [X1,Y1]. Those weights are used as multiplier when
+// calculating orbital periods. If X0 or X1 are 0 or undefined &quot;orbits&quot;
+// will select the minimum or maximum from the planets in the
+// system.planets list.
+this.X0 = 2500 * 10;		// planetinfo.plist minimum in game units
+this.X1 = 18000 * 10;		// planetinfo.plist maximum in game units
+this.Y0 = pow(2, 3.0 / 4.0);	// Compensate Keplers law and take square root
+this.Y1 = pow(3.5, 3.0 / 4.0);  // Thus, scale radius by values in [2,3.5]
+// System spread factor
+this.SpreadFactor = 3.0;
+// Add a random offset in the range [0, t*RandomOffsetFactor] to the
+// orbital period t of a planet.
+this.RandomOffsetFactor = 0.1;
+// Log to logfile (1) and/or console (2)
+this.Verbose = 0; //1|4;
+// Oh man, it&#39;s too tricky to get the OXP initialization order right
+// for Oolite. It may be random, therefore I offer the farsun
+// functionality here as well. Shifts the sun and increases (or
+// decreases if less than 1) its distance to the main planet by this
+// factor. Thus, the value 1 will not show any effect.
+this.FarsunMultiplier = 1; // 6;
+
+this.Log = function(dest, msg)
+    {
+    if (dest &amp; 1)
+	log (msg);
+    if (dest &amp; 2)
+	player.commsMessage(msg);
+    }
+
+this.startUp = this.reset = function()
+    {
+    this.systemDone = false;
+    this.Log(this.Verbose &amp; 1, &quot;Initialising OXP &quot; + this.name);
+    }
+
+this.shipWillLaunchFromStation  =  function()
+    {
+    if (!this.systemDone)
+        {
+        this.shipWillExitWitchspace();
+        delete this.shipWillLaunchFromStation;
+        }
+    }
+
+this.shipLaunchedFromStation = function()
+    {
+    if (!this.systemDone)
+	this.shipExitedWitchspace();
+    }
+
+this.shipWillExitWitchspace = function()
+    {
+    if (system.isInterstellarSpace) return;
+    var w = worldScripts.AstroLibrary;
+    var sunRadius = system.sun.radius;
+    var sunMass = w.$astroLib_sunMass(sunRadius);
+    var mainYr = w.$astroLib_solPeriod(sunMass);
+    this.Yr = mainYr;
+    this.createOrbits();
+    }
+
+this.shipExitedWitchspace = function()
+    {
+    if (system.isInterstellarSpace) return;
+    this.systemDone = true;
+    if ((this.Verbose &amp; (2|4)) == 0 || this.innerPlanets == 0)
+	return;
+    var msg =
+	system.name + &quot;: &quot; +
+	this.innerPlanets + &quot;+&quot; +
+	this.outerPlanets + &quot; planets&quot;;
+    if (this.info != undefined)
+	msg = msg + &quot;[&quot; + this.info + &quot;]&quot;;
+    this.Log(2, msg);
+    }
+
+this.isMoon = function(p)
+    {
+    // 10 * Radius from planetinfo.plist
+    return !p.isMainPlanet &amp;&amp; p.radius &lt; 2500 * 10;
+    }
+
+this.mkPlanetIndex = function mkPlanetIndex()
+    {
+    function aPlanet(entity)
+        {
+        return entity.isPlanet
+        }
+  
+    return system.filteredEntities(this, aPlanet, system.sun);
+    }
+
+this.planetsMinMax = function(x)
+    {
+    var needX0 = this.X0 == undefined || this.X0 == 0;
+    var needX1 = this.X1 == undefined || this.X1 == 0;
+    var np = system.planets.length;
+    var x0 = +Infinity, x1 = 0;
+
+    if (needX0 || needX1)
+        {
+        for (var i = 0; i &lt; system.planets.length; ++i)
+            {
+            if (this.isMoon(system.planets[i]))
+                {
+                np--;
+                continue;
+                }
+            if (system.planets[i].radius &gt; x1)
+            x1 = system.planets[i].radius;
+            if (system.planets[i].radius &lt; x0)
+            x0 = system.planets[i].radius;
+            }
+        }
+    x[0] = needX0 ? x0 : this.X0;
+    x[1] = needX1 ? x1 : this.X1;
+    return np;
+    }
+
+this.addPlanets = function(id)
+    {
+    // Add planets in system dependent order. Id is used here in two
+    // ways:
+    // - Its lower bits determine the planets in planetinfo.plist
+    // - It represents a permutation and hence the order how the selected
+    //   planets are added (see wikipedia for factoradic) and Entity-IDs
+    //   are assigned.
+
+    var selectPlanet1 = system.scrambledPseudoRandomNumber(163);
+    var selectPlanet2 = system.scrambledPseudoRandomNumber(171);
+    var selectPlanet3 = system.scrambledPseudoRandomNumber(179);
+    var selectPlanet4 = system.scrambledPseudoRandomNumber(187);
+    var selectPlanet5 = system.scrambledPseudoRandomNumber(195);
+    var selectPlanet6 = system.scrambledPseudoRandomNumber(203);
+    var selectPlanet7 = system.scrambledPseudoRandomNumber(211);
+    var selectPlanet8 = system.scrambledPseudoRandomNumber(219);
+
+    var selectPlanetData = [
+    selectPlanet1,
+    selectPlanet2,
+    selectPlanet3,
+    selectPlanet4,
+    selectPlanet5,
+    selectPlanet6,
+    selectPlanet7,
+    selectPlanet8
+    ];
+
+    var v = new Array(this.MaxPlanets), w = new Array(this.MaxPlanets);
+    // Avoid huge factorials by grouping up to 12 planets.
+    var mask = id;
+    for (var i = 0; i &lt; this.MaxPlanets &amp;&amp; mask != 0 &amp;&amp; id != 0; )
+        {
+        var m = 0, f = 1;
+        // Type conversion prohibits use of the shift operator. Kind
+        // of weird to apply &quot;&amp;&quot; on a floating point number!
+        for (; m &lt; 12 &amp;&amp; i &lt; this.MaxPlanets; ++i, mask = Math.floor(mask / 2))
+            if ((mask &amp; 1) != 0)
+            v[m] = i, w[m] = m, f *= ++m;
+        var fn = id % f;	// fn = sum(j in [0..m-1]:j!*c[j]), c[j] &lt;= j
+        id = Math.floor(id / f);
+        for (; m &gt; 0; --m)
+            {
+            f /= m;
+            var c = Math.floor(fn / f);
+            fn -= f * c;
+            this.Log(this.Verbose,
+                &quot;&quot; + m + &quot;:selecting oplanet&quot; +
+                (v[w[c]] + 1) + &quot;,&quot; + w[c] + &quot;,&quot; +
+                c + &quot;,&quot; + f + &quot;,&quot; + fn);
+
+            var addPlanetTagIn = v[w[c]];
+            var addPlanetTagOut = 10*(addPlanetTagIn + 1) + Math.floor(selectPlanetData[addPlanetTagIn]*10);
+
+            system.addPlanet(&quot;oplanet&quot; + addPlanetTagOut);
+//          system.addPlanet(&quot;oplanet&quot; + (v[w[c]] + 1));
+            for (; c + 1 &lt; m; ++c)
+            w[c] = w[c + 1];
+            }
+        }
+    }
+
+this.createOrbits = function()
+    {
+    this.outerPlanets = 0;
+    this.innerPlanets = 0;
+
+    var s = system.sun;
+    // Is there system.witchpoint?
+    var w = system.shipsWithPrimaryRole(&quot;buoy-witchpoint&quot;)[0];
+    var pm = system.mainPlanet;
+    if (!s || !w || !pm)
+	return;
+
+    s.position=(pm.position.add(
+	s.position.subtract(pm.position).multiply(this.FarsunMultiplier)));
+
+    function PlanetVecs(s, w, p)
+        {
+        // &quot;this&quot; for sizzies:(
+        this.s = s;
+        this.sp = p.subtract(s);
+        this.dist = this.sp.magnitude();
+        // Rotation axis, perpendicular to the plane of triangle [s,p,w]
+        this.rx = this.sp.cross(w.subtract(s)).direction();
+        this.q = new Quaternion (1,0,0,0);
+        this.rotateQ = function(q, axis, angle)
+            {
+            // Ahruman&#39;s replacement for buggy Quaternion.rotate()
+            angle *= 0.5;
+            axis = axis.multiply(Math.sin(angle));
+            return q.multiply([Math.cos(angle), axis.x, axis.y, axis.z]);
+            }
+        this.position = function(a, d)
+            {
+            // Move sun to origin, rotate planet, and translate back again
+            return this.s.add(this.sp.rotateBy(
+            this.rotateQ(this.q, this.rx, a)).multiply(d));
+            }
+        }
+
+    var pv = new PlanetVecs(s.position, w.position, pm.position);
+
+    function SystemId(name)
+        {
+        this.prime = 29;
+        this.name = name;
+        this.code = 0;
+
+        this.charToInt = function(c)
+            {
+            var l = &quot;abcdefghijklmnopqrstuvwxyz&quot;;
+            var i = l.indexOf(c);
+            if (i &gt;= 0)
+            return i;
+            var u = &quot;ABCDEFGHIJKLMNOPQRSTUVWXYZ&quot;;
+            i = u.indexOf(c);
+            return i &gt;= 0 ? i : 0; 
+            }
+
+        this.nextPrime = function()
+            {
+            var p = this.prime;
+            if ((p &amp; 1) == 0)
+            ++p;
+            for (;;)
+                {
+                p += 2;
+                for (var i = 3; ; i += 2)
+                    {
+                    if (i * i &gt; p)
+                    return this.prime = p;
+                    if (p % i == 0)
+                    break;
+                    }
+                }
+            }
+
+        this.calcCode = function()
+            {
+            // Use letters of n as digits of number with base prime.
+            var l = this.name.length;
+            var x = 0;
+            var pp = 1;
+            for (var i = 0; i &lt; l; ++i)
+                {
+                x += this.charToInt (this.name.charAt(i)) * pp;
+                pp *= this.prime;
+                }
+            return this.code = x;
+            }
+        }
+    // Derive numbers from system name
+    var id = new SystemId(system.name);
+
+    id.calcCode();
+    this.Log (this.Verbose, system.name + &quot;:id is &quot; + id.code);
+    this.addPlanets(id.code);
+    this.innerPlanets = 1;
+
+    var x = [+Infinity, 0];
+    var np = this.planetsMinMax(x);
+    if (np &lt;= 1)
+    return;
+
+    function Map(x0, y0, x1, y1)
+        {
+        var m, X0 = x0, Y0 = y0;
+        if (x0 == x1 || y0 == y1)
+            {
+            m = (y0 + y1) / 2;
+            this.interpolate = function(x) { return m; }
+            }
+        else
+            {
+            m = (y1 - y0) / (x1 - x0);
+            this.interpolate = function(x) { return Y0 + m * (x - X0); }
+            }
+        }
+    var map = new Map(x[0], this.Y0, x[1], this.Y1);
+
+    function PlanetWeights(p, s)
+        {
+        this.c = 0, this.p = p, this.s = s;
+        this.product = function() { return this.s * this.c * this.p; }
+        this.next = function() { this.p = this.c; }
+        }
+    var ow = new PlanetWeights(
+	map.interpolate(pm.radius),    
+	pow(this.SpreadFactor, 1.0 / (np - 1)));
+    var iw = new PlanetWeights(ow.p, ow.s);
+
+    function InnerOrbitalPeriod(orbits, s)
+        {
+        this.t = orbits.Yr;
+        var r = orbits.RandomOffsetFactor;
+        r /= 1 + r;
+        var f = orbits.Yr / (orbits.Y1 * orbits.Y1 * s);
+        this.calc = function(id, iw)
+            {
+            var mod = this.t * r;
+            return this.t - id.code % mod - f * iw.product();
+            }
+        }
+    var iop = new InnerOrbitalPeriod(this, iw.s);
+
+    function OuterOrbitalPeriod(orbits)
+        {
+        this.t = orbits.Yr;
+        var r = orbits.RandomOffsetFactor;
+        var f = orbits.Yr;
+        this.calc = function(id, ow)
+            {
+            var t = this.t + 0.5 * f * ow.product();
+            var mod = t * r;
+            if (mod != 0)
+            t += id.code % mod;
+            return t;
+            }
+        }
+    var oop = new OuterOrbitalPeriod(this);
+
+    // Grrr, need an index sorted by Entity.ID as planets[] order may
+    // change on different system entries.
+    var planetsarray = this.mkPlanetIndex();
+    var today = clock.days + id.code;
+    var a = 2.0 * Math.PI * (today % this.Yr) / this.Yr;
+    var info = (180 * a / Math.PI).toFixed();
+
+    this.Log(this.Verbose, system.name + &quot;:&quot; +
+	     today + &quot;,&quot; +
+	     ow.p.toFixed(4) + &quot;,&quot; +
+	     ow.s.toFixed(4) + &quot;,&quot; +
+	     (pm.radius  / 10).toFixed()+ &quot;,&quot; +
+	     (180 * a / Math.PI).toFixed());
+
+    // Pretend to rotate the main planet.
+    var pmOffset = pm.position.subtract(pv.position(a, 1));
+
+    for (var i = 0; i &lt; planetsarray.length; ++i)
+        {
+        var pi = planetsarray[i];
+        if (pi.isMainPlanet || this.isMoon(pi))
+            continue;
+        iw.c = ow.c = map.interpolate(pi.radius);
+
+        id.nextPrime();
+        id.calcCode();
+
+        // Current planet&#39;s days per year. Try to make it an inner
+        // planet. If that fails it will be an outer planet.
+        var d;
+        var t = iop.calc(id, iw);
+        var inner = t &gt; this.Yr / 3;
+        if (inner)
+            {
+            // Orbit Radius in planet-sun units (3. Kepler&#39;s law)
+            d = pow(t / this.Yr, 2.0 / 3.0);
+            inner =
+            // idea: 0.3 * pv.dist / pm.r &lt;= d * pv.dist / pi.r 
+            pm.radius * d &gt;= pi.radius * 0.3  &amp;&amp;
+            d * pv.dist &gt; 15 * s.radius;
+            }
+
+        if (!inner)
+            {
+            t = oop.calc(id, ow);
+            d = pow(t / this.Yr, 2.0 / 3.0);
+            }
+
+        // Current angle in radians
+        var a = 2.0 * Math.PI * (today % t) / t;
+        var aa = (180.0 * a / Math.PI).toFixed();
+        this.Log(this.Verbose,
+            system.name + &quot;[&quot; + i + &quot;]&quot; + &quot;:&quot; +
+            id.prime + &quot;,&quot; +
+            id.code + &quot;,&quot; +
+            (pi.radius / 10).toFixed() + &quot;,&quot; +
+            ow.c.toFixed(4) + &quot;,&quot; +
+            t.toFixed() + &quot;,&quot; +
+            d.toFixed(4) + &quot;,&quot; +
+            aa);
+        pi.position=pv.position(a, d).add(pmOffset);
+        if (inner)
+            {
+            iw.next(), iop.t = t, ++this.innerPlanets;
+            info = aa + &quot;,&quot; + info;
+            }
+        else
+            {
+            ow.next(), oop.t = t, ++this.outerPlanets;
+            info = info + &quot;,&quot; + aa;
+            }
+        }
+    s.position=(s.position.add(pmOffset));
+    this.info = info;
+    }
+</pre></td>
+                </tr>
+                <tr>
+                    <td valign="top">Scripts/planet_engine.js</td>
+                    <td><pre>&quot;use strict&quot;;
+this.name           = &quot;PlanetEngine&quot;; 
+this.author         = &quot;Stranger&quot;; 
+this.copyright      = &quot;This script is hereby placed in the public domain.&quot;; 
+this.version        = &quot;1.7&quot;; 
+this.description    = &quot;Gives info and define texture to additional planets genereted by Orbits&quot;;
+
+this.$planetRadius = 6400;
+this.$planetDensity = 5.525;
+this.$planetEscapeVelocity = 11180;
+this.$surfaceGravity = 1;
+this.$atmosphereMass = 1;
+
+this.$planetFlag = -1;
+
+this.$orbitRadiusList = new Array();
+this.$orbitPeriodList = new Array();
+this.$insolationList = new Array();
+this.$planetDensityList = new Array();
+this.$planetMassList = new Array();
+this.$escapeVelocityList = new Array();
+this.$planetGravityList = new Array();
+this.$atmosphereMassList = new Array();
+this.$atmospherePressureList = new Array();
+this.$atmosphereTemperatureList = new Array();
+
+this.shipWillExitWitchspace = function()
+    {
+    if (system.isInterstellarSpace) return;
+    this.$scriptDelay = new Timer(this, this.$scanSystem, 0.25);    //delay to set planet orbits!
+    }
+
+this.shipWillLaunchFromStation = function()
+    {
+    this.shipWillExitWitchspace();
+    delete this.shipWillLaunchFromStation;
+    }
+
+this.shipApproachingPlanetSurface = function(planet) 
+    {
+    this.$planetFlag = planet.radius;
+    }
+
+this.shipDockedWithStation = function(station)
+    {
+    if(station.hasRole(&quot;planetFall_surface&quot;))
+        {
+        this.$initInterface(station);    
+        }
+    }
+
+this.$initInterface = function(station)
+    {
+	station.setInterface(this.name,{
+		title:&quot;Planet Data Sheet&quot;,
+		category:&quot;Ambience&quot;,
+		summary:&quot;Provide extended set of planetary data&quot;,
+		callback:this.$setupMissionPage.bind(this)
+        });
+    }
+
+this.$setupMissionPage = function()
+    {
+    if(this.$planetFlag &gt; 25000)
+        {
+        this.$planetInfo();
+        }
+    else
+        {
+        this.$moonInfo();
+        }
+    }
+
+this.$scanSystem = function()
+    {
+    var w = worldScripts.AstroLibrary;
+	var info = system.info;
+    if (system.info.sun_radius)
+		{
+        var sunRadius = system.sun.radius;
+		}
+    var sunMass = w.$astroLib_sunMass(sunRadius);
+    var sunTemperature = w.$astroLib_sunTemperature(sunRadius);
+    var sunLuminosity = w.$astroLib_sunLuminosity(sunTemperature,sunRadius);
+    var localYear = w.$astroLib_solPeriod(sunMass);
+    var mainOrbitVector = new Vector3D(system.sun.position.subtract(system.mainPlanet.position));
+    var ouScale = mainOrbitVector.magnitude();
+    var planetRadius = this.$planetRadius;
+    var planetDensity = this.$planetDensity;
+    var escapeVelocity = this.$planetEscapeVelocity;
+    var surfaceGravity = this.$surfaceGravity;
+    var atmosphereMass = this.$atmosphereMass;
+    var mainInsolation = sunLuminosity * Math.pow((50000000/ouScale),2);
+    var insolation = mainInsolation;
+    var meanTemperature = w.$astroLib_equilibriumTemperature(insolation);
+    var equilibriumTemperature = meanTemperature;
+    this.$orbitRadiusList = w.$astroLib_orbitRadius();
+    for (let i=0; i&lt;system.planets.length; i++)
+        {
+        planetRadius = system.planets[i].radius/10;        
+        this.$orbitPeriodList[i] = localYear * Math.pow(this.$orbitRadiusList[i],1.5);
+        this.$insolationList[i] = mainInsolation * Math.pow(this.$orbitRadiusList[i],-2);
+        insolation = this.$insolationList[i];
+        meanTemperature = w.$astroLib_equilibriumTemperature(insolation);
+        equilibriumTemperature = meanTemperature;
+        if(planetRadius &lt; 10000)
+            {
+            this.$planetDensityList[i] = w.$astroLib_planetDensity(planetRadius, equilibriumTemperature);
+            }
+        else
+            {
+            if(planetRadius &lt; 15000)
+                {
+                this.$planetDensityList[i] = 0.5 + 1.5 * (15000 - planetRadius)/5000 + 0.25 * system.scrambledPseudoRandomNumber(i);
+                }
+            else
+                {
+                this.$planetDensityList[i] = 0.5 + 0.75 * (planetRadius - 15000)/2500 + 0.25 * system.scrambledPseudoRandomNumber(i);
+                }
+            }
+        planetDensity =  this.$planetDensityList[i];
+        this.$planetMassList[i] = planetDensity/this.$planetDensity * Math.pow((planetRadius/this.$planetRadius),3);
+        this.$escapeVelocityList[i] = this.$planetEscapeVelocity * planetRadius/this.$planetRadius * Math.sqrt(planetDensity/this.$planetDensity);
+        escapeVelocity = this.$escapeVelocityList[i];
+        this.$planetGravityList[i] = escapeVelocity * escapeVelocity / (planetRadius * 1000) / (9.81*2);
+        surfaceGravity =  this.$planetGravityList[i];
+        this.$atmosphereMassList[i] = w.$astroLib_atmosphereMass(planetRadius, escapeVelocity, equilibriumTemperature);
+        if(planetRadius &lt; 10000)
+            {
+            atmosphereMass = this.$atmosphereMassList[i];
+            this.$atmospherePressureList[i] = atmosphereMass * surfaceGravity;
+            }
+        else
+            {
+            this.$atmospherePressureList[i] = 1;
+            atmosphereMass = 1 / surfaceGravity;
+            }
+        this.$atmosphereTemperatureList[i] = w.$astroLib_atmosphereTemperature(equilibriumTemperature, atmosphereMass);
+        }
+    this.$paintPlanet();
+    }
+
+this.$planetInfo = function()
+    {
+    var planetRadius_scaled;
+    var planetMass_scaled;
+    var escapeVelocity_scaled;
+    var surfaceGravity_scaled;
+    var atmospherePressure_scaled;
+    for (let i=0; i&lt;system.planets.length; i++)
+        {
+        if(this.$planetFlag == system.planets[i].radius)
+            {
+            this.$reportFlag = i;
+            }
+        }
+    var r = this.$reportFlag;
+    if(system.planets[r].radius &lt; 75000)
+        {
+        planetRadius_scaled = system.planets[r].radius / 10;          // default planet scale
+        }
+    else
+        {
+        if(system.planets[r].radius &gt;= 75000 &amp;&amp; system.planets[r].radius &lt; 100000)
+            {
+            planetRadius_scaled = (75000 + (system.planets[r].radius - 75000) * 2) / 10;    // super-earth - 2x increment
+            }
+        else
+            {
+            if(system.planets[r].radius &gt;= 100000 &amp;&amp; system.planets[r].radius &lt; 125000)
+                {
+                planetRadius_scaled = (150000 + (system.planets[r].radius - 100000) * 4) / 10;    // ice giant - 4x increment
+                }
+            else
+                {
+                if(system.planets[r].radius &gt;= 125000)
+                    {
+                    planetRadius_scaled = (250000 + (system.planets[r].radius - 125000) * 10) / 10;     // gas giant - 10x increment
+                    }
+                }
+            }
+        }
+    var scale_factor = planetRadius_scaled / system.planets[r].radius * 10;
+    planetMass_scaled = this.$planetMassList[r] * Math.pow(scale_factor,3);
+    escapeVelocity_scaled = this.$escapeVelocityList[r]/1000 * scale_factor;
+    surfaceGravity_scaled = this.$planetGravityList[r] * scale_factor;
+    atmospherePressure_scaled = this.$atmospherePressureList[r] * scale_factor;
+    if(system.planets[r].radius &gt;= 100000)
+        {
+        atmospherePressure_scaled = 1;
+        }
+    if (this.$atmospherePressureList[r] &lt; 0.001)
+        {
+        atmospherePressure_scaled = 0;
+        }
+    var planetInfo = &quot;ORBITAL DATA&quot; + &quot;\n&quot;
+    + &quot;Orbit radius: &quot; +  this.$orbitRadiusList[r].toFixed(3) + &quot; OU&quot; + &quot;\n&quot;
+    + &quot;Orbital period: &quot; + this.$orbitPeriodList[r].toFixed(3) + &quot; days&quot; + &quot;\n&quot;
+    + &quot;PHYSICAL DATA&quot; + &quot;\n&quot;
+    + &quot;Radius: &quot; + planetRadius_scaled + &quot; km&quot; + &quot;\n&quot;
+    + &quot;Mean density: &quot; + this.$planetDensityList[r].toFixed(3) + &quot; g/cm3&quot; + &quot;\n&quot;
+    + &quot;Mass: &quot; + planetMass_scaled.toFixed(3) + &quot; TU&quot; + &quot;\n&quot;
+    + &quot;Escape velocity: &quot; + escapeVelocity_scaled.toFixed(3) + &quot; km/s&quot; + &quot;\n&quot;
+    + &quot;Surface gravity: &quot; + surfaceGravity_scaled.toFixed(3) + &quot; G&quot; + &quot;\n&quot;
+    + &quot;Atmosphere pressure: &quot; + atmospherePressure_scaled.toPrecision(4) + &quot; bar&quot; + &quot;\n&quot;
+    + &quot;Surface temperature: &quot; + this.$atmosphereTemperatureList[r].toFixed(1) + &quot; K&quot; + &quot;\n&quot;;
+    mission.runScreen({
+        title: &quot;Planet Data Sheet&quot;,
+//        background: {name: &quot;specialCargoLoad.png&quot;, height: 480 },
+        message: planetInfo,}
+        );
+    }
+
+this.$moonInfo = function()
+    {
+    var w = worldScripts.SpawnMoons;
+    for (let i=0; i&lt;system.planets.length; i++)
+        {
+        if (this.$planetFlag == system.planets[i].radius)
+            {
+            this.$reportFlag = i;
+            }
+        }
+    var r = this.$reportFlag;
+    var moonRadius = system.planets[r].radius;
+    var moonOrbitRadius;
+    var moonOrbitPeriod;
+    var p = w.$targetPlanet_Jovian;
+    var moonOrbitVelocity;
+
+    if (moonRadius &gt;= 12500 &amp;&amp; moonRadius &lt; 15000)
+        {
+        moonOrbitRadius = w.$orbitRadius_Luna;
+        moonOrbitPeriod = w.$orbitPeriod_Luna / 1440;
+        }
+
+    if (moonRadius &gt;= 15000 &amp;&amp; moonRadius &lt; 17500)
+        {
+        moonOrbitRadius = w.$orbitRadius_Selene;
+        moonOrbitPeriod = w.$orbitPeriod_Selene / 1440;
+        }
+    if(moonRadius &gt;= 17500 &amp;&amp; moonRadius &lt; 20000)
+        {
+        moonOrbitRadius = w.$orbitRadius_ZeusInner;
+        moonOrbitVelocity = Math.sqrt(this.$escapeVelocityList[p]*this.$escapeVelocityList[p]/moonOrbitRadius/2);
+        moonOrbitPeriod = 2.0 * Math.PI * (moonOrbitRadius * system.planets[p].radius * 100 / moonOrbitVelocity) / 86400;
+        }
+    if(moonRadius &gt;= 20000 &amp;&amp; moonRadius &lt; 25000)
+        {
+        moonOrbitRadius = w.$orbitRadius_ZeusOuter;
+        moonOrbitVelocity = Math.sqrt(this.$escapeVelocityList[p]*this.$escapeVelocityList[p]/moonOrbitRadius/2);
+        moonOrbitPeriod = 2.0 * Math.PI * (moonOrbitRadius * system.planets[p].radius * 100 / moonOrbitVelocity) / 86400;
+        }
+    //
+
+    var moonInfo = &quot;ORBITAL DATA&quot; + &quot;\n&quot;
+    + &quot;Orbit radius: &quot; +  moonOrbitRadius.toFixed(3) + &quot; R&quot; + &quot;\n&quot;
+    + &quot;Orbital period: &quot; + moonOrbitPeriod.toFixed(3) + &quot; days&quot; + &quot;\n&quot;
+    + &quot;PHYSICAL DATA&quot; + &quot;\n&quot;
+    + &quot;Radius: &quot; + system.planets[r].radius/10 + &quot; km&quot; + &quot;\n&quot;
+    + &quot;Mean density: &quot; + this.$planetDensityList[r].toFixed(3) + &quot; g/cm3&quot; + &quot;\n&quot;
+    + &quot;Mass: &quot; + this.$planetMassList[r].toFixed(2) + &quot; TU&quot; + &quot;\n&quot;
+    + &quot;Escape velocity: &quot; + (this.$escapeVelocityList[r]/1000).toFixed(3) + &quot; km/s&quot; + &quot;\n&quot;
+    + &quot;Surface gravity: &quot; + this.$planetGravityList[r].toFixed(3) + &quot; G&quot; + &quot;\n&quot;
+    + &quot;Atmosphere pressure: &quot; + this.$atmospherePressureList[r].toPrecision(4) + &quot; bar&quot; + &quot;\n&quot;
+    + &quot;Surface temperature: &quot; + this.$atmosphereTemperatureList[r].toFixed(1) + &quot; K&quot; + &quot;\n&quot;;
+    mission.runScreen({
+        title: &quot;Moon Data Sheet&quot;,
+//        background: {name: &quot;specialCargoLoad.png&quot;, height: 480 },
+        message: moonInfo,}
+        );
+    }
+
+this.$paintPlanet = function()
+    {
+    if (system.isInterstellarSpace) return;
+
+    var paintPlanet1 = system.scrambledPseudoRandomNumber(161);
+    var paintPlanet2 = system.scrambledPseudoRandomNumber(162);
+    var paintPlanet3 = system.scrambledPseudoRandomNumber(163);
+    var paintPlanet4 = system.scrambledPseudoRandomNumber(164);
+    var paintPlanet5 = system.scrambledPseudoRandomNumber(165);
+    var paintPlanet6 = system.scrambledPseudoRandomNumber(166);
+    var paintPlanet7 = system.scrambledPseudoRandomNumber(167);
+    var paintPlanet8 = system.scrambledPseudoRandomNumber(168);
+    var paintPlanet9 = system.scrambledPseudoRandomNumber(169);
+    var paintPlanet10 = system.scrambledPseudoRandomNumber(170);
+    var paintPlanet11 = system.scrambledPseudoRandomNumber(171);
+    var paintPlanet12 = system.scrambledPseudoRandomNumber(172);
+
+    var aeolisShift = Math.floor(5 * paintPlanet1) + 1;
+    var aeolisTexture = (&#39;oplanet_Aeolis&#39; + aeolisShift + &#39;.png&#39;);          // Set 1 - Cold wind-eroded deserts
+    var aphroditeShift = Math.floor(5 * paintPlanet2) + 1;
+    var aphroditeTexture = (&#39;oplanet_Aphrodite&#39; + aphroditeShift + &#39;.png&#39;); // Set 2 - Venus class superdense atmosphere with opaque clouds
+    var aresShift = Math.floor(5 * paintPlanet3) + 1;
+    var aresTexture = (&#39;oplanet_Ares&#39; + aresShift + &#39;.png&#39;);                // Set 3 - Mars class cold desert with impact craters
+    var boreusShift = Math.floor(5 * paintPlanet4) + 1;
+    var boreusTexture = (&#39;oplanet_Boreus&#39; + boreusShift + &#39;.png&#39;);          // Set 4 - Snowball Earth
+    var cronusShift = Math.floor(5 * paintPlanet5) + 1;
+    var cronusTexture = (&#39;oplanet_Cronus&#39; + cronusShift + &#39;.png&#39;);          // Set 5 - Saturn class gas giants
+    var hadesShift = Math.floor(5 * paintPlanet6) + 1;
+    var hadesTexture = (&#39;oplanet_Hades&#39; + hadesShift + &#39;.png&#39;);             // Set 6 - Pluto class ice worlds
+    var hermesShift = Math.floor(5 * paintPlanet7) + 1;
+    var hermesTexture = (&#39;oplanet_Hermes&#39; + hermesShift + &#39;.png&#39;);          // Set 7 - Mercury class heavy cratered dry airless deserts
+    var phaethonShift = Math.floor(5 * paintPlanet8) + 1;
+    var phaethonTexture = (&#39;oplanet_Phaethon&#39; + phaethonShift + &#39;.png&#39;);    // Set 8 - Warm Mars without permafrost and polar caps
+    var poseidonShift = Math.floor(5 * paintPlanet9) + 1;
+    var poseidonTexture = (&#39;oplanet_Poseidon&#39; + poseidonShift + &#39;.png&#39;);    // Set 9 - Neptune class ice giants
+    var setShift = Math.floor(5 * paintPlanet10) + 1;
+    var setTexture = (&#39;oplanet_Set&#39; + setShift + &#39;.png&#39;);                   // Set 10 - Warm sandy deserts
+    var typhonShift = Math.floor(5 * paintPlanet11) + 1;
+    var typhonTexture = (&#39;oplanet_Typhon&#39; + typhonShift + &#39;.png&#39;);          // Set 11 - Hot volcanic worlds
+    var zeusShift = Math.floor(5 * paintPlanet12) + 1;
+    var zeusTexture = (&#39;oplanet_Zeus&#39; + zeusShift + &#39;.png&#39;);                // Set 12 - Jupiter class gas giant
+
+    var w = worldScripts.AstroLibrary;
+    var planetOrbitScan = w.$astroLib_orbitRadius();
+    var surfaceTemp;
+    var surfaceAirPressure;
+    var textureIndex;
+    var planetTexture;
+    for (let i=0; i&lt;system.planets.length; i++) 
+        {
+        surfaceTemp = this.$atmosphereTemperatureList[i];
+        surfaceAirPressure = this.$atmospherePressureList[i];
+        // Mercury analog
+        if(system.planets[i].radius &gt;= 27500 &amp;&amp; system.planets[i].radius &lt; 30000 &amp;&amp; system.planets[i] != system.mainPlanet)
+            {
+            system.planets[i].texture = hermesTexture;
+            }  
+        // Snowball Earth OR Venus analog
+        if(system.planets[i].radius &gt;= 50000 &amp;&amp; system.planets[i].radius &lt; 75000 &amp;&amp; system.planets[i] != system.mainPlanet)
+            {
+            if(surfaceAirPressure &lt; 0.01)
+                {
+                system.planets[i].texture = hermesTexture;
+                }
+            else
+                {
+                if(surfaceAirPressure &gt;= 2.5)
+                    {
+                    system.planets[i].texture = aphroditeTexture;
+                    }
+                else
+                    {
+                    textureIndex = this.$climateIndex(surfaceTemp, surfaceAirPressure);
+                    switch (textureIndex)
+                        {
+                        case 2: planetTexture = aeolisTexture; break;
+                        case 3: planetTexture = aeolisTexture; break;
+                        case 4: planetTexture = setTexture; break;
+                        case 20: planetTexture = boreusTexture; break;
+                        case 30: planetTexture = aeolisTexture; break;
+                        case 40: planetTexture = typhonTexture; break;
+                        default: planetTexture = aeolisTexture;
+                        }
+                    system.planets[i].texture = planetTexture;
+                    }
+                }
+            }
+        // Mars analog
+        if(system.planets[i].radius &gt;= 30000 &amp;&amp; system.planets[i].radius &lt; 50000 &amp;&amp; system.planets[i] != system.mainPlanet)
+            {            
+            if(surfaceAirPressure &lt; 0.01)
+                {
+                system.planets[i].texture = hermesTexture;
+                }
+            else
+                {
+                if(surfaceAirPressure &gt;= 2.5)
+                    {
+                    system.planets[i].texture = aphroditeTexture;
+                    }
+                else
+                    {
+                    textureIndex = this.$climateIndex(surfaceTemp, surfaceAirPressure);
+                    switch (textureIndex)
+                        {
+                        case 2: planetTexture = aresTexture; break;
+                        case 3: planetTexture = phaethonTexture; break;
+                        case 4: planetTexture = setTexture; break;
+                        case 20: planetTexture = aeolisTexture; break;
+                        case 30: planetTexture = aeolisTexture; break;
+                        case 40: planetTexture = setTexture; break;
+                        default: planetTexture = aresTexture;
+                        }
+                    system.planets[i].texture = planetTexture;
+                    }
+                }
+            }
+        // Super Earth
+        if(system.planets[i].radius &gt;= 75000 &amp;&amp; system.planets[i].radius &lt; 100000 &amp;&amp; system.planets[i] != system.mainPlanet)
+            {
+            system.planets[i].texture = aphroditeTexture;
+            }
+        // Jupiter analog
+        if(system.planets[i].radius &gt;= 150000 &amp;&amp; system.planets[i].radius &lt; 175000 &amp;&amp; system.planets[i] != system.mainPlanet)
+            {
+            system.planets[i].texture = zeusTexture;
+            } 
+        // Saturn analog
+        if(system.planets[i].radius &gt;= 125000 &amp;&amp; system.planets[i].radius &lt; 150000 &amp;&amp; system.planets[i] != system.mainPlanet)
+            {
+            system.planets[i].texture = cronusTexture;
+            } 
+        // Neptune analog
+        if(system.planets[i].radius &gt;= 100000 &amp;&amp; system.planets[i].radius &lt; 125000 &amp;&amp; system.planets[i] != system.mainPlanet)
+            {
+            system.planets[i].texture = poseidonTexture;
+            }
+        // Pluto analog
+        if(system.planets[i].radius &gt;= 25000 &amp;&amp; system.planets[i].radius &lt; 27500 &amp;&amp; system.planets[i] != system.mainPlanet)
+            {
+            var orbitHadejan = planetOrbitScan[i];
+            if(orbitHadejan &gt; 1)
+                {
+                system.planets[i].texture = hadesTexture;
+                }
+            else
+                {
+                system.planets[i].texture = hermesTexture;
+                }
+            }
+        }
+    }
+
+this.$climateIndex = function(surfaceTemp, surfaceAirPressure)
+    {
+    var tempIndex;
+    var pressureIndex;
+    var climateIndex;
+    if(surfaceTemp &lt; 273)
+        {
+        tempIndex = 2;
+        }
+    else
+        {
+        if(surfaceTemp &gt;= 373)
+            {
+            tempIndex = 4;
+            }
+        else
+            {
+            tempIndex = 3;
+            }
+        }
+    if(surfaceAirPressure &lt; 0.25)
+        {
+        pressureIndex = 1;
+        }
+    else
+        {
+        pressureIndex = 10;
+        }
+    climateIndex = tempIndex * pressureIndex;
+    return climateIndex;
+    }</pre></td>
+                </tr>
+            </table>
+        </a>
+    </body>
+</html>

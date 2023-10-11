@@ -1,0 +1,41 @@
+<html>
+    <head>
+        <title>Ship Griff Boa Prototype</title>
+        <link rel="stylesheet" href="../style.css">
+    </head>
+    <body>
+        <table border="0" width="100%">
+            <tr>
+                <td>Back to <a href='../index.html'>Index</a></td>
+                <td align="right"><small>Page generated: Oct 11, 2023, 3:16:51 PM</small></td>
+            </tr>
+        </table>
+
+        <h1>Ship Griff Boa Prototype</h1>
+        <table border='1'>
+            <tr><td>Identifier</td><td>griff_prototype_boa-NPC_Pirate</td></tr>
+            <tr><td>Name</td><td>Griff Boa Prototype</td></tr>
+            <tr><td>Expansion</td><td><a href='../expansions/oolite.oxp.Griff.Prototype_Boa.html'>Griff Prototype Boa</a></td></tr>
+        </table>
+        
+            
+        <h2>Features</h2>
+            <table border="1">
+                <tr><td>aft_eject_position</td><td>0.0 -21.85 -54.51</td></tr>
+                <tr><td>exhaust</td><td>(-8.1745  7.2756 -55.824  5.0 5.5 12.0,8.2011  7.2756 -55.824  5.0 5.5 12.0,0.0912 -2.124  -55.858   4.0  4.0  9.0)</td></tr>
+                <tr><td>forward_weapon_type</td><td>WEAPON_PULSE_LASER</td></tr>
+                <tr><td>frangible</td><td>false</td></tr>
+                <tr><td>like_ship</td><td>oolite_template_boa-pirate</td></tr>
+                <tr><td>materials</td><td>{Hull={diffuse_map=griff_prototype_boa_mainhull_diffuse.png;specular_color=(0.2,0.2,0.2);shininess=15;illumination_map={name=griff_prototype_boa_mainhull_diffuse.png;extract_channel=a;};illumination_color=(1.0,1.0,1.0);};Subents={diffuse_map=griff_prototype_boa_subents_diffuse.png;specular_color=(0.2,0.2,0.2);shininess=15;emission_map={name=griff_prototype_boa_subents_effects.png;extract_channel=a;};emission_modulate_color=(0.46,0.1,0.0);};Towers={diffuse_map=griff_prototype_boa_towers_diffuse.png;specular_color=(0.2,0.2,0.2);shininess=15;illumination_map={name=griff_prototype_boa_towers_diffuse.png;extract_channel=a;};illumination_color=(0.7,0.8,0.7);};Engines={diffuse_map=griff_prototype_boa_engines_diffuse.png;specular_color=(0.2,0.2,0.2);shininess=15;};}</td></tr>
+                <tr><td>missile_launch_position</td><td>0.0 -26.8 73.26</td></tr>
+                <tr><td>model</td><td>griff_prototype_boa.dat</td></tr>
+                <tr><td>name</td><td>Griff Boa Prototype</td></tr>
+                <tr><td>roles</td><td>pirate-medium-freighter(0.25) pirate-heavy-freighter</td></tr>
+                <tr><td>scoop_position</td><td>0.2912 -18.2102 59.6099</td></tr>
+                <tr><td>shaders</td><td>{Hull={vertex_shader=griff_normalmap_ships.vertex;fragment_shader=griff_boa_prototype_mainhull_NPC.fragment;textures=(griff_prototype_boa_mainhull_diffuse.png,griff_prototype_boa_mainhull_normal.png,{name=griff_prototype_decals_set1.png;repeat_s=yes;});uniforms={uColorMap={type=texture;value=0;};uNormalMap={type=texture;value=1;};uDecalMap={type=texture;value=2;};uTime=universalTime;nearly_dead=throwingSparks;isHostile=hasHostileTarget;hull_heat_level=hullHeatLevel;PaintColor1={type=randomUnitVector;scale=1.0;};PaintColor2={type=randomUnitVector;scale=1.0;};DecalColor={type=randomUnitVector;scale=1.0;};uDecalSelect=entityPersonality;uDecalChannelSelect={type=randomFloat;scale=1.0;};};};Subents={vertex_shader=griff_boa_prototype_subentities.vertex;fragment_shader=griff_boa_prototype_subentities_NPC.fragment;textures=(griff_prototype_boa_subents_diffuse.png,griff_prototype_boa_subents_normal.png,griff_prototype_boa_subents_effects.png);uniforms={uColorMap={type=texture;value=0;};uNormalMap={type=texture;value=1;};uEffectsMap={type=texture;value=2;};uTime=universalTime;nearly_dead=throwingSparks;hull_heat_level=hullHeatLevel;engine_power=speedFactor;laser_heat_level=laserHeatLevel;};};Towers={vertex_shader=griff_normalmap_ships.vertex;fragment_shader=griff_boa_prototype_glowy_towers_NPC.fragment;textures=(griff_prototype_boa_towers_diffuse.png,griff_prototype_boa_towers_normal.png);uniforms={uColorMap={type=texture;value=0;};uNormalMap={type=texture;value=1;};uTime=universalTime;nearly_dead=throwingSparks;hull_heat_level=hullHeatLevel;};};Engines={vertex_shader=griff_normalmap_ships.vertex;fragment_shader=griff_boa_prototype_engines_NPC.fragment;textures=(griff_prototype_boa_engines_diffuse.png,griff_prototype_boa_engines_normal.png,griff_prototype_boa_engines_effects.png);uniforms={uColorMap={type=texture;value=0;};uNormalMap={type=texture;value=1;};uEffectsMap={type=texture;value=2;};uTime=universalTime;nearly_dead=throwingSparks;hull_heat_level=hullHeatLevel;engine_power=speedFactor;};};}</td></tr>
+                <tr><td>smooth</td><td>true</td></tr>
+                <tr><td>subentities</td><td>({type=ball_turret;subentity_key=griff_prototype_boa_turret_subent;position=17.5379  6.6338  16.8643;orientation=1 0 -1 0;fire_rate=0.25;weapon_range=7500;weapon_energy=25;},{type=ball_turret;subentity_key=griff_prototype_boa_turret_subent;position=-17.97   -0.0181   1.2819;orientation=1 0 1 0;fire_rate=0.25;weapon_range=7500;weapon_energy=25;},{type=ball_turret;subentity_key=griff_prototype_boa_turret_subent;position=-0.0697   29.0156 -40.815;orientation=0 0 0.7071 0.7071;fire_rate=0.25;weapon_range=7500;weapon_energy=25;},{type=ball_turret;subentity_key=griff_prototype_boa_turret_subent;position=-0.0697   19.993  -50.336;orientation=0 0 1 0;fire_rate=0.25;weapon_range=7500;weapon_energy=25;})</td></tr>
+                <tr><td>weapon_position_forward</td><td>0.0 0.0 86.0565</td></tr>
+            </table>
+    </body>
+</html>

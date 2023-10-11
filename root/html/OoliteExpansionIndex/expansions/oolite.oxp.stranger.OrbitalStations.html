@@ -1,0 +1,851 @@
+<html>
+    <head>
+        <title>Expansion Orbital Stations</title>
+        <link rel="stylesheet" href="../style.css">
+    </head>
+    <body>
+        <table border="0" width="100%">
+            <tr>
+                <td>Back to <a href='../index.html'>Index</a></td>
+                <td align="right"><small>Page generated: Oct 11, 2023, 3:16:49 PM</small></td>
+            </tr>
+        </table>
+
+        <h1>Expansion Orbital Stations</h1>
+
+        <h2>Content</h2>
+        <ul>
+          <li><a href="#warnings">Warnings</a></li>
+          <li><a href="#manifest">Manifest</a></li>
+          <li><a href="#documentation">Documentation</a></li>
+          <li><a href="#equipment">0 Equipment</a></li>
+          <li><a href="#ships">21 Ships</a></li>
+          <li><a href="#models">0 Models</a></li>
+          <li><a href="#scripts">9 Scripts</a></li>
+        </ul>
+
+          <a name="warnings">
+            <h2>Warnings</h2>
+            <ol>
+                <li>Tags mismatch between OXP Manifest and Expansion Manager at character position 0002 (RIGHT SQUARE BRACKET vs LATIN SMALL LETTER S)(&#39;[]&#39; vs &#39;[stations, satellites, orbiters]&#39;)</li>
+            </ol>
+          </a>
+
+        <a name="manifest">
+        <h2>Manifest</h2>
+            <table border="1">
+                <tr>
+                    <th></th>
+                    <th>from Expansion Manager's OXP list</th>
+                    <th>from Expansion Manifest</th>
+                </tr>
+                <tr>
+                    <td>Description</td>
+                    <td>This OXP simulates stations, moving on circular orbits.</td>
+                    <td>This OXP simulates stations, moving on circular orbits.</td>
+                </tr>
+                <tr>
+                    <td>Identifier</td>
+                    <td>oolite.oxp.stranger.OrbitalStations</td>
+                    <td>oolite.oxp.stranger.OrbitalStations</td>
+                </tr>
+                <tr>
+                    <td>Title</td>
+                    <td>Orbital Stations</td>
+                    <td>Orbital Stations</td>
+                </tr>
+                <tr>
+                    <td>Category</td>
+                    <td>Dockables</td>
+                    <td>Dockables</td>
+                </tr>
+                <tr>
+                    <td>Author</td>
+                    <td>stranger</td>
+                    <td>stranger</td>
+                </tr>
+                <tr>
+                    <td>Version</td>
+                    <td>2.7.0</td>
+                    <td>2.7.0</td>
+                </tr>
+                <tr>
+                    <td>Tags</td>
+                    <td></td>
+                    <td>stations, satellites, orbiters</td>
+                </tr>
+                <tr>
+                    <td>Required Oolite Version</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Maximum Oolite Version</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Required Expansions</td>
+                    <td>
+                            <li>oolite.oxp.stranger.PlanetarySystems:1.6.0</li>
+                    </td>
+                    <td>
+                            <li>oolite.oxp.stranger.PlanetarySystems:1.6.0</li>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Optional Expansions</td>
+                    <td>
+                    </td>
+                    <td>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Conflict Expansions</td>
+                    <td>
+                    </td>
+                    <td>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Information URL</td>
+                    <td><a target="_blank" href="http://aegidian.org/bb/viewtopic.php?f=4&amp;t=20035">http://aegidian.org/bb/viewtopic.php?f=4&amp;t=20035</a></td>
+                    <td><a target="_blank" href="">n/a</a></td>
+                </tr>
+                <tr>
+                    <td>Download URL</td>
+                    <td><a target="_blank" href="https://wiki.alioth.net/img_auth.php/1/10/OrbitalStations.oxz">https://wiki.alioth.net/img_auth.php/1/10/OrbitalStations.oxz</a></td>
+                    <td><a target="_blank" href="">n/a</a></td>
+                </tr>
+                <tr>
+                    <td>License</td>
+                    <td>CC-BY-NC-SA 3.0</td>
+                    <td>CC-BY-NC-SA 3.0</td>
+                </tr>
+                <tr>
+                    <td>File Size</td>
+                    <td>n/a</td>
+                </tr>
+                <tr>
+                    <td>Upload date</td>
+                    <td>1610873231</td>
+                </tr>
+            </table>
+                </a>
+
+        <a name="documentation">
+        <h2>Documentation</h2>
+        <p>Also read <a href='http://wiki.alioth.net/index.php/Orbital%20Stations'>http://wiki.alioth.net/index.php/Orbital%20Stations</a></p>
+        <h3>ReadMe &amp; License.txt</h3>
+        <pre>Orbital Station OXP by Stranger
+
+This OXP is released under the Creative Commons Attribution - Non-Commercial - Share Alike 3.0 license.
+You are free to use and distribute this OXP on non-commercial basis. 
+Rebundling of this OXP within another distribution is permitted as long as it is unchanged.
+Any mods/derivatives of this OXP must be distributed under another names.
+The license information (either as this file or merged into a larger one) must be included in the OXP.
+
+--------------------------------------------------------------
+
+This OXP puts into operation network of stations, moving on circular orbits.
+All station in planned network will have specific roles and markets.
+
+Features and dependences:
+
+Lock Advanced Space Compass onto K beacon and enjoy flight onto new destination!
+
+Orbital Stations implemented:
+
+KHS-2R
+KHS-4R
+KHS-8R
+
+Main stations in high tech systems. Same configuration as original ring habitat stations in Wild Ships OXP, but with different seeding criteria. Stationary (not moving) stations.
+
+KOS-RJ	Jovian research orbiter
+KOS-RM	Martian research orbiter
+KOS-RT	Terran research orbiter
+KOS-RS	Superterran research orbiter
+
+Research orbital stations in high-tech systems with stable governments and high GNP. All research orbiters except jovian orbiter based on the same configuration.
+
+KOS-M
+
+Mining complex in heliocentric orbit. Located in high-tech systems with stable governments and high GNP.
+
+KOS-P
+
+Orbital plant on orbit of large moon of main planet. Located in most advanced high-tech systems with stable governments and high GNP.
+
+All stationary KHS stations has roles of main system station with default system market.
+KOS orbiters has custom markets, adjusted individually for every type of station.
+
+Dependencies and conflicts
+
+Required OXP: Planetary System
+This OXP uses planets from Planetary Systems OXP as destination points for station spawn. If you have Planetary Systems missing, Orbital Station OXP still try to spawn stations but results may be negative or logically flawed (for example, you have no research station on orbit of gas giant if you have no at least one gas giant in system!).
+Stations used are modified Kiota stations from Wild Ships OXP (author - Thargoid). Orbital Stations and Wild Ships uses different station roles and seeding scripts, so in theory Orbital Stations will not conflict with Wild Ships. The only possible issue will be shared resource files: if Wild Ships will be released with updated resource files, old files from Orbital Stations can conflict new ones from Wild Ships. So to avoid possible clashes original resource files from Wild Ships were renamed and references were updated.
+Main orbital stations KHS completely replaces old Tori station. Remove Tori.oxp from AddOn folder if you have one to see new stations!
+
+This package minimum requirement is Oolite 1.82.
+
+Credits
+
+Station models, shaders and textures are renamed files from Wild Ships OXP (author - Thargoid). Specifications of stations are readjusted.
+Algorithm of seeding stations based on Stations for Extra Planets OXP (author - spara).
+Algorithm of orbital movement based on Satellite OXP (author - Rorschachhamster).
+Station market saver script tightly based on PlanetfallMarketSaver (author - SMax).
+Help of commander vasig in heavy testing of this OXP was and will be invaluable!
+
+--------------------------------------------------------------
+
+Version history:
+
+17.06.2020 - Version 2.7.0	Code edited again to synchronise with updated Planetary Systems OXP. 
+15.02.2019 - Version 2.6.0	Renamed original resource files from Wild Ships and updated appropriate references.
+				Code refactoring to synchronise with changed file names.
+10.02.2019 - Version 2.5.2	Edited manifest.plist
+10.02.2019 - Version 2.5.1	Converted to OXZ.
+01.01.2019 - Version 2.5	Station market saver script refined to support redefined station roles.
+21.06.2018 - Version 2.4	Code edited to synchronise with updated Planetary Systems OXP.
+				KOS RT stations divided onto 3 subclasses to adopt advanced planet classification.
+09.05.2018 - Version 2.3	Code edited to satisfy OXP Standards recommendations.
+				Code adopted to redefined Planetary Systems planet database.
+25.10.2017 - Version 2.2	Code improvement - kill delay timer after stations seeding.
+31.08.2016 - Version 2.1	Station market saver script added.
+27.07.2016 - Version 2.0	Kiota ball turret weapon range reduced from 7500 to 7200 m to fix too high range error.
+16.07.2016 - Version 1.9	Seeding code rewritten to adopt Planetary Systems and Moons extended set.
+05.01.2016 - Version 1.8	A bit randomness in orbiters seeding condition added.
+30.11.2015 - Version 1.7	All orbiters max flight speed decreased to 50 to allow emergency docking in case of fuel depletion.
+25.09.2015 - Version 1.6	KOS-M and KOS-P market slightly readjusted.
+04.07.2015 - Version 1.5	KOS-M orbital mine complex puts into operation.
+				Station seeding restricted to stable systems with high GNP.
+22.06.2015 - Version 1.4	Rebalanced markets.
+19.06.2015 - Version 1.3	Station markets rewritten completely for Oolite 1.82.
+				More strict rules for jovian and martian orbiter: no more these stations in low tech systems.
+17.12.2014 - Version 1.2	Fixed Oolite 1.80 specific problem with seeding of martian KOS-RT station (planet radius instead texture is used now to find Mars)
+30.11.2014 - Version 1.1	Price to upgrades in orbital plant (KOS-P station) increased from 0.8 to 0.9 of main equipment price.
+21.05.2014 - Version 1.0	Scripts optimised to use global function library.
+				Fixed bug in selecting target planet algorithm.
+18.05.2014 - Version 0.9	Seeding of martian station KOS-RT improved to adopt changes in Planetary Systems planet texture names.
+30.04.2014 - Version 0.8	Seeding of KOS-P station refined to avoid interference with Moons.oxp.
+12.03.2014 - Version 0.7	Fixed bug in scripts - test for interstellar space refined.
+10.03.2014 - Version 0.6	Main geostationary stations KHS-2R/4R/8R puts into operation.
+04.03.2014 - Version 0.5	KOS-P orbital factory puts into operation.
+				New shaders from Wild Ships OXP integrated.
+18.02.2014 - Version 0.4	Fixed bug in shipdata.plist (missing AI.plist link for martian station).
+				Defence mode in AI implemented (still need refining yet!).
+15.02.2014 - Version 0.3	Seeding algorithm refined. Stations seeds with 5 s delay after launch from main station or entering new system.
+				Compatibility with Wild Ships OXP improved.
+08.02.2014 - Version 0.2	Structure of OXP rewritten to adopt multiple stations support.
+				KOS-RT research station puts into operation.
+				shipdata.plist refined to fix escaping Kiota main stations.
+07.02.2014 - Version 0.1	Initial release.
+				KOS-RJ research station puts into operation.</pre>
+        </a>
+
+        <a name="equipment">          
+        <h2>Equipment</h2>
+            This expansion declares no equipment. This may be related to warnings.
+        </a>
+
+        <a name="ships">    
+        <h2>Ships</h2>
+            <table>
+                <tr>
+                    <th>Name</th>
+                </tr>
+                <tr>
+                    <td><a href="../ships/kos_kiota2Disc2Solar_lunar_orbiter.html">KOS-P</a></td>
+                </tr>
+                <tr>
+                    <td><a href="../ships/kos_kiota2Ring_orbiter.html">KHS-2R</a></td>
+                </tr>
+                <tr>
+                    <td><a href="../ships/kos_kiota2Spur2Solar_solar_orbiter.html">KOS-M</a></td>
+                </tr>
+                <tr>
+                    <td><a href="../ships/kos_kiota2Spur2Sphere_martian_orbiter.html">KOS-RM</a></td>
+                </tr>
+                <tr>
+                    <td><a href="../ships/kos_kiota2Spur2Sphere_superterran_orbiter.html">KOS-RS</a></td>
+                </tr>
+                <tr>
+                    <td><a href="../ships/kos_kiota2Spur2Sphere_terran_orbiter.html">KOS-RT</a></td>
+                </tr>
+                <tr>
+                    <td><a href="../ships/kos_kiota4Ring_orbiter.html">KHS-4R</a></td>
+                </tr>
+                <tr>
+                    <td><a href="../ships/kos_kiota4Spur_jovian_orbiter.html">KOS-RJ</a></td>
+                </tr>
+                <tr>
+                    <td><a href="../ships/kos_kiota8Ring_orbiter.html">KHS-8R</a></td>
+                </tr>
+                <tr>
+                    <td><a href="../ships/kos_kiotaComms.html">Kiota Comms Array</a></td>
+                </tr>
+                <tr>
+                    <td><a href="../ships/kos_kiotaDisc.html">Kiota Disc</a></td>
+                </tr>
+                <tr>
+                    <td><a href="../ships/kos_kiotaDock.html">Kiota Dock Ring (Hidden)</a></td>
+                </tr>
+                <tr>
+                    <td><a href="../ships/kos_kiotaLRing.html">Kiota Large Ring</a></td>
+                </tr>
+                <tr>
+                    <td><a href="../ships/kos_kiotaLift.html">Kiota Lift</a></td>
+                </tr>
+                <tr>
+                    <td><a href="../ships/kos_kiotaSRing.html">Kiota Small Ring</a></td>
+                </tr>
+                <tr>
+                    <td><a href="../ships/kos_kiotaSolar.html">Kiota Solar Array</a></td>
+                </tr>
+                <tr>
+                    <td><a href="../ships/kos_kiotaSolidStrut.html">Kiota Solid Strut</a></td>
+                </tr>
+                <tr>
+                    <td><a href="../ships/kos_kiotaSphere.html">Kiota Sphere</a></td>
+                </tr>
+                <tr>
+                    <td><a href="../ships/kos_kiotaSpur.html">Kiota Spur</a></td>
+                </tr>
+                <tr>
+                    <td><a href="../ships/kos_kiotaStrut.html">Kiota Strut</a></td>
+                </tr>
+                <tr>
+                    <td><a href="../ships/kos_kiotaTurret.html">Kiota Turret</a></td>
+                </tr>
+            </table>
+        </a>
+
+        <a name="models">    
+        <h2>Models</h2>
+            This expansion declares no models. This may be related to warnings.
+        </a>
+
+        <a name="scripts">    
+        <h2>Scripts</h2>
+            <table>
+                <tr>
+                    <th>Path</th>
+                </tr>
+                <tr>
+                    <td valign="top">Scripts/orbit_market_saver.js</td>
+                    <td><pre>this.name = &quot;Orbiter Market Saver&quot;;
+this.author = &quot;Stranger&quot;;
+this.copyright = &quot;2019 Stranger&quot;;
+this.licence = &quot;CC-BY-NC-SA 4.0&quot;;
+this.description = &quot;Save market in orbital stations&quot;;
+this.version = &quot;0.3&quot;;
+// Code tightly based on PlanetFall Market Saver (author SMax)
+
+&quot;use strict&quot;;
+
+this._DEBUG = false;
+
+this.orbiterList = [
+    &quot;kos_kiota4Spur_jovian_orbiter&quot;,              // Jovian research station KOS-RJ
+    &quot;kos_kiota2Spur2Sphere_martian_orbiter&quot;,      // Martian research station KOS-RM
+    &quot;kos_kiota2Spur2Sphere_terran_orbiter&quot;,       // Terran research station KOS-RT
+    &quot;kos_kiota2Spur2Sphere_superterran_orbiter&quot;,  // Superterran research station KOS-RS
+    &quot;kos_kiota2Disc2Solar_lunar_orbiter&quot;,         // Lunar orbital factory KOS-P
+    &quot;kos_kiota2Spur2Solar_solar_orbiter&quot;          // Heliocentric mine processing complex KOS-M
+    ];
+
+this._MARKET = {};
+
+this.shipExitedWitchspace = function()
+    {
+	this._logger(&quot;shipExitedWitchspace&quot;);
+	this._MARKET = {};
+    };
+
+this.startUpComplete = function()
+    {
+	this._MARKET = {};
+	var t = missionVariables.OrbiterMarketSaver_DATA;
+	this._logger(&quot;startUpComplete: &quot; + t);
+	if (t)
+        {
+		this._MARKET = JSON.parse(t);
+        }
+    };
+
+this.playerWillSaveGame = function()
+    {
+	missionVariables.OrbiterMarketSaver_DATA = JSON.stringify(this._MARKET);
+	this._logger(&quot;playerWillSaveGame: &quot; + missionVariables.OrbiterMarketSaver_DATA);
+    };
+
+this.shipDockedWithStation = function(station)
+    {
+	this._logger(&quot;shipDockedWithStation: &quot; + station.primaryRole);
+    var id = this.getID(station);
+
+    var stationFlag = 0;
+    for (var s = 0; s &lt; this.orbiterList.length; s++)
+        {
+        if(station.primaryRole === this.orbiterList[s])
+            {
+            stationFlag = 1;
+            }
+        }
+	if (stationFlag == 1)
+        {
+		if (this._MARKET[id])
+            {
+			var market = this._MARKET[id];
+			for (var i = 0; i &lt; market.length; i++)
+                {
+				var m = market[i];
+				station.setMarketPrice(m.k, m.p);
+				station.setMarketQuantity(m.k, m.q);
+                }
+            }
+        }
+    };
+
+this.shipWillLaunchFromStation = function(station)
+    {
+	this._logger(&quot;shipWillLaunchFromStation: &quot; + station.primaryRole);
+    var id = this.getID(station);
+
+    var stationFlag = 0;
+    for (var s = 0; s &lt; this.orbiterList.length; s++)
+        {
+        if(station.primaryRole === this.orbiterList[s])
+            {
+            stationFlag = 1;
+            }
+        }
+	if (stationFlag == 1)
+        {
+		var market = station.market;
+		var res = [];
+		for (var k in market)
+            {
+			var i =
+                {
+				k: k,
+				q: market[k].quantity,
+				p: market[k].price
+                };
+			res.push(i);
+            }
+		this._MARKET[id] = res;
+        }
+    };
+
+this._logger = function(msg)
+    {
+	if (this._DEBUG)
+        {
+		log(this.name, msg);
+        }
+    };
+
+this.getID = function(station)
+    {
+	var id =
+        {
+		r: station.primaryRole
+        };
+	return JSON.stringify(id);
+    };
+
+</pre></td>
+                </tr>
+                <tr>
+                    <td valign="top">Scripts/orbit_station_jovian.js</td>
+                    <td><pre>&quot;use strict&quot;;
+this.name					= &quot;OrbitStation_Jovian&quot;;
+this.author					= &quot;Stranger&quot;;
+this.copyright				= &quot;Creative Commons: attribution, non-commercial, sharealike.&quot;;
+this.description			= &quot;Simulating station orbital movement&quot;;
+this.version				= &quot;2.4&quot;;
+
+this.shipSpawned = function()
+    {
+    var w = worldScripts.StationLibrary;
+    this.$jovianIndex = 0;
+    if (system.isInterstellarSpace) return;
+    var jovianTag = w.$stationLib_planetLock_Jovian();
+    this.$jovianIndex = jovianTag;
+    if (this.$jovianIndex == 0) return;
+    this.$radiusOrbit_Jovian = system.planets[this.$jovianIndex].radius * 1.5;
+    }
+	
+this.OrbitSatellite = function()
+	{
+    if (this.$jovianIndex == 0) return;
+    var v = this.ship.position.add(this.ship.heading.multiply(10000));
+    v = v.subtract(system.planets[this.$jovianIndex].position).direction().multiply(this.$radiusOrbit_Jovian);
+    this.ship.savedCoordinates = system.planets[this.$jovianIndex].position.add(v);
+	}
+</pre></td>
+                </tr>
+                <tr>
+                    <td valign="top">Scripts/orbit_station_lunar.js</td>
+                    <td><pre>&quot;use strict&quot;;
+this.name					= &quot;OrbitStation_Moon&quot;;
+this.author					= &quot;Stranger&quot;;
+this.copyright				= &quot;Creative Commons: attribution, non-commercial, sharealike.&quot;;
+this.description			= &quot;Simulating station orbital movement&quot;;
+this.version				= &quot;2.4&quot;;
+
+this.shipSpawned = function()
+    {
+    var w = worldScripts.StationLibrary;
+    this.$moonIndex = 0;
+    if (system.isInterstellarSpace) return;
+    this.$moonIndex = w.$stationLib_moonLock();
+    if (this.$moonIndex == 0) return;
+    this.$radiusOrbit_Moon = system.planets[this.$moonIndex].radius * 1.75;
+    }
+	
+this.OrbitSatellite = function()
+	{
+    if (this.$moonIndex == 0) return;
+    var v = this.ship.position.add(this.ship.heading.multiply(10000));
+    v = v.subtract(system.planets[this.$moonIndex].position).direction().multiply(this.$radiusOrbit_Moon);
+    this.ship.savedCoordinates = system.planets[this.$moonIndex].position.add(v);
+	}
+</pre></td>
+                </tr>
+                <tr>
+                    <td valign="top">Scripts/orbit_station_martian.js</td>
+                    <td><pre>&quot;use strict&quot;;
+this.name					= &quot;OrbitStation_Martian&quot;;
+this.author					= &quot;Stranger&quot;;
+this.copyright				= &quot;Creative Commons: attribution, non-commercial, sharealike.&quot;;
+this.description			= &quot;Simulating station orbital movement&quot;;
+this.version				= &quot;2.4&quot;;
+
+this.shipSpawned = function()
+    {
+    var w = worldScripts.StationLibrary;
+    this.$martianIndex = 0;
+    if (system.isInterstellarSpace) return;
+    var martianTag = w.$stationLib_planetLock_Martian();
+    this.$martianIndex = martianTag;
+    if (this.$martianIndex == 0) return;
+    this.$radiusOrbit_Martian = system.planets[this.$martianIndex].radius * 1.5;
+    }
+	
+this.OrbitSatellite = function()
+	{
+    if (this.$martianIndex == 0) return;
+    var v = this.ship.position.add(this.ship.heading.multiply(10000));
+    v = v.subtract(system.planets[this.$martianIndex].position).direction().multiply(this.$radiusOrbit_Martian);
+    this.ship.savedCoordinates = system.planets[this.$martianIndex].position.add(v);
+	}
+</pre></td>
+                </tr>
+                <tr>
+                    <td valign="top">Scripts/orbit_station_solar.js</td>
+                    <td><pre>&quot;use strict&quot;;
+this.name					= &quot;OrbitStation_Solar&quot;;
+this.author					= &quot;Stranger&quot;;
+this.copyright				= &quot;Creative Commons: attribution, non-commercial, sharealike.&quot;;
+this.description			= &quot;Spawn processing complex&quot;;
+this.version				= &quot;2.4&quot;;
+&quot;use strict&quot;;
+
+this.shipSpawned = function()
+    {
+    if (system.isInterstellarSpace) return;
+    this.$radiusOrbit_Solar = 10 * system.sun.radius;
+    }
+	
+this.OrbitSatellite = function()
+	{
+    var v = this.ship.position.add(this.ship.heading.multiply(10000));
+    v = v.subtract(system.sun.position).direction().multiply(this.$radiusOrbit_Solar);
+    this.ship.savedCoordinates = system.sun.position.add(v);
+	}
+	
+</pre></td>
+                </tr>
+                <tr>
+                    <td valign="top">Scripts/orbit_station_superterran.js</td>
+                    <td><pre>&quot;use strict&quot;;
+this.name					= &quot;OrbitStation_Superterran&quot;;
+this.author					= &quot;Stranger&quot;;
+this.copyright				= &quot;Creative Commons: attribution, non-commercial, sharealike.&quot;;
+this.description			= &quot;Simulating station orbital movement&quot;;
+this.version				= &quot;2.4&quot;;
+
+this.shipSpawned = function()
+    {
+    var w = worldScripts.StationLibrary;
+    this.$superterranIndex = 0;
+    if (system.isInterstellarSpace) return;
+    this.$superterranIndex = w.$stationLib_planetLock_Superterran();
+    if (this.$superterranIndex == 0) return;
+    this.$radiusOrbit_Superterran = system.planets[this.$superterranIndex].radius * 1.5;
+    }
+	
+this.OrbitSatellite = function()
+	{
+    if (this.$superterranIndex == 0) return;
+    var v = this.ship.position.add(this.ship.heading.multiply(10000));
+    v = v.subtract(system.planets[this.$superterranIndex].position).direction().multiply(this.$radiusOrbit_Superterran);
+    this.ship.savedCoordinates = system.planets[this.$superterranIndex].position.add(v);
+	}
+</pre></td>
+                </tr>
+                <tr>
+                    <td valign="top">Scripts/orbit_station_terran.js</td>
+                    <td><pre>&quot;use strict&quot;;
+this.name					= &quot;OrbitStation_Terran&quot;;
+this.author					= &quot;Stranger&quot;;
+this.copyright				= &quot;Creative Commons: attribution, non-commercial, sharealike.&quot;;
+this.description			= &quot;Simulating station orbital movement&quot;;
+this.version				= &quot;2.4&quot;;
+
+this.shipSpawned = function()
+    {
+    var w = worldScripts.StationLibrary;
+    this.$terranIndex = 0;
+    if (system.isInterstellarSpace) return;
+    this.$terranIndex = w.$stationLib_planetLock_Terran();
+    if (this.$terranIndex == 0) return;
+    this.$radiusOrbit_Terran = system.planets[this.$terranIndex].radius * 1.5;
+    }
+	
+this.OrbitSatellite = function()
+	{
+    if (this.$terranIndex == 0) return;
+    var v = this.ship.position.add(this.ship.heading.multiply(10000));
+    v = v.subtract(system.planets[this.$terranIndex].position).direction().multiply(this.$radiusOrbit_Terran);
+    this.ship.savedCoordinates = system.planets[this.$terranIndex].position.add(v);
+	}
+</pre></td>
+                </tr>
+                <tr>
+                    <td valign="top">Scripts/spawn_station.js</td>
+                    <td><pre>&quot;use strict&quot;;
+this.name           = &quot;Spawn_Stations&quot;;
+this.author         = &quot;Stranger&quot;;
+this.copyright      = &quot;This script is hereby placed in the public domain.&quot;;
+this.version        = &quot;2.6&quot;;
+this.description    = &quot;Spawn stations on planet orbit&quot;;
+//This script uses simplified algorithm from Stations for Extra Planets OXP for station spawn
+
+// Configuration
+
+this.$stationRole_MoonFactory = &quot;kos_kiota2Disc2Solar_lunar_orbiter&quot;;
+this.$stationRole_Jovian = &quot;kos_kiota4Spur_jovian_orbiter&quot;;
+this.$stationRole_Martian = &quot;kos_kiota2Spur2Sphere_martian_orbiter&quot;;
+this.$stationRole_Terran = &quot;kos_kiota2Spur2Sphere_terran_orbiter&quot;;
+this.$stationRole_Superterran = &quot;kos_kiota2Spur2Sphere_superterran_orbiter&quot;;
+this.$stationRole_MineComplex = &quot;kos_kiota2Spur2Solar_solar_orbiter&quot;;
+
+this.shipWillExitWitchspace = function()
+    {
+    // set flags
+    this.$targetFlag = 0;
+    this.$count1 = 1;
+    this.$scriptDelay = new Timer(this, this.$seedStation, 0.5);    //delay to set planet orbits!
+    }
+
+this.$seedStation = function()
+    {
+    this.shipDied();
+    if (system.isInterstellarSpace) return;
+    if (this.$targetFlag &gt; 0) return;    // station already exist - prevents multiple seeding
+    this.$spaceActivity = system.productivity * (0.75 + 0.5 * system.scrambledPseudoRandomNumber(135));
+    var w = worldScripts.StationLibrary;
+    
+// seed processing complex
+    if(system.government &gt; 4 &amp;&amp; this.$spaceActivity &gt;= 25000)
+        {
+        var orbitVector_Solar;
+        orbitVector_Solar = Vector3D.randomDirection(10 * system.sun.radius);
+        system.addShips(this.$stationRole_MineComplex, this.$count1, system.sun.position.add(orbitVector_Solar))[0];        
+        }
+
+// seed terran station
+    var terranTag = 0;
+    if(system.government &gt; 4 &amp;&amp; this.$spaceActivity &gt;= 30000)
+        {   
+        terranTag = w.$stationLib_planetLock_Terran();
+        }
+    if (terranTag != 0)
+        {
+        var orbitVector_Terran;
+        orbitVector_Terran = Vector3D.randomDirection(1.5 * system.planets[terranTag].radius);
+        system.addShips(this.$stationRole_Terran, this.$count1, system.planets[terranTag].position.add(orbitVector_Terran))[0];
+        }
+
+// seed martian station
+    var martianTag = 0;
+    if(system.government &gt; 4 &amp;&amp; this.$spaceActivity &gt;= 32500)
+        {   
+        martianTag = w.$stationLib_planetLock_Martian();
+        }
+    if (martianTag != 0)
+        {
+        var orbitVector_Martian;
+        orbitVector_Martian = Vector3D.randomDirection(1.5 * system.planets[martianTag].radius);
+        system.addShips(this.$stationRole_Martian, this.$count1, system.planets[martianTag].position.add(orbitVector_Martian))[0];
+        }
+
+// seed superterran station
+    var superterranTag = 0;
+    if(system.government &gt; 4 &amp;&amp; this.$spaceActivity &gt;= 35000)
+        {   
+        superterranTag = w.$stationLib_planetLock_Superterran();
+        }
+    if (superterranTag != 0)
+        {
+        var orbitVector_Superterran;
+        orbitVector_Superterran = Vector3D.randomDirection(1.5 * system.planets[superterranTag].radius);
+        system.addShips(this.$stationRole_Superterran, this.$count1, system.planets[superterranTag].position.add(orbitVector_Superterran))[0];
+        }
+
+// seed jovian station
+    var jovianTag = 0;
+    if(system.government &gt; 4 &amp;&amp; this.$spaceActivity &gt;= 37500)    
+        {
+        jovianTag = w.$stationLib_planetLock_Jovian();
+        }
+    if (jovianTag != 0)
+        {
+        var orbitVector_Jovian;
+        orbitVector_Jovian = Vector3D.randomDirection(1.5 * system.planets[jovianTag].radius);
+        system.addShips(this.$stationRole_Jovian, this.$count1, system.planets[jovianTag].position.add(orbitVector_Jovian))[0];
+        }
+
+// seed moon plant
+    var moonTag = 0;
+    if(system.government &gt; 4 &amp;&amp; this.$spaceActivity &gt;= 40000)
+        {
+        moonTag = w.$stationLib_moonLock();
+        }
+    if (moonTag != 0)
+        {
+        var orbitVector_Moon;
+        orbitVector_Moon = Vector3D.randomDirection(1.8 * system.planets[moonTag].radius);
+        system.addShips(this.$stationRole_MoonFactory, this.$count1, system.planets[moonTag].position.add(orbitVector_Moon))[0];
+        }
+
+    this.$targetFlag = 1;    //stations seeded - set flag to prevent multiple seeding
+    };
+
+this.shipWillLaunchFromStation = function()
+    {
+    this.shipWillExitWitchspace();
+    delete this.shipWillLaunchFromStation;
+    }
+
+this.shipWillDockWithStation = this.shipWillEnterWitchspace = function()
+	{
+    this.shipDied();
+    }
+
+this.shipDied = function()  // kill timer after stations seeding
+	{
+	if(this.$scriptDelay) 
+		{
+		this.$scriptDelay.stop();
+		delete this.$scriptDelay;
+		}
+    }</pre></td>
+                </tr>
+                <tr>
+                    <td valign="top">Scripts/spawn_station_library.js</td>
+                    <td><pre>&quot;use strict&quot;;
+this.name           = &quot;StationLibrary&quot;;
+this.author         = &quot;Stranger&quot;;
+this.copyright      = &quot;This script is hereby placed in the public domain.&quot;;
+this.version        = &quot;2.7&quot;;
+this.description    = &quot;Function library to spawn stations&quot;;
+
+this.$stationLib_moonLock = function()
+    {
+    var targetMoon = 0;
+    if (system.isInterstellarSpace) return;
+    var iplanetRadiusMin = 15000;
+    var iplanetRadiusMax = 17500;
+    for (let i=0; i&lt;system.planets.length; i++) 
+        { 
+        if(system.planets[i].radius &gt;= iplanetRadiusMin &amp;&amp; system.planets[i].radius &lt; iplanetRadiusMax)
+            {
+            targetMoon = i;
+            } 
+        }
+    return targetMoon;
+    }
+
+this.$stationLib_planetLock_Jovian = function()
+    {
+    var targetPlanet_Jovian = 0;
+    if (system.isInterstellarSpace) return;    
+    var iplanetRadius = 100000;
+    for (let i=0; i&lt;system.planets.length; i++) 
+        { 
+        if(system.planets[i].radius &gt;= iplanetRadius) 
+            {
+            targetPlanet_Jovian = i;
+            iplanetRadius = system.planets[i].radius;
+            } 
+        }
+    return targetPlanet_Jovian;
+    }
+
+this.$stationLib_planetLock_Martian = function()
+    {
+    var targetPlanet_Martian = 0;
+    if (system.isInterstellarSpace) return;
+    for (let i=0; i&lt;system.planets.length; i++) 
+        {
+        var iplanetRadiusMin = 30000;
+        var iplanetRadiusMax = 50000;
+        if(system.planets[i].radius &gt;= iplanetRadiusMin &amp;&amp; system.planets[i].radius &lt; iplanetRadiusMax &amp;&amp; system.planets[i] != system.mainPlanet)
+            {
+            targetPlanet_Martian = i;
+            } 
+        }
+    return targetPlanet_Martian;
+    }
+
+this.$stationLib_planetLock_Terran = function()
+    {
+    var targetPlanet_Terran = 0;
+    if (system.isInterstellarSpace) return;
+    for (let i=0; i&lt;system.planets.length; i++) 
+        {
+        var iplanetRadiusMin = 50000;
+        var iplanetRadiusMax = 75000;
+        if(system.planets[i].radius &gt;= iplanetRadiusMin &amp;&amp; system.planets[i].radius &lt; iplanetRadiusMax &amp;&amp; system.planets[i] != system.mainPlanet)
+            {
+            targetPlanet_Terran = i;
+            } 
+        }
+    return targetPlanet_Terran;
+    }
+
+this.$stationLib_planetLock_Superterran = function()
+    {
+    var targetPlanet_Superterran = 0;
+    if (system.isInterstellarSpace) return;
+    for (let i=0; i&lt;system.planets.length; i++) 
+        {
+        var iplanetRadiusMin = 75000;
+        var iplanetRadiusMax = 100000;
+        if(system.planets[i].radius &gt;= iplanetRadiusMin &amp;&amp; system.planets[i].radius &lt; iplanetRadiusMax &amp;&amp; system.planets[i] != system.mainPlanet)
+            {
+            targetPlanet_Superterran = i;
+            } 
+        }
+    return targetPlanet_Superterran;
+    }</pre></td>
+                </tr>
+            </table>
+        </a>
+    </body>
+</html>

@@ -1,0 +1,687 @@
+<html>
+    <head>
+        <title>Expansion LogEvents</title>
+        <link rel="stylesheet" href="../style.css">
+    </head>
+    <body>
+        <table border="0" width="100%">
+            <tr>
+                <td>Back to <a href='../index.html'>Index</a></td>
+                <td align="right"><small>Page generated: Oct 11, 2023, 3:16:48 PM</small></td>
+            </tr>
+        </table>
+
+        <h1>Expansion LogEvents</h1>
+
+        <h2>Content</h2>
+        <ul>
+          
+          <li><a href="#manifest">Manifest</a></li>
+          <li><a href="#documentation">Documentation</a></li>
+          <li><a href="#equipment">0 Equipment</a></li>
+          <li><a href="#ships">0 Ships</a></li>
+          <li><a href="#models">0 Models</a></li>
+          <li><a href="#scripts">1 Scripts</a></li>
+        </ul>
+
+
+        <a name="manifest">
+        <h2>Manifest</h2>
+            <table border="1">
+                <tr>
+                    <th></th>
+                    <th>from Expansion Manager's OXP list</th>
+                    <th>from Expansion Manifest</th>
+                </tr>
+                <tr>
+                    <td>Description</td>
+                    <td>Write messages into Latest.log using all event handlers to help debugging and review battles and messages.</td>
+                    <td>Write messages into Latest.log using all event handlers to help debugging and review battles and messages.</td>
+                </tr>
+                <tr>
+                    <td>Identifier</td>
+                    <td>oolite.oxp.Norby.LogEvents</td>
+                    <td>oolite.oxp.Norby.LogEvents</td>
+                </tr>
+                <tr>
+                    <td>Title</td>
+                    <td>LogEvents</td>
+                    <td>LogEvents</td>
+                </tr>
+                <tr>
+                    <td>Category</td>
+                    <td>Miscellaneous</td>
+                    <td>Miscellaneous</td>
+                </tr>
+                <tr>
+                    <td>Author</td>
+                    <td>Norby</td>
+                    <td>Norby</td>
+                </tr>
+                <tr>
+                    <td>Version</td>
+                    <td>1.4</td>
+                    <td>1.4</td>
+                </tr>
+                <tr>
+                    <td>Tags</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Required Oolite Version</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Maximum Oolite Version</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Required Expansions</td>
+                    <td>
+                    </td>
+                    <td>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Optional Expansions</td>
+                    <td>
+                    </td>
+                    <td>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Conflict Expansions</td>
+                    <td>
+                    </td>
+                    <td>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Information URL</td>
+                    <td><a target="_blank" href="http://wiki.alioth.net/index.php/LogEvents">http://wiki.alioth.net/index.php/LogEvents</a></td>
+                    <td><a target="_blank" href="">n/a</a></td>
+                </tr>
+                <tr>
+                    <td>Download URL</td>
+                    <td><a target="_blank" href="https://wiki.alioth.net/img_auth.php/8/83/LogEvents_1.4.oxz">https://wiki.alioth.net/img_auth.php/8/83/LogEvents_1.4.oxz</a></td>
+                    <td><a target="_blank" href="">n/a</a></td>
+                </tr>
+                <tr>
+                    <td>License</td>
+                    <td>CC BY-NC-SA 4.0</td>
+                    <td>CC BY-NC-SA 4.0</td>
+                </tr>
+                <tr>
+                    <td>File Size</td>
+                    <td>n/a</td>
+                </tr>
+                <tr>
+                    <td>Upload date</td>
+                    <td>1610873351</td>
+                </tr>
+            </table>
+                </a>
+
+        <a name="documentation">
+        <h2>Documentation</h2>
+        <p>Also read <a href='http://wiki.alioth.net/index.php/LogEvents'>http://wiki.alioth.net/index.php/LogEvents</a></p>
+        <h3>LogEvents readme.txt</h3>
+        <pre>
+LogEvents OXP
+
+This script catch all available handlers and write into the Logs/Latest.log to help developing
+and to review a battle, or find out why the police attacking you suddenly.
+
+Originally maded to log all laser hits earned in the built-in mini game in the HUDRequests OXP,
+but separated due to it is useful to everybody, while usually realize it after something happened.
+
+
+Dependencies:
+Oolite v1.77 or later.
+
+Instructions:
+Unzip the file, then move the folder named &quot;.oxp&quot; in the end to the AddOns directory of your Oolite installation.
+
+License:
+This work is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike License version 4.0
+If you are re-using any piece of this OXP, please let me know by sending an e-mail to norbylite@gmail.com .
+
+Changelog:
+2018.07.27. v1.4 - Added a new event for Oolite 1.87.
+                   Removed Player word from each message to reduce log size.
+                   A minor fix in systemInformationChanged by cag.
+2018.01.29. v1.3 - Added new events of Oolite 1.86. Minor fixes by cag.
+2017.06.24. v1.2 - Better log of targets without name like moons, thanks to cag.
+2017.03.13. v1.1 - Updated with new events which are added into the game meantime.
+2013.06.04. v1.0 - First release.
+</pre>
+        </a>
+
+        <a name="equipment">          
+        <h2>Equipment</h2>
+            This expansion declares no equipment. 
+        </a>
+
+        <a name="ships">    
+        <h2>Ships</h2>
+            This expansion declares no ships. 
+        </a>
+
+        <a name="models">    
+        <h2>Models</h2>
+            This expansion declares no models. 
+        </a>
+
+        <a name="scripts">    
+        <h2>Scripts</h2>
+            <table>
+                <tr>
+                    <th>Path</th>
+                </tr>
+                <tr>
+                    <td valign="top">Scripts/logevents.js</td>
+                    <td><pre>&quot;use strict&quot;;
+this.name        = &quot;logevents&quot;;
+this.author      = &quot;Norby&quot;;
+this.copyright   = &quot;Norbert Nagy&quot;;
+this.licence     = &quot;CC BY-NC-SA 4.0&quot;;
+this.description = &quot;Log player events to review a battle, with added ShipVersion OXP support.&quot;;
+
+this.$LogEvents_On = true; //turn off means no event logging at all
+this.$LogEvents_Prefix = &quot;LogEvents&quot;; //this will be the messageClass string in the log
+
+this.$LogEvents_Ships = []; //store the ships spawned during timer
+this.$LogEvents_Timer = null; //store the timer pointer
+
+
+//these documented as ship script events but usually works as a world script event for the player also
+this.shipTargetAcquired = function(target) {
+	this.$LogEvents_Player( &quot;targeted&quot;, target, &quot;who has &quot;+this.$LogEvents_NPCLeft( target ) );
+}
+
+this.shipTakingDamage = function(amount, whom, type) {
+	var s = &quot;shield damage&quot;;
+	if( amount &gt; 0 ) s = Math.round( amount ) + &quot; &quot; + type;
+	this.$LogEvents_Player( &quot;taking &quot;+s+&quot; from&quot;, whom, this.$LogEvents_PlayerLeft() );
+}
+
+this.cascadeWeaponDetected = function(weapon) {
+	this.$LogEvents_Player( &quot;detected cascade weapon &quot;+weapon );
+}
+
+this.shipBeingAttackedUnsuccessfully = function(whom) {
+	this.$LogEvents_Player( &quot;attacked unsuccessfully by&quot;, whom );
+}
+
+this.shipCloakActivated = function() {
+	this.$LogEvents_Player( &quot;cloak is activated&quot; );
+}
+
+this.shipCloakDectivated = function() {
+	this.$LogEvents_Player( &quot;cloak is deactivated&quot; );
+}
+
+this.shipEnergyBecameFull = function() {
+	this.$LogEvents_Player( &quot;energy is full&quot; );
+}
+
+this.shipEnergyIsLow = function() {
+	this.$LogEvents_Player( &quot;energy is low&quot; );
+}
+
+this.shipHitByECM = function(pulsesRemaining) {
+	this.$LogEvents_Player( &quot;hit by ECM, &quot;+pulsesRemaining+&quot; remaining&quot; );
+}
+
+this.commsMessageReceived = function(message, sender) {
+	this.$LogEvents_Player( &quot;got message from&quot;, sender, &quot;: &quot;+message );
+}
+
+this.distressMessageReceived = function(aggressor, sender) {
+	this.$LogEvents_Player( &quot;got distress message from&quot;, sender,
+			     &quot;: Help! &quot;+this.$LogEvents_TargetName(aggressor)+&quot; attacking me!&quot; );
+}
+
+this.shipBountyChanged = function(delta, reason) {
+	if(delta != 0) this.$LogEvents_Player( &quot;bounty is changed by &quot;+delta+
+		&quot; to &quot;+player.bounty+&quot; due to &quot;+reason );
+}
+
+this.shipCloseContact = function(otherShip) {
+	this.$LogEvents_Player( &quot;is in close contact with&quot;, otherShip);
+}
+
+this.shipReachedEndPoint = function() {
+	this.$LogEvents_Player( &quot;reached endpoint&quot; );
+}
+
+this.shipReachedNavPoint = function() {
+	this.$LogEvents_Player( &quot;reached navpoint&quot; );
+}
+
+
+
+//world script events, in the same order than in the wiki (grouped by type)
+
+//Game State
+this.gamePaused = function() {
+	this.$LogEvents_Player( &quot;paused the game&quot; );
+}
+
+this.gameResumed = function() {
+	this.$LogEvents_Player( &quot;resumed the game&quot; );
+}
+
+this.playerWillSaveGame = function(message) {
+	this.$LogEvents_Player( message );
+}
+
+this.startUpComplete  = function(target) {
+	this.$LogEvents_Populators();
+}
+
+//Docking 
+this.shipWillDockWithStation = function(station) {
+	this.$LogEvents_Player( &quot;will dock to&quot;, station );
+}
+
+this.shipDockedWithStation = function(station) {
+	this.$LogEvents_Player( &quot;docked to&quot;, station );
+}
+
+this.shipWillLaunchFromStation = function(station) {
+	var m2 = &quot;&quot;;
+	if( player.ship ) m2 = &quot;flying &quot;+this.$LogEvents_TargetName(player.ship);
+	this.$LogEvents_Player( &quot;will launch from&quot;, station, m2 );
+}
+
+this.shipLaunchedFromStation = function(station) {
+	this.$LogEvents_Player( &quot;launched from&quot;, station );
+}
+
+this.playerStartedAutoPilot = function() {
+	this.$LogEvents_Player( &quot;started AutoPilot&quot; );
+}
+
+this.playerCancelledAutoPilot = function() {
+	this.$LogEvents_Player( &quot;cancelled AutoPilot&quot; );
+}
+
+this.playerChangedPrimedEquipment = function(equipmentKey) {
+	this.$LogEvents_Player( &quot;primed &quot;+equipmentKey );
+}
+
+this.playerDockingClearanceCancelled = function() {
+	this.$LogEvents_Player( &quot;docking clearance cancelled&quot; );
+}
+
+this.playerDockingClearanceExpired = function() {
+	this.$LogEvents_Player( &quot;docking clearance expired&quot; );
+}
+
+this.playerDockingClearanceGranted = function() {
+	this.$LogEvents_Player( &quot;docking clearance granted&quot; );
+}
+
+this.playerDockingRefused = function() {
+	this.$LogEvents_Player( &quot;docking refused&quot; );
+}
+
+this.playerRequestedDockingClearance = function(message) {
+	this.$LogEvents_Player( &quot;requested docking clearance and &quot;+message);
+}
+
+this.playerRescuedEscapePod = function(fee, reason, occupant) {
+	var m = &quot;&quot;;
+	if( reason == &quot;slave&quot; ) m = &quot;with a slave&quot;;
+	else m = &quot;for &quot;+(fee/10)+&quot; credits &quot;+reason; //insurance or bounty
+	this.$LogEvents_Player( &quot;rescued escape pod &quot;+m+&quot; occuped by &quot;, occupant);
+}
+
+this.playerCompletedContract = function(type, result, fee, contract) {
+	this.$LogEvents_Player( &quot;completed &quot;+type+&quot; contract with &quot;+result
+		+&quot; result, got &quot;+(fee/10)+&quot; credits &quot;, contract);
+}
+
+this.playerEnteredContract = function(type, contract) {
+	this.$LogEvents_Player( &quot;entereted &quot;+type+&quot; contract&quot;, contract);
+}
+
+//Witchspace Jumps 
+this.playerStartedJumpCountdown = function(type, seconds) {
+	this.$LogEvents_Player( &quot;started &quot;+seconds+&quot; seconds &quot;+type+&quot; jump countdown&quot;);
+}
+
+this.playerCancelledJumpCountdown = function() {
+	this.$LogEvents_Player( &quot;cancelled jump countdown&quot;);
+}
+
+this.playerJumpFailed = function(reason) {
+	this.$LogEvents_Player( &quot;jump failed due to &quot;+reason);
+}
+
+this.shipWillEnterWitchspace = function(cause, destination) {
+	var dest = &quot;&quot;;
+	if( destination ) {
+		if( cause == &quot;galactic jump&quot; ) dest = &quot; to galaxy &quot;+destination;
+                else dest = &quot; to system &quot;+destination;
+        }
+	this.$LogEvents_Player( &quot;will enter witchspace &quot;+dest+&quot; due to &quot;+cause);
+}
+
+this.shipWillExitWitchspace = function() {
+	this.$LogEvents_Populators();
+	this.$LogEvents_Player( &quot;will exit witchspace&quot;);
+}
+
+this.shipExitedWitchspace = function() {
+	this.$LogEvents_Player( &quot;exited from witchspace&quot;);
+}
+
+this.playerEnteredNewGalaxy = function(galaxyNumber) {
+	this.$LogEvents_Player( &quot;entered &quot;+galaxyNumber+&quot;. galaxy&quot;);
+}
+
+//Enter/Exit Aegis
+this.shipEnteredStationAegis = function(station) {
+	this.$LogEvents_Player( &quot;entered to the aegis of&quot;, station);
+}
+
+this.shipExitedStationAegis = function(station) {
+	this.$LogEvents_Player( &quot;exited from aegis of&quot;, station);
+}
+
+this.shipEnteredPlanetaryVicinity = function(planet) {
+	this.$LogEvents_Player( &quot;entered to the vicinity of &quot;+planet.toString());
+}
+
+this.shipExitedPlanetaryVicinity = function(planet) {
+	this.$LogEvents_Player( &quot;exited from the vicinity of &quot;+planet.toString());
+}
+
+this.shipApproachingPlanetSurface = function(planet) {
+	this.$LogEvents_Player( &quot;approaching the surface of &quot;+planet.toString());
+}
+
+this.shipLeavingPlanetSurface = function(planet) {
+	this.$LogEvents_Player( &quot;leaving the surface of &quot;+planet.toString());
+}
+
+//Combat
+this.alertConditionChanged = function(newCondition, oldCondition) {
+	this.$LogEvents_Player( &quot;alert condition changed from &quot;+oldCondition+&quot; to &quot;+newCondition);
+}
+
+this.playerTargetedMissile = function(missile) {
+	this.$LogEvents_Player( &quot;targeted missile &quot;+missile.name );
+}
+
+this.shipAttackedOther = function(other) {
+	this.$LogEvents_Player( &quot;attacked&quot;, other, &quot;who has &quot;+this.$LogEvents_NPCLeft( other ) );
+}
+
+this.shipAttackedWithMissile = function(missile, whom) {
+	this.$LogEvents_Player( &quot;attacked with &quot;+missile.name+&quot; from&quot;, whom );
+}
+
+this.shipBeingAttacked = function(whom) {
+	this.$LogEvents_Player( &quot;attacked by&quot;, whom, this.$LogEvents_PlayerLeft() );
+}
+
+this.shipBeingAttackedByCloaked = function() {
+	this.$LogEvents_Player( &quot;attacked by a cloaked ship &quot;+this.$LogEvents_PlayerLeft() );
+}
+
+this.shipKilledOther = function(whom, damageType) {
+	this.$LogEvents_Player( &quot;killed&quot;, whom, &quot;with &quot;+damageType);
+}
+
+this.shipReleasedEquipment = function(mine) {
+	this.$LogEvents_Player( &quot;released equipment &quot;, mine);
+}
+
+this.shipTargetDestroyed = function(target) {
+	this.$LogEvents_Player( &quot;target&quot;, target, &quot;is destroyed&quot;);
+}
+
+this.shipDied = function(whom, why) {
+	this.$LogEvents_Player( &quot;got &quot;+why+&quot; from&quot;, whom, &quot;and died!&quot;);
+}
+
+this.shipFiredMissile = function(missile, target) {
+	this.$LogEvents_Player( &quot;fired missile &quot;+missile.name+&quot; to&quot;, target);
+}
+
+this.shipTargetLost = function(target) {
+	if( target ) this.$LogEvents_Player( &quot;lost lock on&quot;, target);
+}
+
+this.shipTargetCloaked = function() {
+	this.$LogEvents_Player( &quot;target cloaked&quot;);
+}
+
+this.weaponsSystemsToggled = function(state) {
+	this.$LogEvents_Player( &quot;weapons systems toggled to &quot;+state);
+}
+
+//Equipment and Cargo 
+this.equipmentAdded = function(equipmentKey) {
+	this.$LogEvents_Player( &quot;ship got &quot;+equipmentKey );
+}
+
+this.equipmentDamaged = function(equipment) {
+//	if( equipment.isVisible ) //to avoid HUD control equipments
+		this.$LogEvents_Player( equipment.toString()+&quot; damaged&quot; );
+}
+
+this.equipmentRemoved = function(equipmentKey) {
+	this.$LogEvents_Player( &quot;ship lost &quot;+equipmentKey );
+}
+
+this.equipmentDestroyed = function(equipment) {
+//	if( equipment.isVisible ) //to avoid HUD control equipments
+		this.$LogEvents_Player( equipment.toString()+&quot; destroyed&quot; );
+}
+
+this.equipmentRepaired = function(equipment){
+//	if( equipment.isVisible ) //to avoid HUD control equipments
+		this.$LogEvents_Player( equipment.toString()+&quot; repaired&quot; );
+}
+
+this.playerBoughtCargo = function(commodity, units, price) {
+	this.$LogEvents_Player( &quot;bought &quot;+units+&quot; &quot;
+		+expandDescription(&quot;[commodity-name &quot;+commodity+&quot;]&quot;)
+		+&quot; for &quot;+(price/10)+&quot; credits&quot;);
+}
+
+this.playerBoughtEquipment = function(equipment) {
+	this.$LogEvents_Player( &quot;bought &quot;+equipment.toString() );
+}
+
+this.playerBoughtNewShip = function(ship) {
+	this.$LogEvents_Player( &quot;bought new ship:&quot;, ship );
+}
+
+this.playerSoldCargo = function(commodity, units, price) {
+     	this.$LogEvents_Player( &quot;sold &quot;+units+&quot; &quot;
+		+expandDescription(&quot;[commodity-name &quot;+commodity+&quot;]&quot;)
+		+&quot; for &quot;+(price/10)+&quot; credits&quot;);
+}
+
+this.shipScoopedFuel = function() {
+	this.$LogEvents_Player( &quot;scooped 0.1 LY fuel&quot; );
+}
+
+this.shipScoopedOther = function(whom) {
+	this.$LogEvents_Player( &quot;scooped&quot;, whom );
+}
+
+//Other
+this.chartHightlightModeChanged = function(newMode){
+	this.$LogEvents_Player( &quot;chartHightlightMode is changed to &quot;+newMode );
+}
+
+this.compassTargetChanged = function(whom, mode) {
+	this.$LogEvents_Player( &quot;compass targeted&quot;, whom, &quot;in mode &quot;+mode );
+}
+
+this.dayChanged = function(newday) {
+	this.$LogEvents_Player( &quot;new day &quot;+newday );
+}
+
+this.escapePodSequenceOver = function() {
+	this.$LogEvents_Player( &quot;escape pod sequence over&quot;);
+}
+
+this.guiScreenChanged = function(to, from) {
+	this.$LogEvents_Player( &quot;gui screen changed from &quot;+from+&quot; to &quot;+to );
+}
+
+this.guiScreenWillChange = function(to, from) {
+	this.$LogEvents_Player( &quot;gui screen will change from &quot;+from+&quot; to &quot;+to );
+}
+
+this.infoSystemChanged = function(to, from) {
+	this.$LogEvents_Player( &quot;info system changed from &quot;+from+&quot; to &quot;+to );
+}
+
+this.infoSystemWillChange = function(to, from) {
+	this.$LogEvents_Player( &quot;info system will change from &quot;+from+&quot; to &quot;+to );
+}
+
+this.mfdKeyChanged = function(activeMFD, mfdKey) {
+	this.$LogEvents_Player( &quot;mfd &quot;+activeMFD+&quot; changed to &quot;+mfdKey );
+}
+
+this.missionChoiceWasReset= function() {
+	this.$LogEvents_Player( &quot;mission choice was reset&quot; );
+}
+
+this.missionScreenEnded = function() {
+	this.$LogEvents_Player( &quot;mission screen ended&quot; );
+}
+
+this.missionScreenOpportunity= function() {
+	this.$LogEvents_Player( &quot;mission screen opportunity&quot; );
+}
+
+this.reportScreenEnded = function() {
+	this.$LogEvents_Player( &quot;report screen ended&quot; );
+}
+
+this.selectedMFDChanged = function(activeMFD) {
+	this.$LogEvents_Player( &quot;selected mfd &quot;+activeMFD );
+}
+
+this.shipCollided = function(otherShip) {
+	this.$LogEvents_Player( &quot;collided with&quot;, otherShip );
+}
+
+this.shipSpawned = function(ship) {
+	this.$LogEvents_Ships[ this.$LogEvents_Ships.length ] = ship;
+	if( !this.$LogEvents_Timer ) //give some time to run all shipSpawned before get ShipVersion
+		this.$LogEvents_Timer = new Timer(this, this.$LogEvents_Timed, 0.1, 0);
+}
+
+this.shipLaunchedEscapePod = function(escapepod) {
+	this.$LogEvents_Player( &quot;launched Escape Pod&quot; );
+}
+
+this.systemInformationChanged = function(galaxy,system,key,newValue) {
+	if( key == &quot;concealment&quot;) return; //prevent too many logs
+	this.$LogEvents_Player( &quot;system information changed in galaxy &quot;+galaxy
+		+&quot; system &quot;+system+&quot; key &quot;+key+&quot; to &quot;+newValue );
+}
+
+this.viewDirectionChanged = function(viewString) {
+	this.$LogEvents_Player( viewString );
+}
+
+
+//LogEvents functions
+this.$LogEvents_NPCLeft = function( target ) {
+	if( !target ) return(&quot;unknown energy&quot;);
+	var sh = &quot;&quot;;
+	if( worldScripts[&quot;customshields&quot;] &amp;&amp; target &amp;&amp; target.script
+		&amp;&amp; target.script.customshieldsforwardshieldlevel ) { //asteroids have no shield
+		sh = Math.round( target.script.customshieldsforwardshieldlevel ) + &quot;+&quot; +
+			Math.round( target.script.customshieldsaftshieldlevel ) + &quot; shield and &quot;;
+	}
+	return( sh + Math.round( target.energy ) + &quot; energy&quot; );
+}
+
+this.$LogEvents_Player = function( message1, target, message2, nolosttarget ) { //with target
+	if( worldScripts[&quot;logevents&quot;].$LogEvents_On ) {
+		var n = &quot;&quot;;
+		if( typeof( target ) != &#39;undefined&#39; ) //give &quot;lost target&quot; message only if null
+			n = worldScripts[&quot;logevents&quot;].$LogEvents_TargetName( target );
+		var s = &quot;&quot;;
+		if( n &amp;&amp; n.length &gt; 0 ) s += &quot; &quot;+n;
+		if( message2 &amp;&amp; message2.length &gt; 0 ) s += &quot; &quot; + message2;
+		if( message1 ) ;//message1 = &quot; &quot; + message1;
+		else message1 = &quot;&quot;;
+		log( this.$LogEvents_Prefix, message1 + s ); //assume Player by default
+	}
+}
+
+this.$LogEvents_PlayerLeft = function() {
+	if( player.ship ) return( Math.round( player.ship.forwardShield ) + &quot;+&quot; +
+		+ Math.round( player.ship.aftShield ) + &quot; shield and &quot;
+		+ Math.round( player.ship.energy ) + &quot; energy left&quot;);
+}
+
+this.$LogEvents_Populators = function() {
+	log( this.$LogEvents_Prefix, &quot;Populators:\n &quot; 
+		+ JSON.stringify(system.populatorSettings).replace(/},/g, &quot;},\n  &quot;) );
+}
+
+this.$LogEvents_TargetName = function( target ) { //support for ShipVersion OXP to log ship version also
+	if( !target ) return(&quot;lost target&quot;);
+        var n = &quot;&quot;;
+        if( target.dataKey ) n = target.dataKey; //fallback to key if no name nor stringify
+        if( target.name ) n = target.name;
+        else {
+	    try {
+	        n = JSON.stringify(target); //sometimes get TypeError: cyclic object value, for example if dataKey is planetaryCompass_moon
+	    } catch( err ) {
+	        //log(this.name, &#39;**************************************************************************************&#39; );
+		//log(this.name, &#39;in LogEvents_TargetName, caught error: &#39; + err + &#39;    target = &#39; + target );
+		//if( err /*instanceof TypeError*/ ) this._rpt_error( err );
+		//log(this.name, &#39;**************************************************************************************&#39; );
+		//throw err;//do not stop here, log dataKey instead
+	    }
+	}
+	if( target.script &amp;&amp; target.script.$Detectors_Origname )
+		n = target.script.$Detectors_Origname;
+	var p = target.entityPersonality;
+	if( !p ) p = target.beaconLabel; //for moons
+	return( n + &quot; &quot; + p );
+}
+
+this.$LogEvents_Timed = function $LogEvents_Timed() {
+	for(var i = 0; i &lt; this.$LogEvents_Ships.length; i++ ) {
+		var ship = this.$LogEvents_Ships[i];
+		if( !ship.isVisualEffect &amp;&amp; ship.isVisible &amp;&amp; ship.name.indexOf(&quot;customshields&quot;) == -1 ) {
+			var d = &quot;unknown&quot;;
+			if( player.ship &amp;&amp; player.ship.position &amp;&amp; ship &amp;&amp; ship.position ) //no ship when died
+				d = Math.round( player.ship.position.distanceTo( ship.position ) /1000 );
+			var o = &quot;&quot;;
+			var owner = this.$LogEvents_Ships[i].owner;
+			if( owner ) o = &quot; from &quot; + this.$LogEvents_TargetName( owner );
+			log( this.$LogEvents_Prefix,
+			     this.$LogEvents_TargetName( ship ) + o + &quot; spawned at &quot; + d + &quot; km&quot; );
+		}
+	}
+	this.$LogEvents_Ships = []; //start new array
+	this.$LogEvents_Timer.stop();
+	delete this.$LogEvents_Timer;
+}
+</pre></td>
+                </tr>
+            </table>
+        </a>
+    </body>
+</html>

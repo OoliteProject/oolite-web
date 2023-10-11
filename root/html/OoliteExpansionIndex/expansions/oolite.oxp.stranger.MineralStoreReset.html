@@ -1,0 +1,218 @@
+<html>
+    <head>
+        <title>Expansion Mineral Store Reset</title>
+        <link rel="stylesheet" href="../style.css">
+    </head>
+    <body>
+        <table border="0" width="100%">
+            <tr>
+                <td>Back to <a href='../index.html'>Index</a></td>
+                <td align="right"><small>Page generated: Oct 11, 2023, 3:16:49 PM</small></td>
+            </tr>
+        </table>
+
+        <h1>Expansion Mineral Store Reset</h1>
+
+        <h2>Content</h2>
+        <ul>
+          <li><a href="#warnings">Warnings</a></li>
+          <li><a href="#manifest">Manifest</a></li>
+          <li><a href="#documentation">Documentation</a></li>
+          <li><a href="#equipment">0 Equipment</a></li>
+          <li><a href="#ships">0 Ships</a></li>
+          <li><a href="#models">0 Models</a></li>
+          <li><a href="#scripts">1 Scripts</a></li>
+        </ul>
+
+          <a name="warnings">
+            <h2>Warnings</h2>
+            <ol>
+                <li>Tags mismatch between OXP Manifest and Expansion Manager at character position 0002 (RIGHT SQUARE BRACKET vs LATIN SMALL LETTER M)(&#39;[]&#39; vs &#39;[minerals, market, miner]&#39;)</li>
+            </ol>
+          </a>
+
+        <a name="manifest">
+        <h2>Manifest</h2>
+            <table border="1">
+                <tr>
+                    <th></th>
+                    <th>from Expansion Manager's OXP list</th>
+                    <th>from Expansion Manifest</th>
+                </tr>
+                <tr>
+                    <td>Description</td>
+                    <td>This OXP helps to play in-system miner scenario, preventing saturation of main station market.</td>
+                    <td>This OXP helps to play in-system miner scenario, preventing saturation of main station market.</td>
+                </tr>
+                <tr>
+                    <td>Identifier</td>
+                    <td>oolite.oxp.stranger.MineralStoreReset</td>
+                    <td>oolite.oxp.stranger.MineralStoreReset</td>
+                </tr>
+                <tr>
+                    <td>Title</td>
+                    <td>Mineral Store Reset</td>
+                    <td>Mineral Store Reset</td>
+                </tr>
+                <tr>
+                    <td>Category</td>
+                    <td>Mechanics</td>
+                    <td>Mechanics</td>
+                </tr>
+                <tr>
+                    <td>Author</td>
+                    <td>stranger</td>
+                    <td>stranger</td>
+                </tr>
+                <tr>
+                    <td>Version</td>
+                    <td>0.4.2</td>
+                    <td>0.4.2</td>
+                </tr>
+                <tr>
+                    <td>Tags</td>
+                    <td></td>
+                    <td>minerals, market, miner</td>
+                </tr>
+                <tr>
+                    <td>Required Oolite Version</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Maximum Oolite Version</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Required Expansions</td>
+                    <td>
+                    </td>
+                    <td>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Optional Expansions</td>
+                    <td>
+                    </td>
+                    <td>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Conflict Expansions</td>
+                    <td>
+                    </td>
+                    <td>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Information URL</td>
+                    <td><a target="_blank" href="http://aegidian.org/bb/viewtopic.php?f=4&amp;t=19556">http://aegidian.org/bb/viewtopic.php?f=4&amp;t=19556</a></td>
+                    <td><a target="_blank" href="">n/a</a></td>
+                </tr>
+                <tr>
+                    <td>Download URL</td>
+                    <td><a target="_blank" href="https://wiki.alioth.net/img_auth.php/b/b0/MineralStoreReset.oxz">https://wiki.alioth.net/img_auth.php/b/b0/MineralStoreReset.oxz</a></td>
+                    <td><a target="_blank" href="">n/a</a></td>
+                </tr>
+                <tr>
+                    <td>License</td>
+                    <td>CC-BY-NC-SA 3.0</td>
+                    <td>CC-BY-NC-SA 3.0</td>
+                </tr>
+                <tr>
+                    <td>File Size</td>
+                    <td>n/a</td>
+                </tr>
+                <tr>
+                    <td>Upload date</td>
+                    <td>1610873442</td>
+                </tr>
+            </table>
+                </a>
+
+        <a name="documentation">
+        <h2>Documentation</h2>
+        <p>Also read <a href='http://wiki.alioth.net/index.php/Mineral%20Store%20Reset'>http://wiki.alioth.net/index.php/Mineral%20Store%20Reset</a></p>
+        <h3>ReadMe &amp; License.txt</h3>
+        <pre>Mineral Store Reset OXP by Stranger
+
+This OXP is released under the Creative Commons Attribution - Non-Commercial - Share Alike 3.0 license.
+You are free to use and distribute this OXP on non-commercial basis. 
+Rebundling of this OXP within another distribution is permitted as long as it is unchanged.
+Any mods/derivatives of this OXP must be distributed under another names.
+The license information (either as this file or merged into a larger one) must be included in the OXP.
+
+--------------------------------------------------------------
+
+This OXP randomly resets mineral store for main station to avoid market saturation. Must-have for miner scenario without hyperdrive!
+Mineral store randomly resets as function of system economy.
+Mineral store resets after trigger flag reached 1. Trigger increment is function of system GNP.
+
+To install package unzip archive, and then move the folder &quot;Mineral Store Reset.oxp&quot; to the AddOns directory of your Oolite installation. Then start the game up.
+
+Thanks vasig for idea of this OXP!
+
+--------------------------------------------------------------
+
+Version history:
+
+29.01.2019 - Version 0.4.2	Converted to OXZ
+09.04.2018 - Version 0.4.1	manifest.plist added
+28.10.2017 - Version 0.4	Improved algorithm of mineral store reset.
+20.11.2015 - Version 0.3	Mineral store randomly resets as function of system economy and GNP.
+16.10.2015 - Version 0.2	Mineral store randomly resets to zero approx every 10 launches.
+18.09.2015 - Version 0.1	Initial release. Mineral store reset to zero after every launch.
+</pre>
+        </a>
+
+        <a name="equipment">          
+        <h2>Equipment</h2>
+            This expansion declares no equipment. This may be related to warnings.
+        </a>
+
+        <a name="ships">    
+        <h2>Ships</h2>
+            This expansion declares no ships. This may be related to warnings.
+        </a>
+
+        <a name="models">    
+        <h2>Models</h2>
+            This expansion declares no models. This may be related to warnings.
+        </a>
+
+        <a name="scripts">    
+        <h2>Scripts</h2>
+            <table>
+                <tr>
+                    <th>Path</th>
+                </tr>
+                <tr>
+                    <td valign="top">Scripts/mineral_reset.js</td>
+                    <td><pre>&quot;use strict&quot;;
+this.name				= &quot;Mineral reset&quot;;
+this.author				= &quot;Stranger&quot;;
+this.copyright				= &quot;Creative Commons: attribution, non-commercial, sharealike with clauses - see readme.txt&quot;;
+this.description			= &quot;Randomly reset minerals store to avoid saturation&quot;;
+this.version				= &quot;0.4&quot;;
+
+this.shipWillExitWitchspace = function()
+    {
+    missionVariables.mineralStoreReset = 0;
+    }
+
+this.shipExitedPlanetaryVicinity = function(planet)
+    {
+    var mineralStore = Math.floor((32 + 4 * system.economy) * Math.random());
+    missionVariables.mineralStoreReset += 0.1 + Math.random() * system.productivity / 100000;
+    if(missionVariables.mineralStoreReset &gt;= 1)
+        {
+        system.mainStation.setMarketQuantity(&quot;minerals&quot;, mineralStore);
+        missionVariables.mineralStoreReset = 0;
+        }
+    }</pre></td>
+                </tr>
+            </table>
+        </a>
+    </body>
+</html>

@@ -1,0 +1,668 @@
+<html>
+    <head>
+        <title>Expansion Snark</title>
+        <link rel="stylesheet" href="../style.css">
+    </head>
+    <body>
+        <table border="0" width="100%">
+            <tr>
+                <td>Back to <a href='../index.html'>Index</a></td>
+                <td align="right"><small>Page generated: Oct 11, 2023, 3:16:49 PM</small></td>
+            </tr>
+        </table>
+
+        <h1>Expansion Snark</h1>
+
+        <h2>Content</h2>
+        <ul>
+          <li><a href="#warnings">Warnings</a></li>
+          <li><a href="#manifest">Manifest</a></li>
+          <li><a href="#documentation">Documentation</a></li>
+          <li><a href="#equipment">0 Equipment</a></li>
+          <li><a href="#ships">28 Ships</a></li>
+          <li><a href="#models">0 Models</a></li>
+          <li><a href="#scripts">3 Scripts</a></li>
+        </ul>
+
+          <a name="warnings">
+            <h2>Warnings</h2>
+            <ol>
+                <li>Tags mismatch between OXP Manifest and Expansion Manager at character position 0002 (RIGHT SQUARE BRACKET vs LATIN SMALL LETTER M)(&#39;[]&#39; vs &#39;[medium fighter]&#39;)</li>
+            </ol>
+          </a>
+
+        <a name="manifest">
+        <h2>Manifest</h2>
+            <table border="1">
+                <tr>
+                    <th></th>
+                    <th>from Expansion Manager's OXP list</th>
+                    <th>from Expansion Manifest</th>
+                </tr>
+                <tr>
+                    <td>Description</td>
+                    <td>The snark is primarily a slow but powerful fighter, used by escorts, bounty hunters and pirates. For more details, please check the wiki page.</td>
+                    <td>The snark is primarily a slow but powerful fighter, used by escorts, bounty hunters and pirates. For more details, please check the wiki page.</td>
+                </tr>
+                <tr>
+                    <td>Identifier</td>
+                    <td>oolite.oxp.zzz.Montana05.adck_snark</td>
+                    <td>oolite.oxp.zzz.Montana05.adck_snark</td>
+                </tr>
+                <tr>
+                    <td>Title</td>
+                    <td>Snark</td>
+                    <td>Snark</td>
+                </tr>
+                <tr>
+                    <td>Category</td>
+                    <td>Ships</td>
+                    <td>Ships</td>
+                </tr>
+                <tr>
+                    <td>Author</td>
+                    <td>ADCK, Montana05</td>
+                    <td>ADCK, Montana05</td>
+                </tr>
+                <tr>
+                    <td>Version</td>
+                    <td>1.11</td>
+                    <td>1.11</td>
+                </tr>
+                <tr>
+                    <td>Tags</td>
+                    <td></td>
+                    <td>medium fighter</td>
+                </tr>
+                <tr>
+                    <td>Required Oolite Version</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Maximum Oolite Version</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Required Expansions</td>
+                    <td>
+                    </td>
+                    <td>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Optional Expansions</td>
+                    <td>
+                    </td>
+                    <td>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Conflict Expansions</td>
+                    <td>
+                    </td>
+                    <td>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Information URL</td>
+                    <td><a target="_blank" href="https://wiki.alioth.net/index.php/Snark">https://wiki.alioth.net/index.php/Snark</a></td>
+                    <td><a target="_blank" href="">n/a</a></td>
+                </tr>
+                <tr>
+                    <td>Download URL</td>
+                    <td><a target="_blank" href="https://wiki.alioth.net/img_auth.php/9/95/Oolite.oxp.zzz.Montana05.snark.OXZ">https://wiki.alioth.net/img_auth.php/9/95/Oolite.oxp.zzz.Montana05.snark.OXZ</a></td>
+                    <td><a target="_blank" href="">n/a</a></td>
+                </tr>
+                <tr>
+                    <td>License</td>
+                    <td>CC BY-NC-SA 4.0</td>
+                    <td>CC BY-NC-SA 4.0</td>
+                </tr>
+                <tr>
+                    <td>File Size</td>
+                    <td>n/a</td>
+                </tr>
+                <tr>
+                    <td>Upload date</td>
+                    <td>1658978358</td>
+                </tr>
+            </table>
+                </a>
+
+        <a name="documentation">
+        <h2>Documentation</h2>
+        <p>Also read <a href='http://wiki.alioth.net/index.php/Snark'>http://wiki.alioth.net/index.php/Snark</a></p>
+        <h3>original_read_me.txt</h3>
+        <pre>The snark is primarily a slow but powerful escort but may turn up as an equally slow (and hence reasonably rare) pirate. 
+She has triple forward beam lasers. You may also see it (ironically enough,  given it&#39;s name) as a hunter - 
+a role for which she is more than fit, although her lack of cargo space makes unaccompanied hunting a fairly futile exercise 
+for her. This is also the reason I haven&#39;t made her into a player ship.
+
+If you want to see her straight away, go into the &#39;AddOns&#39; folder within  your main Oolite folder and Either 
+create a subdirectory called Config, or just copy the accompanying Script.plist file into an existing 
+&quot;Config&quot; folder within there. The Snark then appears within scanner range, the next time you exit witchspace 
+(no matter what system you choose).
+
+This ship was actually intended as a demonstration of inversion texturing: i.e using a single texture to cover 
+two mirrored objects, and so rreduce memory usage. I had thought this would be  difficult, but actually 
+Wings3D makes it trivially easy using the &quot;flip&quot; objects  functionality to flip the selected object on, in this case, 
+the  x axis. If you dig in the OXP, you&#39;ll see there is only one wing texture, but by reverse-mapping it, it serves 
+as the texture for both  wings (which are mirror images of each other).</pre>
+        <h3>read_me.txt</h3>
+        <pre>
+Overview
+========
+
+The Snark is primarily a slow but powerful fighter, used by escorts, (ironically enough, given its name) 
+bounty hunters and (reasonably rare) pirates. 
+
+While equipped with triple forward lasers the small hull leaves no space for missiles or cargo. 
+This is also the reason why no player ship is available. 
+
+History
+=======
+
+Originally an experiment of the design department from ADCK Transport Ltd and more a proof of concept than
+a design for the market the review of the first prototypes changes the mind of the management. At a time when
+mostly single laser mounts were in use the triple forward lasers in a small fighter awoke the interest of
+individuals and organizations alike.
+
+Soon the mass-production started and 1,000&#39;s of ships were sold. GalCop space police, the Bounty Hunter Guild and
+the Space Security Group, all of them ordered the Snark.
+
+Remarks
+=======
+
+This ship was actually intended as a demonstration of inversion texturing: i.e using a single texture to cover 
+two mirrored objects, and so reduce memory usage. ADCK had thought this would be difficult, but actually 
+Wings3D makes it trivially easy using the &quot;flip&quot; objects functionality to flip the selected object on, 
+in this case, the x axis. If you dig in the OXP, you&#39;ll see there is only one wing texture, but by reverse-mapping it, 
+it serves as the texture for both wings (which are mirror images of each other).
+
+Up to V 1.01 a script was included which, every time you exit witchspace, added 2 Snark attackers. Beginning with V 1.10
+this script is removed and all ships appear according to their roles only.
+
+At some of the ships the wings could be shot off, resulting in the loss of a laser mount.
+
+Credits
+=======
+
+ADCK (author, models, basic textures and basic specifications)
+Knotty (model and basic textures of the spacesuit)
+
+Requirements
+============
+
+Oolite V 1.88 or higher.
+
+Details
+=======
+
+For additional details, please check the wiki-page: https://wiki.alioth.net/index.php/Snark
+
+License
+=======
+
+This work is licensed under Creative Commons Attribution Non-Commercial Share Alike 4.0 International (CC BY-NC-SA 4.0).
+To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0
+
+Version History
+===============
+
+V 1.11 (Montana05, 2022/07/28)
+
+    fixed an issue with flashers on subentities
+
+V 1.10 (Montana05, 2022/07/05)
+
+    converted and overhauled the entire package
+    improved the materials and added more textures
+    various implementations to adjust to the current standards
+
+V 1.01 (Montana05, 2021/01/27)
+
+    added manifest.plist and shiplibrary.plist
+    uploaded the package to the expansion manager
+    
+V 1.00 (ADCK, 2006/01/26)
+
+    initial release of the Snark OXP
+</pre>
+        </a>
+
+        <a name="equipment">          
+        <h2>Equipment</h2>
+            This expansion declares no equipment. This may be related to warnings.
+        </a>
+
+        <a name="ships">    
+        <h2>Ships</h2>
+            <table>
+                <tr>
+                    <th>Name</th>
+                </tr>
+                <tr>
+                    <td><a href="../ships/adck_snark.html">Snark</a></td>
+                </tr>
+                <tr>
+                    <td><a href="../ships/adck_snark_bhg.html">BHG Snark</a></td>
+                </tr>
+                <tr>
+                    <td><a href="../ships/adck_snark_bhg_team_01.html">adck_snark_bhg_team_01</a></td>
+                </tr>
+                <tr>
+                    <td><a href="../ships/adck_snark_bhg_wing_port.html">Snark Wing</a></td>
+                </tr>
+                <tr>
+                    <td><a href="../ships/adck_snark_bhg_wing_starboard.html">Snark Wing</a></td>
+                </tr>
+                <tr>
+                    <td><a href="../ships/adck_snark_escape_suit.html">a crew member in a spacesuit</a></td>
+                </tr>
+                <tr>
+                    <td><a href="../ships/adck_snark_escape_suit_bhg.html">a BHG member in a spacesuit</a></td>
+                </tr>
+                <tr>
+                    <td><a href="../ships/adck_snark_escape_suit_bhg_criminal.html">a BHG member in a spacesuit</a></td>
+                </tr>
+                <tr>
+                    <td><a href="../ships/adck_snark_escape_suit_criminal.html">a crew member in a spacesuit</a></td>
+                </tr>
+                <tr>
+                    <td><a href="../ships/adck_snark_escape_suit_pirate.html">a crew member in a spacesuit</a></td>
+                </tr>
+                <tr>
+                    <td><a href="../ships/adck_snark_escape_suit_police.html">a police officer in a spacesuit</a></td>
+                </tr>
+                <tr>
+                    <td><a href="../ships/adck_snark_escape_suit_ssg.html">a SSG member in a spacesuit</a></td>
+                </tr>
+                <tr>
+                    <td><a href="../ships/adck_snark_escape_suit_ssg_criminal.html">a SSG member in a spacesuit</a></td>
+                </tr>
+                <tr>
+                    <td><a href="../ships/adck_snark_hunter.html">Snark</a></td>
+                </tr>
+                <tr>
+                    <td><a href="../ships/adck_snark_hunter_wing_port.html">Snark Wing</a></td>
+                </tr>
+                <tr>
+                    <td><a href="../ships/adck_snark_hunter_wing_starboard.html">Snark Wing</a></td>
+                </tr>
+                <tr>
+                    <td><a href="../ships/adck_snark_pirate.html">Snark</a></td>
+                </tr>
+                <tr>
+                    <td><a href="../ships/adck_snark_pirate_wing_port.html">Snark Wing</a></td>
+                </tr>
+                <tr>
+                    <td><a href="../ships/adck_snark_pirate_wing_starboard.html">Snark Wing</a></td>
+                </tr>
+                <tr>
+                    <td><a href="../ships/adck_snark_police.html">GalCop Snark</a></td>
+                </tr>
+                <tr>
+                    <td><a href="../ships/adck_snark_police_wing_port.html">Snark Wing</a></td>
+                </tr>
+                <tr>
+                    <td><a href="../ships/adck_snark_police_wing_starboard.html">Snark Wing</a></td>
+                </tr>
+                <tr>
+                    <td><a href="../ships/adck_snark_ssg.html">SSG Snark</a></td>
+                </tr>
+                <tr>
+                    <td><a href="../ships/adck_snark_ssg_team_01.html">adck_snark_ssg_team_01</a></td>
+                </tr>
+                <tr>
+                    <td><a href="../ships/adck_snark_ssg_wing_port.html">Snark Wing</a></td>
+                </tr>
+                <tr>
+                    <td><a href="../ships/adck_snark_ssg_wing_starboard.html">Snark Wing</a></td>
+                </tr>
+                <tr>
+                    <td><a href="../ships/adck_snark_wing_port.html">Snark Wing</a></td>
+                </tr>
+                <tr>
+                    <td><a href="../ships/adck_snark_wing_starboard.html">Snark Wing</a></td>
+                </tr>
+            </table>
+        </a>
+
+        <a name="models">    
+        <h2>Models</h2>
+            This expansion declares no models. This may be related to warnings.
+        </a>
+
+        <a name="scripts">    
+        <h2>Scripts</h2>
+            <table>
+                <tr>
+                    <th>Path</th>
+                </tr>
+                <tr>
+                    <td valign="top">Scripts/adck_snark.js</td>
+                    <td><pre>this.name			= &quot;adck_snark&quot;;
+this.author			= &quot;Montana05&quot;;
+this.description	= &quot;event handler for the ADCK Snark OXP&quot;;
+this.version		= &quot;1.11&quot;;
+this.copyright		= &quot;2022 Montana05&quot;;
+this.licence   		= &quot;CC BY-NC-SA 4.0&quot;;
+&quot;use strict&quot;;
+
+this.shipSpawned = function(ship)
+{
+	if(ship.dataKey.search(/adck_snark/i) &lt; 0 || ship.hasRole(&quot;cargopod&quot;) || ship.isSubEntity || ship.isPlayer)
+	{
+		return;
+	}
+	else
+	{
+		var shipType = ship.dataKey;
+		var shipRole = ship.primaryRole;
+		
+		// setup escape pods
+		if(ship.hasRole(&quot;escape-capsule&quot;))
+		{
+			let crewName = expandDescription(&quot;[nom]&quot;);
+			let crewDescription = &quot;a fighter pilot&quot;;
+			let crewRole = &quot;hunter&quot;;  // the role is not particular important anymore, all data will be added by the script
+			let crewRace = expandDescription(&quot;[adck_snark_races_scientific]&quot;);  // add a race to the crew members
+			let crewRank = &quot;Commander&quot;;
+			let bhgRank = &quot;Hunter&quot;;  // middle rank
+			let crewInsurance = this.$getRndInteger(90, 450);
+			let crewBounty = 0;
+			
+			// 1 crew member
+			const adck_snark_crew_ranks_array = [&quot;Pilot&quot;, &quot;Commander&quot;];
+			crewRank = 
+			adck_snark_crew_ranks_array[Math.floor(Math.random() * adck_snark_crew_ranks_array.length)];
+			
+			// ranks for Bounty Hunter Guild taken from Random Hits OXP, all credits to LittleBear
+			const adck_snark_bhg_ranks_array = 
+			[&quot;Outsider&quot;, &quot;Recruit&quot;, &quot;Vigilante&quot;, &quot;Bailiff&quot;, &quot;Deputy&quot;, &quot;Tracker&quot;, &quot;Hunter&quot;, &quot;Sheriff&quot;, &quot;Provost&quot;, &quot;Marshal&quot;, &quot;Enforcer&quot;, &quot;Executioner&quot;, &quot;Judge&quot;];
+			bhgRank = 
+			adck_snark_bhg_ranks_array[Math.floor(Math.random() * adck_snark_bhg_ranks_array.length)];
+			
+			switch(shipType) 
+			{
+				case &quot;adck_snark_escape_suit&quot;:
+
+					crewName = (&quot;the &quot; + crewRace + &quot; &quot; + crewRank + &quot; &quot; + expandDescription(&quot;[nom]&quot;));
+					crewDescription = &quot;a fighter pilot&quot;;
+					crewRole = &quot;hunter&quot;;
+					crewInsurance = this.$getRndInteger(90, 450);
+					break;
+
+				case &quot;adck_snark_escape_suit_criminal&quot;:
+
+					crewName = (&quot;the &quot; + crewRace + &quot; &quot; + expandDescription(&quot;[nom]&quot;));
+					crewDescription = &quot;a &quot; + expandDescription(&quot;[adck_snark_criminals]&quot;) +  &quot;wanted by GalCop police&quot;;
+					crewRole = &quot;pirate&quot;;
+					crewBounty = crewInsurance + (15 * system.government);  // stable governments pay extra bonus
+					crewInsurance = 0;
+					break;
+
+				case &quot;adck_snark_escape_suit_pirate&quot;:
+
+					crewName = (&quot;the &quot; + crewRace + &quot; &quot; + expandDescription(&quot;[adck_snark_pirate_nicknames]&quot;) + expandDescription(&quot;[nom]&quot;));
+					crewDescription = &quot;a &quot; + expandDescription(&quot;[adck_snark_criminals]&quot;) +  &quot;wanted by GalCop police&quot;;
+					crewRole = &quot;pirate&quot;;
+					crewBounty = (crewInsurance * 1.25) + (25 * system.government);  // stable governments pay extra bonus
+					crewInsurance = 0;
+					break;
+					
+				case &quot;adck_snark_escape_suit_ssg&quot;:
+
+					crewName = (&quot;the &quot; + crewRace + &quot; &quot; + crewRank + &quot; &quot; + expandDescription(&quot;[nom]&quot;));
+					crewDescription = &quot;a SSG ship crew member&quot;;
+					crewRole = &quot;hunter&quot;;
+					crewInsurance = (crewInsurance * 1.25);  // SSG got better insurance conditions
+					break;
+					
+				case &quot;adck_snark_escape_suit_ssg_criminal&quot;:
+
+					crewName = (&quot;the &quot; + crewRace + &quot; &quot; + crewRank + &quot; &quot; + expandDescription(&quot;[nom]&quot;));
+					crewDescription = &quot;a rogue SSG ship crew member&quot;;
+					crewRole = &quot;pirate&quot;;
+					crewBounty = (crewInsurance * 1.25) + (15 * system.government);  // stable governments pay extra bonus
+					crewInsurance = 0;
+					break;
+
+				case &quot;adck_snark_escape_suit_bhg&quot;:
+
+					crewName = (&quot;the &quot; + crewRace + &quot; &quot; + bhgRank + &quot; &quot; + expandDescription(&quot;[nom]&quot;));
+					crewDescription = &quot;a member of the Bounty Hunter Guild&quot;;
+					crewRole = &quot;hunter&quot;;
+					crewInsurance = (crewInsurance * 1.10);  // BHG got better insurance conditions
+					break;
+					
+				case &quot;adck_snark_escape_suit_bhg_criminal&quot;:
+
+					crewName = (&quot;the &quot; + crewRace + &quot; &quot; + bhgRank + &quot; &quot; + expandDescription(&quot;[nom]&quot;));
+					crewDescription = &quot;a rogue member of the Bounty Hunter Guild&quot;;
+					crewRole = &quot;pirate&quot;;
+					crewBounty = (crewInsurance * 1.10) + (15 * system.government);  // stable governments pay extra bonus
+					crewInsurance = 0;
+					break;
+
+				case &quot;adck_snark_escape_suit_police&quot;:
+
+					const adck_snark_police_ranks_array = [&quot;Space Junior Lieutenant&quot;, &quot;Space Lieutenant&quot;];  // 1 crew member
+					crewRank = 
+					adck_snark_police_ranks_array[Math.floor(Math.random() * adck_snark_police_ranks_array.length)];
+
+					crewName = (&quot;the &quot; + crewRace + &quot; &quot; + crewRank + &quot; &quot; + expandDescription(&quot;[nom]&quot;));
+					crewDescription = &quot;an officer of GalCop Space Police&quot;;
+					crewRole = &quot;police&quot;;
+					crewInsurance = (this.$getRndInteger(90, 450) + (15 * system.government));  // stable governments pay additional reward
+					break;
+					
+				default: 
+	
+					break;	
+			};
+
+			ship.setCrew
+			(
+				{
+					name: crewName,
+					short_description: crewDescription,
+					role: crewRole,
+					species: crewRace,
+					insurance: crewInsurance,
+					bounty: crewBounty
+				}
+			);
+
+			// removes individual roles
+			ship.primaryRole = &quot;escape-capsule&quot;;
+		}
+		else
+		{
+			switch(shipRole) 
+			{
+				case &quot;adck_snark&quot;:
+				case &quot;adck_snark_ssg&quot;:
+				
+					ship.primaryRole = &quot;escort-medium&quot;;
+					break;
+
+				case &quot;adck_snark_hunter&quot;:
+				case &quot;adck_snark_bhg&quot;:
+				case &quot;adck_snark_ssg_team_01&quot;:
+				case &quot;adck_snark_bhg_team_01&quot;:
+
+					if(ship.primaryRole != &quot;escort&quot;)
+					{
+						ship.primaryRole = &quot;hunter-medium&quot;;
+					};
+					break;
+
+				case &quot;adck_snark_police&quot;:
+
+					ship.primaryRole = &quot;police&quot;;
+					break;
+								
+				case &quot;adck_snark_pirate&quot;:
+
+					ship.primaryRole = &quot;pirate&quot;;
+					break;
+	
+				default: 
+	
+					break;
+			};
+		};
+		
+		// if there is an existing script in shipDied time to move it
+		ship.script.$adck_snark_shipDied_old = ship.script.shipDied;
+		ship.script.shipDied = this.$adck_snark_shipDied;	
+	};
+};	
+
+this.$adck_snark_shipDied = function $adck_snark_shipDied(whom, why) 
+{
+	if(this.ship.dataKey.search(/adck_snark/i) &lt; 0 || 
+	   this.ship.hasRole(&quot;escape-capsule&quot;) || this.ship.hasRole(&quot;cargopod&quot;) || this.ship.isSubEntity || this.ship.isPlayer)
+	{
+		return;
+	}
+	else
+	{
+		this.name = &quot;adck_snark&quot;;
+		
+		let shipType = this.ship.dataKey;
+		let shipBounty = this.ship.bounty;
+		let shipPos = this.ship.position;
+		let criminalCrew = 0;
+		let pirateCrew = 0;
+
+		if(shipBounty &gt; 7 &amp;&amp; shipBounty &lt; 15)
+		{
+			criminalCrew = 1;
+		};
+
+		if(shipBounty &gt; 14 || this.ship.isPirate)
+		{
+			pirateCrew = 1;
+		};
+
+		switch(shipType) 
+		{
+			case &quot;adck_snark_ssg&quot;:
+			case &quot;adck_snark_ssg_team_01&quot;:
+
+				if(criminalCrew == 1 || pirateCrew == 1)
+				{
+					system.addShips(&quot;adck_snark_escape_suit_ssg_criminal&quot;, 1, shipPos);
+				}
+				else
+				{
+					system.addShips(&quot;adck_snark_escape_suit_ssg&quot;, 1, shipPos);
+				};
+				break;
+
+			case &quot;adck_snark_bhg&quot;:
+			case &quot;adck_snark_bhg_team_01&quot;:
+				
+				if(criminalCrew == 1 || pirateCrew == 1)
+				{
+					system.addShips(&quot;adck_snark_escape_suit_bhg_criminal&quot;, 1, shipPos);
+				}
+				else
+				{
+					system.addShips(&quot;adck_snark_escape_suit_bhg&quot;, 1, shipPos);
+				};
+				break;
+			
+			case &quot;adck_snark_police&quot;:
+			
+				system.addShips(&quot;adck_snark_escape_suit_police&quot;, 1, shipPos);
+				break;
+				
+			case &quot;adck_snark_pirate&quot;:
+								
+				system.addShips(&quot;adck_snark_escape_suit_pirate&quot;, 1, shipPos);
+				break;
+				
+			default:
+				
+				if(criminalCrew == 1)
+				{
+					system.addShips(&quot;adck_snark_escape_suit_criminal&quot;, 1, shipPos);
+				}
+				else if(pirateCrew == 1)
+				{
+					system.addShips(&quot;adck_snark_escape_suit_pirate&quot;, 1, shipPos);
+				}
+				else
+				{
+					system.addShips(&quot;adck_snark_escape_suit&quot;, 1, shipPos);
+				};
+				break;	
+		};
+	};
+
+	if(this.ship.script.$adck_snark_shipDied_old)
+	{
+		this.ship.script.$adck_snark_shipDied_old(whom, why);
+	};
+};
+
+this.$getRndInteger = function(min, max)
+{
+	return (Math.floor(Math.random() * (max - min + 1) ) + min);
+};
+</pre></td>
+                </tr>
+                <tr>
+                    <td valign="top">Scripts/adck_snark_conditions.js</td>
+                    <td><pre>this.name			= &quot;adck_snark_conditions&quot;;
+this.author			= &quot;Montana05&quot;;
+this.description	= &quot;condition script for the GalCop Snark&quot;;
+this.version		= &quot;1.11&quot;;
+this.copyright		= &quot;2022 Montana05&quot;;
+this.licence		= &quot;CC BY-NC-SA 4.0&quot;;
+&quot;use strict&quot;;
+
+this.allowSpawnShip = function(shipKey)
+{
+	var systemGov = system.government;
+	
+	// only undeveloped systems
+	if(system.isInterstellarSpace || system.sun.isGoingNova || system.sun.hasGoneNova || system.techLevel &gt; 6)
+	{ 
+		return false;
+	};
+
+	// Dictators OXP and Commies OXP got their own police force
+	if((systemGov == 3 &amp;&amp; worldScripts[&quot;dictators.js&quot;]) || (systemGov == 4 &amp;&amp; worldScripts[&quot;communist_population&quot;]))
+	{
+		return false;
+	};
+	
+	// otherwise available
+	return true;
+};</pre></td>
+                </tr>
+                <tr>
+                    <td valign="top">Scripts/adck_snark_subent.js</td>
+                    <td><pre>this.name			= &quot;adck_snark_subent&quot;;
+this.author			= &quot;Montana05&quot;;
+this.description	= &quot;handling of subentities for the Snark&quot;;
+this.version		= &quot;1.11&quot;;
+this.copyright		= &quot;2022 Montana05&quot;;
+this.licence   		= &quot;CC BY-NC-SA 4.0&quot;;
+&quot;use strict&quot;;
+
+this.shipDied = function () 
+{ 
+    this.ship.owner.commsMessage(&quot;We are taking damage, one of our lasers is down !&quot;);
+};</pre></td>
+                </tr>
+            </table>
+        </a>
+    </body>
+</html>

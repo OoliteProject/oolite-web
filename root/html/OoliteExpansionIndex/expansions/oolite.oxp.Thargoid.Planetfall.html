@@ -1,0 +1,1106 @@
+<html>
+    <head>
+        <title>Expansion Planetfall</title>
+        <link rel="stylesheet" href="../style.css">
+    </head>
+    <body>
+        <table border="0" width="100%">
+            <tr>
+                <td>Back to <a href='../index.html'>Index</a></td>
+                <td align="right"><small>Page generated: Oct 11, 2023, 3:16:49 PM</small></td>
+            </tr>
+        </table>
+
+        <h1>Expansion Planetfall</h1>
+
+        <h2>Content</h2>
+        <ul>
+          <li><a href="#warnings">Warnings</a></li>
+          <li><a href="#manifest">Manifest</a></li>
+          <li><a href="#documentation">Documentation</a></li>
+          <li><a href="#equipment">1 Equipment</a></li>
+          <li><a href="#ships">29 Ships</a></li>
+          <li><a href="#models">0 Models</a></li>
+          <li><a href="#scripts">3 Scripts</a></li>
+        </ul>
+
+          <a name="warnings">
+            <h2>Warnings</h2>
+            <ol>
+                <li>Tags mismatch between OXP Manifest and Expansion Manager at character position 0002 (RIGHT SQUARE BRACKET vs LATIN SMALL LETTER D)(&#39;[]&#39; vs &#39;[dockables, system]&#39;)</li>
+            </ol>
+          </a>
+
+        <a name="manifest">
+        <h2>Manifest</h2>
+            <table border="1">
+                <tr>
+                    <th></th>
+                    <th>from Expansion Manager's OXP list</th>
+                    <th>from Expansion Manifest</th>
+                </tr>
+                <tr>
+                    <td>Description</td>
+                    <td>Allows landing on planets and moons in the system at various locations.</td>
+                    <td>Allows landing on planets and moons in the system at various locations.</td>
+                </tr>
+                <tr>
+                    <td>Identifier</td>
+                    <td>oolite.oxp.Thargoid.Planetfall</td>
+                    <td>oolite.oxp.Thargoid.Planetfall</td>
+                </tr>
+                <tr>
+                    <td>Title</td>
+                    <td>Planetfall</td>
+                    <td>Planetfall</td>
+                </tr>
+                <tr>
+                    <td>Category</td>
+                    <td>Dockables</td>
+                    <td>Dockables</td>
+                </tr>
+                <tr>
+                    <td>Author</td>
+                    <td>Thargoid</td>
+                    <td>Thargoid</td>
+                </tr>
+                <tr>
+                    <td>Version</td>
+                    <td>1.51</td>
+                    <td>1.51</td>
+                </tr>
+                <tr>
+                    <td>Tags</td>
+                    <td></td>
+                    <td>dockables, system</td>
+                </tr>
+                <tr>
+                    <td>Required Oolite Version</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Maximum Oolite Version</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Required Expansions</td>
+                    <td>
+                    </td>
+                    <td>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Optional Expansions</td>
+                    <td>
+                    </td>
+                    <td>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Conflict Expansions</td>
+                    <td>
+                    </td>
+                    <td>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Information URL</td>
+                    <td><a target="_blank" href="http://wiki.alioth.net/index.php/Planetfall_OXP">http://wiki.alioth.net/index.php/Planetfall_OXP</a></td>
+                    <td><a target="_blank" href="">n/a</a></td>
+                </tr>
+                <tr>
+                    <td>Download URL</td>
+                    <td><a target="_blank" href="https://wiki.alioth.net/img_auth.php/2/24/PlanetFall_1.51.oxz">https://wiki.alioth.net/img_auth.php/2/24/PlanetFall_1.51.oxz</a></td>
+                    <td><a target="_blank" href="">n/a</a></td>
+                </tr>
+                <tr>
+                    <td>License</td>
+                    <td>Creative Commons Attribution - Non-Commercial - Share Alike 3.0 license with clauses - see readme file</td>
+                    <td>Creative Commons Attribution - Non-Commercial - Share Alike 3.0 license with clauses - see readme file</td>
+                </tr>
+                <tr>
+                    <td>File Size</td>
+                    <td>n/a</td>
+                </tr>
+                <tr>
+                    <td>Upload date</td>
+                    <td>1610873250</td>
+                </tr>
+            </table>
+                </a>
+
+        <a name="documentation">
+        <h2>Documentation</h2>
+        <p>Also read <a href='http://wiki.alioth.net/index.php/Planetfall'>http://wiki.alioth.net/index.php/Planetfall</a></p>
+        <h3>Planetfall v1.51 Developers ReadMe.txt</h3>
+        <pre>Planetfall OXP by Thargoid.
+
+This OXP is designed to be extendable to add new locations on planets and moons, and to give locations for mission events to take place. For this a number of variables are made available within the scripting. These scripts are accessible from any javascript worldscript within a game OXP.
+
+worldScripts.PlanetFall.lastPlanet - this is the last planet to be approached.
+worldScripts.PlanetFall.lastPlanetType - the type of the last planet landed on (&quot;Prime&quot;, &quot;Sub&quot; or &quot;Moon&quot;) or approached (&quot;Sun&quot; or &quot;GasGiant&quot;).
+worldScripts.PlanetFall.planetCount - how many planets (bodies with atmospheres) in the system.
+worldScripts.PlanetFall.moonCount - how many moons (bodies without atmospheres) in the system.
+worldScripts.PlanetFall.globes - an array of the planetary bodies (suns, moons, planets and gas giants) in the system, in order of distance from the player ship.
+worldScripts.PlanetFall.globeRange - distance from the nearest planetary body.
+
+For expansion purposes, three example OXPs are also available.
+
+PlanetFall Mission - Taxi - This example mission gives intra-system taxi ride offers (available on 25% of the manifest (F5-F5) screens whilst docked). it shows how some of the above variables can be used to determine where the player is docked and what state the system is in.
+
+PlanetFall Link - Black Monks (requires the full BlackMonks OXP)
+PlanetFall Link - hoOpy Casino (requires the full hoOpy casino OXP)
+
+These two link OXPs add new planetary locations, allowing black monk and hoOpy casino OXP mission offerings when their full OXPs are also installed on the system. 
+
+To add additional locations, use a shipdata.plist entry as in the two above examples. The entry for the hoOpy casino on the main planets for example is:
+
+	&quot;planetFall_mainSurface_hoopyCasino&quot; =
+		{
+		like_ship = &quot;planetFall_genericSurface&quot;;
+		name = &quot;CoachWhip hOopy Casino&quot;; 
+		roles = &quot;planetFall_mainSurface_hoopyCasino planetFall_mainSurface_externalOXP station(0) planetFall_mainSurface planetFall_surface&quot;;
+		};
+
+The first role should be replaced by the appropriate one, and the other four are also necessary. For locations on additional (sub, not main) planets, replace &quot;main&quot; with &quot;sub&quot;, and for those on moons replace &quot;main&quot; with &quot;moon&quot;. The location will be called via the planetFall_&lt;main/sub/moon&gt;Surface_externalOXP role, so the use of commodities.plist is strongly discouraged (as it will affect all added locations, including the monks and hoOpy casino&#39;s).
+
+Newly added with version 1.12:
+
+If the variable worldScripts.PlanetFall.planetFallOverride is set to true, only external OXP locations are spawned. Please use sparingly, and don&#39;t forget to set it back to false once you&#39;ve finished with it!
+
+Also the ownProperties &quot;.solarGasGiant&quot; and &quot;.isGasGiant&quot; are both available for recognition of gas giant planets (for Frame &amp; Commander Cheyn, plus anyone else who may want to use them).
+
+Lastly the ownProperties of &quot;.PFNoLand&quot; and &quot;.PFNoLandQuiet&quot; are added to give warnings (or not) if approaching OXP planetary objects where landing should not be allowed, for example Tionisla pulsar.
+
+Newly added with version 1.50:
+
+If the variable worldScripts.PlanetFall.overrideRole is set, that specific role will be used for the next landing attempt (if worldScripts.PlanetFall.planetFallOverride is set to true). This will allow external OXPs to set a specific role to be used. Care should of course be taken that a second OXP may also make a similar setting. When the player launches from the custom location the variable is reset back to &quot;default&quot;. If the variable is not set then the standard default roles of planetFall_&lt;main/sub/moon&gt;Surface_externalOXP are used.
+
+If any assistance is needed to make such an OXP location, just let me know!
+
+Thargoid
+
+13/02/2011</pre>
+        <h3>Planetfall v1.51 ReadMe &amp; License.txt</h3>
+        <pre>Planetfall OXP by Thargoid.
+
+A little OXP which allows the Commander to land on planets and moons (but not suns, even at night), and there to trade. To achieve this just fly toward the body, although take care not to go too fast or else you risk burning up in the atmosphere of planets, and don&#39;t try and land before you&#39;ve got landing permission from planetary control!
+
+To land, your ship needs to be firstly equipped with heat shields and docking computers. Then at all reputable (and a few not so reputable) tech 9+ systems you can purchase planetary landing capabilities. These consist of some tweaks to your ship, plus all of the relevant permits, permissions and registrations with authorities to allow landing.
+
+Once your ship is suitably equipped, landing is done by flying down towards the planet. Your systems will automatically make all the necessary requests, and once permission is granted then just fly down to the planet. 
+
+Planetary take-off is via a launch booster, with control being returned to the Commander once orbital insertion is achieved.
+
+This OXP requires a minimum of Oolite v1.77 to run, and will not work with 1.76.1 or lower.
+
+--------------------------------------------------------------
+
+License:
+
+This OXP is released under the Creative Commons Attribution - Non-Commercial - Share Alike 3.0 license with the following clauses:
+
+* Whilst you are free (and encouraged) to re-use any of the scripting, models or texturing in this OXP, the usage must be distinct from that within this OXP. Unique identifiers such as (but not limited to) unique shipdata.plist entity keys, mission variables, script names (this.name), equipment identity strings (EQ_), description list arrays and entity roles must not be re-used without prior agreement. Basically if it&#39;s unique or would identify or overwrite anything in the original OXP, then you may not re-use it (for obvious compatibility reasons).
+* rebundling of this OXP within another distribution is permitted as long as it is unchanged. The following derivates however are permitted and except from the above:
+	* the conversion of files between XML and openStep.
+	* the merging of files with other files of the same type from other OXPs.
+* The license information (either as this file or merged into a larger one) must be included in the OXP.
+* Even though it is not compulsory, if you are re-using any sizable or recognisable piece of this OXP, please let me know :)
+
+--------------------------------------------------------------
+Instructions:
+
+Unzip the file, and then move the folder &quot;PlanetFall 1.51.oxp&quot; to the AddOns directory of your Oolite installation. Then start the game up and the capability should be there for purchase as detailed above. 
+
+--------------------------------------------------------------
+
+Version history:
+
+30/11/2008 - Version 1.00, Initial release.
+19/12/2008 - Version 1.09 Beta, upgraded test release.
+04/01/2009 - Version 1.1, full release.
+06/01/2009 - Version 1.11, bugfix release.
+19/01/2009 - Version 1.12, bugfix, plus external OXP override option
+27/08/2009 - Version 1.2, compatibility with v1.73
+09/09/2009 - Version 1.21, script tweak to stop planet-splatting when using v1.73 (thanks to Eric, A_C and Kaks for helping look into this one).
+29/09/2009 - Version 1.22, further script tweaking to stop the planet-splat. This time by re-orienting the temporary station.
+01/10/2009 - Version 1.23, commodities.plist units problem fix.
+15/04/2010 - Version 1.30, update for v1.74. Now incompatible with lower versions of Oolite. Also added compatibility for own property .isGasGiant, for System Redux 2.0 usage.
+13/02/2011 - Version 1.40, removal of upper limit to enable 1.75 usage. Also some script update to add ownProperties .PFNoLand and PFNoLandQuiet for other OXPs to use to stop landing on added planetary objects (e.g. Tionisla Pulsar).
+20/02/2011 - Version 1.41, script tweaking to make no landing more accessible and robust
+05/08/2012 - Version 1.50, some script modifications for better compatibility with other OXPs, plus some changes to this documentation (see the developers read-me for more details).
+08/01/2013 - Version 1.51, update for v1.77 (incompatible with lower versions). Changed station model due to new docking trunk code, and added landing effect in collaboration with Svengali.
+
+--------------------------------------------------------------
+
+Acknowledgements:
+
+With thanks to:
+* Lestradae for the discussions in getting the concept correct and for the original inspiration.
+* Eric Walch for the ship orientation script code (from his script from Anarchies OXP) and various discussions.
+* LittleBear for assistance in getting the interaction with Random Hits for the Seedy Bars working and for letting me add them to the surface locations.
+* Frame for the code snippets borrowed from Save Anywhere for the temporary station (how to land in a barrel!).
+* PAGroove for the landing equipment script glitch bug catch!
+* Svengali for inspiration and co-work on the landing effect, and production of some of the images (some moon images are from NASA).</pre>
+        </a>
+
+        <a name="equipment">          
+        <h2>Equipment</h2>
+            <table>
+                <tr>
+                    <th>Name</th>
+                    <th>Visible</th>
+                    <th>Cost [deci-credits]</th>
+                    <th>Tech-Level</th>
+                </tr>
+                <tr>
+                    <td><a href="../equipment/EQ_PLANETFALL.html">Planetary Landing Capability</a></td>
+                    <td>yes</td>
+                    <td align="right">50000</td>
+                    <td align="center">9+</td>
+                </tr>
+            </table>
+        </a>
+
+        <a name="ships">    
+        <h2>Ships</h2>
+            <table>
+                <tr>
+                    <th>Name</th>
+                </tr>
+                <tr>
+                    <td><a href="../ships/planetFall_dock.html">PlanetFall Dock</a></td>
+                </tr>
+                <tr>
+                    <td><a href="../ships/planetFall_genericSurface.html">Generic Surface Template</a></td>
+                </tr>
+                <tr>
+                    <td><a href="../ships/planetFall_mainSurface_capitalCity.html">Capital City</a></td>
+                </tr>
+                <tr>
+                    <td><a href="../ships/planetFall_mainSurface_dump.html">Rubbish Dump</a></td>
+                </tr>
+                <tr>
+                    <td><a href="../ships/planetFall_mainSurface_factory.html">Factory Complex</a></td>
+                </tr>
+                <tr>
+                    <td><a href="../ships/planetFall_mainSurface_farm.html">Hydro Farm</a></td>
+                </tr>
+                <tr>
+                    <td><a href="../ships/planetFall_mainSurface_fields.html">Open Fields</a></td>
+                </tr>
+                <tr>
+                    <td><a href="../ships/planetFall_mainSurface_leisureComplex.html">Leisure Complex</a></td>
+                </tr>
+                <tr>
+                    <td><a href="../ships/planetFall_mainSurface_militaryBase.html">Military Base</a></td>
+                </tr>
+                <tr>
+                    <td><a href="../ships/planetFall_mainSurface_seedyBar.html">A Seedy Space Bar</a></td>
+                </tr>
+                <tr>
+                    <td><a href="../ships/planetFall_mainSurface_shipYard.html">Shipyard</a></td>
+                </tr>
+                <tr>
+                    <td><a href="../ships/planetFall_moonSurface_dome.html">Colony Dome</a></td>
+                </tr>
+                <tr>
+                    <td><a href="../ships/planetFall_moonSurface_factory.html">Robot Factory</a></td>
+                </tr>
+                <tr>
+                    <td><a href="../ships/planetFall_moonSurface_leisureDome.html">Leisure Dome</a></td>
+                </tr>
+                <tr>
+                    <td><a href="../ships/planetFall_moonSurface_mine.html">Mine</a></td>
+                </tr>
+                <tr>
+                    <td><a href="../ships/planetFall_moonSurface_prison.html">Penal Colony</a></td>
+                </tr>
+                <tr>
+                    <td><a href="../ships/planetFall_moonSurface_researchComplex.html">Research Complex</a></td>
+                </tr>
+                <tr>
+                    <td><a href="../ships/planetFall_moonSurface_seedyBar.html">A Seedy Space Bar</a></td>
+                </tr>
+                <tr>
+                    <td><a href="../ships/planetFall_moonSurface_wasteLand.html">Lunar Wasteland</a></td>
+                </tr>
+                <tr>
+                    <td><a href="../ships/planetFall_scene_prison.html">PlanetFall Scene Prison</a></td>
+                </tr>
+                <tr>
+                    <td><a href="../ships/planetFall_subSurface_colony.html">Colony City</a></td>
+                </tr>
+                <tr>
+                    <td><a href="../ships/planetFall_subSurface_dump.html">Rubbish Dump</a></td>
+                </tr>
+                <tr>
+                    <td><a href="../ships/planetFall_subSurface_factory.html">Factory Complex</a></td>
+                </tr>
+                <tr>
+                    <td><a href="../ships/planetFall_subSurface_farm.html">Hydro Farm</a></td>
+                </tr>
+                <tr>
+                    <td><a href="../ships/planetFall_subSurface_fields.html">Open Fields</a></td>
+                </tr>
+                <tr>
+                    <td><a href="../ships/planetFall_subSurface_leisureComplex.html">Leisure Complex</a></td>
+                </tr>
+                <tr>
+                    <td><a href="../ships/planetFall_subSurface_militaryBase.html">Military Base</a></td>
+                </tr>
+                <tr>
+                    <td><a href="../ships/planetFall_subSurface_seedyBar.html">A Seedy Space Bar</a></td>
+                </tr>
+                <tr>
+                    <td><a href="../ships/planetFall_subSurface_shipYard.html">Shipyard</a></td>
+                </tr>
+            </table>
+        </a>
+
+        <a name="models">    
+        <h2>Models</h2>
+            This expansion declares no models. This may be related to warnings.
+        </a>
+
+        <a name="scripts">    
+        <h2>Scripts</h2>
+            <table>
+                <tr>
+                    <th>Path</th>
+                </tr>
+                <tr>
+                    <td valign="top">Scripts/planetFall_landingFX.js</td>
+                    <td><pre>this.name = &quot;planetFall_landingFX&quot;;
+this.author = &quot;Svengali &amp; Thargoid&quot;;
+this.copyright = &quot;CC-by&quot;;
+this.description = &quot;FX script&quot;;
+this.version = &quot;1.0&quot;;
+&quot;use strict&quot;;
+
+this.effectSpawned = function()
+	{
+	this.getRid = 0;
+	this.firstFrame = true;
+	this.ovFCBID = addFrameCallback(this.repos.bind(this));
+	}
+
+this.effectRemoved = function()
+	{ removeFrameCallback(this.ovFCBID); }
+	
+this.repos = function(delta)
+	{
+	if(!player.ship.isValid || getRid &gt; 2.5) 
+		{ 
+		this.visualEffect.remove();
+		return;
+		}
+		
+	if(this.firstFrame || !delta)
+		{
+		this.firstFrame = false;
+		return;
+		}
+	
+	this.visualEffect.position = player.ship.position.add(player.ship.vectorForward.multiply(150 - ((getRid / 2.5) * 100)));
+	this.visualEffect.orientation = player.ship.orientation;
+	this.getRid += delta;
+	return;
+	}
+</pre></td>
+                </tr>
+                <tr>
+                    <td valign="top">Scripts/planetFall_launchFX.js</td>
+                    <td><pre>this.name = &quot;planetFall_launchFX&quot;;
+this.author = &quot;Svengali &amp; Thargoid&quot;;
+this.copyright = &quot;CC-by&quot;;
+this.description = &quot;FX script&quot;;
+this.version = &quot;1.0&quot;;
+&quot;use strict&quot;;
+
+this.effectSpawned = function()
+	{
+	this.firstFrame = true;
+	this.getRid = 0;
+	this.ovFCBID = addFrameCallback(this.repos.bind(this));
+	}
+
+this.effectRemoved = function()
+	{ removeFrameCallback(this.ovFCBID); }
+	
+this.repos = function(delta)
+	{
+	if(!player.ship.isValid || this.getRid &gt;= 3) 
+		{ 
+		this.visualEffect.remove();
+		return;
+		}
+	
+	if(this.firstFrame || !delta)
+		{
+		this.firstFrame = false;
+		return;
+		}
+		
+	this.tex = &quot;planetFall_launchFX&quot; + Math.floor(this.getRid)+&quot;.png&quot;;
+	this.visualEffect.setMaterials({&quot;planetFall_launchFX0.png&quot;: {diffuse_map: this.tex }});
+	this.visualEffect.position = player.ship.position.add(player.ship.vectorForward.multiply(150));
+	this.visualEffect.orientation = player.ship.orientation;
+	this.getRid += (2 * delta); // to get the effect finished before true launch into realspace
+	return;
+	}
+</pre></td>
+                </tr>
+                <tr>
+                    <td valign="top">Scripts/planetFall_worldScript.js</td>
+                    <td><pre>this.name			= &quot;PlanetFall&quot;;
+this.author			= &quot;Thargoid, with bits from Eric Walch, Frame and Svengali&quot;;
+this.copyright		= &quot;Creative Commons Attribution - Non-Commercial - Share Alike 3.0 license with clauses - see readme.txt.&quot;;
+this.description	= &quot;Enables planetary landing&quot;;
+this.version		= &quot;1.51&quot;;
+
+this.startUp = function()
+	{ 
+	this.lastPlanet = system.mainPlanet; // details of the last planet to be landed on, so we know what to move the player away from on launch
+	this.planetFallLaunch = false; // as in 1.77 the alert condition is still set on launch - need a mask
+	this.lastPlanetType = &quot;Prime&quot;; // what type of planet/moon we landed on
+	this.messageBlock = false; // flag to stop request/cancel messages at launch from planet
+	this.planetCount = 1; // default setting
+	this.moonCount = 0; // default setting
+	this.$systemScan(); // set up the initial planet and moon count
+	this.planetFallOverride = false; // flag to allow other OXPs to override PlanetFall locations
+	this.overrideRole = &quot;default&quot;; // if other OXPs want to ensure a specific role is used
+	this.$checkForSpecialPlanets();
+
+/* For convenience of mission writers, access for other OXPs is via &quot;worldScripts.PlanetFall.lastPlanet&quot; and &quot;worldScripts.PlanetFall.lastPlanetType&quot;. 
+Values for lastPlanetType are &quot;Prime&quot; for the main planet, &quot;Sub&quot; for every other planet, &quot;Moon&quot; for any moon and &quot;Sun&quot; / &quot;GasGiant&quot; for a sun or a Solar System OXP 
+gas giant (for completeness - cannot land on either of the last two). */
+	}
+
+this.$turnStation = function(tempStation)
+	{
+	if(!tempStation) { return; } // just in case the station doesn&#39;t survive spawning.
+	let stationVector = tempStation.position.subtract(this.lastPlanet.position).direction(); // unit vector pointing away from the planet
+	let angle = tempStation.heading.angleTo(stationVector); // angle between current heading and target heading
+	let cross = tempStation.heading.cross(stationVector).direction(); // set the plane where we should rotate in
+	tempStation.orientation = tempStation.orientation.rotate(cross, -angle); // re-orient the station away from the planet
+	tempStation.position = tempStation.position.add(stationVector.multiply(3000));
+	tempStation.breakPattern = false;
+	}
+
+this.shipApproachingPlanetSurface = function(planet) 
+	{
+	if(!planet || player.ship.equipmentStatus(&quot;EQ_PLANETFALL&quot;) != &quot;EQUIPMENT_OK&quot; || planet.hasOwnProperty(&quot;PFNoLandQuiet&quot;))
+		{
+		return;
+		}
+
+	if(planet.hasOwnProperty(&quot;PFNoLand&quot;))
+		{
+		player.commsMessage(system.name + &quot; Planetary Control - Urgent warning - landing is not possible here!&quot;, 6);
+		return;	
+		}	
+	
+	this.lastPlanet = planet;	
+	
+	if(!this.landingTimer)  
+		{
+		if(!planet.isSun &amp;&amp; !planet.hasOwnProperty(&quot;solarGasGiant&quot;) &amp;&amp; !planet.hasOwnProperty(&quot;isGasGiant&quot;))
+			{
+			this.messageBlock = true;
+			if(planet === system.mainPlanet)
+				{
+				this.lastPlanetType = &quot;Prime&quot;;
+				this.landingChoice = (Math.random()*10);				
+				if(this.planetFallOverride)
+					{
+					if(this.overrideRole === &quot;default&quot;)
+						{ this.overrideRole = &quot;planetFall_mainSurface_externalOXP&quot; };
+					this.port = player.ship.spawnOne(this.overrideRole);
+					this.$turnStation(this.port);
+					this.overrideRole = &quot;default&quot;;
+					}
+				else
+					{
+					if(this.landingChoice &lt; 3) // spawn capital city
+						{
+						this.port = player.ship.spawnOne(&quot;planetFall_mainSurface_capitalCity&quot;); 
+						this.$turnStation(this.port);
+						} 
+					if(this.landingChoice &gt;= 3 &amp;&amp; this.landingChoice &lt; 4.5) // spawn external OXP location, or if none then Capital City
+						{
+						if(this.overrideRole !== &quot;default&quot;) 
+							{ this.port = player.ship.spawnOne(this.overrideRole); }
+							else
+							{ this.port = player.ship.spawnOne(&quot;planetFall_mainSurface_externalOXP&quot;); }
+						if(!this.port)
+							{
+							log(this.name, &quot;Main surface external spawn failure&quot;);
+							this.port = player.ship.spawnOne(&quot;planetFall_mainSurface_capitalCity&quot;); 
+							}						
+						this.$turnStation(this.port);
+						this.overrideRole = &quot;default&quot;;			
+						} 
+					if(this.landingChoice &gt;= 4.5 &amp;&amp; this.landingChoice &lt; 6.5) // spawn a shipyard
+						{
+						this.port = player.ship.spawnOne(&quot;planetFall_mainSurface_shipYard&quot;);
+						this.$turnStation(this.port);
+						} 
+					if(this.landingChoice &gt;= 6.5 &amp;&amp; this.landingChoice &lt; 7.5) // spawn a military base
+						{
+						this.port = player.ship.spawnOne(&quot;planetFall_mainSurface_militaryBase&quot;); 
+						this.$turnStation(this.port);
+						} 
+					if(this.landingChoice &gt;= 7.5 &amp;&amp; this.landingChoice &lt; 8.9) // spawn seedy bar or leisure complex
+						{
+						if((system.government == 0 || this.landingChoice &lt; 8.05) &amp;&amp; worldScripts[&quot;Random_Hits&quot;])
+							{
+							this.port = player.ship.spawnOne(&quot;planetFall_mainSurface_seedyBar&quot;);
+							this.$turnStation(this.port);
+							this.barName = expandDescription(&#39;[planetFall_barName]&#39;);
+						    missionVariables.random_hits_seedy_spacebar_header = worldScripts[&quot;Random_Hits&quot;].barDescription(barName);
+							this.port.displayName = this.barName;
+							}
+						else
+							{
+							this.port = player.ship.spawnOne(&quot;planetFall_mainSurface_leisureComplex&quot;);
+							this.$turnStation(this.port);
+							}
+						} 
+					if(this.landingChoice &gt;= 8.9 &amp;&amp; this.landingChoice &lt; 9.8) // spawn factory or farm
+						{
+						if(system.economy &lt; 4)
+							{
+							this.port = player.ship.spawnOne(&quot;planetFall_mainSurface_factory&quot;);
+							this.$turnStation(this.port);
+							}
+						else
+							{
+							this.port = player.ship.spawnOne(&quot;planetFall_mainSurface_farm&quot;);
+							this.$turnStation(this.port);
+							}
+						} 
+					if(this.landingChoice &gt;= 9.8) // spawn open fields or waste dump
+						{
+						if(system.economy &lt; 4)
+							{
+							this.port = player.ship.spawnOne(&quot;planetFall_mainSurface_dump&quot;);
+							this.$turnStation(this.port);
+							}
+						else
+							{
+							this.port = player.ship.spawnOne(&quot;planetFall_mainSurface_fields&quot;);
+							this.$turnStation(this.port);
+							}
+						} 
+					}
+					
+				if(this.lastPlanet.name)
+					{ this.port.displayName = this.lastPlanet.name + &quot; - &quot; + this.port.displayName; }
+				else
+					{ this.port.displayName = system.name + &quot; Prime - &quot; + this.port.displayName; } // set the name to the surface of the prime planet in the system
+				}
+			else
+				{
+				if(planet.hasAtmosphere)
+					{
+					this.lastPlanetType = &quot;Sub&quot;;
+					this.landingChoice = (Math.random()*10);
+					if(this.planetFallOverride)
+						{
+						if(this.overrideRole == &quot;default&quot;) { this.overrideRole = &quot;planetFall_subSurface_externalOXP&quot;; };
+						this.port = player.ship.spawnOne(this.overrideRole);
+						this.$turnStation(this.port);
+						this.overrideRole = &quot;default&quot;;
+						}
+					else
+						{
+						if(this.landingChoice &lt; 3) // spawn capital city
+							{
+							this.port = player.ship.spawnOne(&quot;planetFall_subSurface_colony&quot;); 
+							this.$turnStation(this.port);
+							} 
+						if(this.landingChoice &gt;= 3 &amp;&amp; this.landingChoice &lt; 4.5) // spawn external OXP location, or if none then a colony
+							{
+							if(this.overrideRole !== &quot;default&quot;) 
+								{ this.port = player.ship.spawnOne(this.overrideRole); }
+								else
+								{ this.port = player.ship.spawnOne(&quot;planetFall_subSurface_externalOXP&quot;); }	
+							if(!this.port)
+								{
+								log(this.name, &quot;Sub surface external spawn failure&quot;);
+								this.port = player.ship.spawnOne(&quot;planetFall_subSurface_colony&quot;); 
+								}	
+						this.$turnStation(this.port);
+							this.overrideRole = &quot;default&quot;;
+							} 
+						if(this.landingChoice &gt;= 4.5 &amp;&amp; this.landingChoice &lt; 6.5) // spawn a shipyard
+							{
+							this.port = player.ship.spawnOne(&quot;planetFall_subSurface_shipYard&quot;);
+							this.$turnStation(this.port);
+							} 
+						if(this.landingChoice &gt;= 6.5 &amp;&amp; this.landingChoice &lt; 7.5) // spawn a military base
+							{
+							this.port = player.ship.spawnOne(&quot;planetFall_subSurface_militaryBase&quot;); 
+							this.$turnStation(this.port);
+							} 
+						if(this.landingChoice &gt;= 7.5 &amp;&amp; this.landingChoice &lt; 8.9) // spawn seedy bar or leisure complex
+							{	
+							if((system.government == 0 || this.landingChoice &lt; 8.05) &amp;&amp; worldScripts[&quot;Random_Hits&quot;])
+								{
+								this.port = player.ship.spawnOne(&quot;planetFall_subSurface_seedyBar&quot;);
+								this.$turnStation(this.port);
+								this.barName = expandDescription(&#39;[planetFall_barName]&#39;);
+								missionVariables.random_hits_seedy_spacebar_header = worldScripts[&quot;Random_Hits&quot;].barDescription(barName);
+								this.port.displayName = this.barName;
+								}
+							else
+								{
+								this.port = player.ship.spawnOne(&quot;planetFall_subSurface_leisureComplex&quot;);
+								this.$turnStation(this.port);
+								}
+							} 
+						if(this.landingChoice &gt;= 8.9 &amp;&amp; this.landingChoice &lt; 9.8) // spawn factory or farm
+							{
+							if(system.economy &lt; 4)
+								{
+								this.port = player.ship.spawnOne(&quot;planetFall_subSurface_factory&quot;);
+								this.$turnStation(this.port);
+								}
+							else
+								{
+								this.port = player.ship.spawnOne(&quot;planetFall_subSurface_farm&quot;);
+								this.$turnStation(this.port);
+								}
+							} 
+						if(this.landingChoice &gt;= 9.8) // spawn open fields or waste dump
+							{
+							if(system.economy &lt; 4)
+								{
+								this.port = player.ship.spawnOne(&quot;planetFall_subSurface_dump&quot;);
+								this.$turnStation(this.port);
+								}
+							else
+								{
+								this.port = player.ship.spawnOne(&quot;planetFall_subSurface_fields&quot;);
+								this.$turnStation(this.port);
+								}
+							} 
+						}
+
+					if(this.lastPlanet.name)
+						{ this.port.displayName = this.lastPlanet.name + &quot; - &quot; + this.port.displayName; }
+					else
+						{ this.port.displayName = system.name + &quot; Minor - &quot; + this.port.displayName; } // set the name to just the surface, so we can identify easily the main planet
+					}
+				else
+					{
+					this.lastPlanetType = &quot;Moon&quot;;
+					this.landingChoice = (Math.random()*10);
+					if(this.planetFallOverride)
+						{
+						if(this.overrideRole == &quot;default&quot;) { this.overrideRole = &quot;planetFall_moonSurface_externalOXP&quot; };
+						this.port = player.ship.spawnOne(this.overrideRole);
+						this.$turnStation(this.port);
+						this.overrideRole = &quot;default&quot;;
+						}
+					else
+						{
+						if(this.landingChoice &lt; 3) // spawn capital city
+							{
+							this.port = player.ship.spawnOne(&quot;planetFall_moonSurface_dome&quot;); 
+							this.$turnStation(this.port);
+							} 
+						if(this.landingChoice &gt;= 3 &amp;&amp; this.landingChoice &lt; 4.5) // spawn external OXP location, or if none then a dome
+							{
+							if(this.overrideRole !== &quot;default&quot;) 
+								{ this.port = player.ship.spawnOne(this.overrideRole); }
+								else
+								{ this.port = player.ship.spawnOne(&quot;planetFall_moonSurface_externalOXP&quot;); }
+							if(!this.port)
+								{
+								log(this.name, &quot;Moon external spawn failure&quot;);
+								this.port = player.ship.spawnOne(&quot;planetFall_moonSurface_dome&quot;); 
+								}	
+							this.$turnStation(this.port);
+							this.overrideRole = &quot;default&quot;;
+							} 
+						if(this.landingChoice &gt;= 4.5 &amp;&amp; this.landingChoice &lt; 6.5) // spawn a mine
+							{
+							this.port = player.ship.spawnOne(&quot;planetFall_moonSurface_mine&quot;);
+							this.$turnStation(this.port);
+							} 
+						if(this.landingChoice &gt;= 6.5 &amp;&amp; this.landingChoice &lt; 8) // spawn a bar or leisure dome
+							{	
+							if((system.government == 0 || this.landingChoice &lt; 7.5) &amp;&amp; worldScripts[&quot;Random_Hits&quot;])
+								{
+								this.port = player.ship.spawnOne(&quot;planetFall_moonSurface_seedyBar&quot;);
+								this.$turnStation(this.port);
+								this.barName = expandDescription(&#39;[planetFall_barName]&#39;);
+								missionVariables.random_hits_seedy_spacebar_header = worldScripts[&quot;Random_Hits&quot;].barDescription(barName);
+								this.port.displayName = this.barName;
+								}
+							else
+								{
+								this.port = player.ship.spawnOne(&quot;planetFall_moonSurface_leisureDome&quot;);
+								this.$turnStation(this.port);
+								}
+							} 
+						if(this.landingChoice &gt;= 8 &amp;&amp; this.landingChoice &lt; 8.9) // spawn a prison
+							{
+							this.port = player.ship.spawnOne(&quot;planetFall_moonSurface_prison&quot;); 
+							this.$turnStation(this.port);
+							} 
+						if(this.landingChoice &gt;= 8.9 &amp;&amp; this.landingChoice &lt; 9.8) // spawn a research complex or factory
+							{
+							if(system.techLevel &gt; 11)
+								{
+								this.port = player.ship.spawnOne(&quot;planetFall_moonSurface_researchComplex&quot;);
+								this.$turnStation(this.port);
+								}
+							else
+								{
+								this.port = player.ship.spawnOne(&quot;planetFall_moonSurface_factory&quot;);
+								this.$turnStation(this.port);
+								}
+							} 
+						if(this.landingChoice &gt;= 9.8) // spawn wasteland
+							{
+							this.port = player.ship.spawnOne(&quot;planetFall_moonSurface_wasteland&quot;); 
+							this.$turnStation(this.port);
+							} 
+						}
+
+					if(this.lastPlanet.name)
+						{ this.port.displayName = this.lastPlanet.name + &quot; - &quot; + this.port.displayName; }
+					else
+						{ this.port.displayName = &quot;Moon of &quot; + system.name + &quot; - &quot; + this.port.displayName; } // set the name to the moon, so we can identify it as a moon
+					}
+				}
+			this.fx = system.addVisualEffect(&quot;planetFall_landingFX&quot;,player.ship.position.add(player.ship.vectorForward.multiply(170)));	
+			this.port.dockPlayer();	
+			}
+		else
+			{
+			if(planet.hasOwnProperty(&quot;solarGasGiant&quot;) || planet.hasOwnProperty(&quot;isGasGiant&quot;))
+				{
+				this.lastPlanetType = &quot;GasGiant&quot;;
+				}
+			else
+				{
+				this.lastPlanetType = &quot;Sun&quot;;
+				}
+			}
+		}
+	else
+		{ // if the PF landing timer is still running
+		player.commsMessage(system.name + &quot; Planetary Control - Pull up, you have no landing clearance!&quot;, 6);
+		player.commsMessage(&quot;Return to orbit and approach again.&quot;, 6);
+		this.landingTimer.stop();
+		delete this.landingTimer;
+		}
+	}
+
+this.shipWillDockWithStation = function(station)
+	{
+	if(station.hasRole(&quot;planetFall_surface&quot;) || station.hasRole(&quot;planetFall_mainSurface_externalOXP&quot;) || station.hasRole(&quot;planetFall_subSurface_externalOXP&quot;) || station.hasRole(&quot;planetFall_moonSurface_externalOXP&quot;) )
+		{
+		if(!this.fx) { this.fx = system.addVisualEffect(&quot;planetFall_landingFX&quot;,player.ship.position.add(player.ship.vectorForward.multiply(170))); }
+		this.selectTexture = 1 + (Math.floor(Math.random() * 9));
+		if(station.hasRole(&quot;planetFall_moonSurface&quot;))
+			{ this.fx.setMaterials({&quot;planetFall_planet1.png&quot;: {diffuse_map: &quot;planetFall_moon&quot; + this.selectTexture + &quot;.png&quot; }}); }
+		else
+			{ this.fx.setMaterials({&quot;planetFall_planet1.png&quot;: {diffuse_map: &quot;planetFall_planet&quot; + this.selectTexture + &quot;.png&quot; }}); }
+	}
+		
+	if((station.hasRole(&quot;planetFall_mainSurface_seedyBar&quot;) || station.hasRole(&quot;planetFall_subSurface_seedyBar&quot;) || station.hasRole(&quot;planetFall_moonSurface_seedyBar&quot;)) &amp;&amp; worldScripts[&quot;Random_Hits&quot;])
+		{ // Player is docked at a planet-side seedy bar
+		worldScripts[&quot;Random_Hits&quot;].random_hits_docked = true;
+		}
+	}
+	
+this.shipWillLaunchFromStation = function(station)
+	{
+	if(station)
+		{ 
+		this.planetFallLaunch = true;
+		if(station.hasRole(&quot;planetFall_surface&quot;))
+			{
+			this.fx = system.addVisualEffect(&quot;planetFall_launchFX&quot;,player.ship.position.add(player.ship.vectorForward.multiply(150)));
+			this.fx.orientation = player.ship.orientation;
+			}
+		} 
+	}	
+	
+this.alertConditionChanged = function()
+	{
+	if(this.planetFallLaunch)
+		{
+		this.planetFallLaunch = false;
+		return;
+		}
+
+	if(player.alertAltitude &amp;&amp; !this.lastPlanet.isSun &amp;&amp; !this.lastPlanet.hasOwnProperty(&quot;solarGasGiant&quot;) &amp;&amp; !this.lastPlanet.hasOwnProperty(&quot;PFNoLand&quot;) &amp;&amp; !this.lastPlanet.hasOwnProperty(&quot;PFNoLandQuiet&quot;) &amp;&amp; !this.lastPlanet.hasOwnProperty(&quot;isGasGiant&quot;))
+		{
+		if(player.ship.equipmentStatus(&quot;EQ_PLANETFALL&quot;) != &quot;EQUIPMENT_OK&quot;)
+			{
+			player.commsMessage(system.name + &quot; Planetary Control - Your ship is not equipped for planetfall.&quot;, 10);
+			player.commsMessage(&quot;Do not attempt landing, your ship will be destroyed!&quot;, 10);
+			}
+		else
+			{
+			if(!this.messageBlock)
+				{
+				player.commsMessage(system.name + &quot; Planetary Control - Landing clearance request received.&quot;, 6);
+				player.commsMessage(&quot;Please await confirmation before beginning final approach.&quot;, 6);
+				}
+			this.clearanceDelay = 5 + (Math.ceil(Math.random()*15)); // delay between 6 and 20 seconds
+			this.landingTimer = new Timer(this, this.$landingClearance, this.clearanceDelay);
+			}
+		}
+
+	if(player.alertAltitude &amp;&amp; (this.lastPlanet.hasOwnProperty(&quot;solarGasGiant&quot;) || this.lastPlanet.hasOwnProperty(&quot;isGasGiant&quot;)))
+		{ player.consoleMessage(&quot;ALERT - You are approaching a Gas Giant. Landing here is not possible!&quot;, 10); 	}
+
+	if(player.alertAltitude &amp;&amp; this.lastPlanet.hasOwnProperty(&quot;PFNoLand&quot;))
+		{ 
+		player.consoleMessage(&quot;ALERT - Landing here is not possible!&quot;, 10); 
+		return;
+		}
+		
+	if(!player.alertAltitude &amp;&amp; this.landingTimer &amp;&amp; this.landingTimer.isRunning &amp;&amp; !player.ship.docked &amp;&amp; EquipmentInfo.infoForKey(&quot;EQ_FRAME_SAVE&quot;) == null)
+		{
+		this.landingTimer.stop();
+		delete this.landingTimer;
+		missionVariables.planetFallBreak += 0.01; // 1% cumulative chance of equipment failure
+		if(!this.messageBlock)
+			{
+			player.commsMessage(system.name + &quot; Planetary Control - Landing clearance request cancelled.&quot;, 6);
+			player.commsMessage(&quot;Goodbye Commander &quot; + player.name + &quot;.&quot;, 6);
+			this.messageBlock = false;
+			}
+		}
+	}
+
+this.$landingClearance = function()
+	{
+	this.landingTimer.stop();
+	delete this.landingTimer;
+	player.commsMessage(system.name + &quot; Planetary Control - Landing clearance granted.&quot;,6);
+	player.commsMessage(&quot;Please approach the surface slowly.&quot;, 6);
+	}
+
+this.shipLeavingPlanetSurface = function(planet)
+	{
+	this.lastPlanet = planet;
+	this.messageBlock = false;
+	}
+
+this.shipDied = function()
+	{
+	let ports = system.shipsWithRole(&quot;planetFall_surface&quot;); // an array of any rogue &quot;surface stations&quot; in the system
+	this.portCount = ports.length; // how many rogues we have that need to be removed
+	if(this.portCount &gt; 0) for (let i=0; i&lt;this.portCount; i++) // if there are any, loop through and remove them
+		{ this.$removePort(ports[i]); }
+	if(this.landingTimer &amp;&amp; this.landingTimer.isRunning)
+		{
+		this.landingTimer.stop();
+		delete this.landingTimer;	
+		}
+	}
+
+this.shipEnteredPlanetaryVicinity = function(planet)
+	{
+	if(!planet) { return; }
+
+	this.lastPlanet = planet;
+	if(!planet.isSun &amp;&amp; !planet.hasOwnProperty(&quot;solarGasGiant&quot;) &amp;&amp; !planet.hasOwnProperty(&quot;isGasGiant&quot;) &amp;&amp; !planet.hasOwnProperty(&quot;PFNoLand&quot;) &amp;&amp; !planet.hasOwnProperty(&quot;PFNoLandQuiet&quot;) &amp;&amp; player.ship.equipmentStatus(&quot;EQ_PLANETFALL&quot;) == &quot;EQUIPMENT_OK&quot;)
+		{
+		player.commsMessage(system.name + &quot; Planetary Control - for planetfall please approach and request landing clearance.&quot;,5);
+		}
+	else
+		{
+		if(planet.isSun)
+			{ player.consoleMessage(&quot;ALERT - Approaching the Sun. Temperature monitoring is critical!&quot;, 10); }
+		if(planet.hasOwnProperty(&quot;solarGasGiant&quot;) || planet.hasOwnProperty(&quot;isGasGiant&quot;))
+			{ player.consoleMessage(&quot;ALERT - You are approaching a Gas Giant. Landing here is not possible!&quot;, 10); }
+		if(planet.hasOwnProperty(&quot;PFNoLand&quot;))
+			{ player.commsMessage(&quot;ALERT - Landing is not possible here, please pull up!&quot;, 10); }
+		}
+	}
+
+this.shipExitedPlanetaryVicinity = function()
+	{ 
+	this.messageBlock = false; 
+	this.shipDied(); // clean-up of any unremoved surface stations.
+	}
+
+this.shipLaunchedFromStation = function(station)
+	{
+	if(EquipmentInfo.infoForKey(&quot;EQ_FRAME_SAVE&quot;) != null) // if launch is for Save Anywhere, don&#39;t want to move the player or nuke the station
+		{ return; }
+
+	if(station &amp;&amp; station.hasRole(&quot;planetFall_surface&quot;))
+		{
+		if(this.landingTimer) 
+			{ delete this.landingTimer; }	
+		player.commsMessage(system.name + &quot; Planetary Control - orbital boost complete.&quot;,5);
+		player.commsMessage(&quot;Farewell Commander &quot; + player.name + &quot;.&quot;,5);
+		this.$removePort(station); // remove the surface-simulating station
+		this.messageBlock = false;
+		missionVariables.planetFallBreak += 0.02; // 2% cumulative chance of equipment failure 
+		if(Math.random() &lt; missionVariables.planetFallBreak) // landing equipment needs maintenance
+			{
+			player.ship.setEquipmentStatus(&quot;EQ_PLANETFALL&quot;, &quot;EQUIPMENT_DAMAGED&quot;);
+			player.consoleMessage(&quot;ALERT - Planetary landing modifications require urgent maintenance.&quot;, 10);
+			player.consoleMessage(&quot;Do not attempt to land again before they are repaired!&quot;, 10);
+			missionVariables.planetFallBreak = -0.04; // first two launches guaranteed not to break equipment
+			}
+		}
+
+	this.$systemScan();
+	}
+	
+this.playerBoughtEquipment = function(equipment)  // guarantee first two launches won&#39;t break equipment
+	{
+	if(equipment == &quot;EQ_PLANETFALL&quot;)
+		{ missionVariables.planetFallBreak = -0.04; }
+	}
+
+this.shipExitedWitchspace = function()
+	{
+	this.$checkForSpecialPlanets();
+	this.overrideRole = &quot;default&quot;;
+	this.$systemScan();
+	}
+
+this.$systemScan = function()
+	{
+	function isMoon(entity) {return (entity.isPlanet &amp;&amp; !entity.hasAtmosphere) };
+	this.systemArray = system.planets;
+	this.systemCount = this.systemArray.length;
+	this.moonCount = system.filteredEntities(this.systemArray, isMoon).length;
+	this.planetCount = this.systemCount - this.moonCount;
+	}
+
+this.$removePort = function(port)
+	{	
+	if(port.hasRole(&quot;planetFall_surface&quot;))
+		{ port.remove(); };
+	}
+
+this.$jailRelease = function()
+	{
+	if(player.credits &gt; missionVariables.planetFallFine)
+		{
+		player.credits -= missionVariables.planetFallFine;
+		player.ship.bounty -= (Math.ceil(missionVariables.planetFallFine * 0.05)); // lower bounty corresponding to fine.
+		}
+	else
+		{ player.credits = 10; }
+	player.ship.launch();
+	this.jailTime = 21600 + (Math.random() * 43200); // between 6 and 18 hours in the cells
+	clock.addSeconds(this.jailTime);	
+	}
+	
+this.guiScreenChanged = function()
+	{
+	if(!player.ship.docked) // for GUI screen changes whilst in flight, which we can ignore
+		{ return; }
+
+	if(!player.ship.dockedStation.hasRole(&quot;planetFall_surface&quot;)) // if we&#39;re at a trunk or other OXP&#39;s station
+		{ return; }
+
+	 // Player is docked at a military base or penal colony - not somewhere a criminal should make himself known ;)
+	if(player.ship.bounty &gt; 25) // player is mid-level offender or fugitive
+		{
+			if(player.ship.dockedStation.hasRole(&quot;planetFall_mainSurface_militaryBase&quot;) || player.ship.dockedStation.hasRole(&quot;planetFall_subSurface_militaryBase&quot;) || player.ship.dockedStation.hasRole(&quot;planetFall_moonSurface_prison&quot;))
+			{
+				if(guiScreen == &quot;GUI_SCREEN_EQUIP_SHIP&quot; || guiScreen == &quot;GUI_SCREEN_MARKET&quot; || guiScreen == &quot;GUI_SCREEN_SHIPYARD&quot;)
+				{
+				missionVariables.planetFallFine = 20 + (Math.ceil(Math.random()*480)); // fine of 21-500 credits
+				if(player.ship.bounty &gt; 50) // if the player is a fugitive
+					{ // raise fine by another 1-500 credits
+					missionVariables.planetFallFine += (Math.ceil(Math.random()*500));  
+					}
+					
+				if(worldScripts.Cabal_Common_Functions)
+					{
+					var t1 = expandMissionText(&quot;planetFall_prison&quot;);
+					var t2 = t1.split(&quot;.&quot;);
+					var obj = {
+						role:&quot;planetFall_scene_prison&quot;,
+						absolutePos:[0,-5,150],
+						briefing:[
+							[1,&quot;walk&quot;,[0,-1,6,10,0.15,2,0,0],t2[0].trim()+&quot;.&quot;],
+							[24,&quot;rot&quot;,[0,-1,4.5,0.0015,0.0015,0,0,1,1],t2[1].trim()+&quot;.&quot;],
+							[25,&quot;stopVelo&quot;,[0,-1]],
+							[100,&quot;mes&quot;,t2[2].trim()+&quot;.&quot;],
+							[101,&quot;kill&quot;],
+							[102,0]
+							],
+						title:&quot;Do not pass GO, do not collect 200cr&quot;,
+						callback:this.name,
+						callbackf:&quot;$jailRelease&quot;
+						};
+					worldScripts.Cabal_Common_Briefing.startBriefing(obj);
+					return;	
+					}
+				else
+				 { mission.runScreen({title:&quot;Do not pass GO, do not collect 200cr&quot;, messageKey:&quot;planetFall_prison&quot;, background:&quot;planetFall_cell.png&quot;}, this.$jailRelease); }
+				}
+			}
+		}
+
+	if(!player.ship.dockedStation.hasRole(&quot;planetFall_noTrade&quot;)) // if we&#39;re at a location where trading is possible
+		{ return; }
+
+	// no-one to trade with on the empty lunar surface
+	if(player.ship.dockedStation.hasRole(&quot;planetFall_moonSurface_wasteLand&quot;) ) 
+		{
+		if(guiScreen == &quot;GUI_SCREEN_EQUIP_SHIP&quot; || guiScreen == &quot;GUI_SCREEN_MARKET&quot;)
+			{
+			mission.runScreen({title:&quot;Lonely on the moon&quot;, messageKey:&quot;planetFall_noTrade&quot;, background:&quot;planetFall_lunarScape.png&quot;});
+			}
+		}
+
+	 // no-one to trade with in empty fields
+	if(player.ship.dockedStation.hasRole(&quot;planetFall_mainSurface_fields&quot;) || player.ship.dockedStation.hasRole(&quot;planetFall_subSurface_fields&quot;)) 
+		{
+		if(guiScreen == &quot;GUI_SCREEN_EQUIP_SHIP&quot; || guiScreen == &quot;GUI_SCREEN_MARKET&quot;)
+			{
+			mission.runScreen({title:&quot;Nothing but fields...&quot;, messageKey:&quot;planetFall_noTrade&quot;, background:&quot;planetFall_fields.png&quot;});
+			}
+		}
+
+	// no-one to trade with in refuse dump
+	if(player.ship.dockedStation.hasRole(&quot;planetFall_mainSurface_dump&quot;) || player.ship.dockedStation.hasRole(&quot;planetFall_subSurface_dump&quot;)) 
+		{
+		if(guiScreen == &quot;GUI_SCREEN_EQUIP_SHIP&quot; || guiScreen == &quot;GUI_SCREEN_MARKET&quot; || guiScreen == &quot;GUI_SCREEN_SHIPYARD&quot;)
+			{
+			mission.runScreen({title:&quot;All muck, no brass!&quot;, messageKey:&quot;planetFall_noTrade&quot;, background:&quot;planetFall_dump.png&quot;});
+			}
+		}
+	}
+	
+this.$checkForSpecialPlanets = function()
+	{ this.scriptDelay = new Timer(this, this.$setFlags, 0.25); }
+
+this.$setFlags = function()
+	{	
+	if(galaxyNumber === 0 &amp;&amp; system.ID === 246) // if we&#39;re at Tianve (G0, S227), set up the pulsar
+		{
+		for (let i=0; i&lt;system.planets.length; i++) 
+			{ 
+			if(system.planets[i].texture === &quot;tianve_pulsar.png&quot;) 
+				{ system.planets[i].PFNoLand = true; } 
+			}
+		}
+	}	</pre></td>
+                </tr>
+            </table>
+        </a>
+    </body>
+</html>

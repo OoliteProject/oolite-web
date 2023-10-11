@@ -1,0 +1,309 @@
+<html>
+    <head>
+        <title>Expansion Random Player/Ship Name</title>
+        <link rel="stylesheet" href="../style.css">
+    </head>
+    <body>
+        <table border="0" width="100%">
+            <tr>
+                <td>Back to <a href='../index.html'>Index</a></td>
+                <td align="right"><small>Page generated: Oct 11, 2023, 3:16:49 PM</small></td>
+            </tr>
+        </table>
+
+        <h1>Expansion Random Player/Ship Name</h1>
+
+        <h2>Content</h2>
+        <ul>
+          <li><a href="#warnings">Warnings</a></li>
+          <li><a href="#manifest">Manifest</a></li>
+          <li><a href="#documentation">Documentation</a></li>
+          <li><a href="#equipment">0 Equipment</a></li>
+          <li><a href="#ships">0 Ships</a></li>
+          <li><a href="#models">0 Models</a></li>
+          <li><a href="#scripts">1 Scripts</a></li>
+        </ul>
+
+          <a name="warnings">
+            <h2>Warnings</h2>
+            <ol>
+                <li>Information URL mismatch between OXP Manifest and Expansion Manager string length at character position 0</li>
+            </ol>
+          </a>
+
+        <a name="manifest">
+        <h2>Manifest</h2>
+            <table border="1">
+                <tr>
+                    <th></th>
+                    <th>from Expansion Manager's OXP list</th>
+                    <th>from Expansion Manifest</th>
+                </tr>
+                <tr>
+                    <td>Description</td>
+                    <td>Add random pilot and random ship names to the ship registration interface. More variation to random ship names can be added with Random Ship Names OXP.</td>
+                    <td>Add random pilot and random ship names to the ship registration interface. More variation to random ship names can be added with Random Ship Names OXP.</td>
+                </tr>
+                <tr>
+                    <td>Identifier</td>
+                    <td>oolite.oxp.spara.random_player-ship_name</td>
+                    <td>oolite.oxp.spara.random_player-ship_name</td>
+                </tr>
+                <tr>
+                    <td>Title</td>
+                    <td>Random Player/Ship Name</td>
+                    <td>Random Player/Ship Name</td>
+                </tr>
+                <tr>
+                    <td>Category</td>
+                    <td>Ambiance</td>
+                    <td>Ambiance</td>
+                </tr>
+                <tr>
+                    <td>Author</td>
+                    <td>spara</td>
+                    <td>spara</td>
+                </tr>
+                <tr>
+                    <td>Version</td>
+                    <td>1.0.1</td>
+                    <td>1.0.1</td>
+                </tr>
+                <tr>
+                    <td>Tags</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Required Oolite Version</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Maximum Oolite Version</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Required Expansions</td>
+                    <td>
+                    </td>
+                    <td>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Optional Expansions</td>
+                    <td>
+                    </td>
+                    <td>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Conflict Expansions</td>
+                    <td>
+                    </td>
+                    <td>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Information URL</td>
+                    <td><a target="_blank" href=""></a></td>
+                    <td><a target="_blank" href="">n/a</a></td>
+                </tr>
+                <tr>
+                    <td>Download URL</td>
+                    <td><a target="_blank" href="https://wiki.alioth.net/img_auth.php/2/2f/Random_player_1.0.1.oxz">https://wiki.alioth.net/img_auth.php/2/2f/Random_player_1.0.1.oxz</a></td>
+                    <td><a target="_blank" href="">n/a</a></td>
+                </tr>
+                <tr>
+                    <td>License</td>
+                    <td>CC-BY-NC-SA 4.0</td>
+                    <td>CC-BY-NC-SA 4.0</td>
+                </tr>
+                <tr>
+                    <td>File Size</td>
+                    <td>n/a</td>
+                </tr>
+                <tr>
+                    <td>Upload date</td>
+                    <td>1610873261</td>
+                </tr>
+            </table>
+                </a>
+
+        <a name="documentation">
+        <h2>Documentation</h2>
+        <p>Also read <a href='http://wiki.alioth.net/index.php/Random%20Player/Ship%20Name'>http://wiki.alioth.net/index.php/Random%20Player/Ship%20Name</a></p>
+        </a>
+
+        <a name="equipment">          
+        <h2>Equipment</h2>
+            This expansion declares no equipment. This may be related to warnings.
+        </a>
+
+        <a name="ships">    
+        <h2>Ships</h2>
+            This expansion declares no ships. This may be related to warnings.
+        </a>
+
+        <a name="models">    
+        <h2>Models</h2>
+            This expansion declares no models. This may be related to warnings.
+        </a>
+
+        <a name="scripts">    
+        <h2>Scripts</h2>
+            <table>
+                <tr>
+                    <th>Path</th>
+                </tr>
+                <tr>
+                    <td valign="top">Scripts/oolite-registership.js</td>
+                    <td><pre>&quot;use strict&quot;;
+
+this.name			= &quot;oolite-registership&quot;;
+this.author			= &quot;cim, spara&quot;;
+
+this.startUp = this.shipWillExitWitchspace = function()
+{
+	if (system.mainStation)
+	{
+		system.mainStation.setInterface(&quot;oolite-registership&quot;,{
+			title: expandMissionText(&quot;oolite-registership-interface-title&quot;),
+			category: expandMissionText(&quot;oolite-registership-interface-category&quot;),
+			summary: expandMissionText(&quot;oolite-registership-interface-summary&quot;),
+			callback: this._registerShip.bind(this)
+		});
+	}
+}
+
+this._registerShip = function() {
+	mission.runScreen({
+		titleKey: &quot;registership-ext1-title&quot;,
+		messageKey: &quot;registership-ext1&quot;,
+		screenID: &quot;oolite-register&quot;,
+		background: &quot;random_player_bg.png&quot;,
+		choicesKey: &quot;registership-ext1-options&quot;
+	},
+	function (choice) {
+		if (choice === &quot;1_RANDOM&quot;) this._registerShipRandomPilot();
+		else if (choice === &quot;2_ENTER&quot;) this._registerShipEnterPilot();
+		else this._registerShip2();
+	}
+	);
+}
+
+this._registerShipRandomPilot = function() {
+	var firstNameSources = [&quot;%N&quot;, &quot;[random_player_first_name]&quot;];
+	var secondNameSources = [&quot;[nom]&quot;, &quot;[random_player_second_name]&quot;];
+	var firstNameSource = firstNameSources[Math.floor(Math.random() * firstNameSources.length)];
+	var secondNameSource = secondNameSources[Math.floor(Math.random() * secondNameSources.length)];
+	var randomName = global.expandDescription(firstNameSource + &quot; &quot; + secondNameSource);
+	mission.runScreen({
+		titleKey: &quot;registership-ext2-title&quot;,
+		message: global.expandMissionText(&quot;registership-ext2&quot;) + randomName + &quot;.&quot;,
+		screenID: &quot;oolite-register&quot;,
+		background: &quot;random_player_bg.png&quot;,
+		choicesKey: &quot;registership-ext2-options&quot;
+	},
+	function (choice) {
+		if (choice === &quot;1_RANDOM&quot;) this._registerShipRandomPilot();
+		else if (choice === &quot;2_ACCEPT&quot;) this._registerShip2(randomName);
+		else this._registerShip2();
+	}
+	);
+}
+
+this._registerShipEnterPilot = function() {
+	mission.runScreen({
+		titleKey: &quot;registership-ext3-title&quot;,
+		messageKey: &quot;registership-ext3&quot;,
+		screenID: &quot;oolite-register&quot;,
+		background: &quot;random_player_bg.png&quot;,
+		textEntry: true
+	},this._registerShip2.bind(this));
+}
+
+this._registerShip2 = function(cdrname)
+{
+	if (cdrname &amp;&amp; cdrname != &quot;&quot;)
+	{
+		player.name = cdrname;
+	}
+	mission.runScreen({
+		titleKey: &quot;registership-ext4-title&quot;,
+		messageKey: &quot;registership-ext4&quot;,
+		screenID: &quot;oolite-register&quot;,
+		background: &quot;random_player_bg.png&quot;,
+		choicesKey: &quot;registership-ext1-options&quot;
+	},
+	function (choice) {
+		if (choice === &quot;1_RANDOM&quot;) this._registerShipRandomShip();
+		else if (choice === &quot;2_ENTER&quot;) this._registerShipEnterShip();
+		else this._registerShip3();
+	}
+	);
+}
+
+this._registerShipRandomShip = function() {
+	var sources = [&quot;random_player&quot;];
+	if (worldScripts[&quot;randomshipnames&quot;]) {
+		sources.push(&quot;trader&quot;);
+		sources.push(&quot;hunter&quot;);
+		sources.push(&quot;pirate&quot;);
+	}
+	var source = sources[Math.floor(Math.random() * sources.length)];
+	if (source === &quot;trader&quot;)
+		var randomShipName = worldScripts[&quot;randomshipnames&quot;].$randomTraderName(player.ship);
+	else if (source === &quot;hunter&quot;)
+		var randomShipName = worldScripts[&quot;randomshipnames&quot;].$randomHunterName(player.ship);
+	else if (source === &quot;pirate&quot;)
+		var randomShipName = worldScripts[&quot;randomshipnames&quot;].$randomPirateName(player.ship);
+	else
+		var randomShipName = global.expandDescription(&quot;[random_player_shipname]&quot;);
+	mission.runScreen({
+		titleKey: &quot;registership-ext5-title&quot;,
+		message: global.expandMissionText(&quot;registership-ext5&quot;) + randomShipName + &quot;.&quot;,
+		screenID: &quot;oolite-register&quot;,
+		background: &quot;random_player_bg.png&quot;,
+		choicesKey: &quot;registership-ext2-options&quot;
+	},
+	function (choice) {
+		if (choice === &quot;1_RANDOM&quot;) this._registerShipRandomShip();
+		else if (choice === &quot;2_ACCEPT&quot;) this._registerShip3(randomShipName);
+		else this._registerShip3();
+	}
+	);
+}
+
+this._registerShipEnterShip = function() {
+	mission.runScreen({
+		titleKey: &quot;registership-ext7-title&quot;,
+		messageKey: &quot;registership-ext7&quot;,
+		screenID: &quot;oolite-register&quot;,
+		background: &quot;random_player_bg.png&quot;,
+		textEntry: true
+	},this._registerShip3.bind(this));
+}
+
+this._registerShip3 = function(shipname)
+{
+	if (shipname &amp;&amp; shipname != &quot;&quot;)
+	{
+		player.ship.shipUniqueName = shipname;
+	}
+	mission.runScreen({
+		titleKey: &quot;oolite-registership-title-part3&quot;,
+		messageKey: &quot;oolite-registership-instructions-part3&quot;,
+		screenID: &quot;oolite-register&quot;,
+		exitScreen: &quot;GUI_SCREEN_INTERFACES&quot;,
+		background: &quot;random_player_bg.png&quot;
+	});
+	mission.addMessageText(global.expandMissionText(&quot;registership-ext6&quot;));
+}
+</pre></td>
+                </tr>
+            </table>
+        </a>
+    </body>
+</html>

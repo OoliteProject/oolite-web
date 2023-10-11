@@ -1,0 +1,31 @@
+<html>
+    <head>
+        <title>Ship griff_ico_mainhull</title>
+        <link rel="stylesheet" href="../style.css">
+    </head>
+    <body>
+        <table border="0" width="100%">
+            <tr>
+                <td>Back to <a href='../index.html'>Index</a></td>
+                <td align="right"><small>Page generated: Oct 11, 2023, 3:16:51 PM</small></td>
+            </tr>
+        </table>
+
+        <h1>Ship griff_ico_mainhull</h1>
+        <table border='1'>
+            <tr><td>Identifier</td><td>griff_ico_mainhull</td></tr>
+            <tr><td>Name</td><td>griff_ico_mainhull</td></tr>
+            <tr><td>Expansion</td><td><a href='../expansions/oolite.oxp.Griff.Station_Bundle.html'>Griff Station Bundle</a></td></tr>
+        </table>
+        
+            
+        <h2>Features</h2>
+            <table border="1">
+                <tr><td>like_ship</td><td>oolite_template_icosahedron-station</td></tr>
+                <tr><td>materials</td><td>{griff_ico_faceplate_diffuse.png={diffuse_map=griff_ico_faceplate_diffuse.png;specular_color=(0.2,0.2,0.2);shininess=5;emission_map={name=griff_ico_faceplate_normal.png;extract_channel=a;};emission_modulate_color=(0.9520,0.9630,0.8824);};griff_ico_hull_diffuse.png={diffuse_map=griff_ico_hull_diffuse.png;specular_color=(0.2,0.2,0.2);shininess=5;emission_map={name=griff_ico_hull_normal.png;extract_channel=a;};emission_modulate_color=(0.9520,0.9630,0.8824);};}</td></tr>
+                <tr><td>model</td><td>griff_ico.dat</td></tr>
+                <tr><td>shaders</td><td>{griff_ico_faceplate_diffuse.png={vertex_shader=griff_normalmap_ships.vertex;fragment_shader=griff_CoreStations_hull.fragment;textures=(griff_ico_faceplate_diffuse.png,griff_ico_faceplate_normal.png,griff_ico_light_color_map.png);uniforms={uColorMap={type=texture;value=0;};uNormalMap={type=texture;value=1;};uGlowColorMap={type=texture;value=2;};uTime=universalTime;uFogColor=fogUniform;hull_heat_level=hullHeatLevel;};};griff_ico_hull_diffuse.png={vertex_shader=griff_normalmap_ships.vertex;fragment_shader=griff_CoreStations_hull.fragment;textures=(griff_ico_hull_diffuse.png,griff_ico_hull_normal.png,griff_ico_light_color_map.png);uniforms={uColorMap={type=texture;value=0;};uNormalMap={type=texture;value=1;};uGlowColouMap={type=texture;value=2;};uTime=universalTime;hull_heat_level=hullHeatLevel;lampcol={type=vector;value=0.9786 1.0 0.8642;};};};}</td></tr>
+                <tr><td>subentities</td><td>({subentity_key=griff_ico_dock;orientation=(1,0,0,0);position=(0,0,642.8881);is_dock=true;})</td></tr>
+            </table>
+    </body>
+</html>

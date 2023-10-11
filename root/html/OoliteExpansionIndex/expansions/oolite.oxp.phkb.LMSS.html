@@ -1,0 +1,1532 @@
+<html>
+    <head>
+        <title>Expansion Laser Mount Switching System</title>
+        <link rel="stylesheet" href="../style.css">
+    </head>
+    <body>
+        <table border="0" width="100%">
+            <tr>
+                <td>Back to <a href='../index.html'>Index</a></td>
+                <td align="right"><small>Page generated: Oct 11, 2023, 3:16:49 PM</small></td>
+            </tr>
+        </table>
+
+        <h1>Expansion Laser Mount Switching System</h1>
+
+        <h2>Content</h2>
+        <ul>
+          <li><a href="#warnings">Warnings</a></li>
+          <li><a href="#manifest">Manifest</a></li>
+          <li><a href="#documentation">Documentation</a></li>
+          <li><a href="#equipment">31 Equipment</a></li>
+          <li><a href="#ships">0 Ships</a></li>
+          <li><a href="#models">0 Models</a></li>
+          <li><a href="#scripts">3 Scripts</a></li>
+        </ul>
+
+          <a name="warnings">
+            <h2>Warnings</h2>
+            <ol>
+                <li>Tags mismatch between OXP Manifest and Expansion Manager at character position 0002 (RIGHT SQUARE BRACKET vs LATIN CAPITAL LETTER E)(&#39;[]&#39; vs &#39;[Equipment, Weapons]&#39;)</li>
+                <li>Information URL mismatch between OXP Manifest and Expansion Manager string length at character position 0</li>
+            </ol>
+          </a>
+
+        <a name="manifest">
+        <h2>Manifest</h2>
+            <table border="1">
+                <tr>
+                    <th></th>
+                    <th>from Expansion Manager's OXP list</th>
+                    <th>from Expansion Manifest</th>
+                </tr>
+                <tr>
+                    <td>Description</td>
+                    <td>Allows multiple lasers on a single laser mount that can be switched inflight.</td>
+                    <td>Allows multiple lasers on a single laser mount that can be switched inflight.</td>
+                </tr>
+                <tr>
+                    <td>Identifier</td>
+                    <td>oolite.oxp.phkb.LMSS</td>
+                    <td>oolite.oxp.phkb.LMSS</td>
+                </tr>
+                <tr>
+                    <td>Title</td>
+                    <td>Laser Mount Switching System</td>
+                    <td>Laser Mount Switching System</td>
+                </tr>
+                <tr>
+                    <td>Category</td>
+                    <td>Equipment</td>
+                    <td>Equipment</td>
+                </tr>
+                <tr>
+                    <td>Author</td>
+                    <td>phkb</td>
+                    <td>phkb</td>
+                </tr>
+                <tr>
+                    <td>Version</td>
+                    <td>2.5</td>
+                    <td>2.5</td>
+                </tr>
+                <tr>
+                    <td>Tags</td>
+                    <td></td>
+                    <td>Equipment, Weapons</td>
+                </tr>
+                <tr>
+                    <td>Required Oolite Version</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Maximum Oolite Version</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Required Expansions</td>
+                    <td>
+                    </td>
+                    <td>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Optional Expansions</td>
+                    <td>
+                    </td>
+                    <td>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Conflict Expansions</td>
+                    <td>
+                    </td>
+                    <td>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Information URL</td>
+                    <td><a target="_blank" href=""></a></td>
+                    <td><a target="_blank" href="">n/a</a></td>
+                </tr>
+                <tr>
+                    <td>Download URL</td>
+                    <td><a target="_blank" href="https://wiki.alioth.net/img_auth.php/4/4e/LaserMountSwitchingSystem.oxz">https://wiki.alioth.net/img_auth.php/4/4e/LaserMountSwitchingSystem.oxz</a></td>
+                    <td><a target="_blank" href="">n/a</a></td>
+                </tr>
+                <tr>
+                    <td>License</td>
+                    <td>CC-BY-NC-SA 4.0</td>
+                    <td>CC-BY-NC-SA 4.0</td>
+                </tr>
+                <tr>
+                    <td>File Size</td>
+                    <td>n/a</td>
+                </tr>
+                <tr>
+                    <td>Upload date</td>
+                    <td>1610873299</td>
+                </tr>
+            </table>
+                </a>
+
+        <a name="documentation">
+        <h2>Documentation</h2>
+        <p>Also read <a href='http://wiki.alioth.net/index.php/Laser%20Mount%20Switching%20System'>http://wiki.alioth.net/index.php/Laser%20Mount%20Switching%20System</a></p>
+        <h3>readme.txt</h3>
+        <pre>Laser Mount Switching System (LMSS)
+By Nick Rogers
+
+Overview
+========
+The Laser Mount Switching System (LMSS) provides a way for pilots to have two lasers installed at each laser mount, and easily switch between them. The goal of this system is to give pilots a way of reconfiguring their ship inflight for different roles. For example, some pilots prefer to use a military laser and &quot;snipe&quot; their enemies from a distance. However, not every fight can be done at a distance, and there will inevitably be situations where pilots need to engage in a dogfight at close quarters. Using the LMSS, pilots can switch between their military laser and a beam laser that is more suited for dogfighting. Another example is where a ship has been set up for mining. In this instance the pilot may prefer to have their mining laser installed in the front mount. However, doing so makes it extremely awkward for any sort of battle situation. Using the LMSS, the pilot can easily switch between their mining laser and another laser (like a pulse or beam laser), so they can switch from &quot;mining mode&quot; to &quot;fighting mode&quot;.
+
+Installation
+============
+There are two components to the LMSS system: the assembly, plus an additional laser. The assemblies can be purchased at any system with a techlevel of 8. If the pilot wants switchable lasers in all four laser mounts, then four LMSS systems must be purchased. After the assembly is installed on a laser mount, the pilot can then choose what additional laser they want to install. First, they must switch the current laser to the secondary position via the &quot;LMSS dockside services&quot; F4 interface screen. Once the primary laser is moved into the secondary position, additional lasers can be purchased in the primary position in the normal way.
+
+An additional piece of equipment, the LMSS Actuator Upgrade, can be purchased at techlevel 13 systems. This upgrade speeds up the switching process, almost halving the time it takes to switch between lasers.
+
+The LMSS can be used with all lasers, including all the built it ones (pulse, beam, mining and military lasers), plus any lasers provided by OXP&#39;s.
+
+Secondary lasers can&#39;t be viewed on the F5 ship equipment list. To see all secondary laser installations, go to the F5 F5 Manifest screen, where the secondary lasers will be listed under the heading &quot;LMSS Secondary Laser Installations&quot;.
+
+Flight Operation
+================
+Once the assembly and secondary lasers are installed, the process to switch lasers is as follows: 
+1. Select the view where the assembly is installed (front, aft, port, or starboard).
+2. Select the primable equipment &quot;LMSS Activator&quot;
+3. Activate the equipment by pressing &quot;n&quot; on the keyboard.
+There will be a delay between dismounting the current laser and mounting the secondary one. During that delay no laser can be fired in that position.
+
+Laser Temperature
+=================
+The LMSS installs an additional laser mount beneath the existing mount, and includes an assembly and actuator to switch the mounts around. However, the heat dispersal system is shared between both mounts. Heat that is accumulated on one laser still needs to be dispersed even if the secondary laser is activated. Switching lasers does not give the pilot more firepower.
+
+Damage
+======
+If the LMSS assembly is damaged while it is switching lasers, the laser mount will be unavailable until the next time the ship docks. Upon docking, the primary laser will be restored to its mount, but the switching mechanism will be unavailable until repaired.
+
+Licence
+=======
+This work is licensed under the Creative Commons Attribution-ShareAlike 4.0 International Public License. To view a copy of this license, visit http://http://creativecommons.org/licenses/by-sa/4.0/ or send a letter to Creative Commons, 171 Second Street, Suite 300, San Francisco, California, 94105, USA. 
+
+Sound files taken from &quot;Large Industrial Robot&quot; WAV file, created by Mike Koenig and sourced from soundbible.com. Licenced under Creative Commons Attribution 3.0.
+
+Version History
+===============
+2.5
+- Added a message to go along with the sound when lasers cannot be switched.
+
+2.4
+- Added a sound for when the player attempts to switch lasers and it cannot be switched (either because there is no secondary laser, or no actuator in that view).
+- Removed some debug messages.
+
+2.3
+- Fixed issue that was preventing lasers from being switched successfully.
+
+2.2
+- Added links for integration with planned OXP&#39;s.
+
+2.1
+- Integration with Laser Arrangement.
+- Code refactoring.
+
+2.0.12
+- Improved integration with latest version of Xenon HUD.
+
+2.0.11
+- Automatically remove the LMSS Activator when the assembly is removed.
+- Code refactoring.
+
+2.0.10
+- Bug fixes.
+
+2.0.9
+- Trimmed equipment.plist.
+- Code refactoring.
+
+2.0.8
+- Fixed default setting for the switch that 3rd party lasers can use to detect when lasers are being switched. It was on by default, instead of off.
+
+2.0.7
+- Fixed issue where purchasing the actuator upgrade does not impact switch performance until after a save/reload.
+- Changed &quot;==&quot; comparisons to &quot;===&quot; for performance improvements.
+
+2.0.6
+- Updated screenID to enable BGS background sounds.
+- Renamed background overlay image to prevent possibility of future duplication.
+- Toned down overlay image.
+
+2.0.5
+- Small display tweaks.
+
+2.0.4
+- Tweaked the dockside interface screen to work better with long laser names.
+- Added switch so that 3rd party lasers can know when the LMSS is operating and provide an override in their condition scripts.
+- Added OXP hook code to condition script.
+
+2.0.3
+- Made compatible with Ship Storage Helper.
+- Made compatible with Laser Cooler OXP.
+- Made compatible with Repair Bots OXP.
+
+2.0.2
+- Cleaned up some redundant code.
+
+2.0.1
+- Fixed incompatibility with Ship Respray OXP.
+
+2.0.0
+- Made the LMSS compatible with all OXP lasers.
+- Added interface screen to allow dockside laser configuration.
+- Added manifest entries to display secondary laser installations.
+- Fixed bug where the startUpComplete function wasn&#39;t being executed due to badly formed definition.
+- Switched terminology from &quot;Front&quot; to &quot;Forward&quot; for better in-game consistency.
+- Added compatibility with Xenon HUD&#39;s image crosshairs.
+- Added the ability to remove all LMSS components. Removing a mount will also remove the secondary laser (if installed) and refund the cost of the laser.
+
+1.0.4
+- Fixed techLevel setting for Actuator upgrade
+- Fixed damageProbability of the Actuator upgrade so it can be damaged, and added a check to switch the delay back to 10 seconds when it is damaged.
+
+1.0.3
+- Fixed a bug where a ship with no laser in a laser mount would cause an error.
+- Added maintenance item descriptions for integration with email system maintenance overhaul email
+- Adjusted costs of equipment items to be less premium.
+- Added sounds to accompany the laser switching process.
+
+1.0.2
+- Fixed the &quot;shipDied&quot; function to correctly shut down timers when the player dies.
+
+1.0.1
+- Fixed bug where docking (or dying) while switching weapons would cause some unpredictable results.
+- If an OXP laser gets installed after the LMSS system, the LMSS will now not switch the laser and potentially lose it.
+- If a LMSS laser is purchased to replace an existing laser, a refund is now given on the laser that is removed (100% of standard laser cost).
+- Code refactoring
+- Put correct tags in manifest file.
+
+1.0
+Initial release
+</pre>
+        </a>
+
+        <a name="equipment">          
+        <h2>Equipment</h2>
+            <table>
+                <tr>
+                    <th>Name</th>
+                    <th>Visible</th>
+                    <th>Cost [deci-credits]</th>
+                    <th>Tech-Level</th>
+                </tr>
+                <tr>
+                    <td><a href="../equipment/EQ_LMSS_ACTIVATOR.html">LMSS Activator</a></td>
+                    <td>no</td>
+                    <td align="right">0</td>
+                    <td align="center">1+</td>
+                </tr>
+                <tr>
+                    <td><a href="../equipment/EQ_LMSS_ACTUATOR.html">LMSS - Actuator Upgrade</a></td>
+                    <td>yes</td>
+                    <td align="right">42000</td>
+                    <td align="center">13+</td>
+                </tr>
+                <tr>
+                    <td><a href="../equipment/EQ_LMSS_ACTUATOR_REMOVAL.html">Remove LMSS - Actuator Upgrade</a></td>
+                    <td>no</td>
+                    <td align="right">2000</td>
+                    <td align="center">8+</td>
+                </tr>
+                <tr>
+                    <td><a href="../equipment/EQ_LMSS_AFT.html">LMSS - Aft Assembly</a></td>
+                    <td>yes</td>
+                    <td align="right">36000</td>
+                    <td align="center">8+</td>
+                </tr>
+                <tr>
+                    <td><a href="../equipment/EQ_LMSS_AFT_BEAM.html">LMSS - Aft Beam Laser</a></td>
+                    <td>no</td>
+                    <td align="right">0</td>
+                    <td align="center">1+</td>
+                </tr>
+                <tr>
+                    <td><a href="../equipment/EQ_LMSS_AFT_MILITARY.html">LMSS - Aft Military Laser</a></td>
+                    <td>no</td>
+                    <td align="right">0</td>
+                    <td align="center">1+</td>
+                </tr>
+                <tr>
+                    <td><a href="../equipment/EQ_LMSS_AFT_MINING.html">LMSS - Aft Mining Laser</a></td>
+                    <td>no</td>
+                    <td align="right">0</td>
+                    <td align="center">1+</td>
+                </tr>
+                <tr>
+                    <td><a href="../equipment/EQ_LMSS_AFT_PULSE.html">LMSS - Aft Pulse Laser</a></td>
+                    <td>no</td>
+                    <td align="right">0</td>
+                    <td align="center">1+</td>
+                </tr>
+                <tr>
+                    <td><a href="../equipment/EQ_LMSS_AFT_REMOVAL.html">Remove LMSS - Aft Assembly</a></td>
+                    <td>no</td>
+                    <td align="right">2000</td>
+                    <td align="center">5+</td>
+                </tr>
+                <tr>
+                    <td><a href="../equipment/EQ_LMSS_AFT_WEAPON.html">LMSS - Aft Weapon</a></td>
+                    <td>no</td>
+                    <td align="right">0</td>
+                    <td align="center">1+</td>
+                </tr>
+                <tr>
+                    <td><a href="../equipment/EQ_LMSS_FRONT.html">LMSS - Forward Assembly</a></td>
+                    <td>yes</td>
+                    <td align="right">36000</td>
+                    <td align="center">8+</td>
+                </tr>
+                <tr>
+                    <td><a href="../equipment/EQ_LMSS_FRONT_BEAM.html">LMSS - Front Beam Laser</a></td>
+                    <td>no</td>
+                    <td align="right">0</td>
+                    <td align="center">1+</td>
+                </tr>
+                <tr>
+                    <td><a href="../equipment/EQ_LMSS_FRONT_MILITARY.html">LMSS - Front Military Laser</a></td>
+                    <td>no</td>
+                    <td align="right">0</td>
+                    <td align="center">1+</td>
+                </tr>
+                <tr>
+                    <td><a href="../equipment/EQ_LMSS_FRONT_MINING.html">LMSS - Front Mining Laser</a></td>
+                    <td>no</td>
+                    <td align="right">0</td>
+                    <td align="center">1+</td>
+                </tr>
+                <tr>
+                    <td><a href="../equipment/EQ_LMSS_FRONT_PULSE.html">LMSS - Front Pulse Laser</a></td>
+                    <td>no</td>
+                    <td align="right">0</td>
+                    <td align="center">1+</td>
+                </tr>
+                <tr>
+                    <td><a href="../equipment/EQ_LMSS_FRONT_REMOVAL.html">Remove LMSS - Forward Assembly</a></td>
+                    <td>no</td>
+                    <td align="right">2000</td>
+                    <td align="center">5+</td>
+                </tr>
+                <tr>
+                    <td><a href="../equipment/EQ_LMSS_FRONT_WEAPON.html">LMSS - Forward Weapon</a></td>
+                    <td>no</td>
+                    <td align="right">0</td>
+                    <td align="center">1+</td>
+                </tr>
+                <tr>
+                    <td><a href="../equipment/EQ_LMSS_PORT.html">LMSS - Port Assembly</a></td>
+                    <td>yes</td>
+                    <td align="right">36000</td>
+                    <td align="center">8+</td>
+                </tr>
+                <tr>
+                    <td><a href="../equipment/EQ_LMSS_PORT_BEAM.html">LMSS - Port Beam Laser</a></td>
+                    <td>no</td>
+                    <td align="right">0</td>
+                    <td align="center">1+</td>
+                </tr>
+                <tr>
+                    <td><a href="../equipment/EQ_LMSS_PORT_MILITARY.html">LMSS - Port Military Laser</a></td>
+                    <td>no</td>
+                    <td align="right">0</td>
+                    <td align="center">1+</td>
+                </tr>
+                <tr>
+                    <td><a href="../equipment/EQ_LMSS_PORT_MINING.html">LMSS - Port Mining Laser</a></td>
+                    <td>no</td>
+                    <td align="right">0</td>
+                    <td align="center">1+</td>
+                </tr>
+                <tr>
+                    <td><a href="../equipment/EQ_LMSS_PORT_PULSE.html">LMSS - Port Pulse Laser</a></td>
+                    <td>no</td>
+                    <td align="right">0</td>
+                    <td align="center">1+</td>
+                </tr>
+                <tr>
+                    <td><a href="../equipment/EQ_LMSS_PORT_REMOVAL.html">Remove LMSS - Port Assembly</a></td>
+                    <td>no</td>
+                    <td align="right">2000</td>
+                    <td align="center">5+</td>
+                </tr>
+                <tr>
+                    <td><a href="../equipment/EQ_LMSS_PORT_WEAPON.html">LMSS - Port Weapon</a></td>
+                    <td>no</td>
+                    <td align="right">0</td>
+                    <td align="center">1+</td>
+                </tr>
+                <tr>
+                    <td><a href="../equipment/EQ_LMSS_STARBOARD.html">LMSS - Starboard Assembly</a></td>
+                    <td>yes</td>
+                    <td align="right">36000</td>
+                    <td align="center">8+</td>
+                </tr>
+                <tr>
+                    <td><a href="../equipment/EQ_LMSS_STARBOARD_BEAM.html">LMSS - Starboard Beam Laser</a></td>
+                    <td>no</td>
+                    <td align="right">0</td>
+                    <td align="center">1+</td>
+                </tr>
+                <tr>
+                    <td><a href="../equipment/EQ_LMSS_STARBOARD_MILITARY.html">LMSS - Starboard Military Laser</a></td>
+                    <td>no</td>
+                    <td align="right">60500</td>
+                    <td align="center">11+</td>
+                </tr>
+                <tr>
+                    <td><a href="../equipment/EQ_LMSS_STARBOARD_MINING.html">LMSS - Starboard Mining Laser</a></td>
+                    <td>no</td>
+                    <td align="right">0</td>
+                    <td align="center">1+</td>
+                </tr>
+                <tr>
+                    <td><a href="../equipment/EQ_LMSS_STARBOARD_PULSE.html">LMSS - Starboard Pulse Laser</a></td>
+                    <td>no</td>
+                    <td align="right">0</td>
+                    <td align="center">1+</td>
+                </tr>
+                <tr>
+                    <td><a href="../equipment/EQ_LMSS_STARBOARD_REMOVAL.html">Remove LMSS - Starboard Assembly</a></td>
+                    <td>no</td>
+                    <td align="right">2000</td>
+                    <td align="center">5+</td>
+                </tr>
+                <tr>
+                    <td><a href="../equipment/EQ_LMSS_STARBOARD_WEAPON.html">LMSS - Starboard Weapon</a></td>
+                    <td>no</td>
+                    <td align="right">0</td>
+                    <td align="center">1+</td>
+                </tr>
+            </table>
+        </a>
+
+        <a name="ships">    
+        <h2>Ships</h2>
+            This expansion declares no ships. This may be related to warnings.
+        </a>
+
+        <a name="models">    
+        <h2>Models</h2>
+            This expansion declares no models. This may be related to warnings.
+        </a>
+
+        <a name="scripts">    
+        <h2>Scripts</h2>
+            <table>
+                <tr>
+                    <th>Path</th>
+                </tr>
+                <tr>
+                    <td valign="top">Scripts/lmss_activator.js</td>
+                    <td><pre>&quot;use strict&quot;;
+this.name = &quot;LMSS_Activator&quot;;
+this.author = &quot;phkb&quot;;
+this.copyright = &quot;2015 phkb&quot;;
+this.description = &quot;Switches the laser mount inflight between two lasers.&quot;;
+this.licence = &quot;CC BY-NC-SA 4.0&quot;;
+
+//======================================================================================================================
+this.activated = function () {
+
+	var p = player.ship;
+	var w = worldScripts.LMSS_Core;
+	var check = false;
+
+	switch (p.viewDirection) {
+		case &quot;VIEW_FORWARD&quot;:
+			check = w.$hasForwardLMSS();
+			if (check === true &amp;&amp; (!w._forwardTimer || w._forwardTimer.isRunning === false)) {
+				w.$switchForward();
+			} else {
+				if (check === false) this.$playAlertSound();
+			}
+			break;
+		case &quot;VIEW_AFT&quot;:
+			check = w.$hasAftLMSS();
+			if (check === true &amp;&amp; (!w._aftTimer || w._aftTimer.isRunning === false)) {
+				w.$switchAft();
+			} else {
+				if (check === false) this.$playAlertSound();
+			}
+			break;
+		case &quot;VIEW_PORT&quot;:
+			check = w.$hasPortLMSS();
+			if (check === true &amp;&amp; (!w._portTimer || w._portTimer.isRunning === false)) {
+				w.$switchPort();
+			} else {
+				if (check === false) this.$playAlertSound();
+			}
+			break;
+		case &quot;VIEW_STARBOARD&quot;:
+			check = w.$hasStarboardLMSS();
+			if (check === true &amp;&amp; (!w._starboardTimer || w._starboardTimer.isRunning === false)) {
+				w.$switchStarboard();
+			} else {
+				if (check === false) this.$playAlertSound();
+			}
+			break;
+	}
+}
+
+//-------------------------------------------------------------------------------------------------------------
+this.$playSound = function $playSound() {
+	var mySound = new SoundSource;
+	mySound.sound = &quot;[@boop]&quot;;
+	mySound.loop = false;
+	mySound.play();
+	player.consoleMessage(&quot;Unable to activate - installation error&quot;);
+}
+</pre></td>
+                </tr>
+                <tr>
+                    <td valign="top">Scripts/lmss_conditions.js</td>
+                    <td><pre>&quot;use strict&quot;;
+this.name = &quot;LMSS_Conditions&quot;;
+this.author = &quot;phkb&quot;;
+this.copyright = &quot;2015 phkb&quot;;
+this.description = &quot;Condition script for LMSS equipment items.&quot;;
+this.licence = &quot;CC BY-NC-SA 4.0&quot;;
+
+this.allowAwardEquipment = function (equipment, ship, context) {
+	// none of these items should be on a new ship
+	if (context === &quot;newShip&quot;) return false;
+
+	if (equipment === &quot;EQ_LMSS_ACTIVATOR&quot;) {
+		if (context === &quot;purchase&quot;) return false;
+	}
+
+	// these can only be installed via a script.
+	if ((equipment === &quot;EQ_LMSS_FRONT_WEAPON&quot; || equipment === &quot;EQ_LMSS_AFT_WEAPON&quot; || equipment === &quot;EQ_LMSS_PORT_WEAPON&quot; || equipment === &quot;EQ_LMSS_STARBOARD_WEAPON&quot;) &amp;&amp; context != &quot;scripted&quot;) return false;
+
+	// old equipment items aren&#39;t available for purchase anymore, but we need them for backwards compatibility
+	if (equipment.indexOf(&quot;EQ_LMSS_FRONT_&quot;) &gt;= 0 &amp;&amp; equipment.indexOf(&quot;_WEAPON&quot;) === -1) return false;
+	if (equipment.indexOf(&quot;EQ_LMSS_AFT_&quot;) &gt;= 0 &amp;&amp; equipment.indexOf(&quot;_WEAPON&quot;) === -1) return false;
+	if (equipment.indexOf(&quot;EQ_LMSS_PORT_&quot;) &gt;= 0 &amp;&amp; equipment.indexOf(&quot;_WEAPON&quot;) === -1) return false;
+	if (equipment.indexOf(&quot;EQ_LMSS_STARBOARD_&quot;) &gt;= 0 &amp;&amp; equipment.indexOf(&quot;_WEAPON&quot;) === -1) return false;
+
+	if (equipment === &quot;EQ_LMSS_FRONT&quot;) {
+		// does the ship have a forward mount?
+		if (&quot; 1 3 5 7 9 11 13 15 &quot;.indexOf(&quot; &quot; + ship.weaponFacings.toString() + &quot; &quot;) === -1)
+			return false;
+	}
+	if (equipment === &quot;EQ_LMSS_AFT&quot;) {
+		// does the ship have an aft mount?
+		if (&quot; 2 3 6 7 10 11 14 15 &quot;.indexOf(&quot; &quot; + ship.weaponFacings.toString() + &quot; &quot;) === -1)
+			return false;
+	}
+	if (equipment === &quot;EQ_LMSS_PORT&quot;) {
+		// does the ship have a port mount?
+		if (&quot; 4 5 6 7 12 13 14 15 &quot;.indexOf(&quot; &quot; + ship.weaponFacings.toString() + &quot; &quot;) === -1)
+			return false;
+	}
+	if (equipment === &quot;EQ_LMSS_STARBOARD&quot;) {
+		// does the ship have a starboard mount?
+		if (&quot; 8 9 10 11 12 13 14 15 &quot;.indexOf(&quot; &quot; + ship.weaponFacings.toString() + &quot; &quot;) === -1)
+			return false;
+	}
+
+	// OXP hook to allow stations to forbid specific equipment
+	if (context === &quot;purchase&quot; &amp;&amp; player.ship.dockedStation &amp;&amp; player.ship.dockedStation.scriptInfo[&quot;oolite-barred-equipment&quot;]) {
+		if (player.ship.dockedStation.scriptInfo[&quot;oolite-barred-equipment&quot;].indexOf(equipment) != -1) {
+			return false;
+		}
+	}
+
+	// OXP hook to allow ships to forbid specific &quot;available to all&quot; equipment
+	if (ship.scriptInfo &amp;&amp; ship.scriptInfo[&quot;oolite-barred-equipment&quot;] &amp;&amp; ship.scriptInfo[&quot;oolite-barred-equipment&quot;].indexOf(equipment) != -1) {
+		return false;
+	}
+
+	// otherwise allowed
+	return true;
+}</pre></td>
+                </tr>
+                <tr>
+                    <td valign="top">Scripts/lmss_core.js</td>
+                    <td><pre>&quot;use strict&quot;;
+this.name = &quot;LMSS_Core&quot;;
+this.author = &quot;phkb&quot;;
+this.copyright = &quot;2015 phkb&quot;;
+this.description = &quot;Laser Mount Switching System - Core code for weapon switcher&quot;;
+this.licence = &quot;CC BY-NC-SA 4.0&quot;;
+
+this._forwardAltKey = &quot;EQ_WEAPON_NONE&quot;;          // .
+this._aftAltKey = &quot;EQ_WEAPON_NONE&quot;;              //  | stores the equipment keys of the secondary laser mounts
+this._portAltKey = &quot;EQ_WEAPON_NONE&quot;;             //  |
+this._starboardAltKey = &quot;EQ_WEAPON_NONE&quot;;        // .
+this._forwardHoldKey = &quot;&quot;;                       // .
+this._aftHoldKey = &quot;&quot;;                           //  | Holding variables, used when switching lasers
+this._portHoldKey = &quot;&quot;;                          //  |
+this._starboardHoldKey = &quot;&quot;;                     // .
+this._disableEquipmentSale = false;              // flag to allow ship respray to know to keep any secondary lasers
+this._switching = false;
+
+this._defaultDelay = 10;                         // default amount of time it takes to switch weapons in flight
+this._incompatible = [&quot;EQ_WEAPON_LASER_COOLER&quot;]; // array of laser keys that can&#39;t be switched
+
+//-------------------------------------------------------------------------------------------------------------
+this.startUpComplete = function () {
+	var p = player.ship;
+	// check whether the actuator is installed, and if so, reduce the switching delay
+	if (p.equipmentStatus(&quot;EQ_LMSS_ACTUATOR&quot;) === &quot;EQUIPMENT_OK&quot;) this._defaultDelay = 6;
+
+	// read the secondary lasers from mission variables
+	this._forwardAltKey = missionVariables.LMSS_ForwardKey;
+	if (this._forwardAltKey === null) this._forwardAltKey = &quot;EQ_WEAPON_NONE&quot;;
+
+	this._aftAltKey = missionVariables.LMSS_AftKey;
+	if (this._aftAltKey === null) this._aftAltKey = &quot;EQ_WEAPON_NONE&quot;;
+
+	this._portAltKey = missionVariables.LMSS_PortKey;
+	if (this._portAltKey === null) this._portAltKey = &quot;EQ_WEAPON_NONE&quot;;
+
+	this._starboardAltKey = missionVariables.LMSS_StarboardKey;
+	if (this._starboardAltKey === null) this._starboardAltKey = &quot;EQ_WEAPON_NONE&quot;;
+
+	// some cleanup from previous versions
+	if (missionVariables.LMSS_ForwardName) delete missionVariables.LMSS_ForwardName;
+	if (missionVariables.LMSS_AftName) delete missionVariables.LMSS_AftName;
+	if (missionVariables.LMSS_PortName) delete missionVariables.LMSS_PortName;
+	if (missionVariables.LMSS_StarboardName) delete missionVariables.LMSS_StarboardName;
+
+	// look for any lasers from the previous version and convert
+	if (p.equipmentStatus(&quot;EQ_LMSS_FRONT_PULSE&quot;) === &quot;EQUIPMENT_OK&quot;) {
+		this._forwardAltKey = &quot;EQ_WEAPON_PULSE_LASER&quot;;
+		p.removeEquipment(&quot;EQ_LMSS_FRONT_PULSE&quot;);
+		p.awardEquipment(&quot;EQ_LMSS_FRONT_WEAPON&quot;);
+	}
+	if (p.equipmentStatus(&quot;EQ_LMSS_FRONT_BEAM&quot;) === &quot;EQUIPMENT_OK&quot;) {
+		this._forwardAltKey = &quot;EQ_WEAPON_BEAM_LASER&quot;;
+		p.removeEquipment(&quot;EQ_LMSS_FRONT_BEAM&quot;);
+		p.awardEquipment(&quot;EQ_LMSS_FRONT_WEAPON&quot;);
+	}
+	if (p.equipmentStatus(&quot;EQ_LMSS_FRONT_MINING&quot;) === &quot;EQUIPMENT_OK&quot;) {
+		this._forwardAltKey = &quot;EQ_WEAPON_MINING_LASER&quot;;
+		p.removeEquipment(&quot;EQ_LMSS_FRONT_MINING&quot;);
+		p.awardEquipment(&quot;EQ_LMSS_FRONT_WEAPON&quot;);
+	}
+	if (p.equipmentStatus(&quot;EQ_LMSS_FRONT_MILITARY&quot;) === &quot;EQUIPMENT_OK&quot;) {
+		this._forwardAltKey = &quot;EQ_WEAPON_MILITARY_LASER&quot;;
+		p.removeEquipment(&quot;EQ_LMSS_FRONT_MILITARY&quot;);
+		p.awardEquipment(&quot;EQ_LMSS_FRONT_WEAPON&quot;);
+	}
+
+	if (p.equipmentStatus(&quot;EQ_LMSS_AFT_PULSE&quot;) === &quot;EQUIPMENT_OK&quot;) {
+		this._aftAltKey = &quot;EQ_WEAPON_PULSE_LASER&quot;;
+		p.removeEquipment(&quot;EQ_LMSS_AFT_PULSE&quot;);
+		p.awardEquipment(&quot;EQ_LMSS_AFT_WEAPON&quot;);
+	}
+	if (p.equipmentStatus(&quot;EQ_LMSS_AFT_BEAM&quot;) === &quot;EQUIPMENT_OK&quot;) {
+		this._aftAltKey = &quot;EQ_WEAPON_BEAM_LASER&quot;;
+		p.removeEquipment(&quot;EQ_LMSS_AFT_BEAM&quot;);
+		p.awardEquipment(&quot;EQ_LMSS_AFT_WEAPON&quot;);
+	}
+	if (p.equipmentStatus(&quot;EQ_LMSS_AFT_MINING&quot;) === &quot;EQUIPMENT_OK&quot;) {
+		this._aftAltKey = &quot;EQ_WEAPON_MINING_LASER&quot;;
+		p.removeEquipment(&quot;EQ_LMSS_AFT_MINING&quot;);
+		p.awardEquipment(&quot;EQ_LMSS_AFT_WEAPON&quot;);
+	}
+	if (p.equipmentStatus(&quot;EQ_LMSS_AFT_MILITARY&quot;) === &quot;EQUIPMENT_OK&quot;) {
+		this._aftAltKey = &quot;EQ_WEAPON_MILITARY_LASER&quot;;
+		p.removeEquipment(&quot;EQ_LMSS_AFT_MILITARY&quot;);
+	}
+
+	if (p.equipmentStatus(&quot;EQ_LMSS_PORT_PULSE&quot;) === &quot;EQUIPMENT_OK&quot;) {
+		this._portAltKey = &quot;EQ_WEAPON_PULSE_LASER&quot;;
+		p.removeEquipment(&quot;EQ_LMSS_PORT_PULSE&quot;);
+		p.awardEquipment(&quot;EQ_LMSS_PORT_WEAPON&quot;);
+	}
+	if (p.equipmentStatus(&quot;EQ_LMSS_PORT_BEAM&quot;) === &quot;EQUIPMENT_OK&quot;) {
+		this._portAltKey = &quot;EQ_WEAPON_BEAM_LASER&quot;;
+		p.removeEquipment(&quot;EQ_LMSS_PORT_BEAM&quot;);
+		p.awardEquipment(&quot;EQ_LMSS_PORT_WEAPON&quot;);
+	}
+	if (p.equipmentStatus(&quot;EQ_LMSS_PORT_MINING&quot;) === &quot;EQUIPMENT_OK&quot;) {
+		this._portAltKey = &quot;EQ_WEAPON_MINING_LASER&quot;;
+		p.removeEquipment(&quot;EQ_LMSS_PORT_MINING&quot;);
+		p.awardEquipment(&quot;EQ_LMSS_PORT_WEAPON&quot;);
+	}
+	if (p.equipmentStatus(&quot;EQ_LMSS_PORT_MILITARY&quot;) === &quot;EQUIPMENT_OK&quot;) {
+		this._portAltKey = &quot;EQ_WEAPON_MILITARY_LASER&quot;;
+		p.removeEquipment(&quot;EQ_LMSS_PORT_MILITARY&quot;);
+		p.awardEquipment(&quot;EQ_LMSS_PORT_WEAPON&quot;);
+	}
+
+	if (p.equipmentStatus(&quot;EQ_LMSS_STARBOARD_PULSE&quot;) === &quot;EQUIPMENT_OK&quot;) {
+		this._starboardAltKey = &quot;EQ_WEAPON_PULSE_LASER&quot;;
+		p.removeEquipment(&quot;EQ_LMSS_STARBOARD_PULSE&quot;);
+		p.awardEquipment(&quot;EQ_LMSS_STARBOARD_WEAPON&quot;);
+	}
+	if (p.equipmentStatus(&quot;EQ_LMSS_STARBOARD_BEAM&quot;) === &quot;EQUIPMENT_OK&quot;) {
+		this._starboardAltKey = &quot;EQ_WEAPON_BEAM_LASER&quot;;
+		p.removeEquipment(&quot;EQ_LMSS_STARBOARD_BEAM&quot;);
+		p.awardEquipment(&quot;EQ_LMSS_STARBOARD_WEAPON&quot;);
+	}
+	if (p.equipmentStatus(&quot;EQ_LMSS_STARBOARD_MINING&quot;) === &quot;EQUIPMENT_OK&quot;) {
+		this._starboardAltKey = &quot;EQ_WEAPON_MINING_LASER&quot;;
+		p.removeEquipment(&quot;EQ_LMSS_STARBOARD_MINING&quot;);
+		p.awardEquipment(&quot;EQ_LMSS_STARBOARD_WEAPON&quot;);
+	}
+	if (p.equipmentStatus(&quot;EQ_LMSS_STARBOARD_MILITARY&quot;) === &quot;EQUIPMENT_OK&quot;) {
+		this._starboardAltKey = &quot;EQ_WEAPON_MILITARY_LASER&quot;;
+		p.removeEquipment(&quot;EQ_LMSS_STARBOARD_MILITARY&quot;);
+		p.awardEquipment(&quot;EQ_LMSS_STARBOARD_WEAPON&quot;);
+	}
+
+	this.$resetInterface();
+}
+
+//-------------------------------------------------------------------------------------------------------------
+this.playerWillSaveGame = function () {
+	missionVariables.LMSS_ForwardKey = this._forwardAltKey;
+	missionVariables.LMSS_ForwardName = this._forwardAltName;
+	missionVariables.LMSS_AftKey = this._aftAltKey;
+	missionVariables.LMSS_AftName = this._aftAltName;
+	missionVariables.LMSS_PortKey = this._portAltKey;
+	missionVariables.LMSS_PortName = this._portAltName;
+	missionVariables.LMSS_StarboardKey = this._starboardAltKey;
+	missionVariables.LMSS_StarboardName = this._starboardAltName;
+}
+
+//-------------------------------------------------------------------------------------------------------------
+this.shipWillDockWithStation = function (station) {
+	var p = player.ship;
+
+	this.$stopTimers();
+
+	// if an assembly was damaged during switching (or we were switching while docking), put the hold laser back in now
+	// the assumption is that we kicked the machine and got main laser back, but the switch assembly is still damaged
+	if (this._forwardHoldKey != &quot;&quot;) p.forwardWeapon = this._forwardHoldKey;
+	if (this._aftHoldKey != &quot;&quot;) p.aftWeapon = this._aftHoldKey;
+	if (this._portHoldKey != &quot;&quot;) p.portWeapon = this._portHoldKey;
+	if (this._starboardHoldKey != &quot;&quot;) p.starboardWeapon = this._starboardHoldKey;
+	this._forwardHoldKey = &quot;&quot;;
+	this._aftHoldKey = &quot;&quot;;
+	this._portHoldKey = &quot;&quot;;
+	this._starboardHoldKey = &quot;&quot;;
+
+	if (p.equipmentStatus(&quot;EQ_LMSS_ACTIVATOR&quot;) === &quot;EQUIPMENT_OK&quot;) {
+		this.$initInterface(station);
+	}
+	this.$updateManifest();
+}
+
+//-------------------------------------------------------------------------------------------------------------
+this.shipDied = function (whom, why) {
+	this.$stopTimers();
+}
+
+//-------------------------------------------------------------------------------------------------------------
+this.equipmentDamaged = function (equipmentKey) {
+	// check if the associated timer is running - if it is, stop it - we just lost the laser!
+	switch (equipmentKey) {
+		case &quot;EQ_LMSS_ACTUATOR&quot;:
+			// if the actuator gets damaged, switch back to the longer delay
+			this._defaultDelay = 10;
+			break;
+		case &quot;EQ_LMSS_FRONT&quot;:
+			if (this._forwardTimer &amp;&amp; this._forwardTimer.isRunning) this._forwardTimer.stop();
+			break;
+		case &quot;EQ_LMSS_AFT&quot;:
+			if (this._aftTimer &amp;&amp; this._aftTimer.isRunning) this._aftTimer.stop();
+			break;
+		case &quot;EQ_LMSS_PORT&quot;:
+			if (this._portTimer &amp;&amp; this._portTimer.isRunning) this._portTimer.stop();
+			break;
+		case &quot;EQ_LMSS_STARBOARD&quot;:
+			if (this._starboardTimer &amp;&amp; this._starboardTimer.isRunning) this._starboardTimer.stop();
+			break;
+	}
+}
+
+//-------------------------------------------------------------------------------------------------------------
+// handles any repair that happens mid-flight (via repair bots)
+this.equipmentRepaired = function (equipmentKey) {
+	var p = player.ship;
+	if (p.status != &quot;STATUS_IN_FLIGHT&quot;) return;
+
+	switch (equipmentKey) {
+		case &quot;EQ_LMSS_ACTUATOR&quot;:
+			// if the actuator gets repaired in flight (via repair bots), switch to the shorter delay
+			this._defaultDelay = 6;
+			break;
+		case &quot;EQ_LMSS_FRONT&quot;:
+			if (this._forwardHoldKey != &quot;&quot;) {
+				p.forwardWeapon = this._forwardHoldKey;
+				this._forwardHoldKey = &quot;&quot;;
+				this.$updateManifest();
+			}
+			break;
+		case &quot;EQ_LMSS_AFT&quot;:
+			if (this._aftHoldKey != &quot;&quot;) {
+				p.aftWeapon = this._aftHoldKey;
+				this._aftHoldKey = &quot;&quot;;
+				this.$updateManifest();
+			}
+			break;
+		case &quot;EQ_LMSS_PORT&quot;:
+			if (this._portHoldKey != &quot;&quot;) {
+				p.portWeapon = this._portHoldKey;
+				this._portHoldKey = &quot;&quot;;
+				this.$updateManifest();
+			}
+			break;
+		case &quot;EQ_LMSS_STARBOARD&quot;:
+			if (this._starboardHoldKey != &quot;&quot;) {
+				p.starboardWeapon = this._starboardHoldKey;
+				this._starboardHoldKey = &quot;&quot;;
+				this.$updateManifest();
+			}
+			break;
+	}
+}
+
+//-------------------------------------------------------------------------------------------------------------
+this.equipmentAdded = function (equipmentKey) {
+	// auto add the switcher utility, so we only get one of them
+	if (equipmentKey === &quot;EQ_LMSS_FRONT&quot; || equipmentKey === &quot;EQ_LMSS_AFT&quot; || equipmentKey === &quot;EQ_LMSS_PORT&quot; || equipmentKey === &quot;EQ_LMSS_STARBOARD&quot;) {
+		var p = player.ship;
+		if (p.equipmentStatus(&quot;EQ_LMSS_ACTIVATOR&quot;) != &quot;EQUIPMENT_OK&quot;) {
+			p.awardEquipment(&quot;EQ_LMSS_ACTIVATOR&quot;);
+		}
+	}
+}
+
+//-------------------------------------------------------------------------------------------------------------
+this.equipmentRemoved = function (equipmentKey) {
+	// auto-remove the switcher utility
+	if (equipmentKey === &quot;EQ_LMSS_FRONT&quot; || equipmentKey === &quot;EQ_LMSS_AFT&quot; || equipmentKey === &quot;EQ_LMSS_PORT&quot; || equipmentKey === &quot;EQ_LMSS_STARBOARD&quot;) {
+		var p = player.ship;
+		if (p.equipmentStatus(&quot;EQ_LMSS_FRONT&quot;) != &quot;EQUIPMENT_OK&quot; &amp;&amp; p.equipmentStatus(&quot;EQ_LMSS_AFT&quot;) != &quot;EQUIPMENT_OK&quot; &amp;&amp; p.equipmentStatus(&quot;EQ_LMSS_PORT&quot;) != &quot;EQUIPMENT_OK&quot; &amp;&amp; p.equipmentStatus(&quot;EQ_LMSS_STARBOARD&quot;) != &quot;EQUIPMENT_OK&quot;) {
+			if (p.equipmentStatus(&quot;EQ_LMSS_ACTIVATOR&quot;) == &quot;EQUIPMENT_OK&quot;) {
+				p.removeEquipment(&quot;EQ_LMSS_ACTIVATOR&quot;);
+			}
+		}
+	}
+}
+
+//-------------------------------------------------------------------------------------------------------------
+this.guiScreenChanged = function (to, from) {
+	// monitor which screens we go to, and reset the &quot;disable equipment sale&quot; flag when we move away from one one these screens
+	if (guiScreen != &quot;GUI_SCREEN_EQUIP_SHIP&quot; &amp;&amp; guiScreen != &quot;GUI_SCREEN_MISSION&quot; &amp;&amp; guiScreen != &quot;GUI_SCREEN_STATUS&quot;) {
+		this._disableEquipmentSale === false
+	}
+}
+
+//-------------------------------------------------------------------------------------------------------------
+this.playerBoughtEquipment = function (equipmentKey) {
+	var p = player.ship;
+
+	// if the player purchases a respray for their ship, turn on a flag to stop the sale of equipment items during the &quot;playerBoughtNewShip&quot; event
+	if (equipmentKey === &quot;EQ_SHIP_RESPRAY&quot; || equipmentKey === &quot;EQ_SHIP_RESPRAY_180&quot;) {
+		this._disableEquipmentSale = true;
+		return;
+	}
+
+	// auto add the switcher utility, so we only get one of them
+	if (equipmentKey === &quot;EQ_LMSS_FRONT&quot; || equipmentKey === &quot;EQ_LMSS_AFT&quot; || equipmentKey === &quot;EQ_LMSS_PORT&quot; || equipmentKey === &quot;EQ_LMSS_STARBOARD&quot;) {
+		/*if (p.equipmentStatus(&quot;EQ_LMSS_ACTIVATOR&quot;) != &quot;EQUIPMENT_OK&quot;) {
+			p.awardEquipment(&quot;EQ_LMSS_ACTIVATOR&quot;);
+		}*/
+		this.$initInterface(p.dockedStation);
+	}
+	// are we removing one of the positions?
+	if (equipmentKey.indexOf(&quot;EQ_LMSS_&quot;) &gt;= 0 &amp;&amp; equipmentKey.indexOf(&quot;_REMOVAL&quot;) &gt;= 0) {
+		if (equipmentKey === &quot;EQ_LMSS_FRONT_REMOVAL&quot;) {
+			p.removeEquipment(&quot;EQ_LMSS_FRONT&quot;);
+			p.removeEquipment(&quot;EQ_LMSS_FRONT_REMOVAL&quot;);
+			if (this._forwardAltKey != &quot;&quot; &amp;&amp; this._forwardAltKey != &quot;EQ_WEAPON_NONE&quot;) {
+				p.removeEquipment(&quot;EQ_LMSS_FRONT_WEAPON&quot;);
+				this.$refundItemAfterNewShip(this._forwardAltKey);
+			}
+			this._forwardAltKey = &quot;EQ_WEAPON_NONE&quot;;
+		}
+		if (equipmentKey === &quot;EQ_LMSS_AFT_REMOVAL&quot;) {
+			p.removeEquipment(&quot;EQ_LMSS_AFT&quot;);
+			p.removeEquipment(&quot;EQ_LMSS_AFT_REMOVAL&quot;);
+			if (this._aftAltKey != &quot;&quot; &amp;&amp; this._aftAltKey != &quot;EQ_WEAPON_NONE&quot;) {
+				p.removeEquipment(&quot;EQ_LMSS_AFT_WEAPON&quot;);
+				this.$refundItemAfterNewShip(this._aftAltKey);
+			}
+			this._aftAltKey = &quot;EQ_WEAPON_NONE&quot;;
+		}
+		if (equipmentKey === &quot;EQ_LMSS_PORT_REMOVAL&quot;) {
+			p.removeEquipment(&quot;EQ_LMSS_PORT&quot;);
+			p.removeEquipment(&quot;EQ_LMSS_PORT_REMOVAL&quot;);
+			if (this._portAltKey != &quot;&quot; &amp;&amp; this._portAltKey != &quot;EQ_WEAPON_NONE&quot;) {
+				p.removeEquipment(&quot;EQ_LMSS_PORT_WEAPON&quot;);
+				this.$refundItemAfterNewShip(this._portAltKey);
+			}
+			this._portAltKey = &quot;EQ_WEAPON_NONE&quot;;
+		}
+		if (equipmentKey === &quot;EQ_LMSS_STARBOARD_REMOVAL&quot;) {
+			p.removeEquipment(&quot;EQ_LMSS_STARBOARD&quot;);
+			p.removeEquipment(&quot;EQ_LMSS_STARBOARD_REMOVAL&quot;);
+			if (this._starboardAltKey != &quot;&quot; &amp;&amp; this._starboardAltKey != &quot;EQ_WEAPON_NONE&quot;) {
+				p.removeEquipment(&quot;EQ_LMSS_STARBOARD_WEAPON&quot;);
+				this.$refundItemAfterNewShip(this._starboardAltKey);
+			}
+			this._starboardAltKey = &quot;EQ_WEAPON_NONE&quot;;
+		}
+		// if we&#39;ve removed all the positions, then remove the activator as well
+		if (p.equipmentStatus(&quot;EQ_LMSS_FRONT&quot;) != &quot;EQUIPMENT_OK&quot; &amp;&amp; p.equipmentStatus(&quot;EQ_LMSS_AFT&quot;) != &quot;EQUIPMENT_OK&quot; &amp;&amp;
+			p.equipmentStatus(&quot;EQ_LMSS_PORT&quot;) != &quot;EQUIPMENT_OK&quot; &amp;&amp; p.equipmentStatus(&quot;EQ_LMSS_STARBOARD&quot;) != &quot;EQUIPMENT_OK&quot;) {
+			p.removeEquipment(&quot;EQ_LMSS_ACTIVATOR&quot;);
+		}
+		this.$resetInterface();
+	}
+	if (equipmentKey === &quot;EQ_LMSS_ACTUATOR_REMOVAL&quot;) {
+		p.removeEquipment(&quot;EQ_LMSS_ACTUATOR&quot;);
+		p.removeEquipment(&quot;EQ_LMSS_ACTUATOR_REMOVAL&quot;);
+		// reset the delay back to the original time
+		this._defaultDelay = 10;
+	}
+	if (equipmentKey === &quot;EQ_LMSS_ACTUATOR&quot;) {
+		this._defaultDelay = 6;
+	}
+}
+
+//-------------------------------------------------------------------------------------------------------------
+// if a new ship is bought, refund any secondary lasers to the player
+this.playerBoughtNewShip = function (ship, price) {
+	// if the new ship is part of a respray, don&#39;t sell anything, but set a timer to reset the interfaces after the sale has completed.
+	if (this._disableEquipmentSale === true) {
+		this._resetInterface = new Timer(this, this.$resetInterface, 1, 0);
+		return;
+	}
+
+	if (this._forwardAltKey != &quot;&quot; &amp;&amp; this._forwardAltKey != &quot;EQ_WEAPON_NONE&quot;) this.$refundItemAfterNewShip(this._forwardAltKey);
+	if (this._aftAltKey != &quot;&quot; &amp;&amp; this._aftAltKey != &quot;EQ_WEAPON_NONE&quot;) this.$refundItemAfterNewShip(this._aftAltKey);
+	if (this._portAltKey != &quot;&quot; &amp;&amp; this._portAltKey != &quot;EQ_WEAPON_NONE&quot;) this.$refundItemAfterNewShip(this._portAltKey);
+	if (this._starboardAltKey != &quot;&quot; &amp;&amp; this._starboardAltKey != &quot;EQ_WEAPON_NONE&quot;) this.$refundItemAfterNewShip(this._starboardAltKey);
+	// reset the secondary laser variables
+	this._forwardAltKey = &quot;EQ_WEAPON_NONE&quot;;
+	this._aftAltKey = &quot;EQ_WEAPON_NONE&quot;;
+	this._portAltKey = &quot;EQ_WEAPON_NONE&quot;;
+	this._starboardAltKey = &quot;EQ_WEAPON_NONE&quot;;
+
+	this.$resetInterface();
+}
+
+//-------------------------------------------------------------------------------------------------------------
+// used to reset the interface screen after equipment purchase
+this.$resetInterface = function $resetInterface() {
+	this.$updateManifest();
+	this.$initInterface(player.ship.dockedStation);
+}
+
+//-------------------------------------------------------------------------------------------------------------
+// refund price of equipment to player
+this.$refundItemAfterNewShip = function $refundItemAfterNewShip(equipment) {
+	var laser = EquipmentInfo.infoForKey(equipment);
+	player.credits += laser.price / 10;
+}
+
+//-------------------------------------------------------------------------------------------------------------
+// updates the manifest screen with details of all secondary lasers
+this.$updateManifest = function $updateManifest() {
+	var list = [];
+	var p = player.ship;
+	list.push(&quot;LMSS Secondary Laser Installations:&quot;);
+
+	if (p.equipmentStatus(&quot;EQ_LMSS_FRONT_WEAPON&quot;) === &quot;EQUIPMENT_OK&quot;) {
+		if (this._forwardHoldKey != &quot;&quot;) {
+			list.push(&quot;Forward: --being switched--&quot;);
+		} else {
+			list.push(&quot;Forward: &quot; + this.$getEquipmentName(this._forwardAltKey, &quot;FORWARD&quot;, false));
+		}
+	}
+	if (p.equipmentStatus(&quot;EQ_LMSS_AFT_WEAPON&quot;) === &quot;EQUIPMENT_OK&quot;) {
+		if (this._aftHoldKey != &quot;&quot;) {
+			list.push(&quot;Aft: --being switched--&quot;);
+		} else {
+			list.push(&quot;Aft: &quot; + this.$getEquipmentName(this._aftAltKey, &quot;AFT&quot;, false));
+		}
+	}
+	if (p.equipmentStatus(&quot;EQ_LMSS_PORT_WEAPON&quot;) === &quot;EQUIPMENT_OK&quot;) {
+		if (this._portHoldKey != &quot;&quot;) {
+			list.push(&quot;Port: --being switched--&quot;);
+		} else {
+			list.push(&quot;Port: &quot; + this.$getEquipmentName(this._portAltKey, &quot;PORT&quot;, false));
+		}
+	}
+	if (p.equipmentStatus(&quot;EQ_LMSS_STARBOARD_WEAPON&quot;) === &quot;EQUIPMENT_OK&quot;) {
+		if (this._starboardHoldKey != &quot;&quot;) {
+			list.push(&quot;Starboard: --being switched--&quot;);
+		} else {
+			list.push(&quot;Starboard: &quot; + this.$getEquipmentName(this._starboardAltKey, &quot;STARBOARD&quot;, false));
+		}
+	}
+
+	if (list.length === 1) {
+		// no secondary lasers installed
+		mission.setInstructions(null);
+	} else {
+		mission.setInstructions(list, this.name);
+	}
+
+	this.$updateXenonHUD();
+
+}
+
+//-------------------------------------------------------------------------------------------------------------
+// establishes the F4 interface for switching laser mounts while docked
+this.$initInterface = function $initInterface(station) {
+	var p = player.ship;
+	if (p.equipmentStatus(&quot;EQ_LMSS_ACTIVATOR&quot;) === &quot;EQUIPMENT_OK&quot;) {
+		station.setInterface(this.name, {
+			title: &quot;LMSS dockside services&quot;,
+			category: &quot;Ship Systems&quot;,
+			summary: &quot;Provides configuration options for the Laser Mount Switching system while in dock&quot;,
+			callback: this.$showLMSSList.bind(this)
+		});
+	} else {
+		station.setInterface(this.name, null);
+	}
+}
+
+//-------------------------------------------------------------------------------------------------------------
+// displays the dockside switching options
+this.$showLMSSList = function $showLMSSList() {
+	var p = player.ship;
+	var curChoices = {};
+	var text = &quot;Select the laser mount you want to switch:\n\n&quot;;
+	var def = &quot;99_EXIT&quot;;
+
+	if (worldScripts.LaserArrangement &amp;&amp; p.weaponFacings &gt; 1) {
+		curChoices[&quot;00_LA&quot;] = {
+			text: &quot;Primary laser arrangement&quot;
+		};
+	}
+
+	if (p.equipmentStatus(&quot;EQ_LMSS_FRONT&quot;) === &quot;EQUIPMENT_OK&quot;) {
+		text += &quot;Forward:\n&quot;;
+		text += &quot;  Primary: &quot; + (p.forwardWeapon.equipmentKey === &quot;EQ_WEAPON_NONE&quot; ? &quot;--None--&quot; : this.$getEquipmentName(p.forwardWeapon.equipmentKey, &quot;FORWARD&quot;, true)) + &quot;\n&quot;;
+		text += &quot;  Secondary: &quot; + this.$getEquipmentName(this._forwardAltKey, &quot;FORWARD&quot;, false) + &quot;\n&quot;;
+		curChoices[&quot;01_FORWARD&quot;] = {
+			text: &quot;Switch forward lasers&quot;,
+			color: &quot;orangeColor&quot;
+		};
+	}
+	if (p.equipmentStatus(&quot;EQ_LMSS_AFT&quot;) === &quot;EQUIPMENT_OK&quot;) {
+		text += &quot;Aft:\n&quot;;
+		text += &quot;  Primary: &quot; + (p.aftWeapon.equipmentKey === &quot;EQ_WEAPON_NONE&quot; ? &quot;--None--&quot; : this.$getEquipmentName(p.aftWeapon.equipmentKey, &quot;AFT&quot;, true)) + &quot;\n&quot;;
+		text += &quot;  Secondary: &quot; + this.$getEquipmentName(this._aftAltKey, &quot;AFT&quot;, false) + &quot;\n&quot;;
+		curChoices[&quot;02_AFT&quot;] = {
+			text: &quot;Switch aft lasers&quot;,
+			color: &quot;orangeColor&quot;
+		};
+	}
+	if (p.equipmentStatus(&quot;EQ_LMSS_PORT&quot;) === &quot;EQUIPMENT_OK&quot;) {
+		text += &quot;Port:\n&quot;;
+		text += &quot;  Primary: &quot; + (p.portWeapon.equipmentKey === &quot;EQ_WEAPON_NONE&quot; ? &quot;--None--&quot; : this.$getEquipmentName(p.portWeapon.equipmentKey, &quot;PORT&quot;, true)) + &quot;\n&quot;;
+		text += &quot;  Secondary: &quot; + this.$getEquipmentName(this._portAltKey, &quot;PORT&quot;, false) + &quot;\n&quot;;
+		curChoices[&quot;03_PORT&quot;] = {
+			text: &quot;Switch port lasers&quot;,
+			color: &quot;orangeColor&quot;
+		};
+	}
+	if (p.equipmentStatus(&quot;EQ_LMSS_STARBOARD&quot;) === &quot;EQUIPMENT_OK&quot;) {
+		text += &quot;Starboard:\n&quot;;
+		text += &quot;  Primary: &quot; + (p.starboardWeapon.equipmentKey === &quot;EQ_WEAPON_NONE&quot; ? &quot;--None--&quot; : this.$getEquipmentName(p.starboardWeapon.equipmentKey, &quot;STARBOARD&quot;, true)) + &quot;\n&quot;;
+		text += &quot;  Secondary: &quot; + this.$getEquipmentName(this._starboardAltKey, &quot;STARBOARD&quot;, false) + &quot;\n&quot;;
+		curChoices[&quot;04_STARBOARD&quot;] = {
+			text: &quot;Switch starboard lasers&quot;,
+			color: &quot;orangeColor&quot;
+		};
+	}
+
+	curChoices[&quot;99_EXIT&quot;] = &quot;Exit&quot;;
+
+	var opts = {
+		screenID: &quot;oolite-lmss-dockside-map&quot;,
+		title: &quot;LMSS Dockside Services&quot;,
+		allowInterrupt: true,
+		exitScreen: &quot;GUI_SCREEN_INTERFACES&quot;,
+		overlay: {
+			name: &quot;lmss-arrow.png&quot;,
+			height: 546
+		},
+		choices: curChoices,
+		initialChoicesKey: def,
+		message: text
+	};
+	mission.runScreen(opts, this.$screenHandler, this);
+}
+
+//-------------------------------------------------------------------------------------------------------------
+// handles user input from the interface screen
+this.$screenHandler = function $screenHandler(choice) {
+	if (choice == null) return;
+
+	switch (choice) {
+		case &quot;00_LA&quot;:
+			worldScripts.LaserArrangement.$showInitial();
+			return;
+		case &quot;01_FORWARD&quot;:
+			this.$switchImmediate(&quot;FORWARD&quot;);
+			break;
+		case &quot;02_AFT&quot;:
+			this.$switchImmediate(&quot;AFT&quot;);
+			break;
+		case &quot;03_PORT&quot;:
+			this.$switchImmediate(&quot;PORT&quot;);
+			break;
+		case &quot;04_STARBOARD&quot;:
+			this.$switchImmediate(&quot;STARBOARD&quot;);
+			break;
+	}
+
+	if (choice != &quot;99_EXIT&quot;) {
+		this.$showLMSSList();
+	}
+}
+
+//-------------------------------------------------------------------------------------------------------------
+// switches laser mounts immediately (used only when docked)
+this.$switchImmediate = function $switchImmediate(position) {
+	var p = player.ship;
+	var key = &quot;&quot;;
+
+	this._switching = true;
+
+	//log(this.name, &quot;pre forward primary &quot; + p.forwardWeapon.equipmentKey);
+	//log(this.name, &quot;pre forward secondary &quot; + this._forwardAltKey);
+	switch (position) {
+		case &quot;FORWARD&quot;:
+			if (this._forwardAltKey === &quot;EQ_WEAPON_NONE&quot;) p.awardEquipment(&quot;EQ_LMSS_FRONT_WEAPON&quot;);
+			if (p.forwardWeapon.equipmentKey === &quot;EQ_WEAPON_NONE&quot;) p.removeEquipment(&quot;EQ_LMSS_FRONT_WEAPON&quot;);
+			key = p.forwardWeapon.equipmentKey;
+			p.forwardWeapon = this._forwardAltKey;
+			this._forwardAltKey = key;
+			break;
+		case &quot;AFT&quot;:
+			if (this._aftAltKey === &quot;EQ_WEAPON_NONE&quot;) p.awardEquipment(&quot;EQ_LMSS_AFT_WEAPON&quot;);
+			if (p.aftWeapon.equipmentKey === &quot;EQ_WEAPON_NONE&quot;) p.removeEquipment(&quot;EQ_LMSS_AFT_WEAPON&quot;);
+			key = p.aftWeapon.equipmentKey;
+			p.aftWeapon = this._aftAltKey;
+			this._aftAltKey = key;
+			break;
+		case &quot;PORT&quot;:
+			if (this._portAltKey === &quot;EQ_WEAPON_NONE&quot;) p.awardEquipment(&quot;EQ_LMSS_PORT_WEAPON&quot;);
+			if (p.portWeapon.equipmentKey === &quot;EQ_WEAPON_NONE&quot;) p.removeEquipment(&quot;EQ_LMSS_PORT_WEAPON&quot;);
+			key = p.portWeapon.equipmentKey;
+			p.portWeapon = this._portAltKey;
+			this._portAltKey = key;
+			break;
+		case &quot;STARBOARD&quot;:
+			if (this._starboardAltKey === &quot;EQ_WEAPON_NONE&quot;) p.awardEquipment(&quot;EQ_LMSS_STARBOARD_WEAPON&quot;);
+			if (p.starboardWeapon.equipmentKey === &quot;EQ_WEAPON_NONE&quot;) p.removeEquipment(&quot;EQ_LMSS_STARBOARD_WEAPON&quot;);
+			key = p.starboardWeapon.equipmentKey;
+			p.starboardWeapon = this._starboardAltKey;
+			this._starboardAltKey = key;
+			break;
+	}
+	//log(this.name, &quot;post forward primary &quot; + p.forwardWeapon.equipmentKey);
+	//log(this.name, &quot;post forward secondary &quot; + this._forwardAltKey);
+	// switch breakable laser info, if present
+	if (worldScripts.BreakableLasers_Main) worldScripts.BreakableLasers_Main.$switchPosition(position);
+
+	this._switching = false;
+
+	this.$updateManifest();
+}
+
+//-------------------------------------------------------------------------------------------------------------
+// stops any running timers
+this.$stopTimers = function $stopTimers() {
+	if (this._forwardTimer &amp;&amp; this._forwardTimer.isRunning) this._forwardTimer.stop();
+	if (this._aftTimer &amp;&amp; this._aftTimer.isRunning) this._aftTimer.stop();
+	if (this._portTimer &amp;&amp; this._portTimer.isRunning) this._portTimer.stop();
+	if (this._starboardTimer &amp;&amp; this._starboardTimer.isRunning) this._starboardTimer.stop();
+}
+
+//-------------------------------------------------------------------------------------------------------------
+// does player have the activator and a secondary laser in the forward mount?
+this.$hasForwardLMSS = function $hasForwardLMSS() {
+	var p = player.ship;
+	if (p.equipmentStatus(&quot;EQ_LMSS_FRONT&quot;) === &quot;EQUIPMENT_OK&quot; &amp;&amp;
+		p.equipmentStatus(&quot;EQ_LMSS_FRONT_WEAPON&quot;) === &quot;EQUIPMENT_OK&quot; &amp;&amp;
+		this._incompatible.indexOf(p.forwardWeapon.equipmentKey) === -1) {
+		return true;
+	} else {
+		return false;
+	}
+}
+
+//-------------------------------------------------------------------------------------------------------------
+// does player have the activator and a secondary laser in the aft mount?
+this.$hasAftLMSS = function $hasAftLMSS() {
+	var p = player.ship;
+	if (p.equipmentStatus(&quot;EQ_LMSS_AFT&quot;) === &quot;EQUIPMENT_OK&quot; &amp;&amp;
+		p.equipmentStatus(&quot;EQ_LMSS_AFT_WEAPON&quot;) === &quot;EQUIPMENT_OK&quot; &amp;&amp;
+		this._incompatible.indexOf(p.aftWeapon.equipmentKey) === -1) {
+		return true;
+	} else {
+		return false;
+	}
+}
+
+//-------------------------------------------------------------------------------------------------------------
+// does player have the activator and a secondary laser in the port mount?
+this.$hasPortLMSS = function $hasPortLMSS() {
+	var p = player.ship;
+	if (p.equipmentStatus(&quot;EQ_LMSS_PORT&quot;) === &quot;EQUIPMENT_OK&quot; &amp;&amp;
+		p.equipmentStatus(&quot;EQ_LMSS_PORT_WEAPON&quot;) === &quot;EQUIPMENT_OK&quot; &amp;&amp;
+		this._incompatible.indexOf(p.portWeapon.equipmentKey) === -1) {
+		return true;
+	} else {
+		return false;
+	}
+}
+
+//-------------------------------------------------------------------------------------------------------------
+// does player have the activator and a secondary laser in the starboard mount?
+this.$hasStarboardLMSS = function $hasStarboardLMSS() {
+	var p = player.ship;
+	if (p.equipmentStatus(&quot;EQ_LMSS_STARBOARD&quot;) === &quot;EQUIPMENT_OK&quot; &amp;&amp;
+		p.equipmentStatus(&quot;EQ_LMSS_STARBOARD_WEAPON&quot;) === &quot;EQUIPMENT_OK&quot; &amp;&amp;
+		this._incompatible.indexOf(p.starboardWeapon.equipmentKey) === -1) {
+		return true;
+	} else {
+		return false;
+	}
+}
+
+//-------------------------------------------------------------------------------------------------------------
+// start the process of switching the forward laser
+this.$switchForward = function $switchForward() {
+	var p = player.ship;
+	if (p.equipmentStatus(&quot;EQ_LBOOST_PULSE_FWD&quot;) == &quot;EQUIPMENT_DAMAGED&quot; || 
+		p.equipmentStatus(&quot;EQ_LBOOST_BEAM_FWD&quot;) == &quot;EQUIPMENT_DAMAGED&quot; || 
+		p.equipmentStatus(&quot;EQ_LBOOST_MINING_FWD&quot;) == &quot;EQUIPMENT_DAMAGED&quot; || 
+		p.equipmentStatus(&quot;EQ_LBOOST_MILITARY_FWD&quot;) == &quot;EQUIPMENT_DAMAGED&quot;) {
+		player.consoleMessage(&quot;Unable to activate - forward laser damaged&quot;);
+		return;
+	}
+	// first, remove the existing laser and store a value so that we can put it back
+	player.consoleMessage(&quot;FORWARD laser deactivated&quot;);
+	// put the key in the holding spot
+	this._forwardHoldKey = p.forwardWeapon.equipmentKey;
+	p.forwardWeapon = &quot;EQ_WEAPON_NONE&quot;;
+	this.$updateManifest();
+	// start a timer to load up the secondary laser
+	this._forwardTimer = new Timer(this, this.$installLaserForward, this._defaultDelay, 0);
+	this.$playSound();
+}
+
+//-------------------------------------------------------------------------------------------------------------
+// start the process of switching the aft laser
+this.$switchAft = function $switchAft() {
+	var p = player.ship;
+	if (p.equipmentStatus(&quot;EQ_LBOOST_PULSE_AFT&quot;) == &quot;EQUIPMENT_DAMAGED&quot; || 
+		p.equipmentStatus(&quot;EQ_LBOOST_BEAM_AFT&quot;) == &quot;EQUIPMENT_DAMAGED&quot; || 
+		p.equipmentStatus(&quot;EQ_LBOOST_MINING_AFT&quot;) == &quot;EQUIPMENT_DAMAGED&quot; || 
+		p.equipmentStatus(&quot;EQ_LBOOST_MILITARY_AFT&quot;) == &quot;EQUIPMENT_DAMAGED&quot;) {
+		player.consoleMessage(&quot;Unable to activate - aft laser damaged&quot;);
+		return;
+	}
+	// first, remove the existing laser and store a value so that we can put it back
+	player.consoleMessage(&quot;AFT laser deactivated&quot;);
+	// put the key in the holding spot
+	this._aftHoldKey = p.aftWeapon.equipmentKey;
+	p.aftWeapon = &quot;EQ_WEAPON_NONE&quot;;
+	this.$updateManifest();
+	// start a timer to load up the secondary laser
+	this._aftTimer = new Timer(this, this.$installLaserAft, this._defaultDelay, 0);
+	this.$playSound();
+}
+
+//-------------------------------------------------------------------------------------------------------------
+// start the process of switching the port laser
+this.$switchPort = function $switchPort() {
+	var p = player.ship;
+	if (p.equipmentStatus(&quot;EQ_LBOOST_PULSE_PORT&quot;) == &quot;EQUIPMENT_DAMAGED&quot; || 
+		p.equipmentStatus(&quot;EQ_LBOOST_BEAM_PORT&quot;) == &quot;EQUIPMENT_DAMAGED&quot; || 
+		p.equipmentStatus(&quot;EQ_LBOOST_MINING_PORT&quot;) == &quot;EQUIPMENT_DAMAGED&quot; || 
+		p.equipmentStatus(&quot;EQ_LBOOST_MILITARY_PORT&quot;) == &quot;EQUIPMENT_DAMAGED&quot;) {
+		player.consoleMessage(&quot;Unable to activate - port laser damaged&quot;);
+		return;
+	}
+	// first, remove the existing laser and store a value so that we can put it back
+	player.consoleMessage(&quot;PORT laser deactivated&quot;);
+	// put the key in the holding spot
+	this._portHoldKey = p.portWeapon.equipmentKey;
+	p.portWeapon = &quot;EQ_WEAPON_NONE&quot;;
+	this.$updateManifest();
+	// start a timer to load up the secondary laser
+	this._portTimer = new Timer(this, this.$installLaserPort, this._defaultDelay, 0);
+	this.$playSound();
+}
+
+//-------------------------------------------------------------------------------------------------------------
+// start the process of switching the starboard laser
+this.$switchStarboard = function $switchStarboard() {
+	var p = player.ship;
+	if (p.equipmentStatus(&quot;EQ_LBOOST_PULSE_STAR&quot;) == &quot;EQUIPMENT_DAMAGED&quot; || 
+		p.equipmentStatus(&quot;EQ_LBOOST_BEAM_STAR&quot;) == &quot;EQUIPMENT_DAMAGED&quot; || 
+		p.equipmentStatus(&quot;EQ_LBOOST_MINING_STAR&quot;) == &quot;EQUIPMENT_DAMAGED&quot; || 
+		p.equipmentStatus(&quot;EQ_LBOOST_MILITARY_STAR&quot;) == &quot;EQUIPMENT_DAMAGED&quot;) {
+		player.consoleMessage(&quot;Unable to activate - starboard laser damaged&quot;);
+		return;
+	}
+	// first, remove the existing laser and store a value so that we can put it back
+	player.consoleMessage(&quot;STARBOARD laser deactivated&quot;);
+	// put the key in the holding spot
+	this._starboardHoldKey = p.starboardWeapon.equipmentKey;
+	p.starboardWeapon = &quot;EQ_WEAPON_NONE&quot;;
+	this.$updateManifest();
+	// start a timer to load up the secondary laser
+	this._starboardTimer = new Timer(this, this.$installLaserStarboard, this._defaultDelay, 0);
+	this.$playSound();
+}
+
+//-------------------------------------------------------------------------------------------------------------
+// end points for the timers so we can call one function
+this.$installLaserForward = function $installLaserForward() {
+	this.$installLaser(&quot;FORWARD&quot;);
+}
+this.$installLaserAft = function $installLaserAft() {
+	this.$installLaser(&quot;AFT&quot;);
+}
+this.$installLaserPort = function $installLaserPort() {
+	this.$installLaser(&quot;PORT&quot;);
+}
+this.$installLaserStarboard = function $installLaserStarboard() {
+	this.$installLaser(&quot;STARBOARD&quot;);
+}
+
+//-------------------------------------------------------------------------------------------------------------
+// install the lasers after the appropriate delay
+this.$installLaser = function $installLaser(position) {
+	var p = player.ship;
+
+	this._switching = true;
+
+	// get the equipment key of the original laser
+	switch (position) {
+		case &quot;FORWARD&quot;:
+			p.forwardWeapon = this._forwardAltKey;
+			this._forwardAltKey = this._forwardHoldKey;
+			this._forwardHoldKey = &quot;&quot;;
+			if (this._forwardAltKey === &quot;EQ_WEAPON_NONE&quot;) {
+				p.removeEquipment(&quot;EQ_LMSS_FRONT_WEAPON&quot;);
+			}
+			break;
+		case &quot;AFT&quot;:
+			p.aftWeapon = this._aftAltKey;
+			this._aftAltKey = this._aftHoldKey;
+			this._aftHoldKey = &quot;&quot;;
+			if (this._aftAltKey === &quot;EQ_WEAPON_NONE&quot;) {
+				p.removeEquipment(&quot;EQ_LMSS_AFT_WEAPON&quot;);
+			}
+			break;
+		case &quot;PORT&quot;:
+			p.portWeapon = this._portAltKey;
+			this._portAltKey = this._portHoldKey;
+			this._portHoldKey = &quot;&quot;;
+			if (this._portAltKey === &quot;EQ_WEAPON_NONE&quot;) {
+				p.removeEquipment(&quot;EQ_LMSS_PORT_WEAPON&quot;);
+			}
+			break;
+		case &quot;STARBOARD&quot;:
+			p.starboardWeapon = this._starboardAltKey;
+			this._starboardAltKey = this._starboardHoldKey;
+			this._starboardHoldKey = &quot;&quot;;
+			if (this._starboardAltKey === &quot;EQ_WEAPON_NONE&quot;) {
+				p.removeEquipment(&quot;EQ_LMSS_STARBOARD_WEAPON&quot;);
+			}
+			break;
+	}
+	// switch breakable laser info, if present
+	if (worldScripts.BreakableLasers_Main) worldScripts.BreakableLasers_Main.$switchPosition(position);
+
+	this._switching = false;
+	player.consoleMessage(position + &quot; laser switched&quot;);
+	this.$updateManifest();
+}
+
+//-------------------------------------------------------------------------------------------------------------
+// plays the hydraulic sound of the lasers being switched
+this.$playSound = function $playSound() {
+	var mySound = new SoundSource;
+	if (this._defaultDelay === 6) {
+		mySound.sound = &quot;actuator-6.ogg&quot;;
+	} else {
+		mySound.sound = &quot;actuator-10.ogg&quot;;
+	}
+	mySound.loop = false;
+	mySound.play();
+}
+
+//-------------------------------------------------------------------------------------------------------------
+// updates the crosshairs on Xenon HUD (which uses images rather than standard crosshairs
+this.$updateXenonHUD = function $updateXenonHUD() {
+	var p = player.ship;
+	var xHUDList = [&quot;XenonHUD.plist&quot;, &quot;XenonHUD_hicontrast.plist&quot;, &quot;XenonHUD_alt.plist&quot;, &quot;XenonHUD_narrow.plist&quot;, &quot;XenonHUD_narrow_hicontrast.plist&quot;,
+		&quot;XenonHUD_amber.plist&quot;, &quot;XenonHUD_hicontrast_amber.plist&quot;, &quot;XenonHUD_alt_amber.plist&quot;, &quot;XenonHUD_narrow_amber.plist&quot;, &quot;XenonHUD_narrow_hicontrast_amber.plist&quot;];
+
+	if (p.status === &quot;STATUS_IN_FLIGHT&quot; &amp;&amp; xHUDList.indexOf(p.hud) &gt;= 0) {
+		var w = worldScripts.XenonHUD;
+		w.viewDirectionChanged(p.viewDirection);
+	}
+}
+
+//-------------------------------------------------------------------------------------------------------------
+// returns the name of a particular equipment item
+this.$getEquipmentName = function $getEquipmentName(equipment, position, isPrimary) {
+	var laser = EquipmentInfo.infoForKey(equipment);
+	var bl = worldScripts.BreakableLasers_Main;
+	var extra = &quot;&quot;;
+	if (bl &amp;&amp; equipment == bl._damagedEq) {
+		if (isPrimary) {
+			laser = EquipmentInfo.infoForKey(bl._holdDamage[position].primary);
+		} else {
+			laser = EquipmentInfo.infoForKey(bl._holdDamage[position].secondary);
+		}
+		extra = &quot; (Damaged)&quot;;
+	}
+	if (!laser || laser.name === &quot;Remove Laser&quot;) {
+		return &quot;--None--&quot;;
+	} else {
+		return laser.name + extra;
+	}
+}
+
+//-------------------------------------------------------------------------------------------------------------
+// returns a JSON string of all settings (for Ship Storage Helper)
+this.$retrieveLaserSettings = function $retrieveLaserSettings() {
+	var ret = [];
+	ret.push({
+		position: &quot;forward&quot;,
+		key: this._forwardAltKey
+	});
+	ret.push({
+		position: &quot;aft&quot;,
+		key: this._aftAltKey
+	});
+	ret.push({
+		position: &quot;port&quot;,
+		key: this._portAltKey
+	});
+	ret.push({
+		position: &quot;starboard&quot;,
+		key: this._starboardAltKey
+	});
+	return JSON.stringify(ret);
+}
+
+//-------------------------------------------------------------------------------------------------------------
+// parses a JSON string and reads values from the array into all settings (for Ship Storage Helper)
+this.$restoreLaserSettings = function $restoreLaserSettings(dataString) {
+	var arr = JSON.parse(dataString);
+
+	// reset the keys
+	this._forwardAltKey = &quot;EQ_WEAPON_NONE&quot;;
+	this._aftAltKey = &quot;EQ_WEAPON_NONE&quot;;
+	this._portAltKey = &quot;EQ_WEAPON_NONE&quot;;
+	this._starboardAltKey = &quot;EQ_WEAPON_NONE&quot;;
+
+	// load values from the array
+	for (var i = 0; i &lt; arr.length; i++) {
+		switch (arr[i].position) {
+			case &quot;forward&quot;:
+				this._forwardAltKey = arr[i].key;
+				break;
+			case &quot;aft&quot;:
+				this._aftAltKey = arr[i].key;
+				break;
+			case &quot;port&quot;:
+				this._portAltKey = arr[i].key;
+				break;
+			case &quot;starboard&quot;:
+				this._starboardAltKey = arr[i].key;
+				break;
+		}
+	}
+	this.$resetInterface();
+}
+
+//-------------------------------------------------------------------------------------------------------------
+// returns true if there is a secondary laser in any position, otherwise false
+this.$weaponInstalled = function $weaponInstalled() {
+	if (this.$hasForwardLMSS() || this.$hasAftLMSS() || this.$hasPortLMSS() || this.$hasStarboardLMSS()) return true;
+	return false;
+}
+</pre></td>
+                </tr>
+            </table>
+        </a>
+    </body>
+</html>

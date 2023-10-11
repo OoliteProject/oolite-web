@@ -1,0 +1,516 @@
+<html>
+    <head>
+        <title>Expansion Wormhole Restoration</title>
+        <link rel="stylesheet" href="../style.css">
+    </head>
+    <body>
+        <table border="0" width="100%">
+            <tr>
+                <td>Back to <a href='../index.html'>Index</a></td>
+                <td align="right"><small>Page generated: Oct 11, 2023, 3:16:48 PM</small></td>
+            </tr>
+        </table>
+
+        <h1>Expansion Wormhole Restoration</h1>
+
+        <h2>Content</h2>
+        <ul>
+          <li><a href="#warnings">Warnings</a></li>
+          <li><a href="#manifest">Manifest</a></li>
+          <li><a href="#documentation">Documentation</a></li>
+          <li><a href="#equipment">0 Equipment</a></li>
+          <li><a href="#ships">2 Ships</a></li>
+          <li><a href="#models">0 Models</a></li>
+          <li><a href="#scripts">3 Scripts</a></li>
+        </ul>
+
+          <a name="warnings">
+            <h2>Warnings</h2>
+            <ol>
+                <li>Description mismatch between OXP Manifest and Expansion Manager string length at character position 0</li>
+                <li>Information URL mismatch between OXP Manifest and Expansion Manager string length at character position 0</li>
+            </ol>
+          </a>
+
+        <a name="manifest">
+        <h2>Manifest</h2>
+            <table border="1">
+                <tr>
+                    <th></th>
+                    <th>from Expansion Manager's OXP list</th>
+                    <th>from Expansion Manifest</th>
+                </tr>
+                <tr>
+                    <td>Description</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Identifier</td>
+                    <td>oolite.oxp.Commander_McLane.Wormhole_Restoration</td>
+                    <td>oolite.oxp.Commander_McLane.Wormhole_Restoration</td>
+                </tr>
+                <tr>
+                    <td>Title</td>
+                    <td>Wormhole Restoration</td>
+                    <td>Wormhole Restoration</td>
+                </tr>
+                <tr>
+                    <td>Category</td>
+                    <td>Mechanics</td>
+                    <td>Mechanics</td>
+                </tr>
+                <tr>
+                    <td>Author</td>
+                    <td>Commander McLane</td>
+                    <td>Commander McLane</td>
+                </tr>
+                <tr>
+                    <td>Version</td>
+                    <td>1.2</td>
+                    <td>1.2</td>
+                </tr>
+                <tr>
+                    <td>Tags</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Required Oolite Version</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Maximum Oolite Version</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Required Expansions</td>
+                    <td>
+                    </td>
+                    <td>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Optional Expansions</td>
+                    <td>
+                    </td>
+                    <td>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Conflict Expansions</td>
+                    <td>
+                    </td>
+                    <td>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Information URL</td>
+                    <td><a target="_blank" href=""></a></td>
+                    <td><a target="_blank" href="">n/a</a></td>
+                </tr>
+                <tr>
+                    <td>Download URL</td>
+                    <td><a target="_blank" href="https://wiki.alioth.net/img_auth.php/5/5d/Wormhole_Restoration.oxz">https://wiki.alioth.net/img_auth.php/5/5d/Wormhole_Restoration.oxz</a></td>
+                    <td><a target="_blank" href="">n/a</a></td>
+                </tr>
+                <tr>
+                    <td>License</td>
+                    <td>CC-BY-NC-SA 3.0</td>
+                    <td>CC-BY-NC-SA 3.0</td>
+                </tr>
+                <tr>
+                    <td>File Size</td>
+                    <td>n/a</td>
+                </tr>
+                <tr>
+                    <td>Upload date</td>
+                    <td>1610873308</td>
+                </tr>
+            </table>
+                </a>
+
+        <a name="documentation">
+        <h2>Documentation</h2>
+        <p>Also read <a href='http://wiki.alioth.net/index.php/Wormhole%20Restoration'>http://wiki.alioth.net/index.php/Wormhole%20Restoration</a></p>
+        <h3>readMe.txt</h3>
+        <pre>Wormhole Restoration v 1.2
+by &quot;Commander McLane&quot;
+
+an Expansion Pack for Oolite by Giles Williams
+based on &quot;Elite&quot; by Ian Bell and David Braben
+
+Introduction
+------------
+How do the Thargoids make your wormhole through witchspace collapse and spit you out in the middle of nowhere? It turns out that they have a device for that, and if you get stuck in interstellar space, you find yourself within a grid of four Thargoid Witchspace Jammers. These jammers keep you where you are, and also prevent you from escaping with another witchspace jump, even if you have the necessary fuel.
+
+Destroy them and your original wormhole will re-open, allowing you to continue your journey to your original destination.
+
+Overview
+--------
+Usually, after a misjump you find yourself ambushed by some viciously attacking Thargoid Warships. Sometimes you even manage to fight and kill them. You&#39;re still full of excitement and adrenalin from the epic battle when you finally find out that you&#39;re dead anyway, because you don&#39;t have enough fuel left to reach any of the surrounding systems. You&#39;re doomed to die in interstellar space. This sucks.
+
+There are already a couple of OXPs which offer you a way out of this -- literally -- dead end. Wormhole_restoration.oxp goes another path than those existing OXPs. Its basic premise is that after you fought off the ambush in interstellar space, your original wormhole opens again and you can continue your original journey to your original destination.
+
+To this end the OXP introduces a visible device which is supposed to have collapsed your wormhole in the first place: the Thargoid Witchspace Jammer. There are always four of them surrounding the place where you emerged from your jump. It&#39;s a spiky device that gives off an evil glow, easily recognizable. Destroy all four of them, and your original wormhole opens again. Enter it just like you would enter another ship&#39;s wormhole, and you continue your journey to your original destination without using any more witchjump fuel.
+
+The Thargoids place their Witchspace Jammers only at the midpoints between two systems. Therefore, if you make another misjump from that midpoint, you won&#39;t encounter another set of Witchspace Jammers. Giles only knows what it was that made your jump fail again. You may still encounter Thargoids, though, and now you&#39;re depending on your own fuel.
+
+It is only necessary to destroy the four Witchspace Jammers, so you can try to avoid the surrounding Thargoid ships and only concentrate on the jammers. However, the warships will of course still attack you, so you will still be forced to fight them off. Your ship&#39;s computer will notify you whenever one of the Witchspace Jammers is destroyed, telling you how many are still intact. It will also detect the re-formation of your original wormhole after the last Witchspace Jammer is destroyed. All you have to do then is to locate your wormhole, return to it, and enter it. If there were other ships stuck together with you, their wormholes will re-open as well, leading to their original destinations, so in this case it may be worthwhile to examine all wormholes first. You don&#39;t want to jump in the wrong direction, do you? Don&#39;t spend too much time with a thorough examination, though. The re-opened wormholes only stay open for between one and two minutes. Therefore your maxim should be: if in doubt, just head for the closest wormhole as quickly as possible.
+
+There is a catch, though: If you (or other ships) haven&#39;t killed all Thargoids before destroying the Witchspace Jammers, the remaining Thargoid ships may follow you or any other ship through the re-opened wormhole. Therefore your successful escape may mean death and destruction for many vessels in your destination system. You may unwillingly head the Thargoid forces to an invasion of the very system where you seek refuge from them. Therefore -- if at all possible -- you should make sure that no Thargoid Warships are left in interstellar space when you re-enter your wormhole.
+
+Technical details
+-----------------
+Wormhole_restoration.oxp contains the model of the Thargoid Witchspace Jammer. This model was recycled from Cataclysm.oxp. Four Thargoid Witchspace Jammers are spawned in a grid around the player&#39;s position whenever misjumping. These Witchspace Jammers have enough mass to prevent any witchspace jump inside their scanner range, therefore leaving is not possible, even with enough fuel. Killing them sends a message to the player&#39;s console. Killing the last one creates an invisible dummy entity that immediately attempts to jump out to the player&#39;s original destination. The attempts are repeated until one is successful. The wormhole stays open for about 90 seconds. Another dummy entity is created for each ship with a yellow blip. These jump out randomly to either the player&#39;s destination or the system he came from. Immediately after reaching the other side the dummy entity is removed.
+
+The OXP also replaces the normal thargoidAI with a slightly modified version. This new thargoidAI gives Thargoid ships a one-in-four chance to follow the player through his wormhole whenever he jumps out. This is inspired by the current pirateAI, which also introduces the chance of pirates following the player, should he jump out in the middle of a fight.
+
+Minimum Requirements
+--------------------
+Wormhole_restoration.oxp v 1.1 requires at least Oolite 1.75.2.
+
+Download Location
+-----------------
+This OXP is available for download via the http://wiki.alioth.net/index.php/Wormhole_restoration_OXP
+
+Installation
+------------
+Move or copy the file wormhole_restoration.oxp from this folder into your AddOns folder. Where that resides depends on your installation. Restart Oolite.
+
+License
+-------
+This work is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike License version 3.0. For more information see the ReadMe of Oolite or http://creativecommons.org/licenses/by-nc-sa/3.0/
+
+Practically this means that you may rip it apart and use whatever seems useful to you, as long as you credit the original author. It would be nice -- although by no means necessary -- to give me a note, if you intend to use parts of it.
+
+History
+-------
+version 1.2 (April 10th, 2018)
+- Converted XML plists to Openstep format.
+- Converted RTF readme file to plain text.
+- Added manifest file for OXZ publication.
+
+version 1.1 (May 12th, 2011)
+- Witchspace Jammers are now only encountered in the midpoint between systems. If you do another misjump in any direction from there, you don&#39;t get more Jammers. The Thargoids can&#39;t be sitting everywhere, after all.
+- the restored wormhole now always leads to the system you were headed for
+- if you were following another ship&#39;s wormhole in the first place, there is only one wormhole restored for the two of you
+- deleted unnecessary logging
+- requires Oolite 1.75.2
+
+version 1.0 (April 25th, 2011)
+- basically functional version 
+- requires at least Oolite 1.75.1
+</pre>
+        </a>
+
+        <a name="equipment">          
+        <h2>Equipment</h2>
+            This expansion declares no equipment. This may be related to warnings.
+        </a>
+
+        <a name="ships">    
+        <h2>Ships</h2>
+            <table>
+                <tr>
+                    <th>Name</th>
+                </tr>
+                <tr>
+                    <td><a href="../ships/wormhole-restoration-witchspace-jammer.html">Thargoid Witchspace Jammer</a></td>
+                </tr>
+                <tr>
+                    <td><a href="../ships/wormhole-restoration-wormhole-creator.html">Wormhole</a></td>
+                </tr>
+            </table>
+        </a>
+
+        <a name="models">    
+        <h2>Models</h2>
+            This expansion declares no models. This may be related to warnings.
+        </a>
+
+        <a name="scripts">    
+        <h2>Scripts</h2>
+            <table>
+                <tr>
+                    <th>Path</th>
+                </tr>
+                <tr>
+                    <td valign="top">Config/script.js</td>
+                    <td><pre>/*
+
+wormhole-restoration.js
+
+Script for spawning Thargoid Witchspace Jammers in interstellar space.
+
+
+Oolite
+Copyright © 2003-2011 Giles C Williams and contributors
+
+This program is free software; you can redistribute it and/or
+modify it under the terms of the GNU General Public License
+as published by the Free Software Foundation; either version 2
+of the License, or (at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program; if not, write to the Free Software
+Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston,
+MA 02110-1301, USA.
+
+
+wormhole_restoration.oxp
+Copyright © 2011 &quot;Commander McLane&quot;
+
+This work is licensed under the Creative Commons
+Attribution-Noncommercial-Share Alike 3.0 Unported License.
+
+To view a copy of this license, visit
+http://creativecommons.org/licenses/by-nc-sa/3.0/ or send a letter
+to Creative Commons, 171 Second Street, Suite 300, San Francisco,
+California, 94105, USA.
+
+*/
+
+&quot;use strict&quot;;
+this.name           = &quot;wormhole-restoration&quot;;
+this.description    = &quot;Script for spawning Thargoid Witchspace Jammers&quot;;
+this.author         = &quot;Commander McLane&quot;;
+this.copyright      = &quot;© 2011 Commander McLane&quot;;
+this.license		= &quot;CC-by-nc-sa 3.0&quot;;
+this.version        = &quot;1.1&quot;;
+
+
+/* event handlers */
+
+this.shipWillEnterWitchspace = function(cause)
+{
+    // the player&#39;s origin system is stored
+    if(!system.isInterstellarSpace)
+    {
+        this.originSystem = system.ID;
+        this.misjumpCounter = 0;
+    }
+    // consecutive misjumps are counted
+    this.misjumpCounter ++;
+    // if the player followed an NPC&#39;s wormhole, this fact is stored
+    if(cause === &quot;wormhole&quot;) this.followedNPC = true;
+}
+
+this.shipWillExitWitchspace = function()
+{
+    // only works in interstellar space and only for the first misjump
+    // (the Thargoids have their technology only installed in the middle between systems)
+    if(!system.isInterstellarSpace || this.misjumpCounter !== 1) return;
+    // the target system of the jump is established
+    this.originCoordinates = System.infoForSystem(galaxyNumber, this.originSystem).coordinates;
+    this.currentCoordinates = system.info.coordinates;
+    this.misjumpVector = this.currentCoordinates.subtract(this.originCoordinates);
+    this.jumpVector = this.misjumpVector.multiply(2);
+    this.targetCoordinates = this.originCoordinates.add(this.jumpVector);
+    this.targetSystem = SystemInfo.filteredSystems(this, function(other){return (other.coordinates.squaredDistanceTo(this.targetCoordinates) &lt; 0.0000001)})[0].systemID;
+    // four Witchspace Jammers are spawned around the origin
+    system.addShips(&quot;wormhole_restoration_witchspace_jammer&quot;, 1, [14618.6, 8686.1, 10541.7], 0);
+    system.addShips(&quot;wormhole_restoration_witchspace_jammer&quot;, 1, [-7449.9, -15359.9, 10399.8], 0);
+    system.addShips(&quot;wormhole_restoration_witchspace_jammer&quot;, 1, [-14478.2, 13337.6, -3572.2], 0);
+    system.addShips(&quot;wormhole_restoration_witchspace_jammer&quot;, 1, [7359.4, -6668.0, -17369.2], 0);
+}
+</pre></td>
+                </tr>
+                <tr>
+                    <td valign="top">Scripts/wormhole-restoration-witchspace-jammer.js</td>
+                    <td><pre>/*
+
+wormhole-restoration-witchspace-jammer.js
+
+Script for the Thargoid Witchspace Jammer.
+
+
+Oolite
+Copyright © 2003-2011 Giles C Williams and contributors
+
+This program is free software; you can redistribute it and/or
+modify it under the terms of the GNU General Public License
+as published by the Free Software Foundation; either version 2
+of the License, or (at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program; if not, write to the Free Software
+Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston,
+MA 02110-1301, USA.
+
+
+wormhole_restoration.oxp
+Copyright © 2011 &quot;Commander McLane&quot;
+
+This work is licensed under the Creative Commons
+Attribution-Noncommercial-Share Alike 3.0 Unported License.
+
+To view a copy of this license, visit
+http://creativecommons.org/licenses/by-nc-sa/3.0/ or send a letter
+to Creative Commons, 171 Second Street, Suite 300, San Francisco,
+California, 94105, USA.
+
+*/
+
+&quot;use strict&quot;;
+
+this.name           = &quot;wormhole-restoration-witchspace-jammer&quot;;
+this.description    = &quot;Script for the Thargoid Witchspace Jammer&quot;;
+this.author         = &quot;Commander McLane&quot;;
+this.copyright      = &quot;© 2011 Commander McLane&quot;;
+this.license		= &quot;CC-by-nc-sa 3.0&quot;;
+this.version        = &quot;1.1&quot;;
+
+
+/* functions */
+
+function $isStrandedShip(entity)
+{
+    return entity.scanClass === &quot;CLASS_NEUTRAL&quot; &amp;&amp; !entity.owner &amp;&amp; entity.primaryRole !== &quot;generationship&quot;
+}
+
+
+/* event handlers */
+
+this.shipDied = function(whom, why)
+{
+    if(system.countShipsWithRole(&quot;wormhole_restoration_witchspace_jammer&quot;) &gt; 1)
+    {
+        player.commsMessage(&quot;1 Thargoid Witchspace Jammer destroyed. &quot; + (system.countShipsWithRole(&quot;wormhole_restoration_witchspace_jammer&quot;) - 1) + &quot; still active.&quot;);
+    }
+    else
+    {
+        // a wormhole-creating object is spawned around the origin
+        var wormholeCreator = system.addShips(&quot;wormhole_restoration_wormhole_creator&quot;, 1, [0, 0, 0], 5000)[0];
+        wormholeCreator.script.targetSystem = worldScripts[&quot;wormhole-restoration&quot;].targetSystem;
+        // more wormhole-creating objects are spawned of there are more stranded ships
+        var strandedShips = system.filteredEntities(this, $isStrandedShip).length;
+        // if the player was using one of their wormholes in the first place, one wormhole less is created
+        if(worldScripts[&quot;wormhole-restoration&quot;].followedNPC)
+        {
+            if(strandedShips !== 0)
+            {
+                strandedShips --;
+            }
+            delete worldScripts[&quot;wormhole-restoration&quot;].followedNPC;
+        }
+        for(var i=0; i&lt;strandedShips; i++)
+        {
+            wormholeCreator = system.addShips(&quot;wormhole_restoration_wormhole_creator&quot;, 1, [0, 0, 0], 5000)[0];
+            if(Math.random() &lt; 0.5)
+            {
+                wormholeCreator.script.targetSystem = worldScripts[&quot;wormhole-restoration&quot;].targetSystem;
+            }
+            else
+            {
+                wormholeCreator.script.targetSystem = worldScripts[&quot;wormhole-restoration&quot;].originSystem;
+            }
+        }        
+        // the player is notified
+        player.commsMessage(&quot;The last Thargoid Witchspace Jammer was destroyed. All wormholes are restored.&quot;);
+    }
+}
+
+this.shipTakingDamage = function(amount, whom, type)
+{
+    if(type === &quot;cascade weapon&quot; || amount === 1000)
+    {
+        this.ship.energy += amount;
+    }
+}
+</pre></td>
+                </tr>
+                <tr>
+                    <td valign="top">Scripts/wormhole-restoration-wormhole-creator.js</td>
+                    <td><pre>/*
+
+wormhole-restoration-wormhole-creator.js
+
+Script for creating a wormhole and removing the wormhole creator object.
+
+
+Oolite
+Copyright © 2003-2011 Giles C Williams and contributors
+
+This program is free software; you can redistribute it and/or
+modify it under the terms of the GNU General Public License
+as published by the Free Software Foundation; either version 2
+of the License, or (at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program; if not, write to the Free Software
+Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston,
+MA 02110-1301, USA.
+
+
+wormhole_restoration.oxp
+Copyright © 2011 &quot;Commander McLane&quot;
+
+This work is licensed under the Creative Commons
+Attribution-Noncommercial-Share Alike 3.0 Unported License.
+
+To view a copy of this license, visit
+http://creativecommons.org/licenses/by-nc-sa/3.0/ or send a letter
+to Creative Commons, 171 Second Street, Suite 300, San Francisco,
+California, 94105, USA.
+
+*/
+
+&quot;use strict&quot;;
+
+this.name           = &quot;wormhole-restoration-wormhole-creator&quot;;
+this.description    = &quot;Script for creating a wormhole and removing the wormhole creator object&quot;;
+this.author         = &quot;Commander McLane&quot;;
+this.copyright      = &quot;© 2011 Commander McLane&quot;;
+this.license		= &quot;CC-by-nc-sa 3.0&quot;;
+this.version        = &quot;1.1&quot;;
+
+
+/* functions */
+
+this.$attemptJump = function()
+{
+    // attempts to jump out to the player&#39;s original target system 
+    if(this.ship.exitSystem(this.targetSystem) === true)
+    {
+        this.jumpAttemptTimer.stop();
+        delete this.jumpAttemptTimer;
+    }
+}
+
+
+/* event handlers */
+
+this.shipSpawned = function()
+{
+    this.jumpAttemptTimer = new Timer(this, this.$attemptJump, 0.1, 0.5)
+}
+
+this.shipExitedWormhole = function()
+{
+    // the object is removed after the jump
+    this.ship.remove();
+}
+</pre></td>
+                </tr>
+            </table>
+        </a>
+    </body>
+</html>

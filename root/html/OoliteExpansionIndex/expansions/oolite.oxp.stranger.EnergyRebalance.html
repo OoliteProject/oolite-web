@@ -1,0 +1,306 @@
+<html>
+    <head>
+        <title>Expansion Energy Rebalance</title>
+        <link rel="stylesheet" href="../style.css">
+    </head>
+    <body>
+        <table border="0" width="100%">
+            <tr>
+                <td>Back to <a href='../index.html'>Index</a></td>
+                <td align="right"><small>Page generated: Oct 11, 2023, 3:16:49 PM</small></td>
+            </tr>
+        </table>
+
+        <h1>Expansion Energy Rebalance</h1>
+
+        <h2>Content</h2>
+        <ul>
+          <li><a href="#warnings">Warnings</a></li>
+          <li><a href="#manifest">Manifest</a></li>
+          <li><a href="#documentation">Documentation</a></li>
+          <li><a href="#equipment">0 Equipment</a></li>
+          <li><a href="#ships">0 Ships</a></li>
+          <li><a href="#models">0 Models</a></li>
+          <li><a href="#scripts">1 Scripts</a></li>
+        </ul>
+
+          <a name="warnings">
+            <h2>Warnings</h2>
+            <ol>
+                <li>Tags mismatch between OXP Manifest and Expansion Manager at character position 0002 (RIGHT SQUARE BRACKET vs LATIN SMALL LETTER S)(&#39;[]&#39; vs &#39;[shields, energy, damage]&#39;)</li>
+                <li>Conflict Expansions mismatch between OXP Manifest and Expansion Manager at character position 0067 (DIGIT ZERO vs LATIN SMALL LETTER N)</li>
+            </ol>
+          </a>
+
+        <a name="manifest">
+        <h2>Manifest</h2>
+            <table border="1">
+                <tr>
+                    <th></th>
+                    <th>from Expansion Manager's OXP list</th>
+                    <th>from Expansion Manifest</th>
+                </tr>
+                <tr>
+                    <td>Description</td>
+                    <td>This OXP rebalances energy between shields and energy banks. If forward/aft shield level dropped below 25% of max capacity, energy from banks is transferred onto shield in question, preventing damage of equipment and cargo. If energy level drops below critical 32 unit level, energy transfer switches back from remaining shields to energy bank.</td>
+                    <td>This OXP rebalances energy between shields and energy banks. If forward/aft shield level dropped below 25% of max capacity, energy from banks is transferred onto shield in question, preventing damage of equipment and cargo. If energy level drops below critical 32 unit level, energy transfer switches back from remaining shields to energy bank.</td>
+                </tr>
+                <tr>
+                    <td>Identifier</td>
+                    <td>oolite.oxp.stranger.EnergyRebalance</td>
+                    <td>oolite.oxp.stranger.EnergyRebalance</td>
+                </tr>
+                <tr>
+                    <td>Title</td>
+                    <td>Energy Rebalance</td>
+                    <td>Energy Rebalance</td>
+                </tr>
+                <tr>
+                    <td>Category</td>
+                    <td>Mechanics</td>
+                    <td>Mechanics</td>
+                </tr>
+                <tr>
+                    <td>Author</td>
+                    <td>stranger</td>
+                    <td>stranger</td>
+                </tr>
+                <tr>
+                    <td>Version</td>
+                    <td>0.3.0</td>
+                    <td>0.3.0</td>
+                </tr>
+                <tr>
+                    <td>Tags</td>
+                    <td></td>
+                    <td>shields, energy, damage</td>
+                </tr>
+                <tr>
+                    <td>Required Oolite Version</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Maximum Oolite Version</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Required Expansions</td>
+                    <td>
+                            <li>oolite.oxp.CaptMurphy.BreakableEnergyUnit:1.1</li>
+                            <li>oolite.oxp.CaptMurphy.BreakableShieldGenerators:1.2</li>
+                    </td>
+                    <td>
+                            <li>oolite.oxp.CaptMurphy.BreakableEnergyUnit:1.1</li>
+                            <li>oolite.oxp.CaptMurphy.BreakableShieldGenerators:1.2</li>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Optional Expansions</td>
+                    <td>
+                    </td>
+                    <td>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Conflict Expansions</td>
+                    <td>
+                            <li>oolite.oxp.Lone_Wolf.ShieldCycler:0</li>
+                            <li>oolite.oxp.Lone_Wolf.ShieldCyclerNext:0</li>
+                            <li>oolite.oxp.CommonSenseOTB.ShieldEqualizer+Capacitors:0</li>
+                            <li>oolite.oxp.phkb.ShipConfiguration:0</li>
+                    </td>
+                    <td>
+                            <li>oolite.oxp.Lone_Wolf.ShieldCycler:</li>
+                            <li>oolite.oxp.Lone_Wolf.ShieldCyclerNext:</li>
+                            <li>oolite.oxp.CommonSenseOTB.ShieldEqualizer+Capacitors:</li>
+                            <li>oolite.oxp.phkb.ShipConfiguration:</li>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Information URL</td>
+                    <td><a target="_blank" href="http://aegidian.org/bb/viewtopic.php?f=4&amp;t=19567">http://aegidian.org/bb/viewtopic.php?f=4&amp;t=19567</a></td>
+                    <td><a target="_blank" href="">n/a</a></td>
+                </tr>
+                <tr>
+                    <td>Download URL</td>
+                    <td><a target="_blank" href="https://wiki.alioth.net/img_auth.php/d/d6/EnergyRebalance.oxz">https://wiki.alioth.net/img_auth.php/d/d6/EnergyRebalance.oxz</a></td>
+                    <td><a target="_blank" href="">n/a</a></td>
+                </tr>
+                <tr>
+                    <td>License</td>
+                    <td>CC-BY-NC-SA 3.0</td>
+                    <td>CC-BY-NC-SA 3.0</td>
+                </tr>
+                <tr>
+                    <td>File Size</td>
+                    <td>n/a</td>
+                </tr>
+                <tr>
+                    <td>Upload date</td>
+                    <td>1610873480</td>
+                </tr>
+            </table>
+                </a>
+
+        <a name="documentation">
+        <h2>Documentation</h2>
+        <p>Also read <a href='http://wiki.alioth.net/index.php/Energy%20Rebalance'>http://wiki.alioth.net/index.php/Energy%20Rebalance</a></p>
+        <h3>ReadMe &amp; License.txt</h3>
+        <pre>Energy Rebalance OXP by Stranger
+
+This OXP is released under the Creative Commons Attribution - Non-Commercial - Share Alike 3.0 license.
+You are free to use and distribute this OXP on non-commercial basis. 
+Rebundling of this OXP within another distribution is permitted as long as it is unchanged.
+Any mods/derivatives of this OXP must be distributed under another names.
+The license information (either as this file or merged into a larger one) must be included in the OXP.
+
+--------------------------------------------------------------
+
+This OXP rebalances energy between shields and energy banks.
+If forward/aft shield level drops below 25% of max capacity under fire, energy from banks transfers directly onto shield in question until energy banks drains under 64 units, preventing damage of equipment and cargo.
+If energy level drops below critical 32 unit level, energy transfer switches back from remaining shields to energy bank.
+Energy Rebalance looks as extremely simplified and fully automated &quot;lite� version of Shield Cycler, but it is not equipment upgrade. It is redefined game mechanics.
+
+Dependencies:
+
+Energy Rebalance OXP requires Breakable Shield Generators &amp; Breakable Energy Unit (author Capt Murphy).
+
+Conflicts:
+
+Energy Rebalance OXP is incompatible with Shield Equaliser+Capacitors (author CommonSense OTB) and with Shield Cycler / Shield Cycler Next (author Lone_Wolf).
+It is also incompatible with Ship Configuration (author phkb).
+
+Installation:
+
+To install package unzip archive, and then move the folder &quot;Energy Rebalance.oxp&quot; to the AddOns directory of your Oolite installation. Then start the game up.
+
+Credits:
+
+Shield Cycler / Shield Cycler Next (Lone_Wolf) - clear formulation of problem with energy damage and working way for fixing it.
+IronHide (Thargoid) - some code tricks (not included onto final code, but very helpful in testing of some ideas).
+
+--------------------------------------------------------------
+
+Version history:
+
+28.02.2019 - Version 0.3.0	Added energy transfer from shields to depleted energy banks.
+				Converted to OXZ.
+10.04.2018 - Version 0.2.1	manifest.plist added
+17.11.2017 - Version 0.2	Breakable Energy Unit dependence added
+04.11.2017 - Version 0.1	Initial release.
+</pre>
+        </a>
+
+        <a name="equipment">          
+        <h2>Equipment</h2>
+            This expansion declares no equipment. This may be related to warnings.
+        </a>
+
+        <a name="ships">    
+        <h2>Ships</h2>
+            This expansion declares no ships. This may be related to warnings.
+        </a>
+
+        <a name="models">    
+        <h2>Models</h2>
+            This expansion declares no models. This may be related to warnings.
+        </a>
+
+        <a name="scripts">    
+        <h2>Scripts</h2>
+            <table>
+                <tr>
+                    <th>Path</th>
+                </tr>
+                <tr>
+                    <td valign="top">Scripts/energy_rebalance.js</td>
+                    <td><pre>&quot;use strict&quot;;
+// Standard attributes 
+this.name           = &quot;Energy Rebalance&quot;; 
+this.author         = &quot;Stranger&quot;; 
+this.copyright      = &quot;Stranger&quot;;
+this.licence        = &quot;Creative Commons Attribution - Non-Commercial - Share Alike 3.0&quot;;
+this.version        = &quot;0.3.0&quot;; 
+this.description    = &quot;Simple rebalance of default energy distribution between shields and energobanks.&quot;; 
+
+this.startUpComplete = this.playerBoughtNewShip = function()
+    {
+    if(worldScripts[&quot;Breakable_Shield_Generators&quot;])
+        {
+        this.$aftShieldID = worldScripts[&quot;Breakable_Shield_Generators&quot;].aftShieldEQ;
+        this.$foreShieldID = worldScripts[&quot;Breakable_Shield_Generators&quot;].foreShieldEQ;
+        }
+    if(worldScripts[&quot;Breakable_Energy_Unit&quot;])
+        {
+        this.$energyUnitID = worldScripts[&quot;Breakable_Energy_Unit&quot;].energyUnitEQ;
+        }
+    }
+
+this.shipTakingDamage = function(amount, fromEntity, damageType)	
+	{
+    var p = player.ship;
+    if(p.equipmentStatus(this.$energyUnitID) !== &quot;EQUIPMENT_OK&quot;) return; // needs breakable energy unit
+    if(p.fuel == 0) return;   // fuel empty - shields switch to auxiliary battery
+    if(p.energy &gt;= 64)      // transfer energy to shields
+        {
+        var aftShieldDelta;
+        var foreShieldDelta;
+        if(p.equipmentStatus(this.$aftShieldID) === &quot;EQUIPMENT_OK&quot; &amp;&amp; p.aftShield &lt; 0.25 * p.maxAftShield)
+            {
+            aftShieldDelta = 0.25 * p.maxAftShield - p.aftShield;
+            if(aftShieldDelta &gt; 16)
+                {
+                aftShieldDelta = 16;
+                }
+            p.aftShield += aftShieldDelta;
+            p.energy -= aftShieldDelta;
+            }
+        if(p.equipmentStatus(this.$foreShieldID) === &quot;EQUIPMENT_OK&quot; &amp;&amp; p.forwardShield &lt; 0.25 * p.maxForwardShield)
+            {
+            foreShieldDelta = 0.25 * p.maxForwardShield - p.forwardShield;
+            if(foreShieldDelta &gt; 16)
+                {
+                foreShieldDelta = 16;
+                }        
+            p.forwardShield += foreShieldDelta;
+            p.energy -= foreShieldDelta;
+            }
+        }
+    else                    // transfer energy from shields
+        {
+        if(p.energy &gt;= 32) return;
+        if(p.aftShield == 0 &amp;&amp; p.forwardShield == 0) return;  // both shields completely depleted
+        var energyDelta;
+        if(p.aftShield &gt;= p.forwardShield)                  // transfer energy from aft shield
+            {
+            energyDelta = p.aftShield;
+                {                
+                if(energyDelta &gt; 16)
+                    {
+                    energyDelta = 16;
+                    }
+                p.aftShield -= energyDelta;
+                p.energy += energyDelta;
+                }
+            }
+        else                                                // transfer energy from fore shield
+            {
+            energyDelta = p.forwardShield;
+                {                
+                if(energyDelta &gt; 16)
+                    {
+                    energyDelta = 16;
+                    }
+                p.forwardShield -= energyDelta;
+                p.energy += energyDelta;
+                }            
+            }
+        }
+	}</pre></td>
+                </tr>
+            </table>
+        </a>
+    </body>
+</html>

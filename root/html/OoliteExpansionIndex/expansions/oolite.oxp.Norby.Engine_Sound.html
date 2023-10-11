@@ -1,0 +1,224 @@
+<html>
+    <head>
+        <title>Expansion Engine Sound</title>
+        <link rel="stylesheet" href="../style.css">
+    </head>
+    <body>
+        <table border="0" width="100%">
+            <tr>
+                <td>Back to <a href='../index.html'>Index</a></td>
+                <td align="right"><small>Page generated: Oct 11, 2023, 3:16:48 PM</small></td>
+            </tr>
+        </table>
+
+        <h1>Expansion Engine Sound</h1>
+
+        <h2>Content</h2>
+        <ul>
+          
+          <li><a href="#manifest">Manifest</a></li>
+          <li><a href="#documentation">Documentation</a></li>
+          <li><a href="#equipment">0 Equipment</a></li>
+          <li><a href="#ships">0 Ships</a></li>
+          <li><a href="#models">0 Models</a></li>
+          <li><a href="#scripts">1 Scripts</a></li>
+        </ul>
+
+
+        <a name="manifest">
+        <h2>Manifest</h2>
+            <table border="1">
+                <tr>
+                    <th></th>
+                    <th>from Expansion Manager's OXP list</th>
+                    <th>from Expansion Manifest</th>
+                </tr>
+                <tr>
+                    <td>Description</td>
+                    <td>The tone of engine sound follow the speed of your ship.</td>
+                    <td>The tone of engine sound follow the speed of your ship.</td>
+                </tr>
+                <tr>
+                    <td>Identifier</td>
+                    <td>oolite.oxp.Norby.Engine_Sound</td>
+                    <td>oolite.oxp.Norby.Engine_Sound</td>
+                </tr>
+                <tr>
+                    <td>Title</td>
+                    <td>Engine Sound</td>
+                    <td>Engine Sound</td>
+                </tr>
+                <tr>
+                    <td>Category</td>
+                    <td>Ambience</td>
+                    <td>Ambience</td>
+                </tr>
+                <tr>
+                    <td>Author</td>
+                    <td>Norby</td>
+                    <td>Norby</td>
+                </tr>
+                <tr>
+                    <td>Version</td>
+                    <td>1.2</td>
+                    <td>1.2</td>
+                </tr>
+                <tr>
+                    <td>Tags</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Required Oolite Version</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Maximum Oolite Version</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Required Expansions</td>
+                    <td>
+                    </td>
+                    <td>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Optional Expansions</td>
+                    <td>
+                    </td>
+                    <td>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Conflict Expansions</td>
+                    <td>
+                    </td>
+                    <td>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Information URL</td>
+                    <td><a target="_blank" href="http://wiki.alioth.net/index.php/Engine_Sound">http://wiki.alioth.net/index.php/Engine_Sound</a></td>
+                    <td><a target="_blank" href="">n/a</a></td>
+                </tr>
+                <tr>
+                    <td>Download URL</td>
+                    <td><a target="_blank" href="https://wiki.alioth.net/img_auth.php/3/3c/Engine_Sound_1.2.oxz">https://wiki.alioth.net/img_auth.php/3/3c/Engine_Sound_1.2.oxz</a></td>
+                    <td><a target="_blank" href="">n/a</a></td>
+                </tr>
+                <tr>
+                    <td>License</td>
+                    <td>CC BY-NC-SA 4</td>
+                    <td>CC BY-NC-SA 4</td>
+                </tr>
+                <tr>
+                    <td>File Size</td>
+                    <td>n/a</td>
+                </tr>
+                <tr>
+                    <td>Upload date</td>
+                    <td>1610873279</td>
+                </tr>
+            </table>
+                </a>
+
+        <a name="documentation">
+        <h2>Documentation</h2>
+        <p>Also read <a href='http://wiki.alioth.net/index.php/Engine%20Sound'>http://wiki.alioth.net/index.php/Engine%20Sound</a></p>
+        </a>
+
+        <a name="equipment">          
+        <h2>Equipment</h2>
+            This expansion declares no equipment. 
+        </a>
+
+        <a name="ships">    
+        <h2>Ships</h2>
+            This expansion declares no ships. 
+        </a>
+
+        <a name="models">    
+        <h2>Models</h2>
+            This expansion declares no models. 
+        </a>
+
+        <a name="scripts">    
+        <h2>Scripts</h2>
+            <table>
+                <tr>
+                    <th>Path</th>
+                </tr>
+                <tr>
+                    <td valign="top">Scripts/engine_sound.js</td>
+                    <td><pre>&quot;use strict&quot;;
+this.name	= &quot;engine_sound&quot;;
+this.author	= &quot;Norby&quot;;
+this.copyright	= &quot;2015 Norby&quot;;
+this.description= &quot;The tone of engine sound follow the speed of your ship.&quot;;
+this.licence	= &quot;CC BY-NC-SA 4.0&quot;;
+
+//internal properties, should not touch
+this.$Last = 1; //last played sound
+this.$Pause = false; //no sound in pause
+this.$S = []; //sound objects storing sound files
+this.$SS = null; //soundsource
+
+//worldscript events
+this.startUp = function() {
+	for(var i=1; i&lt;26; i++) {
+		this.$S[i] = Sound.load(&quot;bgs-m_ambi_engine1-&quot;+i+&quot;.ogg&quot;);
+	}
+	
+	this.$SS = new SoundSource;
+	this.$SS.sound = this.$S[1];
+	this.$SS.loop = true;
+
+	this.$T =  new Timer(this, this.$Play, 0, 0.25);
+	this.$T2 =  new Timer(this, this.$Play, 0.125, 0.25);
+}
+
+
+this.startUpComplete = function() {
+	var b = worldScripts[&quot;BGS-M&quot;];
+//	if( b ) b.ambientSounds = false; //turn off BGS engine sound but chatter too
+}
+
+this.gamePaused = this.shipDockedWithStation = this.shipDied = this.shipWillEnterWitchspace = function() {
+	this.$SS.volume = 0;
+	this.$Pause = true;
+}
+
+this.gameResumed = this.shipWillLaunchFromStation  = this.shipExitedWitchspace = function() {
+	this.$Pause = false; 
+}
+
+//engine sound methods
+this.$Play = function() {
+	var p = player.ship;
+	if( !p || !p.isValid || p.docked || p.speed &lt; 1 || p.torusEngaged
+		|| p.speed &gt; 8 * p.maxSpeed + 1
+		|| !this.$SS || this.$Pause ) {
+		this.$SS.volume = 0;
+		return;
+	}
+
+	var s = p.speed;
+	if( !p.injectorsEngaged &amp;&amp; s &gt; p.maxSpeed ) s = p.maxSpeed;
+	var l = Math.ceil( s/20 );
+	if( !this.$S[ l ] ) l = 25; //speed over 500
+	this.$SS.volume = 0.2 + l / 250; //from 0.2 to 0.3
+
+	if( this.$Last != l ) {
+		this.$Last = l;
+		this.$SS.sound = this.$S[ l ];
+		this.$SS.play();
+	}
+}</pre></td>
+                </tr>
+            </table>
+        </a>
+    </body>
+</html>

@@ -1,0 +1,238 @@
+<html>
+    <head>
+        <title>Expansion System Features: Sunspots</title>
+        <link rel="stylesheet" href="../style.css">
+    </head>
+    <body>
+        <table border="0" width="100%">
+            <tr>
+                <td>Back to <a href='../index.html'>Index</a></td>
+                <td align="right"><small>Page generated: Oct 11, 2023, 3:16:49 PM</small></td>
+            </tr>
+        </table>
+
+        <h1>Expansion System Features: Sunspots</h1>
+
+        <h2>Content</h2>
+        <ul>
+          
+          <li><a href="#manifest">Manifest</a></li>
+          <li><a href="#documentation">Documentation</a></li>
+          <li><a href="#equipment">0 Equipment</a></li>
+          <li><a href="#ships">0 Ships</a></li>
+          <li><a href="#models">0 Models</a></li>
+          <li><a href="#scripts">1 Scripts</a></li>
+        </ul>
+
+
+        <a name="manifest">
+        <h2>Manifest</h2>
+            <table border="1">
+                <tr>
+                    <th></th>
+                    <th>from Expansion Manager's OXP list</th>
+                    <th>from Expansion Manifest</th>
+                </tr>
+                <tr>
+                    <td>Description</td>
+                    <td>Adds occasional sunspots to stars. Requires a shader-capable graphics card.</td>
+                    <td>Adds occasional sunspots to stars. Requires a shader-capable graphics card.</td>
+                </tr>
+                <tr>
+                    <td>Identifier</td>
+                    <td>oolite.oxp.cim.systemfeatures.sunspots</td>
+                    <td>oolite.oxp.cim.systemfeatures.sunspots</td>
+                </tr>
+                <tr>
+                    <td>Title</td>
+                    <td>System Features: Sunspots</td>
+                    <td>System Features: Sunspots</td>
+                </tr>
+                <tr>
+                    <td>Category</td>
+                    <td>Ambience</td>
+                    <td>Ambience</td>
+                </tr>
+                <tr>
+                    <td>Author</td>
+                    <td>cim</td>
+                    <td>cim</td>
+                </tr>
+                <tr>
+                    <td>Version</td>
+                    <td>1.5</td>
+                    <td>1.5</td>
+                </tr>
+                <tr>
+                    <td>Tags</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Required Oolite Version</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Maximum Oolite Version</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Required Expansions</td>
+                    <td>
+                    </td>
+                    <td>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Optional Expansions</td>
+                    <td>
+                    </td>
+                    <td>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Conflict Expansions</td>
+                    <td>
+                    </td>
+                    <td>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Information URL</td>
+                    <td><a target="_blank" href="http://wiki.alioth.net/index.php/System_Features_Sunspots">http://wiki.alioth.net/index.php/System_Features_Sunspots</a></td>
+                    <td><a target="_blank" href="">n/a</a></td>
+                </tr>
+                <tr>
+                    <td>Download URL</td>
+                    <td><a target="_blank" href="https://cim.sotl.org.uk/games/files/oolite/System_Features_Sunspots_1.5.oxz">https://cim.sotl.org.uk/games/files/oolite/System_Features_Sunspots_1.5.oxz</a></td>
+                    <td><a target="_blank" href="http://compsoc.dur.ac.uk/~cim/oolite/System_Features_Sunspots.1.5.oxz">http://compsoc.dur.ac.uk/~cim/oolite/System_Features_Sunspots.1.5.oxz</a></td>
+                </tr>
+                <tr>
+                    <td>License</td>
+                    <td>CC-BY-SA 3.0</td>
+                    <td>CC-BY-SA 3.0</td>
+                </tr>
+                <tr>
+                    <td>File Size</td>
+                    <td>n/a</td>
+                </tr>
+                <tr>
+                    <td>Upload date</td>
+                    <td>1397505898</td>
+                </tr>
+            </table>
+                </a>
+
+        <a name="documentation">
+        <h2>Documentation</h2>
+        <p>Also read <a href='http://wiki.alioth.net/index.php/System%20Features:%20Sunspots'>http://wiki.alioth.net/index.php/System%20Features:%20Sunspots</a></p>
+        </a>
+
+        <a name="equipment">          
+        <h2>Equipment</h2>
+            This expansion declares no equipment. 
+        </a>
+
+        <a name="ships">    
+        <h2>Ships</h2>
+            This expansion declares no ships. 
+        </a>
+
+        <a name="models">    
+        <h2>Models</h2>
+            This expansion declares no models. 
+        </a>
+
+        <a name="scripts">    
+        <h2>Scripts</h2>
+            <table>
+                <tr>
+                    <th>Path</th>
+                </tr>
+                <tr>
+                    <td valign="top">Scripts/systemfeatures-sunspots.js</td>
+                    <td><pre>this.author      = &quot;cim&quot;; 
+this.copyright   = &quot;� 2011-2014 cim.&quot;; 
+this.licence = &quot;CC-BY-SA 3.0&quot;;
+this.version     = &quot;1.5&quot;; 
+this.name = &quot;System Features: Sunspots&quot;;
+this.description = &quot;Populator script for the sunspots&quot;;
+
+this.startUp = function() {
+		this.$overrides = [[],[],[],[],[],[],[],[]];
+		delete this.startUp;
+}
+
+this.systemWillPopulate = function() {
+	system.setPopulator(&quot;system_features_sunspots&quot;,
+						{
+							callback: this._addSunspots.bind(this),
+							priority: 1000,
+							coordinates: system.sun.position
+						});
+}
+
+this._addSunspots = function() {
+		if (this.$overrides[galaxyNumber].indexOf(system.ID) &gt; -1) {
+				return;
+		} 
+		if (!system.sun) {
+				return;
+		}
+
+		var numspots = Math.random()*6;
+		if (system.info.description.indexOf(&quot;solar activity&quot;) &gt; -1) {
+				numspots *= 1.5;
+				if (system.info.description.indexOf(&quot;frequent solar activity&quot;) &gt; -1) {
+						numspots += 3;
+				} else if (system.info.description.indexOf(&quot;dreadful solar activity&quot;) &gt; -1 || system.info.description.indexOf(&quot;deadly solar activity&quot;) &gt; -1) {
+						numspots *= 1.5;
+				}
+		}
+		numspots = Math.floor(numspots-3.5); // normal system usually 0 or 1 spots
+
+		if (numspots &lt; 1) { return; }
+		
+		for (var i=0;i&lt;numspots;i++) {
+				this._addSunspot();
+		}
+}
+
+
+
+this._addSunspot = function() {
+		// pick a random spot on the sun&#39;s surface
+		var spotpos = Vector3D.randomDirection().multiply(system.sun.radius).add(system.sun.position);
+		// make sure the sunspot is facing outwards
+		var facing = spotpos.subtract(system.sun.position).direction().rotationTo(new Vector3D([0,0,1]));
+		
+		// add the sunspot, and rotate it.
+		var sunspot = system.addVisualEffect(&quot;systemfeatures_sunspot&quot;,spotpos);
+		sunspot.orientation = facing;
+		// these need to be fairly precisely sized to match the apparent
+		// stellar curvature, or they look a bit odd. So we have a standard
+		// model to match a sphere of size 1, and scale it up to the right
+		// size as needed.
+		sunspot.scale(system.sun.radius);
+
+		// set up some shader parameters
+		// not really vectors, just some related floats, in this case
+		// so that the sunspots aren&#39;t all the same shape
+		sunspot.shaderVector1 = Vector3D(4+Math.random()*26,25+Math.random()*90,2+Math.random()*3);
+		sunspot.shaderVector2 = Vector3D(4+Math.random()*26,25+Math.random()*90,2+Math.random()*3);
+
+		// outer and inner radius of shader effect
+		var outerRadius = 0.25+(Math.random()/3.5);
+		sunspot.shaderFloat1 = outerRadius * outerRadius;
+		var innerRadius = outerRadius * (0.02+(Math.random()*0.1))
+		sunspot.shaderFloat2 = innerRadius * innerRadius;
+
+}
+</pre></td>
+                </tr>
+            </table>
+        </a>
+    </body>
+</html>

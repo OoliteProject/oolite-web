@@ -1,0 +1,507 @@
+<html>
+    <head>
+        <title>Expansion SW Economy</title>
+        <link rel="stylesheet" href="../style.css">
+    </head>
+    <body>
+        <table border="0" width="100%">
+            <tr>
+                <td>Back to <a href='../index.html'>Index</a></td>
+                <td align="right"><small>Page generated: Oct 11, 2023, 3:16:49 PM</small></td>
+            </tr>
+        </table>
+
+        <h1>Expansion SW Economy</h1>
+
+        <h2>Content</h2>
+        <ul>
+          <li><a href="#warnings">Warnings</a></li>
+          <li><a href="#manifest">Manifest</a></li>
+          <li><a href="#documentation">Documentation</a></li>
+          <li><a href="#equipment">0 Equipment</a></li>
+          <li><a href="#ships">0 Ships</a></li>
+          <li><a href="#models">0 Models</a></li>
+          <li><a href="#scripts">2 Scripts</a></li>
+        </ul>
+
+          <a name="warnings">
+            <h2>Warnings</h2>
+            <ol>
+                <li>Tags mismatch between OXP Manifest and Expansion Manager at character position 0002 (RIGHT SQUARE BRACKET vs LATIN SMALL LETTER E)(&#39;[]&#39; vs &#39;[economy]&#39;)</li>
+                <li>Information URL mismatch between OXP Manifest and Expansion Manager string length at character position 0</li>
+            </ol>
+          </a>
+
+        <a name="manifest">
+        <h2>Manifest</h2>
+            <table border="1">
+                <tr>
+                    <th></th>
+                    <th>from Expansion Manager's OXP list</th>
+                    <th>from Expansion Manifest</th>
+                </tr>
+                <tr>
+                    <td>Description</td>
+                    <td>New rebalanced set of market rules is implemented. Three new trade items declared: fresh water, oxygen and medicine.</td>
+                    <td>New rebalanced set of market rules is implemented. Three new trade items declared: fresh water, oxygen and medicine.</td>
+                </tr>
+                <tr>
+                    <td>Identifier</td>
+                    <td>oolite.oxp.stranger.SW_Economy</td>
+                    <td>oolite.oxp.stranger.SW_Economy</td>
+                </tr>
+                <tr>
+                    <td>Title</td>
+                    <td>SW Economy</td>
+                    <td>SW Economy</td>
+                </tr>
+                <tr>
+                    <td>Category</td>
+                    <td>Mechanics</td>
+                    <td>Mechanics</td>
+                </tr>
+                <tr>
+                    <td>Author</td>
+                    <td>stranger</td>
+                    <td>stranger</td>
+                </tr>
+                <tr>
+                    <td>Version</td>
+                    <td>3.8.0</td>
+                    <td>3.8.0</td>
+                </tr>
+                <tr>
+                    <td>Tags</td>
+                    <td></td>
+                    <td>economy</td>
+                </tr>
+                <tr>
+                    <td>Required Oolite Version</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Maximum Oolite Version</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Required Expansions</td>
+                    <td>
+                    </td>
+                    <td>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Optional Expansions</td>
+                    <td>
+                    </td>
+                    <td>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Conflict Expansions</td>
+                    <td>
+                    </td>
+                    <td>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Information URL</td>
+                    <td><a target="_blank" href=""></a></td>
+                    <td><a target="_blank" href="">n/a</a></td>
+                </tr>
+                <tr>
+                    <td>Download URL</td>
+                    <td><a target="_blank" href="https://wiki.alioth.net/img_auth.php/4/44/SW_Economy.oxz">https://wiki.alioth.net/img_auth.php/4/44/SW_Economy.oxz</a></td>
+                    <td><a target="_blank" href="">n/a</a></td>
+                </tr>
+                <tr>
+                    <td>License</td>
+                    <td>CC-BY-NC-SA 3.0</td>
+                    <td>CC-BY-NC-SA 3.0</td>
+                </tr>
+                <tr>
+                    <td>File Size</td>
+                    <td>n/a</td>
+                </tr>
+                <tr>
+                    <td>Upload date</td>
+                    <td>1610873286</td>
+                </tr>
+            </table>
+                </a>
+
+        <a name="documentation">
+        <h2>Documentation</h2>
+        <p>Also read <a href='http://wiki.alioth.net/index.php/SW%20Economy'>http://wiki.alioth.net/index.php/SW%20Economy</a></p>
+        <h3>ReadMe &amp; License.txt</h3>
+        <pre>SW Economy by Stranger
+
+This OXP is released under the Creative Commons Attribution - Non-Commercial - Share Alike 3.0 license.
+You are free to use and distribute this OXP on non-commercial basis. 
+Rebundling of this OXP within another distribution is permitted as long as it is unchanged.
+Any mods/derivatives of this OXP must be distributed under another names.
+The license information (either as this file or merged into a larger one) must be included in the OXP.
+
+--------------------------------------------------------------
+
+This OXZ was originally part of bundled OXP, containing six main packages:
+
+� SW Economy
+� SW Equipment
+� SW Shipdata
+� SW Population
+� SW Resident Filter
+� (e)Xternal OXP tweaks
+
+Since version 3.8 these OXPs are separated and presented as individual packages in OXZ format.
+
+*****
+
+First, this OXP changes canonic descriptor of system economy (text string Poor Agricultural, for example, used only to display on F7 system info screen, Oolite uses for market calculations numeric value system.economy = 7).
+New economic classification implemented:
+
+Poor Agricultural	-&gt;	Extreme Agricultural
+Average Agricultural	-&gt;	Strong Agricultural
+Rich Agricultural	-&gt;	Common Agricultural
+Mainly Agricultural	-&gt;	Mainly Agricultural
+Mainly Industrial	-&gt;	Mainly Industrial
+Poor Industrial		-&gt;	Common Industrial
+Average Industrial	-&gt;	Strong Industrial
+Rich Industrial		-&gt;	Extreme Industrial
+
+It also describes three new trade items: fresh water, oxygen and medicine.
+New rebalanced set of market rules is implemented. Most items has the same economic values with rebalanced properties, but price for some items (food, textile, slaves) readjusted.
+Quantity of luxuries and narcotics is redefined in kg, not tons.
+
+SW Economy set system market with system-specific filters:
+
+	� Computers, machinery and alloys are not available in agrarian systems
+	� Food, textiles, wines and furs are not available in industrial systems
+	� Food, textiles, wines and furs are not available in agricultural systems with archaic TL AND main planet radius below 5425 km
+	� Computers, medicine and luxuries available only in systems above median tech level, quantity is limited
+	� Machinery, alloys and oxygen available only in systems above low tech level
+	� Minerals and radioactive available only in low-tech OR industrial systems
+	� Machinery is more profitable in comparison with default market
+	� Textiles are more profitable in comparison with default market
+	� Quantity of some items depends of system gross productivity
+	� Illegal items available only in low-tech unstable systems
+	� and some more readjustments
+
+Modified spara&#39;s In-System Market Restore script included to provide saving of market with additional items (fresh water, oxygen and medicine). Modifications includes adding extra items and changing item order in commodity array.
+
+SW Economy set also new market definitions for secondary ports, overriding market definitions in external packages:
+
+Anarchies
+	� Salvage Gang
+	� Hackers Outpost
+	� Renegade Station
+Commies
+	� Astrogulag Penal Colony
+	� CZGF
+	� SLAPU
+Dictators
+	� Astrofactory
+Galactic Navy
+	� Navy Station
+Deep Space Dredgers
+	� Dredgers
+
+These original OXPs has scripts, emulating obsolete market definition using commodities.plist (was replaced with trade-goods.plist since Oolite 1.82). These scripts can override SW Economy market definitions for secondary ports, but in worst case you&#39;ll just have emulated old markets. Not conflicting with SW Economy model, just unbalanced with my altered prices.
+
+Known issues
+
+New economic rules will activates only AFTER first hyperjump to new system. Starting as new pilot on Lave you&#39;ll have F8 screen with old goods list and with old price/quantity settings. This is intentionally decision. There are possible multiple events like departing from station(s) or docking with station(s) staying in system, but only one event of entering this system. So it is safe to set market for system at arrival once to avoid recurring loops. New market state will be stored in your first save in new system.
+
+After installing this OXP you&#39;ll can&#39;t get new market rules until you&#39;ll leave your current system, so playing custom scenario using ship, not equipped with hyperdrive (such Bushmaster in Advanced miner scenario), you&#39;ll have vanilla market. Lave is not suitable system for mining business and it is wise to leave Lave ASAP taking advice to use wormhole of friendly trader ship. After arriving to new system you&#39;ll have new economy. But if you&#39;ll install this OXP after entering new system, having ship without hyperdrive you&#39;ll get stuck in vanilla market until you&#39;ll find way to leave this system.
+
+Starting new pilot is good idea in any case, but I think it is not obligatory. Hope it is safe to try new rules having existent saves, but I recommend to backup your current save.
+
+If you&#39;ll decide to uninstall this OXP it is good to sell all extra goods (fresh water, oxygen and medicine) first. Extra goods will remain in system market, generating error message in log, but this issue will be fixed after entering new system.
+
+Be careful with luxuries and narcotics! Having 50 kg of luxuries on 10-ton Cobra Mk I is safe, but deinstalling this OXP you&#39;ll convert this 50 kg to 50 tons and lose extra 40 tons of these items!
+
+As I already mentioned scripts for secondary ports in original OXPs defines goods quantities using vanilla rules, so I&#39;ll be grateful to you for feedback.
+
+Changed economy descriptions will not affect any Oolite scripts. Text string Extreme Agricultural, for example, used only to display on F7 system info screen, Oolite uses for market calculations numeric value system.economy = 7.
+
+Enjoy!
+
+Credits:
+In-System Market Restore (author spara)
+Anarchies (authors Commander McLane, Killer Wolf, Arexack Heretic, Eric Walch, spara, Norby, phkb and Griff)
+Commies (authors Amaranth, Dr. Nil, Eric Walch, Norby, phkb)
+Dictators (authors Ramirez, gsagostinho, phkb, Griff)
+Galactic Navy (author Nemoricus)
+Deep Space Dredger (authors Sabre, Eric Walch, Little Bear, Captain Berf)
+Seven - detecting error in trade-goods.plist
+
+--------------------------------------------------------------
+
+Version history:
+
+16.01.2021 - Version 3.8	Bundled OXP Stranger&#39;s Set reassembled in OXZ format as separate packs.
+09.07.2020 - Version 3.7	Minimal planet radius for food, textiles, wines and furs production increased from 5200 to 5425 km.
+12.02.2019 - Version 3.6	Fixed error in trade-goods.plist, description of firearms. Thanks, Seven!
+18.08.2018 - Version 3.5	Food, textiles, wines and furs are not available in agricultural systems with main planet radius below 5200 km.
+31.03.2018 - Version 3.4	Pulse laser is excluded from legal census to provide compatibility to Hard Eject OXP.
+08.11.2017 - Version 3.3	Forward/aft shield ratio reverted to original 1:1 value.
+06.11.2017 - Version 3.2	Improved economic rules.
+				Fixed conflict with secondary markets.
+				Description of secondary markets is transferred from obsolete eXternal Market Tweaks onto SW Economy package.
+19.08.2017 - Version 3.1	Some readjusted player&#39;s ship specs resets to standard again.
+				SW Shipdata is added as separate module.
+				Injector speed factor and fuel burn rate readjusting for player and NPS ships transferred from Hard Way to Stranger Set bundle OXP.
+06.07.2016 - Version 3.0	Modified In-System Market Restore script integrated into SW Economy package.
+12.01.2016 - Version 2.9	Ship hull class hidden on F5 screen.
+23.12.2015 - Version 2.8	Orbital Shuttle and Transporter max cargo load decreased to more realistic value.
+23.10.2015 - Version 2.7	Equipment availability realised via script. Obsolete condition definitions removed.
+				Script shipclassequip.js refined. Problem with ships without hyperspace capability fixed.
+18.09.2015 - Version 2.6	Dredger market really fixed :-)
+16.09.2015 - Version 2.5	Laser upgrade and missile re-arm available on main station only. 
+15.09.2015 - Version 2.4	Fixed compatibility issue with Ore Processor 2.2.1 OXZ.
+				Large Cargo Bay price reduced from 5000 to 2500 Cr.
+11.09.2015 - Version 2.3	Fixed error in dredger market definition.
+08.09.2015 - Version 2.2	Added brief descriptions of goods.
+				Trumble opinion readjusted.
+13.08.2015 - Version 2.1	Luxuries measured in kg, not tons.
+				Escape Capsule cost reduced to 1000 Cr.
+				Minor changes in market script.
+10.08.2015 - Version 2.0	Equipment.plist moved from SW Economy to new SW Equipment OXP.
+				Ship classes implemented based on hull size. Some equipment can&#39;t be installed on any ship.
+				Some player&#39;s ship specs depends on hull size, max speed and energy recharge rate.
+				Ship readjustments transferred to SW Equipment. SW TCS removed from bundle.
+01.08.2015 - Version 1.9	Rebalanced core ship specs (test version). 
+04.07.2015 - Version 1.8	External markets adjustments (more realistic profit from metals in case of dredgers for example).
+27.06.2015 - Version 1.7	Market filter now covers more items.
+19.06.2015 - Version 1.6	Bundle package completely reassembled.
+				Markets completely redefined and converted onto Oolite 1.82 format.
+				Yaw damper removed from shipdata-overrides.plist (it is realized via script in Warp Drive OXP!).
+16.09.2014 - Version 1.5	Equipment.plist and shipdata-overrides.plist refined.
+				Asp Mk II max roll speed increased.
+05.09.2014 - Version 1.4	Price for standard and ECM-hardened missiles readjusted to improve compatibility with Missile Tweak OXP.
+18.06.2014 - Version 1.3	Old readjusted ship roles and most readjusted ship specs (based on Switeck&#39;s Shipping OXP) removed from shipdata-overrides plist
+				to accommodate new ship role system in Oolite 1.79.
+03.06.2014 - Version 1.2	Price for Large Cargo Bay increased to 5000 Cr.
+12.03.2014 - version 1.1	Fixed bug in market_tweak.js - interstellar space test.
+19.11.2013 - version 1.0	Minor changes in shipdata-overrides.plist. Speeds of NPCs Cobra Mk I and Viper readjusted.
+				Stranger&#39;s Tweak OXP incorporated into bundled Stranger&#39;s World package.
+15.11.2013 - version 0.9	Slavery is prohibited in all ports of advanced worlds (planet ports also!).
+09.07.2013 - version 0.8	Minor change in market_tweak.js. Availability of illegal goods on market depends on (tech level + government) value
+				(more advanced political system has more strong market regulations).
+08.06.2013 - version 0.7	Yaw damper is added to shipdata-overrides.plist (Only for Oolite basic ships!)
+14.05.2013 - version 0.6	Syntax errors in shipdata-overrides.plist are corrected.
+				Cobra Mk I HUD set to &quot;hud.plist&quot; instead &quot;hud-small.plist&quot; for compatibility with Gravity Well OXP.
+21.03.2013 - version 0.5	Tech level availability for ECM-hardened missiles reduced from 12 to 10.
+				Bug in Cobra Mk III and Python max_cargo is fixed.
+22.01.2013 - Version 0.4	Added legal census for equipment availability.
+				Fuel cost reduced from 10 Cr/LY to 5 Cr/LY.
+15.01.2013 - Version 0.3	Script optimization.
+12.01.2013 - Version 0.2	Script rewritten for Oolite 1.77
+22.12.2012 - Version 0.1	Public release - compatible with Oolite 1.76.
+</pre>
+        </a>
+
+        <a name="equipment">          
+        <h2>Equipment</h2>
+            This expansion declares no equipment. This may be related to warnings.
+        </a>
+
+        <a name="ships">    
+        <h2>Ships</h2>
+            This expansion declares no ships. This may be related to warnings.
+        </a>
+
+        <a name="models">    
+        <h2>Models</h2>
+            This expansion declares no models. This may be related to warnings.
+        </a>
+
+        <a name="scripts">    
+        <h2>Scripts</h2>
+            <table>
+                <tr>
+                    <th>Path</th>
+                </tr>
+                <tr>
+                    <td valign="top">Scripts/market_restore.js</td>
+                    <td><pre>&quot;use strict&quot;;
+this.name           = &quot;in_system_market_restore&quot;;
+this.author         = &quot;spara &amp; Stranger&quot;;
+this.copyright      = &quot;2013 Mika Spåra, 2015 Stranger&quot;;
+this.description    = &quot;Remember and restore non main station prices and quantities. Modified by Stranger to adopt extra trade items.&quot;;
+this.version        = &quot;1.2.1&quot;;
+this.licence    	= &quot;CC BY-NC-SA 3.0&quot;;
+
+//1.1 save every market on save and restore when spawning. now it&#39;s fully compatible with market inquirer.
+
+this.startUp = function() {
+	if (missionVariables.marketRestorePrimaryRoles) {
+		this.$primaryRoles = JSON.parse(missionVariables.marketRestorePrimaryRoles);
+		this.$markets = JSON.parse(missionVariables.marketRestoreMarkets);
+	}
+	else {
+		this.$primaryRoles = new Array();
+		this.$markets = new Array();
+		delete this.shipSpawned;
+	}
+}
+
+//restore market when station is spawned
+this.shipSpawned = function(ship) {
+	if (ship.isStation) {
+		var index = this.$primaryRoles.indexOf(ship.primaryRole);
+		if (index !== -1) {
+			var commodities  = [&quot;food&quot;,&quot;textiles&quot;,&quot;liquor_wines&quot;,&quot;furs&quot;,&quot;medicine&quot;,&quot;luxuries&quot;,&quot;alloys&quot;,&quot;machinery&quot;,&quot;computers&quot;,&quot;water&quot;,&quot;oxygen&quot;,&quot;minerals&quot;,&quot;radioactives&quot;,&quot;gold&quot;,&quot;platinum&quot;,&quot;gem_stones&quot;,&quot;alien_items&quot;,&quot;slaves&quot;,&quot;narcotics&quot;,&quot;firearms&quot;];		
+			var market = this.$markets.splice(index, 1)[0];
+			var i, commodity;
+			for (i = 0; i &lt; market.length; i++) {
+				commodity = commodities[i];
+				ship.setMarketQuantity(commodity, market[i][0]);
+				ship.setMarketPrice(commodity, market[i][1]);
+			}
+			this.$primaryRoles.splice(index, 1);
+		}		
+	}
+}
+
+//wipe everything when leaving system
+this.shipWillEnterWitchSpace = function() {
+	this.$primaryRoles = new Array();
+	this.$markets = new Array();
+	delete this.shipSpawned;
+}
+
+//save primaryRoles and markets (prices and quantities) of all stationary stations
+this.playerWillSaveGame = function() {
+	function stations(entity) {return (entity.isStation &amp;&amp; !entity.isMainStation &amp;&amp; !entity.maxSpeed)};
+	var i, j, station, commodity;
+	var stationMarket = new Array();
+	var primaryRoles = this.$primaryRoles.concat();
+	var markets = this.$markets.concat();
+	var commodities  = [&quot;food&quot;,&quot;textiles&quot;,&quot;liquor_wines&quot;,&quot;furs&quot;,&quot;medicine&quot;,&quot;luxuries&quot;,&quot;alloys&quot;,&quot;machinery&quot;,&quot;computers&quot;,&quot;water&quot;,&quot;oxygen&quot;,&quot;minerals&quot;,&quot;radioactives&quot;,&quot;gold&quot;,&quot;platinum&quot;,&quot;gem_stones&quot;,&quot;alien_items&quot;,&quot;slaves&quot;,&quot;narcotics&quot;,&quot;firearms&quot;];	
+	var oxpStations = system.filteredEntities(this, stations, player.ship);
+	for (i = 0; i &lt; oxpStations.length; i++) {
+		station = oxpStations[i];
+		primaryRoles.push(station.primaryRole);
+		stationMarket = new Array();
+		for (j = 0; j &lt; commodities.length; j++) {
+			commodity = commodities[j];
+			stationMarket.push([station.market[commodity].quantity, station.market[commodity].price]);
+		}
+		markets.push(stationMarket);
+	}
+	if (primaryRoles.length &gt; 0) {
+		missionVariables.marketRestorePrimaryRoles = JSON.stringify(primaryRoles);
+		missionVariables.marketRestoreMarkets = JSON.stringify(markets);
+	}
+	else {
+		delete missionVariables.marketRestorePrimaryRoles;
+		delete missionVariables.marketRestoreMarkets;
+	}
+}</pre></td>
+                </tr>
+                <tr>
+                    <td valign="top">Scripts/market_tweak.js</td>
+                    <td><pre>&quot;use strict&quot;;
+this.name				= &quot;market_tweak.js&quot;;
+this.author				= &quot;Stranger&quot;;
+this.copyright				= &quot;Creative Commons: attribution, non-commercial, sharealike with clauses - see readme.txt&quot;;
+this.description			= &quot;Script for selecting market preset&quot;;
+this.version				= &quot;3.7&quot;;
+
+this.startUp = function()
+{
+	//log(this.name, &quot;this OXP initialising!&quot;);
+}
+
+this.shipExitedWitchspace = function()                      // Welcome to system!
+
+    {
+    if (system.isInterstellarSpace) return;                 // oops... we have a problem with navigation
+
+    var industry_adjust = (25000 + system.productivity) / 50000; // production of industrial goods vs GNP scaling
+    var agro_adjust = (10000 + system.productivity) / 25000; // production of agro goods vs GNP scaling
+    var goods_store;
+
+	if((system.techLevel + 2 * system.government) &gt; 12)     // illegal goods prohibited in (tech OR social) advanced worlds
+        {
+        system.mainStation.setMarketQuantity(&quot;slaves&quot;, 0);
+        system.mainStation.setMarketQuantity(&quot;narcotics&quot;, 0);
+        system.mainStation.setMarketQuantity(&quot;firearms&quot;, 0); 
+        }
+        
+	if(system.economy &gt; 4)                                  // items unavailable in agrarian worlds    
+        {
+        system.mainStation.setMarketQuantity(&quot;computers&quot;, 0);
+        system.mainStation.setMarketQuantity(&quot;machinery&quot;, 0);
+        system.mainStation.setMarketQuantity(&quot;alloys&quot;, 0);        
+        }
+
+	if(system.economy &lt; 3)  // items unavailable in industrial worlds
+        {
+        system.mainStation.setMarketQuantity(&quot;food&quot;, 0);
+        system.mainStation.setMarketQuantity(&quot;textiles&quot;, 0);               
+        system.mainStation.setMarketQuantity(&quot;liquor_wines&quot;, 0);
+        system.mainStation.setMarketQuantity(&quot;furs&quot;, 0);
+        }
+
+    if(system.techLevel &lt; 4 &amp;&amp; system.mainPlanet.radius &lt; 54250)    // too harsh conditions to produce by archaic methods
+        {
+        system.mainStation.setMarketQuantity(&quot;food&quot;, 0);
+        system.mainStation.setMarketQuantity(&quot;textiles&quot;, 0);               
+        system.mainStation.setMarketQuantity(&quot;liquor_wines&quot;, 0);
+        system.mainStation.setMarketQuantity(&quot;furs&quot;, 0);        
+        }
+
+	if((system.economy &gt; 2) &amp;&amp; (system.techLevel &gt; 3))      // items available only in archaic tech OR industrial worlds    
+        {
+        system.mainStation.setMarketQuantity(&quot;minerals&quot;, 0);
+        system.mainStation.setMarketQuantity(&quot;radioactives&quot;, 0);        
+        }
+
+    if(system.techLevel &lt; 7)                               // items unavailable below median tech limit
+        {
+        system.mainStation.setMarketQuantity(&quot;computers&quot;, 0);
+        system.mainStation.setMarketQuantity(&quot;medicine&quot;, 0);
+        system.mainStation.setMarketQuantity(&quot;luxuries&quot;, 0);                
+        }
+    else
+        {
+        goods_store = Math.floor(system.mainStation.market.computers.quantity * industry_adjust);
+        system.mainStation.setMarketQuantity(&quot;computers&quot;, goods_store);
+        goods_store = Math.floor(system.mainStation.market.medicine.quantity * agro_adjust);
+        system.mainStation.setMarketQuantity(&quot;medicine&quot;, goods_store);
+        goods_store = Math.floor(system.mainStation.market.luxuries.quantity * industry_adjust);
+        system.mainStation.setMarketQuantity(&quot;luxuries&quot;, goods_store);
+        }
+ 
+    if(system.techLevel &lt; 4)                                // items unavailable in archaic tech worlds
+        {
+        system.mainStation.setMarketQuantity(&quot;machinery&quot;, 0);
+        system.mainStation.setMarketQuantity(&quot;alloys&quot;, 0);
+        system.mainStation.setMarketQuantity(&quot;oxygen&quot;, 0);
+        }        
+    else
+        {
+        goods_store = Math.floor(system.mainStation.market.machinery.quantity * industry_adjust);
+        system.mainStation.setMarketQuantity(&quot;machinery&quot;, goods_store);        
+        goods_store = Math.floor(system.mainStation.market.alloys.quantity * industry_adjust);
+        system.mainStation.setMarketQuantity(&quot;alloys&quot;, goods_store);
+        goods_store = Math.floor(system.mainStation.market.oxygen.quantity * industry_adjust);
+        system.mainStation.setMarketQuantity(&quot;oxygen&quot;, goods_store);
+        }
+                                                        // low tech production, but needs some investments 
+    goods_store = Math.floor(system.mainStation.market.liquor_wines.quantity * agro_adjust);
+    system.mainStation.setMarketQuantity(&quot;liquor_wines&quot;, goods_store);
+    goods_store = Math.floor(system.mainStation.market.furs.quantity * agro_adjust);
+    system.mainStation.setMarketQuantity(&quot;furs&quot;, goods_store);   
+
+    }
+ </pre></td>
+                </tr>
+            </table>
+        </a>
+    </body>
+</html>

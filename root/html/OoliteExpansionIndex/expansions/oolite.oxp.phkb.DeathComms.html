@@ -1,0 +1,256 @@
+<html>
+    <head>
+        <title>Expansion Death Comms</title>
+        <link rel="stylesheet" href="../style.css">
+    </head>
+    <body>
+        <table border="0" width="100%">
+            <tr>
+                <td>Back to <a href='../index.html'>Index</a></td>
+                <td align="right"><small>Page generated: Oct 11, 2023, 3:16:49 PM</small></td>
+            </tr>
+        </table>
+
+        <h1>Expansion Death Comms</h1>
+
+        <h2>Content</h2>
+        <ul>
+          <li><a href="#warnings">Warnings</a></li>
+          <li><a href="#manifest">Manifest</a></li>
+          <li><a href="#documentation">Documentation</a></li>
+          <li><a href="#equipment">0 Equipment</a></li>
+          <li><a href="#ships">0 Ships</a></li>
+          <li><a href="#models">0 Models</a></li>
+          <li><a href="#scripts">1 Scripts</a></li>
+        </ul>
+
+          <a name="warnings">
+            <h2>Warnings</h2>
+            <ol>
+                <li>Information URL mismatch between OXP Manifest and Expansion Manager string length at character position 0</li>
+            </ol>
+          </a>
+
+        <a name="manifest">
+        <h2>Manifest</h2>
+            <table border="1">
+                <tr>
+                    <th></th>
+                    <th>from Expansion Manager's OXP list</th>
+                    <th>from Expansion Manifest</th>
+                </tr>
+                <tr>
+                    <td>Description</td>
+                    <td>Gives pilots that get killed in battle a final comms message.</td>
+                    <td>Gives pilots that get killed in battle a final comms message.</td>
+                </tr>
+                <tr>
+                    <td>Identifier</td>
+                    <td>oolite.oxp.phkb.DeathComms</td>
+                    <td>oolite.oxp.phkb.DeathComms</td>
+                </tr>
+                <tr>
+                    <td>Title</td>
+                    <td>Death Comms</td>
+                    <td>Death Comms</td>
+                </tr>
+                <tr>
+                    <td>Category</td>
+                    <td>Ambience</td>
+                    <td>Ambience</td>
+                </tr>
+                <tr>
+                    <td>Author</td>
+                    <td>phkb</td>
+                    <td>phkb</td>
+                </tr>
+                <tr>
+                    <td>Version</td>
+                    <td>1.7</td>
+                    <td>1.7</td>
+                </tr>
+                <tr>
+                    <td>Tags</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Required Oolite Version</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Maximum Oolite Version</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Required Expansions</td>
+                    <td>
+                    </td>
+                    <td>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Optional Expansions</td>
+                    <td>
+                    </td>
+                    <td>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Conflict Expansions</td>
+                    <td>
+                    </td>
+                    <td>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Information URL</td>
+                    <td><a target="_blank" href=""></a></td>
+                    <td><a target="_blank" href="">n/a</a></td>
+                </tr>
+                <tr>
+                    <td>Download URL</td>
+                    <td><a target="_blank" href="https://wiki.alioth.net/img_auth.php/7/74/DeathComms.oxz">https://wiki.alioth.net/img_auth.php/7/74/DeathComms.oxz</a></td>
+                    <td><a target="_blank" href="">n/a</a></td>
+                </tr>
+                <tr>
+                    <td>License</td>
+                    <td>CC BY-NC-SA 4.0</td>
+                    <td>CC BY-NC-SA 4.0</td>
+                </tr>
+                <tr>
+                    <td>File Size</td>
+                    <td>n/a</td>
+                </tr>
+                <tr>
+                    <td>Upload date</td>
+                    <td>1610873337</td>
+                </tr>
+            </table>
+                </a>
+
+        <a name="documentation">
+        <h2>Documentation</h2>
+        <p>Also read <a href='http://wiki.alioth.net/index.php/Death%20Comms'>http://wiki.alioth.net/index.php/Death%20Comms</a></p>
+        <h3>readme.txt</h3>
+        <pre>Death Comms
+By Nick Rogers
+
+With thanks to ShipBuilder, Smivs, Disembodied, Diziet Sma, Wildeblood, maaarcooose, Gimbal Locke, Knotty, and Tricky who contributed ideas to the thread mentioned below.
+
+Overview
+========
+This OXP attempts to add a bit of flavour to battles by sometimes having ships give a final comms message when they die. The message should only occur if the ship still has a pilot in it (ie. the pilot didn&#39;t eject in an escape pod), and should only apply to normal ships (not police or Thargoids). Comments (and suggestions for additional comms examples) welcome!
+
+Notes for OXP Developers
+========================
+This OXP uses a coding methodology described as &quot;Monkey Patching&quot;. A Monkey Patch allows for existing code to be amended or modified without the foreknowledge of the original author. There is a body of evidence that suggests that Monkey Patching should only be used when there is no other option.
+
+In this case, in order to keep the logic of this OXP as simple as possible, it is necessary. This OXP uses the &quot;shipDied&quot; event of NPC ships to determine when to send a comms message. But other OXP&#39;s may already be using this event for their own purposes. So to keep those OXP&#39;s functioning, and to add my code to the same event, I am using a Money Patch to rename the pre-existing script, and calling the renamed script from my own &quot;shipDied&quot; event.
+
+License
+=======
+This work is licensed under the Creative Commons Attribution-Noncommercial-Share Alike 4.0 Unported License. To view a copy of this license, visit http://creativecommons.org/licenses/by-nc-sa/4.0/
+
+Version History
+===============
+1.7
+- Spelling corrections.
+
+1.6
+- Increased the frequency of comms messages appearing, just slightly.
+- Updated exclusion list to make sure subentities, wreckage and nav buoys don&#39;t get included.
+- Added a lot more comms variations, based on info in this forum link: http://aegidian.org/bb/viewtopic.php?f=4&amp;t=13046
+
+1.5
+- Reduced the frequency of comms messages appearing.
+- Added some more comms variations.
+
+1.4
+- Added some more comms variations.
+
+1.3
+- Added check for autoWeapons to determine whether the death comms script can be attached.
+
+1.2
+- Further tweaks to the script logic to make it fully compatible with other OXP&#39;s.
+
+1.1
+- Tweaks to the script logic to make it play better with other OXP&#39;s.
+- Changed the manifest file to allow use with Oolite 1.80.
+
+1.0
+- Initial release.</pre>
+        </a>
+
+        <a name="equipment">          
+        <h2>Equipment</h2>
+            This expansion declares no equipment. This may be related to warnings.
+        </a>
+
+        <a name="ships">    
+        <h2>Ships</h2>
+            This expansion declares no ships. This may be related to warnings.
+        </a>
+
+        <a name="models">    
+        <h2>Models</h2>
+            This expansion declares no models. This may be related to warnings.
+        </a>
+
+        <a name="scripts">    
+        <h2>Scripts</h2>
+            <table>
+                <tr>
+                    <th>Path</th>
+                </tr>
+                <tr>
+                    <td valign="top">Scripts/deathcomms.js</td>
+                    <td><pre>&quot;use strict&quot;;
+this.name        = &quot;DeathComms&quot;;
+this.author      = &quot;phkb&quot;;
+this.copyright   = &quot;2015 phkb&quot;;
+this.description = &quot;Adds the possibility of a comms message when ships die in battle&quot;;
+this.licence     = &quot;CC BY-NC-SA 4.0&quot;;
+
+this._excludeRoles = [&quot;police&quot;];
+
+//-------------------------------------------------------------------------------------------------------------
+this.shipSpawned = function(ship) {
+	if (ship.isStation == false &amp;&amp;
+		ship.isThargoid == false &amp;&amp;
+		ship.isPiloted == true &amp;&amp;
+		ship.isSubEntity == false &amp;&amp;
+		ship.isWeapon == false &amp;&amp;
+		ship.isCargo == false &amp;&amp;
+		ship.isRock == false &amp;&amp;
+		ship.primaryRole != &quot;wreckage&quot; &amp;&amp;
+		ship.scanClass != &quot;CLASS_BUOY&quot; &amp;&amp;
+		this._excludeRoles.indexOf(ship.primaryRole) == -1) {
+		// are autoWeapons on? if so, we can assume this is a standard ship, not a special OXP ship
+		if (ship.autoWeapons == true) {
+			// is there an existing script in shipDied?
+			// move it to a new spot
+			ship.script.$dc_old_shipDied = ship.script.shipDied;
+			ship.script.shipDied = this.$dc_shipDied;
+		}
+	}
+}
+
+//-------------------------------------------------------------------------------------------------------------
+this.$dc_shipDied = function(whom, why) {
+	if (this.ship.script.$dc_old_shipDied) this.ship.script.$dc_old_shipDied(whom, why);
+	
+	if (this.ship.isDerelict == false &amp;&amp; why != &quot;removed&quot; &amp;&amp; Math.random() &gt; 0.75) {
+		//log(this.name, &quot;Death Comms - sending comms&quot;);
+		this.ship.commsMessage(expandDescription(&quot;[deathcomms_message]&quot;), player.ship);
+	}
+}
+</pre></td>
+                </tr>
+            </table>
+        </a>
+    </body>
+</html>

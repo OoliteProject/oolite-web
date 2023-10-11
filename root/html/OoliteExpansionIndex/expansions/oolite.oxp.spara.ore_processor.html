@@ -1,0 +1,646 @@
+<html>
+    <head>
+        <title>Expansion Ore Processor</title>
+        <link rel="stylesheet" href="../style.css">
+    </head>
+    <body>
+        <table border="0" width="100%">
+            <tr>
+                <td>Back to <a href='../index.html'>Index</a></td>
+                <td align="right"><small>Page generated: Oct 11, 2023, 3:16:49 PM</small></td>
+            </tr>
+        </table>
+
+        <h1>Expansion Ore Processor</h1>
+
+        <h2>Content</h2>
+        <ul>
+          
+          <li><a href="#manifest">Manifest</a></li>
+          <li><a href="#documentation">Documentation</a></li>
+          <li><a href="#equipment">4 Equipment</a></li>
+          <li><a href="#ships">0 Ships</a></li>
+          <li><a href="#models">0 Models</a></li>
+          <li><a href="#scripts">2 Scripts</a></li>
+        </ul>
+
+
+        <a name="manifest">
+        <h2>Manifest</h2>
+            <table border="1">
+                <tr>
+                    <th></th>
+                    <th>from Expansion Manager's OXP list</th>
+                    <th>from Expansion Manifest</th>
+                </tr>
+                <tr>
+                    <td>Description</td>
+                    <td>Don&#39;t accept lousy pay for mined minerals! The Ore Processor extracts any valuable material from scooped asteroid splinters. The equipment is sold at high tech shipyards and is every miner&#39;s dream. </td>
+                    <td>Don&#39;t accept lousy pay for mined minerals! The Ore Processor extracts any valuable material from scooped asteroid splinters. The equipment is sold at high tech shipyards and is every miner&#39;s dream. </td>
+                </tr>
+                <tr>
+                    <td>Identifier</td>
+                    <td>oolite.oxp.spara.ore_processor</td>
+                    <td>oolite.oxp.spara.ore_processor</td>
+                </tr>
+                <tr>
+                    <td>Title</td>
+                    <td>Ore Processor</td>
+                    <td>Ore Processor</td>
+                </tr>
+                <tr>
+                    <td>Category</td>
+                    <td>Equipment</td>
+                    <td>Equipment</td>
+                </tr>
+                <tr>
+                    <td>Author</td>
+                    <td>Ark, Dr. Nil, Eric Walch, Kaks, spara</td>
+                    <td>Ark, Dr. Nil, Eric Walch, Kaks, spara</td>
+                </tr>
+                <tr>
+                    <td>Version</td>
+                    <td>2.2.2</td>
+                    <td>2.2.2</td>
+                </tr>
+                <tr>
+                    <td>Tags</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Required Oolite Version</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Maximum Oolite Version</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Required Expansions</td>
+                    <td>
+                    </td>
+                    <td>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Optional Expansions</td>
+                    <td>
+                    </td>
+                    <td>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Conflict Expansions</td>
+                    <td>
+                    </td>
+                    <td>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Information URL</td>
+                    <td><a target="_blank" href="http://wiki.alioth.net/index.php/Ore_Processor">http://wiki.alioth.net/index.php/Ore_Processor</a></td>
+                    <td><a target="_blank" href="">n/a</a></td>
+                </tr>
+                <tr>
+                    <td>Download URL</td>
+                    <td><a target="_blank" href="https://wiki.alioth.net/img_auth.php/e/e4/Ore_processor_2.2.2.oxz">https://wiki.alioth.net/img_auth.php/e/e4/Ore_processor_2.2.2.oxz</a></td>
+                    <td><a target="_blank" href="">n/a</a></td>
+                </tr>
+                <tr>
+                    <td>License</td>
+                    <td>CC-BY-NC-SA 4.0</td>
+                    <td>CC-BY-NC-SA 4.0</td>
+                </tr>
+                <tr>
+                    <td>File Size</td>
+                    <td>n/a</td>
+                </tr>
+                <tr>
+                    <td>Upload date</td>
+                    <td>1610873499</td>
+                </tr>
+            </table>
+                </a>
+
+        <a name="documentation">
+        <h2>Documentation</h2>
+        <p>Also read <a href='http://wiki.alioth.net/index.php/Ore%20Processor'>http://wiki.alioth.net/index.php/Ore%20Processor</a></p>
+        <h3>ReadMe.old</h3>
+        <pre>Ore Processor equipment for Giles William&#39;s Oolite
+By Dr. Nil.
+
+The Ore Processor costs 3500 Cr and can be found at shipyards of tech level 12 or higher.
+
+It attaches to the fuel scoop and instantly extracts valuable materials from mined asteroid splinters.
+
+Processing the ore costs a certain amount of energy.
+
+
+Thanks to Little Bear, Cmdr Wyvern, Griff and DaddyHoggy for creative input and bugsquashing.
+
+Special Thanks to Ark for updating this OXP to v.1.5 and to Kaks for finally ironing out the terrible edible killer asteroid bug by making the Ore Processor work differently in different versions of Oolite.
+
+Since version v.1.53 the updating is done by Eric Walch.
+
+
+----------------------
+
+Version info
+
+v.1.59
+
+- Raised minimum Oolite to 1.74 and removed all the code to stay compatible with older versions.
+- Changed the way of awarding processed ore, so you already get a &#39;hold-full&#39; message when scooping the splinter to be processed instead of ejecting a mineral when the hold seems full after extracting.
+
+v.1.58
+
+- Added code so the ore processor also works with splinters from grifts asteroids.
+- Fixed a casing bug that would generate errors in Oolite versions after 1.74.2
+
+v.1.57
+
+- Fixed a bug with sound staying on after processing.
+- Fixed a bug on 1.74 were the last ton in the hold could not be processed.
+
+v.1.56
+
+- Prepared for the even newer cargo handling in Oolite 1.74 (rev 3091+).
+
+v.1.55
+
+- Prepared for the new cargo handling in Oolite 1.74.
+
+v.1.54
+
+- The processor does not try to add processed goods when the hold was filled during processing. Instead they are ejected now when there is no storing room available after processing.
+
+v.1.53
+
+Update by Eric:
+- Gave all barrels a js script. These scripts are used by Oolite 1.70+. scripts now can differentiate between singular and plural form in messages, based on actual quantity after quantity randomisation.
+- Older oolite versions will use the old script_action code. Here I deliberately let the Gem splinters award gold in the script_action because the windows version of pre 1.70 Oolites had a bug that it gave food instead of gems. This way a condition is avoided.
+- Added new textures for different splinters. (used by Oolite 1.70+.)
+- Extracting ore now uses 64 units of energy. (= about one energy bank) On low energy situations no extraction takes place.
+- Extraction now takes 5 seconds per splinter.
+- Added extraction sound.
+ 
+v.1.52
+
+Update by Kaks:
+- Bugfix.
+
+v.1.51
+
+Update by Kaks:
+- The Ore Processer now works differently with Oolite 1.65 and Oolite 1.70 up. Gem stones only available in 1.70 up to stop splinters from awarding food.
+
+v.1.5
+
+- Price has been increased
+
+update by Ark:
+- Scripted messages tell the player what material has been extracted.
+- The Ore Processor can now extract gem stones
+- code has been optimized
+
+v.1.03
+
+No more rock candy. Seriously
+
+v.1.02
+
+Edible asteroids have been removed :o)</pre>
+        <h3>ore_processor_readme_&amp;_license.txt</h3>
+        <pre>Ore Processor OXP ver 2.2.2 (26.12.2015)
+
+Author: spara (Mika Spåra) upgrading work by Dr. Nil &amp; Eric Walch
+
+_Description_
+
+This oxp is an update to the original Ore Processor oxp by Dr. Nil &amp; Eric Walch to better fit into Oolite with different rock texturing oxps installed. It also changes the behaviour of the equipment from automatic to primable and adds a short range scanning function.
+
+* By default valuables are randomly put into any splinter from any splinter set installed. Optionally the original textured scripted custom splinters from the previous version can be mixed in by renaming the file shipdata.plist_ to shipdata.plist.
+* Toughness of the splinters is varied. Some splinters take more time to process than others.
+* Equipment has to be manually operated. Scoop a splinter or splinters. Start processing them by priming the equipment with shift-n and pressing n. Processing can be aborted by pressing n again. An upgrade to equipment is available to make it automatic.
+* Processing can be resumed after aborting.
+* With an upgrate the tquipment can make a short range scan of a targeted splinter for valuables. Prime equipment, target a splinter and press b. Scan takes a few moments and some energy. Scanning can be aborted by pressing b while scan is active.
+
+_Installing_
+
+Install the OXP by copying ore_processor.oxp to your AddOns-folder.
+
+_Credits_
+
+* Original oxp by Dr. Nil &amp; Eric Walch. See ReadMe.old for details.
+
+------
+
+This work is licensed under the Creative Commons Attribution-Noncommercial-Share Alike 4.0 Unported License. To view a copy of this license, visit http://creativecommons.org/licenses/by-nc-sa/4.0/
+</pre>
+        </a>
+
+        <a name="equipment">          
+        <h2>Equipment</h2>
+            <table>
+                <tr>
+                    <th>Name</th>
+                    <th>Visible</th>
+                    <th>Cost [deci-credits]</th>
+                    <th>Tech-Level</th>
+                </tr>
+                <tr>
+                    <td><a href="../equipment/EQ_HARDWIRE_ORE_PROCESSOR.html">Hardwire Ore Processor</a></td>
+                    <td>no</td>
+                    <td align="right">200</td>
+                    <td align="center">1+</td>
+                </tr>
+                <tr>
+                    <td><a href="../equipment/EQ_ORE_PROCESSOR.html">Ore Processor</a></td>
+                    <td>yes</td>
+                    <td align="right">35000</td>
+                    <td align="center">12+</td>
+                </tr>
+                <tr>
+                    <td><a href="../equipment/EQ_ORE_SCANNER.html">Ore Scanner</a></td>
+                    <td>yes</td>
+                    <td align="right">4250</td>
+                    <td align="center">12+</td>
+                </tr>
+                <tr>
+                    <td><a href="../equipment/EQ_UNDO_HARDWIRE_ORE_PROCESSOR.html">Undo Hardwiring from Ore Processor</a></td>
+                    <td>no</td>
+                    <td align="right">200</td>
+                    <td align="center">1+</td>
+                </tr>
+            </table>
+        </a>
+
+        <a name="ships">    
+        <h2>Ships</h2>
+            This expansion declares no ships. 
+        </a>
+
+        <a name="models">    
+        <h2>Models</h2>
+            This expansion declares no models. 
+        </a>
+
+        <a name="scripts">    
+        <h2>Scripts</h2>
+            <table>
+                <tr>
+                    <th>Path</th>
+                </tr>
+                <tr>
+                    <td valign="top">Config/script.js</td>
+                    <td><pre>&quot;use strict&quot;;
+
+this.name			= &quot;oreProcessor&quot;;
+this.author			= &quot;Eric, spara&quot;;
+this.copyright		= &quot;Creative Commons: attribution, non-commercial, sharealike.&quot;;
+this.description	= &quot;Ore processor main&quot;;
+
+//2.2.1 Gem-Stones bug fix for Oolite 1.81
+//2.2 scanner is now a separate equipment/upgrade. Failure chance is removed.
+//2.1.1 added support for manifest_mfd
+//2.1 added support for griff&#39;s additional shipset splinters
+//2.1 added the possibility to hardwire the processor to work without activation
+
+this.splinter = new Array(); // array that will hold a list of splinter records
+
+this.startUp = function () {
+	this.oreTimer = new Timer(this, this.processOre, 5, 0.5);
+	this.oreTimer.stop();
+	this.$scanTimer = new Timer(this, this.$scanForMinerals, 1, 1);
+	this.$scanTimer.stop();
+	this.mySound = new SoundSource;
+	this.$scanSound = new SoundSource;
+	this.mySound.sound = &quot;op_process.ogg&quot;;
+	this.mySound.loop = false;
+}
+
+this.processOre = function () {
+	//remove lost splinters from the array and stop processing if we run out splinters
+	while (this.splinter[0].status !== &quot;STATUS_IN_HOLD&quot;) {
+		//remove dumped splinter from process array
+		this.splinter.shift();
+		//stop processing if out of splinters
+		if (this.splinter.length === 0) {
+			this.oreTimer.stop();
+			this.mySound.stop();
+			return;
+		}
+	}
+	// busy processing splinter
+	if (parseInt(this.splinter[0].$oreProcessor.count) &gt; 0 &amp;&amp; player.ship.energy &gt; 6.4) {
+		player.consoleMessage(&quot;Processing ore.&quot;);
+        this.splinter[0].$oreProcessor.count--;
+		player.ship.energy -= 6.4;
+	}
+	else {
+        if (this.toggle) this.toggle=false; else this.toggle = true; // to avoid identical message supression.
+		if (parseInt(this.splinter[0].$oreProcessor.count) === 0) {
+			//process splinter
+			if (this.splinter[0].status === &quot;STATUS_IN_HOLD&quot;) {
+				player.consoleMessage(expandDescription(this.splinter[0].$oreProcessor.message)+(this.toggle?&quot;&quot;:&quot; &quot;));
+				//1.81 fix
+				if (this.splinter[0].$oreProcessor.type === &quot;Gem-Stones&quot; &amp;&amp; oolite.compareVersion(&quot;1.80&quot;) === -1)
+					this.splinter[0].setCargo(&quot;gem_stones&quot;, this.splinter[0].$oreProcessor.quantity);
+				else
+					this.splinter[0].setCargo(this.splinter[0].$oreProcessor.type.toLowerCase(), this.splinter[0].$oreProcessor.quantity);
+				this.splinter[0].displayName = &quot;Processed Splinter (&quot;+this.splinter[0].$oreProcessor.type+&quot;)&quot;;
+				this.splinter.shift(); // remove the processed splinter from the unprocessed splinter array.
+				//notify manifest_mfd about content cargo change
+				if (worldScripts[&quot;manifest_mfd&quot;])
+					worldScripts[&quot;manifest_mfd&quot;].notifyCargoChange();
+			}
+		}
+		else {
+			//stop processing if out of energy
+			player.consoleMessage(&quot;Not enough energy, processing aborted!!&quot;);
+			this.oreTimer.stop();
+            this.mySound.stop();
+            return;
+		}
+		// restart the sound for next splinter
+		if (this.splinter.length &gt; 0) this.mySound.play(10); 
+        else {
+			//last splinter processed, lets stop
+			this.oreTimer.stop();
+			this.mySound.stop();
+		}
+	}
+}
+
+//Add contents to splinters
+this.$addValuablesToSplinter = function(ship)
+{
+	//Check if the splinter has already been handled
+	if (!ship.$oreProcessor) {
+		var type, quantity, message;
+		//handle custom splinters
+		if (ship.scriptInfo.cargotype) {
+			type = ship.scriptInfo.cargotype;
+			quantity = parseInt(ship.scriptInfo.quantity);
+			message = ship.scriptInfo.message;
+		}
+		//handle regular splinters
+		else {
+			var randomOre = Math.floor(992 * Math.random()); //0 - 991
+			if (randomOre &lt; 300) {
+				type = &quot;Alloys&quot;;
+				quantity = 1;
+				message = &quot;@1 ton of Alloys extracted.&quot;;
+			}
+			else if (randomOre &lt; 315) {
+				type = &quot;Gem-Stones&quot;;
+				quantity = -5;
+				message = &quot;Extracted @1 gr of Gems from the splinter!!&quot;;
+			}
+			else if (randomOre &lt; 330) {
+				type = &quot;Gem-Stones&quot;;
+				quantity = -7;
+				message = &quot;Extracted @1 gr of Gems from the splinter!!&quot;;
+			}
+			else if (randomOre &lt; 346) {
+				type = &quot;Gem-Stones&quot;;
+				quantity = -10;
+				message = &quot;Extracted @1 gr of Gems from the splinter!!&quot;;
+			}
+			else if (randomOre &lt; 386) {
+				type = &quot;Gold&quot;;
+				quantity = -2;
+				message = &quot;@1 kilogram of Gold extracted.&quot;;
+			}
+			else if (randomOre &lt; 396) {
+				type = &quot;Gold&quot;;
+				quantity = -3;
+				message = &quot;@1 kilogram of Gold extracted.&quot;;
+			}
+			else if (randomOre &lt; 406) {
+				type = &quot;Gold&quot;;
+				quantity = -6;
+				message = &quot;@1 kilogram of Gold extracted.&quot;;
+			}
+			else if (randomOre &lt; 421) {
+				type = &quot;Platinum&quot;;
+				quantity = -2;
+				message = &quot;@1 kilogram of Platinum extracted.&quot;;
+			}
+			else if (randomOre &lt; 444) {
+				type = &quot;Platinum&quot;;
+				quantity = -3;
+				message = &quot;@1 kilogram of Platinum extracted.&quot;;
+			}
+			else if (randomOre &lt; 452) {
+				type = &quot;Platinum&quot;;
+				quantity = -6;
+				message = &quot;@1 kilogram of Platinum extracted.&quot;;
+			}
+			else if (randomOre &lt; 592) {
+				type = &quot;Radioactives&quot;;
+				quantity = 1;
+				message = &quot;@1 ton of Radioactives extracted.&quot;;
+			}
+			else {
+				type = &quot;Minerals&quot;;
+				quantity = 1;
+				message = &quot;@1 ton of Common Minerals.&quot;;
+			}
+		}
+		if (quantity &lt; 0) 
+			quantity= Math.ceil(Math.random()*(-quantity)); // only negative values are randomised.
+		if (quantity &gt; 1) {
+			message = message.replace(&quot;gr &quot;, &quot;grs &quot;);
+			message = message.replace(&quot;kilogram &quot;, &quot;kilograms &quot;)
+		}
+		ship.$oreProcessor = {	message: message.replace(&quot;@1&quot;, quantity), 
+								type: type,
+								quantity: quantity,
+								//randomize hardness of the splinter
+								count: 5 + Math.random() * 15};
+   }
+}
+
+//Add scooped splinter to splinter array.
+this.shipScoopedOther = function(whom) {
+	//Check that the scooped item is a splinter, contains minerals and is not scripted
+	if ((whom.primaryRole !== &quot;splinter&quot; &amp;&amp; whom.primaryRole !== &quot;griff_splinter&quot;) || whom.commodity !== &quot;minerals&quot; ||  whom.script.name !== &quot;oolite-default-ship-script&quot;) return;
+	//Check that the splinter is not already added to prevent double booking. This happens when scooping, dumping, scooping...
+	for (var i = 0; i &lt; this.splinter.length; i++) {
+		if (this.splinter[i] === whom)
+			this.splinter.splice(i, 1);
+	}
+	//Add valuables to the scooped splinter
+	this.$addValuablesToSplinter(whom);
+	//Add unprocessed scooped splinter to the list of unprocessed splinters
+	if (whom.$oreProcessor.count &gt; 0) this.splinter.push(whom);
+	//Automagically start processing if the processor has been hardwired
+	if (player.ship.equipmentStatus(&quot;EQ_HARDWIRE_ORE_PROCESSOR&quot;) === &quot;EQUIPMENT_OK&quot; &amp;&amp; player.ship.equipmentStatus(&quot;EQ_ORE_PROCESSOR&quot;) === &quot;EQUIPMENT_OK&quot; &amp;&amp; this.splinter.length &gt; 0 &amp;&amp; !this.oreTimer.isRunning) {
+		this.$extract();
+	}
+}
+
+//Activate/deactivate the ore processor
+this.$extract = function() {
+	//Start processing
+	if (!this.oreTimer.isRunning) {
+		if (player.ship.energy &gt; 6.4) {
+			var process = false;
+			//check that there is a splinter to process in the hold. If unprocessed splinter has been dumped or it is destroyed, it cannot be processed, thus the record is removed.
+			for (var i = this.splinter.length; i &gt; 0; i--) {
+				if (this.splinter[i-1].status === &quot;STATUS_IN_HOLD&quot;) {
+					process = true;
+					break;
+				}
+				else this.splinter.pop();
+			}
+			//found something to process, let&#39;s go
+			if (process) {
+				this.oreTimer.start();
+				if (!this.mySound.isPlaying) this.mySound.play(10);
+			}
+			//nothing to process, let&#39;s not go
+			else player.consoleMessage(&quot;No unprocessed splinters to process.&quot;);
+		}
+		else player.consoleMessage(&quot;Not enough energy to start processing.&quot;);
+	}
+	//Stop processing
+	else {
+		this.oreTimer.stop();
+		this.mySound.stop();
+		player.consoleMessage(&quot;Processing aborted.&quot;);
+	}
+}
+
+//Activate scan
+this.$activateScan = function() {
+	if (!this.$scanTimer.isRunning) {
+		if (player.ship.energy &gt; 3.2) {
+			this.$pass = 0;
+			this.$originalTarget = player.ship.target;
+			//randomize the time that a scan will take.
+			//this.$scanRounds = 5 + Math.round(Math.random() * 5);
+			this.$scanTimer = new Timer(this, this.$scanForMinerals, 0);
+		}
+		else player.consoleMessage(&quot;Not enough energy to start scanning.&quot;);
+	}
+	else {
+		this.$scanTimer.stop();
+		this.$scanSound.stop();
+		player.consoleMessage(&quot;Scanning aborted.&quot;);
+	}
+}
+
+//The actual scanning function
+this.$scanForMinerals = function() {
+	var target = player.ship.target;
+	//notify sound
+	this.$scanSound.sound = &quot;[@boop]&quot;;
+	//No target
+	if (!target) {
+		this.$scanSound.play();
+		player.consoleMessage(&quot;No target to scan.&quot;);
+		return;
+	}
+	//Target switched while scanning
+	if (this.$originalTarget !== target) {
+		this.$scanSound.play();
+		player.consoleMessage(&quot;Target lost, scan aborted&quot;);
+		return;
+	}
+	//Target is not a splinter
+	if (target.primaryRole !== &quot;splinter&quot; &amp;&amp; target.primaryRole !== &quot;griff_splinter&quot;) {
+		this.$scanSound.play();
+		player.consoleMessage(&quot;Target is not a splinter.&quot;);
+		return;
+	}
+	//Target is too far
+	if (player.ship.position.distanceTo(target) &gt; 2500) {
+		this.$scanSound.play();
+		player.consoleMessage(&quot;Target is too far for scanning.&quot;);
+		return;
+	}
+	//Valuables are already detected
+	if (target.displayName.indexOf(&quot;(&quot;) !== -1) {
+		this.$scanSound.play();
+		player.consoleMessage(&quot;Minerals already detected.&quot;);
+		return;
+	}
+	//If enough energy, scan
+	if (player.ship.energy &gt; 3.2) {
+		this.$scanSound.sound = &quot;op_scan.ogg&quot;;
+		this.$scanSound.play();
+		if (this.$pass &lt; 9/*this.$scanRounds*/) {
+			player.consoleMessage(&quot;Scanning for minerals.&quot;);
+			player.ship.energy -= 3.2;
+			this.$pass++;
+			this.$scanTimer = new Timer(this, this.$scanForMinerals, 0.5);
+			return;
+		}
+		else {
+			this.$addValuablesToSplinter(target);
+			if (target.$oreProcessor.type !== &quot;Minerals&quot;) {
+				this.$addValuablesToSplinter(target);
+				player.consoleMessage(target.$oreProcessor.type+&quot; detected.&quot;);
+				target.displayName = target.name+&quot; (&quot;+target.$oreProcessor.type+&quot;)&quot;;
+				return;
+			}
+		}
+	}
+	//Energy low, abort
+	else {
+		this.$scanSound.play();
+		player.consoleMessage(&quot;Not enough energy, scan aborted.&quot;);
+		return;
+	}
+	//No valuables found
+	player.consoleMessage(&quot;No valuable minerals detected.&quot;);
+	target.displayName = target.name+&quot; (Common Minerals)&quot;;
+}
+
+this.playerBoughtEquipment = function(equipment) {
+	if (equipment === &quot;EQ_UNDO_HARDWIRE_ORE_PROCESSOR&quot;) {
+		player.ship.removeEquipment(&quot;EQ_HARDWIRE_ORE_PROCESSOR&quot;);
+		player.ship.removeEquipment(&quot;EQ_UNDO_HARDWIRE_ORE_PROCESSOR&quot;);
+	}
+}
+</pre></td>
+                </tr>
+                <tr>
+                    <td valign="top">Scripts/ore_processor_equipment.js</td>
+                    <td><pre>&quot;use strict&quot;;
+this.name        = &quot;ore_processor_equipment&quot;; 
+this.author      = &quot;spara&quot;;
+this.copyright   = &quot;2014 Mika Spara&quot;;
+this.licence     = &quot;CC BY-NC-SA 3.0&quot;; 
+this.description = &quot;Equipment activation script for ore processor&quot;; 
+this.version     = &quot;2.2&quot;;
+
+//equipment activation n
+this.activated = function() {
+	worldScripts.oreProcessor.$extract();
+}
+
+//equipment activation b
+this.mode = function() {
+	if (player.ship.equipmentStatus(&quot;EQ_ORE_SCANNER&quot;) === &quot;EQUIPMENT_OK&quot; &amp;&amp; player.ship.equipmentStatus(&quot;EQ_ORE_PROCESSOR&quot;) === &quot;EQUIPMENT_OK&quot;)
+		worldScripts.oreProcessor.$activateScan();
+}
+
+//hardwiring can be bought from hermits only
+this.allowAwardEquipment = function() {
+	if (player.ship.dockedStation.primaryRole === &quot;rockhermit&quot;) {
+		return true;
+	}
+	return false;
+}
+</pre></td>
+                </tr>
+            </table>
+        </a>
+    </body>
+</html>

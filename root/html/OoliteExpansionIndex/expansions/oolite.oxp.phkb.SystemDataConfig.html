@@ -1,0 +1,421 @@
+<html>
+    <head>
+        <title>Expansion System Data Config</title>
+        <link rel="stylesheet" href="../style.css">
+    </head>
+    <body>
+        <table border="0" width="100%">
+            <tr>
+                <td>Back to <a href='../index.html'>Index</a></td>
+                <td align="right"><small>Page generated: Oct 11, 2023, 3:16:49 PM</small></td>
+            </tr>
+        </table>
+
+        <h1>Expansion System Data Config</h1>
+
+        <h2>Content</h2>
+        <ul>
+          <li><a href="#warnings">Warnings</a></li>
+          <li><a href="#manifest">Manifest</a></li>
+          <li><a href="#documentation">Documentation</a></li>
+          <li><a href="#equipment">0 Equipment</a></li>
+          <li><a href="#ships">0 Ships</a></li>
+          <li><a href="#models">0 Models</a></li>
+          <li><a href="#scripts">1 Scripts</a></li>
+        </ul>
+
+          <a name="warnings">
+            <h2>Warnings</h2>
+            <ol>
+                <li>License not specified</li>
+                <li>Information URL mismatch between OXP Manifest and Expansion Manager string length at character position 0</li>
+            </ol>
+          </a>
+
+        <a name="manifest">
+        <h2>Manifest</h2>
+            <table border="1">
+                <tr>
+                    <th></th>
+                    <th>from Expansion Manager's OXP list</th>
+                    <th>from Expansion Manifest</th>
+                </tr>
+                <tr>
+                    <td>Description</td>
+                    <td>Allows OXP configuration of the layout of the System Data (F7) screen</td>
+                    <td>Allows OXP configuration of the layout of the System Data (F7) screen</td>
+                </tr>
+                <tr>
+                    <td>Identifier</td>
+                    <td>oolite.oxp.phkb.SystemDataConfig</td>
+                    <td>oolite.oxp.phkb.SystemDataConfig</td>
+                </tr>
+                <tr>
+                    <td>Title</td>
+                    <td>System Data Config</td>
+                    <td>System Data Config</td>
+                </tr>
+                <tr>
+                    <td>Category</td>
+                    <td>Miscellaneous</td>
+                    <td>Miscellaneous</td>
+                </tr>
+                <tr>
+                    <td>Author</td>
+                    <td>phkb</td>
+                    <td>phkb</td>
+                </tr>
+                <tr>
+                    <td>Version</td>
+                    <td>1.0</td>
+                    <td>1.0</td>
+                </tr>
+                <tr>
+                    <td>Tags</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Required Oolite Version</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Maximum Oolite Version</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Required Expansions</td>
+                    <td>
+                    </td>
+                    <td>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Optional Expansions</td>
+                    <td>
+                    </td>
+                    <td>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Conflict Expansions</td>
+                    <td>
+                    </td>
+                    <td>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Information URL</td>
+                    <td><a target="_blank" href=""></a></td>
+                    <td><a target="_blank" href="">n/a</a></td>
+                </tr>
+                <tr>
+                    <td>Download URL</td>
+                    <td><a target="_blank" href="https://wiki.alioth.net/img_auth.php/5/58/SystemDataConfig.oxz">https://wiki.alioth.net/img_auth.php/5/58/SystemDataConfig.oxz</a></td>
+                    <td><a target="_blank" href="">n/a</a></td>
+                </tr>
+                <tr>
+                    <td>License</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>File Size</td>
+                    <td>n/a</td>
+                </tr>
+                <tr>
+                    <td>Upload date</td>
+                    <td>1691383706</td>
+                </tr>
+            </table>
+                </a>
+
+        <a name="documentation">
+        <h2>Documentation</h2>
+        <p>Also read <a href='http://wiki.alioth.net/index.php/System%20Data%20Config'>http://wiki.alioth.net/index.php/System%20Data%20Config</a></p>
+        <h3>readme.txt</h3>
+        <pre>System Data Config
+By Nick Rogers
+
+Overview
+========
+This OXP is designed to help OXP authors make use of the upper part of the F7 screen, where the statistics about the currently selected system are displayed.
+
+A new feature added in Oolite v1.85/6 allows the layout of the F7 screen to be completely customised. However, given the number of OXP&#39;s that will want to make use of this extra space, there was a need to make the process of adding information to the screen a little more democratic. This OXP aims to provide an centralised interface OXP&#39;s can use to make the most of this new feature.
+
+Methodology
+===========
+This OXP offers the following interfaces to OXP&#39;s:
+
+systemDataLineOwner(linenumber)
+-------------------------------
+Returns the current owner of a particular data line.
+
+systemDataLineText(lineNumber)
+------------------------------
+Returns the current text of a particular data line.
+
+setSystemDataLine(linenumber, text [, owner]) 
+--------------------------------------------
+Sets the text, and optionally the owner, of a particular data line
+
+resetSystemDataLine(linenumber)
+-------------------------------
+Resets the text and owner of a particular data line to be blank.
+
+addChangeCallback(worldScriptName, callbackFunctionName)
+--------------------------------------------------------
+In order for an OXP to make changes to the F7 screen before it&#39;s displayed, two events must be used: guiScreenWillChange (monitoring for when the guiScreen is about to be GUI_SCREEN_SYSTEM_DATA), and infoSystemWillChange. However, because the order in which these events are fired for each OXP is hard to determine, it&#39;s quite possible for an OXP&#39;s events to be fired after the events within this OXP, which means that updated data might not be displayed.
+
+To work around this issue, OXP&#39;s can register a callback function using this call. Then, when those events are triggered for this OXP&#39;s, all the callbacks will be executed before the data is displayed, ensuring that the correct data is shown on the screen.
+
+removeChangeCallback(worldScriptName, callbackFunctionName)
+-----------------------------------------------------------
+This function removes a worldscript/callback function name from the list of callbacks.
+
+License
+=======
+This work is licensed under the Creative Commons Attribution-Noncommercial-Share Alike 4.0 Unported License. To view a copy of this license, visit http://creativecommons.org/licenses/by-nc-sa/4.0/
+
+Version History
+===============
+1.0
+- Made compatible with &quot;SW Economy&quot;.
+
+0.9
+- Fixed issue with formatting distance text when there is no route from the source to target destinations.
+
+0.8
+- Corrections to manifest.plist file.
+
+0.7
+- Fixed issue with distance to unreachable systems sometimes having too many decimal places.
+
+0.6
+- Fixed issue with incorrect TL being shown for systems.
+
+0.5
+- Added some documentation and a readme.txt file.
+
+0.4
+- Initial public release
+</pre>
+        </a>
+
+        <a name="equipment">          
+        <h2>Equipment</h2>
+            This expansion declares no equipment. This may be related to warnings.
+        </a>
+
+        <a name="ships">    
+        <h2>Ships</h2>
+            This expansion declares no ships. This may be related to warnings.
+        </a>
+
+        <a name="models">    
+        <h2>Models</h2>
+            This expansion declares no models. This may be related to warnings.
+        </a>
+
+        <a name="scripts">    
+        <h2>Scripts</h2>
+            <table>
+                <tr>
+                    <th>Path</th>
+                </tr>
+                <tr>
+                    <td valign="top">Scripts/oolite-system-data-config.js</td>
+                    <td><pre>&quot;use strict&quot;;
+this.name        = &quot;oolite-system-data-config&quot;;
+this.author      = &quot;phkb&quot;;
+this.copyright   = &quot;2017 phkb&quot;;
+this.description = &quot;Provides an interface for configuring the layout of the System Data (F7) screen.&quot;;
+this.licence     = &quot;CC BY-NC-SA 3.0&quot;;
+
+// set up our configuration dictionary with the default settings
+this._config = {
+    1: {owner:&quot;system&quot;, text:&quot;[sysdata-eco]\t[economy_desc]&quot;},
+    2: {owner:&quot;&quot;, text:&quot;&quot;},
+    3: {owner:&quot;system&quot;, text:&quot;[sysdata-govt]\t[government_desc]&quot;},
+    4: {owner:&quot;&quot;, text:&quot;&quot;},
+    5: {owner:&quot;system&quot;, text:&quot;[sysdata-tl]\t[sysdata-tl-value]&quot;},
+    6: {owner:&quot;&quot;, text:&quot;&quot;},
+    7: {owner:&quot;system&quot;, text:&quot;[sysdata-pop]\t[sysdata-pop-value]&quot;},
+    8: {owner:&quot;system&quot;, text:&quot;\t([inhabitants])&quot;},
+    9: {owner:&quot;&quot;, text:&quot;&quot;},
+    10: {owner:&quot;system&quot;, text:&quot;[sysdata-prod]\t\t[sysdata-prod-value]&quot;},
+    11: {owner:&quot;&quot;, text:&quot;&quot;},
+    12: {owner:&quot;system&quot;, text:&quot;[sysdata-radius]\t\t[sysdata-radius-value]&quot;},
+    13: {owner:&quot;&quot;, text:&quot;&quot;},
+    14: {owner:&quot;system&quot;, text:&quot;[sysdata-distance]\t[distanceInfo]&quot;},
+    15: {owner:&quot;&quot;, text:&quot;&quot;},
+    16: {owner:&quot;&quot;, text:&quot;&quot;},
+};
+
+this._governmentList = [&quot;Anarchy&quot;,&quot;Feudal&quot;,&quot;Multi-Government&quot;,&quot;Dictatorship&quot;,&quot;Communist&quot;,&quot;Confederacy&quot;,
+    &quot;Democracy&quot;,&quot;Corporate State&quot;];
+this._economyList = [&quot;Rich Industrial&quot;,&quot;Average Industrial&quot;,&quot;Poor Industrial&quot;,&quot;Mainly Industrial&quot;,
+    &quot;Mainly Agricultural&quot;,&quot;Rich Agricultural&quot;,&quot;Average Agricultural&quot;,&quot;Poor Agricultural&quot;];
+
+this._callbacks = [];
+
+//-------------------------------------------------------------------------------------------------------------
+this.startUp = function() {
+    if (worldScripts[&quot;market_tweak.js&quot;]) {
+        this._economyList = [&quot;Extreme Industrial&quot;,&quot;Strong Industrial&quot;,&quot;Common Industrial&quot;,&quot;Mainly Industrial&quot;,&quot;Mainly Agricultural&quot;,&quot;Common Agricultural&quot;,&quot;Strong Agricultural&quot;,&quot;Extreme Agricultural&quot;];
+    }
+    this.$updateData();
+}
+
+//-------------------------------------------------------------------------------------------------------------
+this.guiScreenWillChange = function(to, from) {
+    if (to === &quot;GUI_SCREEN_SYSTEM_DATA&quot;) {
+        this.$performCallbacks(&quot;guiScreenWillChange&quot;, to, from);
+        this.$updateData();
+    }
+}
+
+//-------------------------------------------------------------------------------------------------------------
+this.infoSystemWillChange = function(to, from) {
+    this.$performCallbacks(&quot;infoSystemWillChange&quot;, to, from);
+    this.$updateData();
+}
+
+//-------------------------------------------------------------------------------------------------------------
+// returns the current owner of a particular data line
+this.systemDataLineOwner = function(ln) {
+    if (isNaN(ln) || ln &lt; 1 || ln &gt; 16) {
+        throw &quot;Invalid line number specified: &quot; + ln + &quot; - must be number between 1 and 16&quot;;
+    }
+    return this._config[ln].owner;
+}
+
+//-------------------------------------------------------------------------------------------------------------
+// returns the current text of a particular data line
+this.systemDataLineText = function(ln) {
+    if (isNaN(ln) || ln &lt; 1 || ln &gt; 16) {
+        throw &quot;Invalid line number specified: &quot; + ln + &quot; - must be number between 1 and 16&quot;;
+    }
+    return this._config[ln].text;
+}
+
+//-------------------------------------------------------------------------------------------------------------
+// sets the text and optionally the owner of a particular data line
+this.setSystemDataLine = function(ln, text, owner) {
+    if (isNaN(ln) || ln &lt; 1 || ln &gt; 16) {
+        throw &quot;Invalid line number specified: &quot; + ln + &quot; - must be number between 1 and 16&quot;;
+    }
+    if (owner) {
+        // if we&#39;ve been passed an owner, update the whole entry
+        this._config[ln] = {owner:owner, text:text};
+    } else {
+        // otherwise just update the text element
+        this._config[ln].text = text;
+    }
+    this.$updateData(ln);
+}
+
+//-------------------------------------------------------------------------------------------------------------
+// resets a particular data line to being blank with no owner
+this.resetSystemDataLine = function(ln) {
+    if (isNaN(ln) || ln &lt; 1 || ln &gt; 16) {
+        throw &quot;Invalid line number specified: &quot; + ln + &quot; - must be number between 1 and 16&quot;;
+    }
+    this._config[ln] = {owner:&quot;&quot;, text:&quot;&quot;};
+    this.$updateData(ln);
+}
+
+//-------------------------------------------------------------------------------------------------------------
+// adds a worldscript/callback function name to the list of callbacks to execute whenever the information
+// on the F7 screen is about to change
+this.addChangeCallback = function(ws, cb) {
+    var found = false;
+    if (this._callbacks.length &gt; 0) {
+        for (var i = 0; i &lt; this._callbacks.length; i++) {
+            if (this._callbacks[i].worldScript === ws &amp;&amp; this._callbacks[i].callback === cb) {
+                found = true;
+                break;
+            }
+        }
+    }
+    if (found === false) {
+        this._callbacks.push({worldScript:ws, callback:cb});
+    }
+}
+
+//-------------------------------------------------------------------------------------------------------------
+// removes a worldscript/callback function name from the list of callbacks
+this.removeChangeCallback = function(ws, cb) {
+    for (var i = this._callbacks.length - 1; i &gt;= 0; i--) {
+        if (this._callbacks[i].worldScript === ws &amp;&amp; this._callbacks[i].callback === cb) {
+            this._callbacks.splice(i, 1);
+            break;
+        }
+    }
+}
+
+//-------------------------------------------------------------------------------------------------------------
+// executes all the callbacks
+this.$performCallbacks = function(c_type, to, from) {
+    if (this._callbacks.length &gt; 0) {
+        for (var i = 0; i &lt; this._callbacks.length; i++) {
+            worldScripts[this._callbacks[i].worldScript][this._callbacks[i].callback](c_type, to, from);
+        }
+    }
+}
+
+//-------------------------------------------------------------------------------------------------------------
+// updats the data for all lines (if no line number is passed) or for a specific line
+this.$updateData = function(ln) {
+    // if we&#39;ve been passed a line number, just update that line
+    var data = this.$getSystemData(player.ship.infoSystem);
+    if (ln) {
+        missionVariables[&quot;oolite_sysdata_line_&quot; + ln] = expandDescription(this._config[ln].text, data);
+        return;
+    }
+    // otherwise update all the lines with the latest config
+    for (var i = 1; i &lt;= 16; i++) {
+        missionVariables[&quot;oolite_sysdata_line_&quot; + i] = expandDescription(this._config[i].text, data);
+    }
+}
+
+//-------------------------------------------------------------------------------------------------------------
+// returns a dictionary object containing the details of a particular system
+this.$getSystemData = function(sysID) {
+    var sys = System.infoForSystem(galaxyNumber, sysID);
+    var rt = system.info.routeToSystem(sys, player.ship.routeMode);
+    var data = {};
+    if (sys.sun_gone_nova) {
+        data[&quot;economy_desc&quot;] = expandDescription(&quot;[nova-system-economy]&quot;);
+        data[&quot;government_desc&quot;] = expandDescription(&quot;[nova-system-government]&quot;);
+        data[&quot;sysdata-tl-value&quot;] = 0;
+        data[&quot;population&quot;] = 0;
+        data[&quot;inhabitants&quot;] = expandDescription(&quot;[nova-system-inhabitants]&quot;);
+        data[&quot;productivity&quot;] = 0;
+        data[&quot;radius&quot;] = 0;
+    } else {
+        data[&quot;economy_desc&quot;] = this._economyList[sys.economy];
+        data[&quot;government_desc&quot;] = this._governmentList[sys.government];
+        data[&quot;sysdata-tl-value&quot;] = sys.techlevel + 1;
+        data[&quot;population&quot;] = sys.population;
+        data[&quot;inhabitants&quot;] = sys.inhabitants;
+        data[&quot;productivity&quot;] = sys.productivity;
+        data[&quot;radius&quot;] = sys.radius;
+    } 
+    if (rt) {
+        data[&quot;distanceInfo&quot;] = rt.distance.toFixed(1) + &quot; ly / &quot; + 
+            rt.time.toFixed(1) + &quot; &quot; + (rt.time &gt; 0.95 &amp;&amp; rt.time &lt; 1.05 ? expandDescription(&quot;[sysdata-route-hours%0]&quot;) : expandDescription(&quot;[sysdata-route-hours%1]&quot;))  + &quot; / &quot; + 
+            (rt.route.length - 1) + &quot; &quot; + (rt.route.length === 2 ? expandDescription(&quot;[sysdata-route-jumps%0]&quot;) : expandDescription(&quot;[sysdata-route-jumps%1]&quot;));
+    } else {
+        data[&quot;distanceInfo&quot;] = system.info.distanceToSystem(sys).toFixed(1) + &quot; ly&quot;;
+    }
+    return data;
+}
+</pre></td>
+                </tr>
+            </table>
+        </a>
+    </body>
+</html>

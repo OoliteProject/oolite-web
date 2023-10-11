@@ -1,0 +1,395 @@
+<html>
+    <head>
+        <title>Expansion Moons</title>
+        <link rel="stylesheet" href="../style.css">
+    </head>
+    <body>
+        <table border="0" width="100%">
+            <tr>
+                <td>Back to <a href='../index.html'>Index</a></td>
+                <td align="right"><small>Page generated: Oct 11, 2023, 3:16:49 PM</small></td>
+            </tr>
+        </table>
+
+        <h1>Expansion Moons</h1>
+
+        <h2>Content</h2>
+        <ul>
+          <li><a href="#warnings">Warnings</a></li>
+          <li><a href="#manifest">Manifest</a></li>
+          <li><a href="#documentation">Documentation</a></li>
+          <li><a href="#equipment">0 Equipment</a></li>
+          <li><a href="#ships">0 Ships</a></li>
+          <li><a href="#models">0 Models</a></li>
+          <li><a href="#scripts">1 Scripts</a></li>
+        </ul>
+
+          <a name="warnings">
+            <h2>Warnings</h2>
+            <ol>
+                <li>Tags mismatch between OXP Manifest and Expansion Manager at character position 0002 (RIGHT SQUARE BRACKET vs LATIN SMALL LETTER M)(&#39;[]&#39; vs &#39;[moons, system]&#39;)</li>
+            </ol>
+          </a>
+
+        <a name="manifest">
+        <h2>Manifest</h2>
+            <table border="1">
+                <tr>
+                    <th></th>
+                    <th>from Expansion Manager's OXP list</th>
+                    <th>from Expansion Manifest</th>
+                </tr>
+                <tr>
+                    <td>Description</td>
+                    <td>This OXP simulates (pseudo)dynamic moon configurations.</td>
+                    <td>This OXP simulates (pseudo)dynamic moon configurations.</td>
+                </tr>
+                <tr>
+                    <td>Identifier</td>
+                    <td>oolite.oxp.stranger.Moons</td>
+                    <td>oolite.oxp.stranger.Moons</td>
+                </tr>
+                <tr>
+                    <td>Title</td>
+                    <td>Moons</td>
+                    <td>Moons</td>
+                </tr>
+                <tr>
+                    <td>Category</td>
+                    <td>Ambience</td>
+                    <td>Ambience</td>
+                </tr>
+                <tr>
+                    <td>Author</td>
+                    <td>stranger</td>
+                    <td>stranger</td>
+                </tr>
+                <tr>
+                    <td>Version</td>
+                    <td>1.1.1</td>
+                    <td>1.1.1</td>
+                </tr>
+                <tr>
+                    <td>Tags</td>
+                    <td></td>
+                    <td>moons, system</td>
+                </tr>
+                <tr>
+                    <td>Required Oolite Version</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Maximum Oolite Version</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Required Expansions</td>
+                    <td>
+                            <li>oolite.oxp.stranger.PlanetarySystems:1.5.0</li>
+                    </td>
+                    <td>
+                            <li>oolite.oxp.stranger.PlanetarySystems:1.5.0</li>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Optional Expansions</td>
+                    <td>
+                    </td>
+                    <td>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Conflict Expansions</td>
+                    <td>
+                    </td>
+                    <td>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Information URL</td>
+                    <td><a target="_blank" href="http://aegidian.org/bb/viewtopic.php?f=4&amp;t=20017">http://aegidian.org/bb/viewtopic.php?f=4&amp;t=20017</a></td>
+                    <td><a target="_blank" href="">n/a</a></td>
+                </tr>
+                <tr>
+                    <td>Download URL</td>
+                    <td><a target="_blank" href="https://wiki.alioth.net/img_auth.php/3/30/Moons.oxz">https://wiki.alioth.net/img_auth.php/3/30/Moons.oxz</a></td>
+                    <td><a target="_blank" href="">n/a</a></td>
+                </tr>
+                <tr>
+                    <td>License</td>
+                    <td>CC-BY-NC-SA 3.0</td>
+                    <td>CC-BY-NC-SA 3.0</td>
+                </tr>
+                <tr>
+                    <td>File Size</td>
+                    <td>n/a</td>
+                </tr>
+                <tr>
+                    <td>Upload date</td>
+                    <td>1610873262</td>
+                </tr>
+            </table>
+                </a>
+
+        <a name="documentation">
+        <h2>Documentation</h2>
+        <p>Also read <a href='http://wiki.alioth.net/index.php/Moons'>http://wiki.alioth.net/index.php/Moons</a></p>
+        <h3>ReadMe &amp; License.txt</h3>
+        <pre>Moons OXP by Stranger
+
+This OXP is released under the Creative Commons Attribution - Non-Commercial - Share Alike 3.0 license.
+You are free to use and distribute this OXP on non-commercial basis. 
+Rebundling of this OXP within another distribution is permitted as long as it is unchanged.
+Any mods/derivatives of this OXP must be distributed under another names.
+The license information (either as this file or merged into a larger one) must be included in the OXP.
+
+--------------------------------------------------------------
+
+Features and dependencies
+
+This OXP simulates dynamic moon configurations.
+Two moon sets implemented: 2 main planet moons (Terran moons) and 2 moons of gas giant (Jovian moons). Positions of Terran moons are calculated to simulate circular orbits (the Third Kepler&#39;s law used, but constant of gravity is not matched exactly with real value to simplify code). Positions of Jovian moons are randomly orientated vectors (Oolite is not planetarium software and I have no ambitions to simulate orbital mechanics in details!).
+Due to large moons you need Planetary Systems OXP to use this OXP.
+Planetary Systems also provides additional option - displays Moon Data Sheet if you are docked with moon surface port. See Planetary Systems readme file for more details.
+Using Moons OXP with Additional Planets SR may generate logical collision as a result of conflicting mechanisms of moon seeding.
+
+To provide easy updates all moon textures repacked as separate texture pack.
+
+Moons.oxp - core package.
+Moons Texture Pack.oxp - Textures.
+
+INSTALLATION:
+
+Download and unzip core package Moons and texture pack Moons Texture Pack.
+Place all unzipped packages inside the Oolite/AddOns folder.
+
+Read notifications on my personal page to update packages individually.
+
+Credits:
+
+A piece of code from Additional planets SR base 0.6 (authors: Spara, Redspear) and Orbits (author: Ebi) is used to calculate orbits of main planet moons.
+See more detailed moon texture credits in Texture Pack Readme document.
+
+Version history:
+
+09,02,2019 - Version 1.1.1	Converted to OXZ.
+31.12.2018 - Version 1.1	Calculation of main planet density added.
+				manifest.plist added to main package and texture pack.
+17.06.2018 - Version 1.0	Fixed error with declaration of random component of moon orbit radii.
+				Moon sizes readjusted.
+				Terran moons orbital periods redefined to more real values.
+				Code refactoring to provide more easy reading and to get crucial info for Moon Data Sheet page in Planetary Systems OXP.
+09.05.2018 - Version 0.9	Code edited to satisfy OXP Standards recommendations.
+25.10.2017 - Version 0.8	Code improvement - kill delay timer after jovian moons seeding.
+24.05.2017 - Version 0.7	Refined problem with Jovian moons display on ASC (resetting seeding timer delay to 0.2 s).
+17.07.2016 - Version 0.6	Every moon class divided onto 10 sublasses to provide better variability (40 variants of moons now).
+				All texture files repacked as separate texture pack.
+17.01.2016 - Version 0.5	Pseudorandom orbit radii for Jovian moons implemented.
+				Jovian moons attributed to largest gas giant in planet database, not to largest gas giant in system!
+12.01.2016 - Version 0.4	Pseudorandom orbit radii for Terran moons implemented.
+28.06.2014 - Version 0.3	Moon seeding generator uses different seed. As a result moon configurations in systems changed.
+16.05.2014 - Version 0.2	Jovian moons textures selection improved to 4 variants.
+04.30.2014 - Version 0.1	Initial release.
+</pre>
+        </a>
+
+        <a name="equipment">          
+        <h2>Equipment</h2>
+            This expansion declares no equipment. This may be related to warnings.
+        </a>
+
+        <a name="ships">    
+        <h2>Ships</h2>
+            This expansion declares no ships. This may be related to warnings.
+        </a>
+
+        <a name="models">    
+        <h2>Models</h2>
+            This expansion declares no models. This may be related to warnings.
+        </a>
+
+        <a name="scripts">    
+        <h2>Scripts</h2>
+            <table>
+                <tr>
+                    <th>Path</th>
+                </tr>
+                <tr>
+                    <td valign="top">Scripts/spawn_moon.js</td>
+                    <td><pre>// Standard attributes 
+&quot;use strict&quot;;
+this.name           = &quot;SpawnMoons&quot;; 
+this.author         = &quot;Stranger&quot;; 
+this.copyright      = &quot;This script is hereby placed in the public domain.&quot;; 
+this.version        = &quot;1.1&quot;; 
+this.description    = &quot;Spawn moons around planets&quot;;
+
+// Configuration
+
+this.$planetRadius = 6400;
+this.$planetDensity = 5.525;
+
+this.shipWillExitWitchspace = function()
+    {
+    //Terran moons
+    this.$orbitPeriod_SeleneBase = 4 * 24 * 60;    //  4 days 00 hours 00 mins
+    this.$distance_SeleneShift = system.scrambledPseudoRandomNumber(143);
+    this.$distance_LunaShift = system.scrambledPseudoRandomNumber(147);
+    this.$offsetMoon = system.scrambledPseudoRandomNumber(151);
+    this.$selectMoon_Terran = system.scrambledPseudoRandomNumber(159);
+    this.$targetFlag_Terran = 0;
+    this.$seedMoon_Terran();
+    //Jovian moons
+    this.$orbitMoon_Inner = system.scrambledPseudoRandomNumber(227);
+    this.$orbitMoon_Outer = system.scrambledPseudoRandomNumber(235);
+    this.$targetFlag_Jovian = 0;
+    this.$targetPlanet_Jovian = -1;
+    this.$seedingDelay = new Timer(this, this.$seedMoon_Jovian, 0.20);    // delay to set planet orbits
+    }
+
+this.$seedMoon_Terran = function()
+    {
+    if (system.isInterstellarSpace) return;
+    if (this.$targetFlag_Terran &gt; 0) return;  // moons already exist - prevents multiple seeding
+
+    // calculate main planet density
+    var w = worldScripts.AstroLibrary;
+	var info = system.info;
+    if (system.info.sun_radius)
+		{
+        var sunRadius = system.sun.radius;
+		}
+    var sunTemperature = w.$astroLib_sunTemperature(sunRadius);
+    var sunLuminosity = w.$astroLib_sunLuminosity(sunTemperature,sunRadius);
+    var mainOrbitVector = new Vector3D(system.sun.position.subtract(system.mainPlanet.position));
+    var ouScale = mainOrbitVector.magnitude();
+    var mainPlanetRadius = system.mainPlanet.radius;
+    var mainPlanetInsolation = sunLuminosity * Math.pow((50000000/ouScale),2);
+    var mainPlanetTemperature = w.$astroLib_equilibriumTemperature(mainPlanetInsolation);
+    var mainPlanetDensity = w.$astroLib_planetDensity(mainPlanetRadius, mainPlanetTemperature);
+    
+    // set moon orbit
+    var localTime = clock.minutes;
+    var distance;
+    var polar = Math.acos(1.4 * this.$offsetMoon - 0.7);
+    var azimuth;
+    var directionV;
+    if (this.$selectMoon_Terran &lt; 0.25) return;
+    if (this.$selectMoon_Terran &gt; 0.5)
+        {
+        distance = system.mainPlanet.radius * (16 + 8 * this.$distance_SeleneShift);
+        this.$orbitRadius_Selene = distance / system.mainPlanet.radius;
+        this.$orbitPeriod_Selene = this.$orbitPeriod_SeleneBase * Math.pow((this.$orbitRadius_Selene/16),1.5) * Math.pow((this.$planetDensity/mainPlanetDensity),0.5);
+        var phaseSelene = 2.0 * Math.PI * (localTime % this.$orbitPeriod_Selene) / this.$orbitPeriod_Selene;
+        azimuth = 2.0 * Math.PI * this.$offsetMoon + phaseSelene;
+        directionV = Vector3D(Math.sin(polar) * Math.cos(azimuth), Math.sin(polar) * Math.sin(azimuth), Math.cos(polar));
+        var tagSelene = Math.floor(this.$selectMoon_Terran * 10);
+        var addedMoon_Selene = system.addMoon(&quot;omoon_Selene&quot; + tagSelene);
+        addedMoon_Selene.position = system.mainPlanet.position.toCoordinateSystem(&quot;pwm&quot;).add(directionV.multiply(distance)).fromCoordinateSystem(&quot;pwm&quot;);
+        }
+    if (this.$selectMoon_Terran &lt; 0.75)
+        {
+        distance = system.mainPlanet.radius * (5 + 2.5 * this.$distance_LunaShift);
+        this.$orbitRadius_Luna = distance / system.mainPlanet.radius;
+        this.$orbitPeriod_Luna = this.$orbitPeriod_SeleneBase * Math.pow((this.$orbitRadius_Luna/16),1.5) * Math.pow((this.$planetDensity/mainPlanetDensity),0.5);
+        var phaseLuna = 2.0 * Math.PI * (localTime % this.$orbitPeriod_Luna) / this.$orbitPeriod_Luna;
+        azimuth = 2.0 * Math.PI * this.$offsetMoon + phaseLuna;
+        directionV = Vector3D(Math.sin(polar) * Math.cos(azimuth), Math.sin(polar) * Math.sin(azimuth), Math.cos(polar));
+        var tagLuna = Math.floor(this.$selectMoon_Terran * 10);
+        var addedMoon_Luna = system.addMoon(&quot;omoon_Luna&quot; + tagLuna);
+        addedMoon_Luna.position = system.mainPlanet.position.toCoordinateSystem(&quot;pwm&quot;).add(directionV.multiply(distance)).fromCoordinateSystem(&quot;pwm&quot;);
+        }
+    this.$targetFlag_Terran = 1;    // Terran moons seeded - set flag to prevent multiple seeding
+    }
+
+this.$planetLock_Jovian = function()
+    {
+    var iplanetRadius = 150000;
+    for (let i=0; i&lt;system.planets.length; i++) 
+        { 
+        if(system.planets[i].radius &gt;= iplanetRadius) 
+            {
+            this.$targetPlanet_Jovian = i;
+            iplanetRadius = system.planets[i].radius;
+            }
+        }
+    }
+
+this.$seedMoon_Jovian = function()
+    {
+    this.shipDied();
+    if (system.isInterstellarSpace) return;
+    if (this.$targetFlag_Jovian &gt; 0) return;    // moons already exist - prevents multiple seeding
+    this.$planetLock_Jovian();
+    if (this.$targetPlanet_Jovian &lt; 0) return;   // no giant planet in system detected
+    // seed jovian moons
+    var p = this.$targetPlanet_Jovian;
+    this.$giantRadius = system.planets[p].radius;
+    var selectMoon_Jovian = system.scrambledPseudoRandomNumber(223);
+    var paintMoon_Inner = system.scrambledPseudoRandomNumber(231);
+    var paintMoon_Outer = system.scrambledPseudoRandomNumber(239);
+        {
+        if (selectMoon_Jovian &gt; 0.25)
+           {
+            var orbitVector_ZeusInner;
+            orbitVector_ZeusInner = Vector3D.randomDirection(this.$giantRadius * (5 + 2.5 * this.$orbitMoon_Inner));
+            this.$orbitRadius_ZeusInner = orbitVector_ZeusInner.magnitude() / this.$giantRadius;
+            var tagZeusInner = Math.floor(selectMoon_Jovian * 10); 
+            var addedMoon_ZeusInner = system.addMoon(&quot;omoon_ZeusInner&quot; + tagZeusInner);
+            addedMoon_ZeusInner.position = system.planets[p].position.add(orbitVector_ZeusInner);
+            if (paintMoon_Inner &lt; 0.5)
+                {
+                addedMoon_ZeusInner.texture = &quot;omoon_Io.png&quot;;
+                }
+            else
+                {
+                addedMoon_ZeusInner.texture = &quot;omoon_Europa.png&quot;;
+                }
+            }
+        if (selectMoon_Jovian &lt; 0.75)
+            {
+            var orbitVector_ZeusOuter;
+            orbitVector_ZeusOuter = Vector3D.randomDirection(this.$giantRadius * (10 + 5 * this.$orbitMoon_Outer));
+            this.$orbitRadius_ZeusOuter = orbitVector_ZeusOuter.magnitude() / this.$giantRadius;
+            var tagZeusOuter = Math.floor(selectMoon_Jovian * 10);
+            var addedMoon_ZeusOuter = system.addMoon(&quot;omoon_ZeusOuter&quot; + tagZeusOuter);
+            addedMoon_ZeusOuter.position = system.planets[p].position.add(orbitVector_ZeusOuter);        
+            if (paintMoon_Outer &lt; 0.5)
+                {
+                addedMoon_ZeusOuter.texture = &quot;omoon_Ganymede.png&quot;;
+                }
+            else
+                {
+                addedMoon_ZeusOuter.texture = &quot;omoon_Callisto.png&quot;;
+                }
+            }
+        }
+    this.$targetFlag_Jovian = 1;    // moons seeded - set flag to prevent multiple seeding
+    };
+
+this.shipWillLaunchFromStation = function()
+    {
+    this.shipWillExitWitchspace();
+    delete this.shipWillLaunchFromStation;
+    }
+
+this.shipWillDockWithStation = this.shipWillEnterWitchspace = function()
+	{
+    this.shipDied();
+    }
+
+this.shipDied = function()  // kill timer after moon seeding
+	{
+	if(this.$seedingDelay) 
+		{
+		this.$seedingDelay.stop();
+		delete this.$seedingDelay;
+		}
+    }</pre></td>
+                </tr>
+            </table>
+        </a>
+    </body>
+</html>

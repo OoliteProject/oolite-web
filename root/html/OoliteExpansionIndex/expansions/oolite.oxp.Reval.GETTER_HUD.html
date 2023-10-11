@@ -1,0 +1,405 @@
+<html>
+    <head>
+        <title>Expansion GETter HUD</title>
+        <link rel="stylesheet" href="../style.css">
+    </head>
+    <body>
+        <table border="0" width="100%">
+            <tr>
+                <td>Back to <a href='../index.html'>Index</a></td>
+                <td align="right"><small>Page generated: Oct 11, 2023, 3:16:49 PM</small></td>
+            </tr>
+        </table>
+
+        <h1>Expansion GETter HUD</h1>
+
+        <h2>Content</h2>
+        <ul>
+          <li><a href="#warnings">Warnings</a></li>
+          <li><a href="#manifest">Manifest</a></li>
+          <li><a href="#documentation">Documentation</a></li>
+          <li><a href="#equipment">0 Equipment</a></li>
+          <li><a href="#ships">0 Ships</a></li>
+          <li><a href="#models">0 Models</a></li>
+          <li><a href="#scripts">1 Scripts</a></li>
+        </ul>
+
+          <a name="warnings">
+            <h2>Warnings</h2>
+            <ol>
+                <li>http://wiki.alioth.net/index.php/GETter%20HUD -&gt; 404 Not Found</li>
+                <li>Low hanging fuit: Information URL exists...</li>
+            </ol>
+          </a>
+
+        <a name="manifest">
+        <h2>Manifest</h2>
+            <table border="1">
+                <tr>
+                    <th></th>
+                    <th>from Expansion Manager's OXP list</th>
+                    <th>from Expansion Manifest</th>
+                </tr>
+                <tr>
+                    <td>Description</td>
+                    <td>A compact Trader&#39;s HUD based on the standard HUD, with digital speed, re-coloured scanner, compass, gauges, MFD and legends. Cargo carried (with quantity) is shown in place of missile loadout, and shipowner, ship class and name, plus hold capacity are displayed just above the scanner. System&#39;s name is also displayed.</td>
+                    <td>A compact Trader&#39;s HUD based on the standard HUD, with digital speed, re-coloured scanner, compass, gauges, MFD and legends. Cargo carried (with quantity) is shown in place of missile loadout, and shipowner, ship class and name, plus hold capacity are displayed just above the scanner. System&#39;s name is also displayed.</td>
+                </tr>
+                <tr>
+                    <td>Identifier</td>
+                    <td>oolite.oxp.Reval.GETTER_HUD</td>
+                    <td>oolite.oxp.Reval.GETTER_HUD</td>
+                </tr>
+                <tr>
+                    <td>Title</td>
+                    <td>GETter HUD</td>
+                    <td>GETter HUD</td>
+                </tr>
+                <tr>
+                    <td>Category</td>
+                    <td>HUDs</td>
+                    <td>HUDs</td>
+                </tr>
+                <tr>
+                    <td>Author</td>
+                    <td>Reval</td>
+                    <td>Reval</td>
+                </tr>
+                <tr>
+                    <td>Version</td>
+                    <td>1.5</td>
+                    <td>1.5</td>
+                </tr>
+                <tr>
+                    <td>Tags</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Required Oolite Version</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Maximum Oolite Version</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Required Expansions</td>
+                    <td>
+                    </td>
+                    <td>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Optional Expansions</td>
+                    <td>
+                    </td>
+                    <td>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Conflict Expansions</td>
+                    <td>
+                    </td>
+                    <td>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Information URL</td>
+                    <td><a target="_blank" href="https://wiki.alioth.net/index.php/GETter_HUD_OXZ">https://wiki.alioth.net/index.php/GETter_HUD_OXZ</a></td>
+                    <td><a target="_blank" href="">n/a</a></td>
+                </tr>
+                <tr>
+                    <td>Download URL</td>
+                    <td><a target="_blank" href="https://wiki.alioth.net/img_auth.php/7/7c/GETter_HUD.oxz">https://wiki.alioth.net/img_auth.php/7/7c/GETter_HUD.oxz</a></td>
+                    <td><a target="_blank" href="">n/a</a></td>
+                </tr>
+                <tr>
+                    <td>License</td>
+                    <td>CC-BY-NC-SA 4.0</td>
+                    <td>CC-BY-NC-SA 4.0</td>
+                </tr>
+                <tr>
+                    <td>File Size</td>
+                    <td>n/a</td>
+                </tr>
+                <tr>
+                    <td>Upload date</td>
+                    <td>1692785669</td>
+                </tr>
+            </table>
+                </a>
+
+        <a name="documentation">
+        <h2>Documentation</h2>
+        
+        </a>
+
+        <a name="equipment">          
+        <h2>Equipment</h2>
+            This expansion declares no equipment. This may be related to warnings.
+        </a>
+
+        <a name="ships">    
+        <h2>Ships</h2>
+            This expansion declares no ships. This may be related to warnings.
+        </a>
+
+        <a name="models">    
+        <h2>Models</h2>
+            This expansion declares no models. This may be related to warnings.
+        </a>
+
+        <a name="scripts">    
+        <h2>Scripts</h2>
+            <table>
+                <tr>
+                    <th>Path</th>
+                </tr>
+                <tr>
+                    <td valign="top">Scripts/gh_script.js</td>
+                    <td><pre>&quot;use strict&quot;;
+this.name = &quot;GETter_HUD&quot;;
+this.author = &quot;Reval&quot;;
+this.licence = &quot;CC BY-NC-SA 4.0&quot;;
+this.version = &quot;1.5&quot;;
+
+this._operationalFunctionNames = [ // list of functions to enable/disable at HUDSelector callback
+    &quot;playerBoughtNewShip&quot;,
+	&quot;playerBoughtEquipment&quot;,
+	&quot;equipmentAdded&quot;,
+    &quot;shipWillLaunchFromStation&quot;,
+    &quot;shipExitedWitchspace&quot;,
+    &quot;guiScreenChanged&quot;,
+	&quot;shipWillDockWithStation&quot;
+];
+
+this.startUp = function() {
+	this.$hudSelector = worldScripts.hudselector;
+	if(this.$hudSelector) {
+		this.$hudSelector.$HUDSelectorAddHUD(&quot;GETter HUD&quot;, this.name);
+		this.$hudSelector.$HUDSelectorAddHUD(&quot;GETter HUD Small&quot;, this.name + &quot;-small&quot;);
+	}
+}
+
+this.startUpComplete = function() {
+	if(!this.$hudSelector &amp;&amp; (player.ship.hud === &quot;hud.plist&quot;))
+		player.ship.hud =  this.name + &quot;.plist&quot;;
+	this._ghlistGoods();
+	this._ghlistOwner();
+	this._ghlistCap();
+	this._ghlistSystem();
+}
+
+
+this.playerBoughtNewShip = function(ship, price) {
+	if(!this.$hudSelector &amp;&amp; (player.ship.hud === &quot;hud.plist&quot;))
+		player.ship.hud =  this.name + &quot;.plist&quot;;
+	this._ghlistGoods();
+	this._ghlistOwner();
+	this._ghlistCap();
+	this._ghlistSystem();
+}
+
+
+this.playerBoughtEquipment = function(equipment, paid) {
+	this._ghlistGoods();
+	this._ghlistOwner();
+	this._ghlistCap();
+	this._ghlistSystem();
+}
+
+
+this.equipmentAdded = function(equipmentKey) {
+	this._ghlistGoods();
+	this._ghlistOwner();
+	this._ghlistCap();
+	this._ghlistSystem();
+}
+
+
+this.shipWillLaunchFromStation = function() {
+	if(!this.$Timer) this.$Timer = new Timer(this,this._ghupdateSpeed.bind(this),0,0.25);
+	if(!this.$Timer1) this.$Timer1 = new Timer(this,this._ghshowWeps.bind(this),0,0.25);
+	this._ghlistGoods();
+	this._ghlistOwner();
+	this._ghlistCap();
+	this._ghlistSystem();
+}
+
+this.shipWillDockWithStation = function() {
+	if (this.$Timer &amp;&amp; this.$Timer.isRunning) { this.$Timer.stop(); this.$Timer = null; }
+	if (this.$Timer1 &amp;&amp; this.$Timer1.isRunning) { this.$Timer1.stop(); this.$Timer1 = null; }
+}
+
+this.shipExitedWitchspace = function() {
+	this._ghlistSystem();
+}
+	
+	
+this.guiScreenChanged = function(to, from) {
+	if ((from==&quot;GUI_SCREEN_MARKET&quot;)||(from==&quot;GUI_SCREEN_MANIFEST&quot;)) {
+		this._ghlistGoods();
+		this._ghlistOwner();
+		this._ghlistCap();
+		this._ghlistSystem();
+	}
+}
+
+
+this._ghcenteredText = function(txt, width) {
+	var t = &quot;&quot;+txt; // force to string, else txt.length is undefined for numbers
+	var w = width / 2;
+	while( t &amp;&amp; t.length &lt; w ) { // for fixed width font in setCustomHUDDial
+		t = &quot; &quot; + t;
+	}
+	return(t);
+}
+
+
+this._ghupdateSpeed = function () {
+	var p = player.ship;
+	if((!p) || (!p.isValid)) return; // player died
+
+	var setd = p.setCustomHUDDial;
+	if (setd) {
+		var sp = p.speed;
+		sp = this._ghcenteredText(sp.toFixed(1), 28); // default width
+		setd(&quot;shipSpeed&quot;, sp);
+	}
+}
+
+
+// output System name to HUD
+this._ghlistSystem = function() {
+	var p = player.ship;
+	if((!p) || (!p.isValid)) return; // player died
+
+	var setd = p.setCustomHUDDial;
+	if (setd) {
+		var s = this._ghsystemList();
+		setd(&quot;systemList&quot;, s);
+	}
+}
+
+
+// show System name
+this._ghsystemList = function() {
+	var result = &quot;&quot;;
+	result += System.systemNameForID(system.ID);
+	return result;
+}
+
+
+// output capList to HUD
+this._ghlistCap = function() {
+	var p = player.ship;
+	if((!p) || (!p.isValid)) return; // player died
+
+	var setd = p.setCustomHUDDial;
+	if (setd) {
+		var cap = this._ghcapList();
+		setd(&quot;capList&quot;, cap);
+	}
+}
+
+
+// show ship&#39;s TC capacity
+this._ghcapList = function() {
+	var result = &quot;&quot;;
+	result += &quot;Capacity: &quot;;
+	result += player.ship.cargoSpaceCapacity+&quot; TC&quot;;
+	return result;
+}
+
+
+// output ownerList to HUD
+this._ghlistOwner = function() {
+	var p = player.ship;
+	if((!p) || (!p.isValid)) return; // player died
+
+	var setd = p.setCustomHUDDial;
+	if (setd) {
+		var owner = this._ghownerList();
+		setd(&quot;ownerList&quot;, owner);
+	}
+}
+
+
+// show ship, class, name, owner
+this._ghownerList = function() {
+	var result = &quot;&quot;;
+	result += &quot;Cdr. &quot;;
+	result += player.name + &quot;, &quot;;
+	result += player.ship.displayName;
+	return result;
+}
+
+
+// output goods list to HUD
+this._ghlistGoods = function() {
+	var p = player.ship;
+	if((!p) || (!p.isValid)) return; // player died
+
+	var setd = p.setCustomHUDDial;
+	if (setd) {
+		var goods = this._ghgoodsList();
+		setd(&quot;goodsList&quot;, goods);
+	}
+}
+
+
+// list commodities in ship&#39;s hold
+this._ghgoodsList = function() {
+	var result = &quot;&quot;;
+	var m = manifest.list;
+	for (var i=0; i&lt;m.length; i++) {
+		var q = m[i].commodity;
+		if (q) result += q + &quot; (&quot;+m[i].quantity+&quot;)  &quot;;
+	}	
+	if (result==&quot;&quot;) result = &quot;EMPTY&quot;;
+	return result;
+}
+
+
+// weapons online indicator
+this._ghshowWeps = function() {
+	var p = player.ship;
+	if((!p) || (!p.isValid)) return; // player died
+
+	var setd = p.setCustomHUDDial;
+	if (setd) {
+		var weps = &quot;&quot;;
+		if (p.weaponsOnline) weps=&quot;W&quot;;
+		setd(&quot;showWeapons&quot;, weps);
+	}
+}
+
+this.$HUDSelectorCallBack = function(off) {
+    var ws = worldScripts.GETter_HUD;
+    var funcNames = this._operationalFunctionNames;
+    var i = funcNames.length;
+    if (off) {
+        // disable
+        while (i--)
+            if (ws[funcNames[i]]) {
+                ws[&quot;$save_&quot; + funcNames[i]] = ws[funcNames[i]];
+                delete ws[funcNames[i]];
+            }
+    } else {
+        // enable
+        while (i--)
+            if (!ws[funcNames[i]]) {
+                ws[funcNames[i]] = ws[&quot;$save_&quot; + funcNames[i]];
+            }
+		ws.playerBoughtEquipment();
+    }
+}
+</pre></td>
+                </tr>
+            </table>
+        </a>
+    </body>
+</html>

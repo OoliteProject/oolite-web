@@ -1,0 +1,477 @@
+<html>
+    <head>
+        <title>Expansion Bulk Cargo Processor</title>
+        <link rel="stylesheet" href="../style.css">
+    </head>
+    <body>
+        <table border="0" width="100%">
+            <tr>
+                <td>Back to <a href='../index.html'>Index</a></td>
+                <td align="right"><small>Page generated: Oct 11, 2023, 3:16:49 PM</small></td>
+            </tr>
+        </table>
+
+        <h1>Expansion Bulk Cargo Processor</h1>
+
+        <h2>Content</h2>
+        <ul>
+          <li><a href="#warnings">Warnings</a></li>
+          <li><a href="#manifest">Manifest</a></li>
+          <li><a href="#documentation">Documentation</a></li>
+          <li><a href="#equipment">2 Equipment</a></li>
+          <li><a href="#ships">0 Ships</a></li>
+          <li><a href="#models">0 Models</a></li>
+          <li><a href="#scripts">1 Scripts</a></li>
+        </ul>
+
+          <a name="warnings">
+            <h2>Warnings</h2>
+            <ol>
+                <li>Information URL mismatch between OXP Manifest and Expansion Manager string length at character position 0</li>
+            </ol>
+          </a>
+
+        <a name="manifest">
+        <h2>Manifest</h2>
+            <table border="1">
+                <tr>
+                    <th></th>
+                    <th>from Expansion Manager's OXP list</th>
+                    <th>from Expansion Manifest</th>
+                </tr>
+                <tr>
+                    <td>Description</td>
+                    <td>Allows players to dump or destroy all of a particular type of cargo in their hold while in flight.</td>
+                    <td>Allows players to dump or destroy all of a particular type of cargo in their hold while in flight.</td>
+                </tr>
+                <tr>
+                    <td>Identifier</td>
+                    <td>oolite.oxp.phkb.BulkCargoProcessor</td>
+                    <td>oolite.oxp.phkb.BulkCargoProcessor</td>
+                </tr>
+                <tr>
+                    <td>Title</td>
+                    <td>Bulk Cargo Processor</td>
+                    <td>Bulk Cargo Processor</td>
+                </tr>
+                <tr>
+                    <td>Category</td>
+                    <td>Equipment</td>
+                    <td>Equipment</td>
+                </tr>
+                <tr>
+                    <td>Author</td>
+                    <td>phkb</td>
+                    <td>phkb</td>
+                </tr>
+                <tr>
+                    <td>Version</td>
+                    <td>1.5</td>
+                    <td>1.5</td>
+                </tr>
+                <tr>
+                    <td>Tags</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Required Oolite Version</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Maximum Oolite Version</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Required Expansions</td>
+                    <td>
+                    </td>
+                    <td>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Optional Expansions</td>
+                    <td>
+                    </td>
+                    <td>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Conflict Expansions</td>
+                    <td>
+                    </td>
+                    <td>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Information URL</td>
+                    <td><a target="_blank" href=""></a></td>
+                    <td><a target="_blank" href="">n/a</a></td>
+                </tr>
+                <tr>
+                    <td>Download URL</td>
+                    <td><a target="_blank" href="https://wiki.alioth.net/img_auth.php/9/9c/BulkCargoProcessor.oxz">https://wiki.alioth.net/img_auth.php/9/9c/BulkCargoProcessor.oxz</a></td>
+                    <td><a target="_blank" href="">n/a</a></td>
+                </tr>
+                <tr>
+                    <td>License</td>
+                    <td>CC BY-NC-SA 4.0</td>
+                    <td>CC BY-NC-SA 4.0</td>
+                </tr>
+                <tr>
+                    <td>File Size</td>
+                    <td>n/a</td>
+                </tr>
+                <tr>
+                    <td>Upload date</td>
+                    <td>1610873390</td>
+                </tr>
+            </table>
+                </a>
+
+        <a name="documentation">
+        <h2>Documentation</h2>
+        <p>Also read <a href='http://wiki.alioth.net/index.php/Bulk%20Cargo%20Processor'>http://wiki.alioth.net/index.php/Bulk%20Cargo%20Processor</a></p>
+        <h3>readme.txt</h3>
+        <pre>Bulk Cargo Processing
+By Nick Rogers
+
+Overview
+========
+This OXP provides a piece of primable equipment the player can use during flight to automatically dump or destroy all of a particular type of cargo.
+
+Usage
+=====
+After priming the equipment, pressing the &quot;b&quot; key will cycle through all the possibilties. If you have 10t of food plus 15t of textiles, the options will be 
+    &quot;Dump 10t Food&quot;
+    &quot;Destroy 10t Food&quot;
+    &quot;Dump 15t Textiles&quot;
+    &quot;Destroy 15t Textiles&quot;
+
+When the desired option is selected, pressing &quot;n&quot; will prime the processing unit, and a confirmation message will be displayed, based on the option selected (eg &quot;Ready to dump 10t food&quot;). Pressing &quot;n&quot; again will perform the action. An additional confirmation will be displayed when attempting to destroy slaves.
+
+To stop the process before it finishes, press the &quot;n&quot; key again.
+
+Energy is used when destroying cargo. If the energy of your ship drops too low, the destruction process will pause until the available energy has risen to a sufficient level.
+
+The destruction process will generate alloys which will be automatically ejected.
+
+Availability
+============
+The Bulk Cargo Processor is available from all TL3 systems and above, at a cost of 50cr.
+
+Licence
+=======
+This work is licensed under the Creative Commons Attribution-ShareAlike 4.0 International Public License. To view a copy of this license, visit http://http://creativecommons.org/licenses/by-sa/4.0/ or send a letter to Creative Commons, 171 Second Street, Suite 300, San Francisco, California, 94105, USA.
+
+Version History
+===============
+1.5
+- Made it easier to stop a bulk process, by just pressing the &quot;n&quot; key again.
+- Prevented invalid data conditions by preventing the mode from being changed while cargo processing is in progress.
+
+1.4
+- Code refactoring.
+
+1.3
+- Fixed bug that would cause the destruction process to continue after all the cargo has been destroyed, meaning any additional cargo of that type would also be destroyed.
+
+1.2
+- Additional confirmation message before destroying slaves now works as it should.
+
+1.1
+- Destroying cargo will now take up some time (rather than being instantaneous). Energy will be used for the destruction process, and alloys will be dumped after each 10t of cargo destroyed.
+
+1.0
+- Initial release
+
+</pre>
+        </a>
+
+        <a name="equipment">          
+        <h2>Equipment</h2>
+            <table>
+                <tr>
+                    <th>Name</th>
+                    <th>Visible</th>
+                    <th>Cost [deci-credits]</th>
+                    <th>Tech-Level</th>
+                </tr>
+                <tr>
+                    <td><a href="../equipment/EQ_BULK_CARGO_PROCESSOR.html">Bulk Cargo Processor</a></td>
+                    <td>yes</td>
+                    <td align="right">500</td>
+                    <td align="center">3+</td>
+                </tr>
+                <tr>
+                    <td><a href="../equipment/EQ_BULK_CARGO_PROCESSOR_REMOVAL.html">Remove Bulk Cargo Processor</a></td>
+                    <td>no</td>
+                    <td align="right">100</td>
+                    <td align="center">1+</td>
+                </tr>
+            </table>
+        </a>
+
+        <a name="ships">    
+        <h2>Ships</h2>
+            This expansion declares no ships. This may be related to warnings.
+        </a>
+
+        <a name="models">    
+        <h2>Models</h2>
+            This expansion declares no models. This may be related to warnings.
+        </a>
+
+        <a name="scripts">    
+        <h2>Scripts</h2>
+            <table>
+                <tr>
+                    <th>Path</th>
+                </tr>
+                <tr>
+                    <td valign="top">Scripts/bulkcargoprocessor.js</td>
+                    <td><pre>&quot;use strict&quot;;
+this.name	     = &quot;BulkCargoProcessor&quot;;
+this.author	     = &quot;phkb&quot;;
+this.copyright   = &quot;2017 phkb&quot;;
+this.description = &quot;Allows quick dumping or destruction of all of a particular cargo type currently in the hold.&quot;;
+this.licence     = &quot;CC BY-NC-SA 4.0&quot;;
+
+this._currentOption = {};
+this._currentIndex = -1;
+this._confirm = 0;
+this._dumpTimer = null;
+this._dumpList = [];
+this._destroyTimer = null;
+this._destroyList = [];
+this._destroyLowEnergyMessage = false;
+this._destroyCounter = 0;
+this._preferredCargoPods = [];
+this._energyReduction = 20;
+
+//-------------------------------------------------------------------------------------------------------------
+this.startUpComplete = function() {
+    this.$getPreferredCargoPodList();
+}
+
+//-------------------------------------------------------------------------------------------------------------
+this.mode = function() {
+    var bcp = worldScripts.BulkCargoProcessor;
+    if ((bcp._dumpTimer &amp;&amp; bcp._dumpTimer.isRunning) || bcp._destroyTimer &amp;&amp; bcp._destroyTimer.isRunning) {
+        player.consoleMessage(&quot;Unable to change option during processing.&quot;);
+        return;
+    }
+    var list = [];
+    var cargo = player.ship.manifest.list;
+    for (var i = 0; i &lt; cargo.length; i ++) {
+        if (cargo[i].quantity &gt; 0) {
+            list.push({text:&quot;Dump &quot; + cargo[i].quantity + cargo[i].unit + &quot; &quot; + displayNameForCommodity(cargo[i].commodity), action:&quot;dump&quot;, commodity:cargo[i].commodity, unit:cargo[i].unit});
+            list.push({text:&quot;Destroy &quot; + cargo[i].quantity + cargo[i].unit + &quot; &quot; + displayNameForCommodity(cargo[i].commodity), action:&quot;destroy&quot;, commodity:cargo[i].commodity, unit:cargo[i].unit});
+        }
+    }
+    bcp._currentIndex += 1;
+    if (bcp._currentIndex &gt;= list.length) bcp._currentIndex = 0;
+    bcp._currentOption = list[bcp._currentIndex];
+    bcp._confirm = 0;
+    player.consoleMessage(bcp._currentOption.text);
+}
+
+//-------------------------------------------------------------------------------------------------------------
+this.activated = function() {
+    var bcp = worldScripts.BulkCargoProcessor;
+    if (bcp._currentOption.hasOwnProperty(&quot;text&quot;) === false) {
+        player.consoleMessage(&quot;Invalid option selected for processing&quot;);
+        return;
+    }
+    bcp._confirm += 1;
+    switch (bcp._confirm) {
+        case 1:
+            player.consoleMessage(&quot;Confirm: &quot; + bcp._currentOption.text);
+            break;
+        case 2:
+        case 3: // special confirmation for destroying slaves
+            // do it
+            bcp.$performAction();
+            break;
+        case 4:
+            player.consoleMessage(&quot;Action terminated&quot;);
+            if (bcp._dumpTimer &amp;&amp; bcp._dumpList.isRunning) bcp._dumpTimer.stop();
+            if (bcp._destroyTimer &amp;&amp; bcp._destroyTimer.isRunning) bcp._destroyTimer.stop();
+            bcp._dumpList = [];
+            bcp._destroyList = [];
+            bcp._confirm = 0;
+            bcp._currentIndex = -1;
+            bcp._currentOption = {};
+            break;
+    }
+}
+
+//-------------------------------------------------------------------------------------------------------------
+this.$performAction = function() {
+    if (!this._currentOption) return;
+    switch (this._currentOption.action) {
+        case &quot;dump&quot;:
+            player.consoleMessage(this._currentOption.text.replace(&quot;Dump &quot;, &quot;Dumping &quot;));
+            var amt = player.ship.manifest[this._currentOption.commodity];
+            if (this._currentOption.unit !== &quot;t&quot;) {
+                var base = 1000;
+                if (this._currentOption.unit === &quot;g&quot;) base = 1000000;
+                do {
+                    var d = base;
+                    if (d &gt; amt) d = amt;
+                    amt -= d;
+                    this._dumpList.push({commodity:this._currentOption.commodity, quantity:d});
+                } while (amt &gt; 0);
+            } else {
+                for (var i = 1; i &lt;= amt; i++) {
+                    this._dumpList.push({commodity:this._currentOption.commodity, quantity:1});
+                }
+            }
+            if (!this._dumpTimer || this._dumpTimer.isRunning === false) {
+                this._dumpTimer = new Timer(this, this.$dumpCargo, 0.75, 0.75);
+            }
+            break;
+        case &quot;destroy&quot;:
+            if (this._currentOption.commodity === &quot;slaves&quot; &amp;&amp; this._confirm === 2) {
+                player.consoleMessage(&quot;Please re-confirm destruction of slaves&quot;);
+                return;
+            }
+            if (this._currentOption.commodity === &quot;slaves&quot; &amp;&amp; this._confirm === 3) {
+                // force the confirm counter back one so that it will match a normal destroy sequence 
+                this._confirm -= 1;
+            }
+            player.consoleMessage(this._currentOption.text.replace(&quot;Destroy &quot;, &quot;Destroying &quot;));
+            //player.ship.manifest[this._currentOption.commodity] = 0;
+            var amt = player.ship.manifest[this._currentOption.commodity];
+            if (this._currentOption.unit !== &quot;t&quot;) {
+                var base = 1000;
+                if (this._currentOption.unit === &quot;g&quot;) base = 1000000;
+                do {
+                    var d = base;
+                    if (d &gt; amt) d = amt;
+                    amt -= d;
+                    this._destroyList.push({commodity:this._currentOption.commodity, quantity:d});
+                } while (amt &gt; 0);
+            } else {
+                for (var i = 1; i &lt;= amt; i++) {
+                    this._destroyList.push({commodity:this._currentOption.commodity, quantity:1});
+                }
+            }
+            if (!this._destroyTimer || this._destroyTimer.isRunning === false) {
+                this._destroyTimer = new Timer(this, this.$destroyCargo, 1, 1);
+            }
+            break;
+    }
+    //this._currentOption = {};
+    //this._currentIndex = -1;
+    this._confirm += 1;
+}
+
+//-------------------------------------------------------------------------------------------------------------
+this.playerBoughtEquipment = function(equipmentKey) {
+    if (equipmentKey === &quot;EQ_BULK_CARGO_PROCESSOR_REMOVAL&quot;) {
+        player.ship.removeEquipment(&quot;EQ_BULK_CARGO_PROCESSOR_REMOVAL&quot;);
+        player.ship.removeEquipment(&quot;EQ_BULK_CARGO_PROCESSOR&quot;);
+    }
+}
+
+//-------------------------------------------------------------------------------------------------------------
+this.shipDied = function(whom, why) {
+    this.$stopTimers();
+}
+
+//-------------------------------------------------------------------------------------------------------------
+this.shipWillDockWithStation = function(station) {
+    this.$stopTimers();
+}
+
+//-------------------------------------------------------------------------------------------------------------
+this.shipWillEnterWitchspace = function(cause, destination) {
+    this.$stopTimers();
+}
+
+//-------------------------------------------------------------------------------------------------------------
+this.$stopTimers = function() {
+    if (this._dumpTimer &amp;&amp; this._dumpTimer.isRunning) this._dumpTimer.stop();
+    this._dumpList = [];
+    if (this._destroyTimer &amp;&amp; this._destroyTimer.isRunning) this._destroyTimer.stop();
+    this._destroyList = [];
+}
+
+//-------------------------------------------------------------------------------------------------------------
+this.$dumpCargo = function $dumpCargo() {
+    if (this._dumpList.length === 0) {
+        this._currentOption = {};
+        this._currentIndex = -1;
+        this._confirm = 0;
+        this._dumpTimer.stop();
+        return;
+    }
+    var c = this._dumpList[0];
+    if (player.ship.manifest[c.commodity] &gt; 0) {
+        if (c.quantity &gt; 0) {
+            // this is a &quot;g&quot; or &quot;kg&quot; item - we can have more than 1 unit in the pod
+            var pd = this._preferredCargoPods[Math.floor(Math.random() * this._preferredCargoPods.length)];
+            var cg = player.ship.ejectItem(&quot;[&quot; + pd + &quot;]&quot;);
+            cg.setCargo(c.commodity, c.quantity);
+            player.ship.manifest[c.commodity] -= c.quantity;
+        } else {
+            // otherwise, it&#39;s a straight dump of 1t
+            player.ship.dumpCargo(1, c.commodity);
+        }
+    }
+    this._dumpList.splice(0, 1);
+}
+
+//--------------------------------------------------------------------------------------------------------------
+this.$destroyCargo = function $destroyCargo() {
+    if (this._destroyList.length === 0) {
+        this._currentOption = {};
+        this._currentIndex = -1;
+        this._confirm = 0;
+        this._destroyTimer.stop();
+        return;
+    }
+    if (player.ship.energy &lt; 64) {
+        if (this._destroyLowEnergyMessage === false) {
+            player.consoleMessage(&quot;Destruction process on hold - insuffient energy&quot;);
+        }
+        this._destroyLowEnergyMessage = true;
+        return;
+    }
+    this._destroyLowEnergyMessage = false;
+    var c = this._destroyList[0];
+    if (player.ship.manifest[c.commodity] &gt;= c.quantity) {
+        // this is a &quot;g&quot; or &quot;kg&quot; item - we can have more than 1 unit in the pod
+        player.ship.manifest[c.commodity] -= c.quantity;
+        player.ship.energy -= this._energyReduction;
+        this._destroyCounter += 1;
+        // eject alloys
+        if (this._destroyCounter &gt;= 10) {
+            var pd = this._preferredCargoPods[Math.floor(Math.random() * this._preferredCargoPods.length)];
+            var cg = player.ship.ejectItem(&quot;[&quot; + pd + &quot;]&quot;);
+            cg.setCargo(&quot;alloys&quot;, 1);
+            this._destroyCounter = 0;
+        }
+    }
+    this._destroyList.splice(0, 1);
+}
+
+//--------------------------------------------------------------------------------------------------------------
+// populates the list of possible cargopods that can be spawned and aren&#39;t related to a scripted item
+this.$getPreferredCargoPodList = function() {
+	this._preferredCargoPods = [];
+	var shipkeys = Ship.keysForRole(&quot;cargopod&quot;);
+	for (var i = 0; i &lt; shipkeys.length; i++) {
+		var shipspec = Ship.shipDataForKey(shipkeys[i]);
+		if (shipspec.cargo_type != &quot;CARGO_SCRIPTED_ITEM&quot;) this._preferredCargoPods.push(shipkeys[i]);
+	}
+}
+</pre></td>
+                </tr>
+            </table>
+        </a>
+    </body>
+</html>

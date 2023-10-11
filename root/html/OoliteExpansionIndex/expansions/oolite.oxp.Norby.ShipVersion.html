@@ -1,0 +1,2084 @@
+<html>
+    <head>
+        <title>Expansion ShipVersion</title>
+        <link rel="stylesheet" href="../style.css">
+    </head>
+    <body>
+        <table border="0" width="100%">
+            <tr>
+                <td>Back to <a href='../index.html'>Index</a></td>
+                <td align="right"><small>Page generated: Oct 11, 2023, 3:16:48 PM</small></td>
+            </tr>
+        </table>
+
+        <h1>Expansion ShipVersion</h1>
+
+        <h2>Content</h2>
+        <ul>
+          <li><a href="#warnings">Warnings</a></li>
+          <li><a href="#manifest">Manifest</a></li>
+          <li><a href="#documentation">Documentation</a></li>
+          <li><a href="#equipment">124 Equipment</a></li>
+          <li><a href="#ships">0 Ships</a></li>
+          <li><a href="#models">0 Models</a></li>
+          <li><a href="#scripts">4 Scripts</a></li>
+        </ul>
+
+          <a name="warnings">
+            <h2>Warnings</h2>
+            <ol>
+                <li>Required Expansions mismatch between OXP Manifest and Expansion Manager at character position 0073 (DIGIT ZERO vs LATIN SMALL LETTER N)</li>
+            </ol>
+          </a>
+
+        <a name="manifest">
+        <h2>Manifest</h2>
+            <table border="1">
+                <tr>
+                    <th></th>
+                    <th>from Expansion Manager's OXP list</th>
+                    <th>from Expansion Manifest</th>
+                </tr>
+                <tr>
+                    <td>Description</td>
+                    <td>All ship get version numbers and bonuses with the version, NPCs get extra equipments scaled with the version.</td>
+                    <td>All ship get version numbers and bonuses with the version, NPCs get extra equipments scaled with the version.</td>
+                </tr>
+                <tr>
+                    <td>Identifier</td>
+                    <td>oolite.oxp.Norby.ShipVersion</td>
+                    <td>oolite.oxp.Norby.ShipVersion</td>
+                </tr>
+                <tr>
+                    <td>Title</td>
+                    <td>ShipVersion</td>
+                    <td>ShipVersion</td>
+                </tr>
+                <tr>
+                    <td>Category</td>
+                    <td>Activities</td>
+                    <td>Activities</td>
+                </tr>
+                <tr>
+                    <td>Author</td>
+                    <td>Norby</td>
+                    <td>Norby</td>
+                </tr>
+                <tr>
+                    <td>Version</td>
+                    <td>1.24</td>
+                    <td>1.24</td>
+                </tr>
+                <tr>
+                    <td>Tags</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Required Oolite Version</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Maximum Oolite Version</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Required Expansions</td>
+                    <td>
+                            <li>oolite.oxp.CaptMurphy.ShipStorageHelper:0</li>
+                    </td>
+                    <td>
+                            <li>oolite.oxp.CaptMurphy.ShipStorageHelper:</li>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Optional Expansions</td>
+                    <td>
+                    </td>
+                    <td>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Conflict Expansions</td>
+                    <td>
+                    </td>
+                    <td>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Information URL</td>
+                    <td><a target="_blank" href="http://wiki.alioth.net/index.php/ShipVersion">http://wiki.alioth.net/index.php/ShipVersion</a></td>
+                    <td><a target="_blank" href="">n/a</a></td>
+                </tr>
+                <tr>
+                    <td>Download URL</td>
+                    <td><a target="_blank" href="https://wiki.alioth.net/img_auth.php/6/64/ShipVersion_1.24.oxz">https://wiki.alioth.net/img_auth.php/6/64/ShipVersion_1.24.oxz</a></td>
+                    <td><a target="_blank" href="">n/a</a></td>
+                </tr>
+                <tr>
+                    <td>License</td>
+                    <td>CC BY-NC-SA 4.0</td>
+                    <td>CC BY-NC-SA 4.0</td>
+                </tr>
+                <tr>
+                    <td>File Size</td>
+                    <td>n/a</td>
+                </tr>
+                <tr>
+                    <td>Upload date</td>
+                    <td>1610873315</td>
+                </tr>
+            </table>
+                </a>
+
+        <a name="documentation">
+        <h2>Documentation</h2>
+        <p>Also read <a href='http://wiki.alioth.net/index.php/ShipVersion'>http://wiki.alioth.net/index.php/ShipVersion</a></p>
+        <h3>ShipVersion 1.24 readme.txt</h3>
+        <pre>ShipVersion OXP
+
+All piloted ships got a version number from 1.0 to 10.0 when manufactured.
+This means the age of the ship, so it is not changeable like an equipment, this represents the era when the ship created and affect many parts of the ship.
+
+In this way there is a reason to buy another ship from the same type which you have if you get enough money and create a new goal to earn more money after you bought your favourite ship to get another with higher version.
+Be cautious, you may need to avoid stronger enemies and retreat from the combat if the situation is hard.
+
+
+The 1.0 is the normal ship, others get bonuses for:
+-Energy and shield recharge (max. +1.8/seconds, NPC shield recharges affected also with CustomShields OXP),
+-Missile reload time.
+
+NPCs get also:
+-Accuracy bonus,
+-Equipments (mainly combat related, see below), awarded more with the higher version.
+
+Player get:
+-Service Level Repair Bot if ShipVersion &gt;= 8.0 which can increase 1% in every 5 minutes of flying but limited to fix Bad levels only.
+
+
+Ship details screen
+
+If you hit the enter key in the shipyard with this OXP then you will not get the ship instantly but can read ship details including the version number in the heading.
+
+Do not buy the first available ship when you have enough money, watch the version number and wait until a good ship will be sold.
+Unfortunately if you throw back a ship then the game remove it from the shipyard, but you can get back if reload a saved game.
+If there are more copy from the wanted ship in the Shipyard then save the game, check the ship versions and if the last is not the best then load the game and choose the best, the versions will not change.
+
+The awarded Ship Version Equipment show the version of the ship in the status screen (F5).
+If this equipment damaged then the recharge bonus lost until repaired.
+
+If you are attacked by more ship then watch the version numbers at the end of the names and fight with the strongest first.
+
+NPCs show the main number of the version only (1 - 10 instead of 1.0 - 10.0) due to the limited detection.
+
+The version numbers comes from the read-only entityPersonality value of the ships willfully.
+In this way a script can set it when creating a new player ship only and can not change afterwards, so you must find and buy another ship if you want to upgrade to higher version.
+
+NPCs get:
+ Version	Equipments
+ 1	Escape Pod
+ 2	E.C.M. System
+ 3	Extra Energy Unit
+ 4	Shield Boosters
+ 5	ECM Hardened Missiles and Shield Cycler if the OXP with same name is present
+ 6	Witchdrive Fuel Injectors and Q-Charger if the related OXP is present and at least v1.21
+ 7	Military Scanner Filtering, Shield Equalizer and Capacitors if the same OXP is present
+ 8	Military Shield Enhancement
+ 9	Military Scanner Jammer and Naval Energy Unit
+ 10	Cloaking Device and Quirium Cascade Mine (the top 1% of the ships)
+
+You can set the maximum level of the awards with $ShipVersion_AwardMax in the Scripts/shipversion.js, the default is 10.
+These awarded in addition, so a ship with small version may have advanced equipments if start with it or got it from somewhere else than this OXP.
+
+
+HardShips support
+
+If both HardShips OXP and IronHide OXP present then the HardShips OXP will award an equivalent of the IronHide Armour to NPCs to compensate the originally player-only IronHide Armour, and award more armour to the ships with high version.
+
+Awarded with HardShips OXP and IronHide OXP:
+ Version	Equipments
+ 1	Life Box
+ 2	Dummy Equipments depending on cargo space and Electronics Box
+ 3	Equipment Box
+ 4	Additional Core Hull, Shield Box and if not clean then Renewable Energy Generator
+ 5	IronHide Armour and Hard Nose
+ 6	Additional Front Armour, Emergency Energy Generator and Injector Box
+ 7	Additional Aft Armour and Emergency Shield Generator
+ 8	Military IronHide Armour and Very Hard Nose
+ 9	High-Tech Catalyst if clean and Big Shield Capacitors with ShieldEqualizer+Capacitors OXP
+ 10	1.5x Military IronHide Armour and Anti-Sapper Shield
+
+For example a Viper v8 get 490 armour and 384 shield points over the basic 180 energy, which is 6x more but only 20% of the ships has v8 or above.
+A zealous player can make tables to all NPC ships from Version 1 to 10 with energy, front-aft-side armour, shield and recharge values modified by the awarded equipments. Please publish if you can do it.
+
+ShipVersion OXP can not award the player-only Ironhide Armour to NPCs without HardShips OXP.
+But without ShipVersion OXP the HardShips OXP can award it due to the armour-making code simulate the NPC IronHide Armour and use the same entityPersonality-based formula to determine the NPCs who can get this.
+
+If HardShips OXP present then all ship get equal level Hard Shield with the version number also.
+
+The Hard Armour (which is the strongest addition of the HardShips OXP) is not awardable by version due to it is not an equipment.
+Very large and heavy in real, need additional reinforced holders within the ship so can not added easily to an existing ship, must be made a different subtype to hold.
+It is something beyond the ship version: a new ship with modified name (for example &quot;Hard Cobra&quot;), smaller thrust and orange tiled textures to make visible the very Hard Armour.
+But Hard Ships will get version numbers also with the bonuses described above.
+
+
+Ship sizes
+
+Ships with less than 30t mass can not get the following equipments due to the small inner space:
+IronHide Armour, Shield Boosters and Capacitors and none from HardShips OXP nor labelled as Military/Naval.
+Small ships: Adder (11t), Gecko (23t), Mamba (27t), Sidewinder (25t) and Viper (23t).
+
+Ships under 130t can not get Big Shield Capacitors, Very Hard Nose and nothing labelled as Military/Naval.
+Restricted ships: Asp (59t), Cobra I (47t), Constrictor (33t), Fer-de-Lance (51t), Krait (80t), Moray (40t), Viper Interceptor (43t) and the previous small ships.
+
+Large ships can get all (be wise): Anaconda, Boa, Boa Mk2, Cobra III and Python.
+
+The bounty of ships over 30t is increased with version*10 credits so v1-v10 add 10-100.
+Large non-clean ships get more at high levels: v8 get 100, v9 get 150 and v10 get 200 additional credits.
+
+Player get similar restrictions so can not buy some equipments into small ships:
+Under 30t no Galactic Drive, IronHide Armour, Medium Railgun, Military and Mining Laser, Shield Booster and Shield Capacitor.
+Under 130t no Heavy and Mining Railgun, Military IronHide Armour and Naval Shield Booster.
+
+Drones in HardShips OXP and custom ships under 3t are not awarded with equipments at all (no room for anything), but get recharge and accuracy bonuses as others.
+
+
+Service Level
+
+The Service Level equipment show the status of the ship hull based on the following data.
+
+ Perfect 100%
+ Good	 90-99%
+ Weak	 80-89%
+ Bad	 76-79%
+ Minimal 75%
+
+This affect the ship value when you want to sell it to buy another ship so always worth to fix it before.
+
+You will get message from the changes and the name of the equipment show these words to can check it on the status screen (F5).
+If the version of your ship is at least 8.0 then this equipment contain a repair bot also which can increase 1% in every 5 minutes of flying but can reach at best the bottom of the Weak level (80%).
+The repair will allocate 100 credits during fly for the spare parts to produce 1% repair and will stop if not enough money left.
+
+Below 8.0 also usable to partially protect your other equipments with these spare parts to take out an equipment damage.
+Can show the level even if damaged but can not defend other equipments nor repair the ship so worth to fix it.
+
+You can buy &quot;Small Fix&quot; in any dock to increase Service Level.
+The full Maintenance Overhaul is cheaper and faster to do large repairs: can level up from Minimal to Good in 19 days and almost half in price than many small fixes which need 50 days.
+But if a tiny Maintenance cost 1% of the ship then Small Fix do the same for 0,5% and both need 5 days equally.
+Bad levels can be fixed in 5 minutes/level and cost 100 credits so it is the same if fix it during fly.
+You can make small fixes if you are short in money, most importantly if your weapons broken apart then must to fix at least once to leave the minimal level before buy weapons.
+You can reach the perfect level with repeated fixes if you want to get the best price for your ship when buy another.
+
+
+Recover Turrets
+
+If you lost your turrets then choose this in the equipment shop from techlevel 5 to fix a turret for 1000 credits.
+
+
+Colors in Scanner
+
+* Red mean a ship targeting the player, light red if small escort ship below 130t mass.
+* Orange flag mean a ship with bounty, lighter orange if escort.
+* Yellow is a neutral ship with clean status.
+* Green mean station, if changed to red then targeted you and send defensive ships.
+* Purple mean police ship.
+
+These color changes can be turned off in the Scripts/shipversion.js if set $ShipVersion_Colors to false.
+
+
+
+Dependencies:
+Oolite v1.77 or later.
+
+Instructions:
+Unzip the file, and then move the folder named &quot;.oxp&quot; in the end to the AddOns directory of your Oolite installation.
+
+Recommended OXPs:
+* CustomShields OXP to put shields into NPC ships.
+* Detectors OXP to see about how many bonuses has the NPCs in different versions.
+* HardShips OXP if you want armoured enemies with extra awards.
+* IronHide OXP to NPCs get extra strong armour (need HardShips OXP also to work).
+* Q-Charger OXP from v1.21 awardable to NPC ships also, you will see some very fast enemy.
+* Shield Cycler OXP help to the NPCs also with transferring shield energy to the weaker side.
+* Shield Equalizer and Capacitors OXP to help NPCs a bit more.
+* Ship Storage Helper OXP is an alternate way to save the ship before check the version of a new one in the Shipyard Screen. Use if another OXP (especially if made later than this OXP) cause problems with the default method but supported by the SSH OXP. If present then the ShipVersion OXP using it instead of the built-in method, which working also, so SSH is not needed currently.
+* Skilled NPCs OXP to get harder residents in the bad governments.
+* ToughGuys OXP to get even more hard enemies, new ships and ambushes.
+
+Settings in Scripts/shipversion.js:
+
+* $ShipVersion_AwardMax = 10; //Additional equipments awarded to NPCs in shipSpawned function, level 0-10
+* $ShipVersion_BasicRulesOnly = false; //if true then default rules get versions only (trader, pirate...)
+* $ShipVersion_Colors = true; //flag color adjustments on the IFF scanner
+* $ShipVersion_Debug = false; //show extra messages to help developing
+
+Script_info support:
+
+OXP makers can set fixed version from 1 to 10 to any ship in shipdata.plist.
+Set to 1 is equal with the original ship, but NPCs over 3t get an Escape Pod due to nobody dare to fly without insurance.
+No version number in NPC names if set to -1.
+
+ script_info = {
+ 	shipversion = 1;
+ };
+
+
+License:
+This work is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike License version 4.0
+If you are re-using any piece of this OXP, please let me know by sending an e-mail to norbylite@gmail.com .
+
+Changelog:
+ 2020.06.23. v1.24 Fixed compatibility issue with Hyperspace Hangar, plus some performance improvements
+                   (courtesy of dybal)
+ 2016.05.22. v1.23 No version number in NPC names if shipversion is -1 in script_info.
+                   Small fix in scanner color restore.
+ 2016.05.08. v1.22 Minimal service level will not cause loss of weapons anymore.
+                   Fixing a bad service level by 1% is cheaper, only 100 Cr.
+                   Scanner colors refined: red mean a ship targeting the player, orange mean bounty.
+                   Fixed a bug at automatic bad service level repair after 5 minutes.
+ 2013.08.24. v1.21 Boxes added.
+ 2013.07.31. v1.2  Small Fix buyable in any dock to increase service level.
+                   Repair bot using up credits to refill spare parts and limited to Weak level.
+                   Laser will break when buy a hauler in Start Choices OXP, not after undock only.
+ 2013.07.28. v1.11 Skip mission ships with ccl_missionShip=true.
+                   $ShipVersion_BasicRulesOnly can restrict further to the default rules.
+ 2013.07.27. v1.1  More bounty for large ships with high versions.
+                   Player get equipments restrictions in small ships.
+                   Script_info support to give fixed version.
+                   Minimal service level cause weapon loss.
+ 2013.06.24. v1.0  First betatest version.
+ 2013.06.10. v0.3  HardShips support added.
+ 2013.04.07. v0.2  First working version.
+ 2013.03.31. v0.1  First test files.
+</pre>
+        </a>
+
+        <a name="equipment">          
+        <h2>Equipment</h2>
+            <table>
+                <tr>
+                    <th>Name</th>
+                    <th>Visible</th>
+                    <th>Cost [deci-credits]</th>
+                    <th>Tech-Level</th>
+                </tr>
+                <tr>
+                    <td><a href="../equipment/EQ_SERVICE_LEVEL_100.html">Service Level Perfect</a></td>
+                    <td>yes</td>
+                    <td align="right">0</td>
+                    <td align="center">100+</td>
+                </tr>
+                <tr>
+                    <td><a href="../equipment/EQ_SERVICE_LEVEL_75.html">Service Level Minimal!</a></td>
+                    <td>yes</td>
+                    <td align="right">0</td>
+                    <td align="center">100+</td>
+                </tr>
+                <tr>
+                    <td><a href="../equipment/EQ_SERVICE_LEVEL_76.html">Service Level Bad</a></td>
+                    <td>yes</td>
+                    <td align="right">0</td>
+                    <td align="center">100+</td>
+                </tr>
+                <tr>
+                    <td><a href="../equipment/EQ_SERVICE_LEVEL_77.html">Service Level Bad</a></td>
+                    <td>yes</td>
+                    <td align="right">0</td>
+                    <td align="center">100+</td>
+                </tr>
+                <tr>
+                    <td><a href="../equipment/EQ_SERVICE_LEVEL_78.html">Service Level Bad</a></td>
+                    <td>yes</td>
+                    <td align="right">0</td>
+                    <td align="center">100+</td>
+                </tr>
+                <tr>
+                    <td><a href="../equipment/EQ_SERVICE_LEVEL_79.html">Service Level Bad</a></td>
+                    <td>yes</td>
+                    <td align="right">0</td>
+                    <td align="center">100+</td>
+                </tr>
+                <tr>
+                    <td><a href="../equipment/EQ_SERVICE_LEVEL_80.html">Service Level Weak</a></td>
+                    <td>yes</td>
+                    <td align="right">0</td>
+                    <td align="center">100+</td>
+                </tr>
+                <tr>
+                    <td><a href="../equipment/EQ_SERVICE_LEVEL_81.html">Service Level Weak</a></td>
+                    <td>yes</td>
+                    <td align="right">0</td>
+                    <td align="center">100+</td>
+                </tr>
+                <tr>
+                    <td><a href="../equipment/EQ_SERVICE_LEVEL_82.html">Service Level Weak</a></td>
+                    <td>yes</td>
+                    <td align="right">0</td>
+                    <td align="center">100+</td>
+                </tr>
+                <tr>
+                    <td><a href="../equipment/EQ_SERVICE_LEVEL_83.html">Service Level Weak</a></td>
+                    <td>yes</td>
+                    <td align="right">0</td>
+                    <td align="center">100+</td>
+                </tr>
+                <tr>
+                    <td><a href="../equipment/EQ_SERVICE_LEVEL_84.html">Service Level Weak</a></td>
+                    <td>yes</td>
+                    <td align="right">0</td>
+                    <td align="center">100+</td>
+                </tr>
+                <tr>
+                    <td><a href="../equipment/EQ_SERVICE_LEVEL_85.html">Service Level Weak</a></td>
+                    <td>yes</td>
+                    <td align="right">0</td>
+                    <td align="center">100+</td>
+                </tr>
+                <tr>
+                    <td><a href="../equipment/EQ_SERVICE_LEVEL_86.html">Service Level Weak</a></td>
+                    <td>yes</td>
+                    <td align="right">0</td>
+                    <td align="center">100+</td>
+                </tr>
+                <tr>
+                    <td><a href="../equipment/EQ_SERVICE_LEVEL_87.html">Service Level Weak</a></td>
+                    <td>yes</td>
+                    <td align="right">0</td>
+                    <td align="center">100+</td>
+                </tr>
+                <tr>
+                    <td><a href="../equipment/EQ_SERVICE_LEVEL_88.html">Service Level Weak</a></td>
+                    <td>yes</td>
+                    <td align="right">0</td>
+                    <td align="center">100+</td>
+                </tr>
+                <tr>
+                    <td><a href="../equipment/EQ_SERVICE_LEVEL_89.html">Service Level Weak</a></td>
+                    <td>yes</td>
+                    <td align="right">0</td>
+                    <td align="center">100+</td>
+                </tr>
+                <tr>
+                    <td><a href="../equipment/EQ_SERVICE_LEVEL_90.html">Service Level Good</a></td>
+                    <td>yes</td>
+                    <td align="right">0</td>
+                    <td align="center">100+</td>
+                </tr>
+                <tr>
+                    <td><a href="../equipment/EQ_SERVICE_LEVEL_91.html">Service Level Good</a></td>
+                    <td>yes</td>
+                    <td align="right">0</td>
+                    <td align="center">100+</td>
+                </tr>
+                <tr>
+                    <td><a href="../equipment/EQ_SERVICE_LEVEL_92.html">Service Level Good</a></td>
+                    <td>yes</td>
+                    <td align="right">0</td>
+                    <td align="center">100+</td>
+                </tr>
+                <tr>
+                    <td><a href="../equipment/EQ_SERVICE_LEVEL_93.html">Service Level Good</a></td>
+                    <td>yes</td>
+                    <td align="right">0</td>
+                    <td align="center">100+</td>
+                </tr>
+                <tr>
+                    <td><a href="../equipment/EQ_SERVICE_LEVEL_94.html">Service Level Good</a></td>
+                    <td>yes</td>
+                    <td align="right">0</td>
+                    <td align="center">100+</td>
+                </tr>
+                <tr>
+                    <td><a href="../equipment/EQ_SERVICE_LEVEL_95.html">Service Level Good</a></td>
+                    <td>yes</td>
+                    <td align="right">0</td>
+                    <td align="center">100+</td>
+                </tr>
+                <tr>
+                    <td><a href="../equipment/EQ_SERVICE_LEVEL_96.html">Service Level Good</a></td>
+                    <td>yes</td>
+                    <td align="right">0</td>
+                    <td align="center">100+</td>
+                </tr>
+                <tr>
+                    <td><a href="../equipment/EQ_SERVICE_LEVEL_97.html">Service Level Good</a></td>
+                    <td>yes</td>
+                    <td align="right">0</td>
+                    <td align="center">100+</td>
+                </tr>
+                <tr>
+                    <td><a href="../equipment/EQ_SERVICE_LEVEL_98.html">Service Level Good</a></td>
+                    <td>yes</td>
+                    <td align="right">0</td>
+                    <td align="center">100+</td>
+                </tr>
+                <tr>
+                    <td><a href="../equipment/EQ_SERVICE_LEVEL_99.html">Service Level Good</a></td>
+                    <td>yes</td>
+                    <td align="right">0</td>
+                    <td align="center">100+</td>
+                </tr>
+                <tr>
+                    <td><a href="../equipment/EQ_SERVICE_LEVEL_REPAIR.html">Service Level Repair Kit renewal</a></td>
+                    <td>yes</td>
+                    <td align="right">10000</td>
+                    <td align="center">2+</td>
+                </tr>
+                <tr>
+                    <td><a href="../equipment/EQ_SERVICE_LEVEL_SMALL_FIX_1.html">Small Fix on Minimal Service Level</a></td>
+                    <td>yes</td>
+                    <td align="right">1000</td>
+                    <td align="center">2+</td>
+                </tr>
+                <tr>
+                    <td><a href="../equipment/EQ_SERVICE_LEVEL_SMALL_FIX_2.html">Small Fix on Bad Service Level</a></td>
+                    <td>yes</td>
+                    <td align="right">1000</td>
+                    <td align="center">2+</td>
+                </tr>
+                <tr>
+                    <td><a href="../equipment/EQ_SERVICE_LEVEL_SMALL_FIX_3.html">Small Fix on Weak Service Level</a></td>
+                    <td>yes</td>
+                    <td align="right">0</td>
+                    <td align="center">2+</td>
+                </tr>
+                <tr>
+                    <td><a href="../equipment/EQ_SERVICE_LEVEL_SMALL_FIX_4.html">Small Fix on Good Service Level</a></td>
+                    <td>yes</td>
+                    <td align="right">0</td>
+                    <td align="center">2+</td>
+                </tr>
+                <tr>
+                    <td><a href="../equipment/EQ_SHIP_VERSION_10.html">Ship Version 1.0</a></td>
+                    <td>yes</td>
+                    <td align="right">0</td>
+                    <td align="center">100+</td>
+                </tr>
+                <tr>
+                    <td><a href="../equipment/EQ_SHIP_VERSION_100.html">Ship Version 10.0</a></td>
+                    <td>yes</td>
+                    <td align="right">0</td>
+                    <td align="center">100+</td>
+                </tr>
+                <tr>
+                    <td><a href="../equipment/EQ_SHIP_VERSION_11.html">Ship Version 1.1</a></td>
+                    <td>yes</td>
+                    <td align="right">0</td>
+                    <td align="center">100+</td>
+                </tr>
+                <tr>
+                    <td><a href="../equipment/EQ_SHIP_VERSION_12.html">Ship Version 1.2</a></td>
+                    <td>yes</td>
+                    <td align="right">0</td>
+                    <td align="center">100+</td>
+                </tr>
+                <tr>
+                    <td><a href="../equipment/EQ_SHIP_VERSION_13.html">Ship Version 1.3</a></td>
+                    <td>yes</td>
+                    <td align="right">0</td>
+                    <td align="center">100+</td>
+                </tr>
+                <tr>
+                    <td><a href="../equipment/EQ_SHIP_VERSION_14.html">Ship Version 1.4</a></td>
+                    <td>yes</td>
+                    <td align="right">0</td>
+                    <td align="center">100+</td>
+                </tr>
+                <tr>
+                    <td><a href="../equipment/EQ_SHIP_VERSION_15.html">Ship Version 1.5</a></td>
+                    <td>yes</td>
+                    <td align="right">0</td>
+                    <td align="center">100+</td>
+                </tr>
+                <tr>
+                    <td><a href="../equipment/EQ_SHIP_VERSION_16.html">Ship Version 1.6</a></td>
+                    <td>yes</td>
+                    <td align="right">0</td>
+                    <td align="center">100+</td>
+                </tr>
+                <tr>
+                    <td><a href="../equipment/EQ_SHIP_VERSION_17.html">Ship Version 1.7</a></td>
+                    <td>yes</td>
+                    <td align="right">0</td>
+                    <td align="center">100+</td>
+                </tr>
+                <tr>
+                    <td><a href="../equipment/EQ_SHIP_VERSION_18.html">Ship Version 1.8</a></td>
+                    <td>yes</td>
+                    <td align="right">0</td>
+                    <td align="center">100+</td>
+                </tr>
+                <tr>
+                    <td><a href="../equipment/EQ_SHIP_VERSION_19.html">Ship Version 1.9</a></td>
+                    <td>yes</td>
+                    <td align="right">0</td>
+                    <td align="center">100+</td>
+                </tr>
+                <tr>
+                    <td><a href="../equipment/EQ_SHIP_VERSION_20.html">Ship Version 2.0</a></td>
+                    <td>yes</td>
+                    <td align="right">0</td>
+                    <td align="center">100+</td>
+                </tr>
+                <tr>
+                    <td><a href="../equipment/EQ_SHIP_VERSION_21.html">Ship Version 2.1</a></td>
+                    <td>yes</td>
+                    <td align="right">0</td>
+                    <td align="center">100+</td>
+                </tr>
+                <tr>
+                    <td><a href="../equipment/EQ_SHIP_VERSION_22.html">Ship Version 2.2</a></td>
+                    <td>yes</td>
+                    <td align="right">0</td>
+                    <td align="center">100+</td>
+                </tr>
+                <tr>
+                    <td><a href="../equipment/EQ_SHIP_VERSION_23.html">Ship Version 2.3</a></td>
+                    <td>yes</td>
+                    <td align="right">0</td>
+                    <td align="center">100+</td>
+                </tr>
+                <tr>
+                    <td><a href="../equipment/EQ_SHIP_VERSION_24.html">Ship Version 2.4</a></td>
+                    <td>yes</td>
+                    <td align="right">0</td>
+                    <td align="center">100+</td>
+                </tr>
+                <tr>
+                    <td><a href="../equipment/EQ_SHIP_VERSION_25.html">Ship Version 2.5</a></td>
+                    <td>yes</td>
+                    <td align="right">0</td>
+                    <td align="center">100+</td>
+                </tr>
+                <tr>
+                    <td><a href="../equipment/EQ_SHIP_VERSION_26.html">Ship Version 2.6</a></td>
+                    <td>yes</td>
+                    <td align="right">0</td>
+                    <td align="center">100+</td>
+                </tr>
+                <tr>
+                    <td><a href="../equipment/EQ_SHIP_VERSION_27.html">Ship Version 2.7</a></td>
+                    <td>yes</td>
+                    <td align="right">0</td>
+                    <td align="center">100+</td>
+                </tr>
+                <tr>
+                    <td><a href="../equipment/EQ_SHIP_VERSION_28.html">Ship Version 2.8</a></td>
+                    <td>yes</td>
+                    <td align="right">0</td>
+                    <td align="center">100+</td>
+                </tr>
+                <tr>
+                    <td><a href="../equipment/EQ_SHIP_VERSION_29.html">Ship Version 2.9</a></td>
+                    <td>yes</td>
+                    <td align="right">0</td>
+                    <td align="center">100+</td>
+                </tr>
+                <tr>
+                    <td><a href="../equipment/EQ_SHIP_VERSION_30.html">Ship Version 3.0</a></td>
+                    <td>yes</td>
+                    <td align="right">0</td>
+                    <td align="center">100+</td>
+                </tr>
+                <tr>
+                    <td><a href="../equipment/EQ_SHIP_VERSION_31.html">Ship Version 3.1</a></td>
+                    <td>yes</td>
+                    <td align="right">0</td>
+                    <td align="center">100+</td>
+                </tr>
+                <tr>
+                    <td><a href="../equipment/EQ_SHIP_VERSION_32.html">Ship Version 3.2</a></td>
+                    <td>yes</td>
+                    <td align="right">0</td>
+                    <td align="center">100+</td>
+                </tr>
+                <tr>
+                    <td><a href="../equipment/EQ_SHIP_VERSION_33.html">Ship Version 3.3</a></td>
+                    <td>yes</td>
+                    <td align="right">0</td>
+                    <td align="center">100+</td>
+                </tr>
+                <tr>
+                    <td><a href="../equipment/EQ_SHIP_VERSION_34.html">Ship Version 3.4</a></td>
+                    <td>yes</td>
+                    <td align="right">0</td>
+                    <td align="center">100+</td>
+                </tr>
+                <tr>
+                    <td><a href="../equipment/EQ_SHIP_VERSION_35.html">Ship Version 3.5</a></td>
+                    <td>yes</td>
+                    <td align="right">0</td>
+                    <td align="center">100+</td>
+                </tr>
+                <tr>
+                    <td><a href="../equipment/EQ_SHIP_VERSION_36.html">Ship Version 3.6</a></td>
+                    <td>yes</td>
+                    <td align="right">0</td>
+                    <td align="center">100+</td>
+                </tr>
+                <tr>
+                    <td><a href="../equipment/EQ_SHIP_VERSION_37.html">Ship Version 3.7</a></td>
+                    <td>yes</td>
+                    <td align="right">0</td>
+                    <td align="center">100+</td>
+                </tr>
+                <tr>
+                    <td><a href="../equipment/EQ_SHIP_VERSION_38.html">Ship Version 3.8</a></td>
+                    <td>yes</td>
+                    <td align="right">0</td>
+                    <td align="center">100+</td>
+                </tr>
+                <tr>
+                    <td><a href="../equipment/EQ_SHIP_VERSION_39.html">Ship Version 3.9</a></td>
+                    <td>yes</td>
+                    <td align="right">0</td>
+                    <td align="center">100+</td>
+                </tr>
+                <tr>
+                    <td><a href="../equipment/EQ_SHIP_VERSION_40.html">Ship Version 4.0</a></td>
+                    <td>yes</td>
+                    <td align="right">0</td>
+                    <td align="center">100+</td>
+                </tr>
+                <tr>
+                    <td><a href="../equipment/EQ_SHIP_VERSION_41.html">Ship Version 4.1</a></td>
+                    <td>yes</td>
+                    <td align="right">0</td>
+                    <td align="center">100+</td>
+                </tr>
+                <tr>
+                    <td><a href="../equipment/EQ_SHIP_VERSION_42.html">Ship Version 4.2</a></td>
+                    <td>yes</td>
+                    <td align="right">0</td>
+                    <td align="center">100+</td>
+                </tr>
+                <tr>
+                    <td><a href="../equipment/EQ_SHIP_VERSION_43.html">Ship Version 4.3</a></td>
+                    <td>yes</td>
+                    <td align="right">0</td>
+                    <td align="center">100+</td>
+                </tr>
+                <tr>
+                    <td><a href="../equipment/EQ_SHIP_VERSION_44.html">Ship Version 4.4</a></td>
+                    <td>yes</td>
+                    <td align="right">0</td>
+                    <td align="center">100+</td>
+                </tr>
+                <tr>
+                    <td><a href="../equipment/EQ_SHIP_VERSION_45.html">Ship Version 4.5</a></td>
+                    <td>yes</td>
+                    <td align="right">0</td>
+                    <td align="center">100+</td>
+                </tr>
+                <tr>
+                    <td><a href="../equipment/EQ_SHIP_VERSION_46.html">Ship Version 4.6</a></td>
+                    <td>yes</td>
+                    <td align="right">0</td>
+                    <td align="center">100+</td>
+                </tr>
+                <tr>
+                    <td><a href="../equipment/EQ_SHIP_VERSION_47.html">Ship Version 4.7</a></td>
+                    <td>yes</td>
+                    <td align="right">0</td>
+                    <td align="center">100+</td>
+                </tr>
+                <tr>
+                    <td><a href="../equipment/EQ_SHIP_VERSION_48.html">Ship Version 4.8</a></td>
+                    <td>yes</td>
+                    <td align="right">0</td>
+                    <td align="center">100+</td>
+                </tr>
+                <tr>
+                    <td><a href="../equipment/EQ_SHIP_VERSION_49.html">Ship Version 4.9</a></td>
+                    <td>yes</td>
+                    <td align="right">0</td>
+                    <td align="center">100+</td>
+                </tr>
+                <tr>
+                    <td><a href="../equipment/EQ_SHIP_VERSION_50.html">Ship Version 5.0</a></td>
+                    <td>yes</td>
+                    <td align="right">0</td>
+                    <td align="center">100+</td>
+                </tr>
+                <tr>
+                    <td><a href="../equipment/EQ_SHIP_VERSION_51.html">Ship Version 5.1</a></td>
+                    <td>yes</td>
+                    <td align="right">0</td>
+                    <td align="center">100+</td>
+                </tr>
+                <tr>
+                    <td><a href="../equipment/EQ_SHIP_VERSION_52.html">Ship Version 5.2</a></td>
+                    <td>yes</td>
+                    <td align="right">0</td>
+                    <td align="center">100+</td>
+                </tr>
+                <tr>
+                    <td><a href="../equipment/EQ_SHIP_VERSION_53.html">Ship Version 5.3</a></td>
+                    <td>yes</td>
+                    <td align="right">0</td>
+                    <td align="center">100+</td>
+                </tr>
+                <tr>
+                    <td><a href="../equipment/EQ_SHIP_VERSION_54.html">Ship Version 5.4</a></td>
+                    <td>yes</td>
+                    <td align="right">0</td>
+                    <td align="center">100+</td>
+                </tr>
+                <tr>
+                    <td><a href="../equipment/EQ_SHIP_VERSION_55.html">Ship Version 5.5</a></td>
+                    <td>yes</td>
+                    <td align="right">0</td>
+                    <td align="center">100+</td>
+                </tr>
+                <tr>
+                    <td><a href="../equipment/EQ_SHIP_VERSION_56.html">Ship Version 5.6</a></td>
+                    <td>yes</td>
+                    <td align="right">0</td>
+                    <td align="center">100+</td>
+                </tr>
+                <tr>
+                    <td><a href="../equipment/EQ_SHIP_VERSION_57.html">Ship Version 5.7</a></td>
+                    <td>yes</td>
+                    <td align="right">0</td>
+                    <td align="center">100+</td>
+                </tr>
+                <tr>
+                    <td><a href="../equipment/EQ_SHIP_VERSION_58.html">Ship Version 5.8</a></td>
+                    <td>yes</td>
+                    <td align="right">0</td>
+                    <td align="center">100+</td>
+                </tr>
+                <tr>
+                    <td><a href="../equipment/EQ_SHIP_VERSION_59.html">Ship Version 5.9</a></td>
+                    <td>yes</td>
+                    <td align="right">0</td>
+                    <td align="center">100+</td>
+                </tr>
+                <tr>
+                    <td><a href="../equipment/EQ_SHIP_VERSION_60.html">Ship Version 6.0</a></td>
+                    <td>yes</td>
+                    <td align="right">0</td>
+                    <td align="center">100+</td>
+                </tr>
+                <tr>
+                    <td><a href="../equipment/EQ_SHIP_VERSION_61.html">Ship Version 6.1</a></td>
+                    <td>yes</td>
+                    <td align="right">0</td>
+                    <td align="center">100+</td>
+                </tr>
+                <tr>
+                    <td><a href="../equipment/EQ_SHIP_VERSION_62.html">Ship Version 6.2</a></td>
+                    <td>yes</td>
+                    <td align="right">0</td>
+                    <td align="center">100+</td>
+                </tr>
+                <tr>
+                    <td><a href="../equipment/EQ_SHIP_VERSION_63.html">Ship Version 6.3</a></td>
+                    <td>yes</td>
+                    <td align="right">0</td>
+                    <td align="center">100+</td>
+                </tr>
+                <tr>
+                    <td><a href="../equipment/EQ_SHIP_VERSION_64.html">Ship Version 6.4</a></td>
+                    <td>yes</td>
+                    <td align="right">0</td>
+                    <td align="center">100+</td>
+                </tr>
+                <tr>
+                    <td><a href="../equipment/EQ_SHIP_VERSION_65.html">Ship Version 6.5</a></td>
+                    <td>yes</td>
+                    <td align="right">0</td>
+                    <td align="center">100+</td>
+                </tr>
+                <tr>
+                    <td><a href="../equipment/EQ_SHIP_VERSION_66.html">Ship Version 6.6</a></td>
+                    <td>yes</td>
+                    <td align="right">0</td>
+                    <td align="center">100+</td>
+                </tr>
+                <tr>
+                    <td><a href="../equipment/EQ_SHIP_VERSION_67.html">Ship Version 6.7</a></td>
+                    <td>yes</td>
+                    <td align="right">0</td>
+                    <td align="center">100+</td>
+                </tr>
+                <tr>
+                    <td><a href="../equipment/EQ_SHIP_VERSION_68.html">Ship Version 6.8</a></td>
+                    <td>yes</td>
+                    <td align="right">0</td>
+                    <td align="center">100+</td>
+                </tr>
+                <tr>
+                    <td><a href="../equipment/EQ_SHIP_VERSION_69.html">Ship Version 6.9</a></td>
+                    <td>yes</td>
+                    <td align="right">0</td>
+                    <td align="center">100+</td>
+                </tr>
+                <tr>
+                    <td><a href="../equipment/EQ_SHIP_VERSION_70.html">Ship Version 7.0</a></td>
+                    <td>yes</td>
+                    <td align="right">0</td>
+                    <td align="center">100+</td>
+                </tr>
+                <tr>
+                    <td><a href="../equipment/EQ_SHIP_VERSION_71.html">Ship Version 7.1</a></td>
+                    <td>yes</td>
+                    <td align="right">0</td>
+                    <td align="center">100+</td>
+                </tr>
+                <tr>
+                    <td><a href="../equipment/EQ_SHIP_VERSION_72.html">Ship Version 7.2</a></td>
+                    <td>yes</td>
+                    <td align="right">0</td>
+                    <td align="center">100+</td>
+                </tr>
+                <tr>
+                    <td><a href="../equipment/EQ_SHIP_VERSION_73.html">Ship Version 7.3</a></td>
+                    <td>yes</td>
+                    <td align="right">0</td>
+                    <td align="center">100+</td>
+                </tr>
+                <tr>
+                    <td><a href="../equipment/EQ_SHIP_VERSION_74.html">Ship Version 7.4</a></td>
+                    <td>yes</td>
+                    <td align="right">0</td>
+                    <td align="center">100+</td>
+                </tr>
+                <tr>
+                    <td><a href="../equipment/EQ_SHIP_VERSION_75.html">Ship Version 7.5</a></td>
+                    <td>yes</td>
+                    <td align="right">0</td>
+                    <td align="center">100+</td>
+                </tr>
+                <tr>
+                    <td><a href="../equipment/EQ_SHIP_VERSION_76.html">Ship Version 7.6</a></td>
+                    <td>yes</td>
+                    <td align="right">0</td>
+                    <td align="center">100+</td>
+                </tr>
+                <tr>
+                    <td><a href="../equipment/EQ_SHIP_VERSION_77.html">Ship Version 7.7</a></td>
+                    <td>yes</td>
+                    <td align="right">0</td>
+                    <td align="center">100+</td>
+                </tr>
+                <tr>
+                    <td><a href="../equipment/EQ_SHIP_VERSION_78.html">Ship Version 7.8</a></td>
+                    <td>yes</td>
+                    <td align="right">0</td>
+                    <td align="center">100+</td>
+                </tr>
+                <tr>
+                    <td><a href="../equipment/EQ_SHIP_VERSION_79.html">Ship Version 7.9</a></td>
+                    <td>yes</td>
+                    <td align="right">0</td>
+                    <td align="center">100+</td>
+                </tr>
+                <tr>
+                    <td><a href="../equipment/EQ_SHIP_VERSION_80.html">Ship Version 8.0</a></td>
+                    <td>yes</td>
+                    <td align="right">0</td>
+                    <td align="center">100+</td>
+                </tr>
+                <tr>
+                    <td><a href="../equipment/EQ_SHIP_VERSION_81.html">Ship Version 8.1</a></td>
+                    <td>yes</td>
+                    <td align="right">0</td>
+                    <td align="center">100+</td>
+                </tr>
+                <tr>
+                    <td><a href="../equipment/EQ_SHIP_VERSION_82.html">Ship Version 8.2</a></td>
+                    <td>yes</td>
+                    <td align="right">0</td>
+                    <td align="center">100+</td>
+                </tr>
+                <tr>
+                    <td><a href="../equipment/EQ_SHIP_VERSION_83.html">Ship Version 8.3</a></td>
+                    <td>yes</td>
+                    <td align="right">0</td>
+                    <td align="center">100+</td>
+                </tr>
+                <tr>
+                    <td><a href="../equipment/EQ_SHIP_VERSION_84.html">Ship Version 8.4</a></td>
+                    <td>yes</td>
+                    <td align="right">0</td>
+                    <td align="center">100+</td>
+                </tr>
+                <tr>
+                    <td><a href="../equipment/EQ_SHIP_VERSION_85.html">Ship Version 8.5</a></td>
+                    <td>yes</td>
+                    <td align="right">0</td>
+                    <td align="center">100+</td>
+                </tr>
+                <tr>
+                    <td><a href="../equipment/EQ_SHIP_VERSION_86.html">Ship Version 8.6</a></td>
+                    <td>yes</td>
+                    <td align="right">0</td>
+                    <td align="center">100+</td>
+                </tr>
+                <tr>
+                    <td><a href="../equipment/EQ_SHIP_VERSION_87.html">Ship Version 8.7</a></td>
+                    <td>yes</td>
+                    <td align="right">0</td>
+                    <td align="center">100+</td>
+                </tr>
+                <tr>
+                    <td><a href="../equipment/EQ_SHIP_VERSION_88.html">Ship Version 8.8</a></td>
+                    <td>yes</td>
+                    <td align="right">0</td>
+                    <td align="center">100+</td>
+                </tr>
+                <tr>
+                    <td><a href="../equipment/EQ_SHIP_VERSION_89.html">Ship Version 8.9</a></td>
+                    <td>yes</td>
+                    <td align="right">0</td>
+                    <td align="center">100+</td>
+                </tr>
+                <tr>
+                    <td><a href="../equipment/EQ_SHIP_VERSION_90.html">Ship Version 9.0</a></td>
+                    <td>yes</td>
+                    <td align="right">0</td>
+                    <td align="center">100+</td>
+                </tr>
+                <tr>
+                    <td><a href="../equipment/EQ_SHIP_VERSION_91.html">Ship Version 9.1</a></td>
+                    <td>yes</td>
+                    <td align="right">0</td>
+                    <td align="center">100+</td>
+                </tr>
+                <tr>
+                    <td><a href="../equipment/EQ_SHIP_VERSION_92.html">Ship Version 9.2</a></td>
+                    <td>yes</td>
+                    <td align="right">0</td>
+                    <td align="center">100+</td>
+                </tr>
+                <tr>
+                    <td><a href="../equipment/EQ_SHIP_VERSION_93.html">Ship Version 9.3</a></td>
+                    <td>yes</td>
+                    <td align="right">0</td>
+                    <td align="center">100+</td>
+                </tr>
+                <tr>
+                    <td><a href="../equipment/EQ_SHIP_VERSION_94.html">Ship Version 9.4</a></td>
+                    <td>yes</td>
+                    <td align="right">0</td>
+                    <td align="center">100+</td>
+                </tr>
+                <tr>
+                    <td><a href="../equipment/EQ_SHIP_VERSION_95.html">Ship Version 9.5</a></td>
+                    <td>yes</td>
+                    <td align="right">0</td>
+                    <td align="center">100+</td>
+                </tr>
+                <tr>
+                    <td><a href="../equipment/EQ_SHIP_VERSION_96.html">Ship Version 9.6</a></td>
+                    <td>yes</td>
+                    <td align="right">0</td>
+                    <td align="center">100+</td>
+                </tr>
+                <tr>
+                    <td><a href="../equipment/EQ_SHIP_VERSION_97.html">Ship Version 9.7</a></td>
+                    <td>yes</td>
+                    <td align="right">0</td>
+                    <td align="center">100+</td>
+                </tr>
+                <tr>
+                    <td><a href="../equipment/EQ_SHIP_VERSION_98.html">Ship Version 9.8</a></td>
+                    <td>yes</td>
+                    <td align="right">0</td>
+                    <td align="center">100+</td>
+                </tr>
+                <tr>
+                    <td><a href="../equipment/EQ_SHIP_VERSION_99.html">Ship Version 9.9</a></td>
+                    <td>yes</td>
+                    <td align="right">0</td>
+                    <td align="center">100+</td>
+                </tr>
+                <tr>
+                    <td><a href="../equipment/EQ_SHIP_VERSION_REPAIR.html">Repair Ship Version</a></td>
+                    <td>yes</td>
+                    <td align="right">10000</td>
+                    <td align="center">2+</td>
+                </tr>
+                <tr>
+                    <td><a href="../equipment/EQ_TURRET_RECOVER.html">Recover Turrets</a></td>
+                    <td>yes</td>
+                    <td align="right">0</td>
+                    <td align="center">5+</td>
+                </tr>
+            </table>
+        </a>
+
+        <a name="ships">    
+        <h2>Ships</h2>
+            This expansion declares no ships. This may be related to warnings.
+        </a>
+
+        <a name="models">    
+        <h2>Models</h2>
+            This expansion declares no models. This may be related to warnings.
+        </a>
+
+        <a name="scripts">    
+        <h2>Scripts</h2>
+            <table>
+                <tr>
+                    <th>Path</th>
+                </tr>
+                <tr>
+                    <td valign="top">Scripts/servicelevelrepair.js</td>
+                    <td><pre>&quot;use strict&quot;;
+this.name        = &quot;servicelevelrepair&quot;;
+this.author      = &quot;Norby&quot;;
+this.copyright   = &quot;2013 Norbert Nagy&quot;;
+this.licence     = &quot;CC BY-NC-SA 3.0&quot;;
+this.description = &quot;Service Level Repair Kit appear if damaged only.&quot;;
+this.version     = &quot;1.2&quot;;
+
+this.allowAwardEquipment = function(eqKey, ship, context)
+{
+	if( ship === player.ship &amp;&amp; context === &quot;purchase&quot; ) {
+		if(eqKey===&quot;EQ_SERVICE_LEVEL_REPAIR&quot; &amp;&amp;
+			player.ship.equipmentStatus(&quot;EQ_SERVICE_LEVEL_&quot;+player.ship.serviceLevel)
+				== &quot;EQUIPMENT_DAMAGED&quot; ) {
+			return true;
+		}
+		var sl = player.ship.serviceLevel;
+		if(eqKey===&quot;EQ_SERVICE_LEVEL_SMALL_FIX_1&quot; &amp;&amp; sl &lt; 76 ) return true;
+		if(eqKey===&quot;EQ_SERVICE_LEVEL_SMALL_FIX_2&quot; &amp;&amp; sl &gt;= 76 &amp;&amp; sl &lt; 80 ) return true;
+		if(eqKey===&quot;EQ_SERVICE_LEVEL_SMALL_FIX_3&quot; &amp;&amp; sl &gt;= 80 &amp;&amp; sl &lt; 90 ) return true;
+		if(eqKey===&quot;EQ_SERVICE_LEVEL_SMALL_FIX_4&quot; &amp;&amp; sl &gt;= 90 &amp;&amp; sl &lt; 100 ) return true;
+	}
+	return false;
+}
+</pre></td>
+                </tr>
+                <tr>
+                    <td valign="top">Scripts/shipversion.js</td>
+                    <td><pre>&quot;use strict&quot;;
+this.name        = &quot;shipversion&quot;;
+this.author      = &quot;Norby&quot;;
+this.copyright   = &quot;2013 Norbert Nagy&quot;;
+this.licence     = &quot;CC BY-NC-SA 3.0&quot;;
+this.description = &quot;Give rechage and other bonuses to all ships based on the random personality value.&quot;;
+
+//customizable properties
+this.$ShipVersion_AwardMax = 10; //Additional equipments awarded to NPCs in shipSpawned function, level 0-10
+this.$ShipVersion_BasicRulesOnly = false; //if true then default rules get versions only (trader, pirate...)
+this.$ShipVersion_Colors = true; //flag color adjustments on the IFF scanner
+this.$ShipVersion_Debug = false; //show extra messages to help developing
+
+//internal properties, should not touch
+this.$ShipVersion_PlayerCredits = null; //store the current money
+this.$ShipVersion_PlayerShip = null; //store the ship
+this.$ShipVersion_PlayerShipDataKey = null; //store the ship type
+this.$ShipVersion_PlayerShipEqs = []; //store equipments
+this.$ShipVersion_PlayerShipEqDmg = []; //store equipment damage status
+this.$ShipVersion_PlayerShipFuel = 0; //store fuel
+this.$ShipVersion_PlayerShipMan = null; //store manifest (cargo)
+this.$ShipVersion_PlayerShipServiceLevel = 100; //store serviceLevel
+this.$ShipVersion_PlayerShipPass = []; //store passengers
+this.$ShipVersion_PlayerShipPCap = 0; //store passenger capacity
+this.$ShipVersion_PlayerShipPersonality = 16384; //store personality which is the source of the ship version
+this.$ShipVersion_PlayerShipWeapons = []; //store weapons
+this.$ShipVersion_ReplaceShip = false; //to avoid buy loop
+this.$ShipVersion_ServiceLevelCounter = 0; //count seconds to repair 1% in every 5 minutes
+this.$ShipVersion_ServiceLevelPrev = 0; //to detect changes
+this.$ShipVersion_Ships = [ player.ship ]; //this array will contain all version-equipped ships, the 0. is the player
+this.$ShipVersion_Simple = true; //show main NPC versions only, 1 - 10 instead of 1.0 - 10.0
+this.$ShipVersion_SLCr = 0; //cost of increasing sercive level on current player ship
+this.$ShipVersion_storedShipString = null;//store the current ship into this string
+this.$ShipVersion_Timer = null;
+/*** begin dybal ***/
+this.$hyperspaceHangarRestoredShip = false; // for HyperspaceHangar to set when restoring a ship, so playerBoughtNewShip can be ignored
+/*** end dybal ***/
+
+this.startUp = function() {
+    this.$ShipVersion_ServiceLevelCounter = 0;
+    this.$ShipVersion_ServiceLevelPrev = player.ship.serviceLevel;
+    player.ship.awardEquipment(&quot;EQ_SERVICE_LEVEL_&quot;+player.ship.serviceLevel);
+    if( this.$ShipVersion_Debug )
+        log(&quot;ShipVersion&quot;, &quot;Service level in startUp: &quot;+player.ship.serviceLevel+&quot;%&quot;); //debug
+        this.$ShipVersion_SLCost();//save cost of increasing sercive level on current player ship
+    this.$ShipVersion_Timer = new Timer(this, this.$ShipVersion_Timed, 1, 1);//run in every second
+}
+
+this.equipmentDestroyed = function(equipment) {//run only for player, not for NPCs
+    var shipVersion = this.$ShipVersion_Int(player.ship);
+    if(equipment === &quot;EQ_SHIP_VERSION_&quot;+shipVersion) {//do not destroy because it is not a buyable equipment
+        if(player.ship.equipmentStatus(equipment) == &quot;EQUIPMENT_UNAVAILABLE&quot; )
+            player.ship.awardEquipment(equipment); 
+        player.ship.setEquipmentStatus(equipment, &quot;EQUIPMENT_DAMAGED&quot;);//but set to damaged
+    }
+    if(equipment.indexOf(&quot;EQ_SERVICE_LEVEL_&quot;) &gt; -1 ) {//do not destroy because it is not a buyable equipment
+        if(player.ship.equipmentStatus(equipment) == &quot;EQUIPMENT_UNAVAILABLE&quot; )
+            player.ship.awardEquipment(equipment); 
+        player.ship.setEquipmentStatus(equipment, &quot;EQUIPMENT_DAMAGED&quot;);//but set to damaged
+    }
+}
+
+this.guiScreenWillChange = function(to, from) {
+    if(to === &quot;GUI_SCREEN_STATUS&quot;) {//fix a bug when the player got new ship without shipSpawned
+//      if( this.$ShipVersion_Debug ) player.consoleMessage(this.$ShipVersion_PlayerShipName());
+        var shipVersion = this.$ShipVersion_Int(player.ship);
+//      player.consoleMessage(shipVersion+player.ship.equipmentStatus(&quot;EQ_SHIP_VERSION_&quot;+shipVersion)+Math.random());//debug
+        if(player.ship.equipmentStatus(&quot;EQ_SHIP_VERSION_&quot;+shipVersion) == &quot;EQUIPMENT_UNAVAILABLE&quot; )
+//&amp;&amp; shipVersion &gt; 10 ) //it was a bugfix for the doubled eq if v=1.0 - founded: was doubled in equipment.plist
+            player.ship.awardEquipment(&quot;EQ_SHIP_VERSION_&quot;+shipVersion); 
+    }
+    if(to === &quot;GUI_SCREEN_SHIPYARD&quot;) {//store the current ship
+//player.ship.setEquipmentStatus(&quot;EQ_SERVICE_LEVEL_&quot;+player.ship.serviceLevel, &quot;EQUIPMENT_DAMAGED&quot;);//debug
+        this.$ShipVersion_PlayerCredits = player.credits;
+        if(worldScripts[&quot;Ship_Storage_Helper.js&quot;]) { //another method
+            this.$ShipVersion_storedShipString = worldScripts[&quot;Ship_Storage_Helper.js&quot;].storeCurrentShip();
+            worldScripts[&quot;Ship_Storage_Helper.js&quot;].disableVortexPBNSFunc(&quot;delete&quot;);
+            worldScripts[&quot;Ship_Storage_Helper.js&quot;].disableMaelstromPBNSFunc(&quot;delete&quot;);
+            worldScripts[&quot;Ship_Storage_Helper.js&quot;].disableTCATPBNSFunc();
+//            if( this.$ShipVersion_Debug ) player.consoleMessage(&quot;Your &quot;+this.$ShipVersion_PlayerShipName()+&quot; stored.&quot;, 10);
+        } else { //store the current ship - original method
+            this.$ShipVersion_PlayerShip = player.ship; 
+            this.$ShipVersion_PlayerShipDataKey = player.ship.dataKey;
+            delete this.$ShipVersion_PlayerShipEqs;
+            this.$ShipVersion_PlayerShipEqs = [];
+            this.$ShipVersion_PlayerShipFuel = player.ship.fuel;
+            this.$ShipVersion_PlayerShipMan = player.ship.manifest.list;
+            delete this.$ShipVersion_PlayerShipPass;
+            this.$ShipVersion_PlayerShipPass = [];
+            var i=-1;
+            var pa = player.ship.passengers; //local variable, faster
+            while(pa[++i]) {
+                this.$ShipVersion_PlayerShipPass[i] = [];
+                this.$ShipVersion_PlayerShipPass[i][1] = pa[i].name;
+                this.$ShipVersion_PlayerShipPass[i][2] = pa[i].start;
+                this.$ShipVersion_PlayerShipPass[i][3] = pa[i].destination;
+                this.$ShipVersion_PlayerShipPass[i][4] = pa[i].eta;
+                this.$ShipVersion_PlayerShipPass[i][5] = pa[i].fee;
+                this.$ShipVersion_PlayerShipPass[i][6] = pa[i].premium;
+            }
+            this.$ShipVersion_PlayerShipPCap = player.ship.passengerCapacity;
+            var i=-1;//index in the old eq array
+            var p=-1;//index in the new eq array
+            var eq = player.ship.equipment; //local variable, faster
+            while(eq[++i]) {
+                if( eq[i].name.length &gt; 0 ) {
+                    if( this.$ShipVersion_Debug )
+                        log(&quot;ShipVersion&quot;, &quot;i:&quot;+i+&quot; name:&quot;+eq[i].name);
+                    this.$ShipVersion_PlayerShipEqs[++p] = eq[i];
+                    if(player.ship.equipmentStatus(eq[i].equipmentKey) ===&quot;EQUIPMENT_DAMAGED&quot;)
+                        this.$ShipVersion_PlayerShipEqDmg[p] = true;
+                    else this.$ShipVersion_PlayerShipEqDmg[p] = false;
+                } else {//skip noname eqs awarded by NumericHUD to avoid timeLimit error
+                    for( var j = i + 10; j &lt; eq.length; j+=10 ) {
+                        if( eq[j].name.length != 0 ) {
+                            i = j - 10; //end of skip
+                            j = eq.length;
+                        }
+                    }
+                    while( i &lt; eq.length &amp;&amp; eq[i].name.length == 0 ) i++;
+                    i--;
+                }
+            }
+            this.$ShipVersion_PlayerShipServiceLevel = player.ship.serviceLevel;
+            this.$ShipVersion_PlayerShipPersonality = player.ship.entityPersonality;
+            this.$ShipVersion_PlayerShipWeapons[0] = player.ship.forwardWeapon;
+            this.$ShipVersion_PlayerShipWeapons[1] = player.ship.aftWeapon;
+            this.$ShipVersion_PlayerShipWeapons[2] = player.ship.portWeapon;
+            this.$ShipVersion_PlayerShipWeapons[3] = player.ship.starboardWeapon;
+            if( this.$ShipVersion_Debug )
+                log(&quot;ShipVersion&quot;, &quot;Your &quot;+this.$ShipVersion_PlayerShipName()+&quot; has been stored.&quot;);
+        }
+    }
+}
+
+this.playerBoughtEquipment = function(equipmentKey) {
+    if(equipmentKey === (&quot;EQ_RENOVATION&quot;)) {
+        if( this.$ShipVersion_ServiceLevelPrev != player.ship.serviceLevel ) {
+            var st = player.ship.equipmentStatus(&quot;EQ_SERVICE_LEVEL_&quot;+this.$ShipVersion_ServiceLevelPrev);
+            player.ship.removeEquipment(&quot;EQ_SERVICE_LEVEL_&quot;+this.$ShipVersion_ServiceLevelPrev);
+            player.ship.awardEquipment(&quot;EQ_SERVICE_LEVEL_&quot;+player.ship.serviceLevel);
+            if( st == &quot;EQUIPMENT_DAMAGED&quot; ) //set to damaged
+                player.ship.setEquipmentStatus(&quot;EQ_SERVICE_LEVEL_&quot;+player.ship.serviceLevel, st);
+            if( this.$ShipVersion_Debug )
+                log(&quot;ShipVersion&quot;, &quot;Service level renovated to &quot;+player.ship.serviceLevel+&quot;%&quot;); //debug
+            this.$ShipVersion_ServiceLevelPrev = player.ship.serviceLevel; //save
+            player.consoleMessage(&quot;Service level changed to &quot;+
+                this.$ShipVersion_SL(player.ship.serviceLevel),10);
+        }
+    }
+    if(equipmentKey === &quot;EQ_SERVICE_LEVEL_SMALL_FIX_1&quot; //1% fix
+        || equipmentKey === &quot;EQ_SERVICE_LEVEL_SMALL_FIX_2&quot;
+        || equipmentKey === &quot;EQ_SERVICE_LEVEL_SMALL_FIX_3&quot;
+        || equipmentKey === &quot;EQ_SERVICE_LEVEL_SMALL_FIX_4&quot;) {
+        player.ship.removeEquipment(equipmentKey);
+        var cost = this.$ShipVersion_SLCost();
+                if( player.ship.serviceLevel &lt; 80 ) cost = 0; //cost of bad levels is already deducted by equipment.plist
+        if( player.credits &lt; cost )
+            player.consoleMessage(&quot;Not enough money: need &quot;+cost+&quot; credits.&quot;);
+        else {
+            player.credits -= cost;
+                        if( player.ship.serviceLevel &lt; 80 ) cost = 100; //display cost of bad levels below
+                        //installation_time is set in equipment.plist from Oolite 1.82 instead of the next lines
+                        if( 0 &lt; oolite.compareVersion(&quot;1.82&quot;) ) {
+                            if( player.ship.serviceLevel &lt; 80 )
+                                ; //clock.addSeconds (&quot;300&quot;); //5 minutes as the repair bot, but core already add 10min
+                            else clock.addSeconds (&quot;432000&quot;); //5 days, like about an original 1% maintenance overhaul
+                        }
+            player.ship.serviceLevel++;
+            var st = player.ship.equipmentStatus(&quot;EQ_SERVICE_LEVEL_&quot;+this.$ShipVersion_ServiceLevelPrev);
+            player.ship.removeEquipment(&quot;EQ_SERVICE_LEVEL_&quot;+this.$ShipVersion_ServiceLevelPrev);
+            player.ship.awardEquipment(&quot;EQ_SERVICE_LEVEL_&quot;+player.ship.serviceLevel);
+            if( st == &quot;EQUIPMENT_DAMAGED&quot; ) //set to damaged
+                player.ship.setEquipmentStatus(&quot;EQ_SERVICE_LEVEL_&quot;+player.ship.serviceLevel, st);
+            if( this.$ShipVersion_Debug )
+                log(&quot;ShipVersion&quot;, &quot;Service level fixed for &quot;+cost+&quot; credits to &quot;+
+                    player.ship.serviceLevel+&quot;%&quot;); //debug
+            this.$ShipVersion_ServiceLevelPrev = player.ship.serviceLevel; //save
+            player.consoleMessage(&quot;Payed &quot;+cost+&quot; credits for fix, service level now &quot;+
+                this.$ShipVersion_SL(player.ship.serviceLevel),10);
+        }
+    }
+    if(equipmentKey === (&quot;EQ_SERVICE_LEVEL_REPAIR&quot;)) {
+        var shipVersion = this.$ShipVersion_Int(player.ship);
+        if(player.ship.equipmentStatus(&quot;EQ_SERVICE_LEVEL_&quot;+player.ship.serviceLevel) === &quot;EQUIPMENT_UNAVAILABLE&quot;)
+            player.ship.awardEquipment(&quot;EQ_SERVICE_LEVEL_&quot;+player.ship.serviceLevel);//for sure
+        else player.ship.setEquipmentStatus(&quot;EQ_SERVICE_LEVEL_&quot;+player.ship.serviceLevel, &quot;EQUIPMENT_OK&quot;);
+        player.ship.removeEquipment(&quot;EQ_SERVICE_LEVEL_REPAIR&quot;);
+        clock.addSeconds (&quot;3600&quot;);
+//          player.credits += 0;
+    }
+    if(equipmentKey === (&quot;EQ_SHIP_VERSION_REPAIR&quot;)) {
+        var shipVersion = this.$ShipVersion_Int(player.ship);
+        if(player.ship.equipmentStatus(&quot;EQ_SHIP_VERSION_&quot;+shipVersion) === &quot;EQUIPMENT_UNAVAILABLE&quot;)
+            player.ship.awardEquipment(&quot;EQ_SHIP_VERSION_&quot;+shipVersion);//for sure
+        else player.ship.setEquipmentStatus(&quot;EQ_SHIP_VERSION_&quot;+shipVersion, &quot;EQUIPMENT_OK&quot;);
+        player.ship.removeEquipment(&quot;EQ_SHIP_VERSION_REPAIR&quot;);
+        clock.addSeconds (&quot;3600&quot;);
+//          player.credits += 0;
+    }
+    var mass = 30000;//below:Adder, Viper, Rocket Fighter and Gunship but not the Rocket Corvette
+    if( !this.$ShipVersion_EQLimiter(&quot;EQ_WEAPON_MILITARY_LASER&quot;, equipmentKey, mass ) )
+        player.ship.forwardWeapon = null;
+    if( !this.$ShipVersion_EQLimiter(&quot;EQ_WEAPON_MINING_LASER&quot;, equipmentKey, mass ) )
+        player.ship.forwardWeapon = null;
+    this.$ShipVersion_EQLimiter(&quot;EQ_GAL_DRIVE&quot;, equipmentKey, mass );
+    this.$ShipVersion_EQLimiter(&quot;EQ_IRONHIDE&quot;, equipmentKey, mass );
+    this.$ShipVersion_EQLimiter(&quot;EQ_RAILGUN_2&quot;, equipmentKey, mass );
+    this.$ShipVersion_EQLimiter(&quot;EQ_FORWARD_SHIELD_CAPACITOR&quot;, equipmentKey, mass );
+    this.$ShipVersion_EQLimiter(&quot;EQ_AFT_SHIELD_CAPACITOR&quot;, equipmentKey, mass );
+    this.$ShipVersion_EQLimiter(&quot;EQ_SHIELD_BOOSTER&quot;, equipmentKey, mass );//for sure only
+    
+    mass = 130000;//Cobra3, Rocket Miner and above
+    this.$ShipVersion_EQLimiter(&quot;EQ_IRONHIDE_MIL&quot;, equipmentKey, mass );
+    this.$ShipVersion_EQLimiter(&quot;EQ_NAVAL_ENERGY_UNIT&quot;, equipmentKey, mass );
+    this.$ShipVersion_EQLimiter(&quot;EQ_NAVAL_SHIELD_BOOSTER&quot;, equipmentKey, mass );
+    this.$ShipVersion_EQLimiter(&quot;EQ_RAILGUN_3&quot;, equipmentKey, mass );
+    this.$ShipVersion_EQLimiter(&quot;EQ_RAILGUN_4&quot;, equipmentKey, mass );
+
+    if(equipmentKey === &quot;EQ_TURRET_RECOVER&quot;) {
+        player.ship.removeEquipment(&quot;EQ_TURRET_RECOVER&quot;);
+        var sub = 0;
+        if(player.ship.subEntities &amp;&amp; player.ship.subEntities.length &gt; 0)
+            for(var i=0; i &lt; player.ship.subEntities.length; i++)
+                if(player.ship.subEntities[i] &amp;&amp; player.ship.subEntities[i].energy &gt; 0)
+                    sub++; //count remaining turrets (assuming all subEntities are turrets)
+        var missingturrets = 0;
+        if((!player.ship.subEntities || sub === 0) &amp;&amp; player.ship.subEntityCapacity &gt; 0)
+            missingturrets = player.ship.subEntityCapacity;
+        if(player.ship.subEntities &amp;&amp; player.ship.subEntityCapacity &gt; sub)
+            missingturrets = player.ship.subEntityCapacity - sub;
+        if(missingturrets &lt; 1 )    player.consoleMessage(&quot;No missing turrets.&quot;);
+        else if(player.credits &lt; 1000 * missingturrets) {
+            var ts = &quot;&quot;;
+            if(missingturrets &gt; 1) ts = &quot;s&quot;;
+            var nopart = &quot;&quot;;
+            if(player.credits &gt;= 1000) nopart = &quot; (and no partial recovery)&quot;;
+            player.consoleMessage(&quot;Not enough money: &quot;+missingturrets+&quot; missing turret&quot;+ts+&quot; need &quot;+
+                (1000*missingturrets)+&quot; credits to recover&quot;+nopart+&quot;.&quot;);
+        } else {
+            clock.addSeconds ( 3600 * missingturrets );
+            player.credits -= 1000 * missingturrets;
+            player.ship.restoreSubEntities();
+            var ts = &quot;&quot;;
+            if(missingturrets &gt; 1) ts = &quot;s&quot;;
+            player.consoleMessage(missingturrets+&quot; turret&quot;+ts+&quot; recovered for &quot;+(1000*missingturrets)+&quot; credits.&quot;);
+        }
+    }
+}
+
+/*** begin dybal ***/
+//this.playerBoughtNewShip = function(ship) {
+this.playerBoughtNewShip = function(ship, price) {
+    /*** this could have a (Oolite_version &lt; X.XX) test whenever playerReplaceShip stops firing this event handler ***/
+    if (this.$hyperspaceHangarRestoredShip) {
+        // HyperSpaceHangar indicated it&#39;s restoring a ship, so this event isn&#39;t consequence of a ship purchase
+        this.$hyperspaceHangarRestoredShip = false;
+        return;
+    }
+/*** end dybal ***/
+    this.$ShipVersion_SLCost();//save cost of increasing sercive level on current player ship
+    player.ship.awardEquipment(&quot;EQ_SERVICE_LEVEL_&quot;+player.ship.serviceLevel);
+    this.$ShipVersion_ServiceLevelPrev = player.ship.serviceLevel;
+    if( this.$ShipVersion_Debug )
+        log(&quot;ShipVersion&quot;, &quot;Service level when bought: &quot;+player.ship.serviceLevel+&quot;%&quot;); //debug
+    var shname = this.$ShipVersion_PlayerShipName();
+    if( (this.$ShipVersion_PlayerShipDataKey &amp;&amp; this.$ShipVersion_PlayerShipDataKey.length &gt; 0
+        || this.$ShipVersion_storedShipString &amp;&amp; this.$ShipVersion_storedShipString.length &gt; 0)
+        &amp;&amp; !this.$ShipVersion_ReplaceShip ) { //there are stored old ship and not in buy loop
+        var options = {
+            &quot;1_NO&quot; : &quot;No&quot;,
+            &quot;2_YES&quot; : &quot;Yes, I Confirm&quot;
+        };
+        var desc = &quot;&quot;;
+        if(worldScripts[&quot;rocketmenu&quot;]) //detailed ship info newest version
+            desc=worldScripts[&quot;rocketmenu&quot;].$RocketMenu_GetPlayerShipData();
+        else if(worldScripts[&quot;hardmenu&quot;]) //detailed ship info new version
+            desc=worldScripts[&quot;hardmenu&quot;].$HardMenu_GetPlayerShipData();
+        else desc=this.$ShipVersion_GetPlayerShipData(); //old version
+        if(desc.length &gt; 0) desc+=&quot;\n\n&quot;;
+        mission.runScreen({
+            title: shname ,
+                  message: desc+&quot;You have &quot;+formatCredits(this.$ShipVersion_PlayerCredits, false, true)+&quot;, &quot;+
+                      &quot;if you buy you will have &quot;+formatCredits(player.credits, false, true)+&quot;.\n&quot;+
+                      &quot;Are you sure to buy &quot;+shname+&quot; ?&quot;,
+            choices: options,
+            model: &quot;[&quot;+ship.dataKey+&quot;]&quot;,
+            background: &quot;start_choices_bg.png&quot;
+        },
+        function (choice) {
+            if (choice === &quot;1_NO&quot;) { //get back the old ship and money
+                player.credits = this.$ShipVersion_PlayerCredits;
+                this.$ShipVersion_ReplaceShip = true;//prevent buy loop
+                if(worldScripts[&quot;Ship_Storage_Helper.js&quot;]) { //new restore method
+                    worldScripts[&quot;Ship_Storage_Helper.js&quot;].restoreStoredShip(this.$ShipVersion_storedShipString);
+                } else { //old restore method
+                    player.replaceShip( this.$ShipVersion_PlayerShipDataKey, //the old ship
+                        this.$ShipVersion_PlayerShipPersonality ); //and old version
+                    var i=-1;
+                    var eq = player.ship.equipment; //local variable, faster
+                    while(eq[++i]) {
+                        if( eq[i].name.length &gt; 0 ) {
+                            player.ship.removeEquipment(eq[i].equipmentKey);
+                        } else {//skip noname eqs awarded by NumericHUD to avoid timeLimit error
+                            for( var j = i + 10; j &lt; eq.length; j+=10 ) {
+                                if( eq[j].name.length != 0 ) {
+                                    i = j - 10; //end of skip
+                                    j = eq.length;
+                                }
+                            }
+                            while( i &lt; eq.length &amp;&amp; eq[i].name.length == 0 ) i++;
+                            i--;
+                        }
+                    }
+                    i=-1;
+                    while(this.$ShipVersion_PlayerShipEqs[++i]) {//give back equipments
+                        player.ship.awardEquipment(this.$ShipVersion_PlayerShipEqs[i]);
+                        if(this.$ShipVersion_PlayerShipEqDmg[i])
+                            player.ship.setEquipmentStatus(
+                                this.$ShipVersion_PlayerShipEqs[i],
+                                &quot;EQUIPMENT_DAMAGED&quot;);
+                    }
+                    i=this.$ShipVersion_PlayerShipPCap;
+                    while(i-- &gt; 1) player.ship.awardEquipment(&quot;EQ_PASSENGER_BERTH&quot;);
+                    player.ship.fuel = this.$ShipVersion_PlayerShipFuel;
+                    i=-1;
+                    while(this.$ShipVersion_PlayerShipPass[++i]) //give back passengers
+                        player.ship.addPassenger(this.$ShipVersion_PlayerShipPass[i][1],
+                            this.$ShipVersion_PlayerShipPass[i][2],
+                            this.$ShipVersion_PlayerShipPass[i][3],
+                            this.$ShipVersion_PlayerShipPass[i][4] + clock.seconds,
+                            this.$ShipVersion_PlayerShipPass[i][5],
+                            this.$ShipVersion_PlayerShipPass[i][6]);
+                    var c;
+                    for (i = 0; i &lt; this.$ShipVersion_PlayerShipMan.length; i++) {
+                        c = this.$ShipVersion_PlayerShipMan[i].commodity;
+                        player.ship.manifest[c] = this.$ShipVersion_PlayerShipMan[i].quantity;
+                    }
+                    player.ship.serviceLevel = this.$ShipVersion_PlayerShipServiceLevel;
+                    player.ship.forwardWeapon = this.$ShipVersion_PlayerShipWeapons[0];
+                    player.ship.aftWeapon = this.$ShipVersion_PlayerShipWeapons[1];
+                    player.ship.portWeapon = this.$ShipVersion_PlayerShipWeapons[2];
+                    player.ship.starboardWeapon = this.$ShipVersion_PlayerShipWeapons[3];
+                }
+                this.$ShipVersion_ReplaceShip = false;//end of replace
+                shname = this.$ShipVersion_PlayerShipName();
+                mission.exitScreen = &quot;GUI_SCREEN_SHIPYARD&quot;;//back to the shipyard if not bought
+            } else {
+                var shipVersion = this.$ShipVersion_Int(player.ship);
+                if(player.ship.equipmentStatus(&quot;EQ_SHIP_VERSION_&quot;+shipVersion) === &quot;EQUIPMENT_UNAVAILABLE&quot;)
+                    player.ship.awardEquipment(&quot;EQ_SHIP_VERSION_&quot;+shipVersion);
+/*** begin dybal ***/
+                // if HyperSpaceHangar is installed, call its $offerOldShipStorage function
+                // that function would have been be called in its playerBoughtNewShip event handler if we 
+                // had not &quot;hijacked&quot; its screen opportunity
+                if (worldScripts.HyperspaceHangar) {
+                    // first we must setup what was cleaned by HH up while the player looked at our ship buying detail screen
+                    worldScripts.HyperspaceHangar._actuallyBought = 1;
+                    var _oldShip = JSON.parse(this.$ShipVersion_storedShipString);
+                    _oldShip[8].length = 0; // clear ship&#39;s Cargo Hold
+                    _oldShip[10].length = 0; // &quot;space&quot; ship&#39;s passengers :-)
+                    _oldShip[31] = &quot;&quot;; // clear ship&#39;s Smuggler Hold
+                    worldScripts.HyperspaceHangar._currentShip = JSON.stringify(_oldShip);
+                    worldScripts.HyperspaceHangar.$offerOldShipStorage(ship, price);
+                }
+/*** end dybal ***/
+            }
+        });
+        
+    }
+//    if( this.$ShipVersion_Debug ) player.consoleMessage(&quot;The &quot;+shname+&quot; is yours!&quot;, 10);
+    this.$ShipVersion_Ships[0] = player.ship;
+    this.$ShipVersion_ServiceLevelCounter = 0;
+    if( worldScripts[&quot;detectors&quot;] ) worldScripts[&quot;detectors&quot;].$Detectors_NameSave(player.ship);
+    else if( ship.script ) ship.script.$Detectors_Origname = shname; //log support without Detectors
+
+}
+
+this.shipSpawned = function(ship) {  //do not give version numbers to cargo, etc.
+/*** begin dybal ***/
+    /*** small performance improvement, worthwhile since this de-referencing would be done a lot of times when
+         this event triggers, and it triggers a lot and in a bunch at system populating time ***/
+    var wsHardShips = worldScripts[&quot;hardships&quot;]; // de-referencing hardShips worldScript just once
+/*** end dybal ***/
+
+    if( !ship.isPiloted || ship.isStation || ship.isThargoid || ship.primaryRole === &quot;escape-capsule&quot; ) return;
+        if( ship.scriptInfo ) {
+                if(ship.scriptInfo.ccl_missionShip ) return;//mission ship by Svengali
+                var v = parseInt( ship.scriptInfo.shipversion );
+                if( v &amp;&amp; v &lt; 0 ) return; //disabled by shipversion = -1
+        }
+    if( this.$ShipVersion_BasicRulesOnly //skip custom roles
+        &amp;&amp; ship.primaryRole != &quot;trader&quot; &amp;&amp; ship.primaryRole != &quot;scavenger&quot;
+        &amp;&amp; ship.primaryRole != &quot;hunter&quot; &amp;&amp; ship.primaryRole != &quot;miner&quot;
+        &amp;&amp; ship.primaryRole != &quot;pirate&quot; &amp;&amp; ship.primaryRole != &quot;police&quot;
+        &amp;&amp; ship.primaryRole != &quot;wingman&quot; &amp;&amp; ship.primaryRole != &quot;interceptor&quot;
+        &amp;&amp; ship.primaryRole != &quot;escort&quot; &amp;&amp; ship.primaryRole != &quot;shuttle&quot; ) return;
+
+    var shipVersion = this.$ShipVersion_Int(ship); // 10-100
+    if(ship.equipmentStatus(&quot;EQ_SHIP_VERSION_&quot;+shipVersion) === &quot;EQUIPMENT_UNAVAILABLE&quot;)
+        ship.awardEquipment(&quot;EQ_SHIP_VERSION_&quot;+shipVersion); //need to made damageable the timed bonuses
+//    if( this.$ShipVersion_Debug )
+//        player.consoleMessage(ship.name+&quot; &quot;+ship.equipmentStatus(&quot;EQ_SHIP_VERSION_&quot;+shipVersion));
+    
+    if( !ship.isPlayer &amp;&amp; this.$ShipVersion_Ships.indexOf(ship) &lt; 0) {//only new NPC ships
+        this.$ShipVersion_Ships[this.$ShipVersion_Ships.length] = ship;//store the new ship
+        if( !worldScripts[&quot;detectors&quot;] ) {//detectors use different function to show the version number
+            ship.displayName += this.$ShipVersion_Show(ship); // 1 - 10 or 1.0 - 10.0
+            //support to show (and log) names with version number without Detectors OXP also
+            if( ship.script ) ship.script.$Detectors_Origname = ship.displayName;
+        }
+        //Ship Version one-time changes, do only once
+        ship.accuracy += shipVersion / 20; //AI level tweak, +0.5 - +5
+        //ship.thrust = ship.maxThrust*(0.5+shipVersion/100); //only weakenable, 0.1:half, 5.0-10.0:normal
+        var v = Math.floor( shipVersion / 10 );//the first number of the version
+        v = Math.min( v, this.$ShipVersion_AwardMax ); //limit the award
+        if( ship.mass &lt; 3000 ) v = 0; //drones not awarded with eqs, but get recharge and AI bonus
+        var small = true; //Adder, Rocket Fighter and Gunship, but Runner and Corvette is not small
+        if( ship.mass &gt;= 30000 ) small = false;
+        var largebounty = 0;
+        var large = true; //from Cobra III and Rocket Miner
+        if( ship.mass &lt; 130000 ) large = false;
+        else switch( v ) {  //add more bounty for large ships with high versions
+            case 10: largebounty = 100; break; //100 from v10 and 100 from large means 200 in total
+            case 9: largebounty = 60; break; //90+60=150 in total
+            case 8: largebounty = 20; break; //80+20=100 in total
+        }
+        if( !small &amp;&amp; ship.bounty &gt; 0 ) //add version*10% for non-small ships
+            ship.setBounty( ship.bounty + v * 10 + largebounty, &quot;ShipVersion&quot; + v );
+/*** begin dybal ***/
+        //if( !small &amp;&amp; worldScripts[&quot;hardships&quot;] )
+        if( !small &amp;&amp; wsHardShips )
+/*** end dybal ***/
+            ship.awardEquipment(&quot;EQ_HARDSHIELD_&quot;+v);//but do not award Hard Armour
+        switch( v ) {
+        case 10:
+            ship.awardEquipment(&quot;EQ_CLOAKING_DEVICE&quot;);
+            ship.cloakAutomatic = true;
+            if(ship.missiles &amp;&amp; ship.missiles.length == ship.missileCapacity)
+                    ship.removeEquipment(&quot;EQ_MISSILE&quot;); //make room for QC_Mine
+            if(ship.missiles &amp;&amp; ship.missiles.length &gt;= ship.missileCapacity - 1)
+                    ship.removeEquipment(&quot;EQ_MISSILE&quot;);
+            if(ship.missiles &amp;&amp; ship.missiles.length == ship.missileCapacity)
+                    ship.removeEquipment(&quot;EQ_HARDENED_MISSILE&quot;);
+            if(ship.missiles &amp;&amp; ship.missiles.length &gt;= ship.missileCapacity - 1)
+                    ship.removeEquipment(&quot;EQ_HARDENED_MISSILE&quot;);
+            ship.awardEquipment(&quot;EQ_QC_MINE&quot;); 
+            ship.awardEquipment(&quot;EQ_QC_MINE&quot;); 
+            //NPCs often destroy yourself by your own QC_Mine so do not award to lower versions
+            //will get 1.5x Military IronHide Armour from HardShips OXP directly, not here
+/*** begin dybal ***/
+            //if( !small &amp;&amp; worldScripts[&quot;hardships&quot;])
+            if( !small &amp;&amp; wsHardShips)
+/*** end dybal ***/
+                ship.awardEquipment(&quot;EQ_ANTISAPPER&quot;); //required HardShield10, awarded above
+            //no break means get all of the following equipments also
+        case 9:
+            if( large ) ship.awardEquipment(&quot;EQ_MILITARY_JAMMER&quot;);
+            if( large ) ship.awardEquipment(&quot;EQ_NAVAL_ENERGY_UNIT&quot;);
+/*** begin dybal ***/
+            //if( !small &amp;&amp; worldScripts[&quot;hardships&quot;] ) {
+            if( !small &amp;&amp; wsHardShips ) {
+/*** end dybal ***/
+                if( ship.bounty &gt; 0 ) {
+                    ship.awardEquipment(&quot;EQ_EEG&quot;);
+                    ship.awardEquipment(&quot;EQ_HTCAT&quot;); //requires EEG and clean status
+                }
+                if( large &amp;&amp; worldScripts[&quot;shieldequalizercapacitors&quot;]
+                    &amp;&amp; worldScripts[&quot;customshields&quot;] )
+                    ship.awardEquipment(&quot;EQ_BIGSHCAP&quot;);
+            }
+        case 8:
+            if( large &amp;&amp; worldScripts[&quot;customshields&quot;] )
+                ship.awardEquipment(&quot;EQ_SHIELD_ENHANCER&quot;); //give increased recharge rate also
+            //will get Military IronHide Armour from HardShips OXP automatically, do not award here
+/*** begin dybal ***/
+            //if( large &amp;&amp; worldScripts[&quot;hardships&quot;]) ship.awardEquipment(&quot;EQ_VERYHARDNOSE&quot;);
+            if( large &amp;&amp; wsHardShips) ship.awardEquipment(&quot;EQ_VERYHARDNOSE&quot;);
+/*** end dybal ***/
+        case 7:
+            if( large ) ship.awardEquipment(&quot;EQ_MILITARY_SCANNER_FILTER&quot;);
+            //ship.awardEquipment(&quot;EQ_NAVAL_SHIELD_BOOSTER&quot;); //not used by CustomShields OXP
+/*** begin dybal ***/
+            //if( !small &amp;&amp; worldScripts[&quot;hardships&quot;] ) {
+            if( !small &amp;&amp; wsHardShips ) {
+/*** end dybal ***/
+                ship.awardEquipment(&quot;EQ_ADDITIONAL_AFT_ARMOUR&quot;);
+                if(ship.equipmentStatus(&quot;EQ_EEG&quot;)!=&quot;EQUIPMENT_OK&quot;) ship.awardEquipment(&quot;EQ_EEG&quot;);
+                ship.awardEquipment(&quot;EQ_ESG&quot;); //requires EEG
+            }
+            if( worldScripts[&quot;shieldequalizercapacitors&quot;] ) {
+                ship.awardEquipment(&quot;EQ_SHIELD_EQUALIZER&quot;);
+                if( !small ) {
+                    ship.awardEquipment(&quot;EQ_FORWARD_SHIELD_CAPACITOR&quot;);
+                    ship.awardEquipment(&quot;EQ_AFT_SHIELD_CAPACITOR&quot;);
+                }
+            }
+        case 6:
+            ship.awardEquipment(&quot;EQ_FUEL_INJECTION&quot;);
+/*** begin dybal ***/
+            //if( !small &amp;&amp; worldScripts[&quot;hardships&quot;]) {
+            if( !small &amp;&amp; wsHardShips) {
+/*** end dybal ***/
+                ship.awardEquipment(&quot;EQ_ADDITIONAL_FRONT_ARMOUR&quot;);
+                ship.awardEquipment(&quot;EQ_INJECTOR_BOX&quot;);
+                if( ship.equipmentStatus(&quot;EQ_EEG&quot;)!=&quot;EQUIPMENT_OK&quot;)
+                    ship.awardEquipment(&quot;EQ_EEG&quot;);
+            }
+            if( !small &amp;&amp; worldScripts[&quot;Q-Charger&quot;]) worldScripts[&quot;Q-Charger&quot;].awardQCharger(ship);
+        case 5:
+            if(worldScripts[&quot;Shield Cycler&quot;]) ship.awardEquipment(&quot;EQ_SC_SHIELD_CYCLER_INTERNAL&quot;);
+            //will get IronHide Armour from HardShips OXP automatically, do not award here
+/*** begin dybal ***/
+            //if( !small &amp;&amp; worldScripts[&quot;hardships&quot;] &amp;&amp;
+            if( !small &amp;&amp; wsHardShips &amp;&amp;
+/*** end dybal ***/
+                ship.equipmentStatus(&quot;EQ_VERYHARDNOSE&quot;) != &quot;EQUIPMENT_OK&quot; )
+                ship.awardEquipment(&quot;EQ_HARDNOSE&quot;);
+            var i = 0;
+            while(i++ &lt; ship.missileCapacity) //missiles get ECM hardening
+                if(ship.equipmentStatus(&quot;EQ_MISSILE&quot;) == &quot;EQUIPMENT_OK&quot;)
+                    ship.removeEquipment(&quot;EQ_MISSILE&quot;);
+            i = 0;
+            if(ship.missiles) i = ship.missiles.length;
+            if( !small ) while (i++ &lt; ship.missileCapacity) ship.awardEquipment(&quot;EQ_HARDENED_MISSILE&quot;);
+        case 4:
+            if( !small &amp;&amp; worldScripts[&quot;customshields&quot;] ) ship.awardEquipment(&quot;EQ_SHIELD_BOOSTER&quot;);
+/*** begin dybal ***/
+            //if( !small &amp;&amp; worldScripts[&quot;hardships&quot;] ) {
+            if( !small &amp;&amp; wsHardShips ) {
+/*** end dybal ***/
+                ship.awardEquipment(&quot;EQ_ADDITIONAL_CORE_HULL&quot;);
+                ship.awardEquipment(&quot;EQ_SHIELD_BOX&quot;);
+                if( ship.bounty &gt; 0 ) ship.awardEquipment(&quot;EQ_REG&quot;); //requires not clean status
+            }
+        case 3:
+            ship.awardEquipment(&quot;EQ_ENERGY_UNIT&quot;);
+/*** begin dybal ***/
+            //if( !small &amp;&amp; worldScripts[&quot;hardships&quot;] ) ship.awardEquipment(&quot;EQ_EQUIPMENT_BOX&quot;);
+            if( !small &amp;&amp; wsHardShips ) ship.awardEquipment(&quot;EQ_EQUIPMENT_BOX&quot;);
+/*** end dybal ***/
+        case 2:
+            ship.awardEquipment(&quot;EQ_ECM&quot;);
+/*** begin dybal ***/
+            //if( !small &amp;&amp; worldScripts[&quot;hardships&quot;]) {
+            if( !small &amp;&amp; wsHardShips ) {
+/*** end dybal ***/
+                ship.awardEquipment(&quot;EQ_ELECTRONICS_BOX&quot;);
+                if( ship.cargoSpaceCapacity &gt; 1660 ) ship.awardEquipment(&quot;EQ_DUMMY100&quot;); //and smallers also
+                if( ship.cargoSpaceCapacity &gt; 660 ) ship.awardEquipment(&quot;EQ_DUMMY50&quot;);
+                if( ship.cargoSpaceCapacity &gt; 150 ) ship.awardEquipment(&quot;EQ_DUMMY10&quot;);
+                if( ship.cargoSpaceCapacity &gt; 50 ) ship.awardEquipment(&quot;EQ_DUMMY5&quot;);
+                if( ship.cargoSpaceCapacity &gt; 10 ) ship.awardEquipment(&quot;EQ_DUMMY1&quot;);
+            }
+        case 1:
+//            ship.awardEquipment(&quot;EQ_MILITARY_JAMMER&quot;);//debug
+            ship.awardEquipment(&quot;EQ_ESCAPE_POD&quot;);
+/*** begin dybal ***/
+            //if( !small &amp;&amp; worldScripts[&quot;hardships&quot;]) ship.awardEquipment(&quot;EQ_LIFE_BOX&quot;);
+            if( !small &amp;&amp; wsHardShips ) ship.awardEquipment(&quot;EQ_LIFE_BOX&quot;);
+/*** end dybal ***/
+        default: //do not give anything if AwardMax 0
+        }
+        
+        var br = shipVersion * 2 / 256; //higher version brighter (0 - 0.78)
+        var br2 = 0.5 + br / 2; //brighter purple and orange (0.5 - 0.89)
+        if( this.$ShipVersion_Colors ) { //color adjustments on IFF
+            if(ship.primaryRole === &quot;police&quot; || ship.primaryRole === &quot;interceptor&quot;
+                || ship.primaryRole === &quot;wingman&quot; || ship.isPolice) { //police ship
+                ship.scannerDisplayColor1 = br2+&quot; 0 &quot;+br2; //bright purple
+                        if(ship.target === player.ship) {//works automatic, not needed
+                            ship.scannerDisplayColor2 = null;//not flashing
+                        } else ship.scannerDisplayColor2 = &quot;1 0 1&quot;;//magenta flash
+            } else this.$ShipVersion_TimedColors(ship, shipVersion);
+        }
+    }
+    ship.missileLoadTime /= ( shipVersion + 5 ) / 50; //10.0: half, 4.5: normal, 2.0: double
+//    if( worldScripts[&quot;customshields&quot;] ) worldScripts[&quot;customshields&quot;].shipSpawned(ship); //surely add shield bonuses - removed due to cause InternalError: too much recursion
+//    if( this.$ShipVersion_Debug ) player.consoleMessage(ship.displayName+&quot; spawned.&quot;, 5);
+}
+
+this.shipWillEnterWitchspace = function(cause) {
+    if( this.$ShipVersion_Debug )
+        player.consoleMessage(&quot;Deleted &quot;+this.$ShipVersion_Ships.length+&quot; ship, doing &quot;+cause+&quot;.&quot;, 10);
+    delete this.$ShipVersion_Ships;
+    this.$ShipVersion_Ships = [ player.ship ]; //start a new array in the new system
+}
+
+this.$ShipVersion_EQLimiter = function( eq, equipmentKey, mass ) {
+//    player.consoleMessage( equipmentKey+&quot; &quot;+mass+&quot; &quot;+player.ship.mass );//debug
+    if( equipmentKey == eq &amp;&amp; player.ship.mass &lt; mass ) {
+        player.ship.removeEquipment( eq );
+        player.consoleMessage(&quot;Your ship can not hold &quot;+
+            EquipmentInfo.infoForKey( eq ).name+&quot;, removed.&quot;, 5);
+        player.credits += EquipmentInfo.infoForKey( eq ).price/10;
+        return false;
+    }
+    return true;
+}
+
+this.$ShipVersion_GetPlayerShipData = function() {
+    //detailed ship info old version, new can be found in rocketmenu.js of the RocketShips OXP
+    var equip=&quot;&quot;;
+    var s=&quot;&quot;; 
+    s=player.ship.forwardWeapon;
+    if(s!=null) equip+=&quot;Forward &quot;+s.name;
+    s=player.ship.aftWeapon;
+    if(s!=null) equip+=&quot;, Aft &quot;+s.name;
+    s=player.ship.portWeapon;
+    if(s!=null) equip+=&quot;\nPort &quot;+s.name;
+    s=player.ship.starboardWeapon;
+    if(s!=null) equip+=&quot;, Starboard &quot;+s.name;
+    if(equip.length &gt; 0) equip+=&quot;\n&quot;;
+    else equip+=&quot;No Laser\n&quot;;
+    var eqs = &quot;&quot;;
+    var n = &quot;&quot;;
+    var eq = player.ship.equipment;
+    var i=-1;
+    while(eq[++i]) {
+        n = eq[i].name;
+        if( n.length &gt; 0 ) eqs += n + &quot;, &quot;;
+        else {    //skip noname eqs awarded by NumericHUD to avoid timeLimit error
+            for( var j = i + 10; j &lt; eq.length; j+=10 ) {
+                if( eq[j].name.length != 0 ) {
+                    i = j - 10; //end of skip
+                    j = eq.length;
+                }
+            }
+            while( i &lt; eq.length &amp;&amp; eq[i].name.length == 0 ) i++;
+            i--;
+        }
+    }
+    eqs = eqs.substr(0, eqs.length - 2); //cut last comma
+    if(eqs.length &gt; 0) equip+=eqs+&quot;\n\n&quot;;
+    else equip+=&quot;\n&quot;;//empty line before desc if no eqs
+    var desc = &quot;&quot;;
+    if(player.ship.scriptInfo &amp;&amp; player.ship.scriptInfo.buydesc)//show ship description if any
+        desc=&quot;\&quot;&quot;+player.ship.scriptInfo.buydesc+&quot;\&quot;\n\n&quot;;
+    var sh = player.ship.maxForwardShield;
+    if( worldScripts[&quot;shieldequalizercapacitors&quot;] ) {
+        if( player.ship.equipmentStatus(&quot;EQ_BIGSHCAP&quot;) == &quot;EQUIPMENT_OK&quot;
+            &amp;&amp; player.ship.equipmentStatus(&quot;EQ_FORWARD_SHIELD_CAPACITOR&quot;) == &quot;EQUIPMENT_OK&quot; )
+            sh = sh + &quot;+256&quot;;
+        else if( player.ship.equipmentStatus(&quot;EQ_FORWARD_SHIELD_CAPACITOR&quot;) == &quot;EQUIPMENT_OK&quot; )
+            sh = sh + &quot;+64&quot;;
+    }
+    var psd = &quot;&quot;;//player.ship.displayName+
+    psd += &quot;Speed: &quot;+(player.ship.maxSpeed)+&quot; mLS  Thrust: &quot;+player.ship.maxThrust+
+        &quot;  Pitch: &quot;+Math.round(player.ship.maxPitch*100)/100+
+        &quot;  Roll: &quot;+Math.round(player.ship.maxRoll*100)/100+
+        &quot;  Yaw: &quot;+Math.round(player.ship.maxYaw*100)/100+
+//        &quot;  Version: &quot;+this.$shipVersion(player.ship)+
+//        &quot;  Service &quot;+player.ship.serviceLevel+
+        &quot;\nCargo Space: &quot;+player.ship.cargoSpaceCapacity;
+    if(player.ship.scriptInfo &amp;&amp; player.ship.scriptInfo.cargoext &amp;&amp; parseInt(player.ship.scriptInfo.cargoext) &gt; 0)
+        psd += &quot;+&quot;+parseInt(player.ship.scriptInfo.cargoext);
+    psd += &quot;t  Mass: &quot;+Math.max(Math.round(player.ship.mass/1000), 10)+ //min.10t
+        &quot;t  Size: &quot;+Math.round(player.ship.boundingBox.x)+&quot;*&quot;+
+        Math.round(player.ship.boundingBox.y)+&quot;*&quot;+Math.round(player.ship.boundingBox.z)+&quot;m Radius:&quot;+
+        Math.round(player.ship.collisionRadius)+
+        &quot;m\nEnergy: &quot;+player.ship.maxEnergy+&quot;  Shield: &quot;+sh+&quot;  Max.Missile: &quot;+player.ship.missileCapacity;
+    psd += &quot;\n&quot;+equip+desc+&quot;Price: &quot;+formatCredits(player.ship.price, false, true);
+    return(psd);
+}
+
+this.$ShipVersion_Int = function(ship) { //integer version number
+    if( !ship ) return( 10 ); //default
+    if( ship.scriptInfo ) {
+        var v = parseInt( ship.scriptInfo.shipversion );
+        if( v ) {
+            if( v &lt;= 1 ) return( 10 );
+            if( v &gt;= 10 ) return( 100 );
+            if( v &gt; 1 &amp;&amp; v &lt; 10 ) return( 10 * v );
+        }
+    }
+    return( Math.max( 10, Math.floor( ship.entityPersonality/328 ) + 1 ) ); // 10 - 100
+}
+
+this.$ShipVersion_Display = function(shipVersion, simple) { //format the integer version to displayable string
+    var st = shipVersion / 10;
+    var sv = &quot; &quot;; //start with a space to easily add to the original name
+    if( simple )  sv += Math.floor( st ); // 1 - 10
+    else {
+        sv += st;
+        if( st ==  Math.floor( st ) )  sv += &quot;.0&quot;;
+    }
+    return( sv ); // 1.0 - 10.0
+}
+
+this.$ShipVersion_PlayerShipName = function() { //with full version number
+    return(player.ship.displayName + this.$ShipVersion_Display( this.$ShipVersion_Int( player.ship ), false ));
+}
+
+this.$ShipVersion_Show = function(ship) { //string version number of a ship
+    if( this.$ShipVersion_Simple )
+        return( this.$ShipVersion_Display( this.$ShipVersion_Int( ship ), true ) );
+    else
+        return( this.$ShipVersion_Display( this.$ShipVersion_Int( ship ), false ) );
+}
+
+this.$ShipVersion_SL = function( sl ) { //name of the service level
+    if( sl &gt;= 100 ) return(&quot;Perfect&quot;);
+    if( sl &gt;= 90 ) return(&quot;Good&quot;);
+    if( sl &gt;= 80 ) return(&quot;Weak&quot;);
+    if( sl &gt;= 76 ) return(&quot;Bad&quot;);
+    if( sl &lt; 76 ) return(&quot;Minimal&quot;);
+    return(&quot;Unknown&quot;);
+}
+
+this.$ShipVersion_SLCost = function() { //cost of 1% service level repair
+        if(player.ship.docked) { //next line works in docks only
+            this.$ShipVersion_SLCr = Math.round( player.ship.price * 0.005 ); //0.5% of the new price
+        }
+    return( this.$ShipVersion_SLCr );
+}
+
+this.$ShipVersion_Timed = function() { //Ship Version repeated changes, called once in a second
+//    player.ship.setEquipmentStatus(&quot;EQ_SHIP_VERSION_&quot;+this.$ShipVersion_Int(player.ship), &quot;EQUIPMENT_DAMAGED&quot;);//debug
+    if( !player.ship || !player.ship.isValid ) return;
+
+    if( this.$ShipVersion_ServiceLevelPrev == 0 ) {
+        player.ship.awardEquipment(&quot;EQ_SERVICE_LEVEL_&quot;+player.ship.serviceLevel);
+        this.$ShipVersion_ServiceLevelPrev = player.ship.serviceLevel; //save
+        if( this.$ShipVersion_Debug )
+            log(&quot;ShipVersion&quot;, &quot;Service level &quot;+player.ship.serviceLevel+&quot;%&quot;); //debug
+    }
+    
+    if( this.$ShipVersion_ServiceLevelPrev != player.ship.serviceLevel ) {
+        var st = player.ship.equipmentStatus(&quot;EQ_SERVICE_LEVEL_&quot;+this.$ShipVersion_ServiceLevelPrev);
+        player.ship.removeEquipment(&quot;EQ_SERVICE_LEVEL_&quot;+this.$ShipVersion_ServiceLevelPrev);
+        player.ship.awardEquipment(&quot;EQ_SERVICE_LEVEL_&quot;+player.ship.serviceLevel);
+        if( st == &quot;EQUIPMENT_DAMAGED&quot; ) //set to damaged
+            player.ship.setEquipmentStatus(&quot;EQ_SERVICE_LEVEL_&quot;+player.ship.serviceLevel, st);
+        if( this.$ShipVersion_ServiceLevelPrev &gt; player.ship.serviceLevel
+            &amp;&amp; !player.ship.docked ) { //to avoid message when buy new ship with different SL
+            //if( player.ship.serviceLevel &gt; 76) {
+                player.consoleMessage(&quot;Service level degraded (&quot;+
+                    this.$ShipVersion_SL(player.ship.serviceLevel)+&quot;)&quot;, 5);
+            //} else if( player.ship.serviceLevel &gt; 75)
+                        //    player.consoleMessage(&quot;Weapons almost destroyed, repair the ship!&quot;, 5);
+        } //if SL increased then no message to avoid it when another OXP increase it
+          //for example HardShips OXP after hauler is not confirmed in the start menu
+        if( this.$ShipVersion_Debug )
+            log(&quot;ShipVersion&quot;, &quot;Service level changed from &quot;+
+                this.$ShipVersion_ServiceLevelPrev+&quot;% to &quot;+
+                player.ship.serviceLevel+&quot;%&quot;); //debug
+        else {
+            var c = &quot;decreased&quot;;
+            if( this.$ShipVersion_ServiceLevelPrev &lt; player.ship.serviceLevel )
+                c = &quot;increased&quot;;
+            log(&quot;ShipVersion&quot;, &quot;Service level &quot;+c+&quot; (&quot;+
+                this.$ShipVersion_SL(player.ship.serviceLevel)+&quot;)&quot;);
+        }
+        this.$ShipVersion_ServiceLevelPrev = player.ship.serviceLevel; //save
+    }
+    
+//    if( player.ship.serviceLevel &gt; 86 ) player.ship.serviceLevel = 76; //debug
+    
+    if( player.ship.serviceLevel &lt;= 75 ) {
+        var w1 = player.ship.forwardWeapon;
+        var w2 = player.ship.aftWeapon;
+        var w3 = player.ship.portWeapon;
+        var w4 = player.ship.starboardWeapon;
+    //    if( w1 ) player.ship.forwardWeapon = null;
+    //    if( w2 ) player.ship.aftWeapon = null;
+    //    if( w3 ) player.ship.portWeapon = null;
+    //    if( w4 ) player.ship.starboardWeapon = null;
+    //    if(player.ship.subEntities)
+        //            for(var i = 0; i &lt; player.ship.subEntities.length; i++) //remove turrets
+    //        player.ship.subEntities[i].remove();
+        //      for(var j = 0; j &lt; player.ship.subEntities.length; j++) { //remove missiles
+    //        player.ship.removeEquipment(&quot;EQ_MISSILE&quot;);
+    //        player.ship.removeEquipment(&quot;EQ_HARDENED_MISSILE&quot;);
+    //        player.ship.removeEquipment(&quot;EQ_QC_MINE&quot;);
+    //    }
+    //    if( w1 || w2 || w3 || w4 || i &gt; 0 || j &gt; 0 ) //no docked check, need to show in dock also
+    //        player.consoleMessage(&quot;Weapons destroyed! Do ship maintenance before buy anothers!&quot;, 5);
+    }
+    
+    if( player.ship.docked ) return; //no recharges in dock
+    for( var i = 0; i &lt; this.$ShipVersion_Ships.length; i++) {
+        var ship = this.$ShipVersion_Ships[i];//all version-equipped ship
+        if( ship &amp;&amp; ship.isValid &amp;&amp; ship.isVisible &amp;&amp; ship.isPiloted
+            &amp;&amp; !ship.isThargoid  &amp;&amp; !ship.isDerelict ) { //to save CPU time
+            var shipVersion = this.$ShipVersion_Int(ship); // 10-100
+            if( this.$ShipVersion_Colors ) this.$ShipVersion_TimedColors(ship, shipVersion);
+            if( ship.equipmentStatus(&quot;EQ_SHIP_VERSION_&quot;+shipVersion)!=&quot;EQUIPMENT_OK&quot;) return;
+            var recharge = ( shipVersion - 10 ) / 100; // 0 - +0.9/s
+            if( ship.energy &lt; ship.maxEnergy )  ship.energy += recharge * 2; // 0 - +1.8/s
+                        //if( ship.temperature &gt; recharge &amp;&amp; shipVersion &gt; 10 )  ship.temperature -= recharge;
+                        //0 - -0.9/s, removed because cause buggy temperature drops with RocketShips OXP
+            if( ship.isPlayer ) { //player only
+                if( ship.forwardShield &lt; ship.maxForwardShield )  ship.forwardShield += recharge;
+                if( ship.aftShield &lt; ship.maxAftShield )  ship.aftShield += recharge;
+                if( shipVersion &gt; 79 //repair bot working from v8.0, only integer possible
+                    &amp;&amp; ship.equipmentStatus(&quot;EQ_SERVICE_LEVEL_&quot;+ship.serviceLevel)
+                        == &quot;EQUIPMENT_OK&quot; )  {
+                    if( ship.serviceLevel &lt; 80 ) {//Bad levels only
+                                                var cost = 100; //must be equal with cost of small fix in equipment.plist
+                        this.$ShipVersion_ServiceLevelCounter++;
+//                        player.consoleMessage(this.$ShipVersion_ServiceLevelCounter);//debug
+                        if( this.$ShipVersion_ServiceLevelCounter &gt; 300
+                            &amp;&amp; cost &lt;= player.credits ) {
+                            ship.serviceLevel++; //+1% in every 5 minutes of flying
+                            player.credits -= cost;
+                            this.$ShipVersion_ServiceLevelCounter = 0;
+                            ship.removeEquipment(&quot;EQ_SERVICE_LEVEL_&quot;
+                                +this.$ShipVersion_ServiceLevelPrev);
+                            ship.awardEquipment(&quot;EQ_SERVICE_LEVEL_&quot;
+                                +ship.serviceLevel);
+                            this.$ShipVersion_ServiceLevelPrev = ship.serviceLevel; //save
+                            var msg = &quot;Service level repaired a bit for &quot;+cost+&quot; credits (&quot;+
+                                this.$ShipVersion_SL(ship.serviceLevel)+
+                                &quot;)&quot;;
+                            if( this.$ShipVersion_Debug )
+                                log(&quot;ShipVersion&quot;, &quot;Service level repaired to &quot;
+                                    +ship.serviceLevel+&quot;% for &quot;
+                                    +cost+&quot; credits&quot;); //debug
+                            else log(&quot;ShipVersion&quot;, msg);
+                            player.consoleMessage(msg, 10);
+                        } else if( this.$ShipVersion_ServiceLevelCounter &gt; 300 ) {
+                            this.$ShipVersion_ServiceLevelCounter = 0;
+                            var msg = &quot;Service level &quot;+
+                                this.$ShipVersion_SL(ship.serviceLevel)+
+                                &quot; but repair need &quot;+cost+&quot; credits&quot;;
+                            if( this.$ShipVersion_Debug )
+                                log(&quot;ShipVersion&quot;, &quot;Service level &quot;
+                                    +ship.serviceLevel+&quot;% but repair need &quot;
+                                    +cost+&quot; credits&quot;);
+                            else log(&quot;ShipVersion&quot;, msg);
+                            player.consoleMessage(msg, 10);
+                        }
+                    }
+                }
+            } else { //NPC only
+                if(worldScripts[&quot;customshields&quot;]) { //check if CustomShields installed
+                    if( ship.script.customshieldsforwardshieldlevel &lt;
+                        ship.script.customshieldsmaxforwardshieldlevel )
+                        ship.script.customshieldsforwardshieldlevel += recharge + 1;
+                    if( ship.script.customshieldsaftshieldlevel &lt;
+                        ship.script.customshieldsmaxaftshieldlevel )
+                        ship.script.customshieldsaftshieldlevel += recharge + 1;
+                }
+            }
+        }
+    }
+}
+
+this.$ShipVersion_TimedColors = function(ship, shipVersion) {
+    //must check continually to turn a yellow netural ship to red when decided to attack the player
+    if( !ship || ship.isPolice || ship.isDerelict ) return; //not need to refresh
+    //var br = shipVersion * 2 / 256; //higher version brighter (0 - 0.78)
+    //var br2 = 0.5 + br / 2; //brighter purple and orange (0.5 - 0.89)
+        if( ship.hasHostileTarget &amp;&amp; ship.target === player.ship ) { //hostile ship
+                if(!ship.script) si.script = &quot;oolite-default-ship-script.js&quot;; //for sure
+                if(ship.script &amp;&amp; !ship.script.$SV_oldscannerDisplayColor1)
+                    ship.script.$SV_oldscannerDisplayColor1 = ship.scannerDisplayColor1;
+        if( ship.mass &gt;= 130000 ) ship.scannerDisplayColor1 = &quot;1 0 0&quot;;//(2*br+0.2)+&quot; 0 0&quot;; //red
+                else ship.scannerDisplayColor1 = &quot;1 0.2 0.2&quot;;//&quot;1 &quot;+(br-0.39)+&quot; &quot;+(br-0.39); //bright red
+    } else if( ship.bounty &gt; 0 ) {
+                if( ship.mass &gt;= 130000 ) ship.scannerDisplayColor1 = &quot;1 0.5 0&quot;;//dark orange
+                else ship.scannerDisplayColor1 = &quot;1 0.6 0&quot;;//&quot;1 &quot;+br2+&quot; &quot;+br; //orange
+    } else if( ship.isStation ) //friendly base
+        ship.scannerDisplayColor1 = greenColor;
+        else if( ship.script &amp;&amp; ship.script.$SV_oldscannerDisplayColor1 ) {
+            ship.scannerDisplayColor1 = ship.script.$SV_oldscannerDisplayColor1; //restore non-hostile color
+            ship.script.$SV_oldscannerDisplayColor1 = null;
+        }
+
+    //else if( shipVersion &gt;= 5 )
+    //    ship.scannerDisplayColor1 = &quot;1 1 &quot;+(br-0.39); //bright yellow
+    //else ship.scannerDisplayColor1 = (2*br+0.2)+&quot; &quot;+(2*br+0.2)+&quot; 0&quot;; //dark yellow
+}
+</pre></td>
+                </tr>
+                <tr>
+                    <td valign="top">Scripts/shipversionrepair.js</td>
+                    <td><pre>&quot;use strict&quot;;
+this.name        = &quot;shipversionrepair&quot;;
+this.author      = &quot;Norby&quot;;
+this.copyright   = &quot;2013 Norbert Nagy&quot;;
+this.licence     = &quot;CC BY-NC-SA 3.0&quot;;
+this.description = &quot;Repair Detectors equipment if damaged only.&quot;;
+this.version     = &quot;1.0&quot;;
+
+this.allowAwardEquipment = function(eqKey, ship, context)
+{
+//	log(&quot;shipversionrepair&quot;, eqKey+ship.name+context+&quot;EQ_SHIP_VERSION_&quot;+
+//		worldScripts[&quot;shipversion&quot;].$ShipVersion_Int(player.ship)+player.ship.equipmentStatus(&quot;EQ_SHIP_VERSION_&quot;+
+//		worldScripts[&quot;shipversion&quot;].$ShipVersion_Int(player.ship)) );//debug
+	if(eqKey===&quot;EQ_SHIP_VERSION_REPAIR&quot; &amp;&amp; ship === player.ship &amp;&amp; context === &quot;purchase&quot;
+		&amp;&amp; player.ship.equipmentStatus(&quot;EQ_SHIP_VERSION_&quot;+
+			worldScripts[&quot;shipversion&quot;].$ShipVersion_Int(player.ship)) != &quot;EQUIPMENT_OK&quot;) {
+//		log(&quot;shipversionrepair&quot;, eqKey+ship.name+context+&quot; true&quot;);
+		return true;
+	}
+//	log(&quot;shipversionrepair&quot;, eqKey+ship.name+context+&quot; false&quot;);
+	return false;
+}
+</pre></td>
+                </tr>
+                <tr>
+                    <td valign="top">Scripts/turretrecover.js</td>
+                    <td><pre>&quot;use strict&quot;;
+this.name        = &quot;turretrecover&quot;;
+this.author      = &quot;Norby&quot;;
+this.copyright   = &quot;2013 Norbert Nagy&quot;;
+this.licence     = &quot;CC BY-NC-SA 3.0&quot;;
+this.description = &quot;Recover a turret if lost any.&quot;;
+this.version     = &quot;1.0&quot;;
+
+this.allowAwardEquipment = function(eqKey, ship, context)
+{
+	if(eqKey===&quot;EQ_TURRET_RECOVER&quot; &amp;&amp; ship === player.ship &amp;&amp; context === &quot;purchase&quot;
+		&amp;&amp; ( !player.ship.subEntities &amp;&amp; player.ship.subEntityCapacity &gt; 0
+		|| player.ship.subEntities &amp;&amp; player.ship.subEntityCapacity &gt; player.ship.subEntities.length))
+			return true;
+	return false;
+}
+</pre></td>
+                </tr>
+            </table>
+        </a>
+    </body>
+</html>

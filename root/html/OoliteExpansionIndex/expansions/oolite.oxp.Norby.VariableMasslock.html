@@ -1,0 +1,426 @@
+<html>
+    <head>
+        <title>Expansion Variable Masslock</title>
+        <link rel="stylesheet" href="../style.css">
+    </head>
+    <body>
+        <table border="0" width="100%">
+            <tr>
+                <td>Back to <a href='../index.html'>Index</a></td>
+                <td align="right"><small>Page generated: Oct 11, 2023, 3:16:48 PM</small></td>
+            </tr>
+        </table>
+
+        <h1>Expansion Variable Masslock</h1>
+
+        <h2>Content</h2>
+        <ul>
+          
+          <li><a href="#manifest">Manifest</a></li>
+          <li><a href="#documentation">Documentation</a></li>
+          <li><a href="#equipment">0 Equipment</a></li>
+          <li><a href="#ships">0 Ships</a></li>
+          <li><a href="#models">0 Models</a></li>
+          <li><a href="#scripts">1 Scripts</a></li>
+        </ul>
+
+
+        <a name="manifest">
+        <h2>Manifest</h2>
+            <table border="1">
+                <tr>
+                    <th></th>
+                    <th>from Expansion Manager's OXP list</th>
+                    <th>from Expansion Manifest</th>
+                </tr>
+                <tr>
+                    <td>Description</td>
+                    <td>Variable masslock ranges based on ship mass from Adder at 17km to Anaconda at 26km. Asteroids, buoys, cargo boxes and mines turns off Torus when needed to prevent impact.</td>
+                    <td>Variable masslock ranges based on ship mass from Adder at 17km to Anaconda at 26km. Asteroids, buoys, cargo boxes and mines turns off Torus when needed to prevent impact.</td>
+                </tr>
+                <tr>
+                    <td>Identifier</td>
+                    <td>oolite.oxp.Norby.VariableMasslock</td>
+                    <td>oolite.oxp.Norby.VariableMasslock</td>
+                </tr>
+                <tr>
+                    <td>Title</td>
+                    <td>Variable Masslock</td>
+                    <td>Variable Masslock</td>
+                </tr>
+                <tr>
+                    <td>Category</td>
+                    <td>Mechanics</td>
+                    <td>Mechanics</td>
+                </tr>
+                <tr>
+                    <td>Author</td>
+                    <td>Norby</td>
+                    <td>Norby</td>
+                </tr>
+                <tr>
+                    <td>Version</td>
+                    <td>1.1</td>
+                    <td>1.1</td>
+                </tr>
+                <tr>
+                    <td>Tags</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Required Oolite Version</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Maximum Oolite Version</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Required Expansions</td>
+                    <td>
+                    </td>
+                    <td>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Optional Expansions</td>
+                    <td>
+                    </td>
+                    <td>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Conflict Expansions</td>
+                    <td>
+                    </td>
+                    <td>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Information URL</td>
+                    <td><a target="_blank" href="http://wiki.alioth.net/index.php/VariableMasslock">http://wiki.alioth.net/index.php/VariableMasslock</a></td>
+                    <td><a target="_blank" href="">n/a</a></td>
+                </tr>
+                <tr>
+                    <td>Download URL</td>
+                    <td><a target="_blank" href="https://wiki.alioth.net/img_auth.php/c/c0/VariableMasslock_1.1.oxz">https://wiki.alioth.net/img_auth.php/c/c0/VariableMasslock_1.1.oxz</a></td>
+                    <td><a target="_blank" href="">n/a</a></td>
+                </tr>
+                <tr>
+                    <td>License</td>
+                    <td>CC BY-NC-SA 4</td>
+                    <td>CC BY-NC-SA 4</td>
+                </tr>
+                <tr>
+                    <td>File Size</td>
+                    <td>n/a</td>
+                </tr>
+                <tr>
+                    <td>Upload date</td>
+                    <td>1610873458</td>
+                </tr>
+            </table>
+                </a>
+
+        <a name="documentation">
+        <h2>Documentation</h2>
+        <p>Also read <a href='http://wiki.alioth.net/index.php/Variable%20Masslock'>http://wiki.alioth.net/index.php/Variable%20Masslock</a></p>
+        <h3>VariableMasslock_readme.txt</h3>
+        <pre>Variable Masslock
+
+Ships has shorter masslock radius based on mass.
+
+ Ship name	Mass	Masslock radius (r=mass*0.02+17000)
+ Adder  	16 t	17 km
+ Gecko  	25 t	17.5 km
+ Sidewinder	25 t	17.5 km
+ Viper  	34 t	17.7 km
+ Mamba  	36 t	17.7 km
+ Moray  	51 t	18 km
+ Cobra Mk I	52 t	18 km
+ Fer-de-Lance	53 t	18 km
+ Asp    	76 t	18.5 km
+ Krait  	93 t	19 km
+ Boa    	182 t	20.5 km
+ Cobra Mk III	215 t	21 km
+ Boa2   	216 t	21 km
+ Python 	267 t	22 km
+ Anaconda	438 t	26 km
+
+You can&#39;t use Tours drive in combat situations due to red alert, regardless of these distances.
+
+Torus will turn off when a new ship arrive into scanner range but you can engange it again until your alert level is green.
+
+Ships over masslock range marked with darker yellow lollipop in green alert.
+
+
+Torus will turn off when there are an asteroid, buoy, cargo box or mine in collision course to slow down in time and prevent impact.
+
+
+Instructions:
+
+Do not unzip the .oxz file, just move into the AddOns folder of your Oolite installation.
+
+License:
+
+This work is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike License version 4.0.
+If you are re-using any piece of this OXP, please let me know by sending an e-mail to norbylite@gmail.com.
+
+
+Changelog:
+ 2015.05.22. v1.1  Set proper scannerDisplayColors for ships out of masslock range.
+                   Torus stop before Buoys and cargo boxes, not only asteroids.
+ 2015.04.20. v1.0  First release.
+</pre>
+        </a>
+
+        <a name="equipment">          
+        <h2>Equipment</h2>
+            This expansion declares no equipment. 
+        </a>
+
+        <a name="ships">    
+        <h2>Ships</h2>
+            This expansion declares no ships. 
+        </a>
+
+        <a name="models">    
+        <h2>Models</h2>
+            This expansion declares no models. 
+        </a>
+
+        <a name="scripts">    
+        <h2>Scripts</h2>
+            <table>
+                <tr>
+                    <th>Path</th>
+                </tr>
+                <tr>
+                    <td valign="top">Scripts/variablemasslock.js</td>
+                    <td><pre>&quot;use strict&quot;;
+this.name	= &quot;variablemasslock&quot;;
+this.author	= &quot;Norby&quot;;
+this.copyright	= &quot;2015 Norby&quot;;
+this.description= &quot;Variable masslocks based on object masses&quot;;
+this.licence	= &quot;CC BY-NC-SA 4.0&quot;;
+
+//internal properties, should not touch
+this.$VMActive = false; //there is at least a ship with changed scanClass to prevent masslock
+this.$VMFCB = null; //FrameCallBack pointer
+this.$VMRocks = []; //store asteroids, bouys and cargo boxes with changed scanClass
+this.$VMShips = []; //store ships with changed scanClass and its original scanClass
+this.$VMTimer = null; //Timer for detect new ships
+
+//worldscript events
+this.startUp = function() {
+//	this.$WSED = worldScripts.escortdeck;
+}
+
+this.alertConditionChanged = function(newCondition, oldCondition) {
+	var w = this;
+	if( newCondition == 1 ) { //green alert
+		if( !isValidFrameCallback( w.$VMFCB ) )
+			w.$VMFCB = addFrameCallback( w.$VM_FCB.bind(w) );
+	} else { //other than green alert
+		w.$VMActive = false;
+		if( isValidFrameCallback( w.$VMFCB ) )
+			removeFrameCallback( w.$VMFCB );
+		w.$VM_Restore(w);
+		if( newCondition == 2 ) w.$VM_Timed.bind(w);
+	}
+}
+
+this.shipDockedWithStation = function() {
+	this.$VM_StopTimer(this);
+}
+
+this.shipWillLaunchFromStation = function() {
+	this.$VM_StartTimer(this);
+}
+
+
+//VariableMasslock methods
+this.$Range = function(mass) { //callable from other scripts
+	return( mass * 0.02 + 17000 ); //small masslock radius of this ship
+}
+
+this.$VM_FCB = function() { //FrameCallBack in green alert
+	//detect if a ship with changed scanClass is arrived within the shortened masslock range
+	//and restore scanClasses to go out from green alert
+	var p = player.ship;
+	var w = this;
+	if( !w.$VMActive || !p || !p.isValid ) return;
+
+	var s = w.$VMShips;
+	if( s ) for( var i = 0; i &lt; s.length; i++ ) {
+		var si = s[i];
+		if( si ) {
+			var t = si[0];
+			if( t &amp;&amp; t.isValid &amp;&amp; si[2] &gt; t.position.distanceTo( p.position ) ) {
+				t.scanClass = si[1]; //end of green alert within radius
+				t.scannerDisplayColor1 = null; //restore default color
+			}
+		}
+	}
+}
+
+this.$VM_Restore = function(w) { //restore scanClasses of changed ships to its original scanClass
+	var s = w.$VMShips;
+	if( s ) for( var i = 0; i &lt; s.length; i++ ) {
+		var si = s[i];
+		if( si ) {
+			var t = si[0];
+			if( t &amp;&amp; t.isValid ) {
+				t.scanClass = si[1]; //restore original scanClass
+				t.scannerDisplayColor1 = null; //restore default color
+			}
+		}
+	}
+	w.$VMShips = [];
+}
+
+this.$VM_Rocks = function(w) {
+	var p = player.ship;
+	for( var i = 0; i &lt; w.$VMRocks.length; i++ ) {
+		var r = w.$VMRocks[i]; //restore changed asteroids
+		if( r ) {
+			var t = r[0]; //Asteroids do not masslock over the given distance
+			if( t &amp;&amp; t.isValid ) {
+				var dist = t.position.distanceTo( p.position );
+				var angle = p.heading.angleTo( t.position.subtract(p.position) );
+				if( dist &gt;= p.speed || angle &gt;= 0.1 ) {
+//					log( w.name, t.name+&quot; &quot;+t.scanClass+&quot; &quot;+dist+&quot;m &quot;+angle+&quot;rad&quot; ); //debug
+					t.scanClass = r[1];
+					t.scannerDisplayColor1 = null; //restore default color
+					w.$VMRocks[i] = false; //remove from the array
+				}
+			}
+		}
+	}
+}
+
+this.$VM_StartTimer = function(w) {
+	this.$VMRocks = []; //store asteroids with changed scanClass
+	if( !w.$VMTimer ) w.$VMTimer = new Timer(w, w.$VM_Timed.bind(w), 1, 0.31);
+}
+
+this.$VM_StopTimer = function(w) {
+	w.$VM_Restore(w); //restore ship scanClasses in variable masslock range
+	for( var i = 0; i &lt; w.$VMRocks.length; i++ ) {
+		var r = w.$VMRocks[i]; //restore changed asteroids
+		if( r &amp;&amp; r.isValid ) {
+			var t = r[0]; //restore changed asteroids
+			if( t &amp;&amp; t.isValid ) {
+				t.scanClass = r[1];
+				t.scannerDisplayColor1 = null; //restore default color
+			}
+		}
+	}
+	w.$VMRocks = [];
+	if( w.$VMTimer ) {
+		w.$VMTimer.stop();
+		delete w.$VMTimer;
+	}
+}
+
+this.$VM_Timed = function() { //detect if there is a ship on scanner over the shortened
+			// masslock range and change scanClass to do not masslock
+	var p = player.ship;
+	if( !p || !p.isValid ) return;
+	var w = this;
+	w.$VM_Restore(w); //restore ship scanClasses in variable masslock range
+	w.$VM_Rocks(w); //restore asteroids over given range 
+
+	if( player.alertCondition &gt; 2 ) return; //no check in red alert
+	var s = p.checkScanner(false);//much faster than filteredEntities
+//	var s = system.filteredEntities(w, w._isShip, p, p.scannerRange); //slow
+
+	var vm = true; //variable masslock active
+	if( s ) for( var i = 0; vm &amp;&amp; i &lt; s.length; i++ ) {
+		var t = s[i];
+		if( t &amp;&amp; t.isValid ) {
+			var dist = t.position.distanceTo( p.position );
+//			log( w.name, t.name+&quot; &quot;+t.scanClass+&quot; &quot;+dist+&quot;m&quot;); //debug
+			var rock = false;
+			var c = t.scanClass;
+			if( c == &quot;CLASS_BUOY&quot; || c == &quot;CLASS_CARGO&quot; || c == &quot;CLASS_MINE&quot; ||
+				c == &quot;CLASS_NO_DRAW&quot; || c == &quot;CLASS_ROCK&quot; )
+				rock = true;
+			if( rock &amp;&amp; dist &lt; p.speed
+				&amp;&amp; p.heading.angleTo( t.position.subtract(p.position) ) &lt; 0.1 ) {
+				w.$VMRocks.push( [t, c] ); //save
+				t.scanClass = &quot;CLASS_STATION&quot;; //Asteroids, buoys, etc. do masslock
+				t.scannerDisplayColor1 = [0.9, 0.9, 0.9]; //keep at gray
+			} else if( !rock ) {
+				var r = w.$Range( t.mass ); //small masslock radius of this ship
+				if( r &lt; dist ) {
+					w.$VMShips.push( [t, t.scanClass, r] ); //save r for FCB
+				} else vm = false; //there is a ship within small radius
+			}
+		}
+	}
+	var v = w.$VMShips;
+	if( vm &amp;&amp; v &amp;&amp; v.length &gt; 0 ) {
+		//change scanClasses only if all ships are out of radius, cause green alert
+		w.$VMActive = true;
+		for( var i = 0; i &lt; v.length; i++ ) {
+			var t = v[i][0];
+			if( t &amp;&amp; t.isValid ) {
+				var c = t.scanClass, d;
+				if( c == &quot;CLASS_MILITARY&quot; || c == &quot;CLASS_POLICE&quot; )
+					d = [0.5, 0.0, 0.5]; //purple
+				else if( c == &quot;CLASS_MISSILE&quot; )
+					d = [0.0, 0.9, 0.9]; //darker cyan
+				else if( c == &quot;CLASS_STATION&quot; )
+					d = [0.0, 0.9, 0.0]; //darker green
+				else if( c == &quot;CLASS_THARGOID&quot; )
+					d = [0.9, 0.0, 0.0]; //darker red
+				else d = [0.7, 0.7, 0]; //darker yellow
+				t.scanClass = &quot;CLASS_BUOY&quot;;
+				t.scannerDisplayColor1 = d;
+			}
+		}
+//		log(w.name, v); //debug
+	} else {
+		w.$VMActive = false;
+		w.$VMShips = [];
+	}
+	
+}
+
+/* http://wiki.alioth.net/index.php/Shipdata.plist#scan_class
+
+Will alter the model&#39;s appearance on the IFF system. If this line is omitted, it will usually become by default a standard ship entity (CLASS_NEUTRAL), appearing as a yellow flag on the radar (red if hostile to the player), but may be given a different scan class if added with other roles. There are other options.
+
+!   CLASS_BUOY - green/yellow on scanner, will rotate in idle state, does not masslock
+!   CLASS_CARGO - white on scanner, can be scooped, does not masslock
+    CLASS_MILITARY - purple on scanner, better pilots, will not attack other military ships, flashes purple/magenta if hostile to player
+    CLASS_MISSILE - cyan on scanner, will not avoid collisions
+    CLASS_POLICE - purple on scanner, will not attack other police ships, legal penalties for attacking, never has bounty, flashes purple/magenta if hostile to player
+!   CLASS_ROCK - white on scanner, launched defense ships do not inherit scan class, does not masslock
+    CLASS_STATION - green on scanner, launched defense ships do not inherit scan class
+    CLASS_THARGOID - green/red on scanner, considered hostile to any non-thargoid ship
+!   CLASS_NO_DRAW - invisible on scanner, cannot be targeted by missiles, does not masslock
+!   CLASS_MINE - red/yellow on scanner, automatically set on mines launched by player to override existing scan class, does not masslock 
+
+(This property was called &quot;scanClass&quot; before Oolite 1.74.) Scan classes marked as &quot;does not masslock&quot; will masslock the player anyway if they are hostile to the player (as condition will be Red)
+
+Scripts can define custom colours for ships on the IFF system so ships may have a scanner appearance different to the default for their scan class.
+
+Example:
+
+&quot;scan_class&quot; = &quot;CLASS_ROCK&quot;;
+
+Developer Note
+
+Oolite uses scan_class internally to determine the behaviour of some ships (particularly with regard to who may shoot whom without incurring legal penalties). Bear this in mind and don&#39;t allocate CLASS_POLICE or CLASS_THARGOID to ships lightly! 
+*/
+</pre></td>
+                </tr>
+            </table>
+        </a>
+    </body>
+</html>

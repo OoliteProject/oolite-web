@@ -1,0 +1,1541 @@
+<html>
+    <head>
+        <title>Expansion Buoy Repair</title>
+        <link rel="stylesheet" href="../style.css">
+    </head>
+    <body>
+        <table border="0" width="100%">
+            <tr>
+                <td>Back to <a href='../index.html'>Index</a></td>
+                <td align="right"><small>Page generated: Oct 11, 2023, 3:16:49 PM</small></td>
+            </tr>
+        </table>
+
+        <h1>Expansion Buoy Repair</h1>
+
+        <h2>Content</h2>
+        <ul>
+          <li><a href="#warnings">Warnings</a></li>
+          <li><a href="#manifest">Manifest</a></li>
+          <li><a href="#documentation">Documentation</a></li>
+          <li><a href="#equipment">0 Equipment</a></li>
+          <li><a href="#ships">33 Ships</a></li>
+          <li><a href="#models">0 Models</a></li>
+          <li><a href="#scripts">10 Scripts</a></li>
+        </ul>
+
+          <a name="warnings">
+            <h2>Warnings</h2>
+            <ol>
+                <li>License not specified</li>
+                <li>Tags mismatch between OXP Manifest and Expansion Manager at character position 0002 (RIGHT SQUARE BRACKET vs LATIN CAPITAL LETTER S)(&#39;[]&#39; vs &#39;[Station, Buoy]&#39;)</li>
+                <li>Unknown key &#39;licence&#39; at https://wiki.alioth.net/img_auth.php/6/66/BuoyRepair_1.3.4.oxz!manifest.plist</li>
+            </ol>
+          </a>
+
+        <a name="manifest">
+        <h2>Manifest</h2>
+            <table border="1">
+                <tr>
+                    <th></th>
+                    <th>from Expansion Manager's OXP list</th>
+                    <th>from Expansion Manifest</th>
+                </tr>
+                <tr>
+                    <td>Description</td>
+                    <td>Adds a buoy repair facility to selected systems.</td>
+                    <td>Adds a buoy repair facility to selected systems.</td>
+                </tr>
+                <tr>
+                    <td>Identifier</td>
+                    <td>oolite.oxp.Svengali.Eric.BuoyRepair</td>
+                    <td>oolite.oxp.Svengali.Eric.BuoyRepair</td>
+                </tr>
+                <tr>
+                    <td>Title</td>
+                    <td>Buoy Repair</td>
+                    <td>Buoy Repair</td>
+                </tr>
+                <tr>
+                    <td>Category</td>
+                    <td>Ambience</td>
+                    <td>Ambience</td>
+                </tr>
+                <tr>
+                    <td>Author</td>
+                    <td>Eric Walch &amp; Svengali</td>
+                    <td>Eric Walch &amp; Svengali</td>
+                </tr>
+                <tr>
+                    <td>Version</td>
+                    <td>1.3.4</td>
+                    <td>1.3.4</td>
+                </tr>
+                <tr>
+                    <td>Tags</td>
+                    <td></td>
+                    <td>Station, Buoy</td>
+                </tr>
+                <tr>
+                    <td>Required Oolite Version</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Maximum Oolite Version</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Required Expansions</td>
+                    <td>
+                    </td>
+                    <td>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Optional Expansions</td>
+                    <td>
+                    </td>
+                    <td>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Conflict Expansions</td>
+                    <td>
+                    </td>
+                    <td>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Information URL</td>
+                    <td><a target="_blank" href="http://wiki.alioth.net/index.php/BuoyRepair">http://wiki.alioth.net/index.php/BuoyRepair</a></td>
+                    <td><a target="_blank" href="">n/a</a></td>
+                </tr>
+                <tr>
+                    <td>Download URL</td>
+                    <td><a target="_blank" href="https://wiki.alioth.net/img_auth.php/6/66/BuoyRepair_1.3.4.oxz">https://wiki.alioth.net/img_auth.php/6/66/BuoyRepair_1.3.4.oxz</a></td>
+                    <td><a target="_blank" href="">n/a</a></td>
+                </tr>
+                <tr>
+                    <td>License</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>File Size</td>
+                    <td>n/a</td>
+                </tr>
+                <tr>
+                    <td>Upload date</td>
+                    <td>1610873320</td>
+                </tr>
+            </table>
+                </a>
+
+        <a name="documentation">
+        <h2>Documentation</h2>
+        <p>Also read <a href='http://wiki.alioth.net/index.php/Buoy%20Repair'>http://wiki.alioth.net/index.php/Buoy%20Repair</a></p>
+        <h3>BuoyRepair1.3.4 readMe.rtf</h3>
+        <pre>{\rtf1\ansi\ansicpg1252\cocoartf1347\cocoasubrtf570
+\cocoascreenfonts1{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;\red0\green0\blue255;}
+\paperw11900\paperh16840\vieww21900\viewh14520\viewkind0
+\deftab720
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardeftab720
+
+\f0\b\fs36 \cf0 Repair Buoy\
+
+\b0\fs24 Authors: Svengali (models+shaders), Eric Walch (scripting)\
+version 1.3.4, June 2015\
+\
+
+\fs28 Introduction
+\fs26 \
+\pard\pardeftab720
+
+\fs24 \cf0 \
+Trading goods between worlds is an extremely dangerous and hard job, and most trading companies are losing\
+ships through accidents, pirate ambushes and thargoid attacks. In 2084003 GCT (Galactic Coordinated Time) /\
+3135 MGMT (Modern Galactic Mean Time) a number of traders\&#39;92 guilds decided to counteract to the increasing\
+number of accidents by establishing the space buoys as a marker for safe space lanes.\
+\
+But systems are always slow in replacing destroyed navigation buoys. It is very frustrating when you are at the\
+main station and have to meet a ship on the way to the witchpoint when the witchpoint buoy is destroyed. It is\
+almost impossible to orient yourself in this situation. The authors (Cmdrs. Walch and Svengali) found this very\
+annoying and made a little investigation of the reasons. The main reason seemed to be a systemwide shortage\
+of buoys, so it always took much time to bring in a new buoy from far away and install it.\
+\
+In most cases the pilot was already in an other system when the replacement arrived.\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardeftab720
+\cf0 \
+
+\fs28 Buoy Factories.
+\fs26 \
+
+\fs24 \
+Both authors looked for systems that were prepared to build buoys for a reasonable price. These were found\
+with industrial systems with a medium technical level. Systems of low technical level didn\&#39;92t have the skills\
+to build the buoys and those of high level found it to inferior work to do. Another selection criterium was the\
+availability of metal ore on the planet so alloys could be extracted from it. The buoys themselves are not strong\
+enough to lift off a planet\&#39;92s surface, so they have to be assembled in space.\
+\
+Cmdr. Svengali designed a whole assembly station for this purpose. Parts for the buoys are pre-fabricated\
+on the planet surface and then flown in to the assembly station with shuttles. Those factories are in a constant\
+need of alloys and will also buy alloys flown in from other systems.\
+\
+The assembly stations have a technologically advanced docking bay sealing: A force-field that keeps the air\
+inside and still allows for a ship to pass trough. This makes it possible to load / unload ships with normal clothing\
+instead of using pressurised suits. The disadvantage is that an approaching pilot has no visible view of the landing bay\
+and has to use special guiding technology to find the right flight path (or use his docking computer).\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardeftab720
+\cf2 \
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardeftab720
+
+\fs28 \cf0 Buoy Transport vehicles.
+\fs26 \
+
+\fs24 \
+Buoys are of the size of a medium ship like a Cobra. This means they don\&#39;92t fit in the cargo bay of a normal ship.\
+It would need a spaceship carrier to transport them. This was rejected as too expensive, so we choose for the lower-cost\
+solution of towing the buoys. For this job Cmdr. Svengali designed a powerful tugship that is capable of delivering\
+the cargo at a reasonable speed.\
+
+\fs26 \
+
+\fs28 Distribution System
+\b .
+\b0\fs26 \
+
+\fs24 \
+Meanwhile Cmdr. Walch built a distribution system to send newly-assembled buoys from the factory to other systems\
+before they are actually needed. Once docked in another system, the replacement buoys are stored in a safe place\
+in the main stations. Now, when a buoy gets destroyed, a new one can be brought into place without much delay.\
+\
+When the main station buoy needs to be replaced, a new one can be retrieved directly from the station. When a\
+witchpoint beacon is destroyed a new one will be brought in by hyperspace jumping with a buoy from an adjacent system.\
+\
+
+\fs28 Large Traders and fuel ships
+\fs24 \
+\
+The GRS station has facilities to accommodate large traders that are to big to dock at a regular station. They can dock at\
+one of the two external docking bays. From here on normal sized traders can deliver the goods to the local main station\
+or a station in an adjacent system.\
+\
+GRS also has build some large fuel ships that scoop plasma from the sun, transform it into quirium and deliver this fuel\
+to the GRS station for further distribution throughout the galaxy.\
+\
+
+\fs28 Instalation.
+\b\fs24 \
+
+\b0 \
+Take the file &quot;buoyRepair.OXP&quot; and put it in Oolite\&#39;92s AddOns folder. After a restart the new factories are in place\
+and the distribution of the replacement buoys will start. Now, when a buoy gets defect, a replacement sequence\
+is started within 2 minutes. Sometimes replacement takes longer when traffic around stations is too busy, but this\
+is dependent on the local station manager\&#39;92s ability to schedule dockings and launches.\
+\
+
+\fs28 Version requirement
+\b .
+\b0\fs26 \
+
+\fs24 \
+This OXP needs Oolite 1.75.1 to work.\
+No dependencies, but...\
+  if Transports.oxp is installed the Woma will be used too.\
+  if Aquatics.oxp is installed the Hawksbill and ManOWar will be used too.\
+  if BGS-A or BGS-M is installed a music file will be used when docked at a buoyRepair Facility.\
+\
+Version history\
+1.3.4 Added the shaders that were lost in version 1.3.3\
+1.3.3 Added old Anaconda &amp; Boa texture that were removed from Oolite 1.80\
+1.3.2 Minor fixes.\
+1.3.1 External dockers changed, shader fix and buoy (un)folding.\
+1.3 New station to reduce shader swapping and music.\
+1.02.8 Fix to avoid running startUp twice when OXPConfig is used.\
+1.02.7 Tweaks for Oolite v1.75.\
+1.02.6 Workaround for ATI&#39;s cards and cleanups.\
+1,02.5 Fix in shipyard. Previous versions can crash on Oolite 1.73.\
+1.02.4 Minor fixes. Fully tested the Oolite 1.73 release.\
+1.02.3 Minor fixes. Prepared for the Oolite 1.73 release. Removed incompatibilities with oxps that change Oolite core ships (e.g. neolite.oxp).\
+1.02.2 Minor fixes. Recognises now bigShips.oxp.\
+1.02	Added big fuel ships and big traders.\
+1.01	Bug fixes and improved station.\
+1.00	First release.\
+\
+----------\
+A special thanks to Zieman for his help to find solutions for ATI users.\
+\pard\pardeftab720
+\cf0 Thanks to Murgh for the low cost idea of towing other ships instead of storing them in a cargo bay.\
+(see his tugs.OXP, 1 march 2006)\
+}</pre>
+        </a>
+
+        <a name="equipment">          
+        <h2>Equipment</h2>
+            This expansion declares no equipment. This may be related to warnings.
+        </a>
+
+        <a name="ships">    
+        <h2>Ships</h2>
+            <table>
+                <tr>
+                    <th>Name</th>
+                </tr>
+                <tr>
+                    <td><a href="../ships/GRS-Station.html">GRS Buoy Factory</a></td>
+                </tr>
+                <tr>
+                    <td><a href="../ships/grs-womasilo.html">grs-womasilo</a></td>
+                </tr>
+                <tr>
+                    <td><a href="../ships/grs_ani.html">Screen</a></td>
+                </tr>
+                <tr>
+                    <td><a href="../ships/grs_bay.html">Bay</a></td>
+                </tr>
+                <tr>
+                    <td><a href="../ships/grs_big_anaconda.html">Anaconda</a></td>
+                </tr>
+                <tr>
+                    <td><a href="../ships/grs_big_boa2.html">Boa Class Cruiser</a></td>
+                </tr>
+                <tr>
+                    <td><a href="../ships/grs_big_woma.html">grs_big_woma</a></td>
+                </tr>
+                <tr>
+                    <td><a href="../ships/grs_buoy-base.html">Navigation Buoy Segment</a></td>
+                </tr>
+                <tr>
+                    <td><a href="../ships/grs_cobra3_redux1.html">grs_cobra3_redux1</a></td>
+                </tr>
+                <tr>
+                    <td><a href="../ships/grs_controller.html">GRS Controller</a></td>
+                </tr>
+                <tr>
+                    <td><a href="../ships/grs_controller_turret.html">GRS Controller Turret</a></td>
+                </tr>
+                <tr>
+                    <td><a href="../ships/grs_dock.html">Dock</a></td>
+                </tr>
+                <tr>
+                    <td><a href="../ships/grs_guanako.html">GRS Guanako</a></td>
+                </tr>
+                <tr>
+                    <td><a href="../ships/grs_guanako_trader.html">grs_guanako_trader</a></td>
+                </tr>
+                <tr>
+                    <td><a href="../ships/grs_hawksbill.html">grs_hawksbill</a></td>
+                </tr>
+                <tr>
+                    <td><a href="../ships/grs_living.html">Living</a></td>
+                </tr>
+                <tr>
+                    <td><a href="../ships/grs_mainglow.html">Glow</a></td>
+                </tr>
+                <tr>
+                    <td><a href="../ships/grs_manOWar.html">grs_manOWar</a></td>
+                </tr>
+                <tr>
+                    <td><a href="../ships/grs_platforms.html">Platforms</a></td>
+                </tr>
+                <tr>
+                    <td><a href="../ships/grs_reactor.html">Reactor</a></td>
+                </tr>
+                <tr>
+                    <td><a href="../ships/repaired-buoy.html">Navigation Buoy</a></td>
+                </tr>
+                <tr>
+                    <td><a href="../ships/repaired-buoy-factory.html">repaired-buoy-factory</a></td>
+                </tr>
+                <tr>
+                    <td><a href="../ships/repaired-buoy-shuttle-d.html">GRS Shuttle</a></td>
+                </tr>
+                <tr>
+                    <td><a href="../ships/repaired-buoy-shuttle-u.html">GRS Shuttle</a></td>
+                </tr>
+                <tr>
+                    <td><a href="../ships/repaired-buoy-tugjaw.html">Tug Jaw</a></td>
+                </tr>
+                <tr>
+                    <td><a href="../ships/repaired-buoy-tugline.html">Tug Line</a></td>
+                </tr>
+                <tr>
+                    <td><a href="../ships/repaired-buoy-witchpoint.html">repaired-buoy-witchpoint</a></td>
+                </tr>
+                <tr>
+                    <td><a href="../ships/repaired-buoyViper.html">repaired-buoyViper</a></td>
+                </tr>
+                <tr>
+                    <td><a href="../ships/repaired-buoytugger.html">GRS Armadillo</a></td>
+                </tr>
+                <tr>
+                    <td><a href="../ships/repaired-buoytuggerE.html">repaired-buoytuggerE</a></td>
+                </tr>
+                <tr>
+                    <td><a href="../ships/repaired-buoytuggerG.html">repaired-buoytuggerG</a></td>
+                </tr>
+                <tr>
+                    <td><a href="../ships/repaired-buoytuggerN.html">repaired-buoytuggerN</a></td>
+                </tr>
+                <tr>
+                    <td><a href="../ships/repaired-buoytuggerW.html">repaired-buoytuggerW</a></td>
+                </tr>
+            </table>
+        </a>
+
+        <a name="models">    
+        <h2>Models</h2>
+            This expansion declares no models. This may be related to warnings.
+        </a>
+
+        <a name="scripts">    
+        <h2>Scripts</h2>
+            <table>
+                <tr>
+                    <th>Path</th>
+                </tr>
+                <tr>
+                    <td valign="top">Scripts/buoyRepair.js</td>
+                    <td><pre>&quot;use strict&quot;;
+this.name      = &quot;buoyRepair&quot;;
+this.author    = &quot;eric walch (script), Svengali (artwork)&quot;;
+this.copyright = &quot;(C)2008-2011 the autors.&quot;;
+this.description = &quot;This script adds buoy repairships when one of the two main navigation buoys gets destroyed&quot;;
+this.version   = &quot;1.3.3&quot;;
+
+this.oxpcLookup = function()
+{
+	this.oxpcSettings = {
+		Info: {
+			Name:this.name,
+			MinVersion:&quot;1.02.7&quot;,
+			Display:&quot;BuoyRepair&quot;,
+			EarlyCall:true,
+			EarlySet:true,
+			InfoB:&quot;logging: Extended logging for added ships and grs station.\nextraA: Add the GRS station in all average- and high economic systems + more testships.&quot;
+		},
+		Bool0: {Name:&quot;logging&quot;,Def:false,Desc:&quot;Logging functions.&quot;},
+		Bool1: {Name:&quot;extraA&quot;,Def:false,Desc:&quot;Add stations in high eco systems.&quot;}
+	};
+	delete this.oxpcLookup;
+}
+
+this.startUp = function ()
+{
+	delete this.startUp;
+	if (worldScripts.transportSchedule || worldScripts.transportschedule !== undefined) this.external_fuelship = &quot;buoy_repair_woma_fuelship&quot;;
+	else this.external_fuelship = &quot;buoy_repair_fuelship&quot;;
+	this.grsStation = false;
+	this.logging = false; // &quot;this.logging&quot; must be &quot;false&quot; for a release.
+	this.extraA = false; // Must also be false for a release version.
+	/* for OXP-Config:
+	logging - Switch on extended loging for the oxp added ships and the grs station.
+	extraA - Add the GRS station in all average- and high economic systems + more testships round the station.&quot;
+	*/
+	this.resetTimer = new Timer(this, this.addStation, 0.1); // already add station before first launch
+	// a delay greater than 0 is needed to get OXP-Config a chance to change the settings.
+
+}
+
+this.statusCheck = function ()
+{
+	if (player.ship.docked)
+    {
+        this.buoyStatusTimer.stop();
+    }
+	else
+    {
+		// check for role, not primary role because the replacement has a different role.
+        if (!system.isInterstellarSpace &amp;&amp; system.countShipsWithRole(&quot;buoy-witchpoint&quot;) == 0 &amp;&amp; (!this.repairBuoyTuggerW || !this.repairBuoyTuggerW.isValid))
+        {
+            this.repairBuoyTuggerW = system.addShips(&quot;repairBuoyTuggerW&quot;, 1)[0];
+        }
+		if (system.mainStation &amp;&amp; (!this.repairBuoyTuggerN || !this.repairBuoyTuggerN.isValid) &amp;&amp; system.countShipsWithRole(&quot;buoy&quot;, system.mainStation, 15000) == 0)
+        {
+            // this.repairBuoyTuggerN = system.mainStation.launchShipWithRole(&quot;repairBuoyTugger&quot;, true);
+            this.repairBuoyTuggerN = system.mainStation.launchShipWithRole(&quot;repairBuoyTuggerN&quot;, true);
+            this.repairBuoyTuggerN.script.replaceBuoy = true; // sets the task for the launching ship.
+			if (this.logging) log(&quot;buoyRepair&quot;, &quot;adding repairBuoyTuggerN to launch queue&quot;);
+        }
+    }
+}
+
+this.shipLaunchedFromStation = function ()
+{
+	if (this.buoyStatusTimer) this.buoyStatusTimer.start()
+	else this.buoyStatusTimer = new Timer(this, this.statusCheck, 15, (this.extraA ? 15 : 120));
+}
+
+this.shipWillExitWitchspace = function ()
+{
+	this.grsStation = false;
+}
+
+this.shipExitedWitchspace = function ()
+{
+	if (system.isInterstellarSpace) return;
+	this.addStation();
+}
+
+this.addStation = function ()
+{
+	if (system.economy &lt; 2 &amp;&amp; ((system.government &gt; 3 &amp;&amp; system.techLevel &lt; 11 &amp;&amp; system.techLevel &gt; 4) || this.extraA) &amp;&amp; !system.gonenova)
+    {
+		this.grsVector = new Vector3D([system.ID, system.ID, system.ID-256]).direction();
+		this.grsStation = system.addShips(&quot;repaired-buoy-station&quot;, 1, system.mainPlanet.position.add(this.grsVector.multiply(system.mainPlanet.radius * 2)), 1)[0];
+        var quaternion = new Quaternion(1,0,0,0); // identityQuaternion
+		var upVector = new Vector3D(0,1,0); // vectorUp of identityQuaternion;
+		var angle = upVector.angleTo(this.grsVector);
+		var cross = upVector.cross(this.grsVector);
+		quaternion = quaternion.rotate(cross, -angle); // align the upVector to the this.grsvector
+
+		// set up alignment towards main station
+		var mainStatVector = system.mainStation.position.subtract(this.grsStation.position).direction();
+		cross = quaternion.vectorUp().cross(mainStatVector);
+		angle = quaternion.vectorRight().angleTo(cross);
+		var angle2 = quaternion.vectorRight().angleTo(mainStatVector);
+		if (angle2 &lt; 0.5*Math.PI) angle=-angle;
+		quaternion = quaternion.rotate(quaternion.vectorUp(), angle + 0.07); // docking bay roughly towards main station. (0.07 rad or 4 degr. off for a better look)
+		if (system.economy == 1) // tilt the station dock towards the planet in average industrial
+			quaternion = quaternion.rotate(quaternion.vectorRight(), -1.1); // good values are -1.05 till -1.15
+		this.grsStation.orientation = quaternion;// within a system the station now has always the same orientation
+
+		// store a launch site, used by ship scripts.
+		this.launchSite = system.mainPlanet.position.add(this.grsVector.multiply(system.mainPlanet.radius + 500));
+		this.addShips();
+	}
+}
+
+this.addShips = function ()
+{
+	// add rising shuttles
+	this.shuttle = 2;
+	system.addShips(&quot;buoy_repair_shuttle_u&quot;, 2, this.launchSite, 20);
+
+	// add returning armandillos
+	this.tugger = 0;
+	if (Math.random()&lt; 0.65) {system.addShipsToRoute(&quot;repairBuoyTugger&quot;, 1, 0.25, &quot;pw&quot;); ++this.tugger};
+	if (Math.random()&lt; 0.40) {system.addShipsToRoute(&quot;repairBuoyTugger&quot;, 1, 0.50, &quot;pw&quot;); ++this.tugger};
+	if (Math.random()&lt; 0.25) {system.addShipsToRoute(&quot;repairBuoyTugger&quot;, 1, 0.75, &quot;pw&quot;); ++this.tugger};
+
+	// add big traders
+	if (Math.random()&lt; 0.4) system.addShipsToRoute(&quot;buoy_repair_big_trader&quot;, 1, Math.random(), &quot;pw&quot;);
+	if (Math.random()&lt; 0.4) system.addShipsToRoute(&quot;buoy_repair_big_trader&quot;, 1, Math.random(), &quot;pw&quot;);
+
+	var sunVector = system.sun.position.subtract(this.grsStation.position).direction();
+
+	// add repeating dockers
+    this.docker = 2;
+	system.addShips(&quot;buoy_repair_docker&quot;, 1, this.grsStation.position.add(sunVector.multiply(40E3)), 1E4);
+	system.addShips(&quot;buoy_repair_docker&quot;, 1, this.grsStation.position.add(sunVector.multiply(80E3)), 1E4);
+
+	// add fuel ships
+	if (this.extraA || Math.random()&gt;0.5) this.addFuelShip(this.grsStation.position.add(sunVector.multiply(50E3)));
+	if (this.extraA || Math.random()&gt;0.5) this.addFuelShip(this.grsStation.position.add(sunVector.multiply(100E3)));
+	if (this.extraA || Math.random()&gt;0.25) this.addFuelShip(this.grsStation.position.add(sunVector.multiply(250E3)));
+	if (this.extraA || Math.random()&gt;0.25) this.addFuelShip(this.grsStation.position.add(sunVector.multiply(350E3)));
+	this.controller = 0;
+	this.tuggerE = 0;
+}
+
+this.addFuelShip = function (position)
+{
+	if (Math.random() &gt; 0.4) system.addShips(&quot;buoy_repair_fuelship&quot;, 1, position, 1E4)
+    else system.addShips(this.external_fuelship, 1, position, 1E4);
+}
+
+// below is code used only by ship scripts.
+this.addShipnumber = function (name)
+{
+	var list = [&quot;NL&quot;, &quot;DG&quot;, &quot;RF&quot;, &quot;PH&quot;, &quot;TZ&quot;];
+	return name + &quot; &quot; + list[Math.floor(Math.random() * list.length)] + Math.ceil(Math.random()*127);
+}
+
+this.switch = function (oldShip, buoyName, buoyRole, newAIState)
+{
+	var subentities = oldShip.subEntities;
+	for (var i=0; i&lt;subentities.length; i++)
+	{
+		if (subentities[i].name == buoyName)
+		{
+			var newShip = oldShip.spawnOne(&quot;switchedRepairBuoyTugger&quot;); // add replacement ship to system.
+			var buoy = oldShip.spawnOne(buoyRole);
+			buoy.AIState = &quot;LIGHTS_OFF&quot;;
+			var target = player.ship.target;
+			var oldOrientation = oldShip.orientation;
+			var oldPosition = oldShip.position;
+			var oldVector = oldShip.heading; //vector with lenght 1 meter
+			newShip.displayName = oldShip.displayName;
+			oldShip.position = oldShip.position.multiply(100); // to deep space
+			newShip.orientation = oldOrientation;
+			buoy.orientation = oldOrientation;
+			newShip.position = oldPosition;
+			buoy.position = oldPosition.add(oldVector.multiply(subentities[i].position.z));
+			if (target == oldShip) newShip.script.playerTarget = true;
+			newShip.primaryRole = &quot;repairBuoyTugger&quot;; // in case there are more switchings going on.
+			newShip.AIState = newAIState;
+			oldShip.AIState = &quot;DISAPPEAR&quot;;
+			if (this.logging) log(&quot;buoyRepair&quot;, &quot;Replaced: &quot; + buoyRole);
+            break; // exit the for-loop
+		}
+	}
+}
+
+// routes for control ship
+
+// Next two positions are within the bounding box and regularly lead to random collisions
+this.positions1 = [
+	new Vector3D(-200, 100, 5000), //nav1
+	new Vector3D(-200, 1200, 3500), //stationapproach
+	new Vector3D(-200, 1200, 1000), //basement
+	new Vector3D(200, 700, 800), //above bay
+	new Vector3D(450, 1250, 625), // above arch high
+	new Vector3D(800, 1150, 500), // above arch low
+	new Vector3D(600, 600, -800), // behind arch
+	new Vector3D(500, 0, -1100), // behind station
+	new Vector3D(600, -450, -300), // under station
+	new Vector3D(1100, -150, 1500) // bolow rescue kit
+];
+this.positions2 = [
+	new Vector3D(-200, 100, 5000), //nav1
+	new Vector3D(-200, 1200, 3500), //stationapproach
+	new Vector3D(-200, 1200, 1000), //basement
+	new Vector3D(200, 600, 800), //above bay
+	new Vector3D(400, 575, 400), // below arch
+	new Vector3D(500, 550,-800), // behind arch
+	new Vector3D(-100, 700, -400), // above explosives
+	new Vector3D(-400, 1000, 100), // between poles
+	new Vector3D(-900, 500, 900), // above grs logo
+	new Vector3D(-900, 100, 1200), // in front of grs logo
+	new Vector3D(-950, -400, 500), // heading to clamp 2
+	new Vector3D(-950, -500, 0), // below clamp 2
+	new Vector3D(-100, -700, -300), // below station back
+	new Vector3D(700, -700, -200), // below station back
+	new Vector3D(800, -600, 800) // below station front
+];
+this.positions3 = [
+	new Vector3D(-200, 100, 5000), //nav1
+	new Vector3D(-200, 1200, 3500), //stationapproach
+	new Vector3D(-1700, -1000, 1700),
+	new Vector3D(-1700, 500, -1700),
+	new Vector3D(1700, 1000, -1700),
+	new Vector3D(1700, 500, 1700),
+	new Vector3D(-1700, 500, 1700),
+	new Vector3D(-1700, 1700, 1700),
+	new Vector3D(0, 1700, 0),
+	new Vector3D(1700, 1700, 1700),
+	new Vector3D(1700, -1700, 1700),
+	new Vector3D(0, -1700, 0),
+	new Vector3D(-500, -1700, 2000)
+];
+this.routes = [this.positions1, this.positions2, this.positions3]
+// worldScripts.buoyRepair.routes[0][0]=new Vector3D(00,00,00)
+</pre></td>
+                </tr>
+                <tr>
+                    <td valign="top">Scripts/buoyRepairBuoy.js</td>
+                    <td><pre>&quot;use strict&quot;;
+this.name      = &quot;buoyRepairBuoy&quot;;
+this.author    = &quot;eric walch&quot;;
+this.copyright = &quot;(C)2008-2011 the autors.&quot;;
+this.description = &quot;Buoy script for calling help&quot;;
+this.version   = &quot;1.3.3&quot;;
+
+this.shipBeingAttacked = function (whom) {
+	// add police to system
+	if (!this.count || this.count &gt; 10){
+		this.count = 1
+		if (whom.scanClass != &quot;CLASS_THARGOID&quot; || this.ship.position.distanceTo(player.ship) &gt; 25000){
+			if (this.ship.primaryRole == &quot;repaired-grs-buoy-witchpoint&quot;) system.addShips(&quot;police&quot;, 2);
+			if (this.ship.primaryRole == &quot;grs-factory-buoy&quot;) {
+				system.addShips(&quot;buoy_repair_viper&quot;, 2, worldScripts.buoyRepair.launchSite, 20);
+				worldScripts.buoyRepair.viperTarget = whom;
+            }
+        }
+    } else {
+        this.count++;
+    }
+};
+
+this.shipDied = function () {
+    var station = worldScripts.buoyRepair.grsStation;
+	if (this.ship.primaryRole == &quot;grs-factory-buoy&quot; &amp;&amp; station) {
+        var repairBuoyTuggerG = station.launchShipWithRole(&quot;repairBuoyTuggerG&quot;, true);
+        repairBuoyTuggerG.savedCoordinates = station.position.add(station.heading.multiply(10E3));
+    }
+	if (worldScripts.buoyRepair.logging) log(&quot;buoyRepair&quot;, &quot;A buoy with name: &quot; + this.ship.displayName +&quot; with role &quot; + this.ship.primaryRole + &quot; died&quot;);
+};
+</pre></td>
+                </tr>
+                <tr>
+                    <td valign="top">Scripts/buoyRepairCable.js</td>
+                    <td><pre>&quot;use strict&quot;;
+
+this.name      = &quot;buoyRepairCable&quot;;
+this.author    = &quot;eric walch&quot;;
+this.copyright = &quot;� 2011 the autors.&quot;;
+this.description = &quot;Make sure that when the cable explodes, no other towing stuff survives&quot;;
+this.version   = &quot;1.3.3&quot;;
+
+this.shipDied = function ()
+{
+    var subs = this.ship.owner.subEntities;
+    
+    for (var i=subs.length-1; i&gt;=0; i--)
+    {
+        if (subs[i].isValid &amp;&amp; subs[i].scriptInfo &amp;&amp; subs[i].scriptInfo.can_explode) subs[i].explode();
+        /* 
+        just releasing would be nicer than exploding the buoy, but the chance
+        of hitting the line with a buoy still present is small. It is not worth the 
+        trouble checking which buoy is towed and spawn that one in space. The script is
+        mainly mend to avoid having a dangling clamp in space while the cable was already 
+        shot away.
+        We could also just explode all subentities without testing, but one does not know
+        what new subentities will be added in future to the ship that should stay intact.
+        */
+    }
+}</pre></td>
+                </tr>
+                <tr>
+                    <td valign="top">Scripts/buoyRepairControl.js</td>
+                    <td><pre>&quot;use strict&quot;;
+
+this.name      = &quot;buoyRepairController&quot;;
+this.author    = &quot;eric walch&quot;;
+this.copyright = &quot;� 2008 the autors.&quot;;
+this.description = &quot;Station control vessel&quot;;
+this.version   = &quot;1.3.3&quot;;
+
+this.shipSpawned = function ()
+{
+	if (worldScripts.buoyRepair.logging) log(this.name,this.name+&quot; Spawned Controller&quot;);
+	this.routes = worldScripts.buoyRepair.routes;
+	this.positionCounter = 0;
+	if (this.ship.displayName == this.ship.name) this.ship.displayName = worldScripts.buoyRepair.addShipnumber(this.ship.displayName);
+	if (this.hasValidStation()) this.grsStation = worldScripts.buoyRepair.grsStation;
+	this.route = this.routes[Math.floor(Math.random()*this.routes.length)]; // select a random route.
+
+	if (this.ship.primaryRole == &quot;defense_ship&quot; &amp;&amp; this.ship.target)
+    {
+        this.ship.setAI(&quot;interceptAI.plist&quot;); // target was set on launch by station when launches as defense ship.
+    }
+}
+
+this.shipExitedWormhole = function ()
+{
+	if (this.hasValidStation()) this.grsStation = worldScripts.buoyRepair.grsStation;
+	else this.grsStation = false;
+}
+
+this.shipDied = function (whom, why)
+{
+	if (worldScripts.buoyRepair.logging) log(&quot;buoyRepair&quot;, this.ship.displayName + &quot; was killed by a &quot; + (whom&amp;&amp;whom.isShip?whom.displayName:whom) + &quot;, because of &quot; + why);
+	if (this.hasValidStation()) worldScripts.buoyRepair.controller--;
+}
+
+this.shipCollided = function (whom)
+{
+	if (worldScripts.buoyRepair.logging) log(&quot;buoyRepair&quot;, this.ship.displayName + &quot; collided with &quot; + (whom&amp;&amp;whom.isShip?whom.displayName:whom));
+	if (this.ship.energy &lt; this.ship.maxEnergy) this.ship.reactToAIMessage(&quot;STOP&quot;);
+}
+
+this.shipDockedWithStation = function (station)
+{
+	if (this.hasValidStation()) worldScripts.buoyRepair.controller--;
+}
+
+this.nextPosition = function ()
+{
+	if (this.positionCounter&lt;this.route.length)
+    {
+		this.setApproach(this.route[this.positionCounter]);
+		if (worldScripts.buoyRepair.logging) log(&quot;buoyRepair&quot;, this.ship.displayName + &quot; gets coordinate set nr. &quot;+ this.positionCounter +&quot;: &quot;+this.route[this.positionCounter]);
+		this.positionCounter++;
+		this.ship.reactToAIMessage(&quot;APPROACH_COORDINATES&quot;);
+    }
+	else this.ship.reactToAIMessage(&quot;END_CONTROL&quot;);
+
+	if (this.ship.position.distanceTo(player.ship) &gt; 30E3) this.ship.reactToAIMessage(&quot;END_CONTROL&quot;);
+}
+
+this.setApproach = function (position)
+{
+	if (this.hasValidStation())
+    {
+        if (0 &lt; oolite.compareVersion(&quot;1.75&quot;)) this.ship.savedCoordinates = this.grsStation.position.add(this.rotateBy(position, this.grsStation.orientation))
+        else this.ship.savedCoordinates = this.grsStation.position.add(position.rotateBy(this.grsStation.orientation));
+    }
+    else
+    {
+        this.ship.reactToAIMessage(&quot;NO_GRS_STATION&quot;); // q-bombed?
+    }
+}
+
+this.hasValidStation = function ()
+{
+    return (worldScripts.buoyRepair.grsStation &amp;&amp; worldScripts.buoyRepair.grsStation.isValid);
+}
+
+this.findGRSStation = function ()
+{
+	if (this.hasValidStation()) this.ship.target = this.grsStation
+	else this.ship.reactToAIMessage(&quot;NO_GRS_STATION&quot;);
+}
+
+this.rotateBy = function (position, orientation)
+{
+	// Only used by Oolite 1.74. Can be removed for a 1.75+ version
+    var t2, t3, t4, t5, t6, t7, t8, t9, t10;
+	var result = new Vector3D();
+	t2 =  -orientation.w * orientation.x;
+	t3 =  -orientation.w * orientation.y;
+	t4 =  -orientation.w * orientation.z;
+	t5 =  -orientation.x * orientation.x;
+	t6 =   orientation.x * orientation.y;
+	t7 =   orientation.x * orientation.z;
+	t8 =  -orientation.y * orientation.y;
+	t9 =   orientation.y * orientation.z;
+	t10 = -orientation.z * orientation.z;
+	result.x = 2*((t8 + t10)*position.x + (t6 - t4)*position.y + (t3 + t7)*position.z) + position.x;
+	result.y = 2*((t4 + t6)*position.x + (t5 + t10)*position.y + (t9 - t2)*position.z) + position.y;
+	result.z = 2*((t7 - t3)*position.x + (t2 + t9)*position.y + (t5 + t8)*position.z) + position.z;
+	return result;
+}
+</pre></td>
+                </tr>
+                <tr>
+                    <td valign="top">Scripts/buoyRepairDocker.js</td>
+                    <td><pre>&quot;use strict&quot;;
+
+this.name      = &quot;buoyRepairDocker&quot;;
+this.author    = &quot;eric walch&quot;;
+this.copyright = &quot;� 2008 eric walch.&quot;;
+this.description = &quot;Clamp Docking&quot;;
+this.version   = &quot;1.3.3&quot;;
+
+this.shipSpawned = function ()
+{
+	if (this.ship.displayName == this.ship.name)
+		this.ship.displayName = worldScripts.buoyRepair.addShipnumber(this.ship.displayName);
+	this.AI = this.ship.AI;  // backup old AI
+	if (this.hasValidStation()) this.grsStation = worldScripts.buoyRepair.grsStation;
+	this.clamp = false;
+	this.goingReverse = false;
+	this.dockings = 0;
+}
+
+this.shipExitedWormhole = function ()
+{
+	if (this.hasValidStation()) this.grsStation = worldScripts.buoyRepair.grsStation
+	else this.grsStation = false;
+	this.cleanup();
+	if (this.AI != this.ship.AI)  this.ship.switchAI(this.AI); // reset old AI in case there is a GRS station.
+}
+
+this.shipDied = function (whom, why)
+{
+	if (this.clamp) {
+		if (worldScripts.buoyRepair.logging)
+        {
+            log(&quot;buoyRepair&quot;, this.ship.displayName + &quot; was killed by a &quot; + (whom&amp;&amp;whom.isShip?whom.displayName:whom) +
+                &quot;, because of &quot; + why+ (whom&amp;&amp;whom.isStation?&quot; at clamp &quot;+(this.clamp?this.clamp:&quot;none.&quot;):&quot;&quot;));
+        }
+		this.dockEscorts();
+    }
+	this.resetClamp();
+	this.cleanup();
+	if (whom != this.grsStation &amp;&amp; this.ship.isTrader) this.ship.spawn(&quot;cargopod&quot;, Math.ceil(Math.random()*15));
+}
+
+this.shipCollided = function (whom)
+{
+	if (worldScripts.buoyRepair.logging)
+    {
+        log(&quot;buoyRepair&quot;, this.ship.displayName + &quot; collided with &quot; + (whom.isShip?whom.displayName:whom)+&quot;, Remaining energy: &quot;+
+            Math.round(this.ship.energy) +&quot; out of &quot;+this.ship.maxEnergy+
+            (whom.isStation ? &quot; At clamp &quot;+(this.clamp ? this.clamp : &quot;none.&quot;) : &quot;&quot;));
+    }
+}
+
+this.shipDockedWithStation = function (station)
+{
+	this.cleanup();
+}
+
+this.cleanup = function ()
+{
+	if (this.hasValidStation() &amp;&amp; this.ship.primaryRole == &quot;buoy_repair_docker&quot;) worldScripts.buoyRepair.docker--;
+}
+
+this.requestClamp = function ()
+{
+	if (!this.hasValidStation()) {this.ship.reactToAIMessage(&quot;GRS_NO_FREE_CLAMP&quot;); return;};
+	this.clamp = this.grsStation.script.requestFreeClamp();
+	if (this.clamp == 0)
+    {
+		this.clamp = false;
+		this.ship.reactToAIMessage(&quot;GRS_NO_FREE_CLAMP&quot;);
+    }
+	else
+    {
+		this.grsStation.script.clampOn(this.clamp);
+		this.ship.reactToAIMessage(&quot;GRS_FREE_CLAMP&quot;);
+    }
+}
+
+this.resetClamp = function ()
+{
+	if (!this.hasValidStation()) return; // blown up by q-bomb.
+    
+    if (this.clamp) this.grsStation.script.clampOff(this.clamp);
+	this.clamp = false;
+}
+
+this.setApproachA = function ()
+{
+	this.setApproach(7000);  // far away
+}
+
+this.setApproachB = function ()
+{
+	this.setApproach(2300); // lining up point, 700m before the clamp.
+}
+
+this.setApproachC = function ()
+{
+	this.setApproach(1500); // immediately before the clamp.
+}
+
+this.setApproachD = function ()
+{
+    this.setApproach(parseFloat(this.ship.scriptInfo.grs_dockinglength));  // endpoint for stopping. Can be different for each ship.
+	if (this.hasValidStation()) this.grsStation.script.raiseLightning(this.clamp);
+}
+
+this.setApproachE = function ()
+{
+	this.setApproach(7000);  // far away
+	if (this.hasValidStation()) this.grsStation.script.lowerLightning(this.clamp);
+}
+
+this.setApproach = function (distance)
+{
+	if (!this.clamp || !this.hasValidStation())
+    {
+        this.ship.reactToAIMessage(&quot;GRS_NO_FREE_CLAMP&quot;);
+        return;
+    }
+
+    var position = this.grsStation.position;
+
+	if (this.clamp == 2) position = position.subtract(this.grsStation.orientation.vectorRight().multiply(distance))
+	else position = position.subtract(this.grsStation.heading.multiply(distance));
+
+	this.ship.savedCoordinates = position.subtract(this.grsStation.orientation.vectorUp().multiply(60)); // a little bit lower.
+}
+
+this.checkPlayerDistance = function ()
+{
+	if (this.ship.position.distanceTo(player.ship) &lt; 30E3)
+    {
+        this.ship.reactToAIMessage(&quot;PLAYER_CLOSE&quot;);
+    }
+	else
+    {
+        this.ship.reactToAIMessage(&quot;PLAYER_FAR_AWAY&quot;);
+        if (worldScripts.buoyRepair.logging) log(&quot;BuoyRepair&quot;, this.ship.displayName + &quot; terminated clamp docking because player is to far away.&quot;);
+    }
+	/* Remark: when a ship is further away than Math.sqrt(1E9) (=31622.7766 meters) from the player, there is only a rough
+	collision detection and the ship will collide at the outher hull of the station at about 2040 meters from the station core.
+	Oolite does not try anymore to detect local collision with any part of the clamps.
+	*/
+}
+
+this.hasValidStation = function ()
+{
+    return (worldScripts.buoyRepair.grsStation &amp;&amp; worldScripts.buoyRepair.grsStation.isValid);
+}
+
+this.findGRSStation = function ()
+{
+	if (this.hasValidStation()) 
+    {
+        this.ship.target = worldScripts.buoyRepair.grsStation;
+    }
+	else if (worldScripts[&quot;bigShips_populator&quot;])  
+    {
+        this.ship.switchAI(&quot;bigShips_route1BigTraderAI.plist&quot;);
+    }
+	else 
+    {
+        this.ship.reactToAIMessage(&quot;NO_GRS_STATION&quot;);
+    }
+}
+
+this.reverse = function ()
+{
+	if (this.goingReverse) return;
+	if (worldScripts.buoyRepair.logging) log(&quot;BuoyRepair&quot;, this.ship.displayName + &quot; at clamp &quot;+this.clamp+&quot;, docked succesful &quot; + (++this.dockings) +&quot; times.&quot;);
+
+	if (this.hasValidStation() &amp;&amp; this.clamp) 
+    {
+        var orientation = worldScripts.buoyRepair.grsStation.orientation;
+        var direction = (this.clamp == 1) ? orientation.vectorForward() : orientation.vectorRight();
+        direction.x *= -1; // we need te opposite direction.
+        direction.y *= -1;
+        direction.z *= -1;            
+        
+        this.ship.thrust = 0;
+        this.ship.velocity = direction.multiply(10);
+    }
+    else
+    {
+        this.ship.reactToAIMessage(&quot;NO_GRS_STATION&quot;);
+        return;
+    }
+
+	this.goingReverse = true;
+}
+
+this.forward = function ()
+{
+	if (!this.goingReverse) return;
+    this.ship.thrust = this.ship.maxThrust;
+	this.goingReverse = false;
+}
+
+this.parkEscorts = function ()
+{
+	var escorts = this.ship.escorts;
+	if (!escorts) return;
+	for(var i=0;i&lt;escorts.length;i++) {if (escorts[i].isValid) escorts[i].setAI(&quot;buoyRepairEscortAI.plist&quot;);}
+}
+
+this.callEscorts = function ()
+{
+	var escorts = this.ship.escorts;
+	if (!escorts) return;
+	for(var i=0;i&lt;escorts.length;i++)
+    {
+		if (escorts[i].isValid)
+        {
+			escorts[i].switchAI(&quot;escortAI.plist&quot;);
+			escorts[i].AIState = &quot;FLYING_ESCORT&quot;;
+        }
+    }
+}
+
+this.dockEscorts = function ()
+{
+	var escorts = this.ship.escorts;
+	if (!escorts) return;
+	for(var i=0;i&lt;escorts.length;i++)
+    {
+		if (escorts[i].isValid) escorts[i].switchAI(&quot;dockingAI.plist&quot;);
+    }
+}
+
+this.hyperspaceHelp = function ()
+{
+    if (this.ship.distanceTravelled &gt; 9000) this.ship.AIState = &quot;GO_WITCHPOINT&quot;;
+}
+</pre></td>
+                </tr>
+                <tr>
+                    <td valign="top">Scripts/buoyRepairExplosive.js</td>
+                    <td><pre>&quot;use strict&quot;;
+this.name      = &quot;buoyRepairExplosive&quot;;
+this.author    = &quot;eric walch&quot;;
+this.copyright = &quot;(C)2008-2011 the autors.&quot;;
+this.description = &quot;Script for the explosive charge on the station&quot;;
+this.version   = &quot;1.3&quot;;
+
+this.count = 5
+
+this.shipBeingAttacked = function ()
+{
+	if (--this.count &lt; 0) this.ship.explode();
+}</pre></td>
+                </tr>
+                <tr>
+                    <td valign="top">Scripts/buoyRepairShip.js</td>
+                    <td><pre>&quot;use strict&quot;;
+this.name      = &quot;buoyRepairShip&quot;;
+this.author    = &quot;eric walch&quot;;
+this.copyright = &quot;(C)2008-2011 the autors.&quot;;
+this.description = &quot;ship for repairing Witchpoint &amp; Station Buoy&quot;;
+this.version   = &quot;1.3.3&quot;;
+
+this.buoy = new Array();
+this.segmentName = &quot;Navigation Buoy Segment&quot;;
+
+this.shipSpawned = function ()
+{
+	if (this.ship.displayName == this.ship.name)  //sometimes the nameswitch happened before shipSpawned() was called.
+            this.ship.displayName = worldScripts.buoyRepair.addShipnumber(this.ship.displayName);
+
+	if (this.ship.subEntities &amp;&amp; this.ship.subEntities.length &gt; 2)
+    {
+		if (worldScripts.buoyRepair.logging) log(&quot;buoyRepair&quot;, &quot;Adding &quot; + this.ship.displayName +&quot; with role &quot; + this.ship.primaryRole + &quot; and towing a &quot; + this.ship.subEntities[2].name)
+		if (this.ship.primaryRole == &quot;repairBuoyTuggerN&quot;)
+        {
+			if (system.shipsWithPrimaryRole(&quot;repairBuoyTuggerN&quot;).length &gt; 1 || system.shipsWithRole(&quot;buoy&quot;, system.mainStation, 15000).length &gt; 0)
+            {
+				this.ship.AIState = &quot;GO_TO_STATION&quot;;
+				this.ship.primaryRole = &quot;repairBuoyTuggerE&quot;; // we don&#39;t want duplicates with the &quot;repairBuoyTuggerN&quot; role.
+				return;
+            }
+			this.ship.AIState = &quot;CLEAR_LAUNCHPATH&quot;;
+        }
+        if (this.ship.subEntities.length &gt; 3) // has a segmented buoy.
+        {
+            this.position = 0; // means segments in folded position.
+            var j = 0;
+            for (var i = 0; i &lt; this.ship.subEntities.length; i++)
+            {
+                // copy all buoy parts into a new array to avoid problems with changing subEntity ordering.
+                if (this.ship.subEntities[i].name == this.segmentName) this.buoy[j++] = this.ship.subEntities[i];
+            }
+        }
+        if (this.ship.hasRole(&quot;repairBuoyTuggerE&quot;))
+        {
+            // This version starts with folded buoy to allow launches with it.
+            this.unfoldTimer = new Timer(this, this.unfoldBuoy, 5.0);
+        }
+    }
+	else {
+		if (this.ship.primaryRole == &quot;defense_ship&quot;) {
+			if (this.ship.target) this.ship.setAI(&quot;interceptAI.plist&quot;)
+			else this.ship.setAI(&quot;dockingAI.plist&quot;);}
+		if (worldScripts.buoyRepair.logging) log(&quot;buoyRepair&quot;, &quot;Adding &quot; + this.ship.displayName +&quot; with role &quot; + this.ship.primaryRole + &quot; and towing nothing.&quot;);}
+	if (this.playerTarget) player.ship.target = this.ship
+	delete this.shipSpawned;
+}
+
+this.shipDied = function (whom, why)
+{
+	if (worldScripts.buoyRepair.logging) log(&quot;buoyRepair&quot;, this.ship.displayName + &quot; was killed by a &quot; + (whom?(whom.displayName?whom.displayName:whom):&quot;[undefined]&quot;) + &quot;, because of &quot; + why)
+	if (this.ship.subEntities &amp;&amp; this.ship.subEntities.length &gt; 2) {
+		if (worldScripts.buoyRepair.logging) log(&quot;buoyRepair&quot;, &quot;Ship was towing a: &quot; + this.ship.subEntities[2].name)
+		if (this.ship.primaryRole == &quot;repairBuoyTuggerG&quot;) {
+			if (worldScripts.buoyRepair.logging) log(&quot;buoyRepair&quot;, &quot;ship towing a G-beacon died&quot;);
+			this.addBuoy(&quot;grs-factory-buoy&quot;);}
+		if (this.ship.primaryRole == &quot;repairBuoyTuggerN&quot;){
+			if (worldScripts.buoyRepair.logging) log(&quot;buoyRepair&quot;, &quot;ship towing a N-beacon died&quot;);
+			this.addBuoy(&quot;repaired-grs-buoy&quot;)
+			system.legacy_addShips(&quot;repairBuoyTuggerE&quot;, 1);}
+		if (this.ship.primaryRole == &quot;repairBuoyTuggerW&quot;){
+			if (worldScripts.buoyRepair.logging) log(&quot;buoyRepair&quot;, &quot;ship towing a W-beacon died&quot;);
+			this.addBuoy(&quot;repaired-grs-buoy-witchpoint&quot;);}}
+	else {
+		if (this.ship.primaryRole == &quot;repairBuoyTuggerG&quot;){
+		this.ship.switchAI(&quot;buoyRepairShipGAI.plist&quot;) // a dead ship with ejected pilot has a nullAI.plist
+		if (worldScripts.buoyRepair.grsStation) worldScripts.buoyRepair.grsStation.reactToAIMessage(&quot;GRS_G-BUOY_DIED&quot;);}}
+	if (this.ship.primaryRole == &quot;repairBuoyTugger&quot;) {if (worldScripts.buoyRepair.grsStation) worldScripts.buoyRepair.tugger--}
+	if (this.ship.primaryRole == &quot;repairBuoyTuggerE&quot;) {if (worldScripts.buoyRepair.grsStation) worldScripts.buoyRepair.tuggerE--}
+}
+
+this.shipExitedWormhole = function ()
+{
+	if (worldScripts.buoyRepair.logging) log(&quot;buoyRepair&quot;, this.ship.displayName + &quot; entered wormhole&quot;);
+	if (this.ship.primaryRole == &quot;repairBuoyTuggerE&quot;) {if (worldScripts.buoyRepair.grsStation) worldScripts.buoyRepair.tuggerE--}
+}
+
+this.shipDockedWithStation = function (station)
+{
+	if (worldScripts.buoyRepair.logging) log(&quot;buoyRepair&quot;, this.ship.displayName + &quot; docked at &quot; + station.name + &quot; with a energy level of &quot; + Math.round(this.ship.energy) + &quot; out of &quot; + this.ship.maxEnergy);
+	if (this.ship.primaryRole == &quot;repairBuoyTugger&quot;) {if (worldScripts.buoyRepair.grsStation) worldScripts.buoyRepair.tugger--}
+}
+
+this.shipEnteredPlanetaryVicinity = function ()
+{
+    // Only react for default traders. Other AI can call the folfing in a dedicated AI.
+    if (this.ship.AI == &quot;route1traderAI.plist&quot;) this.foldBuoy();
+}
+
+this.entityDestroyed = function ()
+{
+    // handler was introduced in Oolite 1.75.1
+    this.$cleanupTimers();
+}
+
+this.addBuoy = function (buoyRole)
+{
+	var buoy = this.ship.spawnOne(buoyRole);
+	buoy.AIState = &quot;LIGHTS_OFF&quot;;
+	buoy.orientation = this.ship.orientation;
+	buoy.position = this.ship.position.add(this.ship.heading.multiply(this.ship.subEntities[2].position.z));
+}
+
+this.releaseBuoyW = function ()
+{
+	worldScripts.buoyRepair.switch(this.ship, &quot;Navigation Buoy&quot;, &quot;repaired-grs-buoy-witchpoint&quot;, &quot;MOVE_OUT&quot;);
+}
+
+this.releaseBuoyG = function ()
+{
+	worldScripts.buoyRepair.switch(this.ship, &quot;Navigation Buoy&quot;, &quot;grs-factory-buoy&quot;, &quot;GO_TO_STATION&quot;);
+	if (this.ship.subEntities.length &lt; 3 &amp;&amp; worldScripts.buoyRepair.grsStation) worldScripts.buoyRepair.grsStation.reactToAIMessage(&quot;GRS_G-BUOY_DIED&quot;);
+}
+
+this.releaseBuoyN = function ()
+{
+	if (Math.random() &lt; 0.7)
+    {
+        worldScripts.buoyRepair.switch(this.ship, this.segmentName, &quot;repaired-grs-buoy&quot;, &quot;DOCK_AT_MAIN_STATION&quot;);
+    }
+	else
+    {
+		worldScripts.buoyRepair.switch(this.ship, this.segmentName, &quot;repaired-grs-buoy&quot;, &quot;MOVE_OUT&quot;);
+		system.addShips(&quot;repairBuoyTuggerE&quot;, 1);
+    }
+}
+
+this.foldBuoy = function ()
+{
+    if (this.buoy.length == 3)
+    {
+        // the ship still has all the segments, so proceed with folding.
+        this.movement = -0.02;
+        if (!isValidFrameCallback(this.$callbackID)) this.$callbackID = addFrameCallback(this.moveBuoySegments.bind(this));
+    }
+}
+
+this.unfoldBuoy = function ()
+{
+    if (this.buoy.length == 3)
+    {
+        // the ship still has all the segments, so proceed with unfolding.
+        this.movement = 0.02;
+        if (!isValidFrameCallback(this.$callbackID)) this.$callbackID = addFrameCallback(this.moveBuoySegments.bind(this));
+    }
+}
+
+this.moveBuoySegments = function (delta)
+{
+    if (!delta) delta = 0.25;
+    if (!this.ship || !this.ship.isValid || !this.ship.status || this.buoy.length &lt; 3) {this.$cleanupTimers();return;};
+    this.position += this.movement * delta;
+    if (this.position &gt;= 1) // buoy is unfolded
+    {
+        this.$cleanupTimers();
+        this.position = 1;
+    }
+    if (this.position &lt;= 0) // buoy is folded
+    {
+        this.$cleanupTimers();
+        this.position = 0;
+    }
+    this.buoy[1].orientation = [1, this.position, 0, 0]; // Oolite wil normalise the quaternion for us on assignment.
+    this.buoy[2].orientation = [1, 0, 0, this.position];
+}
+
+this.$cleanupTimers = function ()
+{
+	if (this.$callbackID &amp;&amp; isValidFrameCallback(this.$callbackID))
+	{ 
+		removeFrameCallback(this.$callbackID);
+        delete this.$callbackID;
+	}
+    if (this.unfoldTimer)
+    {
+        this.unfoldTimer.stop();
+        delete this.unfoldTimer;
+    }
+}
+
+this.findGRSStation = function ()
+{
+	if (worldScripts.buoyRepair.grsStation) this.ship.target = worldScripts.buoyRepair.grsStation
+	else this.ship.target = system.mainStation;
+}
+
+this.hyperspaceHelp = function ()
+{
+    if (this.ship.distanceTravelled &gt; 9000) this.ship.AIState = &quot;GO_WITCHPOINT&quot;;
+}
+</pre></td>
+                </tr>
+                <tr>
+                    <td valign="top">Scripts/buoyRepairShuttle.js</td>
+                    <td><pre>&quot;use strict&quot;;
+
+this.name      = &quot;buoyRepairShuttle&quot;;
+this.author    = &quot;eric walch&quot;;
+this.copyright = &quot;� 2008 the autors.&quot;;
+this.description = &quot;Shuttle script&quot;;
+this.version   = &quot;1.3&quot;;
+
+this.shipSpawned = function ()
+{
+	this.ship.displayName = worldScripts.buoyRepair.addShipnumber(this.ship.displayName);
+	if (this.ship.primaryRole == &quot;buoy_repair_shuttle&quot;){
+		this.ship.switchAI(&quot;fallingBuoyRepairShuttleAI.plist&quot;);
+		this.ship.primaryRole = &quot;shuttle&quot;; // only the role shuttle does not crash with planets.
+    } else {
+		// This is rising shuttle. Set upright.
+		var targetVector = this.ship.position.subtract(system.mainPlanet.position).direction();
+		var angle = this.ship.heading.angleTo(targetVector);
+		var cross = this.ship.heading.cross(targetVector).direction();
+		this.ship.orientation = this.ship.orientation.rotate(cross, -angle);
+    }
+	if (this.hasValidStation()) this.grsStation = worldScripts.buoyRepair.grsStation;
+	delete this.shipSpawned;
+}
+
+this.shipDockedWithStation = function (station)
+{
+	if (this.hasValidStation()) worldScripts.buoyRepair.shuttle--;
+}
+
+this.shipApproachingPlanetSurface = function ()
+{
+	if (this.ship.primaryRole == &quot;shuttle&quot;){
+		this.ship.switchAI(&quot;fallingBuoyRepairShuttleAI.plist&quot;); // make sure it is not in a gotoWaypointAI
+		this.ship.AIState = &quot;LANDING&quot;;
+		if (worldScripts.buoyRepair.logging) log(&quot;repairBuoy&quot;, this.ship.displayName + &quot; is approaching surface and prepares for landing.&quot;);
+    }
+}
+
+// the AI message &quot;APPROACH_SURFACE&quot; is often not working because the AI switches to gotoWaypointAI before.
+this.shipDied = function (whom, why)
+{
+	if (worldScripts.buoyRepair.logging) log(&quot;buoyRepair&quot;, this.ship.displayName + &quot; was killed by a &quot; + (whom.displayName?whom.displayName:whom) + &quot;, because of &quot; + why);
+	if (worldScripts.buoyRepair.grsStation) worldScripts.buoyRepair.shuttle--;
+}
+
+this.shipLandedOnPlanet = function (planet)
+{
+	if (worldScripts.buoyRepair.logging) log(&quot;buoyRepair&quot;, this.ship.displayName + &quot; landed on &quot; + planet);
+	if (worldScripts.buoyRepair.grsStation) worldScripts.buoyRepair.shuttle--;
+}
+
+this.hasValidStation = function ()
+{
+    return (worldScripts.buoyRepair.grsStation &amp;&amp; worldScripts.buoyRepair.grsStation.isValid);
+}
+
+this.findGRSStation = function ()
+{
+	if (this.hasValidStation()) this.ship.target = worldScripts.buoyRepair.grsStation
+	else this.ship.target = system.mainStation;
+}
+
+this.checkDistance = function ()
+{
+	var planet = system.mainPlanet;
+	var distance = planet.position.distanceTo(this.ship) - planet.radius;
+	if (distance &lt; 2000)  this.ship.AIState = &quot;APPROACH&quot;;
+}
+</pre></td>
+                </tr>
+                <tr>
+                    <td valign="top">Scripts/buoyRepairStation.js</td>
+                    <td><pre>&quot;use strict&quot;;
+this.name      = &quot;buoyRepairStation&quot;;
+this.author    = &quot;eric walch&quot;;
+this.copyright = &quot;(C)2008-2011 the autors.&quot;;
+this.description = &quot;station for assambly Buoy&#39;s&quot;;
+this.version   = &quot;1.3&quot;;
+
+this.shipSpawned = function ()
+{
+	system.addShips(&quot;grs-factory-buoy&quot;, 1, this.ship.position.add(this.ship.heading.multiply(10E3)), 1);
+	this.grsClamp =[false, false];
+}
+
+this.shipDied = function ()
+{
+	worldScripts.buoyRepair.grsStation = false;
+}
+
+this.callForHelp = function ()
+{
+	system.addShips(&quot;buoy_repair_viper&quot;, 2, worldScripts.buoyRepair.launchSite, 10);
+	if (worldScripts.buoyRepair.logging) log(&quot;buoyRepair&quot;, &quot;adding Viper near surface&quot;);
+	worldScripts.buoyRepair.viperTarget = this.ship.target;
+}
+
+this.addShuttle = function ()
+{
+	if (worldScripts.buoyRepair.shuttle &gt; 7) return;
+	system.addShips(&quot;buoy_repair_shuttle_u&quot;, 1, worldScripts.buoyRepair.launchSite, 1);
+	worldScripts.buoyRepair.shuttle++;
+	if (worldScripts.buoyRepair.logging) log(&quot;buoyRepair&quot;, &quot;adding Shuttle near surface&quot;);
+}
+
+this.addTugger = function ()
+{
+	if (Math.random() &lt; 0.5 &amp;&amp; worldScripts.buoyRepair.tugger &lt; 3)
+    {
+		system.addShips(&quot;repairBuoyTugger&quot;, 1);
+		worldScripts.buoyRepair.tugger++;
+		if (worldScripts.buoyRepair.logging) log(&quot;buoyRepair&quot;, &quot;adding Tugger at witchpoint&quot;);
+    }
+}
+
+this.launchTugger = function ()
+{
+	if (worldScripts.buoyRepair.tuggerE &lt; 3)
+    {
+        if (worldScripts.buoyRepair.logging) log(&quot;buoyRepair&quot;, &quot;adding Tugger to launch queue&quot;);
+        worldScripts.buoyRepair.tuggerE++;
+        this.ship.launchShipWithRole(&quot;repairBuoyTuggerE&quot;);
+    }
+}
+
+this.launchShuttle = function ()
+{
+	if (worldScripts.buoyRepair.shuttle &gt; 7) return;
+	if (worldScripts.buoyRepair.logging) log(&quot;buoyRepair&quot;, &quot;adding Shuttle to launch queue&quot;);
+	worldScripts.buoyRepair.shuttle++;
+    this.ship.launchShipWithRole(&quot;buoy_repair_shuttle&quot;);
+}
+
+this.launchTrader = function ()
+{
+	if (worldScripts.buoyRepair.logging) log(&quot;buoyRepair&quot;, &quot;adding Trader to launch queue&quot;);
+    this.ship.launchShipWithRole(&quot;trader&quot;);
+}
+
+this.launchController = function ()
+{
+	if (worldScripts.buoyRepair.controller &gt; 0) return;
+	if (worldScripts.buoyRepair.logging) log(&quot;buoyRepair&quot;, &quot;adding Controller to launch queue&quot;);
+	worldScripts.buoyRepair.controller++;
+    this.addToStationGroup(this.ship.launchShipWithRole(&quot;buoy_repair_control&quot;));
+}
+
+this.launchDocker = function ()
+{
+	if (worldScripts.buoyRepair.docker &gt; 0) return;
+	if (worldScripts.buoyRepair.logging) log(&quot;buoyRepair&quot;, &quot;adding Docker to launch queue&quot;);
+	worldScripts.buoyRepair.docker++;
+    this.addToStationGroup(this.ship.launchShipWithRole(&quot;buoy_repair_docker&quot;));
+}
+
+this.addToStationGroup = function (ship)
+{
+   this.ship.group.addShip(ship);
+   ship.group = this.ship.group;
+}
+
+this.otherShipDocked = function (ship)
+{
+	if (worldScripts.buoyRepair.logging) log(&quot;buoyRepair&quot;, ship.displayName + &quot; with role &quot;+ ship.primaryRole +&quot; docked at the GRS station&quot;);
+	if (ship.isPlayer) player.consoleMessage(expandDescription(&quot;[GRS_Welcome]&quot;), 3);
+}
+
+this.requestFreeClamp = function ()
+{
+	var clamp = 0;
+	if (!this.grsClamp[0]) clamp +=1;
+	if (!this.grsClamp[1]) clamp +=2;
+	if (clamp == 3) clamp = Math.ceil(Math.random()*2);
+	return clamp;
+}
+
+// entity.fuel is used by shaders to control lights
+this.clampOn = function (clamp)
+{
+	if (clamp) {
+		var p1 = Math.floor(this.ship.fuel);
+		var p2 = this.ship.fuel%1;
+		if(clamp===1) this.ship.fuel = p1+0.2;
+		else this.ship.fuel = p2+2;
+		this.grsClamp[clamp-1] = true;
+	}
+}
+
+this.clampOff = function (clamp)
+{
+	if (clamp) {
+		var p1 = Math.floor(this.ship.fuel);
+		var p2 = this.ship.fuel%1;
+		if(clamp===1) this.ship.fuel = p1+0.1;
+		else this.ship.fuel = p2+1;
+		this.grsClamp[clamp-1] = false;
+	}
+}
+
+this.raiseLightning = function (clamp)
+{
+	if (clamp) {
+		var p1 = Math.floor(this.ship.fuel);
+		var p2 = this.ship.fuel%1;
+		if(clamp===1) this.ship.fuel = p1+0.4;
+		else this.ship.fuel = p2+4;
+	}
+}
+
+this.lowerLightning = function (clamp)
+{
+	if (clamp) {
+		var p1 = Math.floor(this.ship.fuel);
+		var p2 = this.ship.fuel%1;
+		if(clamp===1) this.ship.fuel = p1+0.2;
+		else this.ship.fuel = p2+2;
+	}
+}
+</pre></td>
+                </tr>
+                <tr>
+                    <td valign="top">Scripts/buoyRepairViper.js</td>
+                    <td><pre>&quot;use strict&quot;;
+
+this.name      = &quot;buoyRepairViper&quot;;
+this.author    = &quot;eric walch&quot;;
+this.copyright = &quot;� 2008 the autors.&quot;;
+this.description = &quot;Shuttle script&quot;;
+this.version   = &quot;1.3&quot;;
+
+this.shipSpawned = function ()
+{
+	if (worldScripts.buoyRepair.logging) log(&quot;repairBuoy&quot;, this.ship.displayName + &quot; is launching from surface.&quot;);
+	delete this.shipSpawned;
+}
+
+this.shipApproachingPlanetSurface = function ()
+{
+	if (worldScripts.buoyRepair.logging) log(&quot;repairBuoy&quot;, this.ship.displayName + &quot; is approaching surface and prepares for landing.&quot;);
+}
+
+this.shipDied = function (whom, why)
+{
+	if (worldScripts.buoyRepair.logging) log(&quot;buoyRepair&quot;, this.ship.displayName + &quot; was killed by a &quot; + (whom.displayName?whom.displayName:whom) + &quot;, because of &quot; + why);
+}
+
+this.requestTarget = function ()
+{
+	if (worldScripts.buoyRepair.viperTarget &amp;&amp; worldScripts.buoyRepair.viperTarget.isValid)
+    {
+        this.ship.target = worldScripts.buoyRepair.viperTarget;
+        this.ship.reactToAIMessage(&quot;GRS_TARGET_RECEIVED&quot;);
+    }
+    else
+    {
+        this.ship.reactToAIMessage(&quot;GRS_TARGET_LOST&quot;);
+    }
+}
+
+this.findGRSStation = function ()
+{
+	if (worldScripts.buoyRepair.grsStation &amp;&amp; worldScripts.buoyRepair.grsStation.isValid) this.ship.target = worldScripts.buoyRepair.grsStation
+	else this.ship.target = system.mainStation;
+}
+
+this.checkDistance = function ()
+{
+	var planet = system.mainPlanet;
+	var distance = planet.position.distanceTo(this.ship) - planet.radius;
+	if (distance &lt; 2000)  this.ship.AIState = &quot;APPROACH&quot;;
+}
+</pre></td>
+                </tr>
+            </table>
+        </a>
+    </body>
+</html>

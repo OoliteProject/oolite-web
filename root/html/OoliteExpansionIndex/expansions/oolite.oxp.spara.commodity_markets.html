@@ -1,0 +1,347 @@
+<html>
+    <head>
+        <title>Expansion Commodity Markets</title>
+        <link rel="stylesheet" href="../style.css">
+    </head>
+    <body>
+        <table border="0" width="100%">
+            <tr>
+                <td>Back to <a href='../index.html'>Index</a></td>
+                <td align="right"><small>Page generated: Oct 11, 2023, 3:16:49 PM</small></td>
+            </tr>
+        </table>
+
+        <h1>Expansion Commodity Markets</h1>
+
+        <h2>Content</h2>
+        <ul>
+          
+          <li><a href="#manifest">Manifest</a></li>
+          <li><a href="#documentation">Documentation</a></li>
+          <li><a href="#equipment">0 Equipment</a></li>
+          <li><a href="#ships">0 Ships</a></li>
+          <li><a href="#models">0 Models</a></li>
+          <li><a href="#scripts">1 Scripts</a></li>
+        </ul>
+
+
+        <a name="manifest">
+        <h2>Manifest</h2>
+            <table border="1">
+                <tr>
+                    <th></th>
+                    <th>from Expansion Manager's OXP list</th>
+                    <th>from Expansion Manifest</th>
+                </tr>
+                <tr>
+                    <td>Description</td>
+                    <td>Divides the price column to sell price and buy price. Buy price is always a little higher than sell price. This adds a little bit of difficulty and realism to the game.</td>
+                    <td>Divides the price column to sell price and buy price. Buy price is always a little higher than sell price. This adds a little bit of difficulty and realism to the game.</td>
+                </tr>
+                <tr>
+                    <td>Identifier</td>
+                    <td>oolite.oxp.spara.commodity_markets</td>
+                    <td>oolite.oxp.spara.commodity_markets</td>
+                </tr>
+                <tr>
+                    <td>Title</td>
+                    <td>Commodity Markets</td>
+                    <td>Commodity Markets</td>
+                </tr>
+                <tr>
+                    <td>Category</td>
+                    <td>Mechanics</td>
+                    <td>Mechanics</td>
+                </tr>
+                <tr>
+                    <td>Author</td>
+                    <td>spara, Thargoid</td>
+                    <td>spara, Thargoid</td>
+                </tr>
+                <tr>
+                    <td>Version</td>
+                    <td>2.0.1</td>
+                    <td>2.0.1</td>
+                </tr>
+                <tr>
+                    <td>Tags</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Required Oolite Version</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Maximum Oolite Version</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Required Expansions</td>
+                    <td>
+                    </td>
+                    <td>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Optional Expansions</td>
+                    <td>
+                    </td>
+                    <td>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Conflict Expansions</td>
+                    <td>
+                    </td>
+                    <td>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Information URL</td>
+                    <td><a target="_blank" href="http://wiki.alioth.net/index.php/Commodity_Markets_OXP">http://wiki.alioth.net/index.php/Commodity_Markets_OXP</a></td>
+                    <td><a target="_blank" href="">n/a</a></td>
+                </tr>
+                <tr>
+                    <td>Download URL</td>
+                    <td><a target="_blank" href="https://wiki.alioth.net/img_auth.php/7/79/Commodity_markets_2.0.1.oxz">https://wiki.alioth.net/img_auth.php/7/79/Commodity_markets_2.0.1.oxz</a></td>
+                    <td><a target="_blank" href="">n/a</a></td>
+                </tr>
+                <tr>
+                    <td>License</td>
+                    <td>CC-BY-NC-SA 4.0</td>
+                    <td>CC-BY-NC-SA 4.0</td>
+                </tr>
+                <tr>
+                    <td>File Size</td>
+                    <td>n/a</td>
+                </tr>
+                <tr>
+                    <td>Upload date</td>
+                    <td>1610873342</td>
+                </tr>
+            </table>
+                </a>
+
+        <a name="documentation">
+        <h2>Documentation</h2>
+        <p>Also read <a href='http://wiki.alioth.net/index.php/Commodity%20Markets'>http://wiki.alioth.net/index.php/Commodity%20Markets</a></p>
+        </a>
+
+        <a name="equipment">          
+        <h2>Equipment</h2>
+            This expansion declares no equipment. 
+        </a>
+
+        <a name="ships">    
+        <h2>Ships</h2>
+            This expansion declares no ships. 
+        </a>
+
+        <a name="models">    
+        <h2>Models</h2>
+            This expansion declares no models. 
+        </a>
+
+        <a name="scripts">    
+        <h2>Scripts</h2>
+            <table>
+                <tr>
+                    <th>Path</th>
+                </tr>
+                <tr>
+                    <td valign="top">Config/script.js</td>
+                    <td><pre>&quot;use strict&quot;;
+
+this.name           = &quot;commodity_markets&quot;;
+this.author         = &quot;spara&quot;;
+this.copyright      = &quot;2013-2015 Mika Spåra&quot;;
+this.description    = &quot;Different prices for buying and selling at every station.&quot;;
+this.licence    	= &quot;CC BY-NC-SA 4.0&quot;;
+
+this.startUp = function() {
+	
+	//flag for prices&#39; status
+	this.$fixedPrices = false;
+	
+	//restore pricefactors
+	if (missionVariables.commodityMarketsPriceFactors2) {
+		this.$priceFactors = JSON.parse(missionVariables.commodityMarketsPriceFactors2);
+	} 
+	else {
+		//init individual pricefactors
+		this.$priceFactors = new Object();
+		var i;
+		var sMarket = system.mainStation.market;
+		for (var i in sMarket)
+			this.$priceFactors[i] = 1.02 + 0.03 * Math.random();
+	}
+	
+	//these are for more efficient tabbing
+	this.$tabs = [&quot;&quot;];
+	for (var i = 1; i &lt; 10; i++) {
+		var tab = &quot; &quot;;
+		//keep on adding spaces until we go one space over.
+		while (defaultFont.measureString(tab + &quot; &quot;) &lt; i)
+			tab += &quot; &quot;;
+		this.$tabs.push(tab);
+	}
+	
+	//calculate new prices
+	this.$createPrices();
+	
+	//take control of playerBoughtCargo handlers from other scripts
+	this.$injectOXPs();
+}
+
+//set prices on docking
+this.shipDockedWithStation = function(station) {
+	
+	//5% change for an individual commodity price to fluctuate
+	for (var i in station.market) {
+		if (Math.random() &lt; 0.05)
+			this.$priceFactors[i] = 1.02 + 0.03 * Math.random();		
+	}
+	
+	this.$createPrices();
+}
+
+//restore prices on launch
+this.shipWillLaunchFromStation = function(station) {
+	if (this.$fixedPrices) this.$restorePrices();
+}
+
+this.guiScreenWillChange = function(to, from) {
+	//only touch prices when docked
+	if (!player.ship.docked) return;
+	
+	//fix prices when switching to market screen
+	if (to === &quot;GUI_SCREEN_MARKET&quot; &amp;&amp; !this.$fixedPrices) {
+		var dMarket = player.ship.dockedStation.market;
+		for (var i in dMarket) {
+			player.ship.dockedStation.setMarketPrice(i, this.$commodities[i][2]);
+			if (!worldScripts[&quot;market_observer3&quot;])
+				manifest.setShortComment(i, this.$tabulate(&quot;&quot;, 7)+this.$formatCredits(this.$commodities[i][1]));
+		}
+		this.$fixedPrices = true;
+	}
+}
+
+this.guiScreenChanged = function(to, from) {
+	//restore original prices when leaving market screen
+	if (guiScreen.indexOf(&quot;GUI_SCREEN_MARKET&quot;) === -1 &amp;&amp; this.$fixedPrices)
+		this.$restorePrices();
+}
+
+//restore original prices
+this.$restorePrices = function(){
+	var dMarket = player.ship.dockedStation.market;
+	for (var i in dMarket) {
+		if (!worldScripts[&quot;market_observer3&quot;])
+			manifest.setShortComment(i, &quot;&quot;);
+		player.ship.dockedStation.setMarketPrice(i, this.$commodities[i][0]);
+	}
+	this.$fixedPrices = false;
+}
+
+//create an object holding the prices
+this.$createPrices = function() {
+	this.$commodities = new Object();
+	var dMarket = player.ship.dockedStation.market;
+	for (var i in dMarket) {
+		var priceFactor = this.$priceFactors[i];
+		var originalPrice = player.ship.dockedStation.market[i].price;
+		var buyPrice = Math.round(priceFactor * originalPrice);
+		//if (buyPrice &gt; 1020) buyPrice = 1020;//not needed anymore?
+		var sellPrice = Math.round(originalPrice / priceFactor);
+		this.$commodities[i] = [originalPrice, buyPrice, sellPrice];
+	}
+}
+
+this.playerBoughtCargo = function(commodity, units, price) {
+
+	var correctPrice = price;
+	var correctUnits = units;
+
+	//don&#39;t touch, if for some mysterious reason original prices
+	if (this.$fixedPrices) {
+		
+		//calculate the correct values
+		correctPrice = this.$commodities[commodity][1];
+		var creditsBefore = player.credits + Math.round(units * price) / 10;
+		while (correctPrice * correctUnits &gt; creditsBefore * 10)
+			correctUnits--;
+		
+		//reverse buying with sell prices
+		player.ship.dockedStation.setMarketQuantity(commodity, (player.ship.dockedStation.market[commodity].quantity + units));
+		player.credits += (units * price) / 10;
+		player.ship.manifest[commodity] -= units;
+		
+		//buy again with correct prices
+		if (correctUnits &gt; 0) {
+			player.ship.dockedStation.setMarketQuantity(commodity, (player.ship.dockedStation.market[commodity].quantity - correctUnits));
+			player.credits -= correctUnits * correctPrice / 10;
+			player.ship.manifest[commodity] += correctUnits;
+		}
+	}
+	
+	//activate handlers in other scripts
+	for (var i in this.$buyScripts) {
+		var scriptName = this.$buyScripts[i];
+		if (worldScripts[scriptName].$cmPlayerBoughtCargo) 
+			worldScripts[scriptName].$cmPlayerBoughtCargo(commodity, correctUnits, correctPrice);
+	}
+}
+
+//rename playerBoughtCargo handlers so that they won&#39;t be called by the game. calling is handled from this script
+this.$injectOXPs = function() {
+	this.$buyScripts = new Array();
+	for (var i in worldScriptNames) {
+		var scriptName = worldScriptNames[i];
+		if (worldScripts[scriptName] &amp;&amp; scriptName !== this.name  &amp;&amp; worldScripts[scriptName].playerBoughtCargo) {
+			this.$buyScripts.push(scriptName);
+			worldScripts[scriptName].$cmPlayerBoughtCargo = worldScripts[scriptName].playerBoughtCargo;
+			delete worldScripts[scriptName].playerBoughtCargo;
+		}
+	}
+}
+
+//save pricefactors
+this.playerWillSaveGame = function() {
+	missionVariables.commodityMarketsPriceFactors2 = JSON.stringify(this.$priceFactors);
+}
+
+//tabbing function
+this.$tabulate = function(string, col) {
+
+	//start with spaces
+	var tab = this.$tabs[Math.floor(col - defaultFont.measureString(string))];
+	while (defaultFont.measureString(string + tab + &quot; &quot;) &lt; col) {
+		tab += &quot; &quot;;
+	}
+	
+	//fine tune with hair spaces
+	var hairSpace = String.fromCharCode(31);
+	while (defaultFont.measureString(string + tab + hairSpace) &lt; col) {
+		tab += hairSpace;
+	}
+	
+	return(string + tab);
+}
+
+//helper to format credits on screen
+this.$formatCredits = function(credits) {
+	if (credits &lt; 99.5) 
+		return &quot;    &quot; + formatCredits(credits/10, true, false);
+	else if (credits &lt; 999.5)
+		return &quot;  &quot; + formatCredits(credits/10, true, false);
+	else return formatCredits(credits/10, true, false);
+}
+</pre></td>
+                </tr>
+            </table>
+        </a>
+    </body>
+</html>

@@ -1,0 +1,938 @@
+<html>
+    <head>
+        <title>Expansion Reverse Control</title>
+        <link rel="stylesheet" href="../style.css">
+    </head>
+    <body>
+        <table border="0" width="100%">
+            <tr>
+                <td>Back to <a href='../index.html'>Index</a></td>
+                <td align="right"><small>Page generated: Oct 11, 2023, 3:16:48 PM</small></td>
+            </tr>
+        </table>
+
+        <h1>Expansion Reverse Control</h1>
+
+        <h2>Content</h2>
+        <ul>
+          
+          <li><a href="#manifest">Manifest</a></li>
+          <li><a href="#documentation">Documentation</a></li>
+          <li><a href="#equipment">0 Equipment</a></li>
+          <li><a href="#ships">0 Ships</a></li>
+          <li><a href="#models">0 Models</a></li>
+          <li><a href="#scripts">1 Scripts</a></li>
+        </ul>
+
+
+        <a name="manifest">
+        <h2>Manifest</h2>
+            <table border="1">
+                <tr>
+                    <th></th>
+                    <th>from Expansion Manager's OXP list</th>
+                    <th>from Expansion Manifest</th>
+                </tr>
+                <tr>
+                    <td>Description</td>
+                    <td>Your ship&#39;s up-down and roll controls will be reversed in the aft view, so you can aim exactly as in the front view. The controls in left and right views are normalized also, you can use yaw keys (&#39;,&#39; and &#39;.&#39;) well. Inertia is implemented from Oolite v1.87 (in forward view too).</td>
+                    <td>Your ship&#39;s up-down and roll controls will be reversed in the aft view, so you can aim exactly as in the front view. The controls in left and right views are normalized also, you can use yaw keys (&#39;,&#39; and &#39;.&#39;) well. Inertia is implemented from Oolite v1.87 (in forward view too).</td>
+                </tr>
+                <tr>
+                    <td>Identifier</td>
+                    <td>oolite.oxp.Norby.ReverseControl</td>
+                    <td>oolite.oxp.Norby.ReverseControl</td>
+                </tr>
+                <tr>
+                    <td>Title</td>
+                    <td>Reverse Control</td>
+                    <td>Reverse Control</td>
+                </tr>
+                <tr>
+                    <td>Category</td>
+                    <td>Mechanics</td>
+                    <td>Mechanics</td>
+                </tr>
+                <tr>
+                    <td>Author</td>
+                    <td>Norby, cag</td>
+                    <td>Norby, cag</td>
+                </tr>
+                <tr>
+                    <td>Version</td>
+                    <td>1.8</td>
+                    <td>1.8</td>
+                </tr>
+                <tr>
+                    <td>Tags</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Required Oolite Version</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Maximum Oolite Version</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Required Expansions</td>
+                    <td>
+                    </td>
+                    <td>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Optional Expansions</td>
+                    <td>
+                    </td>
+                    <td>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Conflict Expansions</td>
+                    <td>
+                    </td>
+                    <td>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Information URL</td>
+                    <td><a target="_blank" href="http://wiki.alioth.net/index.php/ReverseControl">http://wiki.alioth.net/index.php/ReverseControl</a></td>
+                    <td><a target="_blank" href="">n/a</a></td>
+                </tr>
+                <tr>
+                    <td>Download URL</td>
+                    <td><a target="_blank" href="https://wiki.alioth.net/img_auth.php/2/25/ReverseControl_1.8.oxz">https://wiki.alioth.net/img_auth.php/2/25/ReverseControl_1.8.oxz</a></td>
+                    <td><a target="_blank" href="">n/a</a></td>
+                </tr>
+                <tr>
+                    <td>License</td>
+                    <td>CC BY-NC-SA 4</td>
+                    <td>CC BY-NC-SA 4</td>
+                </tr>
+                <tr>
+                    <td>File Size</td>
+                    <td>n/a</td>
+                </tr>
+                <tr>
+                    <td>Upload date</td>
+                    <td>1610873253</td>
+                </tr>
+            </table>
+                </a>
+
+        <a name="documentation">
+        <h2>Documentation</h2>
+        <p>Also read <a href='http://wiki.alioth.net/index.php/Reverse%20Control'>http://wiki.alioth.net/index.php/Reverse%20Control</a></p>
+        <h3>ReverseControl_readme.txt</h3>
+        <pre>Reverse Control OXP
+
+
+When you install this OXP then your ship&#39;s up-down and roll controls will be reversed in the aft view, so you can aim exactly as in the front view.
+
+The controls in left and right views are normalized also, but the centre of the roll seems to be not equal with the centre of your view which looks a bit strange but I can not fix. Moreover if your ship is not stopped then even a stationary target will always go out sideways from your crossharis due to you go forward which looks like sideway movement in the side views, so you must constantly roll and pitch again. Should practice the side aim during movement on the navigation buoy first.
+
+If you are not like the roll in side views then use the yaw controls (&quot;,&quot; and &quot;.&quot; keys) instead of roll.
+
+You can redefine your keys in oolite.app/Resources/Config/keyconfig.plist , for example the following lines put yaw on horizontal arrows and roll to the comma and dot keys:
+
+	key_roll_left				= &quot;,&quot;;
+	key_roll_right				= &quot;.&quot;;
+	key_yaw_left				= 253;		// left arrow
+	key_yaw_right				= 252;		// right arrow
+
+
+
+Dependencies:
+Oolite v1.77 or later.
+
+Instructions:
+Unzip the file, and then move the folder named &quot;.oxp&quot; into the AddOns directory of your Oolite installation.
+
+License:
+This work is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike License version 4.0.
+If you are re-using any piece of this OXP, please let me know by sending an e-mail to norbylite@gmail.com.
+
+Changelog:
+ 2018.07.19. v1.8  Fixed for Oolite 1.86 by cag.
+ 2018.07.04. v1.7  Inertia is implemented by cag to improve keyboard controls in forward view too.
+ 2017.10.05. v1.6  Calculations are optimized by cag to reduce the frequency of garbage collection.
+ 2017.03.19. v1.5  Calculations are improved by cag.
+ 2015.06.20. v1.4  Controls in left and right view are normalized also.
+                   Performance improvements, thanks to Lone Wolf.
+ 2014.08.02. v1.3  Working well with Sniperlock OXP.
+ 2014.06.09. v1.2  Fixed a clash with Docking Computer.
+ 2014.05.16. v1.1  Can turn off Sniperlock OXP temporary until the aft view is active.
+ 2014.05.16. v1.0  Initial release.
+</pre>
+        </a>
+
+        <a name="equipment">          
+        <h2>Equipment</h2>
+            This expansion declares no equipment. 
+        </a>
+
+        <a name="ships">    
+        <h2>Ships</h2>
+            This expansion declares no ships. 
+        </a>
+
+        <a name="models">    
+        <h2>Models</h2>
+            This expansion declares no models. 
+        </a>
+
+        <a name="scripts">    
+        <h2>Scripts</h2>
+            <table>
+                <tr>
+                    <th>Path</th>
+                </tr>
+                <tr>
+                    <td valign="top">Scripts/reversecontrol.js</td>
+                    <td><pre>this.name        = &quot;reversecontrol&quot;;
+this.author      = &quot;Norby, cag&quot;;
+this.copyright   = &quot;2014 Norbert Nagy&quot;;
+this.licence     = &quot;CC BY-NC-SA 3.0&quot;;
+this.description = &quot;Reverse up-down control in the aft view.&quot;;
+
+(function(){
+	&quot;use strict&quot;;
+	
+//customizable properties
+this.$ReverseControlOn = true;	//can turn off without uninstall
+this.$InertiaOn = true; 		// &quot;
+
+//internal properties, should not touch
+this.$AxesWritable = oolite.compareVersion(&quot;1.87&quot;) &lt;= 0;
+this.$ReverseControlFCB = null; //FrameCallBack
+this.$revCtrlCfg = {	Name:		this.name, 
+						Display: 	&quot;Reverse Control&quot;, 
+						Alive:	  	&quot;$revCtrlCfg&quot;,
+						Notify:		&quot;$versionCheck&quot;,
+						Bool: {  	B0: { 	Name: 	&quot;$ReverseControlOn&quot;, 
+											Def:	true, 
+											Desc:	&quot;Toggle reverse ctrls&quot;
+										}, 
+									B1: { 	Name: 	&quot;$InertiaOn&quot;, 
+											Def:	true, 
+											Desc:	&quot;Toggle inertia&quot;
+										}, 
+									Info:	&quot;Inertia for keyboard only (sticks already have it). Settings are independent; you can set either, both or none. NB: Inertia requires a minimum Oolite version of 1.87&quot;  
+							}
+					};
+					
+this.$versionCheck = function versionCheck() {
+	var that = versionCheck;
+	var wr = (that.wr = that.wr || worldScripts.reversecontrol);
+
+	var writable = oolite.compareVersion(&quot;1.87&quot;) &lt;= 0;
+	if( wr.$InertiaOn &amp;&amp; !writable ) {
+		wr.$ReverseControl_FCB.inertiaOn = wr.$InertiaOn = false;
+		log(this.name, &#39;this version of Oolite (&#39; + oolite.version + &#39;) cannot support Inertia (need at least 1.87).  Inertia has been disabled.&#39;);
+	}
+}
+
+//world script events
+
+this.startUpComplete = function () {
+	var wLC = worldScripts.Lib_Config;
+	if( wLC ) {
+		let error = wLC._registerSet( this.$revCtrlCfg );
+		if( error !== 0 )
+			log(this.name, &#39;startUpComplete, _registerSet returned error = &#39; + error );
+	}
+	this.$versionCheck();
+}
+
+this.shipWillLaunchFromStation = function shipWillLaunchFromStation() {
+	var that = shipWillLaunchFromStation;
+	var wr = (that.wr = that.wr || worldScripts.reversecontrol);
+
+	if( wr.$InertiaOn ) { // fcb always on to catch axis reversal
+		if( !isValidFrameCallback( wr.$ReverseControlFCB ) ) {
+			wr.$ReverseControlFCB = addFrameCallback( wr.$ReverseControl_FCB.bind(wr) );
+		}
+	}
+}
+
+this.step1Up = function() {
+}
+
+this.shipWillDockWithStation = function(/*station*/) {
+	this.$Stop( true );
+}
+
+this.$nearZero = 1e-6;			// some floating point numbers never === 0
+
+this.viewDirectionChanged = function viewDirectionChanged( view ) {
+	var that = viewDirectionChanged;
+	var wr = (that.wr = that.wr || worldScripts.reversecontrol);
+	var transferFn = (that.transferFn = that.transferFn || wr._transferInertia);// fn ref
+	var inertiaFn = (that.inertiaFn = that.inertiaFn || wr._inInertialMotion);	// fn ref
+	var nearZero = (that.nearZero = that.nearZero || wr.$nearZero);				// static var
+
+	var revCtrlOn = wr.$ReverseControlOn;
+	var inertiaOn = wr.$InertiaOn;
+	if( inertiaOn ) {
+		var ps = player.ship, pitch = ps.pitch, roll = ps.roll;
+		var fcbFn = wr.$ReverseControl_FCB;
+		var abs_pitch = pitch &lt; 0 ? -pitch : pitch;
+		var abs_roll = roll &lt; 0 ? -roll : roll;
+		if( abs_pitch &gt; nearZero || abs_roll &gt; nearZero ) { // have inertia to bleed off (doesn&#39;t apply to yaw as same in all views)
+			let inertiaType = 0, PITCH = 1, ROLL = 2; 		// bitflags for axes			
+			if( revCtrlOn ) 								// set pitch/roll in inertiaFn w/ cross axis values
+				transferFn( view, ps, fcbFn.prevPitch, fcbFn.prevRoll ); // use fcb&#39;s prev values so 1st call to inertiaFn can calc diffs
+			if( abs_pitch &gt; nearZero ){						// only save significant pitch
+				inertiaType |= PITCH;
+				if( !revCtrlOn )							// transfer prevPitch value
+					inertiaFn.pitch = fcbFn.prevPitch;
+			}
+			if( abs_roll &gt; nearZero ){						// only save significant roll
+				inertiaType |= ROLL;
+				if( !revCtrlOn )							// transfer prevRoll value
+					inertiaFn.roll = fcbFn.prevRoll;
+			}
+			fcbFn.isInertial = inertiaType;					// bleed off inertia before overriding input
+			inertiaFn.keyboardInput = false;
+		} else {
+			transferFn.lastView = view;
+			fcbFn.isInertial = 0;							// no inertia
+		}
+	}
+	switch( view ) {
+		case &quot;VIEW_AFT&quot;:
+		case &quot;VIEW_PORT&quot;:
+		case &quot;VIEW_STARBOARD&quot;:
+		case &quot;VIEW_FORWARD&quot;:								// added for inertia
+			if( view === &#39;VIEW_FORWARD&#39; &amp;&amp; !inertiaOn ) {
+				wr.$Stop( true );
+			} else if( (revCtrlOn || inertiaOn) &amp;&amp; 
+						!isValidFrameCallback( wr.$ReverseControlFCB ) ) {
+				wr.$ReverseControlFCB = addFrameCallback( wr.$ReverseControl_FCB.bind(wr) );
+			}
+			break;
+		default:
+			wr.$Stop( !inertiaOn );
+	}
+}
+
+// moved code in from core so this oxp no longer generates any garbage to be collected (speed is comparable)
+this._rotate_about_axis = function _rotate_about_axis( quat, vector, angle, result ) {
+	var that = _rotate_about_axis;
+	var cos = (that.cos = that.cos || Math.cos);
+	var sin = (that.sin = that.sin || Math.sin);
+	var rotn = (that.rotn = that.rotn || [0, 0, 0, 0]);
+
+	var a = angle / 2;
+	var c = cos(a);
+	var s = sin(a);
+	// rotation quaternion
+	rotn[0] = c;
+	rotn[1] = vector[0] * s;
+	rotn[2] = vector[1] * s;
+	rotn[3] = vector[2] * s;
+	// multiply quaternions
+	result[0] = quat[0] * rotn[0] - quat[1] * rotn[1] - quat[2] * rotn[2] - quat[3] * rotn[3];
+	result[1] = quat[0] * rotn[1] + quat[1] * rotn[0] + quat[2] * rotn[3] - quat[3] * rotn[2];
+	result[2] = quat[0] * rotn[2] + quat[2] * rotn[0] + quat[3] * rotn[1] - quat[1] * rotn[3];
+	result[3] = quat[0] * rotn[3] + quat[3] * rotn[0] + quat[1] * rotn[2] - quat[2] * rotn[1];
+}
+
+this._transferInertia = function _transferInertia( view, ps, pitch, roll ) {
+	var that = _transferInertia;
+	var wr = (that.wr = that.wr || worldScripts.reversecontrol);
+	var inertiaFn = (that.inertiaFn = that.inertiaFn || wr._inInertialMotion);	// fn ref
+	var nearZero = (that.nearZero = that.nearZero || wr.$nearZero);				// static var
+	var lastView = (that.lastView = that.lastView || &#39;VIEW_FORWARD&#39;);	// store viewDirection to know where changed from
+
+	var rpRatio = wr.$ReverseControl_FCB.rpRatio;
+	var abs_pitch = pitch &lt; 0 ? -pitch : pitch;
+	var abs_roll = roll &lt; 0 ? -roll : roll;
+
+	var newPitch, newRoll;
+	switch( lastView ) {
+		case &quot;VIEW_FORWARD&quot;:
+			switch( view ) {
+				case &quot;VIEW_AFT&quot;:
+					newPitch = abs_pitch &gt; nearZero ? -pitch : 0;
+					newRoll =  abs_roll &gt; nearZero  ? -roll  : 0;
+					break;
+				case &quot;VIEW_PORT&quot;:
+					newPitch = abs_roll &gt; nearZero ? roll / rpRatio   : 0;
+					newRoll = abs_pitch &gt; nearZero ? -pitch * rpRatio : 0;
+					break;
+				case &quot;VIEW_STARBOARD&quot;:
+					newPitch = abs_roll &gt; nearZero ? -roll / rpRatio : 0;
+					newRoll = abs_pitch &gt; nearZero ? pitch * rpRatio : 0;
+					break;
+				default:	// needed in case hit F5 &lt;d&#39;Oh&gt;
+					return;
+			}
+			break;
+		case &quot;VIEW_AFT&quot;:
+			switch( view ) {
+				case &quot;VIEW_FORWARD&quot;:
+					newPitch = abs_pitch &gt; nearZero ? -pitch : 0;
+					newRoll =  abs_roll &gt; nearZero  ? -roll  : 0;
+					break;
+				case &quot;VIEW_PORT&quot;:
+					newPitch = abs_roll &gt; nearZero ? -roll / rpRatio : 0;
+					newRoll = abs_pitch &gt; nearZero ? pitch * rpRatio : 0;
+					break;
+				case &quot;VIEW_STARBOARD&quot;:
+					newPitch = abs_roll &gt; nearZero ? roll / rpRatio   : 0;
+					newRoll = abs_pitch &gt; nearZero ? -pitch * rpRatio : 0;
+					break;
+				default:
+					return;
+			}
+			break;
+		case &quot;VIEW_PORT&quot;:
+			switch( view ) {
+				case &quot;VIEW_FORWARD&quot;:
+					newPitch = abs_roll &gt; nearZero ? -roll /rpRatio  : 0;
+					newRoll = abs_pitch &gt; nearZero ? pitch * rpRatio : 0;
+					break;
+				case &quot;VIEW_AFT&quot;:
+					newPitch = abs_roll &gt; nearZero ? roll / rpRatio   : 0;
+					newRoll = abs_pitch &gt; nearZero ? -pitch * rpRatio : 0;
+					break;
+				case &quot;VIEW_STARBOARD&quot;:
+					newPitch = abs_pitch &gt; nearZero ? -pitch : 0;
+					newRoll =  abs_roll &gt; nearZero  ? -roll  : 0;
+					break;
+				default:
+					return;
+			}
+			break;
+		case &quot;VIEW_STARBOARD&quot;:
+			switch( view ) {
+				case &quot;VIEW_FORWARD&quot;:
+					newPitch = abs_roll &gt; nearZero ? roll / rpRatio   : 0;
+					newRoll = abs_pitch &gt; nearZero ? -pitch * rpRatio : 0;
+					break;
+				case &quot;VIEW_AFT&quot;:
+					newPitch = abs_roll &gt; nearZero ? -roll / rpRatio : 0;
+					newRoll = abs_pitch &gt; nearZero ? pitch * rpRatio : 0;
+					break;
+				case &quot;VIEW_PORT&quot;:
+					newPitch = abs_pitch &gt; nearZero ? -pitch : 0;
+					newRoll =  abs_roll &gt; nearZero  ? -roll  : 0;
+					break;
+				default:
+					return;
+			}
+			break;
+	}
+	inertiaFn.pitch = ps.pitch = newPitch;	// save inertia values
+	inertiaFn.roll = ps.roll = newRoll;
+	that.lastView = view;
+}
+
+this._inInertialMotion = function _inInertialMotion( delta, ps, view, isInertial, pitch, roll, yaw ) {
+	/* core game differs in how it handles input from joystick/gamepad vs keyboard
+	  - when you reverse an axis, say pitch down from an up pitch, the stick handlers reverse from the
+		current value through zero and beyond to the opposite maxPitch.  When using the keyboard, a reverse
+		immediately sets the rate to zero and proceeds to the maxPitch.  This has the unfortunate consequence
+		of cancelling any inertia.  This function attempts to detect when a keyboard is being used and
+		simulate the inertial effects that one sees when using a stick.  Stick users should not be
+		impacted in any way (hopefully) :)
+	*/
+	var that = _inInertialMotion;
+	var wr = (that.wr = that.wr || worldScripts.reversecontrol);
+	var nearZero = (that.nearZero = that.nearZero || wr.$nearZero);
+	var maxPitch = that.maxPitch = that.maxPitch === undefined ? player.ship.maxPitch : that.maxPitch;	// ship values that may chang
+	var maxRoll = that.maxRoll = that.maxRoll === undefined ? player.ship.maxRoll : that.maxRoll;		//  - updated 1/sec in fcb
+	var maxYaw = that.maxYaw = that.maxYaw === undefined ? player.ship.maxYaw : that.maxYaw;
+	var keyboardInput = that.keyboardInput = that.keyboardInput === undefined ? 0 : that.keyboardInput;
+	
+/*	for keyboard: 									(src: PlayerEntityControls.m)
+	  [self increase_flight_roll:isCtrlDown ? flightArrowKeyPrecisionFactor*roll_dampner*roll_delta : delta_t*roll_delta];
+	  ...
+	  if (!rolling) ... [self decrease_flight_roll:roll_dampner];
+	where #define ROLL_DAMPING_FACTOR		1.0f 	(src: PlayerEntity.h)
+		  roll_delta = 2.0f * max_flight_roll; 		(src: PlayerEntity.m)
+		  roll_dampner = ROLL_DAMPING_FACTOR * delta_t;
+	- same goes for pitch &amp; yaw
+	- so change in axis is scaled to full +- range (thus 0 to full motion is thus 0.5 sec for all axes)
+	- thus, max change frame to frame, maxDelta, is:  delta * 2 * max&lt;axis&gt;
+*/
+	function adjustKeyInput( axis, prev, curr, abs_curr, max, flag ) {		
+		if( prev !== 0 ) {									// prev is set == 0 when it becomes insignificant
+			var finished = false;
+			let abs_prev = prev &lt; 0 ? -prev : prev;
+			if( abs_curr &gt; nearZero ) {
+				let diff = abs_prev - abs_curr;
+				let abs_diff = diff &lt; 0 ? -diff : diff;
+				let maxDelta = delta * 2 * max + nearZero;
+				if( curr * prev &lt; 0							// change direction 
+						||	(abs_diff &gt; maxDelta &amp;&amp;			//   or keyboard input (core setting to zero!)
+							 maxDelta + nearZero &gt;= abs_curr) ) {
+					keyboardInput = that.keyboardInput |= flag;
+					let newValue = abs_curr &gt; maxDelta ? maxDelta : abs_curr; // use core&#39;s value except on change of view
+					curr = that[axis] = ps[axis] = prev + newValue * (prev &gt; 0 ? -1 : 1);
+					finished = curr * prev &lt; 0;				// exit when inertia has been bled off, ie. cross zero
+				} else {									// input agrees w/ inertial direction
+					finished = true;
+				}
+			} else if( curr === 0 ) {						// zero =&gt; no input or both axis keys pressed, so dampen
+				keyboardInput = that.keyboardInput |= flag;
+				curr = that[axis] = ps[axis] = prev + delta * (prev &gt; 0 ? -1 : 1);
+				finished = abs_prev &lt; delta;
+			}
+			if( finished )	{					
+				prev = that[axis] = 0;
+				keyboardInput = that.keyboardInput &amp;= ~flag;
+			}
+		}
+	}
+
+	var PITCH = 1, ROLL = 2, YAW = 4, 						// bitflags for axes
+		prevPitch, abs_pitch, prevRoll, abs_roll, prevYaw, abs_yaw;
+	abs_pitch = pitch &lt; 0 ? -pitch : pitch;
+	abs_roll = roll &lt; 0 ? -roll : roll;
+	abs_yaw = yaw &lt; 0 ? -yaw : yaw;
+	prevPitch = that.pitch === undefined ? 0 : that.pitch;	// load saved values from previous frame
+	prevRoll = that.roll === undefined ? 0 : that.roll;
+	prevYaw = that.yaw === undefined ? 0 : that.yaw;
+	that.pitch = abs_pitch &gt; nearZero ? pitch : 0;			// only save significant pitch
+	that.roll = abs_roll &gt; nearZero ? roll : 0;
+	that.yaw = abs_yaw &gt; nearZero ? yaw : 0;
+	adjustKeyInput( &#39;pitch&#39;, prevPitch, pitch, abs_pitch, maxPitch, PITCH );
+	adjustKeyInput( &#39;roll&#39;, prevRoll, roll, abs_roll, maxRoll, ROLL );
+	adjustKeyInput( &#39;yaw&#39;, prevYaw, yaw, abs_yaw, maxYaw, YAW );
+	if( !keyboardInput || (prevPitch === 0 &amp;&amp; prevRoll === 0 &amp;&amp; prevYaw === 0) ) {
+		keyboardInput = that.keyboardInput = 0;
+		that.pitch = that.roll = that.yaw = 0;
+		return false;
+	}
+	return keyboardInput;
+}
+
+/*		(function() {	// IIFE for neither
+var wr = worldScripts.reversecontrol;
+wr.$Stop( true );
+wr.$ReverseControl_FCB.revCtrlOn = wr.$ReverseControlOn = false;
+wr.$ReverseControl_FCB.inertiaOn = wr.$InertiaOn = false;
+console.clearConsole();
+log(&#39;ReverseControlOn = &#39; + wr.$ReverseControlOn + &#39;, InertiaOn = &#39; + wr.$InertiaOn + 
+	&#39;, FCB &#39; + (isValidFrameCallback(wr.$ReverseControlFCB) ? &#39;is running&#39; : &#39;not registered&#39;) );
+})() //*/
+
+/*		(function() {	// IIFE for ReverseControl only
+var wr = worldScripts.reversecontrol;
+wr.$Stop( true );
+wr.$ReverseControl_FCB.revCtrlOn = wr.$ReverseControlOn = true;
+wr.$ReverseControl_FCB.inertiaOn = wr.$InertiaOn = false;
+if( player.ship.viewDirection !== &#39;VIEW_FORWARD&#39; )
+	wr.$ReverseControlFCB = addFrameCallback( wr.$ReverseControl_FCB.bind(wr) );
+console.clearConsole();
+log(&#39;ReverseControlOn = &#39; + wr.$ReverseControlOn + &#39;, InertiaOn = &#39; + wr.$InertiaOn +
+	&#39;, FCB &#39; + (isValidFrameCallback(wr.$ReverseControlFCB) ? &#39;is running&#39; : &#39;not registered&#39;) );
+})() //*/
+
+/*		(function() {	// IIFE for Inertia only
+var wr = worldScripts.reversecontrol;
+wr.$Stop( true );
+wr.$ReverseControl_FCB.revCtrlOn = wr.$ReverseControlOn = false;
+wr.$ReverseControl_FCB.inertiaOn = wr.$InertiaOn = true;
+wr.$versionCheck();
+if( wr.$InertiaOn )
+	wr.$ReverseControlFCB = addFrameCallback( wr.$ReverseControl_FCB.bind(wr) );
+console.clearConsole();
+log(&#39;ReverseControlOn = &#39; + wr.$ReverseControlOn + &#39;, InertiaOn = &#39; + wr.$InertiaOn +
+	&#39;, FCB &#39; + (isValidFrameCallback(wr.$ReverseControlFCB) ? &#39;is running&#39; : &#39;not registered&#39;) );
+})() //*/
+
+/*		(function() {	// IIFE for both
+var wr = worldScripts.reversecontrol;
+wr.$Stop( true );
+wr.$ReverseControl_FCB.revCtrlOn = wr.$ReverseControlOn = true;
+wr.$ReverseControl_FCB.inertiaOn = wr.$InertiaOn = true;
+wr.$versionCheck();
+if( wr.$InertiaOn )
+	wr.$ReverseControlFCB = addFrameCallback( wr.$ReverseControl_FCB.bind(wr) );
+console.clearConsole();
+log(&#39;ReverseControlOn = &#39; + wr.$ReverseControlOn + &#39;, InertiaOn = &#39; + wr.$InertiaOn +
+	&#39;, FCB &#39; + (isValidFrameCallback(wr.$ReverseControlFCB) ? &#39;is running&#39; : &#39;not registered&#39;) );
+})() //*/
+
+// 		console.script.wr = worldScripts.reversecontrol;
+// 		console.script.ps = player.ship;
+//		wr.$ReverseControlOn = true;
+//		wr.$ReverseControlOn = false;
+//		wr.$InertiaOn = true;
+//		wr.$InertiaOn = false;
+//		wr.$ReverseControlFCB
+//		:time wr.$ReverseControl_FCB( 0.02 )
+//		log(&#39;ReverseControlOn = &#39; + wr.$ReverseControlOn + &#39;, InertiaOn = &#39; + wr.$InertiaOn );
+
+/*		(function() {	// IIFE for debug console
+var wr = worldScripts.reversecontrol;
+wr.$Stop( true );
+if( wr.$InertiaOn || player.ship.viewDirection !== &#39;VIEW_FORWARD&#39; )
+	wr.$ReverseControlFCB = addFrameCallback( wr.$ReverseControl_FCB.bind(wr) );
+console.clearConsole();
+log(&#39;ReverseControlOn = &#39; + wr.$ReverseControlOn + &#39;, InertiaOn = &#39; + wr.$InertiaOn +
+	&#39;, FCB &#39; + (isValidFrameCallback(wr.$ReverseControlFCB) ? &#39;is running&#39; : &#39;not registered&#39;) );
+})() //*/
+
+
+//ReverseControl methods
+this.$ReverseControl_FCB = function ReverseControl_FCB( delta ) { //FrameCallBack
+	var that = ReverseControl_FCB;
+	var wr = (that.wr = that.wr || worldScripts.reversecontrol);
+	var _rotate_about_axis = (that._rotate_about_axis = that._rotate_about_axis || wr._rotate_about_axis);	// fn ref
+	var _inInertialMotion = (that._inInertialMotion = that._inInertialMotion || wr._inInertialMotion);		//  &quot;
+	var nearZero = (that.nearZero = that.nearZero || wr.$nearZero);				// static var
+	var revCtrlOn = (that.revCtrlOn = that.revCtrlOn || wr.$ReverseControlOn);	// static var&#39;s (can change in stn but new fcb created)
+	var inertiaOn = (that.inertiaOn = that.inertiaOn || wr.$InertiaOn);			//  &quot;
+	var orient = (that.orient = that.orient || []);	// working quaternion
+	var step1 = (that.step1 = that.step1 || []);	// working vector
+	var step2 = (that.step2 = that.step2 || []);	//	&quot;
+	var prevVR = (that.prevVR = that.prevVR || []);	// vectorRight from previous frame
+	var prevVF = (that.prevVF = that.prevVF || []);	// vectorForward &quot;
+	var prevVU = (that.prevVU = that.prevVU || []);	// vectorUp      &quot;
+	var prevPitch = that.prevPitch = that.prevPitch === undefined ? 0 : that.prevPitch;	// pitch from previous frame
+	var prevRoll = that.prevRoll = that.prevRoll === undefined ? 0 : that.prevRoll;		// roll &quot;
+	var prevYaw = that.prevYaw = that.prevYaw === undefined ? 0 : that.prevYaw;			// yaw  &quot;
+	var isInertial = that.isInertial = that.isInertial === undefined ? 0 : that.isInertial;	// flag for input override
+	var sumDelta = that.sumDelta = that.sumDelta === undefined ? null : that.sumDelta;			// counter for per second updates (null as used as flag for 1st time)
+	var lastView = that.lastView = that.lastView === lastView ? &#39;VIEW_FORWARD&#39; : that.lastView;// to separate view chg&#39;s from reversals
+	var axesWritable = that.axesWritable = that.axesWritable === undefined ? wr.$AxesWritable : that.axesWritable;	
+	// - flag for compatible version (axis writability only supported starting in 1.87)
+	var rpRatio = (that.rpRatio = that.rpRatio || 2);	// relative difference in angular speed of roll vs pitch
+	// - makes motion consistent (closed loophole where you could pitch faster than maxPitch by switching view to port/starboard and rolling)
+
+	function copy_vector( a, b ) { 							// a -&gt; b
+		b[0] = a[0];
+		b[1] = a[1];
+		b[2] = a[2];
+	}
+	function copy_quaternion( a, b ) {						// a -&gt; b
+		b[0] = a[0];
+		b[1] = a[1];
+		b[2] = a[2];
+		b[3] = a[3];
+	}
+	function checkReversal( axis, prev, curr, abs_curr, flag ) {
+		let abs_prev = prev &lt; 0 ? -prev : prev;
+		if( abs_prev &lt; nearZero ) return;
+		if( prev * curr &lt; 0 || curr === 0 ) { 				// different signs or zero =&gt; no input or both axis keys pressed
+			_inInertialMotion[axis] = prev;					// save inertia values
+			_inInertialMotion.keyboardInput &amp;= ~flag;		// reset flag (determined in _inInertialMotion)
+			isInertial = that.isInertial |= flag;			// set flag for axis
+		}
+	}
+    var PITCH = 1, ROLL = 2, YAW = 4, 		// bitflags for axes
+		angle, ps = player.ship;
+    if( ps &amp;&amp; ps.isValid &amp;&amp; !ps.docked &amp;&amp; (revCtrlOn || inertiaOn) &amp;&amp; ps.AI != &quot;dockingAI.plist&quot; ) {
+		var origPitch, pitch, abs_pitch, origRoll, roll, abs_roll, yaw, abs_yaw,
+			view = ps.viewDirection;
+		origPitch = pitch = ps.pitch;
+		origRoll = roll = ps.roll;
+		yaw = ps.yaw;
+		if( sumDelta === null ) { 			// 1st time thru, ie. 1st frame in this view
+			that.sumDelta = 1;				// force update of max values
+			copy_vector( ps.vectorForward, prevVF )
+			copy_vector( ps.vectorRight, prevVR )
+			copy_vector( ps.vectorUp, prevVU )
+			prevPitch = pitch;
+			prevRoll = roll;
+			prevYaw = yaw;
+		}
+		if( sumDelta &gt;= 1 ) {				// limit refreshing values to 1/second
+			that.sumDelta = 0;				//  - are periodically updated to detect change from equipment, battle damage or oxp&#39;s
+			let maxRoll = ps.maxRoll;
+			let maxPitch = ps.maxPitch;
+			rpRatio = that.rpRatio = maxRoll / maxPitch;
+			_inInertialMotion.maxRoll = maxRoll;
+			_inInertialMotion.maxPitch = maxPitch;
+			_inInertialMotion.maxYaw = ps.maxYaw;
+		}
+		that.sumDelta += delta;
+		abs_pitch = pitch &lt; 0 ? -pitch : pitch;
+		abs_roll = roll &lt; 0 ? -roll : roll;
+		abs_yaw = yaw &lt; 0 ? -yaw : yaw;
+		if( inertiaOn &amp;&amp; axesWritable ) {
+			if( view === that.lastView ) {	// must separate view chgs &amp; reversals else they could cancel each other
+				checkReversal( &#39;pitch&#39;, prevPitch, pitch, abs_pitch, PITCH );
+				checkReversal( &#39;roll&#39;, prevRoll, roll, abs_roll, ROLL );
+				checkReversal( &#39;yaw&#39;, prevYaw, yaw, abs_yaw, YAW );
+			}
+			that.lastView = view;
+		}
+		if( isInertial !== 0 &amp;&amp; axesWritable ) {  	// delay correcting until inertia bleeds off
+			let result = _inInertialMotion( delta, ps, view, isInertial, pitch, roll, yaw );
+			if( result === false ) {
+				isInertial = that.isInertial = 0;	// ending inertial phase
+			} else {
+				if( result &amp; PITCH ) {
+					pitch = _inInertialMotion.pitch;
+					abs_pitch = pitch &lt; 0 ? -pitch : pitch;
+				}
+				if( result &amp; ROLL ) {
+					roll = _inInertialMotion.roll;
+					abs_roll = roll &lt; 0 ? -roll : roll;
+				}
+				if( result &amp; YAW ) {
+					yaw = _inInertialMotion.yaw;
+					abs_yaw = yaw &lt; 0 ? -yaw : yaw;
+				}
+			}
+		}
+		if( abs_pitch &gt; nearZero || abs_roll &gt; nearZero || (isInertial &amp; YAW &amp;&amp; abs_yaw &gt; nearZero) ) {
+			// yaw treated only on reversal, as it doesn&#39;t change from one view to another
+			copy_quaternion( ps.orientation, orient );
+			let setOrientation = false, 
+				lastQuat = orient;		// each view alternates step1, step2, so _rotate_about_axis always gets diff quats
+			switch( view ) {
+				case &quot;VIEW_FORWARD&quot;: 	// aligns w/ input, so only concerned w/ inertia				
+					if( abs_pitch &gt; nearZero &amp;&amp; isInertial &amp; PITCH ) {
+						angle = -pitch * delta;
+						_rotate_about_axis(lastQuat, prevVR, angle, lastQuat = step1);
+						setOrientation = true;
+					}
+					if( abs_roll &gt; nearZero &amp;&amp; isInertial &amp; ROLL) {
+						angle = -roll * delta;
+						_rotate_about_axis(lastQuat, prevVF, angle, lastQuat = step2);
+						setOrientation = true;
+					}
+					break;
+				case &quot;VIEW_AFT&quot;:
+					if( abs_pitch &gt; nearZero &amp;&amp; (revCtrlOn || isInertial &amp; PITCH) ) {
+						angle = pitch * delta * (revCtrlOn ? 1 : -1);
+						angle *= revCtrlOn ? 2 : 1;		// 2 * incl&#39;s correcting for cmd that got us here
+						_rotate_about_axis(lastQuat, prevVR, angle, lastQuat = step1);
+						setOrientation = true;
+					}
+					if( abs_roll &gt; nearZero &amp;&amp; (revCtrlOn || isInertial &amp; ROLL) ) {
+						angle = roll * delta * (revCtrlOn ? 1 : -1);
+						angle *= revCtrlOn ? 2 : 1;		// 2 * incl&#39;s correcting for cmd that got us here
+						_rotate_about_axis(lastQuat, prevVF, angle, lastQuat = step2);
+						setOrientation = true;
+					}
+					break;
+				case &quot;VIEW_PORT&quot;:
+					// important to alternate prevVR, prevVF,...; doing prevVR, prevVF, prevVF, prevVR as before
+					// will cause center to be off vertically; but this way, only set ps.orientation once, not 4 times
+					if( abs_pitch &gt; nearZero &amp;&amp; (revCtrlOn || isInertial &amp; PITCH) ) {		//pitch -&gt; -roll
+						angle = (revCtrlOn ? origPitch : -pitch) * delta;
+						_rotate_about_axis(lastQuat, prevVR, angle, lastQuat = step1);		// - undo this frame&#39;s pitch
+						if( revCtrlOn ) {
+							angle = -pitch * delta * rpRatio;
+							_rotate_about_axis(lastQuat, prevVF, angle, lastQuat = step2);	// - apply pitch cmd as roll
+						}
+						setOrientation = true;
+/*	for dampening (no input)  						(src: PlayerEntityControls.m)
+		self decrease_flight_roll:roll_dampner]
+		roll_dampner = ROLL_DAMPING_FACTOR * delta_t; 
+		#define ROLL_DAMPING_FACTOR		1.0f  		(src: PlayerEntity.h)
+	- so time to decay to zero varies with each axis
+	- as we&#39;re swapping axes, an adjustment is needed to correct the decay time
+*/
+						let abs_prevP = prevPitch &lt; 0 ? -prevPitch : prevPitch;
+						if( abs_prevP &gt; abs_pitch &amp;&amp; axesWritable ) {	// dampening
+							let adjustment = delta - delta / rpRatio; 	// +delta (undo pitch time) - delta/rpRatio (add roll time)
+							pitch = ps.pitch = ps.pitch + adjustment * (pitch &lt; 0 ? -1 : 1); // rolling ship, lengthen dampening time
+						}
+					}
+					if( abs_roll &gt; nearZero &amp;&amp; (revCtrlOn || isInertial &amp; ROLL) ) {			//roll -&gt; pitch
+						if( revCtrlOn ) {
+							angle = roll * delta / rpRatio;
+							_rotate_about_axis(lastQuat, prevVR, angle, lastQuat = step1);	// - apply roll cmd as pitch
+						}
+						angle = (revCtrlOn ? origRoll : -roll) * delta;
+						_rotate_about_axis(lastQuat, prevVF, angle, lastQuat = step2);		// - undo this frame&#39;s roll
+						setOrientation = true;
+						let abs_prevR = prevRoll &lt; 0 ? -prevRoll : prevRoll;
+						if( abs_prevR &gt; abs_roll &amp;&amp; axesWritable ) { 	// dampening
+							let adjustment = delta - delta * rpRatio; 	// +delta (undo roll time) - delta * rpRatio (add pitch time)
+							roll = ps.roll = ps.roll + adjustment * (roll &lt; 0 ? -1 : 1); 	// rolling ship, shorten dampening time
+						}
+					}
+					break;
+				case &quot;VIEW_STARBOARD&quot;:
+					// important to alternate prevVR, prevVF,...; doing prevVR, prevVF, prevVF, prevVR as before
+					// will cause center to be off vertically; but this way, only set ps.orientation once, not 4 times
+					if( abs_pitch &gt; nearZero &amp;&amp; (revCtrlOn || isInertial &amp; PITCH) ) {		//pitch -&gt; -roll
+						angle = (revCtrlOn ? origPitch : -pitch) * delta;
+						_rotate_about_axis(lastQuat, prevVR, angle, lastQuat = step1); 		// - undo this frame&#39;s pitch
+						if( revCtrlOn ) {
+							angle = pitch * delta * rpRatio;
+							_rotate_about_axis(lastQuat, prevVF, angle, lastQuat = step2);	// - apply pitch cmd as roll
+						}
+						setOrientation = true;
+						let abs_prevP = prevPitch &lt; 0 ? -prevPitch : prevPitch;
+						if( abs_prevP &gt; abs_pitch &amp;&amp; axesWritable ) { 	// dampening
+							let adjustment = delta - delta / rpRatio; 	// +delta (undo pitch time) - delta/rpRatio (add roll time)
+							pitch = ps.pitch = ps.pitch + adjustment * (pitch &lt; 0 ? -1 : 1); // rolling ship, lengthen dampening time
+						}
+					}
+					if( abs_roll &gt; nearZero &amp;&amp; (revCtrlOn || isInertial &amp; ROLL) ) {			//roll -&gt; pitch
+						if( revCtrlOn ) {
+							angle = -roll * delta / rpRatio;
+							_rotate_about_axis(lastQuat, prevVR, angle, lastQuat = step1);	// - apply roll cmd as pitch
+						}
+						angle = (revCtrlOn ? origRoll : -roll) * delta;
+						_rotate_about_axis(lastQuat, prevVF, angle, lastQuat = step2);		// - undo this frame&#39;s roll
+						setOrientation = true;
+						let abs_prevR = prevRoll &lt; 0 ? -prevRoll : prevRoll;
+						if( abs_prevR &gt; abs_roll &amp;&amp; axesWritable ) { 	// dampening
+							let adjustment = delta - delta * rpRatio; 	// +delta (undo roll time) - delta * rpRatio (add pitch time)
+							roll = ps.roll = ps.roll + adjustment * (roll &lt; 0 ? -1 : 1); 	// pitching ship, shorten dampening time
+						}
+					}
+					break;
+				default:
+					wr.$Stop( !wr.$InertiaOn );
+			}
+			if( isInertial &amp; YAW &amp;&amp; abs_yaw &gt; nearZero ) {	// put result in orient to keep it simple
+				angle = -yaw * delta;
+				_rotate_about_axis(lastQuat, prevVU, angle, lastQuat = orient);
+				setOrientation = true;
+			}
+			if( setOrientation ) ps.orientation = lastQuat;
+		}
+		copy_vector( ps.vectorForward, prevVF )
+		copy_vector( ps.vectorRight, prevVR )
+		copy_vector( ps.vectorUp, prevVU )
+		that.prevPitch = pitch;
+		that.prevRoll = roll;
+		that.prevYaw = yaw;
+    } else {
+		wr.$Stop( true );
+    }
+}
+
+
+this.$Stop = function Stop( force ) {
+	var that = Stop;
+	var wr = (that.wr = that.wr || worldScripts.reversecontrol);
+
+	if( force || !wr.$InertiaOn ) {
+		var rcFCB = wr.$ReverseControlFCB;
+		if( rcFCB &amp;&amp; isValidFrameCallback( rcFCB ) ) {
+			removeFrameCallback( rcFCB );
+			wr.$ReverseControlFCB = null;
+		}
+		wr.$ReverseControl_FCB.sumDelta = null; // internal flag to reload values
+	}
+}
+
+/*
+this.$ReverseControl_FCB = function( delta ) { //FrameCallBack, improved by cag
+    var ps = player.ship;
+    var a, c = null;
+    if( ps &amp;&amp; ps.isValid &amp;&amp; !ps.docked &amp;&amp; this.$ReverseControlOn &amp;&amp; ps.AI != &quot;dockingAI.plist&quot; ) {
+	var prevori = this.$ReverseControlPrevOri;
+	if( prevori ) switch ( ps.viewDirection ) {
+	    case &quot;VIEW_AFT&quot;:
+		//reverse up-down
+		a = ps.pitch * delta;
+		c = prevori.vectorRight();
+		ps.orientation = ps.orientation.rotate( c, 2 * a ); // 2 * incl&#39;s correcting for pitch cmd that got us here
+		//reverse roll
+		a = ps.roll * delta;
+		c = prevori.vectorForward();
+		ps.orientation = ps.orientation.rotate( c, 2 * a ); // 2 * incl&#39;s correcting for roll cmd that got us here
+		break;
+	    case &quot;VIEW_PORT&quot;:
+		//pitch -&gt; roll
+		a = ps.pitch * delta;
+		c = prevori.vectorRight();
+		ps.orientation = ps.orientation.rotate( c, 1 * a ); // - 1st undo this frame&#39;s pitch
+		c = prevori.vectorForward();
+		ps.orientation = ps.orientation.rotate( c, -1 * a ); // - now apply pitch cmd as roll
+		//roll -&gt; -pitch
+		a = ps.roll * delta;
+		c = prevori.vectorForward();
+		ps.orientation = ps.orientation.rotate( c, 1 * a ); // - 1st undo this frame&#39;s roll
+		c = prevori.vectorRight();
+		ps.orientation = ps.orientation.rotate( c, 1 * a ); // - now apply roll cmd as pitch
+		break;
+	    case &quot;VIEW_STARBOARD&quot;:
+		//pitch -&gt; roll
+		a = ps.pitch * delta;
+		c = prevori.vectorRight();
+		ps.orientation = ps.orientation.rotate( c, 1 * a ); // - 1st undo this frame&#39;s pitch
+		c = prevori.vectorForward();
+		ps.orientation = ps.orientation.rotate( c, 1 * a ); // - now apply pitch cmd as roll
+		//roll -&gt; -pitch
+		a = ps.roll * delta;
+		c = prevori.vectorForward();
+		ps.orientation = ps.orientation.rotate( c, 1 * a ); // - 1st undo this frame&#39;s roll
+		c = prevori.vectorRight();
+		ps.orientation = ps.orientation.rotate( c, -1 * a ); // - now apply roll cmd as pitch
+		break;
+	    default:
+		this.$Stop();
+	}
+	this.$ReverseControlPrevOri = ps.orientation;
+    } else {
+	this.$ReverseControlPrevOri = null;
+    }
+}
+
+this.$ReverseControl_FCB_old = function( delta ) { //FrameCallBack, old version
+	var ps = player.ship;
+	if( ps &amp;&amp; ps.isValid &amp;&amp; !ps.docked &amp;&amp; this.$ReverseControlOn &amp;&amp; ps.AI != &quot;dockingAI.plist&quot; ) {
+		var prevori = this.$ReverseControlPrevOri;
+		if( prevori ) switch ( ps.viewDirection ) {
+			case &quot;VIEW_AFT&quot;:
+				//reverse up-down
+				//var a = ps.heading.angleTo( prevori.vectorUp() ) - Math.PI / 2; //buggy with sniperlock
+				var a = ps.pitch * delta;
+				var c = prevori.vectorRight();
+				ps.orientation = ps.orientation.rotate( c, 2 * a );
+				//reverse roll
+				//var a = ps.orientation.vectorRight().angleTo( prevori.vectorUp() ) - Math.PI / 2; //buggy with sniperlock
+				var a = ps.roll * delta;
+				var c = prevori.vectorForward();
+				ps.orientation = ps.orientation.rotate( c, 2 * a );
+				break;
+			case &quot;VIEW_PORT&quot;:
+				//pitch -&gt; roll
+				var a = ps.pitch * delta;
+				var c = prevori.vectorForward();
+				ps.orientation = ps.orientation.rotate( c, -2 * a );
+				//roll -&gt; -pitch
+				var a = ps.roll * delta;
+				var c = prevori.vectorRight();
+				ps.orientation = ps.orientation.rotate( c, 2 * a );
+				break;
+			case &quot;VIEW_STARBOARD&quot;:
+				//pitch -&gt; -roll
+				var a = ps.pitch * delta;
+				var c = prevori.vectorForward();
+				ps.orientation = ps.orientation.rotate( c, 2 * a );
+				//roll -&gt; pitch
+				var a = ps.roll * delta;
+				var c = prevori.vectorRight();
+				ps.orientation = ps.orientation.rotate( c, -2 * a );
+				break;
+			default:
+				this.$Stop();
+		}
+		this.$ReverseControlPrevOri = ps.orientation;
+	} else {
+		this.$ReverseControlPrevOri = null;
+	}
+}
+*/
+
+}).call(this);
+
+
+
+</pre></td>
+                </tr>
+            </table>
+        </a>
+    </body>
+</html>

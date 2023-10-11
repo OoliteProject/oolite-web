@@ -1,0 +1,721 @@
+<html>
+    <head>
+        <title>Expansion Fuel Injection Cruise Control</title>
+        <link rel="stylesheet" href="../style.css">
+    </head>
+    <body>
+        <table border="0" width="100%">
+            <tr>
+                <td>Back to <a href='../index.html'>Index</a></td>
+                <td align="right"><small>Page generated: Oct 11, 2023, 3:16:49 PM</small></td>
+            </tr>
+        </table>
+
+        <h1>Expansion Fuel Injection Cruise Control</h1>
+
+        <h2>Content</h2>
+        <ul>
+          <li><a href="#warnings">Warnings</a></li>
+          <li><a href="#manifest">Manifest</a></li>
+          <li><a href="#documentation">Documentation</a></li>
+          <li><a href="#equipment">2 Equipment</a></li>
+          <li><a href="#ships">0 Ships</a></li>
+          <li><a href="#models">0 Models</a></li>
+          <li><a href="#scripts">2 Scripts</a></li>
+        </ul>
+
+          <a name="warnings">
+            <h2>Warnings</h2>
+            <ol>
+                <li>Tags mismatch between OXP Manifest and Expansion Manager at character position 0002 (RIGHT SQUARE BRACKET vs LATIN SMALL LETTER F)(&#39;[]&#39; vs &#39;[fuel injection]&#39;)</li>
+                <li>Information URL mismatch between OXP Manifest and Expansion Manager string length at character position 0</li>
+            </ol>
+          </a>
+
+        <a name="manifest">
+        <h2>Manifest</h2>
+            <table border="1">
+                <tr>
+                    <th></th>
+                    <th>from Expansion Manager's OXP list</th>
+                    <th>from Expansion Manifest</th>
+                </tr>
+                <tr>
+                    <td>Description</td>
+                    <td>Engages a fuel injection-like system that doesn&#39;t require the fuel injection key to be held down.</td>
+                    <td>Engages a fuel injection-like system that doesn&#39;t require the fuel injection key to be held down.</td>
+                </tr>
+                <tr>
+                    <td>Identifier</td>
+                    <td>oolite.oxp.phkb.FuelInjectionCruiseControl</td>
+                    <td>oolite.oxp.phkb.FuelInjectionCruiseControl</td>
+                </tr>
+                <tr>
+                    <td>Title</td>
+                    <td>Fuel Injection Cruise Control</td>
+                    <td>Fuel Injection Cruise Control</td>
+                </tr>
+                <tr>
+                    <td>Category</td>
+                    <td>Equipment</td>
+                    <td>Equipment</td>
+                </tr>
+                <tr>
+                    <td>Author</td>
+                    <td>phkb</td>
+                    <td>phkb</td>
+                </tr>
+                <tr>
+                    <td>Version</td>
+                    <td>0.7</td>
+                    <td>0.7</td>
+                </tr>
+                <tr>
+                    <td>Tags</td>
+                    <td></td>
+                    <td>fuel injection</td>
+                </tr>
+                <tr>
+                    <td>Required Oolite Version</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Maximum Oolite Version</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Required Expansions</td>
+                    <td>
+                    </td>
+                    <td>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Optional Expansions</td>
+                    <td>
+                    </td>
+                    <td>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Conflict Expansions</td>
+                    <td>
+                    </td>
+                    <td>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Information URL</td>
+                    <td><a target="_blank" href=""></a></td>
+                    <td><a target="_blank" href="">n/a</a></td>
+                </tr>
+                <tr>
+                    <td>Download URL</td>
+                    <td><a target="_blank" href="https://wiki.alioth.net/img_auth.php/1/18/FuelInjectionCruiseControl.oxz">https://wiki.alioth.net/img_auth.php/1/18/FuelInjectionCruiseControl.oxz</a></td>
+                    <td><a target="_blank" href="">n/a</a></td>
+                </tr>
+                <tr>
+                    <td>License</td>
+                    <td>CC BY-NA-SA 4.0</td>
+                    <td>CC BY-NA-SA 4.0</td>
+                </tr>
+                <tr>
+                    <td>File Size</td>
+                    <td>n/a</td>
+                </tr>
+                <tr>
+                    <td>Upload date</td>
+                    <td>1610873240</td>
+                </tr>
+            </table>
+                </a>
+
+        <a name="documentation">
+        <h2>Documentation</h2>
+        <p>Also read <a href='http://wiki.alioth.net/index.php/Fuel%20Injection%20Cruise%20Control'>http://wiki.alioth.net/index.php/Fuel%20Injection%20Cruise%20Control</a></p>
+        <h3>readme.txt</h3>
+        <pre>Fuel Injection Cruise Control
+By Nick Rogers
+
+Overview
+========
+This OXP adds primable equipment that enables a pilot to engage their fuel injectors in the same way as they can for the torus drive, that is, they can start and stop the injectors by pressing a button, rather than having to hold down the injectors key. For most joystick players this will seem unnecessary, as usually the injectors are assigned to a convenient button which can be pressed at the same time as other buttons. But for keyboard players, holding the down the injector key while attempting to steer the ship or shoot can create some very twisty hand contortions.
+
+Equipment Operations
+====================
+The &quot;Fuel Injection Cruise Control&quot; equipment item can be purchased from any TL11 system (the same as for standard fuel injectors) for 1150cr. 
+
+After purchasing, you will need to prime the equipment by pressing &quot;Shift-N&quot;, then activating it by pressing &quot;n&quot;. You must accelerate to your maximum speed before engaging the equipment. Press the &quot;n&quot; key again to de-activate the cruise control.
+
+Cruise Control can be set to auto-engage when the maximum speed is reached, by priming the equipment and pressing the &quot;b&quot;. Using Library Config, you can set a red alert and docking override for this mode, so that in those conditions, setting the speed to maximum will not auto-engage the cruise control, even if the auto-engage is on.
+
+The Fuel Injection cruise control will be automatically turned off in any of these scenarios:
+- The Torus drive is engaged.
+- The normal injectors key is pressed.
+- The player manually reduces speed.
+- The ship runs out of fuel.
+
+Note: If the normal injectors key is pressed while cruise control is active, there will be a brief slowdown while the cruise control is turned off and the normal injector function is activated.
+
+Library Config settings
+=======================
+If the Library OXP is installed the following settings are available:
+
+- Auto-engage (true/false): Setting this to true will engage the FICC without needing to prime the equipment and activating it manually (defaults to true).
+- Red alert disable auto on (true/false): Setting this to true with disable the auto-engage feature during red alert conditions (defaults to false).
+- Docking disable auto on (true/false): Setting this to true will disable the auto-engage feature during docking procedures (defaults to false).
+- Passive mode (true/false): Setting this to true will remove the primable equipment. Auto-engage will always be on in this mode (defaults to false).
+
+OXP Interfaces
+==============
+Because this OXP is simulating the injectors, the normal JavaScript property &quot;player.ship.injectorsEngaged&quot; will not return true when the cruise control is engaged. To allow other OXP&#39;s to easily determine that the cruise control is on, two properties are now set.
+
+    worldScripts.FuelInjectionCruiseControl._engaged (boolean)
+    player.ship.script._ficcEngaged (boolean)
+
+Scripts may check either of these settings to determine whether cruise control is active.
+
+License
+=======
+This work is licensed under the Creative Commons Attribution-Noncommercial-Share Alike 4.0 Unported License. To view a copy of this license, visit http://creativecommons.org/licenses/by-nc-sa/4.0/
+
+Thanks to Damocles Edge for suggesting the equipment in the first place, and for excellent bug testing, and to Norby for suggesting some different methods of implementing the solution.
+Thanks to Milo for the improved QCharger integration code.
+
+Version History
+===============
+0.7
+- Improvement to QCharger integration. FICC will now only engage at 100% throttle, QCharger at 95-99%.
+- Changed auto-engage default state to &quot;true&quot;.
+- Added a &quot;passive&quot; mode (selected via Library Config) that removes the requirement for primable equipment.
+
+0.6
+- Bug fix for Surjector integration.
+
+0.5
+- Acceleration up to injector speed will now vary based on thrust level of ship (ie Asp MkII will accelerate faster than an Anaconda).
+- Pressing injectors key when cruise control is engaged will now avoid the &quot;sliding&quot; issue during transition.
+- Simplified setting of velocity vectors.
+- Improved integration with Surjectors.
+
+0.4
+- Cruise control injector speed is now equivalent to normal injector speed.
+- Fixed issue where &quot;sliding&quot; could occur when slowing down.
+- Slowed acceleration up to injector speed will now only happen if current speed is less than injector speed.
+- Added some flags to allow other OXP&#39;s to easily determine when the FICC is engaged.
+- Turning off auto-engage mode when the cruise control is active will now turn off the cruise control as well.
+- Auto-engage mode is now saved between sessions, and can be set with Library Config.
+- Code improvements as suggested by Norby.
+
+0.3
+- Acceleration up to injector speed is now slower, similar to applying injectors normally.
+- Removed debug code.
+- Bug fixes.
+
+0.2
+- Added player message when attempting to engage CC while in Torus drive.
+- Added options to auto-engage CC when max speed attained using mode key (b). Can be disabled in red alert and when docking using Library Config.
+- Made compatible with Q-Charger.
+- Made compatible with Surjectors.
+
+0.1
+- Initial release.</pre>
+        </a>
+
+        <a name="equipment">          
+        <h2>Equipment</h2>
+            <table>
+                <tr>
+                    <th>Name</th>
+                    <th>Visible</th>
+                    <th>Cost [deci-credits]</th>
+                    <th>Tech-Level</th>
+                </tr>
+                <tr>
+                    <td><a href="../equipment/EQ_FUEL_INJECTION_CRUISECONTROL.html">Fuel Injection Cruise Control</a></td>
+                    <td>yes</td>
+                    <td align="right">11500</td>
+                    <td align="center">11+</td>
+                </tr>
+                <tr>
+                    <td><a href="../equipment/EQ_FUEL_INJECTION_CRUISECONTROL_PASSIVE.html">Fuel Injection Cruise Control</a></td>
+                    <td>yes</td>
+                    <td align="right">11500</td>
+                    <td align="center">11+</td>
+                </tr>
+            </table>
+        </a>
+
+        <a name="ships">    
+        <h2>Ships</h2>
+            This expansion declares no ships. This may be related to warnings.
+        </a>
+
+        <a name="models">    
+        <h2>Models</h2>
+            This expansion declares no models. This may be related to warnings.
+        </a>
+
+        <a name="scripts">    
+        <h2>Scripts</h2>
+            <table>
+                <tr>
+                    <th>Path</th>
+                </tr>
+                <tr>
+                    <td valign="top">Scripts/ficc_conditions.js</td>
+                    <td><pre>&quot;use strict&quot;;
+this.name = &quot;FuelInjectionCruiseControl_Conditions&quot;;
+this.author = &quot;phkb&quot;;
+this.copyright = &quot;2020 phkb&quot;;
+this.description = &quot;Condition script for FICC equipment items&quot;;
+this.licence = &quot;CC BY-NC-SA 4.0&quot;;
+
+//-------------------------------------------------------------------------------------------------------------
+this.allowAwardEquipment = function(equipment, ship, context) {
+	if (context === &quot;scripted&quot;) return true;
+	// just want to hide the &quot;passive&quot; item from the purchase screen
+	// passive mode selected elsewhere
+    if (equipment === &quot;EQ_FUEL_INJECTION_CRUISECONTROL_PASSIVE&quot;) return false;
+    return true;
+}
+</pre></td>
+                </tr>
+                <tr>
+                    <td valign="top">Scripts/ficc_equipment.js</td>
+                    <td><pre>&quot;use strict&quot;;
+this.name = &quot;FuelInjectionCruiseControl&quot;;
+this.author = &quot;phkb&quot;;
+this.copyright = &quot;2018 phkb&quot;;
+this.description = &quot;Mode/Activation code for the FICC equipment&quot;;
+this.licence = &quot;CC BY-NC-SA 4.0&quot;;
+
+this._bgs = false; // is BGS installed?
+this._qcharger = false; // is the Q-Charger OXP installed?
+this._surjectors = false; // is the Surjectors OXP installed?
+this._engaged = false;
+
+this._autoEngage = true;
+this._disableAutoOnRedAlert = false;
+this._disableAutoOnDocking = false;
+this._passive = false;
+this._trueValues = [&quot;yes&quot;, &quot;1&quot;, 1, &quot;true&quot;, true];
+
+/*
+	TODO:
+		Can we get the space dust effect to work the same as it does for normal injectors?
+		Chase mode - match speed to target, or match speed when within 10km of target?
+*/
+
+// Library config
+this._libraryConfig = {
+	Name: this.name,
+	Alias: &quot;Fuel Injection Cruise Control&quot;,
+	Display: &quot;Config&quot;,
+	Alive: &quot;_libraryConfig&quot;,
+	Notify: &quot;$onChange&quot;,
+	Bool: {
+		B0: {
+			Name: &quot;_autoEngage&quot;,
+			Def: true,
+			Desc: &quot;Auto-engage FICC&quot;
+		},
+		B1: {
+			Name: &quot;_disableAutoOnRedAlert&quot;,
+			Def: false,
+			Desc: &quot;Red alert disable auto on&quot;
+		},
+		B2: {
+			Name: &quot;_disableAutoOnDocking&quot;,
+			Def: false,
+			Desc: &quot;Docking disable auto on&quot;
+		},
+        B3: {
+            Name: &quot;_passive&quot;,
+            Def: false,
+            Desc: &quot;Passive mode&quot;
+        },
+		Info: &quot;0 - Auto-engage FICC when maximum speed reached.\n1 - Disable auto on feature during red alert condition.\n2 - Disable auto on feature during docking.\n3 - Passive mode (no primable equipment required)&quot;
+	},
+};
+
+//-------------------------------------------------------------------------------------------------------------
+this.$onChange = function () {
+	var p = player.ship;
+	var w = worldScripts.FuelInjectionCruiseControl;
+	if (w._passive == true) {
+		if (p.equipmentStatus(&quot;EQ_FUEL_INJECTION_CRUISECONTROL&quot;) == &quot;EQUIPMENT_OK&quot;) {
+			p.removeEquipment(&quot;EQ_FUEL_INJECTION_CRUISECONTROL&quot;);
+			p.awardEquipment(&quot;EQ_FUEL_INJECTION_CRUISECONTROL_PASSIVE&quot;);
+		}
+		w._autoEngage = true; // must be on for passive mode
+		return;
+	}
+	if (w._passive == true) {
+		if (p.equipmentStatus(&quot;EQ_FUEL_INJECTION_CRUISECONTROL&quot;) == &quot;EQUIPMENT_DAMAGED&quot;) {
+			p.removeEquipment(&quot;EQ_FUEL_INJECTION_CRUISECONTROL&quot;);
+			p.awardEquipment(&quot;EQ_FUEL_INJECTION_CRUISECONTROL_PASSIVE&quot;);
+			p.setEquipmentStatus(&quot;EQ_FUEL_INJECTION_CRUISECONTROL_PASSIVE&quot;, &quot;EQUIPMENT_DAMAGED&quot;);
+		}
+		w._autoEngage = true; // must be on for passive mode
+		return;
+	}
+	if (w._passive == false &amp;&amp; p.equipmentStatus(&quot;EQ_FUEL_INJECTION_CRUISECONTROL_PASSIVE&quot;) == &quot;EQUIPMENT_OK&quot;) {
+		p.removeEquipment(&quot;EQ_FUEL_INJECTION_CRUISECONTROL_PASSIVE&quot;);
+		p.awardEquipment(&quot;EQ_FUEL_INJECTION_CRUISECONTROL&quot;);
+		return;
+	}
+	if (w._passive == true &amp;&amp; p.equipmentStatus(&quot;EQ_FUEL_INJECTION_CRUISECONTROL_PASSIVE&quot;) == &quot;EQUIPMENT_DAMAGED&quot;) {
+		p.removeEquipment(&quot;EQ_FUEL_INJECTION_CRUISECONTROL_PASSIVE&quot;);
+		p.awardEquipment(&quot;EQ_FUEL_INJECTION_CRUISECONTROL&quot;);
+		p.setEquipmentStatus(&quot;EQ_FUEL_INJECTION_CRUISECONTROL&quot;, &quot;EQUIPMENT_DAMAGED&quot;);
+		return;
+	}
+}
+
+//-------------------------------------------------------------------------------------------------------------
+this.startUpComplete = function () {
+	if (worldScripts.BGS) this._bgs = true;
+	if (worldScripts[&quot;Q-Charger&quot;]) this._qcharger = true;
+	if (worldScripts.Surjectors) this._surjectors = true;
+
+	if (missionVariables.FICC_AutoEngage) this._autoEngage = (this._trueValues.indexOf(missionVariables.FICC_AutoEngage) &gt;= 0 ? true : false);
+	// register our settings, if Lib_Config is present
+	if (worldScripts.Lib_Config) {
+		worldScripts.Lib_Config._registerSet(this._libraryConfig);
+		// only restore settings if library config is present - otherwise, we&#39;ll keep the values set in the script (in case of manual override)
+		if (missionVariables.FICC_AutoEngageRedAlertDisable) this._disableAutoOnRedAlert = (this._trueValues.indexOf(missionVariables.FICC_AutoEngageRedAlertDisable) &gt;= 0 ? true : false);
+		if (missionVariables.FICC_AutoEngageDockingDisable) this._disableAutoOnDocking = (this._trueValues.indexOf(missionVariables.FICC_AutoEngageDockingDisable) &gt;= 0 ? true : false);
+	}
+	// make sure the passive flag is set correctly
+	if ([&quot;EQUIPMENT_OK&quot;,&quot;EQUIPMENT_DAMAGED&quot;].indexOf(player.ship.equipmentStatus(&quot;EQ_FUEL_INJECTION_CRUISECONTROL_PASSIVE&quot;)) &gt;= 0) {
+		this._passive = true;
+	}
+}
+
+//-------------------------------------------------------------------------------------------------------------
+this.playerWillSaveGame = function () {
+	missionVariables.FICC_AutoEngage = this._autoEngage;
+	if (worldScripts.Lib_Config) {
+		missionVariables.FICC_AutoEngageRedAlertDisable = this._disableAutoOnRedAlert;
+		missionVariables.FICC_AutoEngageDockingDisable = this._disableAutoOnDocking;
+	} else {
+		delete missionVariables.FICC_AutoEngageRedAlertDisable;
+		delete missionVariables.FICC_AutoEngageDockingDisable;
+	}
+}
+
+//-------------------------------------------------------------------------------------------------------------
+this.shipWillLaunchFromStation = function (station) {
+	var p = player.ship, ps = p.script;
+	ps._fuelDeduct = 0;
+	ps._qcharger_toggled = false;
+	ps._surjectorsApplied = false;
+	ps._surjectors = (this._surjectors === true);
+}
+
+//-------------------------------------------------------------------------------------------------------------
+this.shipLaunchedFromStation = this.shipExitedWitchspace = function () {
+	var p = player.ship, ps = p.script;
+	ps._qchargerCheck = (this._qcharger === true &amp;&amp; p.equipmentStatus(&quot;EQ_Q-CHARGER&quot;) === &quot;EQUIPMENT_OK&quot; &amp;&amp; ((p.equipmentStatus(&quot;EQ_ENERGY_UNIT&quot;) === &quot;EQUIPMENT_OK&quot;) || (p.equipmentStatus(&quot;EQ_NAVAL_ENERGY_UNIT&quot;) === &quot;EQUIPMENT_OK&quot;)));
+	ps._ficc_ok = (p.hasEquipmentProviding(&quot;EQ_FUEL_INJECTION&quot;) === true &amp;&amp; p.hasEquipmentProviding(&quot;EQ_FICC&quot;) == true);
+	if (this._autoEngage === true) {
+		this.$startCheckSpeedFCB(true);
+	}
+}
+
+//-------------------------------------------------------------------------------------------------------------
+this.shipDied = this.shipWillDockWithStation = this.shipWillEnterWitchspace = function () {
+	if (isValidFrameCallback(this._fcbID)) removeFrameCallback(this._fcbID);
+	// turn the speed check fcb off as well, although if this is the shipWillEnterWitchspace event, it will be turned back on again when we exit witchspace
+	if (isValidFrameCallback(this._checkSpeedFCB)) removeFrameCallback(this._checkSpeedFCB);
+}
+
+//-------------------------------------------------------------------------------------------------------------
+this.playerRequestedDockingClearance = function (message) {
+	var ps = player.ship.script;
+	if (message === &quot;DOCKING_CLEARANCE_GRANTED&quot; || message === &quot;DOCKING_CLEARANCE_EXTENDED&quot; || message === &quot;DOCKING_CLEARANCE_DENIED_TRAFFIC_INBOUND&quot; || message === &quot;DOCKING_CLEARANCE_DENIED_TRAFFIC_OUTBOUND&quot;) {
+		ps._ficc_playerIsDocking = true;
+	} else {
+		ps._ficc_playerIsDocking = false;
+	}
+}
+
+//-------------------------------------------------------------------------------------------------------------
+// for oolite 1.85++
+this.playerDockingClearanceCancelled = function () {
+	var ps = player.ship.script;
+	ps._ficc_playerIsDocking = false;
+}
+
+//-------------------------------------------------------------------------------------------------------------
+// for oolite 1.83++
+this.playerDockingClearanceExpired = function () {
+	this.playerDockingClearanceCancelled();
+}
+
+//-------------------------------------------------------------------------------------------------------------
+this.equipmentAdded = function(equipmentKey) {
+	// make sure we don&#39;t end up with a mismatch on the passive flag
+	// if the player has previously set passive mode via library config, maintain that config with the right equipment
+	if (equipmentKey == &quot;EQ_FUEL_INJECTION_CRUISECONTROL&quot; &amp;&amp; this._passive == true) {
+		var p = player.ship;
+		p.removeEquipment(equipmentKey);
+		p.awardEquipment(&quot;EQ_FUEL_INJECTION_CRUISECONTROL_PASSIVE&quot;);
+	}
+}
+
+//-------------------------------------------------------------------------------------------------------------
+this.activated = function () {
+	var ficc = worldScripts.FuelInjectionCruiseControl;
+	// if it&#39;s already on, turn it off
+	if (isValidFrameCallback(ficc._fcbID)) {
+		player.consoleMessage(expandDescription(&quot;[ficc_disengaged]&quot;));
+		ficc.$playSound(&quot;engineDown&quot;);
+		ficc.$stopFCB();
+		return;
+	}
+	var p = player.ship;
+	if (p.torusEngaged) {
+		player.consoleMessage(expandDescription(&quot;[ficc_torus]&quot;));
+		return;
+	}
+	// no injectors
+	if (p.hasEquipmentProviding(&quot;EQ_FUEL_INJECTION&quot;) === false) {
+		player.consoleMessage(expandDescription(&quot;[ficc_unavailable]&quot;));
+		return;
+	}
+	// no fuel
+	if (p.fuel &lt;= 0) {
+		player.consoleMessage(expandDescription(&quot;[fuel-out]&quot;));
+		return;
+	}
+	// not at max speed
+	if (p.speed &lt; p.maxSpeed) {
+		player.consoleMessage(expandDescription(&quot;[ficc_accelerate]&quot;));
+		return;
+	}
+	// qcharger only operates if fuel is &gt;= 0.1 and there is a working energy unit (normal or naval)
+	/*if (p.equipmentStatus(&quot;EQ_Q-CHARGER&quot;) === &quot;EQUIPMENT_OK&quot; &amp;&amp;
+		(worldScripts[&quot;Q-Charger&quot;].qchargercondition === &quot;ON&quot; || (p.fuel &gt;= 0.1 &amp;&amp; (p.equipmentStatus(&quot;EQ_ENERGY_UNIT&quot;) == &quot;EQUIPMENT_DAMAGED&quot; || p.equipmentStatus(&quot;EQ_NAVAL_ENERGY_UNIT&quot;) === &quot;EQUIPMENT_DAMAGED&quot;)))) {
+		player.consoleMessage(expandDescription(&quot;[ficc_qcharger]&quot;));
+		return;
+	}*/
+	player.consoleMessage(expandDescription(&quot;[ficc_engaged]&quot;));
+	ficc.$startFCB();
+}
+
+//-------------------------------------------------------------------------------------------------------------
+this.mode = function () {
+	var ficc = worldScripts.FuelInjectionCruiseControl;
+	if (isValidFrameCallback(ficc._checkSpeedFCB)) {
+		ficc._autoEngage = false;
+		removeFrameCallback(ficc._checkSpeedFCB);
+		player.consoleMessage(expandDescription(&quot;[ficc_autoEngageOff]&quot;));
+		if (ficc._engaged) this.activated();
+	} else {
+		// start a fcb to monitor speed and auto-engage CC when max speed reached
+		ficc._autoEngage = true;
+		ficc.$startCheckSpeedFCB(false)
+	}
+}
+
+//-------------------------------------------------------------------------------------------------------------
+this.equipmentDamaged = function (equipmentKey) {
+	var p = player.ship, ps = p.script;
+	if (!ps) return; // script is undefined when player ship is destroyed
+	if (p.hasEquipmentProviding(&quot;EQ_FICC&quot;) == false || p.hasEquipmentProviding(&quot;EQ_FUEL_INJECTION&quot;) === false) {
+		ps._ficc_ok = false;
+		if (isValidFrameCallback(this._fcbID)) {
+			player.consoleMessage(expandDescription(&quot;[ficc_disengaged]&quot;));
+			this.$playSound(&quot;engineDown&quot;);
+			this.$stopFCB();
+		}
+		if (isValidFrameCallback(this._checkSpeedFCB)) removeFrameCallback(this._checkSpeedFCB);
+	}
+	// monitor when the qcharger state changes (needs either EQ_ENERGY_UNIT or EQ_NAVAL_ENERGY_UNIT in addition to its own equipment)
+	if (this._qcharger === true &amp;&amp; ps._qchargerCheck === true &amp;&amp;
+		(p.equipmentStatus(&quot;EQ_Q-CHARGER&quot;) !== &quot;EQUIPMENT_OK&quot; || (p.equipmentStatus(&quot;EQ_ENERGY_UNIT&quot;) !== &quot;EQUIPMENT_OK&quot; &amp;&amp; p.equipmentStatus(&quot;EQ_NAVAL_ENERGY_UNIT&quot;) !== &quot;EQUIPMENT_OK&quot;)) ) {
+		ps._qchargerCheck = false;
+	}
+}
+
+//-------------------------------------------------------------------------------------------------------------
+this.equipmentRepaired = function (equipmentKey) { // if in-flight repairs restored functionality
+	if (player.ship.status === &quot;STATUS_IN_FLIGHT&quot;) this.shipLaunchedFromStation(); // check FICC and Q-Charger equipment and re-activate FICC auto-engage monitoring FCB if configured to do so
+}
+
+
+//-------------------------------------------------------------------------------------------------------------
+this.$startFCB = function $startFCB() {
+	var p = player.ship;
+	p.script._soundCounter = 0;
+	p.script._accel = (p.speed / (p.maxSpeed * p.injectorSpeedFactor));
+	if (p.script._accel &gt; 1) p.script._accel = 1; // in case we&#39;re slowing from torus speed
+
+	// turn on some flags so other OXP&#39;s have an easier way of determining that the ficc is engaged
+	this._engaged = true;
+	p.script._ficcEngaged = true;
+
+	// only play the engine up sound if we are actually speeding up
+	if (p.speed &lt; (p.maxSpeed * p.injectorSpeedFactor)) this.$playSound(&quot;engineUp&quot;);
+	this.$playSound(&quot;afterburner&quot;);
+
+	// set up the frame callback
+	this._fcbID = addFrameCallback(function _fcbID(delta) {
+		var p = (_fcbID.p = _fcbID.p || player.ship), ps = (_fcbID.ps = _fcbID.ps || p.script); // cache the player.ship and player.ship.script references
+		var ficc = (_fcbID.ficc = _fcbID.ficc || worldScripts.FuelInjectionCruiseControl); // cache the worldScript reference
+		var wsq = (_fcbID.wsq = _fcbID.wsq || worldScripts[&quot;Q-Charger&quot;]); // cache the worldScript reference
+		if (!p || !p.isValid || !ps._ficc_ok) {
+			ficc.$stopFCB();
+			return;
+		}
+		if (p.torusEngaged || p.injectorsEngaged) {
+			player.consoleMessage(expandDescription(&quot;[ficc_disengaged]&quot;));
+			ficc.$stopFCB();
+			return;
+		}
+		if (p.speed &lt; p.maxSpeed) {
+			player.consoleMessage(expandDescription(&quot;[ficc_disengaged]&quot;));
+			ficc.$playSound(&quot;engineDown&quot;);
+			ficc.$stopFCB();
+			return;
+		}
+		if (p.fuel &lt;= 0) {
+			player.consoleMessage(expandDescription(&quot;[fuel-out]&quot;));
+			ficc.$playSound(&quot;engineDown&quot;);
+			ficc.$stopFCB();
+			return;
+		}
+		if (ps._qchargerCheck === true &amp;&amp; wsq) { // this is a do-once
+			if (wsq.qchargerenabled) {
+			 	// FICC takes over from Q-Charger at 100% speed (Q-Charger handles 95-99% speed)
+				ps._qcharger_toggled = true;
+				wsq.qchargerCheckTimer.stop(); // stop Q-Charger&#39;s timer while FICC is running (expectation, currently true: if the player toggles Q-Charger manually, it doesn&#39;t restart the timer)
+				//ficc.$playSound(&quot;engineDown&quot;);
+				//ficc.$stopFCB();
+				//return;
+			}
+			ps._qchargerCheck = false; // don&#39;t need to check Q-Charger again while FICC is running
+		}
+		ps._soundCounter += delta;
+		if (ps._soundCounter &gt; 1) {
+			ps._soundCounter = 0;
+			ficc.$playSound(&quot;afterburner&quot;);
+		}
+
+		// note: this method will not change the actual speed of the ship, 
+		// so I&#39;ve included the requirement that the ship must be at full speed before engaging
+
+		// velocity adjustment method
+		p.velocity = p.vectorForward.multiply(parseFloat(p.maxSpeed * p.injectorSpeedFactor) * ps._accel);
+		if (ps._accel &lt; 1) ps._accel += 0.01 + (p.maxThrust / 15000);
+		else if (ps._accel &gt; 1) ps._accel = 1;
+
+		// deduct fuel
+		var br = p.injectorBurnRate;
+
+		// surjectors changes the way injectors work at the base level, rather than at an equipment level
+		// so, if the OXP is installed, and weapons are offline, the code kicks in
+		// because we are simulating injectors here, not actually doing injectors, we need to implement the surjector code
+		if (ps._surjectors &amp;&amp; !p.weaponsOnline) {
+			ps._surjectorsApplied = true;
+			br = 0.01;
+			p.aftShield -= 0.1;
+			p.forwardShield -= 0.1;
+			p.aftShieldRechargeRate = 0;
+			p.forwardShieldRechargeRate = 0;
+			p.energyRechargeRate = 0;
+		}
+
+		ps._fuelDeduct += ((br / 10) * delta);
+		if (ps._fuelDeduct &gt; 0.1) {
+			p.fuel -= 0.1;
+			ps._fuelDeduct -= 0.1;
+			if (p.fuel &lt; 0) p.fuel = 0;
+		}
+	});
+}
+
+//-------------------------------------------------------------------------------------------------------------
+this.$stopFCB = function $stopFCB() {
+	if (isValidFrameCallback(this._fcbID)) {
+		removeFrameCallback(this._fcbID);
+		var p = player.ship, ps = p.script;
+		ps._ficcEngaged = false;
+		this._engaged = false;
+		// restore surjector shield/energy recharge rates	
+		if (ps._surjectorsApplied) {
+			var s = worldScripts.Surjectors;
+			if (!p.injectorsEngaged) { // don&#39;t reset anything if the injectors are engaged, otherwise we might override surjectors
+				p.aftShieldRechargeRate = s.$savedAftRate;
+				p.forwardShieldRechargeRate = s.$savedFwdRate;
+				p.energyRechargeRate = s.$savedERate;
+			}
+			ps._surjectorsApplied = false;
+		}
+		// reset velocity
+		// we have to set this back to the current speed value, otherwise we&#39;ll get the &quot;sliding&quot; issue
+		p.velocity = p.vectorForward.multiply(p.speed);
+		// resume Q-Charger if it was active before FICC took over
+		if (ps._qcharger_toggled === true) {
+			ps._qcharger_toggled = false;
+			worldScripts[&quot;Q-Charger&quot;].qchargerCheckTimer.start();
+		}
+		ps._qchargerCheck = true; // need to check Q-Charger again next time FICC starts		
+	}
+}
+
+//-------------------------------------------------------------------------------------------------------------
+this.$startCheckSpeedFCB = function $startCheckSpeedFCB(silent) {
+	var p = player.ship, ps = p.script;
+	if (ps._ficc_ok) {
+		if (silent === false) player.consoleMessage(expandDescription(&quot;[ficc_autoEngageOn]&quot;));
+		this._checkSpeedFCB = addFrameCallback(function _checkSpeedFCB(delta) {
+			var p = (_checkSpeedFCB.p = _checkSpeedFCB.p || player.ship); // cache the player.ship reference
+			if (p &amp;&amp; p.isInSpace &amp;&amp; p.isValid) { // removed &amp;&amp; p.script._qchargerCheck === false
+				var ficc = (_checkSpeedFCB.ficc = _checkSpeedFCB.ficc || worldScripts.FuelInjectionCruiseControl); // cache the worldScript reference
+				if (p.speed == p.maxSpeed &amp;&amp; p.fuel &gt; 0 &amp;&amp; p.torusEngaged === false &amp;&amp; p.injectorsEngaged === false &amp;&amp; !isValidFrameCallback(ficc._fcbID)) {
+					var _disableAutoOnRedAlert = (_checkSpeedFCB._disableAutoOnRedAlert = _checkSpeedFCB._disableAutoOnRedAlert || ficc._disableAutoOnRedAlert); // cache the config value
+					var _disableAutoOnDocking  = (_checkSpeedFCB._disableAutoOnDocking  = _checkSpeedFCB._disableAutoOnDocking  || ficc._disableAutoOnDocking); // cache the config value
+					if (_disableAutoOnRedAlert &amp;&amp; p.alertCondition === 3) return;
+					if (_disableAutoOnDocking &amp;&amp; p.script._ficc_playerIsDocking) return;
+					ficc.activated();
+				}
+			}
+		});
+	}
+}
+
+//-------------------------------------------------------------------------------------------------------------
+// player the buy/sell sound effects
+this.$playSound = function $playSound(soundtype) {
+	var mySound;
+	switch (soundtype) {
+		case &quot;afterburner&quot;:
+			mySound = new SoundSource;
+			mySound.sound = &quot;afterburner1.ogg&quot;;
+			break;
+		case &quot;engineUp&quot;:
+			if (this._bgs) {
+				mySound = new SoundSource;
+				mySound.sound = worldScripts.BGS.$BGS.def[&quot;engineUp&quot;];
+			} else return;
+			break;
+		case &quot;engineDown&quot;:
+			if (this._bgs) {
+				mySound = new SoundSource;
+				mySound.sound = worldScripts.BGS.$BGS.def[&quot;engineDown&quot;];
+			} else return;
+			break;
+	}
+	mySound.loop = false;
+	mySound.play();
+}</pre></td>
+                </tr>
+            </table>
+        </a>
+    </body>
+</html>

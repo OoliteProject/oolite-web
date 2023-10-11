@@ -1,0 +1,1114 @@
+<html>
+    <head>
+        <title>Expansion Ship Comparison</title>
+        <link rel="stylesheet" href="../style.css">
+    </head>
+    <body>
+        <table border="0" width="100%">
+            <tr>
+                <td>Back to <a href='../index.html'>Index</a></td>
+                <td align="right"><small>Page generated: Oct 11, 2023, 3:16:49 PM</small></td>
+            </tr>
+        </table>
+
+        <h1>Expansion Ship Comparison</h1>
+
+        <h2>Content</h2>
+        <ul>
+          <li><a href="#warnings">Warnings</a></li>
+          <li><a href="#manifest">Manifest</a></li>
+          <li><a href="#documentation">Documentation</a></li>
+          <li><a href="#equipment">0 Equipment</a></li>
+          <li><a href="#ships">0 Ships</a></li>
+          <li><a href="#models">0 Models</a></li>
+          <li><a href="#scripts">1 Scripts</a></li>
+        </ul>
+
+          <a name="warnings">
+            <h2>Warnings</h2>
+            <ol>
+                <li>Information URL mismatch between OXP Manifest and Expansion Manager string length at character position 0</li>
+            </ol>
+          </a>
+
+        <a name="manifest">
+        <h2>Manifest</h2>
+            <table border="1">
+                <tr>
+                    <th></th>
+                    <th>from Expansion Manager's OXP list</th>
+                    <th>from Expansion Manifest</th>
+                </tr>
+                <tr>
+                    <td>Description</td>
+                    <td>Displays side-by-side comparison of ships, helping players making decisions about new ship purchases.</td>
+                    <td>Displays side-by-side comparison of ships, helping players making decisions about new ship purchases.</td>
+                </tr>
+                <tr>
+                    <td>Identifier</td>
+                    <td>oolite.oxp.phkb.ShipComparison</td>
+                    <td>oolite.oxp.phkb.ShipComparison</td>
+                </tr>
+                <tr>
+                    <td>Title</td>
+                    <td>Ship Comparison</td>
+                    <td>Ship Comparison</td>
+                </tr>
+                <tr>
+                    <td>Category</td>
+                    <td>Ambience</td>
+                    <td>Ambience</td>
+                </tr>
+                <tr>
+                    <td>Author</td>
+                    <td>phkb</td>
+                    <td>phkb</td>
+                </tr>
+                <tr>
+                    <td>Version</td>
+                    <td>2.3</td>
+                    <td>2.3</td>
+                </tr>
+                <tr>
+                    <td>Tags</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Required Oolite Version</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Maximum Oolite Version</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Required Expansions</td>
+                    <td>
+                    </td>
+                    <td>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Optional Expansions</td>
+                    <td>
+                    </td>
+                    <td>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Conflict Expansions</td>
+                    <td>
+                    </td>
+                    <td>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Information URL</td>
+                    <td><a target="_blank" href=""></a></td>
+                    <td><a target="_blank" href="">n/a</a></td>
+                </tr>
+                <tr>
+                    <td>Download URL</td>
+                    <td><a target="_blank" href="https://wiki.alioth.net/img_auth.php/5/58/ShipComparison.oxz">https://wiki.alioth.net/img_auth.php/5/58/ShipComparison.oxz</a></td>
+                    <td><a target="_blank" href="">n/a</a></td>
+                </tr>
+                <tr>
+                    <td>License</td>
+                    <td>CC-BY-NC-SA 4.0</td>
+                    <td>CC-BY-NC-SA 4.0</td>
+                </tr>
+                <tr>
+                    <td>File Size</td>
+                    <td>n/a</td>
+                </tr>
+                <tr>
+                    <td>Upload date</td>
+                    <td>1610873302</td>
+                </tr>
+            </table>
+                </a>
+
+        <a name="documentation">
+        <h2>Documentation</h2>
+        <p>Also read <a href='http://wiki.alioth.net/index.php/Ship%20Comparison'>http://wiki.alioth.net/index.php/Ship%20Comparison</a></p>
+        <h3>readme.txt</h3>
+        <pre>Ship Comparison
+By Nick Rogers
+
+Overview
+========
+This OXP aims to help players who are in the market for a new ship by providing a visual, side-by-side comparison of ship specifications.
+
+A new interface screen &quot;Ship Comparisons&quot; allows the details of up to three ships to be displayed. Details included are:
+- Price
+- Max speed
+- Injector speed
+- Thrust/pitch/yaw
+- Weapon positions
+- Missile pylons
+- Cargo capacity (plus expansion size, if available)
+- Energy banks
+- Energy recharge rate
+- Hyperspace capable
+- Equipment space (plus amount of cargo that can be converted to equipment space) - Only if the &quot;Ship Configuration&quot; OXP is installed. Note: values are without an extended cargo bay installed, if application to that ship.
+
+A menu option, &quot;View standard equipment availability&quot;, shows a list of all the standard equipment items, and whether each one is (a) fitted as standard, (b) is available for optional installation, or (c) not available.
+The standard equipment items shown are:
+- Forward weapon type
+- ECM
+- Fuel scoops
+- Passenger berths
+- Energy unit
+- Naval energy unit
+- Docking computer
+- Shield booster
+- Military shield enhancement
+- Galactic hyperdrive
+- Scanner targeting enhancement
+- Multi-targeting system
+
+Overriding Data
+===============
+If a particular ship needs to have it&#39;s own entry, even if it would normally be listed under another ship type, you can override the list entry for that data key.
+Put this into the startUpComplete routine of your OXP:
+
+	var sc = worldScripts.ShipComparison;
+	if (sc) {
+		// add an override for a particular ship data key, giving it a new name
+		sc._override[&quot;noshaders_z_groovy_cobra1_baker_player&quot;] = &quot;Cobra Mark I Special&quot;;
+		
+		// optionally, if you need to override the extra cargo capacity or the weapon facings, use the following
+		sc._extraData[&quot;Cobra Mark I Special&quot;] = [5, 15];
+		// data element 1 is the additional cargo available for this ship type (5 in the example)
+		// data element 2 is the weapon facings on this ship type (1 = forward only, 3 = forward and aft, 15 = all) (15 = All in the example)
+	}
+	
+License
+=======
+This work is licensed under the Creative Commons Attribution-Noncommercial-Share Alike 4.0 Unported License. To view a copy of this license, visit http://creativecommons.org/licenses/by-nc-sa/4.0/
+
+Balance image from http://simpleicon.com/balance.html
+
+Version History
+===============
+2.3
+- Fixed issue where the equipment space array was continually growing with duplicate entries.
+
+2.2
+- Further improvements to handling of situation where _oo_shipyard property is not defined for a particular player ship.
+
+2.1
+- Better handling of situations where the _oo_shipyard property is not defined for a particular player ship.
+
+2.0
+- Added ship price to the list of information shown.
+- Put pitch, roll and yaw onto 1 line.
+- Added new menu option, &quot;View standard equipment availability&quot;, which shows which standard equipment items are fitted as standard, available for optional installation, or not available at all.
+- Removed requirement to store a value in missionVariables.
+- Added option to clear ship list to Library interface.
+
+1.9
+- Worked out how to get weapon facings and large cargo bay values without needing to create ship objects to test. Should work with all ships, but I have left the override array in place in case exceptions arise in the future.
+
+1.8
+- Added Cobra Mark IV to list of exceptions.
+
+1.7
+- Changed &quot;==&quot; comparisons to &quot;===&quot; for performance improvements.
+- Added ship mass to display (only if &quot;Ship Configuration&quot; OXP v0.3.1 is installed)
+- Moved the F4 interface to &quot;Ship Systems&quot;, putting it near &quot;Ship Registrations&quot;.
+
+1.6
+- Fixed Javascript error when attempting to check for script_info objects on ships that don&#39;t have any script_info defined.
+
+1.5
+- Added ability to hide ships via script info.
+
+1.4
+- Added Equipment space from &quot;Ship Configuration&quot; OXP v0.1.0 or later. Only available if that OXP is installed.
+- Additional ship data overrides.
+
+1.3
+- Added a &quot;+&quot; symbol to extra cargo value to make it clearer it is in addition to the base cargo capacity.
+- Additional ship data overrides.
+- Added dictionary and code examples to allow OXP&#39;s to override ship data for a particular data key.
+
+1.2
+- Added cargo expansion size to list of items.
+- Fixed issue where missing &quot;weapon_facings&quot; value was not defaulting to the correct value. If any ships has been missed or show up incorrectly just let me know.
+- Added a &quot;change scroll direction&quot; function so if you go past the ship you want to can turn around and go back, rather than having to scroll all the way around the list.
+
+1.1
+- Fixed issue where some ship definitions were incorrectly showing with &quot;0&quot; missiles.
+- Fixed issue where some ship definitions were showing a blank in the cargo capacity field.
+- Added code to hide specifications of some ships (classified data and such).
+
+1.0
+- Initial release.</pre>
+        </a>
+
+        <a name="equipment">          
+        <h2>Equipment</h2>
+            This expansion declares no equipment. This may be related to warnings.
+        </a>
+
+        <a name="ships">    
+        <h2>Ships</h2>
+            This expansion declares no ships. This may be related to warnings.
+        </a>
+
+        <a name="models">    
+        <h2>Models</h2>
+            This expansion declares no models. This may be related to warnings.
+        </a>
+
+        <a name="scripts">    
+        <h2>Scripts</h2>
+            <table>
+                <tr>
+                    <th>Path</th>
+                </tr>
+                <tr>
+                    <td valign="top">Scripts/shipcomparison.js</td>
+                    <td><pre>&quot;use strict&quot;;
+this.name        = &quot;ShipComparison&quot;;
+this.author      = &quot;phkb&quot;;
+this.copyright   = &quot;2017 phkb&quot;;
+this.description = &quot;Routines for selecting ships and displaying details of them side-by-side.&quot;;
+this.licence     = &quot;CC BY-NC-SA 4.0&quot;;
+
+this._lastChoice = &quot;&quot;;
+this._shipList = [];
+this._selectedList = [];
+this._direction = 1;
+this._itemColor = &quot;yellowColor&quot;;
+this._menuColor = &quot;orangeColor&quot;;
+this._exitColor = &quot;yellowColor&quot;;
+this._disabledColor = &quot;darkGrayColor&quot;;
+this._hideListBasic = [&quot;GalCop Viper&quot;, &quot;GalCop Viper Interceptor&quot;];
+this._hideListAll = [&quot;Constrictor&quot;];
+this._shipConfig = false;
+this._resetData = false;
+this._clearShips = false;
+this._trueValues = [&quot;yes&quot;, &quot;1&quot;, 1, &quot;true&quot;, true];
+
+// configuration settings for use in Lib_Config
+this._compConfig = {Name:this.name, Alias:&quot;Ship Comparison&quot;, Display:&quot;Config&quot;, Alive:&quot;_compConfig&quot;, Notify:&quot;$onChange&quot;,
+	Bool:{
+		B0:{Name:&quot;_resetData&quot;, Def:false, Desc:&quot;Reset stored values&quot;},
+		B1:{Name:&quot;_clearShips&quot;, Def:false, Desc:&quot;Clears ship selections&quot;},
+		Info:&quot;0 - Resets all stored equipment space and ship mass values.\n1 - Clears all the currently selected ships&quot;}
+};
+
+// set with this._override[data key] = &quot;New ship name&quot;;
+this._override = {};
+// this is a holding array for equipment space data for ships, if ShipConfig is installed
+this._equipSpace = [];
+
+// element 1: extra cargo
+// element 2: weapon facings
+this._extraData = {
+};
+
+//-------------------------------------------------------------------------------------------------------------
+this.$onChange = function() {
+	if (this._resetData === true) {
+		this._equipSpace = [];
+		this._resetData = false;
+		player.consoleMessage(&quot;Stored ship values cleared&quot;);
+	}
+	if (this._clearShips === true) {
+		this._selectedList = [];
+		this._clearShips = false;
+		player.consoleMessage(&quot;Selected ships cleared&quot;);
+	}
+}
+
+//-------------------------------------------------------------------------------------------------------------
+this.startUpComplete = function() {
+	// register our settings, if Lib_Config is present
+	if (worldScripts.Lib_Config) worldScripts.Lib_Config._registerSet(this._compConfig);
+
+	if (worldScripts.ShipConfiguration_Core &amp;&amp; worldScripts.ShipConfiguration_Core.$getEquipmentSpaceFromShipKey) this._shipConfig = true
+	// set up the interface screen, if required
+	this.$initInterface(player.ship.dockedStation);
+	// load any equipment space calculations that have been done previously
+	if (missionVariables.ShipComparison_EquipSpace) {
+		this._equipSpace = JSON.parse(missionVariables.ShipComparison_EquipSpace);
+		this.$cleanUpEquipSpace();
+	}
+	if (missionVariables.ShipComparison_Reset) delete missionVariables.ShipComparison_Reset;
+}
+
+//-------------------------------------------------------------------------------------------------------------
+this.playerWillSaveGame = function() {
+	if (this._equipSpace.length &gt; 0) {
+		// if we&#39;ve gone to the trouble of calculating equipment space, we&#39;ll retrieve the results so that we keep the speed of lookup values
+		missionVariables.ShipComparison_EquipSpace = JSON.stringify(this._equipSpace);
+	} else {
+		delete missionVariables.ShipComparison_EquipSpace;
+	}
+}
+
+//-------------------------------------------------------------------------------------------------------------
+this.shipDockedWithStation = function(station) {
+	// set up interface screen
+	this.$initInterface(station);
+}
+
+//-------------------------------------------------------------------------------------------------------------
+// initialise the interface screen in the station
+this.$initInterface = function(station) {
+	station.setInterface(this.name,{
+		title:&quot;Ship comparisons&quot;,
+		category:&quot;Ship Systems&quot;,
+		summary:&quot;Displays side-by-side details of selected ships.&quot;,
+		callback:this.$openComparison.bind(this)
+	});
+}
+
+//-------------------------------------------------------------------------------------------------------------
+this.$openComparison = function() {
+	function compare(a,b) {
+		return a.name &gt; b.name;
+	}
+
+	this._lastChoice = &quot;&quot;;
+	this.$buildShipList();
+	this._shipList.sort(compare);
+	this.$showComparison();
+}
+
+//-------------------------------------------------------------------------------------------------------------
+this.$showComparison = function() {
+
+	var text = &quot;&quot;;
+	var colShip = 10;
+	var colDesc = 10;
+	var curChoices = {};
+	var sc = null;
+	var keyList = [];
+	var shipArray = [];
+	
+	for (var i = 0; i &lt; this._selectedList.length; i++) {
+		if (this._selectedList[i] != &quot;&quot;) {
+			var shipDef = Ship.shipDataForKey(this._selectedList[i]);
+			shipArray.push(shipDef);
+			keyList.push(this._selectedList[i]);
+		}
+	}
+	colShip = Math.floor(22 / shipArray.length);
+
+	var textList = [&quot;Ship type&quot;, &quot;&quot;, &quot;Price&quot;, &quot;Max speed&quot;, &quot;Max thrust&quot;, &quot;Injector speed&quot;, &quot;Pitch/Roll/Yaw&quot;, 
+		&quot;Weapon positions&quot;, &quot;Missile pylons&quot;, &quot;Cargo capacity&quot;, &quot;Energy banks&quot;, &quot;Energy recharge rate&quot;, &quot;Hyperspace capable&quot;];
+	var outList = [&quot;&quot;, &quot;&quot;, &quot;&quot;, &quot;&quot;, &quot;&quot;, &quot;&quot;, &quot;&quot;, &quot;&quot;, &quot;&quot;, &quot;&quot;, &quot;&quot;, &quot;&quot;, &quot;&quot;, &quot;&quot;];
+
+		// select ships to be in comparison (up to 4)
+	text = &quot;Select up to 3 ships to compare:\n&quot;;
+
+	if (this._shipConfig) {
+		textList.push(&quot;Equipment space&quot;);
+		textList.push(&quot;Mass&quot;);
+		outList.push(&quot;&quot;);
+		outList.push(&quot;&quot;);
+		sc = worldScripts.ShipConfiguration_Core;
+		// if this HUD doesn&#39;t have big gui enabled, take out the blank line normally under the ship type so there&#39;s room for the extra fields
+		if (player.ship.hudAllowsBigGui === false) {
+			textList.splice(1, 1);
+			outList.splice(1, 1);
+		}
+	} else {
+		text += &quot;\n&quot;;
+	}
+
+	for (var ol = 0; ol &lt; textList.length; ol++) {
+		outList[ol] = this.$padTextRight(textList[ol] + (textList[ol] != &quot;&quot; ? &quot;:&quot; : &quot;&quot;), colDesc);
+		for (var i = 0; i &lt; shipArray.length; i++) {
+			var shipDef = shipArray[i];
+			var shipName = shipDef.name;
+			if (this._override[this._selectedList[i]]) shipName = this._override[this._selectedList[i]];
+
+			switch (textList[ol]) {
+				case &quot;Ship type&quot;:
+					outList[ol] += this.$padTextRight(shipName, colShip);
+					break;
+				case &quot;Price&quot;:
+					if (shipDef._oo_shipyard) {
+						outList[ol] += this.$padTextRight(formatCredits(parseInt(shipDef._oo_shipyard.price), false, true), colShip);
+					} else {
+						log(this.name, &quot;!!ERROR: _oo_shipyard property not set for ship &quot; + shipName + &quot;, key &quot; + keyList[i]);
+					}
+					break;
+				case &quot;Max speed&quot;:
+					if (this._hideListAll.indexOf(shipName) &gt;= 0) {
+						outList[ol] += this.$padTextRight(&quot;N/A&quot;, colShip);
+					} else {
+						outList[ol] += this.$padTextRight((parseFloat(shipDef[&quot;max_flight_speed&quot;]) / 1000).toFixed(3) + &quot; LS&quot;, colShip);
+					}
+					break;
+				case &quot;Max thrust&quot;:
+					if (this._hideListAll.indexOf(shipName) &gt;= 0) {
+						outList[ol] += this.$padTextRight(&quot;N/A&quot;, colShip);
+					} else {
+						outList[ol] += this.$padTextRight((parseFloat(shipDef[&quot;thrust&quot;]) / 1000).toFixed(3) + &quot; LS&quot;, colShip);
+					}
+					break;
+				case &quot;Injector speed&quot;:
+					if (this._hideListAll.indexOf(shipName) &gt;= 0) {
+						outList[ol] += this.$padTextRight(&quot;N/A&quot;, colShip);
+					} else {
+						var inj = 7;
+						if (0 &gt;= oolite.compareVersion(&quot;1.81&quot;) &amp;&amp; shipDef[&quot;injector_speed_factor&quot;] != undefined) inj = parseFloat(shipDef[&quot;injector_speed_factor&quot;]);
+						outList[ol] += this.$padTextRight(((parseFloat(shipDef[&quot;max_flight_speed&quot;]) * inj) / 1000).toFixed(3) + &quot; LS&quot;, colShip);
+					}
+					break;
+				case &quot;Pitch/Roll/Yaw&quot;:
+					if (this._hideListAll.indexOf(shipName) &gt;= 0 || this._hideListBasic.indexOf(shipName) &gt;= 0) {
+						outList[ol] += this.$padTextRight(&quot;N/A&quot;, colShip);
+					} else {
+						var yaw = parseFloat(shipDef[&quot;max_flight_pitch&quot;]);
+						if (shipDef[&quot;max_flight_yaw&quot;] != undefined) yaw = parseFloat(shipDef[&quot;max_flight_yaw&quot;]);
+						outList[ol] += this.$padTextRight(parseFloat(shipDef[&quot;max_flight_pitch&quot;]).toFixed(1)
+							+ &quot;/&quot; + parseFloat(shipDef[&quot;max_flight_roll&quot;]).toFixed(1)
+							+ &quot;/&quot; + yaw.toFixed(1), colShip);
+					}
+					break;
+				case &quot;Weapon positions&quot;:
+					if (this._hideListAll.indexOf(shipName) &gt;= 0) {
+						outList[ol] += this.$padTextRight(&quot;N/A&quot;, colShip);
+					} else {
+						var facings = shipDef[&quot;weapon_facings&quot;];
+						if (shipDef._oo_shipyard &amp;&amp; shipDef._oo_shipyard.weapon_facings != undefined) facings = shipDef._oo_shipyard.weapon_facings;
+						if (this._extraData[shipName] != null) facings = this._extraData[shipName][1].toString();
+						var wpn = &quot;Forward&quot;;
+						if (facings === &quot;15&quot;) {
+							wpn = &quot;All&quot;;
+						} else {
+							if (&quot; 3 7 11 &quot;.indexOf(&quot; &quot; + facings + &quot; &quot;) &gt;= 0) wpn += &quot;, Aft&quot;;
+							if (&quot; 5 7 13 &quot;.indexOf(&quot; &quot; + facings + &quot; &quot;) &gt;= 0) wpn += &quot;, Port&quot;;
+							if (&quot; 9 11 13 &quot;.indexOf(&quot; &quot; + facings + &quot; &quot;) &gt;= 0) wpn += &quot;, Starboard&quot;;
+						}
+						if (facings === &quot;0&quot;) wpn = &quot;None&quot;;
+						if (facings === &quot;N/A&quot;) wpn = &quot;N/A&quot;;
+						outList[ol] += this.$padTextRight(wpn, colShip);
+					}
+					break;
+				case &quot;Missile pylons&quot;:
+					if (this._hideListAll.indexOf(shipName) &gt;= 0) {
+						outList[ol] += this.$padTextRight(&quot;N/A&quot;, colShip);
+					} else {
+						var miss = 0;
+						if (shipDef[&quot;max_missiles&quot;] != undefined) {
+							miss = parseInt(shipDef[&quot;max_missiles&quot;]);
+						} else {
+							miss = parseInt(shipDef[&quot;missiles&quot;]);
+						}
+						outList[ol] += this.$padTextRight(miss, colShip);
+					}
+					break;
+				case &quot;Cargo capacity&quot;:
+					if (this._hideListAll.indexOf(shipName) &gt;= 0) {
+						outList[ol] += this.$padTextRight(&quot;N/A&quot;, colShip);
+					} else {
+						var cargo = 0;
+						if (shipDef[&quot;max_cargo&quot;] != undefined) cargo = parseInt(shipDef[&quot;max_cargo&quot;]);
+
+						var exp = &quot;&quot;;
+						if (shipDef[&quot;extra_cargo&quot;] != undefined) {
+							exp = shipDef[&quot;extra_cargo&quot;];
+						}
+						if (exp === &quot;&quot;) {
+							if (shipDef._oo_shipyard) {
+								if ((shipDef._oo_shipyard.standard_equipment.extras &amp;&amp; shipDef._oo_shipyard.standard_equipment.extras.indexOf(&quot;EQ_CARGO_BAY&quot;) &gt;= 0) || 
+								(shipDef._oo_shipyard.optional_equipment &amp;&amp; shipDef._oo_shipyard.optional_equipment.indexOf(&quot;EQ_CARGO_BAY&quot;) &gt;=0)) exp = 15;
+							}
+						}
+						if (this._extraData[shipName] != null) exp = this._extraData[shipName][0].toString();
+
+						if (exp === undefined || exp === &quot;0&quot;) exp = &quot;&quot;;
+						outList[ol] += this.$padTextRight(cargo.toString() + (exp != &quot;&quot; ? &quot; (+&quot; + exp + &quot;)&quot; : &quot;&quot;), colShip);
+					}
+					break;
+				case &quot;Energy banks&quot;:
+					if (this._hideListAll.indexOf(shipName) &gt;= 0 || this._hideListBasic.indexOf(shipName) &gt;= 0) {
+						outList[ol] += this.$padTextRight(&quot;N/A&quot;, colShip);
+					} else {
+						var en = 200;
+						if (shipDef[&quot;max_energy&quot;] != undefined) en = parseInt(shipDef[&quot;max_energy&quot;]);
+						if (Math.floor(en / 64) === 0) en = 64;
+						outList[ol] += this.$padTextRight(Math.floor(en / 64), colShip);
+					}
+					break;
+				case &quot;Energy recharge rate&quot;:
+					if (this._hideListAll.indexOf(shipName) &gt;= 0) {
+						outList[ol] += this.$padTextRight(&quot;N/A&quot;, colShip);
+					} else {
+						var rech = 1;
+						if (shipDef[&quot;energy_recharge_rate&quot;] != undefined) rech = parseFloat(shipDef[&quot;energy_recharge_rate&quot;]);
+						outList[ol] += this.$padTextRight(rech.toFixed(1), colShip);
+					}
+					break;
+				case &quot;Hyperspace capable&quot;:
+					var hyper = &quot;Yes&quot;;
+					if (shipDef[&quot;hyperspace_motor&quot;] != undefined &amp;&amp; (shipDef[&quot;hyperspace_motor&quot;] === &quot;no&quot; || shipDef[&quot;hyperspace_motor&quot;] === &quot;false&quot; || shipDef[&quot;hyperspace_motor&quot;] === &quot;0&quot;)) hyper = &quot;No&quot;;
+					outList[ol] += this.$padTextRight(hyper, colShip);
+					break;
+				case &quot;Equipment space&quot;:
+					if (this._hideListAll.indexOf(shipName) &gt;= 0) {
+						outList[ol] += this.$padTextRight(&quot;N/A&quot;, colShip);
+					} else {
+						var found = false;
+						// check to see if we have already analysed this ship type
+						for (var j = 0; j &lt; this._equipSpace.length; j++) {
+							if (this._equipSpace[j].shipType == shipName) {
+								outList[ol] += this.$padTextRight(this._equipSpace[j].equipSpace + (this._equipSpace[j].cargoSpace != &quot;N/A&quot; &amp;&amp; this._equipSpace[j].cargoSpace != 0 ? &quot; (+&quot; + this._equipSpace[j].cargoSpace + &quot;)&quot; : &quot;&quot;), colShip);
+								found = true;
+								break;
+							}
+						}
+						// if we haven&#39;t we will need to execute a query against ShipConfig
+						if (found === false) {
+							var es = sc.$getEquipmentSpaceFromShipKey(this._selectedList[i]);
+							var ms = 0;
+							outList[ol] += this.$padTextRight(es.equipSpace + (es.cargoSpace != &quot;N/A&quot; &amp;&amp; es.cargoSpace != 0 ? &quot; (+&quot; + es.cargoSpace + &quot;)&quot; : &quot;&quot;), colShip);
+							// store the result so we don&#39;t have to run this process again (but only if there was a definite value, not N/A)
+							if (es.equipSpace != &quot;N/A&quot;) this._equipSpace.push({shipType:shipName, equipSpace:es.equipSpace, cargoSpace:es.cargoSpace, shipMass:(es.hasOwnProperty(&quot;mass&quot;) ? es.mass : &quot;N/A&quot;)});
+						}
+					}
+					break;
+				case &quot;Mass&quot;:
+					if (this._hideListAll.indexOf(shipName) &gt;= 0) {
+						outList[ol] += this.$padTextRight(&quot;N/A&quot;, colShip);
+					} else {
+						var found = false;
+						var idx = -1;
+						// check to see if we have already analysed this ship type
+						for (var j = 0; j &lt; this._equipSpace.length; j++) {
+							if (this._equipSpace[j].shipType === shipName) {
+								idx = j;
+								if (this._equipSpace[j].hasOwnProperty(&quot;mass&quot;) &amp;&amp; this._equipSpace[j].mass != &quot;N/A&quot;) {
+									outList[ol] += this.$padTextRight(this._equipSpace[j].mass.toFixed(0), colShip);
+									found = true;
+								}
+								break;
+							}
+						}
+						// if we haven&#39;t we will need to execute a query against ShipConfig
+						if (found === false) {
+							var es = sc.$getEquipmentSpaceFromShipKey(this._selectedList[i]);
+							if (es.hasOwnProperty(&quot;mass&quot;) &amp;&amp; es.mass != &quot;N/A&quot;) {
+								outList[ol] += this.$padTextRight(es.mass.toFixed(0), colShip);
+							} else {
+								outList[ol] += this.$padTextRight(&quot;N/A&quot;, colShip);
+							}
+							// store the result so we don&#39;t have to run this process again (but only if there was a definite value, not N/A)
+							if (es.equipSpace != &quot;N/A&quot; || idx === -1) {
+								this._equipSpace.push({shipType:shipName, equipSpace:es.equipSpace, cargoSpace:es.cargoSpace, shipMass:(es.hasOwnProperty(&quot;mass&quot;) ? es.mass : &quot;N/A&quot;)});
+							} else {
+								this._equipSpace[idx].mass = es.mass;
+							}
+						}
+					}
+					break;
+				}
+		}
+	}
+
+	for (var i = 0; i &lt; outList.length; i++) {
+		text += outList[i] + &quot;\n&quot;;
+	}
+
+	if (this._selectedList.length === 0) {
+		if (this._direction === 1) {
+			curChoices[&quot;01_CHANGE&quot;] = {text:&quot;Change first ship to &#39;&quot; + this._shipList[0].name + &quot;&#39;&quot;, color:this._menuColor};
+			curChoices[&quot;02_CHANGE&quot;] = {text:&quot;Change second ship to &#39;&quot; + this._shipList[0].name + &quot;&#39;&quot;, unselectable:true, color:this._disabledColor};
+			curChoices[&quot;03_CHANGE&quot;] = {text:&quot;Change third ship to &#39;&quot; + this._shipList[0].name + &quot;&#39;&quot;, unselectable:true, color:this._disabledColor};
+		} else {
+			curChoices[&quot;01_CHANGE&quot;] = {text:&quot;Change first ship to &#39;&quot; + this._shipList[this._shipList.length - 1].name + &quot;&#39;&quot;, color:this._menuColor};
+			curChoices[&quot;02_CHANGE&quot;] = {text:&quot;Change second ship to &#39;&quot; + this._shipList[this._shipList.length - 1].name + &quot;&#39;&quot;, unselectable:true, color:this._disabledColor};
+			curChoices[&quot;03_CHANGE&quot;] = {text:&quot;Change third ship to &#39;&quot; + this._shipList[this._shipList.length - 1].name + &quot;&#39;&quot;, unselectable:true, color:this._disabledColor};
+		}
+	} else {
+		for (var i = 0; i &lt; this._selectedList.length; i++) {
+			for (var j = 0; j &lt; this._shipList.length; j++) {
+				if (this._shipList[j].key === this._selectedList[i]) {
+					if (this._direction === 1) {
+						if (j &lt; this._shipList.length - 1) {
+							curChoices[&quot;0&quot; + (i + 1) + &quot;_CHANGE&quot;] = {text:&quot;Change &quot; + this.$numberWord(i + 1) + &quot; ship to &#39;&quot; + this._shipList[j + 1].name + &quot;&#39;&quot;, color:this._menuColor};
+						} else {
+							curChoices[&quot;0&quot; + (i + 1) + &quot;_CHANGE&quot;] = {text:&quot;Change &quot; + this.$numberWord(i + 1) + &quot; ship to &#39;&quot; + this._shipList[0].name + &quot;&#39;&quot;, color:this._menuColor};
+						}
+					} else {
+						if (j &gt; 0) {
+							curChoices[&quot;0&quot; + (i + 1) + &quot;_CHANGE&quot;] = {text:&quot;Change &quot; + this.$numberWord(i + 1) + &quot; ship to &#39;&quot; + this._shipList[j - 1].name + &quot;&#39;&quot;, color:this._menuColor};
+						} else {
+							curChoices[&quot;0&quot; + (i + 1) + &quot;_CHANGE&quot;] = {text:&quot;Change &quot; + this.$numberWord(i + 1) + &quot; ship to &#39;&quot; + this._shipList[this._shipList.length - 1].name + &quot;&#39;&quot;, color:this._menuColor};
+						}
+
+					}
+				}
+			}
+		}
+		if (this._selectedList.length === 1) {
+			if (this._direction === 1) {
+				curChoices[&quot;02_CHANGE&quot;] = {text:&quot;Change second ship to &#39;&quot; + this._shipList[0].name + &quot;&#39;&quot;, color:this._menuColor};
+				curChoices[&quot;03_CHANGE&quot;] = {text:&quot;Change third ship to &#39;&quot; + this._shipList[0].name + &quot;&#39;&quot;, unselectable:true, color:this._disabledColor};
+			} else {
+				curChoices[&quot;02_CHANGE&quot;] = {text:&quot;Change second ship to &#39;&quot; + this._shipList[this._shipList.length - 1].name + &quot;&#39;&quot;, color:this._menuColor};
+				curChoices[&quot;03_CHANGE&quot;] = {text:&quot;Change third ship to &#39;&quot; + this._shipList[this._shipList.length - 1].name + &quot;&#39;&quot;, unselectable:true, color:this._disabledColor};
+			}
+		}
+		if (this._selectedList.length === 2) {
+			if (this._direction === 1) {
+				curChoices[&quot;03_CHANGE&quot;] = {text:&quot;Change third ship to &#39;&quot; + this._shipList[0].name + &quot;&#39;&quot;, color:this._menuColor};
+			} else {
+				curChoices[&quot;03_CHANGE&quot;] = {text:&quot;Change third ship to &#39;&quot; + this._shipList[this._shipList.length - 1].name + &quot;&#39;&quot;, color:this._menuColor};
+			}
+		}
+	}
+	curChoices[&quot;05_DIRECTION&quot;] = {text:(this._direction === 1 ? &quot;Change scroll direction to ascending&quot; : &quot;Change scroll direction to descending&quot;), color:this._menuColor};
+	curChoices[&quot;06_EQUIPMENT&quot;] = {text:&quot;View standard equipment availability&quot;, color:this._itemColor};
+	curChoices[&quot;99_EXIT&quot;] = {text:&quot;Return&quot;, color:this._itemColor};
+	var def = &quot;99_EXIT&quot;;
+
+	var opts = {
+		screenID: &quot;oolite-ship-compare-map&quot;,
+		title: &quot;Ship Comparison&quot;,
+		allowInterrupt: true,
+		exitScreen: &quot;GUI_SCREEN_INTERFACES&quot;,
+		overlay: {name:&quot;compare-balance.png&quot;, height:546},
+		choices: curChoices,
+		initialChoicesKey: (this._lastChoice ? this._lastChoice : def),
+		message: text
+	};
+
+	mission.runScreen(opts, this.$screenHandler, this);
+}
+
+//-------------------------------------------------------------------------------------------------------------
+this.$showComparisonEquipment = function() {
+	
+	var text = &quot;&quot;;
+	var colShip = 10;
+	var colDesc = 10;
+	var curChoices = {};
+	var sc = null;
+	var keyList = [];
+	var shipArray = [];
+
+	for (var i = 0; i &lt; this._selectedList.length; i++) {
+		if (this._selectedList[i] != &quot;&quot;) {
+			var shipDef = Ship.shipDataForKey(this._selectedList[i]);
+			shipArray.push(shipDef);
+			keyList.push(this._selectedList[i]);
+		}
+	}
+	colShip = Math.floor(22 / shipArray.length);
+
+	var textList = [&quot;Ship type&quot;, &quot;&quot;, &quot;Techlevel&quot;, &quot;Forward weapon type&quot;, &quot;ECM&quot;, &quot;Fuel scoops&quot;, &quot;Passenger berths&quot;, &quot;Energy unit&quot;, &quot;Naval energy unit&quot;, 
+		&quot;Docking computer&quot;, &quot;Shield booster&quot;, &quot;Military shield enhancement&quot;, &quot;Galactic hyperdrive&quot;, &quot;Scanner targeting enhancement&quot;, &quot;Multi-targeting system&quot;];
+	var outList = [&quot;&quot;, &quot;&quot;, &quot;&quot;, &quot;&quot;, &quot;&quot;, &quot;&quot;, &quot;&quot;, &quot;&quot;, &quot;&quot;, &quot;&quot;, &quot;&quot;, &quot;&quot;, &quot;&quot;, &quot;&quot;];
+
+		// select ships to be in comparison (up to 4)
+	text = &quot;Select up to 3 ships to compare:\n&quot;;
+
+	if (this._shipConfig) {
+		// if this HUD doesn&#39;t have big gui enabled, take out the blank line normally under the ship type so there&#39;s room for the extra fields
+		if (player.ship.hudAllowsBigGui === false) {
+			textList.splice(1, 1);
+			outList.splice(1, 1);
+		}
+	} else {
+		text += &quot;\n&quot;;
+	}
+
+	for (var ol = 0; ol &lt; textList.length; ol++) {
+		outList[ol] = this.$padTextRight(textList[ol] + (textList[ol] != &quot;&quot; ? &quot;:&quot; : &quot;&quot;), colDesc);
+		for (var i = 0; i &lt; shipArray.length; i++) {
+			var shipDef = shipArray[i];
+			var shipName = shipDef.name;
+			if (this._override[this._selectedList[i]]) shipName = this._override[this._selectedList[i]];
+
+			switch (textList[ol]) {
+				case &quot;Ship type&quot;:
+					outList[ol] += this.$padTextRight(shipName, colShip);
+					break;
+				case &quot;Techlevel&quot;:
+					if (this._hideListAll.indexOf(shipName) &gt;= 0) {
+						outList[ol] += this.$padTextRight(&quot;?&quot;, colShip);
+					} else {
+						if (shipDef._oo_shipyard) {
+							outList[ol] += this.$padTextRight(shipDef._oo_shipyard.techlevel, colShip);
+						} else {
+							log(this.name, &quot;!!ERROR: _oo_shipyard property not set for ship &quot; + shipName + &quot;, key &quot; + keyList[i]);
+						}
+					}
+					break;
+				case &quot;Forward weapon type&quot;:
+					if (this._hideListAll.indexOf(shipName) &gt;= 0) {
+						outList[ol] += this.$padTextRight(&quot;?&quot;, colShip);
+					} else {
+						outList[ol] += this.$padTextRight(this.$forwardWeaponType(shipDef), colShip);
+					}
+					break;
+				case &quot;ECM&quot;:
+					if (this._hideListAll.indexOf(shipName) &gt;= 0) {
+						outList[ol] += this.$padTextRight(&quot;?&quot;, colShip);
+					} else {
+						outList[ol] += this.$padTextRight(this.$shipDefHasOption(shipDef, &quot;EQ_ECM&quot;), colShip);
+					}
+					break;
+				case &quot;Fuel scoops&quot;:
+					if (this._hideListAll.indexOf(shipName) &gt;= 0) {
+						outList[ol] += this.$padTextRight(&quot;?&quot;, colShip);
+					} else {
+						outList[ol] += this.$padTextRight(this.$shipDefHasOption(shipDef, &quot;EQ_FUEL_SCOOPS&quot;), colShip);
+					}
+					break;
+				case &quot;Passenger berths&quot;:
+					if (this._hideListAll.indexOf(shipName) &gt;= 0) {
+						outList[ol] += this.$padTextRight(&quot;?&quot;, colShip);
+					} else {
+						outList[ol] += this.$padTextRight(this.$shipDefHasOption(shipDef, &quot;EQ_PASSENGER_BERTH&quot;), colShip);
+					}
+					break;
+				case &quot;Energy unit&quot;:
+					if (this._hideListAll.indexOf(shipName) &gt;= 0) {
+						outList[ol] += this.$padTextRight(&quot;?&quot;, colShip);
+					} else {
+						outList[ol] += this.$padTextRight(this.$shipDefHasOption(shipDef, &quot;EQ_ENERGY_UNIT&quot;), colShip);
+					}
+					break;
+				case &quot;Naval energy unit&quot;:
+					if (this._hideListAll.indexOf(shipName) &gt;= 0) {
+						outList[ol] += this.$padTextRight(&quot;?&quot;, colShip);
+					} else {
+						outList[ol] += this.$padTextRight(this.$shipDefHasOption(shipDef, &quot;EQ_NAVAL_ENERGY_UNIT&quot;), colShip);
+					}
+					break;
+				case &quot;Docking computer&quot;:
+					if (this._hideListAll.indexOf(shipName) &gt;= 0) {
+						outList[ol] += this.$padTextRight(&quot;?&quot;, colShip);
+					} else {
+						outList[ol] += this.$padTextRight(this.$shipDefHasOption(shipDef, &quot;EQ_DOCK_COMP&quot;), colShip);
+					}
+					break;
+				case &quot;Shield booster&quot;:
+					if (this._hideListAll.indexOf(shipName) &gt;= 0) {
+						outList[ol] += this.$padTextRight(&quot;?&quot;, colShip);
+					} else {
+						outList[ol] += this.$padTextRight(this.$shipDefHasOption(shipDef, &quot;EQ_SHIELD_BOOSTER&quot;), colShip);
+					}
+					break;
+				case &quot;Military shield enhancement&quot;:
+					if (this._hideListAll.indexOf(shipName) &gt;= 0) {
+						outList[ol] += this.$padTextRight(&quot;?&quot;, colShip);
+					} else {
+						outList[ol] += this.$padTextRight(this.$shipDefHasOption(shipDef, &quot;EQ_NAVAL_SHIELD_BOOSTER&quot;), colShip);
+					}
+					break;
+				case &quot;Galactic hyperdrive&quot;:
+					if (this._hideListAll.indexOf(shipName) &gt;= 0) {
+						outList[ol] += this.$padTextRight(&quot;?&quot;, colShip);
+					} else {
+						outList[ol] += this.$padTextRight(this.$shipDefHasOption(shipDef, &quot;EQ_GAL_DRIVE&quot;), colShip);
+					}
+					break;
+				case &quot;Scanner targeting enhancement&quot;:
+					if (this._hideListAll.indexOf(shipName) &gt;= 0) {
+						outList[ol] += this.$padTextRight(&quot;?&quot;, colShip);
+					} else {
+						outList[ol] += this.$padTextRight(this.$shipDefHasOption(shipDef, &quot;EQ_SCANNER_SHOW_MISSILE_TARGET&quot;), colShip);
+					}
+					break;
+				case &quot;Multi-targeting system&quot;:
+					if (this._hideListAll.indexOf(shipName) &gt;= 0) {
+						outList[ol] += this.$padTextRight(&quot;?&quot;, colShip);
+					} else {
+						outList[ol] += this.$padTextRight(this.$shipDefHasOption(shipDef, &quot;EQ_MULTI_TARGET&quot;), colShip);
+					}
+					break;
+				}
+		}
+	}
+
+	for (var i = 0; i &lt; outList.length; i++) {
+		text += outList[i] + &quot;\n&quot;;
+	}
+
+	if (this._selectedList.length === 0) {
+		if (this._direction === 1) {
+			curChoices[&quot;01_CHANGE&quot;] = {text:&quot;Change first ship to &#39;&quot; + this._shipList[0].name + &quot;&#39;&quot;, color:this._menuColor};
+			curChoices[&quot;02_CHANGE&quot;] = {text:&quot;Change second ship to &#39;&quot; + this._shipList[0].name + &quot;&#39;&quot;, unselectable:true, color:this._disabledColor};
+			curChoices[&quot;03_CHANGE&quot;] = {text:&quot;Change third ship to &#39;&quot; + this._shipList[0].name + &quot;&#39;&quot;, unselectable:true, color:this._disabledColor};
+		} else {
+			curChoices[&quot;01_CHANGE&quot;] = {text:&quot;Change first ship to &#39;&quot; + this._shipList[this._shipList.length - 1].name + &quot;&#39;&quot;, color:this._menuColor};
+			curChoices[&quot;02_CHANGE&quot;] = {text:&quot;Change second ship to &#39;&quot; + this._shipList[this._shipList.length - 1].name + &quot;&#39;&quot;, unselectable:true, color:this._disabledColor};
+			curChoices[&quot;03_CHANGE&quot;] = {text:&quot;Change third ship to &#39;&quot; + this._shipList[this._shipList.length - 1].name + &quot;&#39;&quot;, unselectable:true, color:this._disabledColor};
+		}
+	} else {
+		for (var i = 0; i &lt; this._selectedList.length; i++) {
+			for (var j = 0; j &lt; this._shipList.length; j++) {
+				if (this._shipList[j].key === this._selectedList[i]) {
+					if (this._direction === 1) {
+						if (j &lt; this._shipList.length - 1) {
+							curChoices[&quot;0&quot; + (i + 1) + &quot;_CHANGE&quot;] = {text:&quot;Change &quot; + this.$numberWord(i + 1) + &quot; ship to &#39;&quot; + this._shipList[j + 1].name + &quot;&#39;&quot;, color:this._menuColor};
+						} else {
+							curChoices[&quot;0&quot; + (i + 1) + &quot;_CHANGE&quot;] = {text:&quot;Change &quot; + this.$numberWord(i + 1) + &quot; ship to &#39;&quot; + this._shipList[0].name + &quot;&#39;&quot;, color:this._menuColor};
+						}
+					} else {
+						if (j &gt; 0) {
+							curChoices[&quot;0&quot; + (i + 1) + &quot;_CHANGE&quot;] = {text:&quot;Change &quot; + this.$numberWord(i + 1) + &quot; ship to &#39;&quot; + this._shipList[j - 1].name + &quot;&#39;&quot;, color:this._menuColor};
+						} else {
+							curChoices[&quot;0&quot; + (i + 1) + &quot;_CHANGE&quot;] = {text:&quot;Change &quot; + this.$numberWord(i + 1) + &quot; ship to &#39;&quot; + this._shipList[this._shipList.length - 1].name + &quot;&#39;&quot;, color:this._menuColor};
+						}
+
+					}
+				}
+			}
+		}
+		if (this._selectedList.length === 1) {
+			if (this._direction === 1) {
+				curChoices[&quot;02_CHANGE&quot;] = {text:&quot;Change second ship to &#39;&quot; + this._shipList[0].name + &quot;&#39;&quot;, color:this._menuColor};
+				curChoices[&quot;03_CHANGE&quot;] = {text:&quot;Change third ship to &#39;&quot; + this._shipList[0].name + &quot;&#39;&quot;, unselectable:true, color:this._disabledColor};
+			} else {
+				curChoices[&quot;02_CHANGE&quot;] = {text:&quot;Change second ship to &#39;&quot; + this._shipList[this._shipList.length - 1].name + &quot;&#39;&quot;, color:this._menuColor};
+				curChoices[&quot;03_CHANGE&quot;] = {text:&quot;Change third ship to &#39;&quot; + this._shipList[this._shipList.length - 1].name + &quot;&#39;&quot;, unselectable:true, color:this._disabledColor};
+			}
+		}
+		if (this._selectedList.length === 2) {
+			if (this._direction === 1) {
+				curChoices[&quot;03_CHANGE&quot;] = {text:&quot;Change third ship to &#39;&quot; + this._shipList[0].name + &quot;&#39;&quot;, color:this._menuColor};
+			} else {
+				curChoices[&quot;03_CHANGE&quot;] = {text:&quot;Change third ship to &#39;&quot; + this._shipList[this._shipList.length - 1].name + &quot;&#39;&quot;, color:this._menuColor};
+			}
+		}
+	}
+	curChoices[&quot;05_DIRECTION&quot;] = {text:(this._direction === 1 ? &quot;Change scroll direction to ascending&quot; : &quot;Change scroll direction to descending&quot;), color:this._menuColor};
+	curChoices[&quot;06_SHIPSTATS&quot;] = {text:&quot;View general ship statistics&quot;, color:this._itemColor};
+	curChoices[&quot;99_EXIT&quot;] = {text:&quot;Return&quot;, color:this._itemColor};
+	var def = &quot;99_EXIT&quot;;
+
+	var opts = {
+		screenID: &quot;oolite-ship-compare-map&quot;,
+		title: &quot;Ship Comparison&quot;,
+		allowInterrupt: true,
+		exitScreen: &quot;GUI_SCREEN_INTERFACES&quot;,
+		overlay: {name:&quot;compare-balance.png&quot;, height:546},
+		choices: curChoices,
+		initialChoicesKey: (this._lastChoice ? this._lastChoice : def),
+		message: text
+	};
+
+	mission.runScreen(opts, this.$screenHandlerEq, this);
+}
+	
+//-------------------------------------------------------------------------------------------------------------
+this.$screenHandler = function(choice) {
+	if (!choice) return;
+
+	this._lastChoice = choice;
+	switch (choice) {
+		case &quot;01_CHANGE&quot;:
+			this.$getNewItem(0);
+			break;
+		case &quot;02_CHANGE&quot;:
+			this.$getNewItem(1);
+			break;
+		case &quot;03_CHANGE&quot;:
+			this.$getNewItem(2);
+			break;
+		case &quot;06_EQUIPMENT&quot;:
+			this._lastChoice = &quot;06_SHIPSTATS&quot;;
+			this.$showComparisonEquipment();
+			return;
+		case &quot;05_DIRECTION&quot;:
+			if (this._direction === 1) {
+				this._direction = -1;
+			} else {
+				this._direction = 1;
+			}
+			break;
+	}
+	if (choice != &quot;99_EXIT&quot;) this.$showComparison();
+}
+
+//-------------------------------------------------------------------------------------------------------------
+this.$screenHandlerEq = function(choice) {
+	if (!choice) return;
+
+	this._lastChoice = choice;
+	switch (choice) {
+		case &quot;01_CHANGE&quot;:
+			this.$getNewItem(0);
+			break;
+		case &quot;02_CHANGE&quot;:
+			this.$getNewItem(1);
+			break;
+		case &quot;03_CHANGE&quot;:
+			this.$getNewItem(2);
+			break;
+		case &quot;06_SHIPSTATS&quot;:
+			this._lastChoice = &quot;06_EQUIPMENT&quot;;
+			this.$showComparison();
+			return;
+		case &quot;05_DIRECTION&quot;:
+			if (this._direction === 1) {
+				this._direction = -1;
+			} else {
+				this._direction = 1;
+			}
+			break;
+	}
+	if (choice != &quot;99_EXIT&quot;) this.$showComparisonEquipment();
+}
+
+//-------------------------------------------------------------------------------------------------------------
+this.$getNewItem = function(idx) {
+	var cur = &quot;&quot;;
+	if (this._selectedList.length &gt;= (idx + 1)) {
+		cur = this._selectedList[idx];
+	}
+	if (cur === &quot;&quot;) {
+		this._selectedList.push(this._shipList[0].key);
+	} else {
+		for (var i = 0; i &lt; this._shipList.length; i++) {
+			if (this._shipList[i].key === cur) {
+				if (this._direction === 1) {
+					if (i === this._shipList.length - 1) {
+						this._selectedList[idx] = this._shipList[0].key;
+					} else {
+						this._selectedList[idx] = this._shipList[i + 1].key;
+					}
+				} else {
+					if (i === 0) {
+						this._selectedList[idx] = this._shipList[this._shipList.length - 1].key;
+					} else {
+						this._selectedList[idx] = this._shipList[i - 1].key;
+					}
+				}
+				break;
+			}
+		}
+	}
+}
+
+//-------------------------------------------------------------------------------------------------------------
+this.$buildShipList = function() {
+	var truevalues = this._trueValues;
+	var keys = Ship.keysForRole(&quot;player&quot;);
+	for (var i = 0; i &lt; keys.length; i++) {
+		var shp = Ship.shipDataForKey(keys[i]);
+		// only add records that have a corresponding shipyard entry
+		if (shp._oo_shipyard) {
+			if (!shp.script_info || !shp.script_info[&quot;sc_ignore&quot;] || truevalues.indexOf(shp.script_info[&quot;sc_ignore&quot;]) === -1)
+				this.$addItemToArray(shp.name, keys[i]);
+		}
+	}
+}
+
+//-------------------------------------------------------------------------------------------------------------
+this.$addItemToArray = function(shipName, shipKey) {
+	var ovr = this._override[shipKey];
+	if (ovr) shipName = ovr;
+	for (var i = 0; i &lt; this._shipList.length; i++) {
+		if (this._shipList[i].name === shipName) return;
+	}
+	this._shipList.push({name:shipName, key:shipKey});
+}
+
+//-------------------------------------------------------------------------------------------------------------
+this.$numberWord = function(nbr) {
+	switch (nbr) {
+		case 1: return &quot;First&quot;;
+		case 2: return &quot;Second&quot;;
+		case 3: return &quot;Third&quot;;
+		case 4: return &quot;Fourth&quot;; // in case we ever add a fourth column!
+	}
+}
+
+//-------------------------------------------------------------------------------------------------------------
+// appends space to currentText to the specified length in &#39;em&#39;
+this.$padTextRight = function(currentText, desiredLength, leftSwitch) {
+	if (currentText === null) currentText = &quot;&quot;;
+	var hairSpace = String.fromCharCode(31);
+	var ellip = &quot;…&quot;;
+	var currentLength = defaultFont.measureString(currentText);
+	var hairSpaceLength = defaultFont.measureString(hairSpace);
+	// calculate number needed to fill remaining length
+	var padsNeeded = Math.floor((desiredLength - currentLength) / hairSpaceLength);
+	if (padsNeeded &lt; 1)	{
+		// text is too long for column, so start pulling characters off
+		var tmp = currentText;
+		do {
+			tmp = tmp.substring(0, tmp.length - 2) + ellip;
+			if (tmp === ellip) break;
+		} while (defaultFont.measureString(tmp) &gt; desiredLength);
+		currentLength = defaultFont.measureString(tmp);
+		padsNeeded = Math.floor((desiredLength - currentLength) / hairSpaceLength);
+		currentText = tmp;
+	}
+	// quick way of generating a repeated string of that number
+	if (!leftSwitch || leftSwitch === false) {
+		return currentText + new Array(padsNeeded).join(hairSpace);
+	} else {
+		return new Array(padsNeeded).join(hairSpace) + currentText;
+	}
+}
+
+//-------------------------------------------------------------------------------------------------------------
+// appends space to currentText to the specified length in &#39;em&#39;
+this.$padTextLeft = function(currentText, desiredLength) {
+	return this.$padTextRight(currentText, desiredLength, true);
+}
+
+//-------------------------------------------------------------------------------------------------------------
+this.$shipDefHasOption = function(def, eqKey) {
+	var found = &quot;N/A&quot;;
+	if (!def._oo_shipyard) return &quot;Data error&quot;;
+	if (def._oo_shipyard.standard_equipment.extras &amp;&amp; def._oo_shipyard.standard_equipment.extras.indexOf(eqKey) &gt;= 0) found = &quot;Standard&quot;;
+	if (found === &quot;N/A&quot; &amp;&amp; def._oo_shipyard.optional_equipment &amp;&amp; def._oo_shipyard.optional_equipment.indexOf(eqKey) &gt;= 0) found = &quot;Optional&quot;;
+	return found;
+}
+
+//-------------------------------------------------------------------------------------------------------------
+this.$forwardWeaponType = function(def) {
+	var found = &quot;None&quot;;
+	if (!def._oo_shipyard) return &quot;Data error&quot;;
+	if (def._oo_shipyard.standard_equipment.forward_weapon_type &amp;&amp; def._oo_shipyard.standard_equipment.forward_weapon_type != &quot;&quot;) {
+		var eq = EquipmentInfo.infoForKey(def._oo_shipyard.standard_equipment.forward_weapon_type);
+		if (eq) {
+			found = eq.name;
+		} else {
+			found = &quot;Unknown&quot;;
+		}
+	}
+	return found;
+}
+
+//-------------------------------------------------------------------------------------------------------------
+this.$cleanUpEquipSpace = function $cleanUpEquipSpace() {
+	var newData = [];
+	for (var i = 0; i &lt; this._equipSpace.length; i++) {
+		var found = false;
+		for (var j = 0; j &lt; newData.length; j++) {
+			if (newData[j].shipType == this._equipSpace[i].shipType) {
+				found = true;
+				break;
+			}
+		}
+		if (found === false) {
+			newData.push(JSON.parse(JSON.stringify(this._equipSpace[i])));
+		}
+	}
+	this._equipSpace.length = 0;
+	this._equipSpace = newData;
+}</pre></td>
+                </tr>
+            </table>
+        </a>
+    </body>
+</html>

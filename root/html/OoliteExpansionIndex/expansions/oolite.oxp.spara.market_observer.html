@@ -1,0 +1,623 @@
+<html>
+    <head>
+        <title>Expansion Market Observer</title>
+        <link rel="stylesheet" href="../style.css">
+    </head>
+    <body>
+        <table border="0" width="100%">
+            <tr>
+                <td>Back to <a href='../index.html'>Index</a></td>
+                <td align="right"><small>Page generated: Oct 11, 2023, 3:16:49 PM</small></td>
+            </tr>
+        </table>
+
+        <h1>Expansion Market Observer</h1>
+
+        <h2>Content</h2>
+        <ul>
+          
+          <li><a href="#manifest">Manifest</a></li>
+          <li><a href="#documentation">Documentation</a></li>
+          <li><a href="#equipment">0 Equipment</a></li>
+          <li><a href="#ships">0 Ships</a></li>
+          <li><a href="#models">0 Models</a></li>
+          <li><a href="#scripts">2 Scripts</a></li>
+        </ul>
+
+
+        <a name="manifest">
+        <h2>Manifest</h2>
+            <table border="1">
+                <tr>
+                    <th></th>
+                    <th>from Expansion Manager's OXP list</th>
+                    <th>from Expansion Manifest</th>
+                </tr>
+                <tr>
+                    <td>Description</td>
+                    <td>Enhances the market screen by showing trading information. Trade information includes price average, difference, percentual difference and purchase log. This oxp also gives a trader&#39;s rating based on your buys and sells.</td>
+                    <td>Enhances the market screen by showing trading information. Trade information includes price average, difference, percentual difference and purchase log. This oxp also gives a trader&#39;s rating based on your buys and sells.</td>
+                </tr>
+                <tr>
+                    <td>Identifier</td>
+                    <td>oolite.oxp.spara.market_observer</td>
+                    <td>oolite.oxp.spara.market_observer</td>
+                </tr>
+                <tr>
+                    <td>Title</td>
+                    <td>Market Observer</td>
+                    <td>Market Observer</td>
+                </tr>
+                <tr>
+                    <td>Category</td>
+                    <td>Equipment</td>
+                    <td>Equipment</td>
+                </tr>
+                <tr>
+                    <td>Author</td>
+                    <td>spara</td>
+                    <td>spara</td>
+                </tr>
+                <tr>
+                    <td>Version</td>
+                    <td>3.7</td>
+                    <td>3.7</td>
+                </tr>
+                <tr>
+                    <td>Tags</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Required Oolite Version</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Maximum Oolite Version</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Required Expansions</td>
+                    <td>
+                    </td>
+                    <td>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Optional Expansions</td>
+                    <td>
+                    </td>
+                    <td>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Conflict Expansions</td>
+                    <td>
+                    </td>
+                    <td>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Information URL</td>
+                    <td><a target="_blank" href="http://wiki.alioth.net/index.php/MarketObserver">http://wiki.alioth.net/index.php/MarketObserver</a></td>
+                    <td><a target="_blank" href="">n/a</a></td>
+                </tr>
+                <tr>
+                    <td>Download URL</td>
+                    <td><a target="_blank" href="https://wiki.alioth.net/img_auth.php/c/cb/Market_observer_3.7.oxz">https://wiki.alioth.net/img_auth.php/c/cb/Market_observer_3.7.oxz</a></td>
+                    <td><a target="_blank" href="">n/a</a></td>
+                </tr>
+                <tr>
+                    <td>License</td>
+                    <td>CC-BY-NC-SA 4.0</td>
+                    <td>CC-BY-NC-SA 4.0</td>
+                </tr>
+                <tr>
+                    <td>File Size</td>
+                    <td>n/a</td>
+                </tr>
+                <tr>
+                    <td>Upload date</td>
+                    <td>1610873473</td>
+                </tr>
+            </table>
+                </a>
+
+        <a name="documentation">
+        <h2>Documentation</h2>
+        <p>Also read <a href='http://wiki.alioth.net/index.php/Market%20Observer'>http://wiki.alioth.net/index.php/Market%20Observer</a></p>
+        <h3>marketObserver_readme_&amp;_license.txt</h3>
+        <pre>Market Observer OXP ver 3.7 (12.10.2020)
+
+Author: spara (Mika Spåra)
+
+_Overview_
+
+This oxp enhances the market screen with valuable data. To keep this enhancement free, ads from various advertisers are shown in the market screen.
+
+_Features_
+
+1. Market Reference Gatherer
+
+This feature monitors the prices of system markets and keeps a list of average prices. This data is printed to the market screen.
+
+2. System Price Difference Viewer
+
+This feature prints the difference of station prices compared to the averages as absolute and percentage value to the market screen. Gives a quick overview of what is cheap and what expensive.
+
+3. Purchase Log
+
+Purchase log is collected from purchaces at the standard market. When selling, the log is purged starting from the most expensive purchases. The most expensive purchase is printed to the market screen. Helps to determine, if it&#39;s worth to sell or not. A more detailed view is available in the detailed commodity view (f8-f8).
+
+If cargo is lost, lost cargo is purged from the log when docking at a station.
+
+4. Ads From YAH / Requires a separate Market Ads OXP to be installed
+
+Various ads from Your Ad Here! OXP are shown in the bottom of the market screen.
+
+OXP has an api for adding even more ads to the mix.
+
+* Simply call worldScripts[&quot;market_ads_service&quot;]._setHorzAd(&#39;filename_of_your_horizontal_ad&#39;) in startUp and that&#39;s it. Ads need to be in 256x128 resolution.
+
+5. Trader&#39;s Rating
+
+Market Observer monitors the profit you gain from buying and selling at the standard market and gives you a rating. Profit is calculated when selling a commodity that&#39;s purchase has been logged. No profit is calculated from salvaging or contracting etc, unless some purchased cargo is lost. Player is given a Trader&#39;s Rating based on profit made. Rating is shown in the ship manifest and if Market Ads OXP is installed, on the market screen.
+
+First rank at 1500 cr. Highest rank at 1000000 cr.
+
+_Requirements_
+
+* Oolite version 1.82 or higher.
+
+_Credits_
+
+* All ads are selected and cropped from Your Ad Here! oxp and Your Ad Here! forum thread. Ads are made by different Oolite players.
+
+------
+
+This work is licensed under the Creative Commons Attribution-Noncommercial-Share Alike 4.0 Unported License. To view a copy of this license, visit http://creativecommons.org/licenses/by-nc-sa/4.0/
+</pre>
+        </a>
+
+        <a name="equipment">          
+        <h2>Equipment</h2>
+            This expansion declares no equipment. 
+        </a>
+
+        <a name="ships">    
+        <h2>Ships</h2>
+            This expansion declares no ships. 
+        </a>
+
+        <a name="models">    
+        <h2>Models</h2>
+            This expansion declares no models. 
+        </a>
+
+        <a name="scripts">    
+        <h2>Scripts</h2>
+            <table>
+                <tr>
+                    <th>Path</th>
+                </tr>
+                <tr>
+                    <td valign="top">Scripts/market_observer.js</td>
+                    <td><pre>&quot;use strict&quot;;
+
+this.name = &quot;market_observer3&quot;;
+this.author = &quot;spara&quot;;
+this.description = &quot;Show extra market information&quot;;
+
+this.startUp = function() {
+	this.$basisLimit = 100 //current avg is weighted with this value
+
+	//init price gatherer
+	if (!missionVariables.marketObserver3) {
+		this.$priceData = new Object();
+	}
+	else {
+		this.$priceData = JSON.parse(missionVariables.marketObserver3);
+	}
+	
+	//init purchase log
+	if (!missionVariables.marketObserverBuyLog3) {
+		this.$buyLog = new Object();
+	}
+	else {
+		this.$buyLog = JSON.parse(missionVariables.marketObserverBuyLog3);
+	}
+	
+	//init contracted goods
+	if (!missionVariables.marketObserverContracted) {
+		this.$contracted = new Object();
+	}
+	else {
+		this.$contracted = JSON.parse(missionVariables.marketObserverContracted);
+	}
+}
+
+this.startUpComplete = function() {
+	//for compatibility with commodity markets oxp. it changes system market in market screen
+	this.$sMarket = system.mainStation.market;
+	//on start up, check for new commodities.
+	var sMarket = this.$sMarket;
+	for (var i in sMarket) {
+		if (!this.$priceData[i]) {
+			this.$updatePriceData();
+			break;
+		}
+	}
+}
+
+this.playerWillSaveGame = function () {
+	missionVariables.marketObserver3 = JSON.stringify(this.$priceData);
+	missionVariables.marketObserverBuyLog3 = JSON.stringify(this.$buyLog);
+	missionVariables.marketObserverContracted = JSON.stringify(this.$contracted);
+}
+
+//mark commodities as contracted to be noted when player buys or sells. contracted goods do not affect trader&#39;s rating.
+this.playerEnteredContract = function(type, contract) {
+	if (type === &quot;cargo&quot;) {
+		var commodity = contract.co_type;
+		if (this.$contracted[commodity]) {
+			this.$contracted[commodity] += contract.co_amount;
+		}
+		else this.$contracted[commodity] = contract.co_amount
+	}
+}
+
+//release commodities for being marked as contracted.
+this.playerCompletedContract = function(type, result, fee, contract) {
+	if (type === &quot;cargo&quot;) {
+		var commodity = contract.co_type;
+		if (this.$contracted[commodity]) {
+			this.$contracted[commodity] -= contract.co_amount;
+			if (this.$contracted[commodity] &lt;= 0) {
+				delete this.$contracted[commodity];
+			}
+		}
+	}
+}
+
+//cancel contracts when entering new galaxy as core does
+this.playerEnteredNewGalaxy = function(galaxyNumber) {
+	this.$contracted = new Object();
+}
+
+//update system prices when exiting WS
+this.shipExitedWitchspace = function() {
+	if (system.mainStation) {
+		this.$updatePriceData();
+		this.$sMarket = system.mainStation.market;
+	}
+}
+
+//update average
+this.$updatePriceData = function() {
+	var sMarket = this.$sMarket;
+	for (var i in sMarket) {
+		//update the average of a known commodity using a weighting from this.$basisLimit
+		if (this.$priceData[i]) {
+			var avgBasis = this.$basisLimit;
+			this.$priceData[i].average = (avgBasis * this.$priceData[i].average + sMarket[i].price) / (avgBasis + 1);
+		}
+		//init a new commodity using average from commodity def
+		else {
+			//there&#39;s a rare possibility that the commodity has no price_average
+			if (sMarket[i].price_average) {
+				this.$priceData[i] = {
+					average: sMarket[i].price_average
+				}
+			}
+			else {
+				this.$priceData[i] = {
+					average: sMarket[i].price
+				}
+			}
+		}
+	}
+}
+
+//update purchase log
+this.playerBoughtCargo = function(commodity, units, price) {
+	//there&#39;s a contract on commodity
+	if (this.$contracted[commodity]) {
+		var prevQuantity = player.ship.manifest[commodity] - units;
+		var replaced = 0;
+		//in case we replacing contracted goods, don&#39;t note replaced units on log/rating			
+		while (prevQuantity &lt; this.$contracted[commodity] &amp;&amp; units &gt; 0) {
+			prevQuantity += 1;
+			units--;
+			replaced++;
+		}
+		if (replaced &gt; 0) {
+			player.consoleMessage(replaced + &quot; units of contracted goods replaced.&quot;);
+		}
+	}
+	if (units &gt; 0) {
+		if (this.$buyLog[commodity]) {
+			//handle buying the same commodity multiple times
+			if (this.$buyLog[commodity][0][1] === price) {
+				this.$buyLog[commodity][0][0] += units;
+				this.$updateManifestExtras();
+				return;
+			}
+		}
+		else {
+			this.$buyLog[commodity] = new Array();
+		}
+		this.$buyLog[commodity].unshift([units, price]);
+		this.$updateManifestExtras();
+	}
+}
+
+//update purchace log
+this.playerSoldCargo = function(commodity, units, price) {
+	if (!this.$buyLog[commodity]) return;
+	var i, currentElement;
+	var tab = &quot;&quot;;
+	var unitCount = units;
+	var profit = 0;
+	while(unitCount &gt; 0 &amp;&amp; this.$buyLog[commodity].length &gt; 0) { //purge buys from log
+		currentElement = this.$buyLog[commodity].shift();
+		//There is more than enough purchases in one log entry
+		if (currentElement[0] &gt; unitCount) {
+			profit += unitCount * (price - currentElement[1]);
+			currentElement[0] -= unitCount;
+			this.$buyLog[commodity].unshift(currentElement);
+			unitCount = 0;
+		}
+		//There is enough or less purchases in log entry
+		else {
+			profit += currentElement[0] * (price - currentElement[1]);
+			unitCount -= currentElement[0];
+		}
+	}
+	if (this.$buyLog[commodity].length === 0)
+		delete this.$buyLog[commodity];
+	//show profit if profit != 0
+	if (profit !== 0) {
+		player.consoleMessage(&quot;Profit by trade: &quot;+formatCredits(profit/10, true, true ));
+		worldScripts[&quot;mo-traders_rating3&quot;].$reportProfit(profit);
+	}
+	this.$updateManifestExtras();
+}
+
+
+this.shipDockedWithStation = function(station) {
+	//this is here for compatibility with commodity markets oxp. it changes system market when docked at main station
+	if (station.isMainStation) {
+		this.$sMarket = system.mainStation.market;
+	}
+	//write off lost cargo from the profit when docking
+	var profitLoss = 0;
+	for (var i in this.$buyLog) {
+		if (!manifest[i]) var unitsInCargo = 0;
+		else var unitsInCargo = manifest[i];
+		var done = false;
+		while (!done) {
+			var unitsInLog = 0;
+			//calculate total number of units in log
+			for (var j = 0; j &lt; this.$buyLog[i].length; j++) {
+				unitsInLog += this.$buyLog[i][j][0];
+			}
+			var difference = unitsInLog - unitsInCargo;
+			//check if cargo is missing
+			if (difference &gt; 0) {
+				//the last log entry has more than enough units to be removed, no need to remove entries
+				if (this.$buyLog[i][this.$buyLog[i].length-1][0] &gt; difference) {
+					profitLoss += this.$buyLog[i][this.$buyLog[i].length-1][1] * difference;
+					this.$buyLog[i][this.$buyLog[i].length-1][0] -= difference;
+					done = true;
+				}
+				//the last log entry has enough or less than enough units to be removed, need to remove last entry
+				else {
+					profitLoss += this.$buyLog[i][this.$buyLog[i].length-1][1] * difference;
+					this.$buyLog[i].pop();
+				}
+			}
+			else {
+				done = true;
+				if (this.$buyLog[i].length === 0) delete this.$buyLog[i];
+			}
+		}
+	}
+	if (profitLoss &gt; 0) {
+		worldScripts[&quot;mo-traders_rating3&quot;].$reportProfit(-1 * profitLoss);
+		player.consoleMessage(formatCredits(profitLoss/10, true, true )+&quot; worth of cargo is lost.&quot;);
+	}
+	this.$updateManifestExtras();
+}
+
+this.shipLaunchedFromStation = function(station) {
+	for (var i in this.$buyLog) {//sort purchase log descending
+		this.$buyLog[i].sort(function(a, b){return b[1] - a[1]});
+	}
+	this.$updateManifestExtras();
+}
+
+this.guiScreenWillChange = function(to, from) {
+	if (to === &quot;GUI_SCREEN_MARKET&quot;) this.$updateManifestExtras();
+}
+
+//tabbing function, prefixes pads to the string
+//order true postfixes with pads
+this._tabulate = function(string, width, order) {
+	var hairSpace = String.fromCharCode(31);
+	var hairSpaceLength = defaultFont.measureString(hairSpace);
+	var currentLength = global.defaultFont.measureString(string);
+	var padsNeeded = Math.floor((width - currentLength) / hairSpaceLength);
+	if (padsNeeded &gt;= 1)
+		var pads = new Array(padsNeeded).join(hairSpace);
+	else var pads = &quot;&quot;;
+	if (!order) return (pads + string);
+	else return (string + pads);
+}
+
+this._percentDiff = function(avg, local, capacity) {
+	if (capacity !== 0) {
+		var percent = (local - avg) / avg * 100;
+		if (percent &lt; -0.05) {
+			var percentText = percent.toFixed(1) + &quot; %%&quot;;
+		}
+		else if (percent &gt; 0.05) {
+			var percentText = &quot;+&quot; + percent.toFixed(1) + &quot; %%&quot;;
+		}
+		else var percentText = &quot;0.0 %%&quot;;
+	}
+	//no point in calculating difference for 0 prices.
+	else var percentText = &quot;— %%&quot;;
+	return percentText;
+}
+
+this._absDiff = function(avg, local, capacity) {
+	if (capacity !== 0) {
+		var abs = (local - avg)/10;
+		if (abs &lt; -0.05) {
+			var absText = abs.toFixed(1);
+		}
+		else if (abs &gt; 0.05) {
+			var absText = &quot;+&quot; + abs.toFixed(1);
+		}
+		else var absText = &quot;0.0&quot;;
+	}
+	//no point in calculating difference for 0 prices.
+	else var absText = &quot;—&quot;;
+	return absText;
+}
+
+this.$updateManifestExtras = function() {
+	
+	//check what market is being shown
+	if (player.ship.docked) {
+		var sMarket = player.ship.dockedStation.market;
+	}
+	else {
+		if (player.ship.target &amp;&amp; player.ship.target.isStation) {
+			var bcMarket = Ship.shipDataForKey(player.ship.target.dataKey)[&quot;market_broadcast&quot;];
+			if (!bcMarket) bcMarket = true;
+			else {
+				var trues = [&quot;1&quot;, &quot;true&quot;, &quot;yes&quot;];
+				bcMarket = bcMarket.toLowerCase();
+				if (trues.indexOf(bcMarket) !== -1) bcMarket = true;
+				else bcMarket = false;
+			}
+			if (bcMarket) var sMarket = player.ship.target.market;
+			else var sMarket = this.$sMarket;
+		}
+		else var sMarket = this.$sMarket;
+	}
+	
+	var cm = worldScripts[&quot;commodity_markets&quot;];
+	
+	for (var i in sMarket) {
+
+		//first we&#39;ll need to clean our possible earlier additions from comment
+		//there might be other content so we&#39;ll do what we can to preserve that.
+		//we&#39;re assuming (foolhardy?) that we&#39;re the last entry.
+		var cmt = manifest.comment(i);
+		if (cmt.indexOf(&quot;Purchase breakdown&quot;) !== -1) {
+			var sliceIndex = cmt.indexOf(&quot;Purchase breakdown&quot;) - 2;
+			cmt = cmt.slice(0, sliceIndex);
+			manifest.setComment(i, cmt);
+		}
+		
+		//average column
+		var line = this._tabulate(formatCredits(this.$priceData[i].average/10, true, false), 2.4);
+		
+		//differences colums
+		if (!system.isInterstellarSpace) {
+			line += this._tabulate(this._absDiff(this.$priceData[i].average, sMarket[i].price, sMarket[i].capacity), 3);
+			line += this._tabulate(this._percentDiff(this.$priceData[i].average, sMarket[i].price, sMarket[i].capacity), 4.5);
+		}
+
+		var buyColWidth = 17.5;
+		
+		//add possible commodity markets column
+		if (player.ship.docked &amp;&amp; cm) {
+			line += this._tabulate(formatCredits(cm.$commodities[i][1]/10, true, false), 5.3);
+			buyColWidth -= 5.3;
+		}
+		
+		//add puchase log column
+		if (this.$buyLog[i]) {
+			line += this._tabulate(this.$buyLog[i][0][0] + &quot; × &quot;, buyColWidth); 
+			line += formatCredits(this.$buyLog[i][0][1]/10, true, false);
+			//more that one entry in log
+			if (this.$buyLog[i].length &gt; 1) line += &quot; &gt;&quot;;
+			
+			//commodity details (f8-f8)
+			// 6 entries per line
+			cmt += &quot;\n\nPurchase breakdown of held cargo: &quot;;
+			var j = 0;
+			while (j &lt; this.$buyLog[i].length) {
+				cmt += &quot;\n&quot;;
+				for (var k = j; k &lt; j + 6; k++) {
+					if (k &lt; this.$buyLog[i].length) {
+						cmt += this._tabulate(this.$buyLog[i][k][0] + &quot; × &quot;, 2.6);
+						cmt += this._tabulate(formatCredits(this.$buyLog[i][k][1]/10, true, false), 2.7, true);
+					}
+					else break;
+				}
+				j += 6;
+			}
+			manifest.setComment(i, cmt);
+		}
+		
+		manifest.setShortComment(i, line);
+	}
+}
+</pre></td>
+                </tr>
+                <tr>
+                    <td valign="top">Scripts/mo_traders_rating.js</td>
+                    <td><pre>&quot;use strict&quot;;
+
+this.name           = &quot;mo-traders_rating3&quot;;
+this.author         = &quot;spara&quot;;
+this.description    = &quot;Gives the player a Trader&#39;s Rating based on profit made.&quot;;
+
+//Public function for reporting profit
+this.$reportProfit = function(profit) {
+	this.$profit += profit;
+	this.$setInstruction();
+}
+
+this.startUp = function() {
+	if (!missionVariables.marketObserverProfit) this.$profit = 0;
+	else this.$profit = missionVariables.marketObserverProfit;
+	this.$setInstruction();
+}
+
+this.playerWillSaveGame = function () {
+	missionVariables.marketObserverProfit = this.$profit;
+}
+
+this.$traderRank = function() { //return trader rank string
+	var traderRatings =[0, 1500, 5000, 20000, 50000, 100000, 250000, 500000, 1000000];
+	var i;
+	var traderRating = -1;
+	for (i = 0; i &lt; 9; i++) {
+		if (this.$profit/10 &gt;= traderRatings[i])
+			var traderRating = i;
+	}
+	if (traderRating != -1)
+		return expandDescription(&quot;[mo_trade_rating_&quot; + traderRating+&quot;]&quot;);
+	else
+		return expandDescription(&quot;[mo_trade_rating_minus]&quot;);
+}
+
+//Trader rank for market hud
+this.$setInstruction = function() { //set trader rank text to manifest
+	var traderRank = &quot;Trader&#39;s Rating: &quot; + this.$traderRank() + &quot; (&quot; + formatCredits(this.$profit/10, true, true ) + &quot;)&quot;;
+	player.ship.setCustomHUDDial(&quot;marketObserverProfit&quot;, traderRank);
+	mission.setInstructions(traderRank+&quot;.&quot;, this.name);
+}
+</pre></td>
+                </tr>
+            </table>
+        </a>
+    </body>
+</html>

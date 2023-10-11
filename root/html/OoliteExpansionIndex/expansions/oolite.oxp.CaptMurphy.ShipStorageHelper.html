@@ -1,0 +1,1586 @@
+<html>
+    <head>
+        <title>Expansion Ship Storage Helper</title>
+        <link rel="stylesheet" href="../style.css">
+    </head>
+    <body>
+        <table border="0" width="100%">
+            <tr>
+                <td>Back to <a href='../index.html'>Index</a></td>
+                <td align="right"><small>Page generated: Oct 11, 2023, 3:16:48 PM</small></td>
+            </tr>
+        </table>
+
+        <h1>Expansion Ship Storage Helper</h1>
+
+        <h2>Content</h2>
+        <ul>
+          <li><a href="#warnings">Warnings</a></li>
+          <li><a href="#manifest">Manifest</a></li>
+          <li><a href="#documentation">Documentation</a></li>
+          <li><a href="#equipment">0 Equipment</a></li>
+          <li><a href="#ships">0 Ships</a></li>
+          <li><a href="#models">0 Models</a></li>
+          <li><a href="#scripts">1 Scripts</a></li>
+        </ul>
+
+          <a name="warnings">
+            <h2>Warnings</h2>
+            <ol>
+                <li>Tags mismatch between OXP Manifest and Expansion Manager at character position 0002 (RIGHT SQUARE BRACKET vs LATIN SMALL LETTER S)(&#39;[]&#39; vs &#39;[safe]&#39;)</li>
+                <li>Optional Expansions mismatch between OXP Manifest and Expansion Manager at character position 0286 (DIGIT ZERO vs LATIN SMALL LETTER N)</li>
+            </ol>
+          </a>
+
+        <a name="manifest">
+        <h2>Manifest</h2>
+            <table border="1">
+                <tr>
+                    <th></th>
+                    <th>from Expansion Manager's OXP list</th>
+                    <th>from Expansion Manifest</th>
+                </tr>
+                <tr>
+                    <td>Description</td>
+                    <td>A helper to other OXPs to store/restore current ship info. Required by Carriers, Combat Simulator, Hyperspace Hangar and Ship Respray.</td>
+                    <td>A helper to other OXPs to store/restore current ship info. Required by Carriers, Combat Simulator, Hyperspace Hangar and Ship Respray.</td>
+                </tr>
+                <tr>
+                    <td>Identifier</td>
+                    <td>oolite.oxp.CaptMurphy.ShipStorageHelper</td>
+                    <td>oolite.oxp.CaptMurphy.ShipStorageHelper</td>
+                </tr>
+                <tr>
+                    <td>Title</td>
+                    <td>Ship Storage Helper</td>
+                    <td>Ship Storage Helper</td>
+                </tr>
+                <tr>
+                    <td>Category</td>
+                    <td>Miscellaneous</td>
+                    <td>Miscellaneous</td>
+                </tr>
+                <tr>
+                    <td>Author</td>
+                    <td>Capt. Murphy, Norby</td>
+                    <td>Capt. Murphy, Norby</td>
+                </tr>
+                <tr>
+                    <td>Version</td>
+                    <td>0.38</td>
+                    <td>0.38</td>
+                </tr>
+                <tr>
+                    <td>Tags</td>
+                    <td></td>
+                    <td>safe</td>
+                </tr>
+                <tr>
+                    <td>Required Oolite Version</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Maximum Oolite Version</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Required Expansions</td>
+                    <td>
+                    </td>
+                    <td>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Optional Expansions</td>
+                    <td>
+                            <li>oolite.oxp.cim.combat-simulator:1.1</li>
+                            <li>oolite.oxp.Norby.Carriers:0.9</li>
+                            <li>oolite.oxp.Ramen.Hyperspace_Hangar:0</li>
+                            <li>oolite.oxp.phkb.ShipRespray:0</li>
+                    </td>
+                    <td>
+                            <li>oolite.oxp.cim.combat-simulator:1.1</li>
+                            <li>oolite.oxp.Norby.Carriers:0.9</li>
+                            <li>oolite.oxp.Ramen.Hyperspace_Hangar:</li>
+                            <li>oolite.oxp.phkb.ShipRespray:</li>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Conflict Expansions</td>
+                    <td>
+                    </td>
+                    <td>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Information URL</td>
+                    <td><a target="_blank" href="http://wiki.alioth.net/index.php/Ship_Storage_Helper">http://wiki.alioth.net/index.php/Ship_Storage_Helper</a></td>
+                    <td><a target="_blank" href="">n/a</a></td>
+                </tr>
+                <tr>
+                    <td>Download URL</td>
+                    <td><a target="_blank" href="https://wiki.alioth.net/img_auth.php/d/de/Ship_Storage_Helper_0.38.oxz">https://wiki.alioth.net/img_auth.php/d/de/Ship_Storage_Helper_0.38.oxz</a></td>
+                    <td><a target="_blank" href="">n/a</a></td>
+                </tr>
+                <tr>
+                    <td>License</td>
+                    <td>CC-BY-NC-SA 3.0</td>
+                    <td>CC-BY-NC-SA 3.0</td>
+                </tr>
+                <tr>
+                    <td>File Size</td>
+                    <td>n/a</td>
+                </tr>
+                <tr>
+                    <td>Upload date</td>
+                    <td>1656885799</td>
+                </tr>
+            </table>
+                </a>
+
+        <a name="documentation">
+        <h2>Documentation</h2>
+        <p>Also read <a href='http://wiki.alioth.net/index.php/Ship%20Storage%20Helper'>http://wiki.alioth.net/index.php/Ship%20Storage%20Helper</a></p>
+        <h3>readme.txt</h3>
+        <pre>Ship_Storage_Helper.oxp
+=======================
+Capt Murphy 2012
+Licence: CC BY-NC-SA 3.0 - see http://creativecommons.org/licenses/by-nc-sa/3.0/ for more info. 
+Requires: Oolite 1.77 - Trunk builds after revision 5025 (nightly build 23/05/12).
+Version 0.20 24/06/12, versions after this are improved by Norby.
+
+Overview
+--------
+Ship_Storage_Helper contains helper functions for OXP writers that wish to use the new Trunk JS method player.replaceShip(dataKey[,entityPeronality]). It facilitates storing information about the current player ship in a variable or missionVariable, and reinstating a stored player ship as the players current ship, taking into account known OXP variables that also need to be stored/reinstated.
+
+As development and testing is ongoing it is anticipated that additional OXP compatibility code will need to included.  I would be grateful if testers and OXP authors could alert me to any bugs using the current release. In the long term I hope this OXP to become a community maintained OXP as it will require regular updating in light of new OXP releases.
+
+Current OXP Compatibility
+-------------------------
+Ship_Storage_Helper contains code to explicitly overcome compatibility issues for the following OXPs:
+
+New Cargoes, HyperCargo, Vortex, APRIL, Iron Hide, Missiles and Bombs, Railgun, Target Autolock Plus, Target Reticle Sensitive, Armoury, Aquatics, Battle Damage, &#39;Breakables&#39;, TCAT, Respray for Griff’s.
+
+Functions
+---------
+worldScripts[&quot;Ship_Storage_Helper.js&quot;].storeCurrentShip() 
+
+This function can be called from other worldScripts immediately before changing the player&#39;s ship with player.replaceShip(dataKey), and returns a string including the stored ships essential attributes.
+
+worldScripts[&quot;Ship_Storage_Helper.js&quot;].restoreStoredShip(storedShipString)
+
+This function takes the output of storeCurrentShip as an argument and uses it to reinstate the player ship from the stored information. Returns true if successful or one of the following error strings if it fails.
+
+&quot;Error-Invalid Parameter, expected String&quot; - indicates that storedShipString is in wrong format
+&quot;Error-Invalid Parameter, array incorrect length&quot; - indicates that storedShipString was created by a newer version of Ship_Storage_Helper.
+&quot;Error-Invalid dataKey&quot; - indicates that the OXP that defined that dataKey has been removed since storedShipString was created.
+
+The output of storeCurrentShip is a JSON stringified array of ship attributes, containing the following indices.
+
+0: Place and time of storage - Array [galaxyNumber,system.ID,clock.seconds,ship.displayName,system.name,stationAttributes,ship.price,	ship.shipClassName, ship.shipUniqueName, ship.AIScriptWakeTime, ship.beaconLabel,
+	ship.destinationSystem, ship.exhaustEmissiveColor, ship.homeSystem,
+	ship.maxYaw, ship.maxPitch, ship.maxRoll, ship.maxThrust, ship.thrust,
+	ship.maxSpeed, ship.maxEnergy, ship.energyRechargeRate, ship.cargoSpaceCapacity,
+	ship.injectorBurnRate, ship.injectorSpeedFactor, ship.scanDescription, ship.hyperspaceSpinTime, 
+	ship.scannerHostileDisplayColor1, ship.scannerHostileDisplayColor2,
+	ship.forwardShield, ship.maxForwardShield, ship.forwardShieldRechargeRate,
+	ship.aftShield, ship.maxAftShield, ship.aftShieldRechargeRate, 
+	ship.passengerCapacity]
+	(stationAttributes are [player.ship.dockedStation.primaryRole, 
+	player.ship.dockedStation.dataKey, player.ship.dockedStation.position])
+1: dataKey (e.g. &quot;cobra3-player&quot;)
+2: aftWeapon equipmentKey
+3: forwardWeapon equipmentKey
+4: portWeapon equipmentKey
+5: starboardWeapon equipmentKey
+6: Array of pylon equipmentKeys
+7: Array of normal equipment equipmentKeys &amp; equipmentStatus
+8: (v0.37 and prior) Array of manifest contents (v0.38) Dictionary of commodity names with quantities (eg {&quot;food&quot;:2, &quot;gold&quot;:5})
+9: fuel
+10: passenger contracts
+11: array of subEnts (only if frangible subEnts are missing on storage) with subEntityRotation.
+12: serviceLevel
+13: entityPersonality
+14: EscortDeck info
+15: Cim&#39;s New Cargoes suspended cargo variable
+16: Array of Thargoid&#39;s HyperCargo missionVariables
+17: Array of Thargoid&#39;s Vortex/Maelstrom missionVariables
+18: Array of Thargoid&#39;s APRIL missionVariables
+19: Array of Thargoid&#39;s IronHide missionVariables
+20: Ramirez&#39;s Missile &amp; Bombs missionVariable
+21: Array of McClane&#39;s Railgun missionVariables.
+22: Thargoid&#39;s TargetAutoLock Plus missionVariable.
+23: Eric&#39;s TargetReticle Sensitive missionVariable.
+24: Thargoid&#39;s Armoury missionVariable.
+25: Thargoid&#39;s Aquatics missionVariable.
+26: Smivs Battle Damage missionVariable.
+27: Respray for Griff’s missionVariables.
+28: Shield Cycler object.
+29: Laser Mount Switching System storage.
+30: Ship Configuration armour settings
+31: Smugglers hold cargo
+32: Smuggling compartment setting
+33: Breakable Lasers info
+34: Thargoids RepairBots missionVariable.
+
+Individual elements can be accessed from your own script. For example-
+
+var myStoredShip = worldScripts[&quot;Ship_Storage_Helper.js&quot;].storeCurrentShip()
+var dataKey = JSON.parse(myStoredShip[1])
+
+worldScripts[&quot;Ship_Storage_Helper.js&quot;].disableVortexPBNSFunc(context)
+worldScripts[&quot;Ship_Storage_Helper.js&quot;].disableMaelstromPBNSFunc(context)
+
+Context must be a string – valid values are “delete” &amp; “retainName”.
+
+Used to temporarily modify the behaviour of the playerBoughtNewShip function in Thargoid&#39;s Vortex.oxp, to either prevent it running, or to prevent it renaming a Vortex or Maelstrom that has previously been stored.
+
+worldScripts[&quot;Ship_Storage_Helper.js&quot;].enableVortexPBNSFunc()
+worldScripts[&quot;Ship_Storage_Helper.js&quot;].enableMaelstromPBNSFunc()
+
+Reverses the changes made by the above functions.
+
+worldScripts[&quot;Ship_Storage_Helper.js&quot;].disableTCATPBNSFunc()
+worldScripts[&quot;Ship_Storage_Helper.js&quot;].enableTCATPBNSFunc()
+
+Used to temporarily disable the playerBoughtNewShip function in Thargoid&#39;s TCAT.oxp. Buying a new ship is a trigger for mission failure in this OXP, but this may not always be appropriate behaviour using the new methods.
+
+All of these functions are called from Extended_Shipyards.OXP if you need examples of how they can be used.
+
+Variables
+---------
+worldScripts[&quot;Ship_Storage_Helper.js&quot;].dataKeyArray
+
+This is an array of valid player ship dataKeys from the users currently installed OXPs. It is built at startUp. It is not necessarily comprehensive, and is less likely to be comprehensive the more unique player-flyable ships are installed. It can generally capture up to 60 to 70 unique dataKeys.
+
+ChangeLog
+---------
+v0.16 31/5/12 – Added additional information to header including system.name as a string, information about the station the ship is stored at, and the full price of the stored ship. Added entityPersonality as a ship attribute that is saved and can be restored (maintains paint colours on Griff&#39;s ships under full shaders). Thanks to cim for making this option available from trunk revision 4968. Fixed a bug were version 0.15 was unintentionally dependent on the Breakables OXPs.
+v0.17 05/6/12 – Fixed a bug in handling of subEntities when the ship doesn’t have any.
+v0.18 09/06/12 – Added compatibility for v0.2 of Respray for Griff’s.oxp
+v0.19 16/06/12 – Updated compatibility for v0.3 of Respray for Griff’s.oxp
+v0.20 24/06/12 – Updated compatibility for v0.4 of Respray for Griff’s.oxp so that adjusted decals are correctly restored. Ensure that player shield strength is set to maximum on restore (thanks cim for the report).
+v0.21 16/12/13 – Improved buildDataKeyArray() by Norby: use the new keysForRole() in Oolite v1.79.
+v0.22 30/12/14 – Use storedShipArray[14] for Carriers OXP and EscortDeck OXP by Norby and possible to handle NPC ships by calling storeCurrentShip(ship) and restoreStoredShip(storedShipString, ship).
+v0.23 10/01/15 – Fixed equipment restore if the container OXP of an equipment is not exists anymore.
+v0.24 13/04/15 – Fixed equipment restore if a required equipment comes later in the list. Fixed Shield Cycler cashback at ship restore.
+v0.25 01/08/15 – Save new writable ship properties in Oolite 1.82. Use the new storage functions of Shield Cycler v1.12.
+v0.26 06/08/15 – Added support for LMSS OXP. Fixed liquor_wines, gem_stones, alien_items and multiple passenger berths.
+v0.27 13/08/15 – Fixed a bug in cargoSpaceCapacity handling.
+v0.28 12/10/15 – Removed beaconLabel restore due to read-only for player.
+v0.29 31/12/17 – Fixed the restore of UBER lasers in new lasers, thanks to fraterchaos and phkb.
+v0.30 21/03/18 – Fixed issue with Ship Configuration Armour auto-repairing damaged equipment.
+v0.31 06/06/18 – Added Ship Configuration armour settings to the array.
+v0.32 09/06/18 – Fixed issue restoring ship.
+v0.33 20/08/18 – Attempt to fix issue with equipment conditions preventing items being added to the ship. Plus improved compatibility with UBER lasers in New Lasers OXP.
+v0.34 25/08/18 – Included a check for player bounty in case an equipment item has the “requires_clean” property set. Also tweaked the techLevel check to limit the looping, as well as reordered the sequence of checks to do the smaller loops first.
+v0.35 21/10/18 – Added a try/catch block to the missile selection routine, as it was still, occasionally, hitting the bug. Added support for Smugglers – The Galactic Underworld OXP.
+v0.36 16/07/19 – Added a check for equipment already installed if installation function fails. Improved integration with Ship Configuration, reducing the chance of script timeouts.
+V0.37 23/05/20 – Added support for Thargoids Repair Bots, and Breakable Lasers. Corrected issue with setting cargoSpaceCapacity too early (before cargo-space-adjusting equipment is installed). Fix for storing/restoring cargo from NPC ships, as well as the player ship. (Thanks to dybal for these bug fixes). Converted RTF file to text format.
+V0.38 31/05/22 - Fixed storage of ShieldCycler data. Fixed storage of non-core commodities. Damaged equipment now set in final passes. Added last chance attempt on adding equipment. Ensure player credit balance is the same after replacing ship.
+</pre>
+        </a>
+
+        <a name="equipment">          
+        <h2>Equipment</h2>
+            This expansion declares no equipment. This may be related to warnings.
+        </a>
+
+        <a name="ships">    
+        <h2>Ships</h2>
+            This expansion declares no ships. This may be related to warnings.
+        </a>
+
+        <a name="models">    
+        <h2>Models</h2>
+            This expansion declares no models. This may be related to warnings.
+        </a>
+
+        <a name="scripts">    
+        <h2>Scripts</h2>
+            <table>
+                <tr>
+                    <th>Path</th>
+                </tr>
+                <tr>
+                    <td valign="top">Scripts/Ship_Storage_Helper.js</td>
+                    <td><pre>&quot;use strict&quot;;
+this.name = &quot;Ship_Storage_Helper.js&quot;;
+this.author = &quot;Capt. Murphy, Norby&quot;;
+this.copyright = &quot;2012 - Capt. Murphy&quot;;
+this.license = &quot;CC BY-NC-SA 3.0&quot;; // see http://creativecommons.org/licenses/by-nc-sa/3.0/ for more info. This OXP is intended to be developed by the OXPer community to ensure maximum OXP compatibility with OXPs that need to store/restore the player ship.
+this.credits = &quot;A big thank-you to cim for coding the new JS commands necessary for changing player ships by script.&quot;
+this.description = &quot;Worldscript with helper functions to store/restore player ship characteristics as a variable.&quot;;
+
+this.cargoType = [&quot;food&quot;, &quot;textiles&quot;, &quot;radioactives&quot;, &quot;slaves&quot;, &quot;liquor_wines&quot;, &quot;luxuries&quot;, &quot;narcotics&quot;, &quot;computers&quot;, &quot;machinery&quot;, &quot;alloys&quot;, &quot;firearms&quot;, &quot;furs&quot;, &quot;minerals&quot;, &quot;gold&quot;, &quot;platinum&quot;, &quot;gem_stones&quot;, &quot;alien_items&quot;];
+this.loggingEnabled = false;
+this.expectedLength = 35; // expected length of storedShipArray with current release. 
+	//Must be incremented as new items are added. Used to add extra data on restore if necessary 
+	// for backwards compatibility as this OXP develops.
+this.dataKeyCounter = 128; // old variable, now use dataKeyMaxIt 
+	//number of loop iterations used to build Array of available player dataKeys. 
+	// A higher number of iterations will result in a more comprehensive list of unique dataKeys 
+	// being identified (particularly if a lot of different player flyable ship OXPs are installed), 
+	// but increases the chance of JS timeout/long startUp times on slower computers. However if there 
+	// is timeout it will try again with a reduced number of iterations on the missionScreenOpportunity 
+	// that fires shortly after startUp. Should be a power of 2.  Default value of 128 results in 
+	// reasonable startUp delay on old WinXP test machine and captures around 90-95% of dataKeys when 
+	// there are 60 player flyable ships actually installed. Win 7 machine can easily cope with figure 
+	// of upto to 4096, with no noticeable delay
+this.dataKeyMaxIt = 5; //max. iteration in Oolite v1.77, increase if you have many OXP ships, 
+	// reduce if cause &quot;Universe is full&quot; or crash to desktop
+this.dataKeyArray = new Array; // will be populated with valid player flyable dataKeys from the users 
+	// currently installed OXPs at this.startUp.
+
+this.startUp = function () {
+	if (this.loggingEnabled) {
+		log(this.name, &quot;Building player dataKey Array.&quot;);
+	}
+	this.buildDataKeyArray(this.dataKeyMaxIt);
+}
+
+this.missionScreenOpportunity = function () {
+	if (this.dataKeyArrayBuilt) {
+		return;
+	}
+	if (this.loggingEnabled) {
+		log(this.name, &quot;Retry building player dataKey Array.&quot;);
+	}
+	this.dataKeyMaxIt = this.dataKeyMaxIt + 1;
+	this.buildDataKeyArray(this.dataKeyMaxIt);
+}
+
+this.buildDataKeyArray = function (iterations) {
+	var counter = 0;
+	if (0 &lt; oolite.compareVersion(&quot;1.79&quot;)) { //slow and limited method, use before Oolite v1.79 only
+		var ship;
+		var ships;
+		var dataKey;
+		for (counter = 0; counter &lt; iterations; counter++) {
+			ships = system.addShips(&quot;player&quot;, 64, [0, 0, 0], 1000000);
+			if (ships)
+				for (var j = 0; j &lt; ships.length; j++) {
+					ship = ships[j];
+					if (ship) {
+						dataKey = ship.dataKey;
+						if (this.dataKeyArray.indexOf(dataKey) === -1)
+							this.dataKeyArray.push(dataKey);
+						if (ship.escorts &amp;&amp; ship.escorts.length &gt; 0) {
+							for (var k = 0; k &lt; ship.escorts.length; k++) {
+								ship.escorts[k].remove(true);
+							}
+						}
+						ship.remove(true);
+					}
+				}
+		}
+	} else { //Oolite v1.79 or later
+		this.dataKeyArray = Ship.keysForRole(&quot;player&quot;); //playable ships
+	}
+	this.dataKeyArrayBuilt = true;
+	if (this.loggingEnabled) {
+		var c = &quot;&quot;;
+		if (counter &gt; 0) c = &quot; in &quot; + counter + &quot; iterations.&quot;;
+		log(this.name, &quot;Unique player ship dataKeys found: &quot; + this.dataKeyArray.length + c);
+		log(this.name, &quot;dataKeys: &quot; + this.dataKeyArray);
+	}
+}
+
+this.storeCurrentShip = function (ship) {
+	if (!ship) ship = player.ship;
+	var counter;
+	var storedShipArray = new Array;
+	var stationAttributes;
+	if (ship.dockedStation) {
+		stationAttributes = [ship.dockedStation.primaryRole, ship.dockedStation.dataKey, ship.dockedStation.position];
+	} else {
+		stationAttributes = [null, null, null];
+	}
+	storedShipArray.push([galaxyNumber, system.ID, clock.seconds, ship.displayName, system.name, stationAttributes, ship.price,
+		ship.shipClassName, ship.shipUniqueName, ship.AIScriptWakeTime, ship.beaconLabel,
+		ship.destinationSystem, ship.exhaustEmissiveColor, ship.homeSystem,
+		ship.maxYaw, ship.maxPitch, ship.maxRoll, ship.maxThrust, ship.thrust,
+		ship.maxSpeed, ship.maxEnergy, ship.energyRechargeRate, ship.cargoSpaceCapacity,
+		ship.injectorBurnRate, ship.injectorSpeedFactor, ship.scanDescription, ship.hyperspaceSpinTime,
+		ship.scannerHostileDisplayColor1, ship.scannerHostileDisplayColor2,
+		ship.forwardShield, ship.maxForwardShield, ship.forwardShieldRechargeRate,
+		ship.aftShield, ship.maxAftShield, ship.aftShieldRechargeRate,
+		ship.passengerCapacity
+	]); //storedShipArray[0][0-35]
+	storedShipArray.push(ship.dataKey); // storedShipArray[1]
+	if (!ship.aftWeapon) {
+		storedShipArray.push(ship.aftWeapon);
+	} else {
+		storedShipArray.push(ship.aftWeapon.equipmentKey);
+	} // storedShipArray[2]
+	if (!ship.forwardWeapon) {
+		storedShipArray.push(ship.forwardWeapon);
+	} else {
+		storedShipArray.push(ship.forwardWeapon.equipmentKey);
+	} // storedShipArray[3]
+	if (!ship.portWeapon) {
+		storedShipArray.push(ship.portWeapon);
+	} else {
+		storedShipArray.push(ship.portWeapon.equipmentKey);
+	} // storedShipArray[4]
+	if (!ship.starboardWeapon) {
+		storedShipArray.push(ship.starboardWeapon);
+	} else {
+		storedShipArray.push(ship.starboardWeapon.equipmentKey);
+	} // storedShipArray[5]
+	var missiles = [];
+	if (ship.missileCapacity &gt; 0) { //bugfix of &quot;Tried to init array with nil object&quot; in Oolite 1.81
+		try {
+			missiles = ship.missiles;
+			for (counter = 0; counter &lt; missiles.length; counter++) {
+				missiles.splice(counter, 1, missiles[counter].equipmentKey);
+			}
+		} catch (err) {
+			if (this.loggingEnabled) log(this.name, &quot;!!ERROR: &quot; + err);
+		}
+	}
+	storedShipArray.push(missiles); // storedShipArray[6]
+	var equipment = ship.equipment;
+	var tempArray;
+	for (counter = 0; counter &lt; equipment.length; counter++) {
+		tempArray = [equipment[counter].equipmentKey, ship.equipmentStatus(equipment[counter])];
+		equipment.splice(counter, 1, tempArray);
+	}
+	storedShipArray.push(equipment); // storedShipArray[7]
+    //var hold = new Array(17);
+	var hold = {};
+    if (ship == player.ship) {
+		var ml = ship.manifest.list;
+		for (counter = 0; counter &lt; ml.length; counter++) {
+			if (ml[counter].quantity &gt; 0) hold[ml[counter].commodity] = ml[counter].quantity;
+		}
+        // ship is a player&#39;s ship
+        //for (counter = 0; counter &lt; 17; counter++) {
+            //hold[counter] = ship.manifest[this.cargoType[counter]];
+        //}
+    } else {
+        // ship is a NPC
+        //var _shipManifest = {};
+        //var _cargoList = ship.cargoList;
+        //var i = ship.cargoList.length;
+		var ml = ship.cargoList;
+		for (counter = 0; counter &lt; ml.length; counter++) {
+			if (ml[counter].quantity &gt; 0) hold[ml[counter].commodity] = ml[counter].quantity;
+		}
+        //while (i--) {
+        //    _shipManifest[_cargoList[i].commodity] = _cargoList[i].quantity;
+        //}
+        //for (counter = 0; counter &lt; 17; counter++) {
+        //    if (_shipManifest[this.cargoType[counter]] != null)
+        //        hold[counter] = _shipManifest[this.cargoType[counter]];
+        //}
+    }
+	storedShipArray.push(hold); // storedShipArray[8]
+	storedShipArray.push(ship.fuel); //storedShipArray[9]
+	var passengers = ship.passengers;
+	for (counter = 0; counter &lt; passengers.length; counter++) {
+		tempArray = [passengers[counter].name, passengers[counter].start, passengers[counter].destination, (clock.seconds + passengers[counter].eta), passengers[counter].fee];
+		passengers.splice(counter, 1, tempArray);
+	}
+	storedShipArray.push(passengers); // storedShipArray[10]
+	var subEnts = new Array;
+	if (ship.subEntityCapacity &gt; 0 &amp;&amp; ship.subEntityCapacity !== ship.subEntities.length) { // only store subEnts if at less than capacity.
+		for (counter = 0; counter &lt; ship.subEntities.length; counter++) {
+			var s = ship.subEntities[counter];
+			subEnts.push([s.dataKey, s.position.x, s.position.y, s.position.z, s.subEntityRotation]);
+		}
+	}
+	storedShipArray.push(subEnts); //storedShipArray[11]
+
+	if (ship == player.ship) {
+		storedShipArray.push(ship.serviceLevel); //storedShipArray[12]
+		ship.script.$SSH_serviceLevel = ship.serviceLevel; //save for Carriers OXP
+	} else if (ship.script) storedShipArray.push(ship.script.$SSH_serviceLevel);
+
+	storedShipArray.push(ship.entityPersonality); //storedShipArray[13]
+
+	//EscortDeck specific data in storedShipArray[14]
+	var u = 0;
+	if (ship == player.ship) u = 1; //player ship is always usable
+	else if (ship.script) u = ship.script.$EscortDeckUsable;
+	var b = ship.boundingBox; //mass and sizes for TooLarge check and salvage price calculation
+	storedShipArray.push({
+		usable: u,
+		mass: ship.mass,
+		x: b.x,
+		y: b.y,
+		z: b.z
+	}); //storedShipArray[14]
+
+	//the following section contain player-only data
+	if (ship == player.ship) {
+
+		// this section is to record OXP equipment/weapon missionVariables or anything else needed for OXP compatibility that needs to be reinstated on ship restore.
+		// cim&#39;s New Cargoes.
+		var newCargoesManifest = null;
+		if (worldScripts[&quot;CargoTypeExtension&quot;]) {
+			newCargoesManifest = worldScripts[&quot;CargoTypeExtension&quot;].suspendPlayerManifest();
+		}
+		storedShipArray.push(newCargoesManifest); // storedShipArray[15]
+		// thargoid&#39;s Hypercargo
+		var hyperCargoMemory = null;
+		var hyperCargoNewCargoes = null;
+		var hyperCargoFailChance = null;
+		if (ship.equipmentStatus(&quot;EQ_HYPERCARGO&quot;) === &quot;EQUIPMENT_OK&quot; &amp;&amp; worldScripts[&quot;HyperCargo&quot;]) {
+			if (missionVariables.hyperCargoMemory) {
+				hyperCargoMemory = missionVariables.hyperCargoMemory;
+			}
+			if (missionVariables.hyperCargoNewCargoes) {
+				hyperCargoNewCargoes = missionVariables.hyperCargoNewCargoes;
+			}
+			if (missionVariables.hyperCargoFailChance) {
+				hyperCargoFailChance = missionVariables.hyperCargoFailChance;
+			}
+		}
+		storedShipArray.push([hyperCargoMemory, hyperCargoNewCargoes, hyperCargoFailChance]); // storedShipArray[16]
+		// thargoids Vortex
+		var name;
+		var missileBays = new Array;
+		var cargoBays = new Array;
+		var nccargoBays = new Array;
+		if (worldScripts[&quot;vortex_player.js&quot;]) {
+			if (ship.name === &quot;Vortex&quot; || ship.name === &quot;Maelstrom&quot;) {
+				if (missionVariables.multiBay_storeShipName) {
+					name = missionVariables.multiBay_storeShipName;
+				}
+				//if (missionVariables.multiBay_currentMissile) {missileBays.push(missionVariables.multiBay_currentMissile);}
+				//if (missionVariables.multiBay_currentCargo) {cargoBays.push(missionVariables.multiBay_currentCargo);}
+				for (counter = 0; counter &lt; 5; counter++) {
+					if (missionVariables[&quot;multiBay_missileBay&quot; + counter]) {
+						missileBays.push(missionVariables[&quot;multiBay_missileBay&quot; + counter]);
+					}
+					if (missionVariables[&quot;multiBay_cargoBay&quot; + counter]) {
+						cargoBays.push(missionVariables[&quot;multiBay_cargoBay&quot; + counter]);
+					}
+					if (missionVariables[&quot;multiBay_ncBay&quot; + counter]) {
+						nccargoBays.push(missionVariables[&quot;multiBay_ncBay&quot; + counter]);
+					}
+				}
+			}
+		}
+		storedShipArray.push([name, missileBays, cargoBays, nccargoBays]); // storedShipArray[17]
+		// thargoid&#39;s APRIL
+		var aprilMemory = null;
+		var aprilExpanded = null;
+		if (worldScripts[&quot;april_worldScript.js&quot;] &amp;&amp; ship.equipmentStatus(&quot;EQ_APRIL&quot;) !== &quot;EQUIPMENT_UNAVAILABLE&quot;) {
+			worldScripts[&quot;april_worldScript.js&quot;].playerWillSaveGame(&quot;ship_storage_helper&quot;);
+			if (missionVariables.aprilMemory) {
+				aprilMemory = missionVariables.aprilMemory;
+			}
+			if (missionVariables.aprilExpanded) {
+				aprilExpanded = missionVariables.aprilExpanded;
+			}
+		}
+		storedShipArray.push([aprilMemory, aprilExpanded]); // storedShipArray[18]
+		// thargoid&#39;s IronHide
+		var ironHidePercentage = null;
+		var ironHideMilFlag = null;
+		if (worldScripts[&quot;IronHide Armour Script&quot;] &amp;&amp; ship.equipmentStatus(&quot;EQ_IRONHIDE&quot;) !== &quot;EQUIPMENT_UNAVAILABLE&quot;) {
+			if (missionVariables.ironHide_percentage) {
+				ironHidePercentage = missionVariables.ironHide_percentage;
+			}
+			if (missionVariables.ironHide_milFlag) {
+				ironHideMilFlag = missionVariables.ironHide_milFlag;
+			}
+		}
+		storedShipArray.push([ironHidePercentage, ironHidePercentage]); // storedShipArray[19]
+		// ramirez&#39; Missiles &amp; Bombs
+		var rmbChaffCount = null;
+		if (worldScripts[&quot;Missiles &amp; Bombs&quot;] &amp;&amp; ship.equipmentStatus(&quot;EQ_RMB_CHAFF_LAUNCHER&quot;) !== &quot;EQUIPMENT_UNAVAILABLE&quot;) {
+			if (missionVariables.rmb_chaff_count) {
+				rmbChaffCount = missionVariables.rmb_chaff_count;
+			}
+		}
+		storedShipArray.push(rmbChaffCount); //storedShipArray[20]
+		// mcclane&#39;s Railgun
+		var railgunType = null;
+		var railgunProjectile = null;
+		var railgunProjectiles = null;
+		if (worldScripts[&quot;railgun&quot;]) {
+			worldScripts[&quot;railgun&quot;].playerWillSaveGame();
+			if (missionVariables.railgun_type) {
+				railgunType = missionVariables.railgun_type;
+			}
+			if (missionVariables.railgun_projectile) {
+				railgunProjectile = missionVariables.railgun_projectile;
+			}
+			if (missionVariables.railgun_projectiles) {
+				railgunProjectiles = missionVariables.railgun_projectiles;
+			}
+		}
+		storedShipArray.push([railgunType, railgunProjectile, railgunProjectiles]); // storedShipArray[21]
+		// thargoid&#39;s targetAutoLock Plus
+		var targetAutolock = null;
+		if (worldScripts[&quot;targetAutolock&quot;] &amp;&amp; missionVariables.targetAutolock) {
+			targetAutolock = missionVariables.targetAutolock;
+		}
+		storedShipArray.push(targetAutolock); // storedShipArray[22]
+		// eric&#39;s targetReticleSensitive
+		var reticleTargetSensitive = null;
+		if (worldScripts[&quot;reticle_target_sensitive&quot;] &amp;&amp; missionVariables.reticleTargetSensitive) {
+			reticleTargetSensitive = missionVariables.reticleTargetSensitive;
+		}
+		storedShipArray.push(reticleTargetSensitive); // storedShipArray[23]
+		// thargoid&#39;s Armoury
+		var CT_thargonCount = null;
+		if (worldScripts[&quot;CT_Script&quot;] &amp;&amp; missionVariables.CT_thargonCount) {
+			CT_thargonCount = missionVariables.CT_thargonCount;
+		}
+		storedShipArray.push(CT_thargonCount); // storedShipArray[24]
+		// thargoid&#39;s Aquatics
+		var aquatics_guardianCount = null;
+		if (worldScripts[&quot;aquatics_equipment&quot;] &amp;&amp; missionVariables.aquatics_guardianCount) {
+			aquatics_guardianCount = missionVariables.aquatics_guardianCount;
+		}
+		storedShipArray.push(aquatics_guardianCount); // storedShipArray[25]
+		// smivs&#39; Battle-Damage
+		var BattleDamage_status = null;
+		if ((worldScripts[&quot;Battle Damage&quot;] || worldScripts[&quot;Battle Damage SS&quot;]) &amp;&amp; missionVariables.BattleDamage_status) {
+			BattleDamage_status = missionVariables.BattleDamage_status
+		}
+		storedShipArray.push(BattleDamage_status); // storedShipArray[26]
+		// murphy&#39;s Respray for Griffs
+		var favourite = null;
+		var favouriteRGB = null;
+		var currentRespray = null;
+		var currentDecal = null;
+		if (worldScripts[&quot;Respray_for_Griffs.js&quot;]) {
+			if (worldScripts[&quot;Respray_for_Griffs.js&quot;].currentRespray) {
+				currentRespray = worldScripts[&quot;Respray_for_Griffs.js&quot;].currentRespray;
+			}
+			if (worldScripts[&quot;Respray_for_Griffs.js&quot;].favourite) {
+				favourite = worldScripts[&quot;Respray_for_Griffs.js&quot;].favourite;
+			}
+			if (worldScripts[&quot;Respray_for_Griffs.js&quot;].favouriteRGB) {
+				favouriteRGB = worldScripts[&quot;Respray_for_Griffs.js&quot;].favouriteRGB;
+			}
+			if (worldScripts[&quot;Respray_for_Griffs.js&quot;].currentDecal) {
+				currentDecal = worldScripts[&quot;Respray_for_Griffs.js&quot;].currentDecal;
+			}
+		}
+		storedShipArray.push([favourite, currentRespray, favouriteRGB, currentDecal]); // storedShipArray[27]
+
+		//Shield Cycler
+		var wsc = worldScripts[&quot;Shield Cycler&quot;];
+		var sco = &quot;&quot;;
+		if (wsc) {
+            var _f_store_devices = wsc._sc_store_devices.bind(wsc);
+            sco = _f_store_devices();
+            if (this.loggingEnabled) log(this.name, ship.displayName+&quot;: Shield Cycler settings:&quot;+JSON.stringify(sco));
+		}
+		storedShipArray.push(sco); // storedShipArray[28]
+
+		// code to retrieve secondary laser settings
+		var lmss = worldScripts[&quot;LMSS_Core&quot;];
+		var stored_lmss = &quot;&quot;; // variable to hold LMSS laser settings
+		if (lmss &amp;&amp; lmss.$weaponInstalled &amp;&amp; lmss.$weaponInstalled() &amp;&amp; lmss.$retrieveLaserSettings) {
+			stored_lmss = lmss.$retrieveLaserSettings();
+		}
+		storedShipArray.push(stored_lmss); // storedShipArray[29]
+
+		var sca = worldScripts.ShipConfiguration_Armour;
+		var stored_sca = &quot;&quot;;
+		if (sca) {
+			if (ship.script &amp;&amp; ship.script._armourFront) {
+				stored_sca += ship.script._armourFront.toString() + &quot;|&quot;;
+			} else {
+				stored_sca += &quot;0|&quot;;
+			}
+			if (ship.script &amp;&amp; ship.script._armourAft) {
+				stored_sca += ship.script._armourAft.toString();
+			} else {
+				stored_sca += &quot;0&quot;;
+			}
+		}
+		storedShipArray.push(stored_sca); // storedShipArray[30]
+
+		// smugglers hold
+		var smg_cargo = &quot;&quot;;
+		var smg_settings = &quot;&quot;;
+		if (worldScripts.Smugglers_Equipment) {
+			var se = worldScripts.Smugglers_Equipment;
+			if (se.$hasSmugglingCompartment() === true) {
+				if (se._sc_Cargo.length &gt; 0) {
+					smg_cargo = JSON.stringify(se._sc_Cargo);
+				}
+				smg_settings = se._sc_Phase + &quot;|&quot; + se._sc_TechVersion + &quot;|&quot; + se._sc_VisibleAs + &quot;|&quot; + se._sc_Days;
+			}
+		}
+		storedShipArray.push(smg_cargo); // storedShipArray[31] cargo
+		storedShipArray.push(smg_settings); // storedShipArray[32] compartment settings
+
+		// storedShipArray[33] breakable lasers
+		if (worldScripts.BreakableLasers_Main) {
+			storedShipArray.push(JSON.stringify(worldScripts.BreakableLasers_Main._holdDamage));
+		} else {
+			storedShipArray.push(&quot;&quot;);
+		}
+
+		// storedShipArray[34] repair bots missionvariable
+		if (worldScripts[&quot;Repair system&quot;]) {
+			storedShipArray.push(missionVariables.repairCounter);
+		} else {
+			storedShipArray.push(&quot;&quot;);
+		}
+
+		// finally log contents of array and return stringified copy.
+		if (this.loggingEnabled) {
+			log(this.name, &quot;storedShipArray:&quot; + storedShipArray + &quot; storedShipArray.length &quot; + storedShipArray.length);
+		}
+
+	} //end of player-only section
+
+	return JSON.stringify(storedShipArray);
+}
+
+this.restoreStoredShip = function (storedShipArray, ship) {
+	if (!ship) ship = player.ship;
+	if (!storedShipArray || typeof (storedShipArray) !== &quot;string&quot;) {
+		if (this.loggingEnabled) {
+			log(this.name, &quot;Error - restoreStoredShip called with invalid parameter.&quot;);
+		}
+		return &quot;Error-Invalid Parameter, expected String&quot;;
+	}
+	if (worldScripts.ShipConfiguration_Core) {
+		var sc = worldScripts.ShipConfiguration_Core;
+		sc._adding = true;
+		sc._removing = true;
+	}
+	storedShipArray = JSON.parse(storedShipArray); // destringify storedShipArray
+	if (this.loggingEnabled) {
+		log(this.name, &quot;storedShipArray:&quot; + storedShipArray + &quot;storedShipArray.length&quot; + storedShipArray.length);
+	}
+	var extraNulls = this.expectedLength - storedShipArray.length;
+	if (extraNulls &lt; 0) {// storedShipArray is bigger than expected - should not happen
+		if (this.loggingEnabled) {
+			log(this.name, &quot;Error - storedShipArray longer than expected length.&quot;);
+		}
+		if (this.loggingEnabled) {
+			log(this.name, &quot;expectedLength&quot; + this.expectedLength + &quot;storedShipArray.length&quot; + storedShipArray.length);
+		}
+		return &quot;Error-Invalid Parameter, array incorrect length&quot;;
+	}
+	while (extraNulls &gt; 0) { // add extra nulls if smaller than expected (may have been created with older version of OXP)
+		storedShipArray.push(null);
+		extraNulls--;
+		if (this.loggingEnabled) {
+			log(this.name, &quot;Adding nulls.....expectedLength: &quot; + this.expectedLength + &quot; storedShipArray.length: &quot; + storedShipArray.length);
+		}
+	}
+	//remove all equipments before replaceShip
+	var equipment = ship.equipment;
+	if (this.loggingEnabled) {
+		log(this.name, &quot;Eq1: &quot; + ship.equipment);
+	}
+	var r = [];
+	for (counter = 0; counter &lt; equipment.length; counter++)
+		r.push(equipment[counter].equipmentKey);
+	for (counter = 0; counter &lt; r.length; counter++) {//separated to avoid problems during eq array shortening
+		ship.removeEquipment(r[counter]);
+		if (this.loggingEnabled) log(this.name, r[counter] + &quot; removed&quot;);
+	}
+	if (this.loggingEnabled) {
+		log(this.name, &quot;Eq2: &quot; + ship.equipment);
+	}
+
+	/*	var wsc = worldScripts[&quot;Shield Cycler&quot;]; - old code
+		if ( wsc ) { //need clear these before replaceShip to avoid cashback from selling
+			wsc._sc_manual_version = wsc._sc_none;
+			wsc._sc_version = wsc._sc_none;
+		}*/
+
+	// replace current ship with restored ship
+	var creds = player.credits; // grab a record of the player&#39;s current credit balance
+	if (ship == player.ship &amp;&amp; !player.replaceShip(storedShipArray[1], storedShipArray[13])) {
+		if (this.loggingEnabled) {
+			log(this.name, &quot;Cannot restore stored ship with dataKey &quot; + storedShipArray[1] + &quot;. dataKey not valid (suspect missing OXP)&quot;);
+		}
+		return &quot;Error-Invalid dataKey&quot;;
+	}
+	if (this.loggingEnabled) {
+		log(this.name, &quot;Eq3: &quot; + ship.equipment);
+	}
+	player.credits = creds; // restore player credit balance - sometimes the replaceship function will refund the player something
+
+	//set new writable ship properties in Oolite 1.82
+	var oolite182 = false;
+	if (0 &lt; oolite.compareVersion(&quot;1.82&quot;)) {;
+	} else oolite182 = true;
+
+	if (oolite182) { //these are not writable before Oolite 1.82
+		var a = storedShipArray[0];
+		if (a[7]) ship.shipClassName = a[7];
+		if (a[8]) ship.shipUniqueName = a[8];
+		if (a[9]) ship.AIScriptWakeTime = a[9];
+		if (a[11]) ship.destinationSystem = a[11];
+		if (a[12]) ship.exhaustEmissiveColor = a[12];
+		if (a[13]) ship.homeSystem = a[13];
+		if (a[14]) ship.maxYaw = a[14];
+		if (a[15]) ship.maxPitch = a[15];
+		if (a[16]) ship.maxRoll = a[16];
+		if (a[17]) ship.maxThrust = a[17];
+		if (a[18]) ship.thrust = a[18];
+		if (a[19]) ship.maxSpeed = a[19];
+		if (a[20] &gt; 0) {
+			ship.maxEnergy = a[20];
+			if (ship.energy &lt; ship.maxEnergy) ship.energy = ship.maxEnergy; //fix in dock
+		}
+		if (a[21] &gt; 0) ship.energyRechargeRate = a[21];
+		// use max cargo as preference to stored value, as the process of adding equipment could adjust
+		// final value
+		var shipdata = Ship.shipDataForKey(storedShipArray[1]);
+        if (shipdata &amp;&amp; shipdata.max_cargo)
+            ship.cargoSpaceCapacity = shipdata.max_cargo;
+		else
+			if (a[22]) ship.cargoSpaceCapacity = a[22];
+		if (a[23]) ship.injectorBurnRate = a[23];
+		if (a[24]) ship.injectorSpeedFactor = a[24];
+		if (a[25]) ship.scanDescription = a[25];
+		if (a[26]) ship.hyperspaceSpinTime = a[26];
+		if (a[27]) ship.scannerHostileDisplayColor1 = a[27];
+		if (a[28]) ship.scannerHostileDisplayColor2 = a[28];
+		if (ship == player.ship) {
+			if (a[29]) ship.forwardShield = a[29];
+			if (a[30]) ship.maxForwardShield = a[30];
+			if (a[31]) ship.forwardShieldRechargeRate = a[31];
+			if (a[32]) ship.aftShield = a[32];
+			if (a[33]) ship.maxAftShield = a[33];
+			if (a[34]) ship.aftShieldRechargeRate = a[34];
+		} else if (a[10]) ship.beaconLabel = a[10]; //read-only for player
+	}
+
+	//reinstate pylons
+	var counter;
+	var counter1;
+	var test;
+	var missiles = [];
+	if (ship.missileCapacity &gt; 0) { //bugfix of &quot;Tried to init array with nil object&quot; in Oolite 1.81
+		if (this.loggingEnabled) {
+			log(this.name,
+				&quot;Remove missiles automatically awarded on replaceShip: &quot; + ship.missiles);
+		};
+		try {
+			missiles = ship.missiles;
+			for (counter = 0; counter &lt; missiles.length; counter++) {
+				ship.removeEquipment(missiles[counter]);
+			}
+		} catch (err) {
+			if (this.loggingEnabled) log(this.name, &quot;!!ERROR: &quot; + err);
+		}
+	}
+	missiles = storedShipArray[6];
+	if (missiles &amp;&amp; missiles.length &gt; 0) {
+		if (this.loggingEnabled) {
+			log(this.name,
+				&quot;Add missiles from storedShip: &quot; + missiles);
+		}
+		for (counter = 0; counter &lt; missiles.length; counter++)
+			if (EquipmentInfo.infoForKey(missiles[counter]))
+				ship.awardEquipment(missiles[counter]);
+	}
+	//reinstate equipment
+	// if shipconfig armour is in play, turn on the override flag so that nothing gets auto-repaired
+	if (worldScripts.ShipConfiguration_Armour) worldScripts.ShipConfiguration_Armour._override = true;
+	if (worldScripts[&quot;Breakable_Energy_Unit&quot;]) {
+		worldScripts[&quot;Breakable_Energy_Unit&quot;].shipRestore = true;
+	}
+	if (worldScripts[&quot;Breakable_Engines&quot;]) {
+		worldScripts[&quot;Breakable_Engines&quot;].shipRestore = true;
+	}
+	if (worldScripts[&quot;Breakable_HUD_IFF_Scanner&quot;]) {
+		worldScripts[&quot;Breakable_HUD_IFF_Scanner&quot;].shipRestore = true;
+	}
+	if (worldScripts[&quot;Breakable_Shield_Generators&quot;]) {
+		worldScripts[&quot;Breakable_Shield_Generators&quot;].shipRestore = true;
+	}
+	if (worldScripts[&quot;Breakable_TorusDrive&quot;]) {
+		worldScripts[&quot;Breakable_TorusDrive&quot;].shipRestore = true;
+	}
+	if (worldScripts[&quot;Breakable_WitchDrive&quot;]) {
+		worldScripts[&quot;Breakable_WitchDrive&quot;].shipRestore = true;
+	}
+	var equipment = ship.equipment;
+	if (this.loggingEnabled) {
+		log(this.name, &quot;Equipment automatically awarded on replaceShip: &quot; + equipment);
+	}
+	var tempArray;
+	var savedEQ = storedShipArray[7];
+	if (this.loggingEnabled) {
+		log(this.name, &quot;Equipment from storedShip: &quot; + savedEQ);
+	}
+	for (counter = 0; counter &lt; equipment.length; counter++) {
+		tempArray = [equipment[counter].equipmentKey, ship.equipmentStatus(equipment[counter])];
+		for (counter1 = 0; counter1 &lt; savedEQ.length; counter1++) {
+			if (savedEQ[counter1][0] === tempArray[0]) {
+				tempArray.push(true);
+				tempArray.push(counter1);
+				if (this.loggingEnabled) {
+					log(this.name, &quot;Equipment: &quot; + tempArray[0] + &quot; from storedShip already fitted.&quot;);
+				}
+				if (savedEQ[counter1][1] === &quot;EQUIPMENT_DAMAGED&quot;) {
+					ship.setEquipmentStatus(tempArray[0], &quot;EQUIPMENT_DAMAGED&quot;);
+					if (this.loggingEnabled) {
+						log(this.name, &quot;Setting status to: EQUIPMENT_DAMAGED&quot;);
+					}
+				}
+				break;
+			}
+		}
+		if (!tempArray[2]) {
+			if (this.loggingEnabled) {
+				log(this.name, &quot;Not in storedShip equipment - removing equipment item: &quot; + tempArray[0]);
+			}
+			ship.removeEquipment(tempArray[0]);
+			continue;
+		} else {
+			savedEQ.splice(tempArray[3], 1);
+			if (this.loggingEnabled) {
+				log(this.name, &quot;Updated storedShip equipment list: &quot; + savedEQ);
+			}
+		}
+	}
+	if (this.loggingEnabled) {
+		log(this.name, &quot;Awarding remaining equipment from storedShip: &quot; + savedEQ);
+	}
+	//must retry eq award if depends on another eq which comes later in the list
+	var depth = 0;
+	var retryArray = []; //try again if a required equipment comes later
+	retryArray[depth] = savedEQ;
+	do {
+		var added = false;
+		retryArray[depth + 1] = [];
+		for (counter = 0; counter &lt; retryArray[depth].length; counter++) {
+			var e = retryArray[depth][counter][0]; //award if exists and has not
+			var ed = retryArray[depth][counter][1];
+			var ei = EquipmentInfo.infoForKey(e);
+			if (ei) {
+				if (!ship.awardEquipment(e)) //retry next time if failed
+					if (ship.equipmentStatus(e) != &quot;EQUIPMENT_OK&quot;)
+						retryArray[depth + 1].push([e, ed]);
+				else {
+					added = true;
+					if (oolite182) {
+						var ec = ei.requiredCargoSpace;
+						if (ec != 0) //give back the space of this equipment
+							ship.cargoSpaceCapacity += ec;
+						if (e == &quot;EQ_CARGO_BAY&quot;) //a fix added in v0.27
+							ship.cargoSpaceCapacity -= ship.extraCargo;
+					}
+					if (ed == &quot;EQUIPMENT_DAMAGED&quot;)
+						ship.setEquipmentStatus(e, &quot;EQUIPMENT_DAMAGED&quot;);
+				}
+			}
+		}
+		depth++;
+		if (this.loggingEnabled) {
+			log(this.name, &quot;depth:&quot; + depth + &quot; retryArray:&quot; + retryArray[depth]);
+		}
+	} while (retryArray[depth].length &gt; 0 &amp;&amp; added &amp;&amp; depth &lt; 50) //until no more added eq
+	// reduced depth to 50 (from 100) because next section should hopefully cover all the stragglers
+
+	// This is a brute-force method of trying to bypass conditioning code on any remaining equipment items.
+	// Many conditions for equipment items are related to the system type where they can be purchased, so this code
+	// essentially runs through all the main economy/government/tl possibilities, trying to find one
+	// that will work for this equipment item. There are 960 possibilities normally (8 x 8 x 15), but we&#39;ll hope that only 
+	// one setting is required, to make this loop faster (8 + 8 + 15).
+	//
+	// This process can be avoided if the conditioning for the equipment item is changed to automatically allow any scripted 
+	// event. This only works for JS-based conditions, though. For plist-based conditions, they will need to be converted
+	// to JS conditions first.
+	if (retryArray[depth] &amp;&amp; retryArray[depth].length &gt; 0) {
+		// because this really is an error condition, I&#39;ve left off the check for loggingEnabled, so it always shows up in the log file
+		log(this.name, &quot;ERROR! Some equipment items still not added!&quot;);
+		for (var i = 0; i &lt; retryArray[depth].length; i++) {
+			var e = retryArray[depth][i][0];
+			var ed = retryArray[depth][i][1];
+			log(this.name, &quot;** Equipment key: &quot; + e);
+			var done = false;
+			if (player.bounty &gt; 0) {
+				// try clearing offender status, in case the equipment item &quot;requires_clean&quot;
+				var hold_bounty = player.bounty;
+				var bs = worldScripts.BountySystem_Core;
+				if (bs) bs._changing = true;
+				player.bounty = 0;
+				if (ship.awardEquipment(e)) {
+					if (ed == &quot;EQUIPMENT_DAMAGED&quot;) ship.setEquipmentStatus(e, &quot;EQUIPMENT_DAMAGED&quot;);
+					log(this.name, &quot;&gt;&gt;&gt; FIXED! Added with system change to player bounty to 0&quot;);
+					retryArray[depth][i] = [];
+					done = true;
+				}
+				player.bounty = hold_bounty;
+				if (bs) bs._changing = false;
+			}
+			if (done === false) {
+				// for techlevel, it will most likely be one of two extremes, either a low TL is required, or a high one.
+				// we&#39;ll two two steps here, starting with a high TL
+				var hold_tl = system.techLevel;
+				system.techLevel = 14;
+				if (ship.awardEquipment(e)) {
+					if (ed == &quot;EQUIPMENT_DAMAGED&quot;) ship.setEquipmentStatus(e, &quot;EQUIPMENT_DAMAGED&quot;);
+					log(this.name, &quot;&gt;&gt;&gt; FIXED! Added with system change to techLevel 14&quot;);
+					retryArray[depth][i] = [];
+					done = true;
+				}
+				if (done === false) {
+					system.techLevel = 0;
+					if (ship.awardEquipment(e)) {
+						if (ed == &quot;EQUIPMENT_DAMAGED&quot;) ship.setEquipmentStatus(e, &quot;EQUIPMENT_DAMAGED&quot;);
+						log(this.name, &quot;&gt;&gt;&gt; FIXED! Added with system change to techLevel 0&quot;);
+						retryArray[depth][i] = [];
+						done = true;
+					}
+				}
+				system.techLevel = hold_tl;
+			}
+			if (done === false) {
+				// try changing government
+				var hold_gov = system.government;
+				for (var gov = 0; gov &lt;= 7; gov++) {
+					system.government = gov;
+					if (ship.awardEquipment(e)) {
+						if (ed == &quot;EQUIPMENT_DAMAGED&quot;) ship.setEquipmentStatus(e, &quot;EQUIPMENT_DAMAGED&quot;);
+						log(this.name, &quot;&gt;&gt;&gt; FIXED! Added with system change to government &quot; + gov);
+						retryArray[depth][i] = [];
+						done = true;
+						break;
+					}
+				}
+				system.government = hold_gov;
+			}
+			if (done === false) {
+				// try changing economy
+				var hold_ec = system.economy;
+				for (var ec = 0; ec &lt;= 7; ec++) {
+					system.economy = ec;
+					if (ship.awardEquipment(e)) {
+						if (ed == &quot;EQUIPMENT_DAMAGED&quot;) ship.setEquipmentStatus(e, &quot;EQUIPMENT_DAMAGED&quot;);
+						log(this.name, &quot;&gt;&gt;&gt; FIXED! Added with system change to economy &quot; + ec);
+						retryArray[depth][i] = [&quot;&quot;, &quot;&quot;];
+						done = true;
+						break;
+					}
+				}
+				system.economy = hold_ec;
+			}
+		}
+	}
+	// last chance
+	for (var i = 0; i &lt; retryArray[depth].length; i++) {
+		if (retryArray[depth][i][0] != &quot;&quot; &amp;&amp; retryArray[depth][i][0] != undefined) {
+			var e = retryArray[depth][i][0];
+			var ed = retryArray[depth][i][1];
+			if (ship.awardEquipment(e)) {
+				if (ed == &quot;EQUIPMENT_DAMAGED&quot;) ship.setEquipmentStatus(e, &quot;EQUIPMENT_DAMAGED&quot;);
+				log(this.name, &quot;&gt;&gt;&gt; FIXED! On final pass&quot;);
+			} else {
+				log(this.name, &quot;*** ERROR Equipment Item still not awarded: &quot; + retryArray[depth][i][0]);
+			}
+		}
+	}
+	/* old code, can not award if depends on another eq which comes later in the list
+		for(counter = 0;counter&lt;savedEQ.length;counter++) {
+			if(EquipmentInfo.infoForKey(savedEQ[counter][0])) {
+				ship.awardEquipment(savedEQ[counter][0]);
+				if(savedEQ[counter][1] === &quot;EQUIPMENT_DAMAGED&quot;)
+					{ship.setEquipmentStatus(savedEQ[counter][0],savedEQ[counter][1])};
+			}
+		}
+	*/
+	// turn off the shipconfig armour override flag
+	if (worldScripts.ShipConfiguration_Armour) worldScripts.ShipConfiguration_Armour._override = false;
+
+	var berths = storedShipArray[0][35];
+	if (berths &gt; 1) { //award additional passenger berths over the first
+		for (counter = 1; counter &lt; berths; counter++) {
+			ship.awardEquipment(&quot;EQ_PASSENGER_BERTH&quot;);
+			if (oolite182) ship.cargoSpaceCapacity += 5; //give back the space of this berth
+		}
+	}
+
+	if (worldScripts[&quot;Breakable_Energy_Unit&quot;]) {
+		delete worldScripts[&quot;Breakable_Energy_Unit&quot;].shipRestore;
+	}
+	if (worldScripts[&quot;Breakable_Engines&quot;]) {
+		delete worldScripts[&quot;Breakable_Engines&quot;].shipRestore;
+	}
+	if (worldScripts[&quot;Breakable_HUD_IFF_Scanner&quot;]) {
+		delete worldScripts[&quot;Breakable_HUD_IFF_Scanner&quot;].shipRestore;
+	}
+	if (worldScripts[&quot;Breakable_Shield_Generators&quot;]) {
+		delete worldScripts[&quot;Breakable_Shield_Generators&quot;].shipRestore;
+	}
+	if (worldScripts[&quot;Breakable_TorusDrive&quot;]) {
+		delete worldScripts[&quot;Breakable_TorusDrive&quot;].shipRestore;
+	}
+	if (worldScripts[&quot;Breakable_WitchDrive&quot;]) {
+		delete worldScripts[&quot;Breakable_WitchDrive&quot;].shipRestore;
+	}
+	if (ship.aftShield !== ship.maxAftShield) {
+		ship.aftShield = ship.maxAftShield;
+	}
+	if (ship.forwardShield !== ship.maxForwardShield) {
+		ship.forwardShield = ship.maxForwardShield;
+	}
+    // reinstate hold/manifest
+    var hold = storedShipArray[8];
+	// if we have an array, it&#39;s the old version
+	if (Array.isArray(hold)) {
+		if (ship == player.ship) {
+			for (counter = 0; counter &lt; 17; counter++) {
+				if (hold[counter]) {
+					ship.manifest[this.cargoType[counter]] = hold[counter];
+					if (this.loggingEnabled) log(this.name, &quot;Inserting &quot;+hold[counter]+&quot; of &quot;+this.cargoType[counter]+&quot;, result:&quot;+ship.manifest[this.cargoType[counter]]);
+				}
+			}
+		} else {
+			var ret;
+			for (counter = 0; counter &lt; 17; counter++) {
+				if (hold[counter]) {
+					ret = ship.adjustCargo(this.cargoType[counter], hold[counter]);
+					if (this.loggingEnabled) log(this.name, &quot;Inserting &quot;+hold[counter]+&quot; of &quot;+this.cargoType[counter]+&quot;, result:&quot;+ret+&quot;, &quot;+JSON.stringify(ship.cargoList));
+				}
+			}
+		}
+	} else {
+		// otherwise, it&#39;s a dictionary object
+		if (ship == player.ship) {
+			var keys = Object.keys(hold);
+			for (counter = 0; counter &lt; keys.length; counter++) {
+				ship.manifest[keys[counter]] = hold[keys[counter]];
+				if (this.loggingEnabled) log(this.name, &quot;Inserting &quot;+hold[keys[counter]]+&quot; of &quot;+keys[counter]+&quot;, result:&quot;+ship.manifest[keys[counter]]);
+			}
+		} else {
+			var keys = Object.keys(hold);
+			for (counter = 0; counter &lt; keys.length; counter++) {
+				ret = ship.adjustCargo(keys[counter], hold[keys[counter]]);
+				if (this.loggingEnabled) log(this.name, &quot;Inserting &quot;+hold[keys[counter]]+&quot; of &quot;+keys[counter]+&quot;, result:&quot;+ret+&quot;, &quot;+JSON.stringify(ship.cargoList));
+			}
+		}
+	}
+	// reinstate fuel
+	ship.fuel = storedShipArray[9];
+	// reinstate passengers
+	var passengers = storedShipArray[10];
+	for (counter = 0; counter &lt; passengers.length; counter++) {
+		if (clock.seconds &gt;= passengers[counter][3]) {
+			if (this.loggingEnabled) {
+				log(this.name, &quot;Cannot re-instate passenger record: &quot; + passengers[counter] + &quot; as passenger contract arrival time is in the past&quot;);
+			};
+			player.decreasePassengerReputation();
+			continue;
+		}
+		if (this.loggingEnabled) {
+			log(this.name, &quot;Attempting to add passenger: &quot; + passengers[counter]);
+		}
+		var test = ship.addPassenger(passengers[counter][0], passengers[counter][1], passengers[counter][2], passengers[counter][3], passengers[counter][4]);
+		if (!test &amp;&amp; this.loggingEnabled) {
+			log(this.name, &quot;Failed to add passenger: &quot; + passengers[counter]);
+		}
+	}
+	// check for subents to be removed
+	var subEnts = storedShipArray[11]; // will only exist if less subEnts than capacity when ship was stored.
+	if (subEnts &amp;&amp; subEnts.length &gt; 0) {
+		var currentSubEnts = ship.subEntities;
+		if (this.loggingEnabled) {
+			log(this.name, &quot;Updating subEnts. current subEnts: &quot; + currentSubEnts + &quot; storedShip subEnts: &quot; + subEnts);
+		}
+		for (counter = 0; counter &lt; currentSubEnts.length; counter++) {
+			currentSubEnts[counter].toBeRemoved = true;
+			for (counter1 = 0; counter1 &lt; subEnts.length; counter1++) {
+				if (subEnts[counter1][0] === currentSubEnts[counter].dataKey &amp;&amp;
+					subEnts[counter1][1] === currentSubEnts[counter].position.x &amp;&amp;
+					subEnts[counter1][2] === currentSubEnts[counter].position.y &amp;&amp;
+					subEnts[counter1][3] === currentSubEnts[counter].position.z) {
+					var r = subEnts[counter1][4];
+					if (r) ship.subEntities[counter].subEntityRotation = r;
+					delete currentSubEnts[counter].toBeRemoved;
+				}
+			}
+			if (currentSubEnts[counter].toBeRemoved) {
+				delete currentSubEnts[counter].toBeRemoved;
+				currentSubEnts[counter].remove(true);
+			}
+		}
+		if (this.loggingEnabled) {
+			log(this.name, &quot;Updating subEnts complete. Current subEnts: &quot; + ship.subEntities + &quot; storedShip subEnts: &quot; + subEnts);
+		}
+	}
+
+	// reinstate serviceLevel
+	if (storedShipArray[12] &gt; 0) { //fixed for EscortDeck
+		if (this.loggingEnabled) log(this.name, &quot;Updating ship.serviceLevel: &quot; + storedShipArray[12]);
+		if (ship == player.ship) ship.serviceLevel = storedShipArray[12];
+		else if (ship.script) s.script.$SSH_serviceLevel = storedShipArray[12];
+	}
+
+	//storedShipArray[13] contain entityPersonality which is used up in replaceShip() above
+	//entityPersonality is not writable before Oolite 1.82
+	if (oolite182 &amp;&amp; ship != player.ship &amp;&amp; storedShipArray[13])
+		ship.entityPersonality = storedShipArray[13];
+
+	//EscortDeck specific data in storedShipArray[14]
+	if (storedShipArray[14]) {
+		if (ship.script) ship.script.$EscortDeckUsable = storedShipArray[14].usable;
+		//ship mass and sizes are read-only and set by the core from the ship model
+	}
+
+	// turn on switching mode for LMSS
+	// for compatibility with UBER lasers in the condition script of new lasers
+	if (worldScripts.LMSS_Core) worldScripts.LMSS_Core._switching = true;
+
+	// reinstate weapons, must be after equipments for UBER types in new lasers
+	ship.aftWeapon = storedShipArray[2];
+	ship.forwardWeapon = storedShipArray[3];
+	ship.portWeapon = storedShipArray[4];
+	ship.starboardWeapon = storedShipArray[5];
+
+	// turn off switching mode for LMSS
+	if (worldScripts.LMSS_Core) worldScripts.LMSS_Core._switching = false;
+
+	//the following section contain player-only data
+	if (ship == player.ship) {
+
+		// reinstate OXP saved information.
+		// cim&#39;s New Cargoes
+		if (worldScripts[&quot;CargoTypeExtension&quot;]) {
+			if (this.loggingEnabled) {
+				log(this.name, &quot;Restoring New Cargoes special manifest: &quot; + storedShipArray[15]);
+			}
+			worldScripts[&quot;CargoTypeExtension&quot;].restorePlayerManifest(storedShipArray[15]);
+		}
+		// thargoid&#39;s HyperCargo
+		if (ship.equipmentStatus(&quot;EQ_HYPERCARGO&quot;) === &quot;EQUIPMENT_OK&quot; &amp;&amp; worldScripts[&quot;HyperCargo&quot;]) {
+			if (this.loggingEnabled) {
+				log(this.name, &quot;Restoring Hypercargo missionVariables: &quot; + storedShipArray[16]);
+			}
+			missionVariables.hyperCargoMemory = storedShipArray[16][0];
+			missionVariables.hyperCargoNewCargoes = storedShipArray[16][1];
+			missionVariables.hyperCargoFailChance = storedShipArray[16][2];
+			worldScripts[&quot;HyperCargo&quot;].startUp();
+		}
+		// thargoids Vortex
+		if (worldScripts[&quot;vortex_player.js&quot;]) {
+			if (ship.name === &quot;Vortex&quot; || ship.name === &quot;Maelstrom&quot;) {
+				if (this.loggingEnabled) {
+					log(this.name, &quot;Restoring Vortex/Maelstrom missionVariables: &quot; + storedShipArray[17]);
+				}
+				if (storedShipArray[17][0]) {
+					missionVariables.multiBay_storeShipName = storedShipArray[17][0];
+				}
+				//if (storedShipArray[17][1][0]){missionVariables.multiBay_currentMissile = storedShipArray[17][1][0];}
+				//if (storedShipArray[17][2][0]){missionVariables.multiBay_currentCargo = storedShipArray[17][2][0];}
+				for (counter = 0; counter &lt; 5; counter++) {
+					if (storedShipArray[17][1][counter]) {
+						missionVariables[&quot;multiBay_missileBay&quot; + counter] = storedShipArray[17][1][counter];
+					}
+					if (storedShipArray[17][2][counter]) {
+						missionVariables[&quot;multiBay_cargoBay&quot; + counter] = storedShipArray[17][2][counter];
+					}
+					if (storedShipArray[17][3][counter]) {
+						missionVariables[&quot;multiBay_ncBay&quot; + counter] = storedShipArray[17][3][counter];
+					}
+				}
+			}
+		}
+		// thargoid&#39;s APRIL
+		if (worldScripts[&quot;april_worldScript.js&quot;] &amp;&amp; ship.equipmentStatus(&quot;EQ_APRIL&quot;) !== &quot;EQUIPMENT_UNAVAILABLE&quot;) {
+			if (this.loggingEnabled) {
+				log(this.name, &quot;Restoring APRIL missionVariables: &quot; + storedShipArray[18]);
+			}
+			missionVariables.aprilMemory = storedShipArray[18][0];
+			missionVariables.aprilExpanded = storedShipArray[18][1];
+			worldScripts[&quot;april_worldScript.js&quot;].startUp();
+		}
+		// thargoid&#39;s IronHide
+		if (worldScripts[&quot;IronHide Armour Script&quot;] &amp;&amp; ship.equipmentStatus(&quot;EQ_IRONHIDE&quot;) !== &quot;EQUIPMENT_UNAVAILABLE&quot;) {
+			if (this.loggingEnabled) {
+				log(this.name, &quot;Restoring IronHide missionVariables: &quot; + storedShipArray[19]);
+			}
+			missionVariables.ironHide_percentage = storedShipArray[19][0];
+			missionVariables.ironHide_milFlag = storedShipArray[19][1];
+			worldScripts[&quot;IronHide Armour Script&quot;].startUp();
+		}
+		// ramirez&#39;s Missiles &amp; Bombs
+		if (worldScripts[&quot;Missiles &amp; Bombs&quot;] &amp;&amp; ship.equipmentStatus(&quot;EQ_RMB_CHAFF_LAUNCHER&quot;) !== &quot;EQUIPMENT_UNAVAILABLE&quot;) {
+			if (this.loggingEnabled) {
+				log(this.name, &quot;Restoring Missile &amp; Bombs missionVariable: &quot; + storedShipArray[20]);
+			}
+			missionVariables.rmb_chaff_count = storedShipArray[20];
+		}
+		// mcclane&#39;s railgun
+		if (worldScripts[&quot;railgun&quot;]) {
+			if (this.loggingEnabled) {
+				log(this.name, &quot;Restoring railgun missionVariables: &quot; + storedShipArray[21]);
+			}
+			missionVariables.railgun_type = storedShipArray[21][0];
+			missionVariables.railgun_projectile = storedShipArray[21][1];
+			missionVariables.railgun_projectiles = storedShipArray[21][2];
+			worldScripts[&quot;railgun&quot;].startUp();
+		}
+		// thargoid&#39;s targetAutoLock Plus.
+		if (worldScripts[&quot;targetAutolock&quot;]) {
+			if (this.loggingEnabled) {
+				log(this.name, &quot;Restoring targetAutoLock Plus missionVariables: &quot; + storedShipArray[22]);
+			}
+			missionVariables.targetAutolock = storedShipArray[22];
+		}
+		// eric&#39;s targetReticleSensitive
+		if (worldScripts[&quot;reticle_target_sensitive&quot;]) {
+			if (this.loggingEnabled) {
+				log(this.name, &quot;Restoring targetReticle missionVariables: &quot; + storedShipArray[23]);
+			}
+			missionVariables.reticleTargetSensitive = storedShipArray[23];
+			worldScripts[&quot;reticle_target_sensitive&quot;].startUp();
+		}
+		// thargoid&#39;s Armoury
+		if (worldScripts[&quot;CT_Script&quot;]) {
+			if (this.loggingEnabled) {
+				log(this.name, &quot;Restoring Armoury missionVariable: &quot; + storedShipArray[24]);
+			}
+			missionVariables.CT_thargonCount = storedShipArray[24];
+			worldScripts[&quot;CT_Script&quot;].startUp();
+		}
+		// thargoid&#39;s Aquatics
+		if (worldScripts[&quot;aquatics_equipment&quot;]) {
+			if (this.loggingEnabled) {
+				log(this.name, &quot;Restoring Aquatics missionVariable: &quot; + storedShipArray[25]);
+			}
+			missionVariables.aquatics_guardianCount = storedShipArray[25];
+		}
+		// smiv&#39;s Battle Damage
+		if (worldScripts[&quot;Battle Damage&quot;] || worldScripts[&quot;Battle Damage SS&quot;]) {
+			if (this.loggingEnabled) {
+				log(this.name, &quot;Restoring Battle Damage missionVariable: &quot; + storedShipArray[26]);
+			}
+			missionVariables.BattleDamage_status = storedShipArray[26];
+		}
+		// Respray for Griff&#39;s
+		if (worldScripts[&quot;Respray_for_Griffs.js&quot;]) {
+			if (this.loggingEnabled) {
+				log(this.name, &quot;Restoring Respray for Griff&#39;s missionVariable: &quot; + storedShipArray[27]);
+			}
+			worldScripts[&quot;Respray_for_Griffs.js&quot;].favourite = storedShipArray[27][0];
+			worldScripts[&quot;Respray_for_Griffs.js&quot;].currentRespray = storedShipArray[27][1];
+			worldScripts[&quot;Respray_for_Griffs.js&quot;].favouriteRGB = storedShipArray[27][2];
+			worldScripts[&quot;Respray_for_Griffs.js&quot;].currentDecal = storedShipArray[27][3];
+			worldScripts[&quot;Respray_for_Griffs.js&quot;].playerWillSaveGame();
+			worldScripts[&quot;Respray_for_Griffs.js&quot;].startUp();
+		}
+
+		//Shield Cycler
+		var errorcode = 0;
+		var wsc = worldScripts[&quot;Shield Cycler&quot;];
+		if (wsc &amp;&amp; storedShipArray[28]) wsc._sc_retrieve_devices(storedShipArray[28]);
+		if (errorcode &gt; 0) log(this.name, &quot;Error in retrieving Shield Cycler data, code: &quot; + errorcode);
+
+		// code to restore secondary laser settings
+		var lmss = worldScripts[&quot;LMSS_Core&quot;];
+		if (lmss &amp;&amp; lmss.$restoreLaserSettings &amp;&amp; storedShipArray[29]) {
+			// pass stored settings to lmss to restore secondary lasers
+			lmss.$restoreLaserSettings(storedShipArray[29]);
+		}
+		// code to restore ship config armour settings
+		var sca = worldScripts.ShipConfiguration_Armour;
+		if (sca &amp;&amp; storedShipArray[30] &amp;&amp; storedShipArray[30].indexOf(&quot;|&quot;) &gt;= 0) {
+			var stored_sca = storedShipArray[30].split(&quot;|&quot;);
+			if (stored_sca[0] != &quot;&quot;) ship.script._armourFront = parseInt(stored_sca[0]);
+			if (stored_sca[1] != &quot;&quot;) ship.script._armourAft = parseInt(stored_sca[1]);
+		}
+		// code to restore smuggling compartment cargo and settings
+		var se = worldScripts.Smugglers_Equipment;
+		if (se) {
+			if (storedShipArray[31]) se._sc_Cargo = JSON.parse(storedShipArray[31]);
+			if (storedShipArray[32] &amp;&amp; storedShipArray[32].indexOf(&quot;|&quot;) &gt;= 0) {
+				var stored_smg = storedShipArray[32].split(&quot;|&quot;);
+				if (stored_smg[0] != &quot;&quot;) se._sc_Phase = stored_smg[0];
+				if (stored_smg[1] != &quot;&quot;) se._sc_TechVersion = stored_smg[1];
+				if (stored_smg[2] != &quot;&quot;) se._sc_VisibleAs = stored_smg[2];
+				if (stored_smg[3] != &quot;&quot;) se._sc_Days = stored_smg[2];
+			}
+		}
+		var bl = worldScripts.BreakableLasers_Main;
+		if (bl) {
+			if (storedShipArray[33]) {
+				bl._holdDamage = JSON.parse(storedShipArray[33]);
+			}
+		}
+		var rb = worldScripts[&quot;Repair system&quot;];
+		if (rb) {
+			if (storedShipArray[34]) {
+				missionVariables.repairCounter = parseInt(storedShipArray[34]);
+			}
+		}
+
+	} //end of player-only section
+	if (worldScripts.ShipConfiguration_Core) {
+		var sc = worldScripts.ShipConfiguration_Core;
+		sc._adding = false;
+		sc._removing = false;
+		sc.$postResprayFunction();
+	}
+
+	return true;
+}
+
+this.disableVortexPBNSFunc = function (context, ship) {
+	if (!worldScripts[&quot;vortex_player.js&quot;] || this.storeVortexFunc) {
+		return false;
+	}
+	if (!ship) ship = player.ship;
+
+	this.storeVortexFunc = new Object;
+	this.storeVortexFunc = worldScripts[&quot;vortex_player.js&quot;].playerBoughtNewShip;
+	if (context === &quot;delete&quot;) {
+		delete worldScripts[&quot;vortex_player.js&quot;].playerBoughtNewShip;
+		if (this.loggingEnabled) {
+			log(this.name, &quot;Deleted Vortex this.playerBoughtNewShip&quot;);
+		}
+		return true;
+	}
+	if (context === &quot;retainName&quot;) {
+		this.replaceVortexFunc = new Object;
+		this.replaceVortexFunc = function (ship) {
+			this.stopMissileTimer();
+			this.resetVortex();
+			if (ship.name === &quot;Vortex&quot;) {
+				this.storeMissileBay(missionVariables.multiBay_currentMissile);
+				this.startUp();
+				this.shipTitle = missionVariables.multiBay_storeShipName;
+				mission.runScreen({
+					title: &quot;Ship Specifications (Vortex)&quot;,
+					model: &quot;vortex_player&quot;
+				});
+				this.AIName = &quot;MAC&quot; + Math.floor(Math.random() * 0.999999 * 10) + Math.floor(Math.random() * 0.999999 * 10) + Math.floor(Math.random() * 0.999999 * 10) + Math.floor(Math.random() * 0.999999 * 10);
+				mission.addMessageText(&quot;Designation: Vortex - &quot; + this.shipTitle);
+				mission.addMessageText(&quot;MAC registration: &quot; + this.AIName + &quot;\n&quot;);
+				mission.addMessageText(&quot;Shipyard: Aquarian Shipbuilding Corporation                                      Special Capabilities:&quot;);
+				mission.addMessageText(&quot;Source: Ex-Military (blockade runner)                                                     Military grade AI&quot;);
+				mission.addMessageText(&quot;Max speed: 450                                                                                     Damage auto-repair&quot;);
+				mission.addMessageText(&quot;Cargo capacity: 5x 30t                                                                    Missile defense screen&quot;);
+				mission.addMessageText(&quot;Missile capacity: 5x 5 pylons                                                  Regenerative fuel injection&quot;);
+				mission.addMessageText(&quot;Energy: 6 banks                                                                             Multi-bay cargo storage&quot;);
+				mission.addMessageText(&quot;Pitch/Roll/Yaw: 1.3/1.5/1.5                                                            Switchable missile bays&quot;);
+				mission.addMessageText(&quot;\n\n\nGreetings Commander &quot; + expandDescription(&quot;[commander_name]&quot;) + &quot;.\n\nI am &quot; + this.AIName + &quot;, the military AI construct of your new ASC Vortex craft, the &quot; + this.shipTitle + &quot;. Self-diagnostics shows all systems functional and ready - I await your command.&quot;);
+				mission.addMessageText(&quot;\nEnd of Line.&quot;);
+			}
+		}
+		worldScripts[&quot;vortex_player.js&quot;].playerBoughtNewShip = this.replaceVortexFunc;
+		if (this.loggingEnabled) {
+			log(this.name, &quot;Modified Vortex this.playerBoughtNewShip&quot;);
+		}
+		return true;
+	}
+	return false;
+}
+
+this.enableVortexPBNSFunc = function () {
+	if (!worldScripts[&quot;vortex_player.js&quot;] || !this.storeVortexFunc) {
+		return false;
+	}
+	worldScripts[&quot;vortex_player.js&quot;].playerBoughtNewShip = this.storeVortexFunc;
+	delete this.storeVortexFunc;
+	if (this.loggingEnabled) {
+		log(this.name, &quot;Reinstated original Vortex this.playerBoughtNewShip&quot;);
+	}
+	return true;
+}
+
+this.disableMaelstromPBNSFunc = function (context, ship) {
+	if (!worldScripts[&quot;vortex_maelstrom.js&quot;] || this.storeMaelstromFunc) {
+		return false;
+	}
+	if (!ship) ship = player.ship;
+
+	this.storeMaelstromFunc = new Object;
+	this.storeMaelstromFunc = worldScripts[&quot;vortex_maelstrom.js&quot;].playerBoughtNewShip;
+	if (context === &quot;delete&quot;) {
+		delete worldScripts[&quot;vortex_maelstrom.js&quot;].playerBoughtNewShip;
+		if (this.loggingEnabled) {
+			log(this.name, &quot;Deleted Maelstrom this.playerBoughtNewShip&quot;);
+		}
+		return true;
+	}
+	if (context === &quot;retainName&quot;) {
+		this.replaceMaelstromFunc = new Object;
+		this.replaceMaelstromFunc = function (ship) {
+			this.stopMissileTimer();
+			this.resetShip();
+			if (ship.name === &quot;Maelstrom&quot;) {
+				this.storeMissileBay(missionVariables.multiBay_currentMissile);
+				this.startUp();
+				this.shipTitle = missionVariables.multiBay_storeShipName;
+				mission.runScreen({
+					title: &quot;Ship Specifications (Maelstrom)&quot;,
+					model: &quot;vortex_maelstrom_player&quot;
+				});
+				this.AIName = &quot;MAC&quot; + Math.floor(Math.random() * 0.999999 * 10) + Math.floor(Math.random() * 0.999999 * 10) + Math.floor(Math.random() * 0.999999 * 10) + Math.floor(Math.random() * 0.999999 * 10);
+				mission.addMessageText(&quot;Designation: Maelstrom - &quot; + this.shipTitle);
+				mission.addMessageText(&quot;MAC registration: &quot; + this.AIName + &quot;\n&quot;);
+				mission.addMessageText(&quot;Shipyard: Aquarian Shipbuilding Corporation                                Special Capabilities:&quot;);
+				mission.addMessageText(&quot;Source: Ex-Military (Armoured Transport)                                              Military grade AI&quot;);
+				mission.addMessageText(&quot;Max speed: 250                                                                                     Damage auto-repair&quot;);
+				mission.addMessageText(&quot;Cargo capacity: 3x 100t                                                                  Missile defense screen&quot;);
+				mission.addMessageText(&quot;Missile capacity: 3x 4 pylons                                                  Regenerative fuel injection&quot;);
+				mission.addMessageText(&quot;Energy: 10 banks                                                                            Multi-bay cargo storage&quot;);
+				mission.addMessageText(&quot;Pitch/Roll/Yaw: 1.0/1.2/1.2                                                            Switchable missile bays&quot;);
+				mission.addMessageText(&quot;\n\n\nGreetings Commander &quot; + expandDescription(&quot;[commander_name]&quot;) + &quot;.\n\nI am &quot; + this.AIName + &quot;, the military AI construct of your new ASC Maelstrom craft, the &quot; + this.shipTitle + &quot;. Self-diagnostics shows all systems functional and ready - I await your command.&quot;);
+				mission.addMessageText(&quot;\nEnd of Line.&quot;);
+			}
+		}
+		worldScripts[&quot;vortex_maelstrom.js&quot;].playerBoughtNewShip = this.replaceMaelstromFunc;
+		if (this.loggingEnabled) {
+			log(this.name, &quot;Modified Maelstrom this.playerBoughtNewShip&quot;);
+		}
+		return true;
+	}
+	return false;
+}
+
+this.enableMaelstromPBNSFunc = function () {
+	if (!worldScripts[&quot;vortex_maelstrom.js&quot;] || !this.storeMaelstromFunc) {
+		return false;
+	}
+	worldScripts[&quot;vortex_maelstrom.js&quot;].playerBoughtNewShip = this.storeMaelstromFunc;
+	delete this.storeMaelstromFunc;
+	if (this.loggingEnabled) {
+		log(this.name, &quot;Reinstated original Maelstrom this.playerBoughtNewShip&quot;);
+	}
+	return true;
+}
+
+this.disableTCATPBNSFunc = function () {
+	if (!worldScripts[&quot;TCAT_missionScript&quot;] || this.storeTCATFunc) {
+		return false;
+	}
+	this.storeTCATFunc = new Object;
+	this.storeTCATFunc = worldScripts[&quot;TCAT_missionScript&quot;].playerBoughtNewShip;
+	delete worldScripts[&quot;TCAT_missionScript&quot;].playerBoughtNewShip;
+	if (this.loggingEnabled) {
+		log(this.name, &quot;Deleted TCAT this.playerBoughtNewShip&quot;);
+	}
+	return true;
+}
+
+this.enableTCATPBNSFunc = function () {
+	if (!worldScripts[&quot;TCAT_missionScript&quot;] || !this.storeTCATFunc) {
+		return false;
+	}
+	worldScripts[&quot;TCAT_missionScript&quot;].playerBoughtNewShip = this.storeTCATFunc;
+	delete this.storeTCATFunc;
+	if (this.loggingEnabled) {
+		log(this.name, &quot;Reinstated original TCAT this.playerBoughtNewShip&quot;);
+	}
+	return true;
+}</pre></td>
+                </tr>
+            </table>
+        </a>
+    </body>
+</html>

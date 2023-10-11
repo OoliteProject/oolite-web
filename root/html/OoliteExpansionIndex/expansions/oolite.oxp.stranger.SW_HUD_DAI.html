@@ -1,0 +1,335 @@
+<html>
+    <head>
+        <title>Expansion SW HUD DAI</title>
+        <link rel="stylesheet" href="../style.css">
+    </head>
+    <body>
+        <table border="0" width="100%">
+            <tr>
+                <td>Back to <a href='../index.html'>Index</a></td>
+                <td align="right"><small>Page generated: Oct 11, 2023, 3:16:49 PM</small></td>
+            </tr>
+        </table>
+
+        <h1>Expansion SW HUD DAI</h1>
+
+        <h2>Content</h2>
+        <ul>
+          <li><a href="#warnings">Warnings</a></li>
+          <li><a href="#manifest">Manifest</a></li>
+          <li><a href="#documentation">Documentation</a></li>
+          <li><a href="#equipment">0 Equipment</a></li>
+          <li><a href="#ships">0 Ships</a></li>
+          <li><a href="#models">0 Models</a></li>
+          
+        </ul>
+
+          <a name="warnings">
+            <h2>Warnings</h2>
+            <ol>
+                <li>Tags mismatch between OXP Manifest and Expansion Manager at character position 0002 (RIGHT SQUARE BRACKET vs LATIN CAPITAL LETTER H)(&#39;[]&#39; vs &#39;[HUD]&#39;)</li>
+                <li>Conflict Expansions mismatch between OXP Manifest and Expansion Manager at character position 0064 (DIGIT ZERO vs LATIN SMALL LETTER N)</li>
+            </ol>
+          </a>
+
+        <a name="manifest">
+        <h2>Manifest</h2>
+            <table border="1">
+                <tr>
+                    <th></th>
+                    <th>from Expansion Manager's OXP list</th>
+                    <th>from Expansion Manifest</th>
+                </tr>
+                <tr>
+                    <td>Description</td>
+                    <td>Overhauled version of CB HUD, supporting MFDs and other modern useful features. Stand-alone version with default altitude indication. Conflicts with SW HUD CAI version.</td>
+                    <td>Overhauled version of CB HUD, supporting MFDs and other modern useful features. Stand-alone version with default altitude indication. Conflicts with SW HUD CAI version.</td>
+                </tr>
+                <tr>
+                    <td>Identifier</td>
+                    <td>oolite.oxp.stranger.SW_HUD_DAI</td>
+                    <td>oolite.oxp.stranger.SW_HUD_DAI</td>
+                </tr>
+                <tr>
+                    <td>Title</td>
+                    <td>SW HUD DAI</td>
+                    <td>SW HUD DAI</td>
+                </tr>
+                <tr>
+                    <td>Category</td>
+                    <td>HUDs</td>
+                    <td>HUDs</td>
+                </tr>
+                <tr>
+                    <td>Author</td>
+                    <td>stranger</td>
+                    <td>stranger</td>
+                </tr>
+                <tr>
+                    <td>Version</td>
+                    <td>1.0.2</td>
+                    <td>1.0.2</td>
+                </tr>
+                <tr>
+                    <td>Tags</td>
+                    <td></td>
+                    <td>HUD</td>
+                </tr>
+                <tr>
+                    <td>Required Oolite Version</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Maximum Oolite Version</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Required Expansions</td>
+                    <td>
+                    </td>
+                    <td>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Optional Expansions</td>
+                    <td>
+                    </td>
+                    <td>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Conflict Expansions</td>
+                    <td>
+                            <li>oolite.oxp.stranger.SW_HUD_CAI:0</li>
+                    </td>
+                    <td>
+                            <li>oolite.oxp.stranger.SW_HUD_CAI:</li>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Information URL</td>
+                    <td><a target="_blank" href="http://aegidian.org/bb/viewtopic.php?f=4&amp;t=20104">http://aegidian.org/bb/viewtopic.php?f=4&amp;t=20104</a></td>
+                    <td><a target="_blank" href="">n/a</a></td>
+                </tr>
+                <tr>
+                    <td>Download URL</td>
+                    <td><a target="_blank" href="https://wiki.alioth.net/img_auth.php/e/e6/SW_HUD_DAI.oxz">https://wiki.alioth.net/img_auth.php/e/e6/SW_HUD_DAI.oxz</a></td>
+                    <td><a target="_blank" href="">n/a</a></td>
+                </tr>
+                <tr>
+                    <td>License</td>
+                    <td>CC-BY-NC-SA 3.0</td>
+                    <td>CC-BY-NC-SA 3.0</td>
+                </tr>
+                <tr>
+                    <td>File Size</td>
+                    <td>n/a</td>
+                </tr>
+                <tr>
+                    <td>Upload date</td>
+                    <td>1610873502</td>
+                </tr>
+            </table>
+                </a>
+
+        <a name="documentation">
+        <h2>Documentation</h2>
+        <p>Also read <a href='http://wiki.alioth.net/index.php/SW%20HUD%20DAI'>http://wiki.alioth.net/index.php/SW%20HUD%20DAI</a></p>
+        <h3>SW HUD Readme.txt</h3>
+        <pre>SW HUD DAI/CAI
+
+This OXP is released under the Creative Commons Attribution - Non-Commercial - Share Alike 3.0 license.
+You are free to use and distribute this OXP on non-commercial basis. 
+Rebundling of this OXP within another distribution is permitted as long as it is unchanged.
+Any mods/derivatives of this OXP must be distributed under another names.
+The license information (either as this file or merged into a larger one) must be included in the OXP.
+
+This is tweaked and upgraded version of Robert Triflinger (Captain Beatnik) CB_Hud_v0_8.oxp.
+
+List of modifications:
+
+hud.plist
+
+A bit wider inner gap in military laser reticle.
+Transparency of gauges reduced from alpha = 1.0 to alpha  = 0.25.
+Decreased font size on message_gui and comm_log.gui.
+Readjusted message_gui aide and location to adopt new font size.
+STE reticle scaled to 1:100 instead of default 1:64.
+Disabled automatic floating comm_log_gui panel.
+2 MFD added.
+Primed equipment indication added.
+Scanner set to UltraZoom mode (x1, x2, x4, x8 x16 instead of x1, x2, x3, x4 x5).
+Scanner set to non linear mode.
+Default altitude dial replaced onto custom dial.
+All HUD elements other than pylon-mounted ordnance and ship clock invisible in docked state.
+
+This HUD was tested with 1920 x 1080 monitor resolution.
+All changes are implemented for hud.plist only. hud-small.plist remains the same as original.
+
+Features and dependencies
+
+This OXP is split onto 2 versions:
+
+SW HUD DAI (Default Altitude Dial) - stand-alone OXP without any dependencies.
+SW HUD CAI (Custom Altitude Dial) - needs Hard Way 2.1 OXP, providing data source for custom altitude dial.
+
+Use only one version of SW HUD OXP, not both!
+
+Enjoy!
+
+Tweaked by Stranger.
+
+Version history:
+
+23.02.2019 - Version 1.0.2				Fixed minor error in manifest.plist
+23.02.2019 - Version 1.0.1				Converted to OXZ
+18.02.2019 - version 1.0.0				manifest.plist added
+							hud-small.plist removed
+07.05.2018 - version 0.9	SW HUD DAI/CAI		Custom altitude dial is implemented.
+							Scanner set to non-linear mode.
+							OXP split onto 2 versions with default and custom altitude dial and renamed for clarity reasons.
+02.09.2016 - version 0.8.8	CB HUD ST 182 WS	Primed equipment status line added.
+							STE reticle scaled to 1:100 instead of default 1:64.
+08.12.2015 - version 0.8.7	CB HUD ST 182 WS	Transparency of MFD panels set to alpha = 0.75 to reduce excess brightness.
+09.09.2015 - version 0.8.6	CB HUD ST 182 WS	MFD panels repositioned to screen bottom (best used with widescreen monitors).
+13.06.2015 - version 0.8.5	CB HUD ST 182		Scanner UltraZoom mode activated.
+21.10.2014 - version 0.8.4	CB-HUD ST 180		All HUD elements other than pylon-mounted ordnance and ship clock invisible in docked state.
+09.08.2014 - version 0.8.3	CB-HUD ST 180		MFD support implemented.
+30.01.2013 - version 0.8.2	CB Hud ST 0.8.2		Transparency reduced to 0.25, automatic call of floating comm message panel blocked.
+16.12.2012 - version 0.8.1	CB_Tweak_Hud_v0_8	Initial release, transparency 0.5.
+
+See original licence below:
+
+=========================
+CB_Hud_v0_8.oxp
+=========================
+
+VERSION:
+	0.8 
+
+DATE:
+	2011-03-06
+
+REQUIRES:
+	Oolite Version 1.74+
+
+
+FEATURES:
+	- non-dynamic hud;
+	- bigger scanner;
+	- bigger space-compass with integrated gauges for pitch, roll an yaw;
+	- newly-arranged gauges; 
+	- individual surrounds enveloping every single gauge as well as the appropriate legend;
+	- individual contrast background for every single gauge;
+	- customized crosshairs.
+	- hud-small.plist containing an alternative hud for small ships like the adder
+
+
+CONTENTS:
+	- CB_Hud_Readme.txt
+	- requires.plist
+	- hud.png
+	- hud-small.png
+	- crosshairs.png
+	- &lt;Config&gt;
+		- hud.plist
+		- hud.plist-small.plist
+		- crosshairs.plist
+	- &lt;Images&gt;
+		- BoxBlack10x10.png
+		- CircBlack400x400.png
+		
+
+MONITOR RESOLUTION:
+	This HUD is best viewed with a 1680 x 1050 (16:10) resolution on the Monitor. Other resolutions may work, 
+	but I did no testing on it.
+
+
+KNOWN ISSUES:
+	- CB_Hud_v0_7.oxp is not compatible with the Target Reticle.oxp
+
+
+WHAT YOU SHOULD ALWAYS BE AWARE OF:
+	It is a mistake to think you can solve any major problems just with potatoes.
+    	(Douglas Adams, 1952 - 2001)
+
+
+AUTHOR:
+	Robert Triflinger (Captain Beatnik)
+	Contact: captain.beatnik@gmx.de  
+
+
+ATTRIBUTION:
+	This work is derived from the original configuration files that come with the Oolite� program package.
+	Thanks a lot to Giles C Williams (aegidian) and all contributors for developing Oolite. 
+	Special thanks to Thargoid, Killer Wolf, JeffBTX and Wyvern. I have learned very much by studying their work. 
+
+
+LICENSE:
+	All artwork, scripts and configuration files in this work are licensed 
+	under the Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported (CC BY-NC-SA 3.0) license.
+	To view a copy of this license, visit http://creativecommons.org/licenses/by-nc-sa/3.0/ or 
+	send a letter to Creative Commons, 171 Second Street, Suite 300, San Francisco, California, 94105, USA.
+	
+	You are free:
+
+    		* to Share � to copy, distribute and transmit the work
+   		* to Remix � to adapt the work
+ 
+	Under the following conditions:
+
+    		* Attribution � You must attribute the work in the manner specified by the author or licensor 
+		  (but not in any way that suggests that they endorse you or your use of the work).
+		* Noncommercial � You may not use this work for commercial purposes.
+    		* Share Alike � If you alter, transform, or build upon this work, you may distribute the resulting work 
+		  only under the same or similar license to this one.
+
+	With the understanding that:
+
+    		* Waiver � Any of the above conditions can be waived if you get permission from the copyright holder.
+    		* Public Domain � Where the work or any of its elements is in the public domain under applicable law, 
+		  that status is in no way affected by the license.
+    		* Other Rights � In no way are any of the following rights affected by the license:
+          	  - Your fair dealing or fair use rights, or other applicable copyright exceptions and limitations;
+          	  - The author&#39;s moral rights;
+          	  - Rights other persons may have either in the work itself or in how the work is used, such as publicity 
+		    or privacy rights.
+    		* Notice � For any reuse or distribution, you must make clear to others the license terms of this work. 
+                  The best way to do this is with a link to this web page: http://creativecommons.org/licenses/by-nc-sa/3.0/
+
+         (This is a human-readable summary of the Legal Code (the full license).)
+
+
+VERSION HISTORY:
+=======================	
+	Version 0.8 
+		First release of this .OXP
+
+========================
+
+*** end of file ***</pre>
+        </a>
+
+        <a name="equipment">          
+        <h2>Equipment</h2>
+            This expansion declares no equipment. This may be related to warnings.
+        </a>
+
+        <a name="ships">    
+        <h2>Ships</h2>
+            This expansion declares no ships. This may be related to warnings.
+        </a>
+
+        <a name="models">    
+        <h2>Models</h2>
+            This expansion declares no models. This may be related to warnings.
+        </a>
+
+        <a name="scripts">    
+        <h2>Scripts</h2>
+            This expansion declares no scripts.
+        </a>
+    </body>
+</html>

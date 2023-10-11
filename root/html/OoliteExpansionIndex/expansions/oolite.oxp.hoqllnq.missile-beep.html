@@ -1,0 +1,349 @@
+<html>
+    <head>
+        <title>Expansion Missile Beep</title>
+        <link rel="stylesheet" href="../style.css">
+    </head>
+    <body>
+        <table border="0" width="100%">
+            <tr>
+                <td>Back to <a href='../index.html'>Index</a></td>
+                <td align="right"><small>Page generated: Oct 11, 2023, 3:16:49 PM</small></td>
+            </tr>
+        </table>
+
+        <h1>Expansion Missile Beep</h1>
+
+        <h2>Content</h2>
+        <ul>
+          <li><a href="#warnings">Warnings</a></li>
+          <li><a href="#manifest">Manifest</a></li>
+          <li><a href="#documentation">Documentation</a></li>
+          <li><a href="#equipment">0 Equipment</a></li>
+          <li><a href="#ships">0 Ships</a></li>
+          <li><a href="#models">0 Models</a></li>
+          <li><a href="#scripts">1 Scripts</a></li>
+        </ul>
+
+          <a name="warnings">
+            <h2>Warnings</h2>
+            <ol>
+                <li>Information URL mismatch between OXP Manifest and Expansion Manager string length at character position 0</li>
+            </ol>
+          </a>
+
+        <a name="manifest">
+        <h2>Manifest</h2>
+            <table border="1">
+                <tr>
+                    <th></th>
+                    <th>from Expansion Manager's OXP list</th>
+                    <th>from Expansion Manifest</th>
+                </tr>
+                <tr>
+                    <td>Description</td>
+                    <td>Plays beeps whenever a missile is targeted at you</td>
+                    <td>Plays beeps whenever a missile is targeted at you</td>
+                </tr>
+                <tr>
+                    <td>Identifier</td>
+                    <td>oolite.oxp.hoqllnq.missile-beep</td>
+                    <td>oolite.oxp.hoqllnq.missile-beep</td>
+                </tr>
+                <tr>
+                    <td>Title</td>
+                    <td>Missile Beep</td>
+                    <td>Missile Beep</td>
+                </tr>
+                <tr>
+                    <td>Category</td>
+                    <td>Ambience</td>
+                    <td>Ambience</td>
+                </tr>
+                <tr>
+                    <td>Author</td>
+                    <td>hoqllnq</td>
+                    <td>hoqllnq</td>
+                </tr>
+                <tr>
+                    <td>Version</td>
+                    <td>1.3</td>
+                    <td>1.3</td>
+                </tr>
+                <tr>
+                    <td>Tags</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Required Oolite Version</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Maximum Oolite Version</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Required Expansions</td>
+                    <td>
+                    </td>
+                    <td>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Optional Expansions</td>
+                    <td>
+                    </td>
+                    <td>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Conflict Expansions</td>
+                    <td>
+                    </td>
+                    <td>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Information URL</td>
+                    <td><a target="_blank" href=""></a></td>
+                    <td><a target="_blank" href="">n/a</a></td>
+                </tr>
+                <tr>
+                    <td>Download URL</td>
+                    <td><a target="_blank" href="https://wiki.alioth.net/img_auth.php/f/f8/Oolite.oxp.hoqllnq.missile_beep-1.3.oxz">https://wiki.alioth.net/img_auth.php/f/f8/Oolite.oxp.hoqllnq.missile_beep-1.3.oxz</a></td>
+                    <td><a target="_blank" href="">n/a</a></td>
+                </tr>
+                <tr>
+                    <td>License</td>
+                    <td>CC-BY-NC-SA 3.0</td>
+                    <td>CC-BY-NC-SA 3.0</td>
+                </tr>
+                <tr>
+                    <td>File Size</td>
+                    <td>n/a</td>
+                </tr>
+                <tr>
+                    <td>Upload date</td>
+                    <td>1610873517</td>
+                </tr>
+            </table>
+                </a>
+
+        <a name="documentation">
+        <h2>Documentation</h2>
+        <p>Also read <a href='http://wiki.alioth.net/index.php/Missile%20Beep'>http://wiki.alioth.net/index.php/Missile%20Beep</a></p>
+        <h3>README.txt</h3>
+        <pre>Missile Beeps
+=============
+Version 1.3
+(C) 2017 cmdr. hoqllnq
+
+
+
+* Description:
+
+Plays high pitched beeps while a missile is targeted at the player. Rather than only having a warning when the missile is fired, you now get alerted the entire time a missile is coming for you. The beeps become faster when the distance to the nearest incoming missile gets smaller. 
+
+
+
+* Installation: 
+
+Install the OXP by putting the .oxz file in your Oolite Addons folder.
+
+
+
+* Instructions:
+
+There are no instructions. 
+This OXP does not add buyable equipment. There is no way/need to activate/deactivate/configure it.
+
+
+
+* Version History:
+
+1.3 - 27-03-2017
+Increase timer frequency (to 2/sec) while incoming missiles are detected.
+Added shipAttackedWithMissile event handler to trigger faster.
+
+1.2 - 27-03-2017
+Beeps get faster when missile gets closer
+
+1.1 - 26-03-2017
+Gets rid of exception (when player has no ship?)
+
+1.0 - 26-03-2017
+First working incarnation
+
+
+
+* License: CC BY-NC-SA 3.0
+
+This work is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License. To view a copy of this license, visit http://creativecommons.org/licenses/by-nc-sa/3.0/ or send a letter to Creative Commons, PO Box 1866, Mountain View, CA 94042, USA.
+</pre>
+        </a>
+
+        <a name="equipment">          
+        <h2>Equipment</h2>
+            This expansion declares no equipment. This may be related to warnings.
+        </a>
+
+        <a name="ships">    
+        <h2>Ships</h2>
+            This expansion declares no ships. This may be related to warnings.
+        </a>
+
+        <a name="models">    
+        <h2>Models</h2>
+            This expansion declares no models. This may be related to warnings.
+        </a>
+
+        <a name="scripts">    
+        <h2>Scripts</h2>
+            <table>
+                <tr>
+                    <th>Path</th>
+                </tr>
+                <tr>
+                    <td valign="top">Scripts/missile_beep.js</td>
+                    <td><pre>// This is the world script for Missile Beep OXP
+&quot;use strict&quot;;
+this.name        = &quot;Missile Beep&quot;;
+this.description = &quot;Missile Beep World Script&quot;;
+this.version     = &quot;1.3&quot;;
+this.author      = &quot;hoqllnq&quot;;
+this.copyright   = &quot;2017 hoqllnq&quot;;
+this.licence     = &quot;CC-BY-NC-SA 3.0&quot;;
+
+this._timer = null;			// To periodically check for incoming missiles
+this._fcb = null;			// To time the beeps
+this._sound_source = null;	// To play the beeps
+this._beep_time = 0;		// How long beep (or silence) has been playing
+this._beep_interval = 0;	// How long beep (or silence) should last
+this._beep_on = false;		// Currently beeping?
+
+this._debug = false;		// Logging
+
+
+// Initialize the timer and the sound source
+this.startUp = function()
+{
+	if (!this._timer)
+	{
+		this._timer = new Timer(this, this._timer_hook.bind(this),1,1);
+	}
+	
+	if (!this._sound_source)
+	{
+		this._sound_source = new SoundSource();
+		this._sound_source.loop = false;
+		this._sound_source.sound = &quot;[missile_beep]&quot;;
+	}
+	
+	if (this._debug)
+		log(this.name,&quot;Started&quot;);
+}
+
+// A missile was fired at us, it could be the nearest one,
+// don&#39;t wait for timer to fire, call timer hook now to check
+this.shipAttackedWithMissile = function(missile,whom)
+{
+	if (this._debug)
+		log(this.name,&quot;Missile fired&quot;);
+	
+	this._timer_hook();
+}
+
+// Periodic check for presence and distance of incoming missiles
+this._timer_hook = function()
+{
+	var things;
+	var dist;
+ 
+	if (player &amp;&amp; player.ship)
+	{	// Find all missiles in scanner range
+		things = system.entitiesWithScanClass(&quot;CLASS_MISSILE&quot;,player.ship,25600);
+		
+		// See if any of them are targeted at us
+		for (var i = 0;i &lt; things.length;i++)
+		{
+			if (things[i].target == player.ship)
+			{	// Yes.
+				// This is the nearest one, since the list is ordered by distance
+				dist = things[i].position.distanceTo(player.ship.position);
+				if (this._debug)
+					log(this.name,&quot;Missile at &quot; + dist);
+				
+				// Beep duration based on distance
+				this._beep_interval = 0.05 + dist / 51200.0;
+				
+				// If we weren&#39;t beeping yet, start now
+				if(!isValidFrameCallback(this._fcb))
+				{
+					this._fcb = addFrameCallback(this._fcb_hook.bind(this));
+					this._timer.interval = 0.5;
+				}
+				
+				return;
+			}
+		}
+	}
+	
+	// No incoming missiles
+	// If we were beeping, stop now.
+	if (isValidFrameCallback(this._fcb))
+	{
+		if (this._debug)
+			log(this.name,&quot;No more incoming missiles&quot;);
+		
+		removeFrameCallback(this._fcb);
+		this._timer.interval = 1.0;
+	}
+	
+	if (this._sound_source.isPlaying)
+		this._sound_source.stop();
+	
+	this._beep_time = 0;
+	this._beep_on = false;
+}
+
+// Frame callback to turn beep on/off
+// This does the timing for the beeping speed
+this._fcb_hook = function(delta)
+{
+	this._beep_time += delta;
+	
+	// Time for next beep/silence?
+	if (this._beep_time &lt; this._beep_interval)
+		return; // No.
+	
+	// Reset time
+	this._beep_time -= this._beep_interval;
+	
+	// Toggle beep
+	if (this._beep_on)
+	{
+		if (this._sound_source.isPlaying)
+			this._sound_source.stop();
+		
+		this._beep_on = false;
+	}
+	else
+	{
+		if (this._debug)
+			log(this.name,&quot;Beep!&quot;);
+		
+		if (!this._sound_source.isPlaying)
+			this._sound_source.play();
+		
+		this._beep_on = true;
+	}
+}
+
+</pre></td>
+                </tr>
+            </table>
+        </a>
+    </body>
+</html>
