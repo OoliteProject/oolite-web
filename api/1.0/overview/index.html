@@ -3035,32 +3035,26 @@ Citizenships! The player may acquire, or renounce, a system citizenship when vis
 
   },   {
     "identifier" = "oolite.oxp.EricWalch.UPSCourier";
-    "version" = "2.1.1";
+    "version" = "2.1.2";
     "title" = "UPS Courier";
     "required_oolite_version" = "1.82";
     "maximum_oolite_version" = "";
-    "description" = "";
+    "description" = "This OXP adds several random missions that run simultaneously. The first set of missions offered will be various transport missions. After you have run enough of these, a series of combat jobs will be offered. Update to the original by Eric Walsh, with contributions from spara, Keeper and phkb.";
     "category" = "Missions";
     "author" = "Eric Walch, spara, Keeper, phkb, Rorschachhamster";
     "license" = "CC-BY-SA 3.0";
     "download_url" = "https://wiki.alioth.net/img_auth.php/8/8e/UPS_Courier.oxz";
-    "information_url" = "";
-    "file_size" = 12496070;
-    "upload_date" = 1610873363;
+    "information_url" = "http://wiki.alioth.net/index.php/UPS_Courier";
+    "file_size" = 12497055;
+    "upload_date" = 1697074004;
     "requires_oxps" = (
-
+        {
+          "identifier" = "oolite.oxp.phkb.MarketScriptInterface";
+          "version" = "0";
+        }
     );
     "optional_oxps" = (
-        {
-          "identifier" = "oolite.oxp.Svengali.Snoopers";
-          "version" = "2.5";
-          "description" = "News items will appear periodically with this OXP installed.";
-        },
-        {
-          "identifier" = "oolite.oxp.Svengali.GNN";
-          "version" = "1.0";
-          "description" = "News items will appear periodically with this OXP installed.";
-        }
+
     );
     "conflict_oxps" = (
 
@@ -7386,22 +7380,26 @@ Check the wiki for details.";
 
   },   {
     "identifier" = "oolite.oxp.Ramirez.BlOombergMarkets";
-    "version" = "2.7";
+    "version" = "2.8";
     "title" = "BlOomberg Markets";
     "required_oolite_version" = "1.82";
     "maximum_oolite_version" = "";
-    "description" = "Varies the in-game economy by generating random events that affect commodity prices. Depends on Snoopers.";
+    "description" = "Varies the in-game economy by generating random events that affect commodity prices. Depends on GNN.";
     "category" = "Mechanics";
-    "author" = "Ramirez, Svengali";
+    "author" = "Ramirez, Svengali, spara, phkb";
     "license" = "CC BY-NC-SA 3";
-    "download_url" = "https://wiki.alioth.net/img_auth.php/7/72/BlOomberg_Markets_2.7.oxz";
+    "download_url" = "https://wiki.alioth.net/img_auth.php/d/d9/BlOomberg_Markets_2.8.oxz";
     "information_url" = "http://wiki.alioth.net/index.php/BlOomberg_Markets";
-    "file_size" = 510660;
-    "upload_date" = 1610873335;
+    "file_size" = 512267;
+    "upload_date" = 1697074123;
     "requires_oxps" = (
         {
           "identifier" = "oolite.oxp.Svengali.GNN";
           "version" = "1.0";
+        },
+        {
+          "identifier" = "oolite.oxp.phkb.MarketScriptInterface";
+          "version" = "0";
         }
     );
     "optional_oxps" = (
@@ -13459,6 +13457,30 @@ WARNING: this OXP makes NPCs much tougher, with severe consequences to game bala
     );
 
   },   {
+    "identifier" = "oolite.oxp.phkb.BlackMarket";
+    "version" = "1.0";
+    "title" = "Black Market";
+    "required_oolite_version" = "1.82";
+    "maximum_oolite_version" = "";
+    "description" = "Adds black markets to most Rock Hermits and some other stations.";
+    "category" = "Mechanics";
+    "author" = "phkb";
+    "license" = "CC-BY-NC-SA 3.0";
+    "download_url" = "https://wiki.alioth.net/img_auth.php/b/b2/BlackMarket.oxz";
+    "information_url" = "https://wiki.alioth.net/index.php/Black_Market";
+    "file_size" = 61756;
+    "upload_date" = 1697073179;
+    "requires_oxps" = (
+
+    );
+    "optional_oxps" = (
+
+    );
+    "conflict_oxps" = (
+
+    );
+
+  },   {
     "identifier" = "oolite.oxp.phkb.BountySystem";
     "version" = "0.13";
     "title" = "Bounty System";
@@ -14330,7 +14352,7 @@ WARNING: this OXP makes NPCs much tougher, with severe consequences to game bala
 
   },   {
     "identifier" = "oolite.oxp.phkb.FuelTweaks";
-    "version" = "1.14.4";
+    "version" = "1.14.5";
     "title" = "Fuel Tweaks";
     "required_oolite_version" = "1.82";
     "maximum_oolite_version" = "";
@@ -14339,11 +14361,14 @@ WARNING: this OXP makes NPCs much tougher, with severe consequences to game bala
     "author" = "phkb and Thargoid";
     "license" = "Creative Commons Attribution - Non-Commercial - Share Alike 3.0 license with clauses - see readme file";
     "download_url" = "https://wiki.alioth.net/img_auth.php/3/35/FuelTweaks.oxz";
-    "information_url" = "";
-    "file_size" = 7825029;
-    "upload_date" = 1610873266;
+    "information_url" = "https://wiki.alioth.net/index.php/Fuel_Tweaks";
+    "file_size" = 7824468;
+    "upload_date" = 1697074383;
     "requires_oxps" = (
-
+        {
+          "identifier" = "oolite.oxp.phkb.MarketScriptInterface";
+          "version" = "0";
+        }
     );
     "optional_oxps" = (
 
@@ -14683,6 +14708,30 @@ WARNING: this OXP makes NPCs much tougher, with severe consequences to game bala
     );
 
   },   {
+    "identifier" = "oolite.oxp.phkb.MarketScriptInterface";
+    "version" = "1.0";
+    "title" = "Market Script Interface";
+    "required_oolite_version" = "1.82";
+    "maximum_oolite_version" = "";
+    "description" = "Provides a common interface to market scripts for OXP's to utilise, allowing for easier integrations and preventing conflicts.";
+    "category" = "Miscellaneous";
+    "author" = "phkb";
+    "license" = "CC-BY-SA-NC 4.0";
+    "download_url" = "https://wiki.alioth.net/img_auth.php/3/34/MarketScriptInterface.oxz";
+    "information_url" = "https://wiki.alioth.net/index.php/Market_Script_Interface";
+    "file_size" = 12622;
+    "upload_date" = 1697061559;
+    "requires_oxps" = (
+
+    );
+    "optional_oxps" = (
+
+    );
+    "conflict_oxps" = (
+
+    );
+
+  },   {
     "identifier" = "oolite.oxp.phkb.ModernStart";
     "version" = "1.1";
     "title" = "Modern Start Options";
@@ -14839,6 +14888,37 @@ WARNING: this OXP makes NPCs much tougher, with severe consequences to game bala
     );
 
   },   {
+    "identifier" = "oolite.oxp.phkb.RiskyBusiness";
+    "version" = "0.2";
+    "title" = "Risky Business";
+    "required_oolite_version" = "1.81";
+    "maximum_oolite_version" = "";
+    "description" = "Adjusts cargo prices in high-risk systems (Anarchies/Feudal/Multi-Governments) to increase rewards for travelling to them.";
+    "category" = "Mechanics";
+    "author" = "phkb";
+    "license" = "CC-BY-SA-NC 4.0";
+    "download_url" = "https://wiki.alioth.net/img_auth.php/9/91/RiskyBusiness.oxz";
+    "information_url" = "https://wiki.alioth.net/index.php/Risky_Business";
+    "file_size" = 3627;
+    "upload_date" = 1697073264;
+    "requires_oxps" = (
+        {
+          "identifier" = "oolite.oxp.phkb.MarketScriptInterface";
+          "version" = "0";
+        }
+    );
+    "optional_oxps" = (
+
+    );
+    "conflict_oxps" = (
+        {
+          "identifier" = "oolite.oxp.cim.risk-based-economy";
+          "version" = "0";
+          "description" = "Risk-Based Economy";
+        }
+    );
+
+  },   {
     "identifier" = "oolite.oxp.phkb.ShipComparison";
     "version" = "2.3";
     "title" = "Ship Comparison";
@@ -14987,7 +15067,7 @@ WARNING: this OXP makes NPCs much tougher, with severe consequences to game bala
 
   },   {
     "identifier" = "oolite.oxp.phkb.Smugglers_TGU";
-    "version" = "1.5.8";
+    "version" = "2.0";
     "title" = "Smugglers - The Galactic Underworld";
     "required_oolite_version" = "1.82";
     "maximum_oolite_version" = "";
@@ -14996,11 +15076,18 @@ WARNING: this OXP makes NPCs much tougher, with severe consequences to game bala
     "author" = "phkb";
     "license" = "CC-BY-NC-SA 3.0";
     "download_url" = "https://wiki.alioth.net/img_auth.php/d/dd/Smugglers.oxz";
-    "information_url" = "";
-    "file_size" = 161894;
-    "upload_date" = 1625104997;
+    "information_url" = "https://wiki.alioth.net/index.php/Smugglers_-_The_Galactic_Underworld";
+    "file_size" = 138548;
+    "upload_date" = 1697073696;
     "requires_oxps" = (
-
+        {
+          "identifier" = "oolite.oxp.phkb.MarketScriptInterface";
+          "version" = "0";
+        },
+        {
+          "identifier" = "oolite.oxp.phkb.BlackMarket";
+          "version" = "0";
+        }
     );
     "optional_oxps" = (
 
@@ -15008,7 +15095,7 @@ WARNING: this OXP makes NPCs much tougher, with severe consequences to game bala
     "conflict_oxps" = (
         {
           "identifier" = "oolite.oxp.cim.new-cargoes";
-          "version" = "0";
+          "version" = "1.2.3";
           "description" = "Because illegal cargo is now almost completely variable, it is incompatible with NewCargo's contracts and permits system.";
         }
     );
