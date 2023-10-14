@@ -2064,29 +2064,6 @@
     ]
   },
   {
-    "identifier":"oolite.oxp.Commander_McLane.Anarchies",
-    "version":"2.9.4",
-    "required_oolite_version":"1.79",
-    "maximum_oolite_version":null,
-    "title":"Anarchies",
-    "description":"In certain Anarchy-systems you will find Hacker Outposts, Salvage Gangs, Sentinel Stations or Renegade Stations. Depending on your legal status these may be more or less useful to you, and docking with them may be more or less dangerous to you.",
-    "category":"Systems",
-    "author":"Commander McLane, Killer Wolf, Arexack Heretic, Eric Walch, spara, Norby, phkb and Griff",
-    "license":"CC BY-NC-SA 3",
-    "download_url":"https://wiki.alioth.net/img_auth.php/9/9f/Anarchies-2.9.4.oxz",
-    "information_url":"http://wiki.alioth.net/index.php/Anarchies_OXP",
-    "file_size":21718316,
-    "upload_date":1610873396,
-    "tags":[
-    ],
-    "conflict_oxps":[
-    ],
-    "optional_oxps":[
-    ],
-    "requires_oxps":[
-    ]
-  },
-  {
     "identifier":"oolite.oxp.Commander_McLane.Auto_Eject",
     "version":"1.2",
     "required_oolite_version":"1.79",
@@ -3458,41 +3435,6 @@
     ]
   },
   {
-    "identifier":"oolite.oxp.Griff.Boa_MkII",
-    "version":"1.04.5",
-    "required_oolite_version":"1.80",
-    "maximum_oolite_version":null,
-    "title":"Griff Boa_MkII",
-    "description":"Boa_MkII. Requires a video card capable of supporting Oolite Shaders. Note - this OXP suppresses the spawning of the Default Oolite Boa_MkII, replacing it with the version in this oxp",
-    "category":"Retextures",
-    "author":"Griff",
-    "license":"CC-BY-NC-SA 4.0",
-    "download_url":"https://wiki.alioth.net/img_auth.php/c/c0/Oolite.oxp.Griff.Boa_MkII.oxz",
-    "information_url":"http://wiki.alioth.net/index.php/Griff_Industries",
-    "file_size":2610715,
-    "upload_date":1610873458,
-    "tags":[
-    ],
-    "conflict_oxps":[
-    ],
-    "optional_oxps":[
-    ],
-    "requires_oxps":[
-      {
-        "identifier":"oolite.oxp.Griff.Griff_shipset_decals",
-        "version":"1.0",
-        "maximum_version":null,
-        "description":"Griff_shipset_decals"
-      },
-      {
-        "identifier":"oolite.oxp.Griff_alloys_and_wreckage",
-        "version":"1.0",
-        "maximum_version":null,
-        "description":"Griff Alloys and Wreckage"
-      }
-    ]
-  },
-  {
     "identifier":"oolite.oxp.Griff.Bug_(Elite2)",
     "version":"1.4.1",
     "required_oolite_version":"1.80",
@@ -3519,29 +3461,6 @@
         "maximum_version":null,
         "description":"Griff_shipset_decals"
       }
-    ]
-  },
-  {
-    "identifier":"oolite.oxp.Griff.Cargopod",
-    "version":"1.04.3",
-    "required_oolite_version":"1.80",
-    "maximum_oolite_version":null,
-    "title":"Griff Cargopod",
-    "description":"Cargopod. Requires a video card capable of supporting Oolite Shaders. Note - this OXP suppresses the spawning of the Default Oolite Cargopod, replacing it with the version in this oxp",
-    "category":"Retextures",
-    "author":"Griff",
-    "license":"CC-BY-NC-SA 4.0",
-    "download_url":"https://wiki.alioth.net/img_auth.php/7/73/Oolite.oxp.Griff.Cargopod.oxz",
-    "information_url":"http://wiki.alioth.net/index.php/Griff_Industries",
-    "file_size":6086619,
-    "upload_date":1610873336,
-    "tags":[
-    ],
-    "conflict_oxps":[
-    ],
-    "optional_oxps":[
-    ],
-    "requires_oxps":[
     ]
   },
   {
@@ -8622,29 +8541,6 @@
     ]
   },
   {
-    "identifier":"oolite.oxp.Shipbuilder.ArachnidMark1",
-    "version":"1.01",
-    "required_oolite_version":"1.79",
-    "maximum_oolite_version":null,
-    "title":"Arachnid Mark 1",
-    "description":"A new ship from GalTech Industries.",
-    "category":"Ships",
-    "author":"Shipbuilder",
-    "license":"CC-BY-NC-SA 3.0 with clauses",
-    "download_url":"https://wiki.alioth.net/img_auth.php/6/6d/ArachnidMark1-1.01.oxz",
-    "information_url":"http://wiki.alioth.net/index.php/Wikipedia:Arachnid_Mark_1",
-    "file_size":1768368,
-    "upload_date":1610873329,
-    "tags":[
-    ],
-    "conflict_oxps":[
-    ],
-    "optional_oxps":[
-    ],
-    "requires_oxps":[
-    ]
-  },
-  {
     "identifier":"oolite.oxp.Shipbuilder.ChimeraGunship",
     "version":"1.0",
     "required_oolite_version":"1.79",
@@ -11661,29 +11557,6 @@
     ]
   },
   {
-    "identifier":"oolite.oxp.ace_56.Hornet",
-    "version":"0.9.4",
-    "required_oolite_version":"1.80",
-    "maximum_oolite_version":null,
-    "title":"Hornet",
-    "description":"ace56's Hornet, player and NPC versions available.",
-    "category":"Ships",
-    "author":"ace56",
-    "license":"Creative Commons Attribution - Non-Commercial - Share Alike 3.0 license with clauses - see readme file",
-    "download_url":"https://wiki.alioth.net/img_auth.php/3/34/Ace56_Hornet.oxz",
-    "information_url":null,
-    "file_size":979400,
-    "upload_date":1610873265,
-    "tags":[
-    ],
-    "conflict_oxps":[
-    ],
-    "optional_oxps":[
-    ],
-    "requires_oxps":[
-    ]
-  },
-  {
     "identifier":"oolite.oxp.ace_56.NightAdder",
     "version":"0.9.8",
     "required_oolite_version":"1.80",
@@ -11817,32 +11690,6 @@
     "upload_date":1610873236,
     "tags":[
       "ships"
-    ],
-    "conflict_oxps":[
-    ],
-    "optional_oxps":[
-    ],
-    "requires_oxps":[
-    ]
-  },
-  {
-    "identifier":"oolite.oxp.amah.noshaders_accessories",
-    "version":"1.1.1",
-    "required_oolite_version":"1.80",
-    "maximum_oolite_version":null,
-    "title":"Noshader Griff's accessories",
-    "description":"This bundle adds a variety of cargopods, asteroids, boulders and splinters. It is based on the original shader models and textures by Griff and was remade to go along nicely with the default shipset of Oolite v1.80+ and/or for e.g. Computer with lowend graphics hardware.",
-    "category":"Retextures",
-    "author":"Michael -Amah- Doering",
-    "license":"CC-BY-NC-SA 3.0",
-    "download_url":"https://wiki.alioth.net/img_auth.php/e/e4/Oolite.oxp.amah.noshaders_accessories.oxz",
-    "information_url":"http://aegidian.org/bb/viewtopic.php?t=16898",
-    "file_size":42555974,
-    "upload_date":1610873499,
-    "tags":[
-      "asteroids",
-      "cargopods",
-      "accessories"
     ],
     "conflict_oxps":[
     ],
@@ -12723,29 +12570,6 @@
     ]
   },
   {
-    "identifier":"oolite.oxp.cim.camera-drones",
-    "version":"1.4",
-    "required_oolite_version":"1.77",
-    "maximum_oolite_version":null,
-    "title":"Camera Drones",
-    "description":"Drone cameras which provide a variety of alternative external views for your ship",
-    "category":"Equipment",
-    "author":"cim",
-    "license":"CC-BY-SA 3.0",
-    "download_url":"https://cim.sotl.org.uk/games/files/oolite/CameraDrones_1.4.oxz",
-    "information_url":"http://wiki.alioth.net/index.php/Camera_Drones",
-    "file_size":3890,
-    "upload_date":1403455179,
-    "tags":[
-    ],
-    "conflict_oxps":[
-    ],
-    "optional_oxps":[
-    ],
-    "requires_oxps":[
-    ]
-  },
-  {
     "identifier":"oolite.oxp.cim.combat-simulator",
     "version":"1.1",
     "required_oolite_version":"1.79",
@@ -12775,29 +12599,6 @@
     ]
   },
   {
-    "identifier":"oolite.oxp.cim.comms-pack-a",
-    "version":"0.5",
-    "required_oolite_version":"1.79",
-    "maximum_oolite_version":null,
-    "title":"Communications Pack A",
-    "description":"Adds lots of extra NPC communications to the game, increasing the variety of existing messages and also adding several new ones.",
-    "category":"Ambience",
-    "author":"cim",
-    "license":"MIT",
-    "download_url":"https://cim.sotl.org.uk/games/files/oolite/Comms_Pack_A_0.5.oxz",
-    "information_url":null,
-    "file_size":25107,
-    "upload_date":1404062251,
-    "tags":[
-    ],
-    "conflict_oxps":[
-    ],
-    "optional_oxps":[
-    ],
-    "requires_oxps":[
-    ]
-  },
-  {
     "identifier":"oolite.oxp.cim.cotbs",
     "version":"1.0.2",
     "required_oolite_version":"1.79",
@@ -12811,29 +12612,6 @@
     "information_url":"http://wiki.alioth.net/index.php/Curse_of_the_Black_Sunspot",
     "file_size":651873,
     "upload_date":1397678091,
-    "tags":[
-    ],
-    "conflict_oxps":[
-    ],
-    "optional_oxps":[
-    ],
-    "requires_oxps":[
-    ]
-  },
-  {
-    "identifier":"oolite.oxp.cim.energy-bomb",
-    "version":"1.0.2",
-    "required_oolite_version":"1.79",
-    "maximum_oolite_version":null,
-    "title":"Energy Bomb",
-    "description":"The original indiscriminate superweapon. Available as primable equipment from TL:8 systems and above. Previous versions of this expansion pack are not compatible with Oolite 1.79 or later.",
-    "category":"Weapons",
-    "author":"cim",
-    "license":"CC-BY-NC-SA 3.0",
-    "download_url":"https://cim.sotl.org.uk/games/files/oolite/EnergyBomb_1.0.2.oxz",
-    "information_url":"http://wiki.alioth.net/index.php/Energy_Bomb",
-    "file_size":1906,
-    "upload_date":1417342940,
     "tags":[
     ],
     "conflict_oxps":[
@@ -12932,29 +12710,6 @@
     "information_url":null,
     "file_size":1797795,
     "upload_date":1389541337,
-    "tags":[
-    ],
-    "conflict_oxps":[
-    ],
-    "optional_oxps":[
-    ],
-    "requires_oxps":[
-    ]
-  },
-  {
-    "identifier":"oolite.oxp.cim.shipset-compatibility",
-    "version":"1.4",
-    "required_oolite_version":"1.79",
-    "maximum_oolite_version":null,
-    "title":"Shipset Compatibility",
-    "description":"Makes replacement shipsets compatible with Oolite 1.79",
-    "category":"Misc",
-    "author":"cim",
-    "license":"GPL v2+ / CC-BY-NC-SA 3.0",
-    "download_url":"https://cim.sotl.org.uk/games/files/oolite/ShipsetCompatibility_1.4.oxz",
-    "information_url":null,
-    "file_size":1964,
-    "upload_date":1565763958,
     "tags":[
     ],
     "conflict_oxps":[
@@ -13383,29 +13138,6 @@
     "upload_date":1610873299,
     "tags":[
       "Fonts"
-    ],
-    "conflict_oxps":[
-    ],
-    "optional_oxps":[
-    ],
-    "requires_oxps":[
-    ]
-  },
-  {
-    "identifier":"oolite.oxp.hoqllnq.missile-beep",
-    "version":"1.3",
-    "required_oolite_version":"1.80",
-    "maximum_oolite_version":null,
-    "title":"Missile Beep",
-    "description":"Plays beeps whenever a missile is targeted at you",
-    "category":"Ambience",
-    "author":"hoqllnq",
-    "license":"CC-BY-NC-SA 3.0",
-    "download_url":"https://wiki.alioth.net/img_auth.php/f/f8/Oolite.oxp.hoqllnq.missile_beep-1.3.oxz",
-    "information_url":null,
-    "file_size":7237,
-    "upload_date":1610873517,
-    "tags":[
     ],
     "conflict_oxps":[
     ],
@@ -14829,7 +14561,7 @@
   },
   {
     "identifier":"oolite.oxp.phkb.ManualWitchspaceAlignment",
-    "version":"2.7",
+    "version":"2.8",
     "required_oolite_version":"1.85",
     "maximum_oolite_version":null,
     "title":"Manual Witchspace Alignment",
@@ -14837,10 +14569,10 @@
     "category":"Mechanics",
     "author":"phkb, Cmdr. Cheyd, Phantor Gorth, Svengali, Submersible, spara",
     "license":"CC BY-NC-SA 4.0",
-    "download_url":"https://wiki.alioth.net/img_auth.php/8/8b/ManualWitchspaceAlignment.oxz",
+    "download_url":"https://wiki.alioth.net/img_auth.php/2/26/ManualWitchspaceAlignment_2.8.oxz",
     "information_url":"https://wiki.alioth.net/index.php/Manual_Witchspace_Alignment",
-    "file_size":336249,
-    "upload_date":1697001273,
+    "file_size":336263,
+    "upload_date":1697265114,
     "tags":[
     ],
     "conflict_oxps":[
@@ -16319,29 +16051,6 @@
     ]
   },
   {
-    "identifier":"oolite.oxp.redspear.star_fuel",
-    "version":"1.0",
-    "required_oolite_version":"1.81",
-    "maximum_oolite_version":null,
-    "title":"Star Fuel",
-    "description":"Script to produce superior injector fuel at some stars",
-    "category":"Mechanics",
-    "author":"Redspear",
-    "license":"CC-BY-NC-SA 4.0",
-    "download_url":"https://wiki.alioth.net/img_auth.php/4/4d/Oolite.oxp.redspear.star_fuel.oxz",
-    "information_url":null,
-    "file_size":1914,
-    "upload_date":1610873299,
-    "tags":[
-    ],
-    "conflict_oxps":[
-    ],
-    "optional_oxps":[
-    ],
-    "requires_oxps":[
-    ]
-  },
-  {
     "identifier":"oolite.oxp.redspear.tech_shuffle",
     "version":"1.1",
     "required_oolite_version":"1.80",
@@ -17060,29 +16769,6 @@
     "information_url":"http://wiki.alioth.net/index.php/ClassicShipyard",
     "file_size":7454,
     "upload_date":1610873230,
-    "tags":[
-    ],
-    "conflict_oxps":[
-    ],
-    "optional_oxps":[
-    ],
-    "requires_oxps":[
-    ]
-  },
-  {
-    "identifier":"oolite.oxp.smivs.classicSuperPythons",
-    "version":"1.0",
-    "required_oolite_version":"1.80",
-    "maximum_oolite_version":null,
-    "title":"The Classic SuperPythons",
-    "description":"This expansion adds updated versions of Aegidian's Python Class Cruiser and the Python Eunectes Turbo. Suitable for Oolite v1.80 upwards with high resolution graphics and updated code.",
-    "category":"Ships",
-    "author":"Smivs",
-    "license":"CC-BY-NC-SA 4.0",
-    "download_url":"https://wiki.alioth.net/img_auth.php/4/48/Classic_SuperPythons.oxz",
-    "information_url":"http://wiki.alioth.net/index.php/Classic_Super-Pythons",
-    "file_size":10890495,
-    "upload_date":1610873290,
     "tags":[
     ],
     "conflict_oxps":[
@@ -18916,29 +18602,6 @@
     ]
   },
   {
-    "identifier":"oolite.oxp.stranger.LeestiIsMoon8k",
-    "version":"0.3.0",
-    "required_oolite_version":"1.90",
-    "maximum_oolite_version":null,
-    "title":"Leesti is Moon 8k",
-    "description":"Converts Leesti to Moon using 8k diffuse + normal maps",
-    "category":"Ambience",
-    "author":"stranger",
-    "license":"CC-BY-NC-SA 3.0",
-    "download_url":"https://wiki.alioth.net/img_auth.php/0/0b/LeestiIsMoon8k.oxz",
-    "information_url":null,
-    "file_size":95723577,
-    "upload_date":1610873228,
-    "tags":[
-    ],
-    "conflict_oxps":[
-    ],
-    "optional_oxps":[
-    ],
-    "requires_oxps":[
-    ]
-  },
-  {
     "identifier":"oolite.oxp.stranger.LeestiIsMoonLSM8k",
     "version":"0.3.0",
     "required_oolite_version":"1.90",
@@ -19735,115 +19398,6 @@
     ]
   },
   {
-    "identifier":"oolite.oxp.z.phkb.XenonUIResources",
-    "version":"2.0",
-    "required_oolite_version":"1.80",
-    "maximum_oolite_version":null,
-    "title":"Xenon UI Resources Pack A (16:9)",
-    "description":"Background image resources (16:9 format) for the Xenon UI OXP",
-    "category":"Ambience",
-    "author":"phkb",
-    "license":"CC-BY-NC-SA 4.0",
-    "download_url":"https://wiki.alioth.net/img_auth.php/8/83/XenonUIResources.oxz",
-    "information_url":null,
-    "file_size":10448105,
-    "upload_date":1610873351,
-    "tags":[
-      "Balance=green",
-      "Backgrounds"
-    ],
-    "conflict_oxps":[
-      {
-        "identifier":"oolite.oxp.z.phkb.XenonUIResourcesB",
-        "version":null,
-        "maximum_version":null,
-        "description":"Only one Xenon UI Resources pack is required."
-      },
-      {
-        "identifier":"oolite.oxp.z.phkb.XenonUIResourcesC",
-        "version":null,
-        "maximum_version":null,
-        "description":"Only one Xenon UI Resources pack is required."
-      },
-      {
-        "identifier":"oolite.oxp.z.phkb.XenonUIResourcesD",
-        "version":null,
-        "maximum_version":null,
-        "description":"Only one Xenon UI Resources pack is required."
-      },
-      {
-        "identifier":"oolite.oxp.z.phkb.XenonUIResourcesE",
-        "version":null,
-        "maximum_version":null,
-        "description":"Only one Xenon UI Resources pack is required."
-      },
-      {
-        "identifier":"oolite.oxp.z.phkb.XenonUIResourcesF",
-        "version":null,
-        "maximum_version":null,
-        "description":"Only one Xenon UI Resources pack is required."
-      },
-      {
-        "identifier":"oolite.oxp.z.phkb.XenonUIResourcesG",
-        "version":null,
-        "maximum_version":null,
-        "description":"Only one Xenon UI Resources pack is required."
-      },
-      {
-        "identifier":"oolite.oxp.z.phkb.XenonUIResourcesH",
-        "version":null,
-        "maximum_version":null,
-        "description":"Only one Xenon UI Resources pack is required."
-      },
-      {
-        "identifier":"oolite.oxp.z.phkb.XenonUIResourcesI",
-        "version":null,
-        "maximum_version":null,
-        "description":"Only one Xenon UI Resources pack is required."
-      },
-      {
-        "identifier":"oolite.oxp.z.phkb.XenonUIResourcesJ",
-        "version":null,
-        "maximum_version":null,
-        "description":"Only one Xenon UI Resources pack is required."
-      },
-      {
-        "identifier":"oolite.oxp.z.phkb.XenonUIResourcesK",
-        "version":null,
-        "maximum_version":null,
-        "description":"Only one Xenon UI Resources pack is required."
-      },
-      {
-        "identifier":"oolite.oxp.z.phkb.XenonUIResourcesL",
-        "version":null,
-        "maximum_version":null,
-        "description":"Only one Xenon UI Resources pack is required."
-      },
-      {
-        "identifier":"oolite.oxp.z.phkb.XenonUIResourcesM",
-        "version":null,
-        "maximum_version":null,
-        "description":"Only one Xenon UI Resources pack is required."
-      },
-      {
-        "identifier":"oolite.oxp.z.phkb.XenonUIResourcesN",
-        "version":null,
-        "maximum_version":null,
-        "description":"Only one Xenon UI Resources pack is required."
-      }
-    ],
-    "optional_oxps":[
-    ],
-    "requires_oxps":[
-      {
-        "identifier":"oolite.oxp.z.phkb.XenonUI",
-        "version":"1.2.0",
-        "maximum_version":null,
-        "description":"Requires the main Xenon UI OXP."
-      }
-    ]
-  },
-  {
     "identifier":"oolite.oxp.z.phkb.XenonUIResourcesB",
     "version":"2.0",
     "required_oolite_version":"1.80",
@@ -20445,115 +19999,6 @@
       },
       {
         "identifier":"oolite.oxp.z.phkb.XenonUIResourcesH",
-        "version":null,
-        "maximum_version":null,
-        "description":"Only one Xenon UI Resources pack is required."
-      },
-      {
-        "identifier":"oolite.oxp.z.phkb.XenonUIResourcesI",
-        "version":null,
-        "maximum_version":null,
-        "description":"Only one Xenon UI Resources pack is required."
-      },
-      {
-        "identifier":"oolite.oxp.z.phkb.XenonUIResourcesJ",
-        "version":null,
-        "maximum_version":null,
-        "description":"Only one Xenon UI Resources pack is required."
-      },
-      {
-        "identifier":"oolite.oxp.z.phkb.XenonUIResourcesK",
-        "version":null,
-        "maximum_version":null,
-        "description":"Only one Xenon UI Resources pack is required."
-      },
-      {
-        "identifier":"oolite.oxp.z.phkb.XenonUIResourcesL",
-        "version":null,
-        "maximum_version":null,
-        "description":"Only one Xenon UI Resources pack is required."
-      },
-      {
-        "identifier":"oolite.oxp.z.phkb.XenonUIResourcesM",
-        "version":null,
-        "maximum_version":null,
-        "description":"Only one Xenon UI Resources pack is required."
-      },
-      {
-        "identifier":"oolite.oxp.z.phkb.XenonUIResourcesN",
-        "version":null,
-        "maximum_version":null,
-        "description":"Only one Xenon UI Resources pack is required."
-      }
-    ],
-    "optional_oxps":[
-    ],
-    "requires_oxps":[
-      {
-        "identifier":"oolite.oxp.z.phkb.XenonUI",
-        "version":"1.2.0",
-        "maximum_version":null,
-        "description":"Requires the main Xenon UI OXP."
-      }
-    ]
-  },
-  {
-    "identifier":"oolite.oxp.z.phkb.XenonUIResourcesH",
-    "version":"2.0",
-    "required_oolite_version":"1.80",
-    "maximum_oolite_version":null,
-    "title":"Xenon UI Resources Pack H (16:10)",
-    "description":"Background image resources (16:10 format) for the Xenon UI OXP using the default font.",
-    "category":"Ambience",
-    "author":"phkb",
-    "license":"CC-BY-NC-SA 4.0",
-    "download_url":"https://wiki.alioth.net/img_auth.php/4/4d/XenonUIResourcesH.oxz",
-    "information_url":null,
-    "file_size":10454224,
-    "upload_date":1610873298,
-    "tags":[
-      "Balance=green",
-      "Backgrounds"
-    ],
-    "conflict_oxps":[
-      {
-        "identifier":"oolite.oxp.z.phkb.XenonUIResources",
-        "version":null,
-        "maximum_version":null,
-        "description":"Only one Xenon UI Resources pack is required."
-      },
-      {
-        "identifier":"oolite.oxp.z.phkb.XenonUIResourcesB",
-        "version":null,
-        "maximum_version":null,
-        "description":"Only one Xenon UI Resources pack is required."
-      },
-      {
-        "identifier":"oolite.oxp.z.phkb.XenonUIResourcesC",
-        "version":null,
-        "maximum_version":null,
-        "description":"Only one Xenon UI Resources pack is required."
-      },
-      {
-        "identifier":"oolite.oxp.z.phkb.XenonUIResourcesD",
-        "version":null,
-        "maximum_version":null,
-        "description":"Only one Xenon UI Resources pack is required."
-      },
-      {
-        "identifier":"oolite.oxp.z.phkb.XenonUIResourcesE",
-        "version":null,
-        "maximum_version":null,
-        "description":"Only one Xenon UI Resources pack is required."
-      },
-      {
-        "identifier":"oolite.oxp.z.phkb.XenonUIResourcesF",
-        "version":null,
-        "maximum_version":null,
-        "description":"Only one Xenon UI Resources pack is required."
-      },
-      {
-        "identifier":"oolite.oxp.z.phkb.XenonUIResourcesG",
         "version":null,
         "maximum_version":null,
         "description":"Only one Xenon UI Resources pack is required."
