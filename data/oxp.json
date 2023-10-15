@@ -6373,7 +6373,7 @@
   },
   {
     "identifier":"oolite.oxp.Norby.HUDSelector",
-    "version":"1.25",
+    "version":"1.26",
     "required_oolite_version":"1.79",
     "maximum_oolite_version":null,
     "title":"HUD Selector with Large HUD",
@@ -6381,10 +6381,10 @@
     "category":"HUDs",
     "author":"Norby",
     "license":"CC BY-NC-SA 4",
-    "download_url":"https://wiki.alioth.net/img_auth.php/c/c7/HUDSelector-1.25.oxz",
+    "download_url":"https://wiki.alioth.net/img_auth.php/8/80/HUDSelector-1.26.oxz",
     "information_url":"http://wiki.alioth.net/index.php/HUDSelector",
-    "file_size":64893,
-    "upload_date":1697059087,
+    "file_size":64935,
+    "upload_date":1697357659,
     "tags":[
     ],
     "conflict_oxps":[
