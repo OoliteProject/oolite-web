@@ -16571,18 +16571,18 @@
   },
   {
     "identifier":"oolite.oxp.smivs.BattleDamage",
-    "version":"1.3",
-    "required_oolite_version":"1.80",
+    "version":"1.4",
+    "required_oolite_version":"1.90",
     "maximum_oolite_version":null,
     "title":"Battle Damage",
     "description":"Causes damage to your hull when hit while shields are down. The damage should be repaired promptly to avoid problems.",
     "category":"Ambience",
     "author":"Smivs",
     "license":"CC-BY-NC-SA 4.0",
-    "download_url":"https://wiki.alioth.net/img_auth.php/a/a6/BattleDamage_v1.3.oxz",
+    "download_url":"https://wiki.alioth.net/img_auth.php/0/05/BattleDamage_v1.4.oxz",
     "information_url":"http://wiki.alioth.net/index.php/BattleDamage",
-    "file_size":4727,
-    "upload_date":1610873403,
+    "file_size":4878,
+    "upload_date":1697517939,
     "tags":[
     ],
     "conflict_oxps":[
