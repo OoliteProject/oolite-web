@@ -9646,7 +9646,7 @@
   },
   {
     "identifier":"oolite.oxp.Thargoid.Bigships",
-    "version":"1.02",
+    "version":"1.3",
     "required_oolite_version":"1.79",
     "maximum_oolite_version":null,
     "title":"Bigships",
@@ -9654,10 +9654,10 @@
     "category":"Mechanics",
     "author":"Thargoid and Eric Walch",
     "license":"Creative Commons Attribution - Non-Commercial - Share Alike 3.0 license with clauses - see readme file",
-    "download_url":"https://wiki.alioth.net/img_auth.php/e/ea/BigShips_1.02.oxz",
+    "download_url":"https://wiki.alioth.net/img_auth.php/9/9b/BigShips_1.3.oxz",
     "information_url":"http://wiki.alioth.net/index.php/BigShips_OXP",
-    "file_size":6063,
-    "upload_date":1610873504,
+    "file_size":5813,
+    "upload_date":1697848263,
     "tags":[
       "ships"
     ],
