@@ -5963,7 +5963,7 @@
   },
   {
     "identifier":"oolite.oxp.Norby.CombatMFD",
-    "version":"1.15",
+    "version":"1.16",
     "required_oolite_version":"1.79",
     "maximum_oolite_version":null,
     "title":"MFD - Combat MFD",
@@ -5971,10 +5971,10 @@
     "category":"HUDs",
     "author":"Norby, Zireael",
     "license":"CC BY-NC-SA 3",
-    "download_url":"https://wiki.alioth.net/img_auth.php/e/e4/CombatMFD-1.15.oxz",
+    "download_url":"https://wiki.alioth.net/img_auth.php/c/c3/CombatMFD-1.16.oxz",
     "information_url":"http://wiki.alioth.net/index.php/CombatMFD",
-    "file_size":15607,
-    "upload_date":1697353840,
+    "file_size":15664,
+    "upload_date":1697944197,
     "tags":[
     ],
     "conflict_oxps":[
@@ -15451,7 +15451,7 @@
   },
   {
     "identifier":"oolite.oxp.phkb.VimanaX_HUD",
-    "version":"1.5",
+    "version":"1.6",
     "required_oolite_version":"1.81",
     "maximum_oolite_version":null,
     "title":"Vimana-X HUD",
@@ -15459,10 +15459,10 @@
     "category":"HUD",
     "author":"Gnievmir, phkb",
     "license":"CC BY-SA 4.0",
-    "download_url":"https://wiki.alioth.net/img_auth.php/6/69/VimanaX_HUD.oxz",
-    "information_url":null,
-    "file_size":14150465,
-    "upload_date":1695618419,
+    "download_url":"https://wiki.alioth.net/img_auth.php/7/7d/VimanaX_HUD_1.6.oxz",
+    "information_url":"https://wiki.alioth.net/index.php/Vimana-X_HUD",
+    "file_size":14575810,
+    "upload_date":1697944022,
     "tags":[
     ],
     "conflict_oxps":[
