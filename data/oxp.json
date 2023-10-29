@@ -15463,7 +15463,7 @@
   },
   {
     "identifier":"oolite.oxp.phkb.VimanaX_HUD",
-    "version":"1.6",
+    "version":"1.7",
     "required_oolite_version":"1.81",
     "maximum_oolite_version":null,
     "title":"Vimana-X HUD",
@@ -15471,25 +15471,13 @@
     "category":"HUD",
     "author":"Gnievmir, phkb",
     "license":"CC BY-SA 4.0",
-    "download_url":"https://wiki.alioth.net/img_auth.php/7/7d/VimanaX_HUD_1.6.oxz",
+    "download_url":"https://wiki.alioth.net/img_auth.php/0/09/VimanaX_HUD_1.7.oxz",
     "information_url":"https://wiki.alioth.net/index.php/Vimana-X_HUD",
-    "file_size":14575810,
-    "upload_date":1697944022,
+    "file_size":15248448,
+    "upload_date":1698555936,
     "tags":[
     ],
     "conflict_oxps":[
-      {
-        "identifier":"oolite.oxp.Lone_Wolf.ShieldCycler",
-        "version":null,
-        "maximum_version":null,
-        "description":null
-      },
-      {
-        "identifier":"oolite.oxp.Lone_Wolf.ShieldCyclerNext",
-        "version":null,
-        "maximum_version":"1.13",
-        "description":null
-      },
       {
         "identifier":"oolite.oxp.Wildeblood.alerting_crosshairs",
         "version":null,
