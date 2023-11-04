@@ -12690,7 +12690,7 @@
   },
   {
     "identifier":"oolite.oxp.captsolo.tori2.02",
-    "version":"2.02",
+    "version":"2.1",
     "required_oolite_version":"1.80",
     "maximum_oolite_version":null,
     "title":"Torus Stations",
@@ -12698,10 +12698,10 @@
     "category":"Dockables",
     "author":"Murgh, Svengali, & CaptSolo",
     "license":"CC-BY-SA 3.0",
-    "download_url":"https://wiki.alioth.net/img_auth.php/c/ce/Tori2.02.oxz",
-    "information_url":"http://wiki.alioth.net/index.php/Torus_station",
-    "file_size":13189879,
-    "upload_date":1610873475,
+    "download_url":"https://wiki.alioth.net/img_auth.php/3/3f/Tori_2.1.oxz",
+    "information_url":"https://wiki.alioth.net/index.php/Torus_station",
+    "file_size":12727621,
+    "upload_date":1699070153,
     "tags":[
     ],
     "conflict_oxps":[
@@ -13486,6 +13486,29 @@
     "information_url":"http://wiki.alioth.net/index.php/Beer_Cooler",
     "file_size":2423,
     "upload_date":1610873229,
+    "tags":[
+    ],
+    "conflict_oxps":[
+    ],
+    "optional_oxps":[
+    ],
+    "requires_oxps":[
+    ]
+  },
+  {
+    "identifier":"oolite.oxp.murgh.GlobeStation",
+    "version":"2.1",
+    "required_oolite_version":"1.79",
+    "maximum_oolite_version":null,
+    "title":"Globe Station",
+    "description":null,
+    "category":"Dockables",
+    "author":"Murgh",
+    "license":"Public Domain",
+    "download_url":"https://wiki.alioth.net/img_auth.php/f/ff/GlobeStation_2.1.oxz",
+    "information_url":"https://wiki.alioth.net/index.php/Globe_station",
+    "file_size":5956263,
+    "upload_date":1699069887,
     "tags":[
     ],
     "conflict_oxps":[
@@ -16560,29 +16583,6 @@
     "information_url":"http://aegidian.org/bb/viewtopic.php?f=4&t=16380",
     "file_size":2763113,
     "upload_date":1610873211,
-    "tags":[
-    ],
-    "conflict_oxps":[
-    ],
-    "optional_oxps":[
-    ],
-    "requires_oxps":[
-    ]
-  },
-  {
-    "identifier":"oolite.oxp.smivs.BattleDamage",
-    "version":"1.4",
-    "required_oolite_version":"1.90",
-    "maximum_oolite_version":null,
-    "title":"Battle Damage",
-    "description":"Causes damage to your hull when hit while shields are down. The damage should be repaired promptly to avoid problems.",
-    "category":"Ambience",
-    "author":"Smivs",
-    "license":"CC-BY-NC-SA 4.0",
-    "download_url":"https://wiki.alioth.net/img_auth.php/0/05/BattleDamage_v1.4.oxz",
-    "information_url":"https://wiki.alioth.net/index.php/BattleDamage",
-    "file_size":4878,
-    "upload_date":1697984468,
     "tags":[
     ],
     "conflict_oxps":[
