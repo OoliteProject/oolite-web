@@ -440,11 +440,13 @@ const oxpManager = (()=>{
                 : i < visible ? ''
                 : ' d-none';
 
+            const title = d.information_url
+                ? `<a href="${d.information_url}">${d.title}</a>`
+                : `<span>${d.title}</span>`;
             html += mustache.render(tplHtml, {
                 cls: cls,
                 cat: d.category,
-                info: d.information_url,
-                title: d.title,
+                title: title,
                 ver: d.version,
                 author: d.author,
                 up: epochToYMD(d.upload_date),
