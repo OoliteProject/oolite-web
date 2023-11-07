@@ -1,0 +1,6 @@
+/*
+  X-Frame-Options: DENY
+  Access-Control-Allow-Origin: https://*.oolite.space
+  X-Content-Type-Options: nosniff
+  Content-Security-Policy: default-src 'self' https://*.oolite.space https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.3/js/bootstrap.min.js https://cdnjs.cloudflare.com/ajax/libs/mustache.js/4.2.0/mustache.min.js; style-src 'self' 'unsafe-inline' https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.3/css/bootstrap.min.css; img-src 'self' data: https://addons.oolite.space
+  Strict-Transport-Security: max-age=604800

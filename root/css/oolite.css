@@ -391,7 +391,7 @@ a.ctrl-btn {
 }
 
 .imgbar-starfield {
-    background-image: url("https://media.oolite.space/i/starfield.jpg");
+    background-image: url("https://addons.oolite.space/i/starfield.jpg");
 }
 
 /* = = = = = = = = = = = = = = = = = = = = = = = = = = */
@@ -481,10 +481,10 @@ a.show-more-oxp, #show-all-oxp-desc {
     width: 24px;
     height: 18px;
     background-color: #9cf;
-    -webkit-mask-image: url(https://media.oolite.space/i/download.svg);
+    -webkit-mask-image: url(https://addons.oolite.space/i/download.svg);
     -webkit-mask-repeat: no-repeat;
     -webkit-mask-position: center;
-    mask-image: url(https://media.oolite.space/i/download.svg);
+    mask-image: url(https://addons.oolite.space/i/download.svg);
     mask-repeat: no-repeat;
     mask-position: center;
 }
