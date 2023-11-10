@@ -15486,7 +15486,7 @@
   },
   {
     "identifier":"oolite.oxp.phkb.VimanaX_HUD",
-    "version":"1.9",
+    "version":"1.10",
     "required_oolite_version":"1.81",
     "maximum_oolite_version":null,
     "title":"Vimana-X HUD",
@@ -15494,10 +15494,10 @@
     "category":"HUD",
     "author":"Gnievmir, phkb",
     "license":"CC BY-SA 4.0",
-    "download_url":"https://wiki.alioth.net/img_auth.php/7/76/VimanaX_HUD_1.9.oxz",
+    "download_url":"https://wiki.alioth.net/img_auth.php/2/27/VimanaX_HUD_1.10.oxz",
     "information_url":"https://wiki.alioth.net/index.php/Vimana-X_HUD",
-    "file_size":21452522,
-    "upload_date":1699393026,
+    "file_size":21452619,
+    "upload_date":1699620314,
     "tags":[
     ],
     "conflict_oxps":[
