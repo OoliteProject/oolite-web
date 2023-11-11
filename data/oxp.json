@@ -2832,7 +2832,7 @@
   },
   {
     "identifier":"oolite.oxp.DrewWagar.TianvePulsar",
-    "version":"2.2",
+    "version":"2.3",
     "required_oolite_version":"1.79",
     "maximum_oolite_version":null,
     "title":"Tianve Pulsar",
@@ -2840,10 +2840,10 @@
     "category":"Ambience",
     "author":"Drew Wagar",
     "license":"CC-BY-NC-SA 3.0",
-    "download_url":"https://wiki.alioth.net/img_auth.php/3/30/Tianve_2.2.oxz",
+    "download_url":"https://wiki.alioth.net/img_auth.php/9/98/Tianve_2.3.oxz",
     "information_url":null,
-    "file_size":35147689,
-    "upload_date":1699527926,
+    "file_size":30687589,
+    "upload_date":1699685743,
     "tags":[
     ],
     "conflict_oxps":[
