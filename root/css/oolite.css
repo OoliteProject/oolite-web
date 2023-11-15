@@ -5,6 +5,7 @@
   --main-ctrl-bg-color:  #000032;
   --main-ctrl-border-color: #202066;
   --main-secondary-color: #aaa;
+  --main-link-color: #9cf;
   --bs-table-color: #FFF;
 }
 
@@ -26,7 +27,7 @@ body {
 }
 
 a:link {
-    color: #9cf;
+    color: var(--main-link-color);
 }
 
 a:visited {
@@ -472,15 +473,29 @@ a.ctrl-btn {
 
 /* = = = = = = = = = = = = = = = = = = = = = = = = = = */
 
+.oxp-disclaimer {
+    border: 1px solid #DDD;
+    border-radius: 5px;
+    padding: 8px 12px;
+    margin-bottom: 20px;
+    color: #FFF;
+    text-align: justify;
+
+    font-family: monospace;
+    font-size: 0.9em;
+    letter-spacing: 0.07em;
+    font-weight: bold;
+}
+
 a.show-more-oxp, #show-all-oxp-desc {
-    color: #9cf;
+    color: var(--main-link-color);
 }
 
 .oxp-table .dload-img {
     display: block;
     width: 24px;
     height: 18px;
-    background-color: #9cf;
+    background-color: var(--main-link-color);
     -webkit-mask-image: url(https://addons.oolite.space/i/download.svg);
     -webkit-mask-repeat: no-repeat;
     -webkit-mask-position: center;
@@ -521,7 +536,11 @@ tr.oxp-tr-desc td {
 }
 
 #show-all-desc, .oxp-table th a:visited {
-    color: #9cf !important;
+    color: var(--main-link-color) !important;
+}
+
+.oxp-table .oxp-title {
+    color: var(--main-link-color);
 }
 
 .oxp-table .oxp-ver {

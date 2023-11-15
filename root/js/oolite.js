@@ -442,7 +442,7 @@ const oxpManager = (()=>{
 
             const title = d.information_url
                 ? `<a href="${d.information_url}">${d.title}</a>`
-                : `<span>${d.title}</span>`;
+                : `<span class="oxp-title">${d.title}</span>`;
             html += mustache.render(tplHtml, {
                 cls: cls,
                 cat: d.category,
