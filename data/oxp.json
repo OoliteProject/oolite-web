@@ -14092,7 +14092,7 @@
   },
   {
     "identifier":"oolite.oxp.phkb.FactoryPaintJobs_Anaconda",
-    "version":"1.1",
+    "version":"1.2",
     "required_oolite_version":"1.80",
     "maximum_oolite_version":null,
     "title":"phkb's Factory Paint Jobs: Anaconda",
@@ -14100,10 +14100,10 @@
     "category":"Retextures",
     "author":"phkb",
     "license":"CC-BY-SA-NC 4.0",
-    "download_url":"https://wiki.alioth.net/img_auth.php/6/6c/FactoryPaintJobs_Anaconda.oxz",
-    "information_url":null,
-    "file_size":28201527,
-    "upload_date":1656895531,
+    "download_url":"https://wiki.alioth.net/img_auth.php/2/2f/FactoryPaintJobs_Anaconda_1.2.oxz",
+    "information_url":"https://wiki.alioth.net/index.php/Factory_Paint_Jobs",
+    "file_size":27669189,
+    "upload_date":1700192340,
     "tags":[
     ],
     "conflict_oxps":[
@@ -14138,7 +14138,7 @@
   },
   {
     "identifier":"oolite.oxp.phkb.FactoryPaintJobs_Boa",
-    "version":"1.1",
+    "version":"1.2",
     "required_oolite_version":"1.80",
     "maximum_oolite_version":null,
     "title":"phkb's Factory Paint Jobs: Boa",
@@ -14146,10 +14146,10 @@
     "category":"Retextures",
     "author":"phkb",
     "license":"CC-BY-SA-NC 4.0",
-    "download_url":"https://wiki.alioth.net/img_auth.php/9/96/FactoryPaintJobs_Boa.oxz",
-    "information_url":null,
-    "file_size":27335207,
-    "upload_date":1656896037,
+    "download_url":"https://wiki.alioth.net/img_auth.php/f/f5/FactoryPaintJobs_Boa_1.2.oxz",
+    "information_url":"https://wiki.alioth.net/index.php/Factory_Paint_Jobs",
+    "file_size":27291814,
+    "upload_date":1700192290,
     "tags":[
     ],
     "conflict_oxps":[
@@ -14161,7 +14161,7 @@
   },
   {
     "identifier":"oolite.oxp.phkb.FactoryPaintJobs_BoaMk2",
-    "version":"1.1",
+    "version":"1.2",
     "required_oolite_version":"1.80",
     "maximum_oolite_version":null,
     "title":"phkb's Factory Paint Jobs: Boa Mk2",
@@ -14169,10 +14169,10 @@
     "category":"Retextures",
     "author":"phkb",
     "license":"CC-BY-SA-NC 4.0",
-    "download_url":"https://wiki.alioth.net/img_auth.php/7/73/FactoryPaintJobs_BoaMk2.oxz",
-    "information_url":null,
-    "file_size":22559291,
-    "upload_date":1656896269,
+    "download_url":"https://wiki.alioth.net/img_auth.php/7/77/FactoryPaintJobs_BoaMk2_1.2.oxz",
+    "information_url":"https://wiki.alioth.net/index.php/Factory_Paint_Jobs",
+    "file_size":22509793,
+    "upload_date":1700192243,
     "tags":[
     ],
     "conflict_oxps":[
@@ -14184,7 +14184,7 @@
   },
   {
     "identifier":"oolite.oxp.phkb.FactoryPaintJobs_CobraMkI",
-    "version":"1.1",
+    "version":"1.2",
     "required_oolite_version":"1.80",
     "maximum_oolite_version":null,
     "title":"phkb's Factory Paint Jobs: Cobra Mk I",
@@ -14192,10 +14192,10 @@
     "category":"Retextures",
     "author":"phkb",
     "license":"CC-BY-SA-NC 4.0",
-    "download_url":"https://wiki.alioth.net/img_auth.php/0/0d/FactoryPaintJobs_CobraMk1.oxz",
-    "information_url":null,
-    "file_size":24224663,
-    "upload_date":1656896887,
+    "download_url":"https://wiki.alioth.net/img_auth.php/b/b8/FactoryPaintJobs_CobraMk1_1.2.oxz",
+    "information_url":"https://wiki.alioth.net/index.php/Factory_Paint_Jobs",
+    "file_size":24280304,
+    "upload_date":1700192190,
     "tags":[
     ],
     "conflict_oxps":[
@@ -14207,7 +14207,7 @@
   },
   {
     "identifier":"oolite.oxp.phkb.FactoryPaintJobs_Ferdelance",
-    "version":"1.0",
+    "version":"1.1",
     "required_oolite_version":"1.80",
     "maximum_oolite_version":null,
     "title":"phkb's Factory Paint Jobs: Fer De Lance",
@@ -14215,10 +14215,10 @@
     "category":"Retextures",
     "author":"phkb",
     "license":"CC-BY-SA-NC 4.0",
-    "download_url":"https://wiki.alioth.net/img_auth.php/d/d7/FactoryPaintJobs_Ferdelance.oxz",
-    "information_url":null,
-    "file_size":18098914,
-    "upload_date":1656897809,
+    "download_url":"https://wiki.alioth.net/img_auth.php/1/13/FactoryPaintJobs_Ferdelance_1.1.oxz",
+    "information_url":"https://wiki.alioth.net/index.php/Factory_Paint_Jobs",
+    "file_size":18089186,
+    "upload_date":1700192126,
     "tags":[
     ],
     "conflict_oxps":[
@@ -14230,7 +14230,7 @@
   },
   {
     "identifier":"oolite.oxp.phkb.FactoryPaintJobs_Gecko",
-    "version":"1.1",
+    "version":"1.2",
     "required_oolite_version":"1.80",
     "maximum_oolite_version":null,
     "title":"phkb's Factory Paint Jobs: Gecko",
@@ -14238,10 +14238,10 @@
     "category":"Retextures",
     "author":"phkb",
     "license":"CC-BY-SA-NC 4.0",
-    "download_url":"https://wiki.alioth.net/img_auth.php/7/7f/FactoryPaintJobs_Gecko.oxz",
-    "information_url":null,
-    "file_size":44768259,
-    "upload_date":1656898060,
+    "download_url":"https://wiki.alioth.net/img_auth.php/d/dc/FactoryPaintJobs_Gecko_1.2.oxz",
+    "information_url":"https://wiki.alioth.net/index.php/Factory_Paint_Jobs",
+    "file_size":44768321,
+    "upload_date":1700192050,
     "tags":[
     ],
     "conflict_oxps":[
@@ -14253,7 +14253,7 @@
   },
   {
     "identifier":"oolite.oxp.phkb.FactoryPaintJobs_Krait",
-    "version":"1.1",
+    "version":"1.2",
     "required_oolite_version":"1.80",
     "maximum_oolite_version":null,
     "title":"phkb's Factory Paint Jobs: Krait",
@@ -14261,10 +14261,10 @@
     "category":"Retextures",
     "author":"phkb",
     "license":"CC-BY-SA-NC 4.0",
-    "download_url":"https://wiki.alioth.net/img_auth.php/3/32/FactoryPaintJobs_Krait.oxz",
-    "information_url":null,
-    "file_size":35559249,
-    "upload_date":1656898132,
+    "download_url":"https://wiki.alioth.net/img_auth.php/b/bd/FactoryPaintJobs_Krait_1.2.oxz",
+    "information_url":"https://wiki.alioth.net/index.php/Factory_Paint_Jobs",
+    "file_size":35637517,
+    "upload_date":1700191993,
     "tags":[
     ],
     "conflict_oxps":[
@@ -14276,7 +14276,7 @@
   },
   {
     "identifier":"oolite.oxp.phkb.FactoryPaintJobs_Mamba",
-    "version":"1.1",
+    "version":"1.2",
     "required_oolite_version":"1.80",
     "maximum_oolite_version":null,
     "title":"phkb's Factory Paint Jobs: Mamba",
@@ -14284,10 +14284,10 @@
     "category":"Retextures",
     "author":"phkb",
     "license":"CC-BY-SA-NC 4.0",
-    "download_url":"https://wiki.alioth.net/img_auth.php/7/71/FactoryPaintJobs_Mamba.oxz",
-    "information_url":null,
-    "file_size":34205363,
-    "upload_date":1656898191,
+    "download_url":"https://wiki.alioth.net/img_auth.php/4/43/FactoryPaintJobs_Mamba_1.2.oxz",
+    "information_url":"https://wiki.alioth.net/index.php/Factory_Paint_Jobs",
+    "file_size":33022113,
+    "upload_date":1700191944,
     "tags":[
     ],
     "conflict_oxps":[
@@ -14299,7 +14299,7 @@
   },
   {
     "identifier":"oolite.oxp.phkb.FactoryPaintJobs_Moray",
-    "version":"1.1",
+    "version":"1.2",
     "required_oolite_version":"1.80",
     "maximum_oolite_version":null,
     "title":"phkb's Factory Paint Jobs: Moray",
@@ -14307,10 +14307,10 @@
     "category":"Retextures",
     "author":"phkb",
     "license":"CC-BY-SA-NC 4.0",
-    "download_url":"https://wiki.alioth.net/img_auth.php/6/63/FactoryPaintJobs_Moray.oxz",
-    "information_url":null,
-    "file_size":30614570,
-    "upload_date":1656898252,
+    "download_url":"https://wiki.alioth.net/img_auth.php/3/39/FactoryPaintJobs_Moray_1.2.oxz",
+    "information_url":"https://wiki.alioth.net/index.php/Factory_Paint_Jobs",
+    "file_size":30447246,
+    "upload_date":1700191886,
     "tags":[
     ],
     "conflict_oxps":[
@@ -14345,18 +14345,18 @@
   },
   {
     "identifier":"oolite.oxp.phkb.FactoryPaintJobs_Sidewinder",
-    "version":"1.0",
+    "version":"1.1",
     "required_oolite_version":"1.80",
     "maximum_oolite_version":null,
     "title":"phkb's Factory Paint Jobs: Sidewinder",
-    "description":"This bundle adds 27 new paint jobs for the Sidewinder and 18 for the Sidewinder Escort.",
+    "description":"This bundle adds 45 new paint jobs for the Sidewinder and 18 for the Sidewinder Escort.",
     "category":"Retextures",
     "author":"phkb",
     "license":"CC-BY-SA-NC 4.0",
-    "download_url":"https://wiki.alioth.net/img_auth.php/6/6b/FactoryPaintJobs_Sidewinder.oxz",
-    "information_url":null,
-    "file_size":41307257,
-    "upload_date":1656898527,
+    "download_url":"https://wiki.alioth.net/img_auth.php/b/bc/FactoryPaintJobs_Sidewinder_1.1.oxz",
+    "information_url":"https://wiki.alioth.net/index.php/Factory_Paint_Jobs",
+    "file_size":64037132,
+    "upload_date":1700191835,
     "tags":[
     ],
     "conflict_oxps":[
@@ -15237,7 +15237,7 @@
   },
   {
     "identifier":"oolite.oxp.phkb.ShipRespray",
-    "version":"1.3.7",
+    "version":"1.3.8",
     "required_oolite_version":"1.79",
     "maximum_oolite_version":null,
     "title":"Ship Respray",
@@ -15245,10 +15245,10 @@
     "category":"Ambience",
     "author":"phkb",
     "license":"CC-BY-NC-SA 4.0",
-    "download_url":"https://wiki.alioth.net/img_auth.php/d/dc/ShipRespray.oxz",
-    "information_url":null,
-    "file_size":20960,
-    "upload_date":1610873486,
+    "download_url":"https://wiki.alioth.net/img_auth.php/b/b3/ShipRespray_1.3.8.oxz",
+    "information_url":"https://wiki.alioth.net/index.php/Ship_Respray_OXP",
+    "file_size":25867,
+    "upload_date":1700192370,
     "tags":[
     ],
     "conflict_oxps":[
@@ -15663,7 +15663,7 @@
   },
   {
     "identifier":"oolite.oxp.phkb.ZGrOovy_VarietyPack",
-    "version":"2.0",
+    "version":"2.1",
     "required_oolite_version":"1.79",
     "maximum_oolite_version":null,
     "title":"Z-GrOovY Variety Pack",
@@ -15671,10 +15671,10 @@
     "category":"Retextures",
     "author":"Dertien, Griff, Amah",
     "license":"CC BY-NC-SA 3.0",
-    "download_url":"https://wiki.alioth.net/img_auth.php/9/95/Z-GrOovY_VarietyPack.oxz",
-    "information_url":null,
-    "file_size":86868101,
-    "upload_date":1610873377,
+    "download_url":"https://wiki.alioth.net/img_auth.php/e/e2/Z-GrOovY_VarietyPack_2.1.oxz",
+    "information_url":"http://aegidian.org/bb/viewtopic.php?f=4&t=19853",
+    "file_size":84473752,
+    "upload_date":1700191581,
     "tags":[
     ],
     "conflict_oxps":[
