@@ -9658,7 +9658,7 @@
   },
   {
     "identifier":"oolite.oxp.Thargoid.Bigships",
-    "version":"1.3",
+    "version":"1.4",
     "required_oolite_version":"1.79",
     "maximum_oolite_version":null,
     "title":"Bigships",
@@ -9666,10 +9666,10 @@
     "category":"Mechanics",
     "author":"Thargoid and Eric Walch",
     "license":"Creative Commons Attribution - Non-Commercial - Share Alike 3.0 license with clauses - see readme file",
-    "download_url":"https://wiki.alioth.net/img_auth.php/9/9b/BigShips_1.3.oxz",
+    "download_url":"https://wiki.alioth.net/img_auth.php/6/61/BigShips_1.4.oxz",
     "information_url":"https://wiki.alioth.net/index.php/BigShips_OXP",
-    "file_size":5814,
-    "upload_date":1697984457,
+    "file_size":5839,
+    "upload_date":1700567159,
     "tags":[
       "ships"
     ],
@@ -17951,7 +17951,7 @@
   },
   {
     "identifier":"oolite.oxp.spara.navigation_mfd",
-    "version":"1.9.1",
+    "version":"1.9.2",
     "required_oolite_version":"1.82",
     "maximum_oolite_version":null,
     "title":"Navigation MFD",
@@ -17959,10 +17959,10 @@
     "category":"HUDs",
     "author":"Mika Spara",
     "license":"CC-BY-NC-SA 4.0",
-    "download_url":"https://wiki.alioth.net/img_auth.php/c/c3/Navigation_MFD_1.9.1.oxz",
+    "download_url":"https://wiki.alioth.net/img_auth.php/9/9a/Navigation_MFD_1.9.2.oxz",
     "information_url":"https://wiki.alioth.net/index.php/Navigation_MFD",
-    "file_size":6439,
-    "upload_date":1697812486,
+    "file_size":6482,
+    "upload_date":1700567193,
     "tags":[
       "mfd"
     ],
