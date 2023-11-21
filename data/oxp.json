@@ -14368,7 +14368,7 @@
   },
   {
     "identifier":"oolite.oxp.phkb.FastTargetSelector",
-    "version":"1.5",
+    "version":"1.6",
     "required_oolite_version":"1.79",
     "maximum_oolite_version":null,
     "title":"Fast Target Selector",
@@ -14376,10 +14376,10 @@
     "category":"Equipment",
     "author":"phkb",
     "license":"CC-BY-NC-SA 4.0",
-    "download_url":"https://wiki.alioth.net/img_auth.php/7/73/FastTargetSelector.oxz",
+    "download_url":"https://wiki.alioth.net/img_auth.php/a/ac/FastTargetSelector_1.6.oxz",
     "information_url":"https://wiki.alioth.net/index.php/Fast_Target_Selector_OXP",
-    "file_size":8321,
-    "upload_date":1697075417,
+    "file_size":8704,
+    "upload_date":1700528439,
     "tags":[
       "equipment",
       "scanner",
