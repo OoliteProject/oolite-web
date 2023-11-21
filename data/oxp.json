@@ -14785,6 +14785,29 @@
     ]
   },
   {
+    "identifier":"oolite.oxp.phkb.LaveInitialShipyard",
+    "version":"1.0",
+    "required_oolite_version":"1.89",
+    "maximum_oolite_version":null,
+    "title":"Lave Initial Shipyard",
+    "description":"Makes sure there is an Adder and Cobra Mk I for sale when starting a new game at Lave.",
+    "category":"Miscellaneous",
+    "author":"phkb",
+    "license":"CC-BY-NC-SA 4.0",
+    "download_url":"https://wiki.alioth.net/img_auth.php/6/62/LaveInitialShipyard.oxz",
+    "information_url":"http://aegidian.org/bb/viewtopic.php?f=3&t=20768&p=273274&hilit=LaveInitialShipyard.oxz#p273274",
+    "file_size":1434,
+    "upload_date":1700601511,
+    "tags":[
+    ],
+    "conflict_oxps":[
+    ],
+    "optional_oxps":[
+    ],
+    "requires_oxps":[
+    ]
+  },
+  {
     "identifier":"oolite.oxp.phkb.LinersMarkets",
     "version":"1.4",
     "required_oolite_version":"1.79",
