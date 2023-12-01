@@ -4757,7 +4757,7 @@
   },
   {
     "identifier":"oolite.oxp.Layne.DockingFees",
-    "version":"2.1",
+    "version":"2.2",
     "required_oolite_version":"1.80",
     "maximum_oolite_version":null,
     "title":"Docking Fees",
@@ -4765,10 +4765,10 @@
     "category":"Ambience",
     "author":"Layne & Eris",
     "license":"CC-BY-NC-SA 4.0",
-    "download_url":"https://wiki.alioth.net/img_auth.php/a/ae/DockingFees.oxz",
-    "information_url":"http://aegidian.org/bb/viewtopic.php?f=6&t=17382",
-    "file_size":16817,
-    "upload_date":1659327373,
+    "download_url":"https://wiki.alioth.net/img_auth.php/5/59/DockingFees_2.2.oxz",
+    "information_url":"https://wiki.alioth.net/index.php/Docking_Fees",
+    "file_size":16836,
+    "upload_date":1701399393,
     "tags":[
     ],
     "conflict_oxps":[
@@ -7166,7 +7166,7 @@
   },
   {
     "identifier":"oolite.oxp.Norby.cag.Telescope",
-    "version":"2.1.3",
+    "version":"2.1.4",
     "required_oolite_version":"1.79",
     "maximum_oolite_version":null,
     "title":"Telescope v2",
@@ -7174,10 +7174,10 @@
     "category":"Equipment",
     "author":"Norby, cag",
     "license":"CC BY-NC-SA 4.0",
-    "download_url":"https://wiki.alioth.net/img_auth.php/b/b5/Telescope_2.1.3.oxz",
+    "download_url":"https://wiki.alioth.net/img_auth.php/d/d2/Telescope_2.1.4.oxz",
     "information_url":"http://wiki.alioth.net/index.php/Telescope",
-    "file_size":245609,
-    "upload_date":1699854805,
+    "file_size":245709,
+    "upload_date":1701399518,
     "tags":[
     ],
     "conflict_oxps":[
@@ -15508,7 +15508,7 @@
   },
   {
     "identifier":"oolite.oxp.phkb.VimanaX_HUD",
-    "version":"1.11",
+    "version":"1.12",
     "required_oolite_version":"1.81",
     "maximum_oolite_version":null,
     "title":"Vimana-X HUD",
@@ -15516,10 +15516,10 @@
     "category":"HUD",
     "author":"Gnievmir, phkb",
     "license":"CC BY-SA 4.0",
-    "download_url":"https://wiki.alioth.net/img_auth.php/0/08/VimanaX_HUD_1.11.oxz",
+    "download_url":"https://wiki.alioth.net/img_auth.php/9/95/VimanaX_HUD_1.12.oxz",
     "information_url":"https://wiki.alioth.net/index.php/Vimana-X_HUD",
-    "file_size":21455045,
-    "upload_date":1700621433,
+    "file_size":21616500,
+    "upload_date":1701399669,
     "tags":[
     ],
     "conflict_oxps":[
