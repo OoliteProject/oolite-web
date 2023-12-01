@@ -14542,7 +14542,7 @@
   },
   {
     "identifier":"oolite.oxp.phkb.GalCopMissions",
-    "version":"0.6.7",
+    "version":"0.6.8",
     "required_oolite_version":"1.84",
     "maximum_oolite_version":null,
     "title":"GalCop Missions",
@@ -14550,10 +14550,10 @@
     "category":"Missions",
     "author":"phkb",
     "license":"CC-BY-NC-SA 4.0",
-    "download_url":"https://wiki.alioth.net/img_auth.php/b/be/GalCopMissions.oxz",
-    "information_url":null,
-    "file_size":4561708,
-    "upload_date":1656887192,
+    "download_url":"https://wiki.alioth.net/img_auth.php/6/6f/GalCopMIssions_0.6.8.oxz",
+    "information_url":"https://wiki.alioth.net/index.php/GalCop_Missions",
+    "file_size":4546617,
+    "upload_date":1701426390,
     "tags":[
     ],
     "conflict_oxps":[
@@ -14595,25 +14595,25 @@
         "identifier":"oolite.oxp.phkb.BulletinBoardSystem",
         "version":"1.9",
         "maximum_version":null,
-        "description":"Depends on BB for offering missions."
+        "description":null
       },
       {
         "identifier":"oolite.oxp.phkb.EmailSystem",
         "version":"1.7.2",
         "maximum_version":null,
-        "description":"Provides another interface through which missions can be offered."
+        "description":null
       },
       {
         "identifier":"oolite.oxp.Svengali.GNN",
         "version":"1.0",
         "maximum_version":null,
-        "description":"Used to randomise mission texts."
+        "description":null
       },
       {
         "identifier":"oolite.oxp.phkb.BroadcastCommsMFD",
         "version":"1.2.3",
         "maximum_version":null,
-        "description":"Depends on Broadcast comms for communication with other ships in space."
+        "description":null
       }
     ]
   },
