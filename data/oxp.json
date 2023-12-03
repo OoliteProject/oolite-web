@@ -14542,7 +14542,7 @@
   },
   {
     "identifier":"oolite.oxp.phkb.GalCopMissions",
-    "version":"0.6.8",
+    "version":"0.6.9",
     "required_oolite_version":"1.84",
     "maximum_oolite_version":null,
     "title":"GalCop Missions",
@@ -14550,10 +14550,10 @@
     "category":"Missions",
     "author":"phkb",
     "license":"CC-BY-NC-SA 4.0",
-    "download_url":"https://wiki.alioth.net/img_auth.php/6/6f/GalCopMIssions_0.6.8.oxz",
+    "download_url":"https://wiki.alioth.net/img_auth.php/1/1c/GalCopMissions_0.6.9.oxz",
     "information_url":"https://wiki.alioth.net/index.php/GalCop_Missions",
-    "file_size":4546617,
-    "upload_date":1701426390,
+    "file_size":4546755,
+    "upload_date":1701572005,
     "tags":[
     ],
     "conflict_oxps":[
