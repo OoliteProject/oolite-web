@@ -7615,35 +7615,6 @@
     ]
   },
   {
-    "identifier":"oolite.oxp.Ramirez.ExecutiveSpaceWays",
-    "version":"2.4.4",
-    "required_oolite_version":"1.79",
-    "maximum_oolite_version":null,
-    "title":"Executive SpaceWays",
-    "description":"Adds Delta/Gemini Escorts, Starseeker/Trident Executive Shuttles and Strelka Cruise Liners for the Trident Down Mission pack.",
-    "category":"Ships",
-    "author":"Ramirez",
-    "license":"CC-BY-NC-SA 3.0",
-    "download_url":"https://wiki.alioth.net/img_auth.php/d/d6/Executive_Spaceways_2.4.4.oxz",
-    "information_url":"http://wiki.alioth.net/index.php/Executive_SpaceWays",
-    "file_size":2310651,
-    "upload_date":1610873480,
-    "tags":[
-    ],
-    "conflict_oxps":[
-    ],
-    "optional_oxps":[
-      {
-        "identifier":"oolite.oxp.Ramirez.TridentDown",
-        "version":"2.5.2",
-        "maximum_version":null,
-        "description":null
-      }
-    ],
-    "requires_oxps":[
-    ]
-  },
-  {
     "identifier":"oolite.oxp.Ramirez.FeudalStates",
     "version":"1.16.3",
     "required_oolite_version":"1.79",
@@ -20934,6 +20905,115 @@
       },
       {
         "identifier":"oolite.oxp.z.phkb.XenonUIResourcesL",
+        "version":null,
+        "maximum_version":null,
+        "description":"Only one Xenon UI Resources pack is required."
+      },
+      {
+        "identifier":"oolite.oxp.z.phkb.XenonUIResourcesM",
+        "version":null,
+        "maximum_version":null,
+        "description":"Only one Xenon UI Resources pack is required."
+      },
+      {
+        "identifier":"oolite.oxp.z.phkb.XenonUIResourcesN",
+        "version":null,
+        "maximum_version":null,
+        "description":"Only one Xenon UI Resources pack is required."
+      }
+    ],
+    "optional_oxps":[
+    ],
+    "requires_oxps":[
+      {
+        "identifier":"oolite.oxp.z.phkb.XenonUI",
+        "version":"1.2.0",
+        "maximum_version":null,
+        "description":"Requires the main Xenon UI OXP."
+      }
+    ]
+  },
+  {
+    "identifier":"oolite.oxp.z.phkb.XenonUIResourcesL",
+    "version":"2.0",
+    "required_oolite_version":"1.80",
+    "maximum_oolite_version":null,
+    "title":"Xenon UI Resources Pack L (16:10)",
+    "description":"Background image resources (16:10 format) for the Xenon UI OXP, using 'Discognate' font.",
+    "category":"Ambience",
+    "author":"phkb",
+    "license":"CC-BY-NC-SA 4.0",
+    "download_url":"https://wiki.alioth.net/img_auth.php/0/0a/XenonUIResourcesL.oxz",
+    "information_url":null,
+    "file_size":8363863,
+    "upload_date":1610873223,
+    "tags":[
+      "Balance=green",
+      "Backgrounds"
+    ],
+    "conflict_oxps":[
+      {
+        "identifier":"oolite.oxp.z.phkb.XenonUIResources",
+        "version":null,
+        "maximum_version":null,
+        "description":"Only one Xenon UI Resources pack is required."
+      },
+      {
+        "identifier":"oolite.oxp.z.phkb.XenonUIResourcesB",
+        "version":null,
+        "maximum_version":null,
+        "description":"Only one Xenon UI Resources pack is required."
+      },
+      {
+        "identifier":"oolite.oxp.z.phkb.XenonUIResourcesC",
+        "version":null,
+        "maximum_version":null,
+        "description":"Only one Xenon UI Resources pack is required."
+      },
+      {
+        "identifier":"oolite.oxp.z.phkb.XenonUIResourcesD",
+        "version":null,
+        "maximum_version":null,
+        "description":"Only one Xenon UI Resources pack is required."
+      },
+      {
+        "identifier":"oolite.oxp.z.phkb.XenonUIResourcesE",
+        "version":null,
+        "maximum_version":null,
+        "description":"Only one Xenon UI Resources pack is required."
+      },
+      {
+        "identifier":"oolite.oxp.z.phkb.XenonUIResourcesF",
+        "version":null,
+        "maximum_version":null,
+        "description":"Only one Xenon UI Resources pack is required."
+      },
+      {
+        "identifier":"oolite.oxp.z.phkb.XenonUIResourcesG",
+        "version":null,
+        "maximum_version":null,
+        "description":"Only one Xenon UI Resources pack is required."
+      },
+      {
+        "identifier":"oolite.oxp.z.phkb.XenonUIResourcesH",
+        "version":null,
+        "maximum_version":null,
+        "description":"Only one Xenon UI Resources pack is required."
+      },
+      {
+        "identifier":"oolite.oxp.z.phkb.XenonUIResourcesI",
+        "version":null,
+        "maximum_version":null,
+        "description":"Only one Xenon UI Resources pack is required."
+      },
+      {
+        "identifier":"oolite.oxp.z.phkb.XenonUIResourcesJ",
+        "version":null,
+        "maximum_version":null,
+        "description":"Only one Xenon UI Resources pack is required."
+      },
+      {
+        "identifier":"oolite.oxp.z.phkb.XenonUIResourcesK",
         "version":null,
         "maximum_version":null,
         "description":"Only one Xenon UI Resources pack is required."
