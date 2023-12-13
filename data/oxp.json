@@ -2451,7 +2451,7 @@
   },
   {
     "identifier":"oolite.oxp.Diagoras.MiningContracts",
-    "version":"1.12",
+    "version":"1.13",
     "required_oolite_version":"1.82",
     "maximum_oolite_version":null,
     "title":"Mining Contracts",
@@ -2459,10 +2459,10 @@
     "category":"Activities",
     "author":"Diagoras",
     "license":"Ms-PL",
-    "download_url":"https://wiki.alioth.net/img_auth.php/1/1e/MiningContracts_1.12.oxz",
+    "download_url":"https://wiki.alioth.net/img_auth.php/7/73/MiningContracts_1.13.oxz",
     "information_url":"http://wiki.alioth.net/index.php/Mining_Contracts_OXP",
-    "file_size":8686,
-    "upload_date":1610873244,
+    "file_size":8428,
+    "upload_date":1702430333,
     "tags":[
     ],
     "conflict_oxps":[
@@ -7612,6 +7612,35 @@
         "maximum_version":null,
         "description":null
       }
+    ]
+  },
+  {
+    "identifier":"oolite.oxp.Ramirez.ExecutiveSpaceWays",
+    "version":"2.4.4",
+    "required_oolite_version":"1.79",
+    "maximum_oolite_version":null,
+    "title":"Executive SpaceWays",
+    "description":"Adds Delta/Gemini Escorts, Starseeker/Trident Executive Shuttles and Strelka Cruise Liners for the Trident Down Mission pack.",
+    "category":"Ships",
+    "author":"Ramirez",
+    "license":"CC-BY-NC-SA 3.0",
+    "download_url":"https://wiki.alioth.net/img_auth.php/d/d6/Executive_Spaceways_2.4.4.oxz",
+    "information_url":"http://wiki.alioth.net/index.php/Executive_SpaceWays",
+    "file_size":2310651,
+    "upload_date":1610873480,
+    "tags":[
+    ],
+    "conflict_oxps":[
+    ],
+    "optional_oxps":[
+      {
+        "identifier":"oolite.oxp.Ramirez.TridentDown",
+        "version":"2.5.2",
+        "maximum_version":null,
+        "description":null
+      }
+    ],
+    "requires_oxps":[
     ]
   },
   {
