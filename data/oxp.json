@@ -1293,6 +1293,35 @@
     ]
   },
   {
+    "identifier":"oolite.oxp.BeeTLeBeTHLeHeM.LifeInTheFrontier",
+    "version":"0.7.3",
+    "required_oolite_version":"1.79",
+    "maximum_oolite_version":null,
+    "title":"Life In The Frontier",
+    "description":"Roleplaying environment on space stations: go for a walk and get a casual event, that could bring an advantage or a risk, a reward or a trouble.",
+    "category":"Activities",
+    "author":"BeeTLe BeTHLeHeM, Norby",
+    "license":"CC BY-NC-SA 4",
+    "download_url":"https://wiki.alioth.net/img_auth.php/8/89/Life_In_The_Frontier_0.7.3.oxz",
+    "information_url":"http://wiki.alioth.net/index.php/Life_in_the_Frontier",
+    "file_size":6656938,
+    "upload_date":1610873355,
+    "tags":[
+    ],
+    "conflict_oxps":[
+    ],
+    "optional_oxps":[
+      {
+        "identifier":"oolite.oxp.Norby.HDBG",
+        "version":null,
+        "maximum_version":null,
+        "description":"HD Backgrounds"
+      }
+    ],
+    "requires_oxps":[
+    ]
+  },
+  {
     "identifier":"oolite.oxp.ByronArn.AutoRefuel",
     "version":"1.0",
     "required_oolite_version":"1.80",
@@ -2121,6 +2150,29 @@
     "information_url":"http://wiki.alioth.net/index.php/Fireworks_OXP",
     "file_size":222964,
     "upload_date":1610873262,
+    "tags":[
+    ],
+    "conflict_oxps":[
+    ],
+    "optional_oxps":[
+    ],
+    "requires_oxps":[
+    ]
+  },
+  {
+    "identifier":"oolite.oxp.Commander_McLane.FlyingDutchman",
+    "version":"1.7",
+    "required_oolite_version":"1.79",
+    "maximum_oolite_version":null,
+    "title":"Flying Dutchman",
+    "description":"This OXP introduces the small possibility to encounter a ghost ship.",
+    "category":"Missions",
+    "author":"Commander McLane",
+    "license":"CC-BY-NC-SA 3.0",
+    "download_url":"https://wiki.alioth.net/img_auth.php/7/7c/FlyingDutchman-1.7.oxz",
+    "information_url":"http://wiki.alioth.net/index.php/Flying_Dutchman_OXP",
+    "file_size":28084,
+    "upload_date":1610873343,
     "tags":[
     ],
     "conflict_oxps":[
@@ -3935,6 +3987,41 @@
     ]
   },
   {
+    "identifier":"oolite.oxp.Griff.Mamba_alt_texture",
+    "version":"1.04.4",
+    "required_oolite_version":"1.80",
+    "maximum_oolite_version":null,
+    "title":"Griff Mamba Alternative",
+    "description":"Mamba, alternative texture version. Requires a video card capable of supporting Oolite Shaders. Note - this OXP suppresses the spawning of the Default Oolite Mamba, replacing it with the version in this oxp",
+    "category":"Retextures",
+    "author":"Griff",
+    "license":"CC-BY-NC-SA 4.0",
+    "download_url":"https://wiki.alioth.net/img_auth.php/e/e6/Oolite.oxp.Griff.Mamba_alt_texture.oxz",
+    "information_url":"http://wiki.alioth.net/index.php/Griff_Industries",
+    "file_size":2067122,
+    "upload_date":1610873499,
+    "tags":[
+    ],
+    "conflict_oxps":[
+    ],
+    "optional_oxps":[
+    ],
+    "requires_oxps":[
+      {
+        "identifier":"oolite.oxp.Griff.Griff_shipset_decals",
+        "version":"1.0",
+        "maximum_version":null,
+        "description":"Griff_shipset_decals"
+      },
+      {
+        "identifier":"oolite.oxp.Griff_alloys_and_wreckage",
+        "version":"1.0",
+        "maximum_version":null,
+        "description":"Griff Alloys and Wreckage"
+      }
+    ]
+  },
+  {
     "identifier":"oolite.oxp.Griff.Missiles",
     "version":"1.02.1",
     "required_oolite_version":"1.80",
@@ -5667,6 +5754,121 @@
         "version":null,
         "maximum_version":null,
         "description":"HD Backgrounds Image Pack A"
+      }
+    ]
+  },
+  {
+    "identifier":"oolite.oxp.Norby.Ambiences_recommended_by_Norby",
+    "version":"1.6",
+    "required_oolite_version":"1.79",
+    "maximum_oolite_version":null,
+    "title":"Ambiences recommended by Norby",
+    "description":"For at least Competent commanders this collection install many packs at once for better look and feel. Press 'i' to see the full list. Beginners should use the 'Ambience Collection' only. You can remove packages not in your taste after installation.\n\nInstall: Additional Planets, Ambience Collection, Docking Fees, Escort Formations, Headlights, MFD - BroadcastComms, Planetary Compass, Realistic Stars, Start Choices.",
+    "category":"Ambience",
+    "author":"Norby",
+    "license":"CC-BY-NC-SA 4.0",
+    "download_url":"https://wiki.alioth.net/img_auth.php/7/7e/Ambiences_recommended_by_Norby.oxz",
+    "information_url":"http://wiki.alioth.net/index.php/User:Norby#Ambiences_recommended_by_Norby",
+    "file_size":1137,
+    "upload_date":1610873345,
+    "tags":[
+      "safe",
+      "collection"
+    ],
+    "conflict_oxps":[
+    ],
+    "optional_oxps":[
+    ],
+    "requires_oxps":[
+      {
+        "identifier":"oolite.oxp.spara.additional_planets_sr_base",
+        "version":null,
+        "maximum_version":null,
+        "description":"Additional Planets SR Base"
+      },
+      {
+        "identifier":"oolite.oxp.spara.additional_planets_sr_pack_redux",
+        "version":null,
+        "maximum_version":null,
+        "description":"Additional Planets Redux Pack"
+      },
+      {
+        "identifier":"oolite.oxp.redspear.additional_planets_sr_others_gas_giants",
+        "version":null,
+        "maximum_version":null,
+        "description":"Additional Planets SR Others Gas Giants pack"
+      },
+      {
+        "identifier":"oolite.oxp.Norby.Ambience_Collection",
+        "version":null,
+        "maximum_version":null,
+        "description":"Ambience Collection"
+      },
+      {
+        "identifier":"oolite.oxp.Layne.DockingFees",
+        "version":null,
+        "maximum_version":null,
+        "description":"Docking Fees"
+      },
+      {
+        "identifier":"oolite.oxp.cim.escort-formations",
+        "version":null,
+        "maximum_version":null,
+        "description":"Escort Formations"
+      },
+      {
+        "identifier":"oolite.oxp.Norby.Headlights",
+        "version":null,
+        "maximum_version":null,
+        "description":"Headlights"
+      },
+      {
+        "identifier":"oolite.oxp.Thargoid.PlanetaryCompass",
+        "version":null,
+        "maximum_version":null,
+        "description":"Planetary Compass"
+      },
+      {
+        "identifier":"oolite.oxp.Thargoid.PlanetaryCompassPackA",
+        "version":null,
+        "maximum_version":null,
+        "description":"Planetary Compass Name Pack A"
+      },
+      {
+        "identifier":"oolite.oxp.Thargoid.PlanetaryCompassPackB",
+        "version":null,
+        "maximum_version":null,
+        "description":"Planetary Compass Name Pack B"
+      },
+      {
+        "identifier":"oolite.oxp.Thargoid.PlanetaryCompassPackC",
+        "version":null,
+        "maximum_version":null,
+        "description":"Planetary Compass Name Pack C"
+      },
+      {
+        "identifier":"oolite.oxp.Thargoid.PlanetaryCompassPackD",
+        "version":null,
+        "maximum_version":null,
+        "description":"Planetary Compass Name Pack D"
+      },
+      {
+        "identifier":"oolite.oxp.Knotty.RealisticStars",
+        "version":null,
+        "maximum_version":null,
+        "description":"Realistic Stars"
+      },
+      {
+        "identifier":"oolite.oxp.spara.start_choices",
+        "version":null,
+        "maximum_version":null,
+        "description":"Start Choices"
+      },
+      {
+        "identifier":"oolite.oxp.phkb.BroadcastCommsMFD",
+        "version":null,
+        "maximum_version":null,
+        "description":"MFD - Broadcast Comms"
       }
     ]
   },
@@ -7494,6 +7696,47 @@
     ]
   },
   {
+    "identifier":"oolite.oxp.Ramirez.IronRaven",
+    "version":"1.4.2.1",
+    "required_oolite_version":"1.82",
+    "maximum_oolite_version":null,
+    "title":"Iron Raven",
+    "description":"A multi-stage mission to investigate a dangerous conspiracy on behalf of GalCop High Command in Galaxy 8.",
+    "category":"Missions",
+    "author":"Ramirez, updated by Milo",
+    "license":"CC BY-NC-SA 3",
+    "download_url":"https://wiki.alioth.net/img_auth.php/5/5f/Oolite.oxp.Ramirez.IronRaven.oxz",
+    "information_url":"http://wiki.alioth.net/index.php/Iron_Raven",
+    "file_size":10323602,
+    "upload_date":1610873314,
+    "tags":[
+    ],
+    "conflict_oxps":[
+    ],
+    "optional_oxps":[
+    ],
+    "requires_oxps":[
+      {
+        "identifier":"oolite.oxp.DrNil.Commies",
+        "version":"2.11",
+        "maximum_version":null,
+        "description":null
+      },
+      {
+        "identifier":"oolite.oxp.ArexackHeretic.att1",
+        "version":"1.0",
+        "maximum_version":null,
+        "description":null
+      },
+      {
+        "identifier":"oolite.oxp.Murgh.NuVipers",
+        "version":"1.0",
+        "maximum_version":null,
+        "description":null
+      }
+    ]
+  },
+  {
     "identifier":"oolite.oxp.Ramirez.MissilesandBombs",
     "version":"2.8",
     "required_oolite_version":"1.79",
@@ -7566,6 +7809,47 @@
     "optional_oxps":[
     ],
     "requires_oxps":[
+    ]
+  },
+  {
+    "identifier":"oolite.oxp.Ramirez.TridentDown",
+    "version":"2.5.2",
+    "required_oolite_version":"1.79",
+    "maximum_oolite_version":null,
+    "title":"Trident Down",
+    "description":"Contains a series of Galaxy 4 missions investigating a vicious attack on a Trident Shuttle. Depends on Commies, Executive Spaceways and Saleza Aeronautics.",
+    "category":"Missions",
+    "author":"Ramirez",
+    "license":"CC BY-NC-SA 3",
+    "download_url":"https://wiki.alioth.net/img_auth.php/8/85/Trident_Down_2.5.2.oxz",
+    "information_url":"http://wiki.alioth.net/index.php/Trident_Down",
+    "file_size":7474337,
+    "upload_date":1610873352,
+    "tags":[
+    ],
+    "conflict_oxps":[
+    ],
+    "optional_oxps":[
+    ],
+    "requires_oxps":[
+      {
+        "identifier":"oolite.oxp.DrNil.Commies",
+        "version":"2.11",
+        "maximum_version":null,
+        "description":null
+      },
+      {
+        "identifier":"oolite.oxp.Ramirez.ExecutiveSpaceWays",
+        "version":"2.4",
+        "maximum_version":null,
+        "description":null
+      },
+      {
+        "identifier":"oolite.oxp.Ramirez.SalezaAeronautics",
+        "version":"2.3",
+        "maximum_version":null,
+        "description":null
+      }
     ]
   },
   {
@@ -8077,6 +8361,35 @@
     ]
   },
   {
+    "identifier":"oolite.oxp.Rustem.Sniper_Gun_rebalancer",
+    "version":"1.3.11",
+    "required_oolite_version":"1.82",
+    "maximum_oolite_version":null,
+    "title":"Sniper Gun Rebalancer",
+    "description":"Reduced a weight of roles NPC-ships from Sniper Gun OXP to 5 times lower(20% from basic), but will added ships with sniper gun from other ship OXPs. Also it's setup the lower size of sniper guns, names of ships will not contain the words 'SG'.",
+    "category":"Ships",
+    "author":"Rustem&Norby",
+    "license":"CC-BY-NC-SA 4.0",
+    "download_url":"https://wiki.alioth.net/img_auth.php/8/86/Sniper_Gun_rebalancer.oxz",
+    "information_url":"http://wiki.alioth.net/index.php/Sniper_Gun",
+    "file_size":62246,
+    "upload_date":1610873352,
+    "tags":[
+    ],
+    "conflict_oxps":[
+    ],
+    "optional_oxps":[
+    ],
+    "requires_oxps":[
+      {
+        "identifier":"oolite.oxp.Norby.Sniper_Gun",
+        "version":null,
+        "maximum_version":null,
+        "description":null
+      }
+    ]
+  },
+  {
     "identifier":"oolite.oxp.Rxke.BlackBaron",
     "version":"2.0",
     "required_oolite_version":"1.80",
@@ -8190,6 +8503,31 @@
     "tags":[
       "MFD",
       "HUDS"
+    ],
+    "conflict_oxps":[
+    ],
+    "optional_oxps":[
+    ],
+    "requires_oxps":[
+    ]
+  },
+  {
+    "identifier":"oolite.oxp.SMax.PlanetFallMarketSaver",
+    "version":"0.1",
+    "required_oolite_version":"1.82",
+    "maximum_oolite_version":null,
+    "title":"PlanetFallMarketSaver",
+    "description":"Save market in PlanetFall stations",
+    "category":"Mechanics",
+    "author":"SMax",
+    "license":"CC-BY-NC-SA 4.0",
+    "download_url":"https://wiki.alioth.net/img_auth.php/6/68/PlanetFallMarketSaver_0.1.oxz",
+    "information_url":null,
+    "file_size":1952,
+    "upload_date":1610873324,
+    "tags":[
+      "PlanetFall",
+      "Market"
     ],
     "conflict_oxps":[
     ],
@@ -9932,6 +10270,30 @@
     ]
   },
   {
+    "identifier":"oolite.oxp.Thargoid.Planetfall-OoHaul",
+    "version":"1.11",
+    "required_oolite_version":"1.79",
+    "maximum_oolite_version":null,
+    "title":"Planetfall Mission - OoHaul",
+    "description":"Add-On to Planetfall to give OoHaul locations and escort mission.",
+    "category":"Missions",
+    "author":"Thargoid",
+    "license":"Creative Commons Attribution - Non-Commercial - Share Alike 3.0 license with clauses - see readme file",
+    "download_url":"https://wiki.alioth.net/img_auth.php/b/bf/PlanetFall_Mission_-_Oo-Haul_1.11.oxz",
+    "information_url":"http://wiki.alioth.net/index.php/Planetfall_OXP#AddOns",
+    "file_size":413412,
+    "upload_date":1610873458,
+    "tags":[
+      "mission"
+    ],
+    "conflict_oxps":[
+    ],
+    "optional_oxps":[
+    ],
+    "requires_oxps":[
+    ]
+  },
+  {
     "identifier":"oolite.oxp.Thargoid.Pods",
     "version":"1.48",
     "required_oolite_version":"1.79",
@@ -10020,6 +10382,31 @@
     "upload_date":1610873241,
     "tags":[
       "equipment"
+    ],
+    "conflict_oxps":[
+    ],
+    "optional_oxps":[
+    ],
+    "requires_oxps":[
+    ]
+  },
+  {
+    "identifier":"oolite.oxp.Thargoid.RingRacer",
+    "version":"1.21",
+    "required_oolite_version":"1.79",
+    "maximum_oolite_version":null,
+    "title":"Ring Racer",
+    "description":"Corporate Systems Ring Racer league in Galaxy 1.",
+    "category":"Activities",
+    "author":"Thargoid",
+    "license":"Creative Commons Attribution - Non-Commercial - Share Alike 3.0 license with clauses - see readme file",
+    "download_url":"https://wiki.alioth.net/img_auth.php/c/ce/Ring_Racer_1.21.oxz",
+    "information_url":"http://wiki.alioth.net/index.php/Ring_Racer_OXP",
+    "file_size":61318,
+    "upload_date":1610873475,
+    "tags":[
+      "activities",
+      "system"
     ],
     "conflict_oxps":[
     ],
@@ -14302,7 +14689,7 @@
   },
   {
     "identifier":"oolite.oxp.phkb.GalacticRegistry",
-    "version":"5.5",
+    "version":"5.6",
     "required_oolite_version":"1.79",
     "maximum_oolite_version":null,
     "title":"Galactic Registry",
@@ -14310,10 +14697,10 @@
     "category":"Ambience",
     "author":"phkb",
     "license":"CC-BY-NC-SA 3.0",
-    "download_url":"https://wiki.alioth.net/img_auth.php/a/a8/GalCopGalacticRegistry_5.5.oxz",
+    "download_url":"https://wiki.alioth.net/img_auth.php/a/a0/GalCopGalacticRegistry_5.6.oxz",
     "information_url":"http://wiki.alioth.net/index.php/GalCop_Galactic_Registry",
-    "file_size":31805,
-    "upload_date":1702648999,
+    "file_size":31868,
+    "upload_date":1702955259,
     "tags":[
     ],
     "conflict_oxps":[
@@ -14805,6 +15192,89 @@
     ]
   },
   {
+    "identifier":"oolite.oxp.phkb.ShipConfiguration",
+    "version":"1.4.2",
+    "required_oolite_version":"1.90",
+    "maximum_oolite_version":null,
+    "title":"Ship Configuration",
+    "description":"Gives all equipment space and weight, and allows ships to be configuration into different roles.",
+    "category":"Mechanics",
+    "author":"phkb",
+    "license":"CC-BY-NC-SA 3.0",
+    "download_url":"https://wiki.alioth.net/img_auth.php/8/81/ShipConfiguration.oxz",
+    "information_url":null,
+    "file_size":835193,
+    "upload_date":1691986945,
+    "tags":[
+    ],
+    "conflict_oxps":[
+      {
+        "identifier":"oolite.oxp.CaptMurphy.BreakableEnergyUnit",
+        "version":null,
+        "maximum_version":null,
+        "description":"Similar functionality."
+      },
+      {
+        "identifier":"oolite.oxp.CaptMurphy.BreakableWitchDrive",
+        "version":null,
+        "maximum_version":null,
+        "description":"Similar functionality."
+      },
+      {
+        "identifier":"oolite.oxp.CaptMurphy.BreakableShieldGenerators",
+        "version":null,
+        "maximum_version":null,
+        "description":"Similar functionality."
+      },
+      {
+        "identifier":"oolite.oxp.CaptMurphy.BreakableEngines",
+        "version":null,
+        "maximum_version":null,
+        "description":"Similar functionality."
+      },
+      {
+        "identifier":"oolite.oxp.redspear.equipment_by_ship_class",
+        "version":null,
+        "maximum_version":null,
+        "description":"Conflicting functionality."
+      },
+      {
+        "identifier":"oolite.oxp.redspear.masslock_compensator",
+        "version":null,
+        "maximum_version":null,
+        "description":null
+      },
+      {
+        "identifier":"oolite.oxp.redspear.power_to_engines",
+        "version":null,
+        "maximum_version":null,
+        "description":null
+      },
+      {
+        "identifier":"oolite.oxp.stranger.HardWay",
+        "version":null,
+        "maximum_version":null,
+        "description":null
+      }
+    ],
+    "optional_oxps":[
+      {
+        "identifier":"oolite.oxp.CaptMurphy.BreakableTorusDrive",
+        "version":null,
+        "maximum_version":null,
+        "description":"Makes a default part of the ship into an entity on it's own."
+      }
+    ],
+    "requires_oxps":[
+      {
+        "identifier":"oolite.oxp.phkb.EquipmentStorage",
+        "version":null,
+        "maximum_version":null,
+        "description":null
+      }
+    ]
+  },
+  {
     "identifier":"oolite.oxp.phkb.ShipRepurchase",
     "version":"0.6.2",
     "required_oolite_version":"1.89",
@@ -14864,7 +15334,7 @@
   },
   {
     "identifier":"oolite.oxp.phkb.Smugglers_TGU",
-    "version":"2.1.1",
+    "version":"2.2",
     "required_oolite_version":"1.82",
     "maximum_oolite_version":null,
     "title":"Smugglers - The Galactic Underworld",
@@ -14872,10 +15342,10 @@
     "category":"Mechanics",
     "author":"phkb",
     "license":"CC-BY-NC-SA 3.0",
-    "download_url":"https://wiki.alioth.net/img_auth.php/1/16/Smugglers_2.1.1.oxz",
+    "download_url":"https://wiki.alioth.net/img_auth.php/2/2c/Smugglers_2.2.oxz",
     "information_url":"https://wiki.alioth.net/index.php/Smugglers_-_The_Galactic_Underworld",
-    "file_size":138595,
-    "upload_date":1697246126,
+    "file_size":139089,
+    "upload_date":1702955309,
     "tags":[
     ],
     "conflict_oxps":[
@@ -16464,6 +16934,29 @@
     ]
   },
   {
+    "identifier":"oolite.oxp.smivs.GalDrivePod",
+    "version":"1.4",
+    "required_oolite_version":"1.80",
+    "maximum_oolite_version":null,
+    "title":"GalDrivePod",
+    "description":"A pylon-mounted portable Galactic Hyperdrive unit. This OXP allows for Galactic Jumps into 'un-reachable' systems that would normally be inaccessible. This will only be possible when you have a GalDrivePod installed.",
+    "category":"Equipment",
+    "author":"Smivs",
+    "license":"CC-BY-NC-SA 3.0",
+    "download_url":"https://wiki.alioth.net/img_auth.php/c/c3/GalDrivePod_v1.4.oxz",
+    "information_url":"http://wiki.alioth.net/index.php/GalDrivePod",
+    "file_size":5538,
+    "upload_date":1610873460,
+    "tags":[
+    ],
+    "conflict_oxps":[
+    ],
+    "optional_oxps":[
+    ],
+    "requires_oxps":[
+    ]
+  },
+  {
     "identifier":"oolite.oxp.smivs.GiantSpacePizza",
     "version":"3.1",
     "required_oolite_version":"1.80",
@@ -17912,6 +18405,29 @@
     "upload_date":1610873480,
     "tags":[
       "mechanics"
+    ],
+    "conflict_oxps":[
+    ],
+    "optional_oxps":[
+    ],
+    "requires_oxps":[
+    ]
+  },
+  {
+    "identifier":"oolite.oxp.spara.yah_gem_casino",
+    "version":"1.0.1",
+    "required_oolite_version":"1.84",
+    "maximum_oolite_version":null,
+    "title":"Your Ad Here Gem Casino",
+    "description":"Adds casino games using gems as credits to the constores.",
+    "category":"Activities",
+    "author":"spara, CaptSolo",
+    "license":"Creative Commons Attribution - Non-Commercial - Share Alike 4.0 license",
+    "download_url":"https://wiki.alioth.net/img_auth.php/5/5c/Yah_gem_casino_1.0.1.oxz",
+    "information_url":"http://wiki.alioth.net/index.php/Your_Ad_Here!",
+    "file_size":3462587,
+    "upload_date":1610873306,
+    "tags":[
     ],
     "conflict_oxps":[
     ],
