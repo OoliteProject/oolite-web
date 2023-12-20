@@ -18524,6 +18524,57 @@ Both are player-buyable, and will appear as NPCs from time to time.";
     );
 
   },   {
+    "identifier" = "oolite.oxp.stranger.EnergyRebalance";
+    "version" = "0.3.0";
+    "title" = "Energy Rebalance";
+    "required_oolite_version" = "1.80";
+    "maximum_oolite_version" = "";
+    "description" = "This OXP rebalances energy between shields and energy banks. If forward/aft shield level dropped below 25% of max capacity, energy from banks is transferred onto shield in question, preventing damage of equipment and cargo. If energy level drops below critical 32 unit level, energy transfer switches back from remaining shields to energy bank.";
+    "category" = "Mechanics";
+    "author" = "stranger";
+    "license" = "CC-BY-NC-SA 3.0";
+    "download_url" = "https://wiki.alioth.net/img_auth.php/d/d6/EnergyRebalance.oxz";
+    "information_url" = "http://aegidian.org/bb/viewtopic.php?f=4&t=19567";
+    "file_size" = 3402;
+    "tags" = ("shields", "energy", "damage");
+    "upload_date" = 1703108124;
+    "requires_oxps" = (
+        {
+          "identifier" = "oolite.oxp.CaptMurphy.BreakableEnergyUnit";
+          "version" = "1.1";
+        },
+        {
+          "identifier" = "oolite.oxp.CaptMurphy.BreakableShieldGenerators";
+          "version" = "1.2";
+        }
+    );
+    "optional_oxps" = (
+
+    );
+    "conflict_oxps" = (
+        {
+          "identifier" = "oolite.oxp.Lone_Wolf.ShieldCycler";
+          "version" = "0";
+          "description" = "Conflicting functionality";
+        },
+        {
+          "identifier" = "oolite.oxp.Lone_Wolf.ShieldCyclerNext";
+          "version" = "0";
+          "description" = "Conflicting functionality";
+        },
+        {
+          "identifier" = "oolite.oxp.CommonSenseOTB.ShieldEqualizer+Capacitors";
+          "version" = "0";
+          "description" = "Conflicting functionality";
+        },
+        {
+          "identifier" = "oolite.oxp.phkb.ShipConfiguration";
+          "version" = "0";
+          "description" = "Conflicting functionality";
+        }
+    );
+
+  },   {
     "identifier" = "oolite.oxp.stranger.EnergyRebalance_SCC";
     "version" = "0.2.0";
     "title" = "Energy Rebalance SCC";
