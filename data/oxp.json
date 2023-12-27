@@ -19827,7 +19827,7 @@
   },
   {
     "identifier":"oolite.oxp.z.phkb.XenonUI",
-    "version":"3.6.1",
+    "version":"3.7",
     "required_oolite_version":"1.80",
     "maximum_oolite_version":null,
     "title":"Xenon UI",
@@ -19837,8 +19837,8 @@
     "license":"CC-BY-NC-SA 3.0",
     "download_url":"https://wiki.alioth.net/img_auth.php/0/0b/XenonUI.oxz",
     "information_url":"http://wiki.alioth.net/index.php/XenonUI",
-    "file_size":6923119,
-    "upload_date":1694839333,
+    "file_size":6923184,
+    "upload_date":1703677530,
     "tags":[
     ],
     "conflict_oxps":[
@@ -19850,7 +19850,7 @@
   },
   {
     "identifier":"oolite.oxp.z.phkb.XenonUIResources",
-    "version":"2.0",
+    "version":"2.1",
     "required_oolite_version":"1.80",
     "maximum_oolite_version":null,
     "title":"Xenon UI Resources Pack A (16:9)",
@@ -19858,10 +19858,10 @@
     "category":"Ambience",
     "author":"phkb",
     "license":"CC-BY-NC-SA 4.0",
-    "download_url":"https://wiki.alioth.net/img_auth.php/8/83/XenonUIResources.oxz",
-    "information_url":null,
-    "file_size":10448105,
-    "upload_date":1610873351,
+    "download_url":"https://wiki.alioth.net/img_auth.php/3/34/XenonUIResourcesA.oxz",
+    "information_url":"http://wiki.alioth.net/index.php/XenonUI",
+    "file_size":10513413,
+    "upload_date":1703677509,
     "tags":[
       "Balance=green",
       "Backgrounds"
@@ -19959,7 +19959,7 @@
   },
   {
     "identifier":"oolite.oxp.z.phkb.XenonUIResourcesB",
-    "version":"2.0",
+    "version":"2.1",
     "required_oolite_version":"1.80",
     "maximum_oolite_version":null,
     "title":"Xenon UI Resources Pack B (16:10)",
@@ -19968,9 +19968,9 @@
     "author":"phkb",
     "license":"CC-BY-NC-SA 4.0",
     "download_url":"https://wiki.alioth.net/img_auth.php/b/bc/XenonUIResourcesB.oxz",
-    "information_url":null,
-    "file_size":9829485,
-    "upload_date":1610873455,
+    "information_url":"http://wiki.alioth.net/index.php/XenonUI",
+    "file_size":9893187,
+    "upload_date":1703677485,
     "tags":[
       "Balance=green",
       "Backgrounds"
@@ -20068,7 +20068,7 @@
   },
   {
     "identifier":"oolite.oxp.z.phkb.XenonUIResourcesC",
-    "version":"2.0",
+    "version":"2.1",
     "required_oolite_version":"1.80",
     "maximum_oolite_version":null,
     "title":"Xenon UI Resources Pack C (16:9)",
@@ -20077,9 +20077,9 @@
     "author":"phkb",
     "license":"CC-BY-NC-SA 4.0",
     "download_url":"https://wiki.alioth.net/img_auth.php/4/46/XenonUIResourcesC.oxz",
-    "information_url":null,
-    "file_size":8445348,
-    "upload_date":1610873288,
+    "information_url":"http://wiki.alioth.net/index.php/XenonUI",
+    "file_size":8502278,
+    "upload_date":1703677462,
     "tags":[
       "Balance=green",
       "Backgrounds"
@@ -20177,7 +20177,7 @@
   },
   {
     "identifier":"oolite.oxp.z.phkb.XenonUIResourcesD",
-    "version":"2.0",
+    "version":"2.1",
     "required_oolite_version":"1.80",
     "maximum_oolite_version":null,
     "title":"Xenon UI Resources Pack D (16:10)",
@@ -20186,9 +20186,9 @@
     "author":"phkb",
     "license":"CC-BY-NC-SA 4.0",
     "download_url":"https://wiki.alioth.net/img_auth.php/d/df/XenonUIResourcesD.oxz",
-    "information_url":null,
-    "file_size":8202214,
-    "upload_date":1610873489,
+    "information_url":"http://wiki.alioth.net/index.php/XenonUI",
+    "file_size":8258340,
+    "upload_date":1703677426,
     "tags":[
       "Balance=green",
       "Backgrounds"
@@ -20286,7 +20286,7 @@
   },
   {
     "identifier":"oolite.oxp.z.phkb.XenonUIResourcesE",
-    "version":"2.0",
+    "version":"2.1",
     "required_oolite_version":"1.80",
     "maximum_oolite_version":null,
     "title":"Xenon UI Resources Pack E (16:9)",
@@ -20295,9 +20295,9 @@
     "author":"phkb",
     "license":"CC-BY-NC-SA 4.0",
     "download_url":"https://wiki.alioth.net/img_auth.php/1/15/XenonUIResourcesE.oxz",
-    "information_url":null,
-    "file_size":9677137,
-    "upload_date":1610873239,
+    "information_url":"http://wiki.alioth.net/index.php/XenonUI",
+    "file_size":9737808,
+    "upload_date":1703677405,
     "tags":[
       "Balance=green",
       "Backgrounds"
@@ -20395,7 +20395,7 @@
   },
   {
     "identifier":"oolite.oxp.z.phkb.XenonUIResourcesF",
-    "version":"2.0",
+    "version":"2.1",
     "required_oolite_version":"1.80",
     "maximum_oolite_version":null,
     "title":"Xenon UI Resources Pack F (16:10)",
@@ -20404,9 +20404,9 @@
     "author":"phkb",
     "license":"CC-BY-NC-SA 4.0",
     "download_url":"https://wiki.alioth.net/img_auth.php/7/7b/XenonUIResourcesF.oxz",
-    "information_url":null,
-    "file_size":9390974,
-    "upload_date":1610873343,
+    "information_url":"http://wiki.alioth.net/index.php/XenonUI",
+    "file_size":9451488,
+    "upload_date":1703677377,
     "tags":[
       "Balance=green",
       "Backgrounds"
@@ -20504,7 +20504,7 @@
   },
   {
     "identifier":"oolite.oxp.z.phkb.XenonUIResourcesG",
-    "version":"2.0",
+    "version":"2.1",
     "required_oolite_version":"1.80",
     "maximum_oolite_version":null,
     "title":"Xenon UI Resources Pack G (16:9)",
@@ -20513,9 +20513,9 @@
     "author":"phkb",
     "license":"CC-BY-NC-SA 4.0",
     "download_url":"https://wiki.alioth.net/img_auth.php/3/38/XenonUIResourcesG.oxz",
-    "information_url":null,
-    "file_size":10436297,
-    "upload_date":1610873272,
+    "information_url":"http://wiki.alioth.net/index.php/XenonUI",
+    "file_size":10499953,
+    "upload_date":1703677353,
     "tags":[
       "Balance=green",
       "Backgrounds"
@@ -20613,7 +20613,7 @@
   },
   {
     "identifier":"oolite.oxp.z.phkb.XenonUIResourcesH",
-    "version":"2.0",
+    "version":"2.1",
     "required_oolite_version":"1.80",
     "maximum_oolite_version":null,
     "title":"Xenon UI Resources Pack H (16:10)",
@@ -20622,9 +20622,9 @@
     "author":"phkb",
     "license":"CC-BY-NC-SA 4.0",
     "download_url":"https://wiki.alioth.net/img_auth.php/4/4d/XenonUIResourcesH.oxz",
-    "information_url":null,
-    "file_size":10454224,
-    "upload_date":1610873298,
+    "information_url":"http://wiki.alioth.net/index.php/XenonUI",
+    "file_size":10517986,
+    "upload_date":1703677327,
     "tags":[
       "Balance=green",
       "Backgrounds"
@@ -20722,7 +20722,7 @@
   },
   {
     "identifier":"oolite.oxp.z.phkb.XenonUIResourcesI",
-    "version":"2.0",
+    "version":"2.1",
     "required_oolite_version":"1.80",
     "maximum_oolite_version":null,
     "title":"Xenon UI Resources Pack I (16:9)",
@@ -20731,9 +20731,9 @@
     "author":"phkb",
     "license":"CC-BY-NC-SA 4.0",
     "download_url":"https://wiki.alioth.net/img_auth.php/0/01/XenonUIResourcesI.oxz",
-    "information_url":null,
-    "file_size":9972985,
-    "upload_date":1610873209,
+    "information_url":"http://wiki.alioth.net/index.php/XenonUI",
+    "file_size":9702226,
+    "upload_date":1703677304,
     "tags":[
       "Balance=green",
       "Backgrounds"
@@ -20831,7 +20831,7 @@
   },
   {
     "identifier":"oolite.oxp.z.phkb.XenonUIResourcesJ",
-    "version":"2.0",
+    "version":"2.1",
     "required_oolite_version":"1.80",
     "maximum_oolite_version":null,
     "title":"Xenon UI Resources Pack J (16:10)",
@@ -20840,9 +20840,9 @@
     "author":"phkb",
     "license":"CC-BY-NC-SA 4.0",
     "download_url":"https://wiki.alioth.net/img_auth.php/3/30/XenonUIResourcesJ.oxz",
-    "information_url":null,
-    "file_size":9723855,
-    "upload_date":1610873262,
+    "information_url":"http://wiki.alioth.net/index.php/XenonUI",
+    "file_size":9576695,
+    "upload_date":1703677281,
     "tags":[
       "Balance=green",
       "Backgrounds"
@@ -20940,7 +20940,7 @@
   },
   {
     "identifier":"oolite.oxp.z.phkb.XenonUIResourcesK",
-    "version":"2.0",
+    "version":"2.1",
     "required_oolite_version":"1.80",
     "maximum_oolite_version":null,
     "title":"Xenon UI Resources Pack K (16:9)",
@@ -20949,9 +20949,9 @@
     "author":"phkb",
     "license":"CC-BY-NC-SA 4.0",
     "download_url":"https://wiki.alioth.net/img_auth.php/c/ca/XenonUIResourcesK.oxz",
-    "information_url":null,
-    "file_size":8278937,
-    "upload_date":1610873471,
+    "information_url":"http://wiki.alioth.net/index.php/XenonUI",
+    "file_size":8332159,
+    "upload_date":1703677257,
     "tags":[
       "Balance=green",
       "Backgrounds"
@@ -21049,7 +21049,7 @@
   },
   {
     "identifier":"oolite.oxp.z.phkb.XenonUIResourcesL",
-    "version":"2.0",
+    "version":"2.1",
     "required_oolite_version":"1.80",
     "maximum_oolite_version":null,
     "title":"Xenon UI Resources Pack L (16:10)",
@@ -21058,9 +21058,9 @@
     "author":"phkb",
     "license":"CC-BY-NC-SA 4.0",
     "download_url":"https://wiki.alioth.net/img_auth.php/0/0a/XenonUIResourcesL.oxz",
-    "information_url":null,
-    "file_size":8363863,
-    "upload_date":1610873223,
+    "information_url":"http://wiki.alioth.net/index.php/XenonUI",
+    "file_size":8418814,
+    "upload_date":1703677230,
     "tags":[
       "Balance=green",
       "Backgrounds"
@@ -21158,7 +21158,7 @@
   },
   {
     "identifier":"oolite.oxp.z.phkb.XenonUIResourcesM",
-    "version":"2.0",
+    "version":"2.1",
     "required_oolite_version":"1.80",
     "maximum_oolite_version":null,
     "title":"Xenon UI Resources Pack M (16:9)",
@@ -21167,9 +21167,9 @@
     "author":"phkb",
     "license":"CC-BY-NC-SA 4.0",
     "download_url":"https://wiki.alioth.net/img_auth.php/1/13/XenonUIResourcesM.oxz",
-    "information_url":null,
-    "file_size":9002050,
-    "upload_date":1610873237,
+    "information_url":"http://wiki.alioth.net/index.php/XenonUI",
+    "file_size":9119937,
+    "upload_date":1703677202,
     "tags":[
       "Balance=green",
       "Backgrounds"
@@ -21267,7 +21267,7 @@
   },
   {
     "identifier":"oolite.oxp.z.phkb.XenonUIResourcesN",
-    "version":"2.0",
+    "version":"2.1",
     "required_oolite_version":"1.80",
     "maximum_oolite_version":null,
     "title":"Xenon UI Resources Pack N (16:9)",
@@ -21276,9 +21276,9 @@
     "author":"phkb",
     "license":"CC-BY-NC-SA 4.0",
     "download_url":"https://wiki.alioth.net/img_auth.php/9/9c/XenonUIResourcesN.oxz",
-    "information_url":null,
-    "file_size":9229459,
-    "upload_date":1610873391,
+    "information_url":"http://wiki.alioth.net/index.php/XenonUI",
+    "file_size":9290794,
+    "upload_date":1703677175,
     "tags":[
       "Balance=green",
       "Backgrounds"
