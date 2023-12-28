@@ -10300,13 +10300,13 @@
     "maximum_oolite_version":null,
     "title":"Pods",
     "description":"New cargo pods and pod features.",
-    "category":null,
+    "category":"Mechanics",
     "author":"Thargoid, Rustem, Milo",
     "license":"CC-BY-NC-SA 3.0",
     "download_url":"https://wiki.alioth.net/img_auth.php/4/4f/Oolite.oxp.Thargoid.Pods.1.48.oxz",
     "information_url":"http://wiki.alioth.net/index.php/Pods_OXP",
-    "file_size":586062,
-    "upload_date":1610873299,
+    "file_size":584742,
+    "upload_date":1703763883,
     "tags":[
       "mechanics",
       "cargopods"
