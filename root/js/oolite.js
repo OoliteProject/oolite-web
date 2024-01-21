@@ -449,7 +449,7 @@ const oxpManager = (()=>{
                 title: title,
                 ver: d.version,
                 author: d.author,
-                up: epochToYMD(d.upload_date),
+                up: d.upload_date ? epochToYMD(d.upload_date) : 'unknown',
                 dload: d.download_url,
                 desc: d.description
             });
