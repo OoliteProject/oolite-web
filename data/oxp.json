@@ -8199,7 +8199,7 @@
   },
   {
     "identifier":"oolite.oxp.RobertTodd.Taranis",
-    "version":"2.0.1",
+    "version":"2.0.2",
     "required_oolite_version":"1.74",
     "maximum_oolite_version":null,
     "title":"Taranis",
@@ -8207,10 +8207,10 @@
     "category":"Missions",
     "author":"Robert Todd",
     "license":"CC-BY-NC-SA 3.0",
-    "download_url":"https://wiki.alioth.net/img_auth.php/6/6a/Taranis_2.0.1.oxz",
+    "download_url":"https://wiki.alioth.net/img_auth.php/4/4e/Taranis_2.0.2.oxz",
     "information_url":"https://wiki.alioth.net/index.php/Taranis_OXP",
-    "file_size":9371194,
-    "upload_date":1705797574,
+    "file_size":9371210,
+    "upload_date":1705801054,
     "tags":[
       "Station"
     ],
