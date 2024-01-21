@@ -478,8 +478,11 @@ const oxpManager = (()=>{
             let f = t === 'c' ? 'category'
                   : t === 't' ? 'title'
                   : t === 'a' ? 'author' : false;
-            if (f)
-                sfn = (a,b) => { if (a[f] > b[f]) return d1; if (a[f] < b[f]) return d2; };
+            if (f) sfn = (a,b) => {
+                const aa=a[f] ? a[f].toLowerCase() : '';
+                const bb=b[f] ? b[f].toLowerCase() : '';
+                if (aa > bb) return d1; if (aa < bb) return d2;
+            };
         }
         if ( curSort === t ) curDir = -curDir;
         d1 = curDir, d2 = -curDir;
