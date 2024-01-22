@@ -608,18 +608,30 @@ tr.oxp-tr-desc td {
 }
 
 @media (max-width: 532px) {
-    .oxp-m1-col {
+    .small-l1 {
         display: none;
+    }
+    body {
+        padding: 1em 0 1em 0;
     }
 }
 
 @media (max-width: 496px) {
-    .oxp-m2-col {
+    .small-l2 {
         display: none;
     }
     .oxp-table td {
         font-family: sans-serif;
         padding: 3px 1px 3px 1px;
         font-size: 8px;
+    }
+    #content-wrapper {
+        padding: 0.8em 2px 0.8em 2px;
+    }
+}
+
+@media (max-width: 300px) {
+    .small-l3 {
+        display: none;
     }
 }
