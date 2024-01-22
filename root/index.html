@@ -23,8 +23,8 @@
 <div class="flex-row flex-jc-c site-wrapper">
     <div class="flex-1 star-bg d-none d-xxl-block"></div>
 
-    <div class="site-menu star-bg">
-        <div id="navigation">
+    <div class="site-menu star-bg d-none d-lg-block">
+        <div id="navigation" class="navigation">
             <div class="logo-wrp">
                 <img src="https://addons.oolite.space/i/template/logo.png" alt="Oolite">
             </div>
@@ -37,13 +37,13 @@
                     </div>
                 </li>
                 <li class="nav-item" role="presentation">
-                    <div class="nav-link" id="nav-whatsnew-tab" data-bs-toggle="tab" data-bs-target="#page-whatsnew" role="tab" aria-controls="page-whatsnew" aria-selected="false">
+                    <div class="nav-link nav-whatsnew-tab" id="nav-whatsnew-tab" data-bs-toggle="tab" data-bs-target="#page-whatsnew" role="tab" aria-controls="page-whatsnew" aria-selected="false">
                         <span>What&#39;s new?</span>
                         <div class="nav-r-black"></div>
                     </div>
                 </li>
                 <li class="nav-item" role="presentation">
-                    <div class="nav-link" id="nav-download-tab" data-bs-toggle="tab" data-bs-target="#page-download" role="tab" aria-controls="page-download" aria-selected="false">
+                    <div class="nav-link nav-download-tab" id="nav-download-tab" data-bs-toggle="tab" data-bs-target="#page-download" role="tab" aria-controls="page-download" aria-selected="false">
                         <span>Download</span>
                         <div class="nav-r-black"></div>
                     </div>
@@ -74,7 +74,7 @@
                 </li>
             </ul>
 
-            <div id="quote" class="d-sm-none d-md-block">
+            <div id="quote">
                 <blockquote></blockquote><cite></cite>
             </div>
         </div>
@@ -83,7 +83,33 @@
     <div class="px-0 site-main">
         <div id="title-wrapper" class="ctrl-bg">
             <h1 class="p-title d-none d-md-block"></h1>
-            <h1 class="p-title p-title-small d-block d-md-none"></h1>
+            <h1 class="p-title p-title-small d-md-none"></h1>
+        </div>
+
+        <div id="h-navigation" class="navigation d-lg-none">
+            <ul class="nav nav-tabs nav-fill" role="tablist">
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link active" id="h-nav-home-tab" data-bs-toggle="tab" data-bs-target="#page-home" type="button" role="tab" aria-controls="page-home" aria-selected="true">About</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link nav-whatsnew-tab" id="h-nav-whatsnew-tab" data-bs-toggle="tab" data-bs-target="#page-whatsnew" type="button" role="tab" aria-controls="page-whatsnew" aria-selected="false">News</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link nav-download-tab" id="h-nav-download-tab" data-bs-toggle="tab" data-bs-target="#page-download" type="button" role="tab" aria-controls="page-download" aria-selected="false">Download</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="h-nav-started-tab" data-bs-toggle="tab" data-bs-target="#page-started" type="button" role="tab" aria-controls="page-started" aria-selected="false">Start!</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="h-nav-gallery-tab" data-bs-toggle="tab" data-bs-target="#page-gallery" type="button" role="tab" aria-controls="page-gallery" aria-selected="false">Gallery</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="h-nav-oxp-tab" data-bs-toggle="tab" data-bs-target="#page-oxp" type="button" role="tab" aria-controls="page-oxp" aria-selected="false">Expansions</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="h-nav-community-tab" data-bs-toggle="tab" data-bs-target="#page-community" type="button" role="tab" aria-controls="page-community" aria-selected="false">Community</button>
+                </li>
+            </ul>
         </div>
 
         <div id="content-wrapper" class="tab-content">
@@ -107,7 +133,7 @@
                 </div>
                 <div id="page-home-about" class="pt-3"></div>
             </div>
-            <div class="col-md-3 d-xs-none d-md-block pt-1">
+            <div class="col-md-3 d-none d-md-block pt-1">
                 <div id="news" class="pt-1">
                     <h2>Latest News...</h2>
                     <div id="news-items" class="d-none"></div>
@@ -282,14 +308,14 @@
     <div class="flex-row flex-jc-sb">
         <div class="btn-wrp">
             <div class="vnav vnav-first btn-set-3 btn-set-4 btn-set-5"><span class="ctrl-btn">❮ ❮</span></div>
-            <div class="vnav vnav-prev btn-set-2 btn-set-3 btn-set-4 btn-set-5"><span class="ctrl-btn">❮&nbsp;&nbsp;<span class="d-sm-none d-md-inline">previously&nbsp;on&nbsp;Oolite</span></span></div>
-            <div class="vnav vnav-last btn-set-6"><span class="ctrl-btn">❮&nbsp;&nbsp;<span class="d-sm-none d-md-inline">back&nbsp;to&nbsp;Oolite&nbsp;stable</span></span></div>
+            <div class="vnav vnav-prev btn-set-2 btn-set-3 btn-set-4 btn-set-5"><span class="ctrl-btn">❮&nbsp;&nbsp;<span class="d-none d-md-inline">previously&nbsp;on&nbsp;Oolite</span></span></div>
+            <div class="vnav vnav-last btn-set-6"><span class="ctrl-btn">❮&nbsp;&nbsp;<span class="d-md-inline">back&nbsp;to&nbsp;Oolite&nbsp;stable</span></span></div>
         </div>
 
         <div class="btn-wrp">
-            <div class="vnav vnav-next btn-set-1 btn-set-2 btn-set-3"><span class="ctrl-btn"><span class="d-sm-none d-md-inline">back&nbsp;to&nbsp;the&nbsp;future&nbsp;of&nbsp;Oolite</span>&nbsp;&nbsp;❯</span></div>
+            <div class="vnav vnav-next btn-set-1 btn-set-2 btn-set-3"><span class="ctrl-btn"><span class="d-none d-md-inline">back&nbsp;to&nbsp;the&nbsp;future&nbsp;of&nbsp;Oolite</span>&nbsp;&nbsp;❯</span></div>
             <div class="vnav vnav-last btn-set-1 btn-set-2 btn-set-3"><span class="ctrl-btn">❯ ❯</span></div>
-            <div class="vnav vnav-nightly btn-set-4"><span class="ctrl-btn"><span class="d-sm-none d-md-inline">Oolite&nbsp;on&nbsp;the&nbsp;bleeding&nbsp;edge</span>&nbsp;&nbsp;❯</span></div>
+            <div class="vnav vnav-nightly btn-set-4"><span class="ctrl-btn"><span class="d-none d-md-inline">Oolite&nbsp;on&nbsp;the&nbsp;bleeding&nbsp;edge</span>&nbsp;&nbsp;❯</span></div>
         </div>
     </div>
 </div>

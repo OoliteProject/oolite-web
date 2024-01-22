@@ -198,7 +198,7 @@ a.ctrl-btn {
     font-size: 1.1em;
     cursor: pointer;
     transition: none;
-    border: thin #202066 solid;
+    border: thin var(--main-ctrl-border-color) solid;
     border-right: none;
     border-radius: 5px 0 0 5px;
     background-color: var(--main-ctrl-bg-color);
@@ -232,6 +232,48 @@ a.ctrl-btn {
     display: block;
 }
 
+#h-navigation {
+    padding: 18px 0 0 0;
+    border-left: 1px solid var(--main-border-color);
+    border-right: 1px solid var(--main-border-color);
+}
+
+#h-navigation ul.nav {
+    border: none;
+}
+
+#h-navigation button {
+    background-color: #000;
+    color: var(--main-link-color);
+    border-radius: 0 0 0 0;
+    border: none;
+    font-family: monospace;
+    font-size: 1.4em;
+}
+
+#h-navigation button.active {
+    color: #FFF;
+    font-weight: bold;
+    border: 1px solid var(--main-ctrl-border-color);
+    border-bottom: 1px solid #000;
+    border-radius: 5px 5px 0 0;
+}
+
+@media (max-width: 739px) {
+    #h-navigation button.active {
+        border: none !important;
+    }
+
+    #h-navigation ul.nav {
+        border-bottom: 1px solid var(--main-ctrl-border-color);
+    }
+}
+
+#h-navigation li {
+    border: 0;
+    background-color: #000;
+}
+
 /* = = = = = = = = = = = = = = = = = = = = = = = = = = */
 
 #quote {
@@ -256,18 +298,21 @@ a.ctrl-btn {
     border: thin var(--main-border-color) solid;
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
+    border-bottom: 0;
     padding-right: 2em;
 }
 
 #title-wrapper h1 {
     margin: 0;
     padding: 0.25em;
+    padding-bottom: 0.3em;
     font-weight: bold;
     font-size: 2.1em;
 }
 
 #title-wrapper h1.p-title-small {
     padding: 0.2em;
+    padding-bottom: 0.3em;
     font-size: 1.2em;
 }
 

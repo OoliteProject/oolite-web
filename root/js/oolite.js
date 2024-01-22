@@ -64,7 +64,7 @@ const mainMenu = (()=>{
     fScroll = false;
 
     const _init = (config) => {
-        $on( '#navigation .nav-link', 'show.bs.tab', el => {
+        $on( '.navigation .nav-link', 'show.bs.tab', el => {
             let t = $attr( el, 'data-bs-target' );
             currentPage = t.split('-')[1];
             titleManager.set(currentPage);
@@ -96,7 +96,9 @@ const mainMenu = (()=>{
     const _show = (name, forceScroll = false) => {
         fScroll = forceScroll;
         const tb = new bootstrap.Tab(`#nav-${name}-tab`);
-        tb.show();
+        if (tb) tb.show();
+        const tbh = new bootstrap.Tab(`#h-nav-${name}-tab`);
+        if (tbh) tbh.show();
     };
 
     const _getCurrent = () => {
