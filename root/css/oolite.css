@@ -573,7 +573,6 @@ a.show-more-oxp, #show-all-oxp-desc {
 
 tr.oxp-tr-desc td {
     color: var(--main-secondary-color);
-    font-size: 90%;
     padding-top: 0;
     padding-bottom: 4px;
 }
@@ -606,4 +605,21 @@ tr.oxp-tr-desc td {
 
 .oxp-table .oxp-up {
     white-space: nowrap;
+}
+
+@media (max-width: 532px) {
+    .oxp-m1-col {
+        display: none;
+    }
+}
+
+@media (max-width: 496px) {
+    .oxp-m2-col {
+        display: none;
+    }
+    .oxp-table td {
+        font-family: sans-serif;
+        padding: 3px 1px 3px 1px;
+        font-size: 8px;
+    }
 }

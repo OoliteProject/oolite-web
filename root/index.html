@@ -224,55 +224,53 @@
         <!-- = = = = PAGE GALLERY END = = = = -->
 
         <!-- = = = = PAGE OXP BEGIN = = = = -->
-        <div id="page-oxp" class="row tab-pane fade show" role="tabpanel" aria-labelledby="nav-oxp-tab" tabindex="5">
-            <div class="col">
-                <div>
-                    <div class="oxp-disclaimer"><span style="color:#dc0001">&#10071;</span>
-                    Expansions are created by community members and are provided as-is,
-                    with no warranty or guarantee whatsoever, and are not endorsed or vetted
-                    by the Oolite development team. Please take the time to read the information
-                    about an expansion before installing it.</div>
+        <div id="page-oxp" class="tab-pane fade show" role="tabpanel" aria-labelledby="nav-oxp-tab" tabindex="5">
+            <div>
+                <div class="oxp-disclaimer"><span style="color:#dc0001">&#10071;</span>
+                Expansions are created by community members and are provided as-is,
+                with no warranty or guarantee whatsoever, and are not endorsed or vetted
+                by the Oolite development team. Please take the time to read the information
+                about an expansion before installing it.</div>
 
-                    <p>There are well over a thousand expansion packs released for
-                    Oolite. There are two expansion pack formats in use since Oolite 1.80,
-                    usually referred to as OXZ and OXP. The OXZ format is more modern and
-                    can be downloaded and installed automatically by the game by selecting
-                    the "Manage Expansion Packs" option on the start screen. The OXP
-                    format is older, easier to tweak and must be installed manually.</p>
+                <p>There are well over a thousand expansion packs released for
+                Oolite. There are two expansion pack formats in use since Oolite 1.80,
+                usually referred to as OXZ and OXP. The OXZ format is more modern and
+                can be downloaded and installed automatically by the game by selecting
+                the "Manage Expansion Packs" option on the start screen. The OXP
+                format is older, easier to tweak and must be installed manually.</p>
 
-                    <ul>
-                      <li>Almost all released expansion packs, regardless of format, are also listed on the Wiki's various <a href="https://wiki.alioth.net/index.php/Category:OXP_Lists">OXP List</a>.</li>
-                      <li>The Wiki is also home to the <a href="http://wiki.alioth.net/index.php/OXP_howto">developer documentation</a>.</li>
-                      <li>If you have difficulty with an expansion pack, it is usually best to report this in its thread in the <a href="http://aegidian.org/bb/viewforum.php?f=4">Expansion Pack forum</a>.</li>
-                      <!-- <li>If you are an expansion pack writer, you can <a target="_blank" href=" http://old.oolite.space/admin/">upload your manifest files</a> to the list.</li> -->
-                    </ul>
+                <ul>
+                  <li>Almost all released expansion packs, regardless of format, are also listed on the Wiki's various <a href="https://wiki.alioth.net/index.php/Category:OXP_Lists">OXP List</a>.</li>
+                  <li>The Wiki is also home to the <a href="http://wiki.alioth.net/index.php/OXP_howto">developer documentation</a>.</li>
+                  <li>If you have difficulty with an expansion pack, it is usually best to report this in its thread in the <a href="http://aegidian.org/bb/viewforum.php?f=4">Expansion Pack forum</a>.</li>
+                  <!-- <li>If you are an expansion pack writer, you can <a target="_blank" href=" http://old.oolite.space/admin/">upload your manifest files</a> to the list.</li> -->
+                </ul>
 
-                    <p>The table below lists the OXZ expansion packs which can be automatically
-                    downloaded by Oolite 1.80 (or higher), as well as links for manual downloads
-                    if you prefer to do that. If you are still using Oolite 1.77.1 or an earlier
-                    version, these OXZ format expansion packs will not be usable.</p>
+                <p>The table below lists the OXZ expansion packs which can be automatically
+                downloaded by Oolite 1.80 (or higher), as well as links for manual downloads
+                if you prefer to do that. If you are still using Oolite 1.77.1 or an earlier
+                version, these OXZ format expansion packs will not be usable.</p>
 
-                    <p style="color: #aaa; margin: 0; padding: 0; font-size: 90%;">Click column header to sort table.
-                    <a id="show-all-oxp-desc" href="#">Show remaining descriptions.</a></p>
+                <p style="color: #aaa; margin: 0; padding: 0; font-size: 90%;">Click column header to sort table.
+                <a id="show-all-oxp-desc" href="#">Show remaining descriptions.</a></p>
 
-                    <table class="table oxp-table mt-3">
-                        <thead>
-                        <tr>
-                            <th><a data-sort="c" href="#">Category</a></th>
-                            <th><a data-sort="t" href="#">Title</a></th>
-                            <th>&nbsp;</th>
-                            <th><a data-sort="a" href="#">Author</a></th>
-                            <th><a data-sort="d" href="#">Updated</a></th>
-                            <th>&nbsp;</th>
-                        </tr>
-                        </thead>
-                    </table>
-                    <div id="show-more-oxp" class="secondary-text">
-                        <p class="pt-3">Show more [ <a class="show-more-oxp" data-cnt="20" href="#">20</a>&nbsp;&nbsp;
-                        <a class="show-more-oxp" data-cnt="50" href="#">50</a>&nbsp;&nbsp;
-                        <a class="show-more-oxp" data-cnt="100" href="#">100</a>&nbsp;&nbsp;
-                        <a class="show-more-oxp" data-cnt="ALL" href="#">ALL</a> ]</p>
-                    </div>
+                <table class="table oxp-table mt-3">
+                    <thead>
+                    <tr>
+                        <th><a data-sort="c" href="#">Category</a></th>
+                        <th><a data-sort="t" href="#">Title</a></th>
+                        <th class="oxp-m2-col">&nbsp;</th>
+                        <th class="oxp-m1-col"><a data-sort="a" href="#">Author</a></th>
+                        <th><a data-sort="d" href="#">Updated</a></th>
+                        <th>&nbsp;</th>
+                    </tr>
+                    </thead>
+                </table>
+                <div id="show-more-oxp" class="secondary-text">
+                    <p class="pt-3">Show more [ <a class="show-more-oxp" data-cnt="20" href="#">20</a>&nbsp;&nbsp;
+                    <a class="show-more-oxp" data-cnt="50" href="#">50</a>&nbsp;&nbsp;
+                    <a class="show-more-oxp" data-cnt="100" href="#">100</a>&nbsp;&nbsp;
+                    <a class="show-more-oxp" data-cnt="ALL" href="#">ALL</a> ]</p>
                 </div>
             </div>
         </div>
@@ -327,8 +325,8 @@
 <tr class="oxp-tr-info">
   <td>{{cat}}</td>
   <td>{{{title}}}</td>
-  <td class="oxp-ver">{{ver}}</td>
-  <td>{{author}}</td>
+  <td class="oxp-ver oxp-m2-col">{{ver}}</td>
+  <td class="oxp-m1-col">{{author}}</td>
   <td class="oxp-up">{{up}}</td>
   <td><a href="{{dload}}" title="Download {{title}} v{{ver}}"><span class="dload-img"></span></a></td>
 </tr>
