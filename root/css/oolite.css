@@ -99,6 +99,17 @@ a.ctrl-btn {
     width: 100%;
 }
 
+.img-wrp {
+    padding-bottom: 6px;
+    display: flex;
+    justify-content: center;
+}
+
+.img-wrp img {
+    flex: 0 1 min-content;
+    width: 100%;
+}
+
 .secondary-text {
     color: var(--main-secondary-color);
 }
@@ -147,6 +158,7 @@ a.ctrl-btn {
 .flex-3 {
     flex: 3 1 auto;
 }
+
 .site-wrapper {
 }
 .site-menu {
@@ -438,16 +450,18 @@ a.ctrl-btn {
     background-image: url("https://addons.oolite.space/i/starfield.jpg");
 }
 
-/* = = = = = = = = = = = = = = = = = = = = = = = = = = */
-
-#getting-started .img-wrp {
-    display: flex;
-    justify-content: center;
+@media (min-width: 580px) {
+    .download-blk-wrp {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }    
 }
 
-#getting-started .img-wrp img {
-    flex: 0 1 min-content;
-    width: 100%;
+@media (max-width: 579px) {
+    .download-blk {
+        margin-bottom: 8px;
+    }    
 }
 
 /* = = = = = = = = = = = = = = = = = = = = = = = = = = */
@@ -491,7 +505,7 @@ a.ctrl-btn {
 #page-gallery .thumb-wrapper {
     flex: 1 0 auto;
     width: 16%;
-    height: 110px;
+    max-height: 110px;
     text-align: center;
     opacity: 0.5;
     cursor: pointer;
