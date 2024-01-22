@@ -630,7 +630,7 @@ tr.oxp-tr-desc td {
     }
 }
 
-@media (max-width: 300px) {
+@media (max-width: 380px) {
     .small-l3 {
         display: none;
     }
