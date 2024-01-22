@@ -413,7 +413,7 @@ a.ctrl-btn {
 .download-blk {
     padding-top: 0.42em;
     padding-bottom: 0.42em;
-    border: thin #888 solid;
+    border: 1px solid var(--main-secondary-color);
     background-color: var(--main-ctrl-bg-color);
     min-height: 10em;
     flex: 0 1 32%;
@@ -444,6 +444,12 @@ a.ctrl-btn {
 .download-blk h3 {
     font-size: 110%;
     margin: 0.5em 0 0;
+}
+
+.download-note {
+    font-family: sans-serif;
+    font-size: 6px;
+    color: var(--main-secondary-color);
 }
 
 .imgbar-starfield {
@@ -515,13 +521,13 @@ a.ctrl-btn {
 
 #page-gallery .thumb-wrapper.active {
     cursor: default;
-    border: thin #888 solid;
+    border: 1px solid var(--main-secondary-color);
     opacity: 1;
 }
 
 #page-gallery .thumb-wrapper:hover {
     opacity: 1;
-    border-bottom: thin #888 solid !important;
+    border-bottom: 1px solid var(--main-secondary-color) !important;
 }
 
 #gallery-oxp-thumbs button {
@@ -548,8 +554,8 @@ a.show-more-oxp, #show-all-oxp-desc {
     color: var(--main-link-color);
 }
 
-.oxp-table .dload-img {
-    display: block;
+.dload-img {
+    display: inline-block;
     width: 24px;
     height: 18px;
     background-color: var(--main-link-color);
@@ -630,7 +636,7 @@ tr.oxp-tr-desc td {
     }
 }
 
-@media (max-width: 380px) {
+@media (max-width: 400px) {
     .small-l3 {
         display: none;
     }
