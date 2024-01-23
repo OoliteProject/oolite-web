@@ -1,56 +1,140 @@
-<p>Welcome to <strong>Oolite 1.91 Nightly Build</strong>. Bug fixes and new features, 
+<p>
+Welcome to <strong>Oolite 1.91 Nightly Build</strong>. Bug fixes and new features, 
 under test and development with frequent updates, will be listed here. 
 If you would like to try out the <strong>bleeding edge stuff</strong>, and give us 
 feedback on the new features, then you can download the installer from
 <a href="https://github.com/OoliteProject/oolite/releases">Oolite GitHub</a>.
 </p>
 
-<p>Oolite bug fixes and new features will be listed below grouped in:
-</p><ul>
+<p>Oolite features will be listed below grouped in:</p>
+<ul>
 <li><a href="#191sub1">General Enhancements</a></li>
-<li><a href="#191sub2">Expansion Pack Development - Scripting</a></li>
-<li><a href="#191sub3">Bug Fixes</a></li>
-</ul><p></p>
+<li><a href="#191sub2">In-Game Keyboard Configuration</a></li>
+<li><a href="#191sub3">Fast Activation Keys</a></li>
+<li><a href="#191sub4">Mission screen enhancements</a></li>
+<li><a href="#191sub5">Joysticks</a></li>
+<li><a href="#191sub6">Expansion Pack Development - Scripting</a></li>
+<li><a href="#191sub7">Bug Fixes</a></li>
+</ul>
 
-<div class="img-wrp">
-    <img src="https://addons.oolite.space/i/whatsnew/lavearth.jpg" alt="Lave is Earth expansion pack. (screenshot by another_commander)">
-</div>
 
-<br>
 <h2 id="191sub1">General Enhancements</h2>
 
-<div class="img-wrp">
-    <img src="https://addons.oolite.space/i/whatsnew/BoaOverBemaera.jpg" alt="Extra illuminated Boa over Bemaera. (screenshot by another_commander)">
+<div class="row">
+    <div class="img-wrp col">
+        <img src="https://addons.oolite.space/i/whatsnew/lavearth.jpg" alt="Lave is Earth expansion pack. (screenshot by another_commander)">
+    </div>
+    <div class="img-wrp col">
+        <img src="https://addons.oolite.space/i/whatsnew/BoaOverBemaera.jpg" alt="Extra illuminated Boa over Bemaera. (screenshot by another_commander)">
+    </div>
 </div>
 
 <li><b>Reworked Renderer</b></li>
-<p>The game's render engine has received a considerable upgrade allowing for previously not achievable graphics effects, such as bloom and other post-processing ones. The in-game shaders already contain a small library of effects that can be used by scripts if required. Combined with an upgraded default ship set, now making full use of the new engine's capabilities, visuals have taken yet another large stride forward.</p>
+<p>
+The game's render engine has received a considerable upgrade allowing for previously not achievable graphics effects,
+such as bloom and other post-processing ones. The in-game shaders already contain a small library of effects
+that can be used by scripts if required. Combined with an upgraded default ship set, now making full use of
+the new engine's capabilities, visuals have taken yet another large stride forward.
+</p>
+
 <div class="img-wrp">
     <img src="https://addons.oolite.space/i/whatsnew/OONewRenderer.jpg" style="max-width: 100%; height:auto" alt="New renderer showcase">
 </div>
-<br>
-<br>
 
 <li><b>HDR Support on Windows</b></li>
-<p>The Windows port of Oolite can now send HDR signal to display devices that support this technology. If you have a compatible monitor or TV you can now enjoy vivid, bright and high contrast colors that seem to pop right out of your screen, while maintaining full image details in both highlights and dark areas. It is a significant boost in graphics quality; you have never seen Oolite like this before!</p>
+<p>
+The Windows port of Oolite can now send HDR signal to display devices that support this technology.
+If you have a compatible monitor or TV you can now enjoy vivid, bright and high contrast colors that
+seem to pop right out of your screen, while maintaining full image details in both highlights and dark areas.
+It is a significant boost in graphics quality; you have never seen Oolite like this before!
+</p>
+
 <div class="img-wrp">
     <img src="https://addons.oolite.space/i/whatsnew/OOHDRvsSDR.png" alt="Comparison between HDR (emulated) and SDR">
 </div>
-<p><font size="1">*HDR output is emulated above for the purposes of displaying on any SDR screen. Unfortunately, HDR is a bit like the Matrix - no one can be told what it is, you have to see it for yourself.</font></p>
+
+<p class="small secondary-text">* HDR output is emulated above for the purposes of displaying on any SDR screen.
+Unfortunately, HDR is a bit like the Matrix - no one can be told what it is, you have to see it for yourself.</p>
 
 <li><b>Enhanced Accessibility</b></li>
-<p>Provisions have been taken for easier accessibility of color blind persons in this version. Filters for protanopia, deuteranopia and tritanopia have been utilized to enhance the contrast between colors which are typically indistinguishable for each color blindness case. The end result is that color blind users can now tell different colors apart much more easily, making their gaming experience more pleasant than before. Also, hostile blips on the scanner are marked as Xs in color blind mode to further assist in combat situations.</p>
+<p>
+Provisions have been taken for easier accessibility of color blind persons in this version.
+Filters for protanopia, deuteranopia and tritanopia have been utilized to enhance the contrast
+between colors which are typically indistinguishable for each color blindness case.
+The end result is that color blind users can now tell different colors apart much more easily,
+making their gaming experience more pleasant than before. Also, hostile blips on
+the scanner are marked as Xs in color blind mode to further assist in combat situations.
+</p>
+
 <div class="img-wrp">
     <img src="https://addons.oolite.space/i/whatsnew/OOColorBlindMode.png" alt="Color blindness filters example">
 </div>
-<br>
 
-<br>
-<h2 id="191sub2">Expansion Pack Development - Scripting</h2>
+
+<h2 id="191sub2">In-Game Keyboard Configuration</h2>
+<p>
+Possibly our most requested feature has made it into the game.
+You can now completely configure your keyboard in game, and even during play.
+You can set key combinations that use the Ctrl and Alt (eg Ctrl-C),
+and assign them to any game action. More keys of the keyboard are recognised and can be used,
+keys like Home, Insert, and Delete. There is now no need to recall obscure numbers to utilise
+the number pad keys on the keyboard, as the game understands text definitions like "numpad1".
+</p>
+<p>
+Along with this comes support for non-US keyboard layouts, so those Italian or German
+keyboards can have Oolite understand their keyboard natively. 16 keyboard layouts are included by default.
+</p>
+<p>
+Finally, the functions listed on the keyboard configuration screen have been
+grouped into sections with a section heading, to make navigating the list a bit easier and more intuitive.
+</p>
+
+
+<h2 id="191sub3">Fast Activation Keys</h2>
+<p>
+Getting more fast activation keys for prime-able equipment is probably the second most requested feature,
+and this is now in the game. Every piece of prime-able equipment you purchase can have the "Activate" and "Mode"
+functions assigned to individual keys, eliminating the need to prime the equipment first.
+Once the keys are assigned, they will remain attached to that equipment in any new game you start,
+so you don't have to go through the process of assigning them more than once.
+</p>
+
+
+<h2 id="191sub4">Mission screen enhancements</h2>
+<p>
+For a long time, player interaction on mission screens was limited to the Up and Down
+arrow keys to navigate a menu, and pressing Enter to select the item.
+We can now define any number of additional keys for a mission screen,
+which gives OXP developers the opportunity to create far more interactive
+and intuitive screens for players. From being able to utilise the Page Up and Down keys
+to navigate multiple pages, or using the Left and Right keys to change a value,
+to having a custom number entry page to enter a key code, the possibilities are endless.
+</p>
+<p>
+Along side this, it is now also possible to attach custom key presses to existing game screens.
+For instance, you can add a key press to the F6 Chart screen that will jump to a mission screen when pressed.
+Or it could execute a new function on that screen. This means that OXP developers can choose the best place
+in the game to create an interface to their custom code, and not be restricted to just using the F4 Interfaces page.
+Mission screens can even be called up during flight, with some restrictions.
+</p>
+
+
+<h2 id="191sub5">Joysticks</h2>
+<p>
+We've given the joystick mapping screen a bit of an update, grouping related functions
+together under headings (the same headings used for the Keyboard configuration screen),
+added the ability to map some missing commands, and added included the ability to map
+the "Activate" and "Mode" functions of prime-able equipment to any joystick button.
+</p>
+
+
+<h2 id="191sub6">Expansion Pack Development - Scripting</h2>
 
 <div class="img-wrp">
     <img src="https://addons.oolite.space/i/whatsnew/EarthCoriolisCloseup.jpg" alt="Coriolis close-up with background moon. (screenshot by another_commander)">
 </div>
 
-<br>
-<h2 id="191sub3">Bug Fixes</h2>
+<h2 id="191sub7">Bug Fixes</h2>
+<p>
+A number of found bugs have been corrected.
+</p>

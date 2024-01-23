@@ -377,6 +377,24 @@ a.ctrl-btn {
 
 /* = = = = = = = = = = = = = = = = = = = = = = = = = = */
 
+#whatsnew-items h2 {
+    margin-top: 2.1em;
+}
+
+#whatsnew-items p.last {
+    padding-top: 3em;
+}
+
+#whatsnew-items p+ul {
+    margin-top: -0.8em;
+}
+
+#whatsnew-items .img-wrp {
+    padding-bottom: 8px;
+}
+
+/* = = = = = = = = = = = = = = = = = = = = = = = = = = */
+
 .version-navigator .vnav {
     display: none;
 }
