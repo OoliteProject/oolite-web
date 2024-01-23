@@ -390,7 +390,7 @@ a.ctrl-btn {
 }
 
 #whatsnew-items .img-wrp {
-    padding-bottom: 8px;
+    padding-bottom: 0.8em;
 }
 
 /* = = = = = = = = = = = = = = = = = = = = = = = = = = */
@@ -461,7 +461,7 @@ a.ctrl-btn {
 
 .download-blk h3 {
     font-size: 110%;
-    margin: 0.5em 0 0;
+    margin: 0.5em 0 0.5em 0;
 }
 
 .download-note {
