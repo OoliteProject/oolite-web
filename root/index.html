@@ -22,12 +22,12 @@
 
 <body>
 <div class="flex-row flex-jc-c site-wrapper">
-    <div class="flex-1 star-bg"></div>
+    <div class="flex-1 star-bg d-none d-xxl-block"></div>
 
-    <div class="site-menu star-bg">
-        <div id="navigation">
+    <div class="site-menu star-bg d-none d-lg-block">
+        <div id="navigation" class="navigation">
             <div class="logo-wrp">
-                <a href='#'><img src="https://addons.oolite.space/i/template/logo.png" alt="Oolite"></a>
+                <img src="https://addons.oolite.space/i/template/logo.png" alt="Oolite">
             </div>
 
             <ul class="nav nav-tabs flex-column" role="tablist">
@@ -38,13 +38,13 @@
                     </div>
                 </li>
                 <li class="nav-item" role="presentation">
-                    <div class="nav-link" id="nav-whatsnew-tab" data-bs-toggle="tab" data-bs-target="#page-whatsnew" role="tab" aria-controls="page-whatsnew" aria-selected="false">
+                    <div class="nav-link nav-whatsnew-tab" id="nav-whatsnew-tab" data-bs-toggle="tab" data-bs-target="#page-whatsnew" role="tab" aria-controls="page-whatsnew" aria-selected="false">
                         <span>What&#39;s new?</span>
                         <div class="nav-r-black"></div>
                     </div>
                 </li>
                 <li class="nav-item" role="presentation">
-                    <div class="nav-link" id="nav-download-tab" data-bs-toggle="tab" data-bs-target="#page-download" role="tab" aria-controls="page-download" aria-selected="false">
+                    <div class="nav-link nav-download-tab" id="nav-download-tab" data-bs-toggle="tab" data-bs-target="#page-download" role="tab" aria-controls="page-download" aria-selected="false">
                         <span>Download</span>
                         <div class="nav-r-black"></div>
                     </div>
@@ -75,7 +75,7 @@
                 </li>
             </ul>
 
-            <div id="quote" class="d-sm-none d-md-block">
+            <div id="quote">
                 <blockquote></blockquote><cite></cite>
             </div>
         </div>
@@ -83,39 +83,67 @@
 
     <div class="px-0 site-main">
         <div id="title-wrapper" class="ctrl-bg">
-            <h1 class="p-title d-sm-none d-md-block"></h1>
-            <h1 class="p-title p-title-small d-sm-block d-md-none"></h1>
+            <h1 class="p-title d-none d-md-block"></h1>
+            <h1 class="p-title p-title-small d-md-none"></h1>
+        </div>
+
+        <div id="h-navigation" class="navigation d-lg-none">
+            <ul class="nav nav-tabs nav-fill" role="tablist">
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link active" id="h-nav-home-tab" data-bs-toggle="tab" data-bs-target="#page-home" type="button" role="tab" aria-controls="page-home" aria-selected="true">About</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link nav-whatsnew-tab" id="h-nav-whatsnew-tab" data-bs-toggle="tab" data-bs-target="#page-whatsnew" type="button" role="tab" aria-controls="page-whatsnew" aria-selected="false">News</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link nav-download-tab" id="h-nav-download-tab" data-bs-toggle="tab" data-bs-target="#page-download" type="button" role="tab" aria-controls="page-download" aria-selected="false">Download</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="h-nav-started-tab" data-bs-toggle="tab" data-bs-target="#page-started" type="button" role="tab" aria-controls="page-started" aria-selected="false">Start!</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="h-nav-gallery-tab" data-bs-toggle="tab" data-bs-target="#page-gallery" type="button" role="tab" aria-controls="page-gallery" aria-selected="false">Gallery</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="h-nav-oxp-tab" data-bs-toggle="tab" data-bs-target="#page-oxp" type="button" role="tab" aria-controls="page-oxp" aria-selected="false">Expansions</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="h-nav-community-tab" data-bs-toggle="tab" data-bs-target="#page-community" type="button" role="tab" aria-controls="page-community" aria-selected="false">Community</button>
+                </li>
+            </ul>
         </div>
 
         <div id="content-wrapper" class="tab-content">
         <!-- = = = = PAGES BEGIN = = = = -->
 
         <!-- = = = = PAGE HOME BEGIN = = = = -->
-        <div id="page-home" class="row tab-pane fade show active" role="tabpanel" aria-labelledby="nav-home-tab" tabindex="0">
-            <div class="col-sm-12 col-md-9">
-                <div class="pt-2">
-                    <div id="intro-banner-items" class="carousel slide" data-bs-ride="carousel" data-bs-config='{"interval":8000}'>
-                        <div class="carousel-inner"></div>
-                        <button class="carousel-control-prev" type="button" data-bs-target="#intro-banner-items" data-bs-slide="prev">
-                             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                             <span class="visually-hidden">Previous</span>
-                        </button>
-                        <button class="carousel-control-next" type="button" data-bs-target="#intro-banner-items" data-bs-slide="next">
-                             <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                             <span class="visually-hidden">Next</span>
-                        </button>
+        <div id="page-home" class="tab-pane fade show active" role="tabpanel" aria-labelledby="nav-home-tab" tabindex="0">
+            <div class="row">
+                <div class="col-sm-12 col-md-9">
+                    <div class="pt-2">
+                        <div id="intro-banner-items" class="carousel slide" data-bs-ride="carousel" data-bs-config='{"interval":8000}'>
+                            <div class="carousel-inner"></div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#intro-banner-items" data-bs-slide="prev">
+                                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                 <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#intro-banner-items" data-bs-slide="next">
+                                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                 <span class="visually-hidden">Next</span>
+                            </button>
+                        </div>
                     </div>
+                    <div id="page-home-about" class="pt-3"></div>
                 </div>
-                <div id="page-home-about" class="pt-3"></div>
-            </div>
-            <div class="col-md-3 d-xs-none d-md-block pt-1">
-                <div id="news" class="pt-1">
-                    <h2>Latest News...</h2>
-                    <div id="news-items" class="d-none"></div>
-                </div>
-                <div id="oxp-news" class="pt-2">
-                    <h2>Latest Expansion Releases...</h2>
-                    <div id="oxp-news-items"></div>
+                <div class="col-md-3 d-none d-md-block pt-1">
+                    <div id="news" class="pt-1">
+                        <h2>Latest News...</h2>
+                        <div id="news-items" class="d-none"></div>
+                    </div>
+                    <div id="oxp-news" class="pt-2">
+                        <h2>Latest Expansion Releases...</h2>
+                        <div id="oxp-news-items"></div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -146,8 +174,8 @@
         <!-- = = = = PAGE GALLERY BEGIN = = = = -->
         <div id="page-gallery" class="tab-pane fade show" role="tabpanel" aria-labelledby="nav-gallery-tab" tabindex="4">
             <div id="gallery-buttons">
-                <span class="ctrl-btn btn-basic active">Basic Game</span>
-                <span class="ctrl-btn btn-oxp">Expansion Packs</span>
+                <span class="ctrl-btn btn-basic active">Basic<span class="small-l3"> Game</span></span>
+                <span class="ctrl-btn btn-oxp">Expansion<span class="small-l3"> Packs</span></span>
             </div>
             <div class="gallery basic-set">
                 <div class="basic-set">
@@ -197,49 +225,53 @@
         <!-- = = = = PAGE GALLERY END = = = = -->
 
         <!-- = = = = PAGE OXP BEGIN = = = = -->
-        <div id="page-oxp" class="row tab-pane fade show" role="tabpanel" aria-labelledby="nav-oxp-tab" tabindex="5">
-            <div class="col">
-                <div id="page-oxp-list">
-                    <p>There are well over a thousand expansion packs released for
-                    Oolite. There are two expansion pack formats in use since Oolite 1.80,
-                    usually referred to as OXZ and OXP. The OXZ format is more modern and
-                    can be downloaded and installed automatically by the game by selecting
-                    the "Manage Expansion Packs" option on the start screen. The OXP
-                    format is older, easier to tweak and must be installed manually.</p>
+        <div id="page-oxp" class="tab-pane fade show" role="tabpanel" aria-labelledby="nav-oxp-tab" tabindex="5">
+            <div>
+                <div class="oxp-disclaimer"><span style="color:#dc0001">&#10071;</span>
+                Expansions are created by community members and are provided "as-is",
+                with no warranty or guarantee whatsoever, and are not endorsed or vetted
+                by the Oolite development team. Please take the time to read the information
+                about an expansion before installing it.</div>
 
-                    <ul>
-                      <li>Almost all released expansion packs, regardless of format, are also listed on the Wiki's various <a href="https://wiki.alioth.net/index.php/Category:OXP_Lists">OXP List</a>.</li>
-                      <li>The Wiki is also home to the <a href="http://wiki.alioth.net/index.php/OXP_howto">developer documentation</a>.</li>
-                      <li>If you have difficulty with an expansion pack, it is usually best to report this in its thread in the <a href="http://aegidian.org/bb/viewforum.php?f=4">Expansion Pack forum</a>.</li>
-                      <!-- <li>If you are an expansion pack writer, you can <a target="_blank" href=" http://old.oolite.space/admin/">upload your manifest files</a> to the list.</li> -->
-                    </ul>
+                <p>There are well over a thousand expansion packs released for
+                Oolite. There are two expansion pack formats in use since Oolite 1.80,
+                usually referred to as OXZ and OXP. The OXZ format is more modern and
+                can be downloaded and installed automatically by the game by selecting
+                the "Manage Expansion Packs" option on the start screen. The OXP
+                format is older, easier to tweak and must be installed manually.</p>
 
-                    <p>The table below lists the OXZ expansion packs which can be automatically
-                    downloaded by Oolite 1.80 (or higher), as well as links for manual downloads
-                    if you prefer to do that. If you are still using Oolite 1.77.1 or an earlier
-                    version, these OXZ format expansion packs will not be usable.</p>
+                <ul>
+                  <li>Almost all released expansion packs, regardless of format, are also listed on the Wiki's various <a href="https://wiki.alioth.net/index.php/Category:OXP_Lists">OXP List</a>.</li>
+                  <li>The Wiki is also home to the <a href="http://wiki.alioth.net/index.php/OXP_howto">developer documentation</a>.</li>
+                  <li>If you have difficulty with an expansion pack, it is usually best to report this in its thread in the <a href="http://aegidian.org/bb/viewforum.php?f=4">Expansion Pack forum</a>.</li>
+                  <!-- <li>If you are an expansion pack writer, you can <a target="_blank" href=" http://old.oolite.space/admin/">upload your manifest files</a> to the list.</li> -->
+                </ul>
 
-                    <p style="color: #aaa; margin: 0; padding: 0; font-size: 90%;">Click column header to sort table.
-                    <a id="show-all-oxp-desc" href="#">Show remaining descriptions.</a></p>
+                <p>The table below lists the OXZ expansion packs which can be automatically
+                downloaded by Oolite 1.80 (or higher), as well as links for manual downloads
+                if you prefer to do that. If you are still using Oolite 1.77.1 or an earlier
+                version, these OXZ format expansion packs will not be usable.</p>
 
-                    <table class="table oxp-table mt-3">
-                        <thead>
-                        <tr>
-                            <th><a data-sort="c" href="#">Category</a></th>
-                            <th><a data-sort="t" href="#">Title</a></th>
-                            <th>&nbsp;</th>
-                            <th><a data-sort="a" href="#">Author</a></th>
-                            <th><a data-sort="d" href="#">Updated</a></th>
-                            <th>&nbsp;</th>
-                        </tr>
-                        </thead>
-                    </table>
-                    <div id="show-more-oxp" class="secondary-text">
-                        <p class="pt-3">Show more [ <a class="show-more-oxp" data-cnt="20" href="#">20</a>&nbsp;&nbsp;
-                        <a class="show-more-oxp" data-cnt="50" href="#">50</a>&nbsp;&nbsp;
-                        <a class="show-more-oxp" data-cnt="100" href="#">100</a>&nbsp;&nbsp;
-                        <a class="show-more-oxp" data-cnt="ALL" href="#">ALL</a> ]</p>
-                    </div>
+                <p style="color: #aaa; margin: 0; padding: 0; font-size: 90%;">Click column header to sort table.
+                <a id="show-all-oxp-desc" href="#">Show remaining descriptions.</a></p>
+
+                <table class="table oxp-table mt-3">
+                    <thead>
+                    <tr>
+                        <th><a data-sort="c" href="#">Category</a></th>
+                        <th><a data-sort="t" href="#">Title</a></th>
+                        <th class="small-l2">&nbsp;</th>
+                        <th class="small-l1"><a data-sort="a" href="#">Author</a></th>
+                        <th><a data-sort="d" href="#">Updated</a></th>
+                        <th>&nbsp;</th>
+                    </tr>
+                    </thead>
+                </table>
+                <div id="show-more-oxp" class="secondary-text">
+                    <p class="pt-3">Show more [ <a class="show-more-oxp" data-cnt="20" href="#">20</a>&nbsp;&nbsp;
+                    <a class="show-more-oxp" data-cnt="50" href="#">50</a>&nbsp;&nbsp;
+                    <a class="show-more-oxp" data-cnt="100" href="#">100</a>&nbsp;&nbsp;
+                    <a class="show-more-oxp" data-cnt="ALL" href="#">ALL</a> ]</p>
                 </div>
                 <div id="page-oxp-manager" class="d-none">
                     <div class="row pb-5 pt-2">
@@ -296,21 +328,21 @@
         </footer>
     </div>
 
-    <div class="flex-3 star-bg"></div>
+    <div class="flex-2 star-bg d-none d-xxl-block"></div>
 </div>
 
 <template id="version-navigator-tpl"><div class="version-navigator">
     <div class="flex-row flex-jc-sb">
         <div class="btn-wrp">
             <div class="vnav vnav-first btn-set-3 btn-set-4 btn-set-5"><span class="ctrl-btn">❮ ❮</span></div>
-            <div class="vnav vnav-prev btn-set-2 btn-set-3 btn-set-4 btn-set-5"><span class="ctrl-btn">❮&nbsp;&nbsp;<span class="d-sm-none d-md-inline">previously&nbsp;on&nbsp;Oolite</span></span></div>
-            <div class="vnav vnav-last btn-set-6"><span class="ctrl-btn">❮&nbsp;&nbsp;<span class="d-sm-none d-md-inline">back&nbsp;to&nbsp;Oolite&nbsp;stable</span></span></div>
+            <div class="vnav vnav-prev btn-set-2 btn-set-3 btn-set-4 btn-set-5"><span class="ctrl-btn">❮&nbsp;&nbsp;<span class="d-none d-md-inline">previously&nbsp;on&nbsp;Oolite</span></span></div>
+            <div class="vnav vnav-last btn-set-6"><span class="ctrl-btn">❮&nbsp;&nbsp;<span class="d-md-inline">back&nbsp;to&nbsp;Oolite&nbsp;stable</span></span></div>
         </div>
 
         <div class="btn-wrp">
-            <div class="vnav vnav-next btn-set-1 btn-set-2 btn-set-3"><span class="ctrl-btn"><span class="d-sm-none d-md-inline">back&nbsp;to&nbsp;the&nbsp;future&nbsp;of&nbsp;Oolite</span>&nbsp;&nbsp;❯</span></div>
+            <div class="vnav vnav-next btn-set-1 btn-set-2 btn-set-3"><span class="ctrl-btn"><span class="d-none d-md-inline">back&nbsp;to&nbsp;the&nbsp;future&nbsp;of&nbsp;Oolite</span>&nbsp;&nbsp;❯</span></div>
             <div class="vnav vnav-last btn-set-1 btn-set-2 btn-set-3"><span class="ctrl-btn">❯ ❯</span></div>
-            <div class="vnav vnav-nightly btn-set-4"><span class="ctrl-btn"><span class="d-sm-none d-md-inline">Oolite&nbsp;on&nbsp;the&nbsp;bleeding&nbsp;edge</span>&nbsp;&nbsp;❯</span></div>
+            <div class="vnav vnav-nightly btn-set-4"><span class="ctrl-btn"><span class="d-none d-md-inline">Oolite&nbsp;on&nbsp;the&nbsp;bleeding&nbsp;edge</span>&nbsp;&nbsp;❯</span></div>
         </div>
     </div>
 </div>
@@ -319,9 +351,9 @@
 <template id="oxp-tbl-tr-tpl"><tbody class="oxp-tr-gr{{cls}}">
 <tr class="oxp-tr-info">
   <td>{{cat}}</td>
-  <td><a href="{{info}}">{{title}}</a></td>
-  <td class="oxp-ver">{{ver}}</td>
-  <td>{{author}}</td>
+  <td>{{{title}}}</td>
+  <td class="oxp-ver small-l2">{{ver}}</td>
+  <td class="small-l1">{{author}}</td>
   <td class="oxp-up">{{up}}</td>
   <td><a href="{{dload}}" title="Download {{title}} v{{ver}}"><span class="dload-img"></span></a></td>
 </tr>

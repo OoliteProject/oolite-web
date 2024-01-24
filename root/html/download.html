@@ -4,29 +4,27 @@
     <p>The latest release of Oolite is version <span class="oo-stable-ver"></span>, released  <span class="oo-stable-date"></span>.
     This is the version recommended for playing the game.</p>
 
-    <div class="flex-row flex-jc-sb">
+    <div class="download-blk-wrp">
         <div class="download-blk">
             <h3>Mac OS X</h3>
-            <p class="req">Mac OS 10.6 or later</p>
             <ul>
-                <li><a class="oo-download" href="https://github.com/OoliteProject/oolite/releases/download/{0}/Oolite-{0}.zip">Oolite for Mac</a></li>
-                <li>Add <a href="https://github.com/HiranChaudhuri/OoliteStarter/releases">OoliteStarter</a> to install Oolite expansions.</li>
+                <li><a class="oo-download" href="https://github.com/OoliteProject/oolite/releases/download/{0}/Oolite-{0}.zip">Oolite for Mac</a>&nbsp;*</li>
+                <li><div class="pt-4 small">* <span class="download-note">Mac OS 10.6 or later required.</span></div></li>
             </ul>
         </div>
         <div class="download-blk">
             <h3>Windows</h3>
-            <p class="req">Vista Service Pack 2 or later</p>
             <ul>
-                <li><a class="oo-download" href="https://github.com/OoliteProject/oolite/releases/download/{0}/Oolite-{0}_x64.exe">Oolite for 64-bit Windows</a></li>
-                <li>Add <a href="https://github.com/HiranChaudhuri/OoliteStarter/releases">OoliteStarter</a> to install Oolite expansions.</li>
+                <li><a class="oo-download" href="https://github.com/OoliteProject/oolite/releases/download/{0}/Oolite-{0}_x64.exe">Oolite for 64-bit Windows</a>&nbsp;*</li>
+                <li><a class="oo-download" href="https://github.com/OoliteProject/oolite/releases/download/1.90/Oolite-1.90_x86.exe">Oolite for 32-bit Windows</a>&nbsp;**</li>
+                <li><div class="pt-4 small">* <span class="download-note">Windows 7 Service Pack 1 or later required.</span></div></li>
+                <li class="small">** <span class="download-note">v1.90 is the last version to support 32-bit Windows.</span></li>
             </ul>
         </div>
         <div class="download-blk">
             <h3>Linux</h3>
-            <p class="req">x86_64 supported</p>
             <ul>
                 <li><a class="oo-download" href="https://github.com/OoliteProject/oolite/releases/download/{0}/oolite-{0}.linux-x86_64.tgz">Oolite for 64-bit Linux</a></li>
-                <li>Add <a href="https://github.com/HiranChaudhuri/OoliteStarter/releases">OoliteStarter</a> to install Oolite expansions.</li>
             </ul>
         </div>
     </div>
@@ -40,8 +38,26 @@
         <p>If you are interested in porting Oolite to another system, let us know on the <a href="http://aegidian.org/bb/viewforum.php?f=5">porting forum</a>.</p>
     </div>
 
-    <div class="imgbar imgbar-starfield clear"></div>
+    <h2>Oolite Starter</h2>
+    <p>
+    <b>OoliteStarter</b> is a versatile, open-source tool that is designed to simplify the process of setting up and managing Oolite.
+    It was created to assist users in configuring Oolite for various purposes, including gameplay, modding, and development.
+    By streamlining the process, OoliteStarter helps users save time and effort, making it easier for them to enjoy the Oolite experience.
+    Main features:
+    </p>
+    <ul style="margin-top: -0.8em;">
+      <li>Allows installations of the expansions from our new site <a href="https://oolite.space">oolite.space</a></li>
+      <li>Visualizes the known interdependencies or conflicts of expansions</li>
+      <li>Allows the sharing of expansion sets with other players - or your future self!</li>
+      <li>Remembers which expansions were installed when playing/saving a game</li>
+    </ul>
+    <p>
+    Download <a href="https://github.com/HiranChaudhuri/OoliteStarter/releases">OoliteStarter</a> from GitHub.<br/>
+    Full details can be found on the <a href="https://https://wiki.alioth.net/index.php/Oolite_Starter">wiki</a>.<br/>
+    Discussions and suggestions on our <a href="https://aegidian.org/bb/viewtopic.php?f=2&t=21552&p=293282">forum</a>.
+    </p>
 
+    <div class="imgbar imgbar-starfield"></div>
 
     <h2>OXP Developer releases</h2>
     <p>The main downloads are optimised for maximum in-game performance and are recommended for players.
@@ -49,29 +65,31 @@
     The following extra features are enabled in these releases at the expense of performance.</p>
 
     <ul>
-        <li>    Debug OXP and Debug Console are supported.<br>
-                  <p>On all platforms, installing <a href="http://wiki.alioth.net/index.php/Debug_OXP">Debug.oxp</a>
-                  enables support for external console applications using the
-                  <a href="http://wiki.alioth.net/index.php/Oolite_debug_console_TCP_protocol">
-                  Oolite debug console TCP protocol</a>. 
-                  <a href="https://github.com/OoliteProject/oolite-debug-console/releases/download/v1.6/OoDebugConsole1.6.zip">OoDebugConsole1.6.zip</a>
-                  is an example of a cross-platform, python based, external console application. 
-                  It contains a precompiled console for windows based computers, and the original python
-                  based console for Linux and Posix compliant computers. </p>
+        <li>
+            <div class="pb-2">Debug OXP and Debug Console are supported.</div>
+            On all platforms, installing <a href="http://wiki.alioth.net/index.php/Debug_OXP">Debug.oxp</a>
+            enables support for external console applications using the
+            <a href="http://wiki.alioth.net/index.php/Oolite_debug_console_TCP_protocol">Oolite debug console TCP protocol</a>.
+            <div class="pt-2">
+            <a href="https://github.com/OoliteProject/oolite-debug-console/releases/download/v1.6/OoDebugConsole1.6.zip">OoDebugConsole1.6.zip</a>
+            is an example of a cross-platform, python based, external console application. 
+            It contains a precompiled console for windows based computers, and the original python
+            based console for Linux and Posix compliant computers;
+            </div>
         </li>
-        <li>    OXP Verifier functionality is included.</li>
-        <li>    OXP Deprecation warnings are enabled.</li>
-        <li>    Localization tools support is included.</li>
-        <li>    AI Graphviz support is included.</li>
-        <li>    Debug information is added. (e.g. AI stack, collision, dump target state, entities, memory usage, script tracing etc.)</li>
-        <li>    JS monitor support is enabled.</li>
-        <li>    The JS method <code>takeSnapshot()</code> is enabled.</li>
-        <li>    Time Acceleration Factor (TAF) is enabled.</li>
-        <li>    Shift-F displays FPS, entities, coordinates and TAF info.</li>
-        <li>    Sanity checks are included.</li>
+        <li>OXP Verifier functionality is included;</li>
+        <li>OXP Deprecation warnings are enabled;</li>
+        <li>Localization tools support is included;</li>
+        <li>AI Graphviz support is included;</li>
+        <li>Debug information is added. (e.g. AI stack, collision, dump target state, entities, memory usage, script tracing etc.);</li>
+        <li>JS monitor support is enabled;</li>
+        <li>The JS method <code>takeSnapshot()</code> is enabled;</li>
+        <li>Time Acceleration Factor (TAF) is enabled;</li>
+        <li>Shift-F displays FPS, entities, coordinates and TAF info;</li>
+        <li>Sanity checks are included.</li>
     </ul>
 
-    <div class="flex-row flex-jc-sb">
+    <div class="download-blk-wrp">
         <div class="download-blk">
             <h3>Mac OS X</h3>
             <ul>
@@ -82,6 +100,7 @@
             <h3>Windows</h3>
             <ul>
                 <li><a class="oo-download" href="https://github.com/OoliteProject/oolite/releases/download/{0}/Oolite-{0}_x64-Deployment-to-Test-Release.exe ">Developer Release converter for 64-bit Windows</a></li>
+                <li><a class="oo-download" href="https://github.com/OoliteProject/oolite/releases/download/{0}/Oolite-{0}_x86-Deployment-to-Test-Release.exe ">Developer Release converter for 32-bit Windows</a></li>
             </ul>
         </div>
         <div class="download-blk">
@@ -92,13 +111,13 @@
         </div>
     </div>
 
-    <div class="imgbar imgbar-starfield clear"></div>
+    <div class="imgbar imgbar-starfield"></div>
 
 
-    <h2 id="nightlybuilds">Nightly builds</h2>
+    <h2 id="nightlybuilds">Pre-Releases</h2>
 
     <p>The next version of Oolite is being developed, with frequent
-    changes. Nightly builds of the latest source are available for
+    changes. Pre-Releases of the latest source are available for
     testers.</p>
 
     <p><strong>Warning: these builds may at any time contain serious
@@ -107,13 +126,15 @@
     your saved games before using them.</strong></p>
 
     <p>If you would like to try out the latest code, and give us
-    feedback on the new features, then you can find the Oolite nightly build 
-    installer on <a href="https://github.com/OoliteProject/oolite/releases/tag/latest">Oolite GitHub</a>.
+    feedback on the new features, then you can find the pre-released Oolite installer on <a href="https://github.com/OoliteProject/oolite/releases">Oolite GitHub</a>.
     </p>
 
     <h2>Building from source</h2>
 
-    <p>You can obtain the Oolite source from <a href="https://github.com/OoliteProject/oolite">GitHub Source Code</a> repo. Instructions on building from source depend on your operating system and can be found on the <a href="http://wiki.alioth.net/index.php/Oolite_Instruction_Manual">wiki</a>.</p>
+    <p>You can obtain the Oolite source from <a href="https://github.com/OoliteProject/oolite">GitHub Source Code</a> repo. Instructions on building from source depend on your operating system
+       and can be found on the <a href="http://wiki.alioth.net/index.php/Oolite_Instruction_Manual">wiki</a>. 
+       You can also inspect the Github Workflow <a href="https://github.com/OoliteProject/oolite/blob/latest/.github/workflows/build-all.yml">build-all.yml</a> that automatically builds Oolite for all
+       supported platforms.</p>
 
-    <div class="imgbar imgbar-starfield clear"></div>
+    <div class="imgbar imgbar-starfield"></div>
 </div>

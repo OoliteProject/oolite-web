@@ -64,7 +64,7 @@ const mainMenu = (()=>{
     fScroll = false;
 
     const _init = (config) => {
-        $on( '#navigation .nav-link', 'show.bs.tab', el => {
+        $on( '.navigation .nav-link', 'show.bs.tab', el => {
             let t = $attr( el, 'data-bs-target' );
             currentPage = t.split('-')[1];
             titleManager.set(currentPage);
@@ -98,6 +98,8 @@ const mainMenu = (()=>{
         try {
             const tb = new bootstrap.Tab(`#nav-${name}-tab`);
             tb.show();
+            const tbh = new bootstrap.Tab(`#h-nav-${name}-tab`);
+            if (tbh) tbh.show();
         }
         catch (err) { };
     };
@@ -443,14 +445,16 @@ const oxpManager = (()=>{
                 : i < visible ? ''
                 : ' d-none';
 
+            const title = d.information_url
+                ? `<a href="${d.information_url}">${d.title}</a>`
+                : `<span class="oxp-title">${d.title}</span>`;
             html += mustache.render(tplHtml, {
                 cls: cls,
                 cat: d.category,
-                info: d.information_url,
-                title: d.title,
+                title: title,
                 ver: d.version,
                 author: d.author,
-                up: epochToYMD(d.upload_date),
+                up: d.upload_date ? epochToYMD(d.upload_date) : 'unknown',
                 dload: d.download_url,
                 desc: d.description
             });
@@ -479,8 +483,11 @@ const oxpManager = (()=>{
             let f = t === 'c' ? 'category'
                   : t === 't' ? 'title'
                   : t === 'a' ? 'author' : false;
-            if (f)
-                sfn = (a,b) => { if (a[f] > b[f]) return d1; if (a[f] < b[f]) return d2; };
+            if (f) sfn = (a,b) => {
+                const aa=a[f] ? a[f].toLowerCase() : '';
+                const bb=b[f] ? b[f].toLowerCase() : '';
+                if (aa > bb) return d1; if (aa < bb) return d2;
+            };
         }
         if ( curSort === t ) curDir = -curDir;
         d1 = curDir, d2 = -curDir;
