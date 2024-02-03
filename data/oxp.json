@@ -1513,7 +1513,7 @@
   },
   {
     "identifier":"oolite.oxp.CaptMurphy.ExplorersClub",
-    "version":"1.4.4",
+    "version":"1.4.6",
     "required_oolite_version":"1.80",
     "maximum_oolite_version":null,
     "title":"Explorers' Club",
@@ -1523,8 +1523,8 @@
     "license":"CC-BY-NC-SA 3.0",
     "download_url":"https://wiki.alioth.net/img_auth.php/5/55/Explorers_Club_1.4.4.oxz",
     "information_url":"http://wiki.alioth.net/index.php/Explorers%27_Club_OXP",
-    "file_size":271957,
-    "upload_date":1610873301,
+    "file_size":271948,
+    "upload_date":1706939844,
     "tags":[
       "charts"
     ],
@@ -11207,8 +11207,8 @@
     "license":"CC-BY-NC-SA 3.0",
     "download_url":"https://wiki.alioth.net/img_auth.php/e/e8/Distant_Space.oxz",
     "information_url":"https://wiki.alioth.net/index.php/Distant_Realms",
-    "file_size":4290,
-    "upload_date":1706884672,
+    "file_size":4287,
+    "upload_date":1706930693,
     "tags":[
       "charts"
     ],
@@ -14091,7 +14091,7 @@
   },
   {
     "identifier":"oolite.oxp.phkb.ExternalDockSystem",
-    "version":"1.1",
+    "version":"1.2",
     "required_oolite_version":"1.85",
     "maximum_oolite_version":null,
     "title":"External Dock System",
@@ -14099,10 +14099,10 @@
     "category":"Mechanics",
     "author":"phkb",
     "license":"CC-BY-NC-SA 4.0",
-    "download_url":"https://wiki.alioth.net/img_auth.php/a/a0/ExternalDockingSystem.oxz",
+    "download_url":"https://wiki.alioth.net/img_auth.php/d/d4/ExternalDockingSystem_1.2.oxz",
     "information_url":"https://wiki.alioth.net/index.php/External_Dock_System",
-    "file_size":4492,
-    "upload_date":1706919277,
+    "file_size":5239,
+    "upload_date":1706970713,
     "tags":[
     ],
     "conflict_oxps":[
@@ -14114,7 +14114,7 @@
   },
   {
     "identifier":"oolite.oxp.phkb.ExtraRockHermits",
-    "version":"1.1",
+    "version":"1.2",
     "required_oolite_version":"1.84",
     "maximum_oolite_version":null,
     "title":"Extra Rock Hermits",
@@ -14122,10 +14122,10 @@
     "category":"Dockables",
     "author":"phkb, Griff",
     "license":"CC-BY-SA-NC 4.0",
-    "download_url":"https://wiki.alioth.net/img_auth.php/c/cf/ExtraRockHermits.oxz",
+    "download_url":"https://wiki.alioth.net/img_auth.php/4/47/ExtraRockHermits_1.2.oxz",
     "information_url":"https://wiki.alioth.net/index.php/Extra_Rock_Hermits",
-    "file_size":23313646,
-    "upload_date":1706919228,
+    "file_size":23313682,
+    "upload_date":1706970815,
     "tags":[
     ],
     "conflict_oxps":[
@@ -15444,7 +15444,7 @@
   },
   {
     "identifier":"oolite.oxp.phkb.SpacebarFacelift",
-    "version":"1.1",
+    "version":"1.2",
     "required_oolite_version":"1.85",
     "maximum_oolite_version":null,
     "title":"Spacebar Face Lift",
@@ -15452,10 +15452,10 @@
     "category":"Retextures",
     "author":"phkb",
     "license":"CC-BY-NC-SA 4.0",
-    "download_url":"https://wiki.alioth.net/img_auth.php/d/d3/SpaceBarFaceLift.oxz",
+    "download_url":"https://wiki.alioth.net/img_auth.php/3/37/SpaceBarFaceLift_1.2.oxz",
     "information_url":null,
-    "file_size":12241460,
-    "upload_date":1706919311,
+    "file_size":12241498,
+    "upload_date":1706970773,
     "tags":[
     ],
     "conflict_oxps":[
@@ -21830,7 +21830,7 @@
   },
   {
     "identifier":"oolite.oxp.zzz.Montana05.KillerWolf.nuit_station",
-    "version":"2.1",
+    "version":"2.2",
     "required_oolite_version":"1.88",
     "maximum_oolite_version":null,
     "title":"Nuit Space Station",
@@ -21838,10 +21838,10 @@
     "category":"Dockables",
     "author":"Killer Wolf, Griff, Montana05, phkb",
     "license":"CC BY-NC-SA 4.0",
-    "download_url":"https://wiki.alioth.net/img_auth.php/9/9a/Nuit_Station_2.0.oxz",
+    "download_url":"https://wiki.alioth.net/img_auth.php/5/5a/Nuit_Station_2.2.oxz",
     "information_url":"https://wiki.alioth.net/index.php/Nuit_Space_Station_OXP",
-    "file_size":22685380,
-    "upload_date":1706919362,
+    "file_size":22685593,
+    "upload_date":1706970858,
     "tags":[
       "station",
       "ships"
