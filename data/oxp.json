@@ -11197,18 +11197,18 @@
   },
   {
     "identifier":"oolite.oxp.Wildeblood.DistantSpace",
-    "version":"0.3",
+    "version":"1.0",
     "required_oolite_version":"1.81",
     "maximum_oolite_version":null,
     "title":"Distant Realms",
-    "description":"On the long-range navigation charts, replaces the galactic chart numbers with the real names of the various galactic regions.",
+    "description":"On the galactic navigation chart, replaces the screen title with the names of various galactic regions as planets are selected on the chart.",
     "category":"Ambience",
     "author":"Wildeblood",
     "license":"CC-BY-NC-SA 3.0",
     "download_url":"https://wiki.alioth.net/img_auth.php/e/e8/Distant_Space.oxz",
-    "information_url":null,
-    "file_size":1728,
-    "upload_date":1610873504,
+    "information_url":"https://wiki.alioth.net/index.php/Distant_Realms",
+    "file_size":4290,
+    "upload_date":1706884672,
     "tags":[
       "charts"
     ],
@@ -14090,6 +14090,52 @@
     ]
   },
   {
+    "identifier":"oolite.oxp.phkb.ExternalDockSystem",
+    "version":"1.1",
+    "required_oolite_version":"1.85",
+    "maximum_oolite_version":null,
+    "title":"External Dock System",
+    "description":"Provides a means by which stations can have external docking points.",
+    "category":"Mechanics",
+    "author":"phkb",
+    "license":"CC-BY-NC-SA 4.0",
+    "download_url":"https://wiki.alioth.net/img_auth.php/a/a0/ExternalDockingSystem.oxz",
+    "information_url":"https://wiki.alioth.net/index.php/External_Dock_System",
+    "file_size":4492,
+    "upload_date":1706919277,
+    "tags":[
+    ],
+    "conflict_oxps":[
+    ],
+    "optional_oxps":[
+    ],
+    "requires_oxps":[
+    ]
+  },
+  {
+    "identifier":"oolite.oxp.phkb.ExtraRockHermits",
+    "version":"1.1",
+    "required_oolite_version":"1.84",
+    "maximum_oolite_version":null,
+    "title":"Extra Rock Hermits",
+    "description":"Adds some extra Rock Hermit styles, based on Griff's Space Bar model.",
+    "category":"Dockables",
+    "author":"phkb, Griff",
+    "license":"CC-BY-SA-NC 4.0",
+    "download_url":"https://wiki.alioth.net/img_auth.php/c/cf/ExtraRockHermits.oxz",
+    "information_url":"https://wiki.alioth.net/index.php/Extra_Rock_Hermits",
+    "file_size":23313646,
+    "upload_date":1706919228,
+    "tags":[
+    ],
+    "conflict_oxps":[
+    ],
+    "optional_oxps":[
+    ],
+    "requires_oxps":[
+    ]
+  },
+  {
     "identifier":"oolite.oxp.phkb.FactoryPaintJobs_Adder",
     "version":"1.0",
     "required_oolite_version":"1.80",
@@ -15397,6 +15443,35 @@
     ]
   },
   {
+    "identifier":"oolite.oxp.phkb.SpacebarFacelift",
+    "version":"1.1",
+    "required_oolite_version":"1.85",
+    "maximum_oolite_version":null,
+    "title":"Spacebar Face Lift",
+    "description":"Updates the look of Seed Space Bars, and adds an external docking port (if the External Docking System is installed)",
+    "category":"Retextures",
+    "author":"phkb",
+    "license":"CC-BY-NC-SA 4.0",
+    "download_url":"https://wiki.alioth.net/img_auth.php/d/d3/SpaceBarFaceLift.oxz",
+    "information_url":null,
+    "file_size":12241460,
+    "upload_date":1706919311,
+    "tags":[
+    ],
+    "conflict_oxps":[
+    ],
+    "optional_oxps":[
+    ],
+    "requires_oxps":[
+      {
+        "identifier":"oolite.oxp.spara.random_hits",
+        "version":null,
+        "maximum_version":null,
+        "description":null
+      }
+    ]
+  },
+  {
     "identifier":"oolite.oxp.phkb.StationDockControl",
     "version":"1.1.27",
     "required_oolite_version":"1.80",
@@ -15554,7 +15629,7 @@
   },
   {
     "identifier":"oolite.oxp.phkb.VimanaX_HUD",
-    "version":"1.14",
+    "version":"1.15",
     "required_oolite_version":"1.81",
     "maximum_oolite_version":null,
     "title":"Vimana-X HUD",
@@ -15562,10 +15637,10 @@
     "category":"HUD",
     "author":"Gnievmir, phkb",
     "license":"CC BY-SA 4.0",
-    "download_url":"https://wiki.alioth.net/img_auth.php/e/ed/VimanaX_HUD_1.14.oxz",
+    "download_url":"https://wiki.alioth.net/img_auth.php/b/b4/VimanaX_HUD_1.15.oxz",
     "information_url":"https://wiki.alioth.net/index.php/Vimana-X_HUD",
-    "file_size":21616772,
-    "upload_date":1703039494,
+    "file_size":21808211,
+    "upload_date":1706919175,
     "tags":[
     ],
     "conflict_oxps":[
@@ -21755,18 +21830,18 @@
   },
   {
     "identifier":"oolite.oxp.zzz.Montana05.KillerWolf.nuit_station",
-    "version":"1.51",
+    "version":"2.1",
     "required_oolite_version":"1.88",
     "maximum_oolite_version":null,
     "title":"Nuit Space Station",
     "description":"A large space station which in some advanced systems with stable governments could be found next to the main planet. For more details please check the wiki page.",
     "category":"Dockables",
-    "author":"Killer Wolf, Griff, Montana05",
+    "author":"Killer Wolf, Griff, Montana05, phkb",
     "license":"CC BY-NC-SA 4.0",
-    "download_url":"https://wiki.alioth.net/img_auth.php/8/8a/Oolite.oxp.zzz.Montana05.KillerWolf.nuit_station.OXZ",
+    "download_url":"https://wiki.alioth.net/img_auth.php/9/9a/Nuit_Station_2.0.oxz",
     "information_url":"https://wiki.alioth.net/index.php/Nuit_Space_Station_OXP",
-    "file_size":13665914,
-    "upload_date":1703055377,
+    "file_size":22685380,
+    "upload_date":1706919362,
     "tags":[
       "station",
       "ships"
