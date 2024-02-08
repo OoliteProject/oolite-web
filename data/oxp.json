@@ -21830,7 +21830,7 @@
   },
   {
     "identifier":"oolite.oxp.zzz.Montana05.KillerWolf.nuit_station",
-    "version":"2.2",
+    "version":"2.3",
     "required_oolite_version":"1.88",
     "maximum_oolite_version":null,
     "title":"Nuit Space Station",
@@ -21838,10 +21838,10 @@
     "category":"Dockables",
     "author":"Killer Wolf, Griff, Montana05, phkb",
     "license":"CC BY-NC-SA 4.0",
-    "download_url":"https://wiki.alioth.net/img_auth.php/5/5a/Nuit_Station_2.2.oxz",
+    "download_url":"https://wiki.alioth.net/img_auth.php/3/33/Nuit_Station_2.3.oxz",
     "information_url":"https://wiki.alioth.net/index.php/Nuit_Space_Station_OXP",
-    "file_size":22685593,
-    "upload_date":1706970858,
+    "file_size":28895742,
+    "upload_date":1707362701,
     "tags":[
       "station",
       "ships"
