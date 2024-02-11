@@ -14735,7 +14735,7 @@
   },
   {
     "identifier":"oolite.oxp.phkb.GalacticRegistry",
-    "version":"5.7",
+    "version":"5.8",
     "required_oolite_version":"1.79",
     "maximum_oolite_version":null,
     "title":"Galactic Registry",
@@ -14743,10 +14743,10 @@
     "category":"Ambience",
     "author":"phkb",
     "license":"CC-BY-NC-SA 3.0",
-    "download_url":"https://wiki.alioth.net/img_auth.php/a/a8/GalCopGalacticRegistry_5.7.oxz",
+    "download_url":"https://wiki.alioth.net/img_auth.php/e/e4/GalCopGalacticRegistry_5.8.oxz",
     "information_url":"http://wiki.alioth.net/index.php/GalCop_Galactic_Registry",
-    "file_size":31893,
-    "upload_date":1706923542,
+    "file_size":31944,
+    "upload_date":1707625359,
     "tags":[
     ],
     "conflict_oxps":[
