@@ -15001,7 +15001,7 @@
   },
   {
     "identifier":"oolite.oxp.phkb.MissileSummary",
-    "version":"1.4",
+    "version":"1.5",
     "required_oolite_version":"1.80",
     "maximum_oolite_version":null,
     "title":"Missile Summary",
@@ -15009,10 +15009,10 @@
     "category":"Miscellaneous",
     "author":"phkb",
     "license":"CC-BY-SA 4.0",
-    "download_url":"https://wiki.alioth.net/img_auth.php/0/0e/MissileSummary_1.4.oxz",
+    "download_url":"https://wiki.alioth.net/img_auth.php/6/6b/MissileSummary_1.5.oxz",
     "information_url":"https://wiki.alioth.net/index.php/Missile_Summary",
-    "file_size":4404,
-    "upload_date":1704839807,
+    "file_size":4358,
+    "upload_date":1707740221,
     "tags":[
     ],
     "conflict_oxps":[
