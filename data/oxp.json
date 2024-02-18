@@ -1,5 +1,28 @@
 [
   {
+    "identifier":null,
+    "version":null,
+    "required_oolite_version":null,
+    "maximum_oolite_version":null,
+    "title":null,
+    "description":null,
+    "category":null,
+    "author":null,
+    "license":null,
+    "download_url":"https://wiki.alioth.net/img_auth.php/d/d0/DisoIsJupiter8k.oxz",
+    "information_url":null,
+    "file_size":39653020,
+    "upload_date":1708215004,
+    "tags":[
+    ],
+    "conflict_oxps":[
+    ],
+    "optional_oxps":[
+    ],
+    "requires_oxps":[
+    ]
+  },
+  {
     "identifier":"DTT.Atlas 1.1.Paradox",
     "version":"1.0",
     "required_oolite_version":"1.79",
@@ -12178,29 +12201,6 @@
     ]
   },
   {
-    "identifier":"oolite.oxp.another_commander.DisoIsJupiter8k",
-    "version":"1.0",
-    "required_oolite_version":"1.89",
-    "maximum_oolite_version":null,
-    "title":"Diso is Jupiter 8k",
-    "description":"Converts Diso to Jupiter by fully retexturing it with an 8k diffuse texture. This is a demonstration of the custom planet texturing capabilities present in Oolite version 1.89 and later.",
-    "category":"Ambience",
-    "author":null,
-    "license":"CC BY 3.0",
-    "download_url":"https://wiki.alioth.net/img_auth.php/d/d0/DisoIsJupiter8k.oxz",
-    "information_url":"http://wiki.alioth.net/index.php/Diso_is_Jupiter_8k",
-    "file_size":39641895,
-    "upload_date":1610873478,
-    "tags":[
-    ],
-    "conflict_oxps":[
-    ],
-    "optional_oxps":[
-    ],
-    "requires_oxps":[
-    ]
-  },
-  {
     "identifier":"oolite.oxp.another_commander.LaveIsEarth8k",
     "version":"1.2",
     "required_oolite_version":"1.89",
@@ -12822,29 +12822,6 @@
     "information_url":"http://wiki.alioth.net/index.php/Curse_of_the_Black_Sunspot",
     "file_size":651873,
     "upload_date":1397678091,
-    "tags":[
-    ],
-    "conflict_oxps":[
-    ],
-    "optional_oxps":[
-    ],
-    "requires_oxps":[
-    ]
-  },
-  {
-    "identifier":"oolite.oxp.cim.energy-bomb",
-    "version":"1.0.2",
-    "required_oolite_version":"1.79",
-    "maximum_oolite_version":null,
-    "title":"Energy Bomb",
-    "description":"The original indiscriminate superweapon. Available as primable equipment from TL:8 systems and above. Previous versions of this expansion pack are not compatible with Oolite 1.79 or later.",
-    "category":"Weapons",
-    "author":"cim",
-    "license":"CC-BY-NC-SA 3.0",
-    "download_url":"https://cim.sotl.org.uk/games/files/oolite/EnergyBomb_1.0.2.oxz",
-    "information_url":"http://wiki.alioth.net/index.php/Energy_Bomb",
-    "file_size":1906,
-    "upload_date":1417342940,
     "tags":[
     ],
     "conflict_oxps":[
