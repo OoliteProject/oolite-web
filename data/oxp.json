@@ -834,7 +834,7 @@
   },
   {
     "identifier":"oolie.oxp.redspear.janes_galactic_shipset",
-    "version":"1.1",
+    "version":"1.2",
     "required_oolite_version":"1.86",
     "maximum_oolite_version":null,
     "title":"Jane's Galactic Shipset",
@@ -844,8 +844,8 @@
     "license":"CC-BY-NC-SA 4.0",
     "download_url":"https://wiki.alioth.net/img_auth.php/e/ed/Oolite.oxp.redspear.janes_galactic_shipset.oxz",
     "information_url":null,
-    "file_size":2129,
-    "upload_date":1671142373,
+    "file_size":2015,
+    "upload_date":1708296642,
     "tags":[
     ],
     "conflict_oxps":[
@@ -12832,6 +12832,29 @@
     ]
   },
   {
+    "identifier":"oolite.oxp.cim.energy-bomb",
+    "version":"1.0.2",
+    "required_oolite_version":"1.79",
+    "maximum_oolite_version":null,
+    "title":"Energy Bomb",
+    "description":"The original indiscriminate superweapon. Available as primable equipment from TL:8 systems and above. Previous versions of this expansion pack are not compatible with Oolite 1.79 or later.",
+    "category":"Weapons",
+    "author":"cim",
+    "license":"CC-BY-NC-SA 3.0",
+    "download_url":"https://cim.sotl.org.uk/games/files/oolite/EnergyBomb_1.0.2.oxz",
+    "information_url":"http://wiki.alioth.net/index.php/Energy_Bomb",
+    "file_size":1906,
+    "upload_date":1417342940,
+    "tags":[
+    ],
+    "conflict_oxps":[
+    ],
+    "optional_oxps":[
+    ],
+    "requires_oxps":[
+    ]
+  },
+  {
     "identifier":"oolite.oxp.cim.escort-formations",
     "version":"1.3",
     "required_oolite_version":"1.79",
@@ -14588,7 +14611,7 @@
   },
   {
     "identifier":"oolite.oxp.phkb.GalCopMissions",
-    "version":"0.6.9",
+    "version":"0.7.0",
     "required_oolite_version":"1.84",
     "maximum_oolite_version":null,
     "title":"GalCop Missions",
@@ -14596,10 +14619,10 @@
     "category":"Missions",
     "author":"phkb",
     "license":"CC-BY-NC-SA 4.0",
-    "download_url":"https://wiki.alioth.net/img_auth.php/1/1c/GalCopMissions_0.6.9.oxz",
+    "download_url":"https://wiki.alioth.net/img_auth.php/2/2f/GalCopMissons_0.7.0.oxz",
     "information_url":"https://wiki.alioth.net/index.php/GalCop_Missions",
-    "file_size":4546755,
-    "upload_date":1701572005,
+    "file_size":4546795,
+    "upload_date":1708296735,
     "tags":[
     ],
     "conflict_oxps":[
