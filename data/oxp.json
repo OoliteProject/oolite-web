@@ -11150,7 +11150,7 @@
   },
   {
     "identifier":"oolite.oxp.Wildeblood.BulletDrive",
-    "version":"1.0.3",
+    "version":"1.0.4",
     "required_oolite_version":"1.80",
     "maximum_oolite_version":null,
     "title":"Bullet Drive",
@@ -11160,8 +11160,8 @@
     "license":"CC-BY-NC-SA 3.0",
     "download_url":"https://wiki.alioth.net/img_auth.php/f/f5/Bullet_Drive_1.0.3.oxz",
     "information_url":"http://aegidian.org/bb/viewtopic.php?f=4&t=13184",
-    "file_size":1780,
-    "upload_date":1610873515,
+    "file_size":2700,
+    "upload_date":1708303218,
     "tags":[
     ],
     "conflict_oxps":[
