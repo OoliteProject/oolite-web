@@ -1,28 +1,5 @@
 [
   {
-    "identifier":null,
-    "version":null,
-    "required_oolite_version":null,
-    "maximum_oolite_version":null,
-    "title":null,
-    "description":null,
-    "category":null,
-    "author":null,
-    "license":null,
-    "download_url":"https://wiki.alioth.net/img_auth.php/d/d0/DisoIsJupiter8k.oxz",
-    "information_url":null,
-    "file_size":39653020,
-    "upload_date":1708215004,
-    "tags":[
-    ],
-    "conflict_oxps":[
-    ],
-    "optional_oxps":[
-    ],
-    "requires_oxps":[
-    ]
-  },
-  {
     "identifier":"DTT.Atlas 1.1.Paradox",
     "version":"1.0",
     "required_oolite_version":"1.79",
@@ -12192,6 +12169,31 @@
     "file_size":110153918,
     "upload_date":1610873275,
     "tags":[
+    ],
+    "conflict_oxps":[
+    ],
+    "optional_oxps":[
+    ],
+    "requires_oxps":[
+    ]
+  },
+  {
+    "identifier":"oolite.oxp.another_commander.DisoIsJupiter8k",
+    "version":"1.0",
+    "required_oolite_version":"1.89",
+    "maximum_oolite_version":null,
+    "title":"Diso is Jupiter 8k",
+    "description":"Converts Diso to Jupiter by fully retexturing it with an 8k diffuse texture. This is a demonstration of the custom planet texturing capabilities present in Oolite version 1.89 and later.",
+    "category":"Ambience",
+    "author":"another_commander",
+    "license":"CC BY 3.0",
+    "download_url":"https://wiki.alioth.net/img_auth.php/d/d0/DisoIsJupiter8k.oxz",
+    "information_url":"http://wiki.alioth.net/index.php/Diso_is_Jupiter_8k",
+    "file_size":39652024,
+    "upload_date":1708304088,
+    "tags":[
+      "Ambience",
+      "Planets"
     ],
     "conflict_oxps":[
     ],
