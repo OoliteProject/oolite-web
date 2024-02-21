@@ -11220,6 +11220,29 @@
     ]
   },
   {
+    "identifier":"oolite.oxp.Wildeblood.GalacticHyperdrive",
+    "version":"1.3",
+    "required_oolite_version":"1.77",
+    "maximum_oolite_version":null,
+    "title":"Galactic Hyperdrive Programmers",
+    "description":"Equipment that allows the player to select from a range of possible destinations when using the galactic hyperdrive.",
+    "category":"Equipment",
+    "author":"Wildeblood",
+    "license":"CC-BY-NC-SA 3.0",
+    "download_url":"https://wiki.alioth.net/img_auth.php/8/83/GalacticHyperdrive.oxz",
+    "information_url":"https://wiki.alioth.net/index.php/Galactic_Hyperdrive_OXP",
+    "file_size":10294,
+    "upload_date":1708489383,
+    "tags":[
+    ],
+    "conflict_oxps":[
+    ],
+    "optional_oxps":[
+    ],
+    "requires_oxps":[
+    ]
+  },
+  {
     "identifier":"oolite.oxp.Wildeblood.GlareClarifier",
     "version":"1.0",
     "required_oolite_version":"1.80",
