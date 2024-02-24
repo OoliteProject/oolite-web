@@ -5973,7 +5973,7 @@
   },
   {
     "identifier":"oolite.oxp.Norby.CombatMFD",
-    "version":"1.17",
+    "version":"1.18",
     "required_oolite_version":"1.79",
     "maximum_oolite_version":null,
     "title":"MFD - Combat MFD",
@@ -5981,10 +5981,10 @@
     "category":"HUDs",
     "author":"Norby, Zireael",
     "license":"CC BY-NC-SA 3",
-    "download_url":"https://wiki.alioth.net/img_auth.php/0/0d/CombatMFD-1.17.oxz",
+    "download_url":"https://wiki.alioth.net/img_auth.php/7/71/CombatMFD-1.18.oxz",
     "information_url":"https://wiki.alioth.net/index.php/CombatMFD",
-    "file_size":15749,
-    "upload_date":1699219866,
+    "file_size":15768,
+    "upload_date":1708757506,
     "tags":[
     ],
     "conflict_oxps":[
@@ -12933,18 +12933,18 @@
   },
   {
     "identifier":"oolite.oxp.cim.new-cargoes",
-    "version":"1.2.3",
-    "required_oolite_version":"1.79",
+    "version":"2.1",
+    "required_oolite_version":"1.84",
     "maximum_oolite_version":null,
     "title":"New Cargoes",
     "description":"New Cargoes adds over 100 new specialist trade goods to the 8 galaxies through the interfaces screen. In addition, a variety of new trading opportunities are available.",
     "category":"Mechanics",
     "author":"cim",
     "license":"CC-BY-SA 3.0",
-    "download_url":"https://cim.sotl.org.uk/games/files/oolite/New_Cargoes_1.2.3.oxz",
+    "download_url":"https://wiki.alioth.net/img_auth.php/6/6c/NewCargoes_2.1.oxz",
     "information_url":"http://wiki.alioth.net/index.php/New_Cargoes",
-    "file_size":13163097,
-    "upload_date":1397594199,
+    "file_size":13219799,
+    "upload_date":1708757629,
     "tags":[
     ],
     "conflict_oxps":[
@@ -13083,7 +13083,7 @@
   },
   {
     "identifier":"oolite.oxp.dertien.Z_GrOovY_SmallSystemStations",
-    "version":"1.9",
+    "version":"1.10",
     "required_oolite_version":"1.79",
     "maximum_oolite_version":null,
     "title":"Z-GrOovY Small System Stations",
@@ -13091,10 +13091,10 @@
     "category":"Dockables",
     "author":"dertien, Griff, another_commander, phkb",
     "license":"CC-BY-NC-SA 3.0",
-    "download_url":"https://wiki.alioth.net/img_auth.php/e/ed/Z-GrOovY_SmallSystemStations_1.9.oxz",
+    "download_url":"https://wiki.alioth.net/img_auth.php/8/89/Z-GrOovY_SmallSystemStations_1.10.oxz",
     "information_url":"https://wiki.alioth.net/index.php/Z-GrOovY_Small_System_Stations",
-    "file_size":8882945,
-    "upload_date":1697433730,
+    "file_size":8882972,
+    "upload_date":1708757147,
     "tags":[
     ],
     "conflict_oxps":[
@@ -13663,7 +13663,7 @@
   },
   {
     "identifier":"oolite.oxp.phkb.BlackMarket",
-    "version":"1.1",
+    "version":"1.2",
     "required_oolite_version":"1.82",
     "maximum_oolite_version":null,
     "title":"Black Market",
@@ -13671,10 +13671,10 @@
     "category":"Mechanics",
     "author":"phkb",
     "license":"CC-BY-NC-SA 3.0",
-    "download_url":"https://wiki.alioth.net/img_auth.php/4/42/BlackMarket_1.1.oxz",
+    "download_url":"https://wiki.alioth.net/img_auth.php/a/a9/BlackMarket_1.2.oxz",
     "information_url":"https://wiki.alioth.net/index.php/Black_Market",
-    "file_size":61808,
-    "upload_date":1697663439,
+    "file_size":61996,
+    "upload_date":1708758536,
     "tags":[
     ],
     "conflict_oxps":[
@@ -13858,7 +13858,7 @@
   },
   {
     "identifier":"oolite.oxp.phkb.ContractsOnBB",
-    "version":"1.9",
+    "version":"1.10",
     "required_oolite_version":"1.84",
     "maximum_oolite_version":null,
     "title":"Contracts on Bulletin Board",
@@ -13867,9 +13867,9 @@
     "author":"phkb",
     "license":"CC-BY-NC-SA 4.0",
     "download_url":"https://wiki.alioth.net/img_auth.php/b/b1/ContractsOnBB.oxz",
-    "information_url":null,
-    "file_size":90738,
-    "upload_date":1651116640,
+    "information_url":"https://wiki.alioth.net/index.php/Bulletin_Board_Contracts",
+    "file_size":76487,
+    "upload_date":1708757296,
     "tags":[
     ],
     "conflict_oxps":[
@@ -13881,7 +13881,7 @@
         "identifier":"oolite.oxp.phkb.BulletinBoardSystem",
         "version":"1.0",
         "maximum_version":null,
-        "description":"Can't do anything without it!"
+        "description":null
       }
     ]
   },
@@ -14783,7 +14783,7 @@
   },
   {
     "identifier":"oolite.oxp.phkb.HomeSystem",
-    "version":"0.12",
+    "version":"0.14",
     "required_oolite_version":"1.85",
     "maximum_oolite_version":null,
     "title":"Home System",
@@ -14792,9 +14792,9 @@
     "author":"phkb, UK_Eliter, Cody, Diziet Sma",
     "license":"CC-BY-NC-SA 4.0",
     "download_url":"https://wiki.alioth.net/img_auth.php/f/fb/HomeSystem.oxz",
-    "information_url":null,
-    "file_size":78873,
-    "upload_date":1610873520,
+    "information_url":"https://wiki.alioth.net/index.php/Home_System",
+    "file_size":32688,
+    "upload_date":1708757420,
     "tags":[
     ],
     "conflict_oxps":[
@@ -15293,7 +15293,7 @@
   },
   {
     "identifier":"oolite.oxp.phkb.ShipConfiguration",
-    "version":"1.4.2",
+    "version":"1.4.4",
     "required_oolite_version":"1.90",
     "maximum_oolite_version":null,
     "title":"Ship Configuration",
@@ -15302,9 +15302,9 @@
     "author":"phkb",
     "license":"CC-BY-NC-SA 3.0",
     "download_url":"https://wiki.alioth.net/img_auth.php/8/81/ShipConfiguration.oxz",
-    "information_url":null,
-    "file_size":835193,
-    "upload_date":1691986945,
+    "information_url":"https://wiki.alioth.net/index.php/Ship_Configuration_OXP",
+    "file_size":827710,
+    "upload_date":1708758408,
     "tags":[
     ],
     "conflict_oxps":[
@@ -15434,7 +15434,7 @@
   },
   {
     "identifier":"oolite.oxp.phkb.Smugglers_TGU",
-    "version":"2.2",
+    "version":"2.3",
     "required_oolite_version":"1.82",
     "maximum_oolite_version":null,
     "title":"Smugglers - The Galactic Underworld",
@@ -15442,10 +15442,10 @@
     "category":"Mechanics",
     "author":"phkb",
     "license":"CC-BY-NC-SA 3.0",
-    "download_url":"https://wiki.alioth.net/img_auth.php/2/2c/Smugglers_2.2.oxz",
+    "download_url":"https://wiki.alioth.net/img_auth.php/1/19/Smugglers_2.3.oxz",
     "information_url":"https://wiki.alioth.net/index.php/Smugglers_-_The_Galactic_Underworld",
-    "file_size":139089,
-    "upload_date":1702955309,
+    "file_size":139129,
+    "upload_date":1708758195,
     "tags":[
     ],
     "conflict_oxps":[
