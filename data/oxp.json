@@ -1,28 +1,5 @@
 [
   {
-    "identifier":null,
-    "version":null,
-    "required_oolite_version":null,
-    "maximum_oolite_version":null,
-    "title":null,
-    "description":null,
-    "category":null,
-    "author":null,
-    "license":null,
-    "download_url":"https://wiki.alioth.net/img_auth.php/4/4c/SEX_Drive.oxz",
-    "information_url":null,
-    "file_size":1239493,
-    "upload_date":1708770132,
-    "tags":[
-    ],
-    "conflict_oxps":[
-    ],
-    "optional_oxps":[
-    ],
-    "requires_oxps":[
-    ]
-  },
-  {
     "identifier":"DTT.Atlas 1.1.Paradox",
     "version":"1.0",
     "required_oolite_version":"1.79",
@@ -11256,6 +11233,29 @@
     "information_url":"https://wiki.alioth.net/index.php/Galactic_Hyperdrive_OXP",
     "file_size":10294,
     "upload_date":1708489383,
+    "tags":[
+    ],
+    "conflict_oxps":[
+    ],
+    "optional_oxps":[
+    ],
+    "requires_oxps":[
+    ]
+  },
+  {
+    "identifier":"oolite.oxp.Wildeblood.GlareClarifier",
+    "version":"1.0",
+    "required_oolite_version":"1.80",
+    "maximum_oolite_version":null,
+    "title":"Clarified, Not Glarified",
+    "description":"Solar glare effect driving you to distraction? Don't start drinking, join the League of Glare H8ers.",
+    "category":"Mechanics",
+    "author":"Wildeblood",
+    "license":"Public domain.",
+    "download_url":"https://wiki.alioth.net/img_auth.php/9/94/Oolite.oxp.Wildeblood.SEX_Drive-1.0.2.oxz",
+    "information_url":"http://aegidian.org/bb/viewtopic.php?f=2&t=16964",
+    "file_size":642,
+    "upload_date":1708932955,
     "tags":[
     ],
     "conflict_oxps":[
