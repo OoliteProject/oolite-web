@@ -11252,29 +11252,6 @@
     "category":"Mechanics",
     "author":"Wildeblood",
     "license":"Public domain.",
-    "download_url":"https://wiki.alioth.net/img_auth.php/9/94/Oolite.oxp.Wildeblood.SEX_Drive-1.0.2.oxz",
-    "information_url":"http://aegidian.org/bb/viewtopic.php?f=2&t=16964",
-    "file_size":642,
-    "upload_date":1708932955,
-    "tags":[
-    ],
-    "conflict_oxps":[
-    ],
-    "optional_oxps":[
-    ],
-    "requires_oxps":[
-    ]
-  },
-  {
-    "identifier":"oolite.oxp.Wildeblood.GlareClarifier",
-    "version":"1.0",
-    "required_oolite_version":"1.80",
-    "maximum_oolite_version":null,
-    "title":"Clarified, Not Glarified",
-    "description":"Solar glare effect driving you to distraction? Don't start drinking, join the League of Glare H8ers.",
-    "category":"Mechanics",
-    "author":"Wildeblood",
-    "license":"Public domain.",
     "download_url":"https://wiki.alioth.net/img_auth.php/f/fd/GlareClarifier.oxz",
     "information_url":"http://aegidian.org/bb/viewtopic.php?f=2&t=16964",
     "file_size":642,
@@ -11304,6 +11281,29 @@
     "upload_date":1610873301,
     "tags":[
       "crosshairs"
+    ],
+    "conflict_oxps":[
+    ],
+    "optional_oxps":[
+    ],
+    "requires_oxps":[
+    ]
+  },
+  {
+    "identifier":"oolite.oxp.Wildeblood.SEX_Drive",
+    "version":"1.0.2",
+    "required_oolite_version":"1.80",
+    "maximum_oolite_version":null,
+    "title":"SE-X Drive",
+    "description":"Teleporter cheat script. Plays nicely with Explorers Club.",
+    "category":"Cheats",
+    "author":"Wildeblood",
+    "license":"CC-BY-NC-SA 3.0",
+    "download_url":"https://wiki.alioth.net/img_auth.php/4/4c/SEX_Drive.oxz",
+    "information_url":null,
+    "file_size":1239716,
+    "upload_date":1709180507,
+    "tags":[
     ],
     "conflict_oxps":[
     ],
