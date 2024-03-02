@@ -2416,18 +2416,18 @@
   },
   {
     "identifier":"oolite.oxp.Day.Diplomacy",
-    "version":"0.18",
+    "version":"0.19",
     "required_oolite_version":"1.88",
     "maximum_oolite_version":null,
     "title":"Diplomacy",
-    "description":"WIP: wars maps and History! GNN news concerning alliances and wars! Treasuries! Citizenships! Taxes!\nSystems treasury! Wars require money, and countries are defeated either by battles or by bankruptcy, sometimes the latter producing the former.\nStrategic maps! New F4 Interface screens: the Wars Map! The Diplomatic Map!\nSystems alliances, wars! Two systems within 7ly of each other may now form an alliance, break their alliance, wage war on each other, and make peace too :) !\nNews! Some GNN news are now displayed when alliance/break/war/peace happens, and the player is in one of those systems.\nCitizenships! The player may acquire, or renounce, a system citizenship when visiting this system, for the right price. They may choose which of their citizenships is displayed as their flagship. The player is considered fugitive when in systems warring with their flag. The player may buy visas in the Embassy district.",
+    "description":"WIP: wars maps and History! GNN news concerning alliances and wars! Treasuries! Citizenships! Taxes!\r\nSystems treasury! Wars require money, and countries are defeated either by battles or by bankruptcy, sometimes the latter producing the former.\r\nStrategic maps! New F4 Interface screens: the Wars Map! The Diplomatic Map!\r\nSystems alliances, wars! Two systems within 7ly of each other may now form an alliance, break their alliance, wage war on each other, and make peace too :) !\r\nNews! Some GNN news are now displayed when alliance/break/war/peace happens, and the player is in one of those systems.\r\nCitizenships! The player may acquire, or renounce, a system citizenship when visiting this system, for the right price. They may choose which of their citizenships is displayed as their flagship. The player is considered fugitive when in systems warring with their flag. The player may buy visas in the Embassy district.",
     "category":"Ambience",
     "author":"Day",
     "license":"CC BY-NC-SA 4",
-    "download_url":"https://github.com/DaymareOn/Diplomacy/raw/master/oolite.oxp.Day.Diplomacy.oxz",
+    "download_url":"https://wiki.alioth.net/img_auth.php/1/19/Diplomacy.oxz",
     "information_url":"http://wiki.alioth.net/index.php/Diplomacy",
-    "file_size":42468,
-    "upload_date":null,
+    "file_size":42039,
+    "upload_date":1709378438,
     "tags":[
     ],
     "conflict_oxps":[
