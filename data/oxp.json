@@ -2022,18 +2022,18 @@
   },
   {
     "identifier":"oolite.oxp.CmdrWombat.Deposed",
-    "version":"1.4",
-    "required_oolite_version":"1.77",
+    "version":"2.0",
+    "required_oolite_version":"1.80",
     "maximum_oolite_version":null,
     "title":"Deposed",
     "description":"This is a series of missions starting in galaxy 4. Needs 1700 kills to start.",
     "category":"Missions",
     "author":"Cmdr. Wombat",
-    "license":null,
-    "download_url":"https://wiki.alioth.net/img_auth.php/8/84/Deposed_1.4.oxz",
-    "information_url":"http://wiki.alioth.net/index.php/Deposed_OXP",
-    "file_size":329015,
-    "upload_date":1610873351,
+    "license":"CC-BY-NC-SA 3.0",
+    "download_url":"https://wiki.alioth.net/img_auth.php/e/ef/Deposed_2.0.oxz",
+    "information_url":"https://wiki.alioth.net/index.php/Deposed_OXP",
+    "file_size":9717997,
+    "upload_date":1709981273,
     "tags":[
     ],
     "conflict_oxps":[
@@ -2104,6 +2104,29 @@
     "information_url":"http://wiki.alioth.net/index.php/Auto_eject_OXP",
     "file_size":8022,
     "upload_date":1610873298,
+    "tags":[
+    ],
+    "conflict_oxps":[
+    ],
+    "optional_oxps":[
+    ],
+    "requires_oxps":[
+    ]
+  },
+  {
+    "identifier":"oolite.oxp.Commander_McLane.Cataclysm",
+    "version":"2.1",
+    "required_oolite_version":"1.80",
+    "maximum_oolite_version":null,
+    "title":"Cataclysm",
+    "description":"A galaxy-spanning mission, continuing the war against the Thargoids.",
+    "category":"Missions",
+    "author":"Commander McLane",
+    "license":"CC-BY-NC-SA 3.0",
+    "download_url":"https://wiki.alioth.net/img_auth.php/5/58/Cataclysm_2.1.oxz",
+    "information_url":"https://wiki.alioth.net/index.php/Cataclysm_OXP",
+    "file_size":50804876,
+    "upload_date":1709981240,
     "tags":[
     ],
     "conflict_oxps":[
@@ -2831,7 +2854,7 @@
   },
   {
     "identifier":"oolite.oxp.DrewWagar.TianvePulsar",
-    "version":"2.4",
+    "version":"2.5",
     "required_oolite_version":"1.79",
     "maximum_oolite_version":null,
     "title":"Tianve Pulsar",
@@ -2839,10 +2862,10 @@
     "category":"Ambience",
     "author":"Drew Wagar, phkb",
     "license":"CC-BY-NC-SA 3.0",
-    "download_url":"https://wiki.alioth.net/img_auth.php/4/4d/Tianve_2.4.oxz",
+    "download_url":"https://wiki.alioth.net/img_auth.php/e/e6/Tianve_2.5.oxz",
     "information_url":"https://wiki.alioth.net/index.php/Tianve_OXP",
-    "file_size":30583265,
-    "upload_date":1707369226,
+    "file_size":29172909,
+    "upload_date":1709981529,
     "tags":[
     ],
     "conflict_oxps":[
@@ -7312,6 +7335,29 @@
     ]
   },
   {
+    "identifier":"oolite.oxp.Okti.Coyotes_Run",
+    "version":"2.3",
+    "required_oolite_version":"1.82",
+    "maximum_oolite_version":null,
+    "title":"Coyote's Run",
+    "description":"A mission pack based on the Oolite fiction short story 'Coyote', by El Viejo.",
+    "category":"Missions",
+    "author":"Okti",
+    "license":"CC-BY-SA-NC 3.0",
+    "download_url":"https://wiki.alioth.net/img_auth.php/1/13/Coyotes_Run_2.3.oxz",
+    "information_url":"https://wiki.alioth.net/index.php/Coyote%27s_Run",
+    "file_size":7410201,
+    "upload_date":1709981314,
+    "tags":[
+    ],
+    "conflict_oxps":[
+    ],
+    "optional_oxps":[
+    ],
+    "requires_oxps":[
+    ]
+  },
+  {
     "identifier":"oolite.oxp.Pagroove.FamousPlanets",
     "version":"2.7",
     "required_oolite_version":"1.79",
@@ -8199,7 +8245,7 @@
   },
   {
     "identifier":"oolite.oxp.RobertTodd.Taranis",
-    "version":"2.0.5",
+    "version":"2.1",
     "required_oolite_version":"1.74",
     "maximum_oolite_version":null,
     "title":"Taranis",
@@ -8207,10 +8253,10 @@
     "category":"Missions",
     "author":"Robert Todd",
     "license":"CC-BY-NC-SA 3.0",
-    "download_url":"https://wiki.alioth.net/img_auth.php/d/dd/Taranis_2.0.5.oxz",
+    "download_url":"https://wiki.alioth.net/img_auth.php/d/dd/Taranis_2.1.oxz",
     "information_url":"https://wiki.alioth.net/index.php/Taranis_OXP",
-    "file_size":9455223,
-    "upload_date":1706571595,
+    "file_size":28169995,
+    "upload_date":1709981366,
     "tags":[
       "Station"
     ],
@@ -9971,7 +10017,7 @@
   },
   {
     "identifier":"oolite.oxp.Thargoid.LaveAcademy",
-    "version":"1.34",
+    "version":"2.1",
     "required_oolite_version":"1.79",
     "maximum_oolite_version":null,
     "title":"Lave Academy",
@@ -9979,16 +10025,17 @@
     "category":"Dockables",
     "author":"Thargoid",
     "license":"Creative Commons Attribution - Non-Commercial - Share Alike 3.0 license with clauses - see readme file",
-    "download_url":"https://wiki.alioth.net/img_auth.php/0/0c/Lave_Academy_1.33.oxz",
-    "information_url":"http://wiki.alioth.net/index.php/Lave_Academy_OXP",
-    "file_size":1513661,
-    "upload_date":1610873229,
+    "download_url":"https://wiki.alioth.net/img_auth.php/6/69/LaveAcademy_2.1.oxz",
+    "information_url":"https://wiki.alioth.net/index.php/Lave_Academy_OXP",
+    "file_size":4000437,
+    "upload_date":1709981833,
     "tags":[
       "dockables",
       "missions",
       "new commanders",
       "OXPConfig",
-      "activities"
+      "activities",
+      "Library Config"
     ],
     "conflict_oxps":[
     ],
@@ -12545,18 +12592,18 @@
   },
   {
     "identifier":"oolite.oxp.captain_beatnik.Riredi",
-    "version":"1.0.0",
-    "required_oolite_version":"1.79",
+    "version":"2.1",
+    "required_oolite_version":"1.90",
     "maximum_oolite_version":null,
     "title":"Riredi",
-    "description":"Adds some eye candy and background story to the ooniverse, a customized Riredi-system.",
+    "description":"Adds some eye candy and background story to the ooniverse, a customized Riredi system.",
     "category":"Ambience",
-    "author":"Captain Beatnik",
+    "author":"Captain Beatnik and phkb",
     "license":"CC-BY-NC-SA 3.0",
-    "download_url":"https://wiki.alioth.net/img_auth.php/3/36/Riredi-1.0.0.oxz",
-    "information_url":"http://aegidian.org/bb/viewtopic.php?f=4&t=16237",
-    "file_size":4417840,
-    "upload_date":1610873271,
+    "download_url":"https://wiki.alioth.net/img_auth.php/0/03/Riredi_2.1.oxz",
+    "information_url":"https://wiki.alioth.net/index.php/Riredi_OXP",
+    "file_size":31335859,
+    "upload_date":1709981418,
     "tags":[
     ],
     "conflict_oxps":[
@@ -12564,6 +12611,12 @@
     "optional_oxps":[
     ],
     "requires_oxps":[
+      {
+        "identifier":"oolite.oxp.phkb.MarketScriptInterface",
+        "version":null,
+        "maximum_version":null,
+        "description":null
+      }
     ]
   },
   {
@@ -13566,6 +13619,41 @@
     ]
   },
   {
+    "identifier":"oolite.oxp.murgh.Lave",
+    "version":"2.1",
+    "required_oolite_version":"1.90",
+    "maximum_oolite_version":null,
+    "title":"Lave",
+    "description":"Adds some eye candy and background story to the Ooniverse by recreating elements from the Holdstock novella 'The Dark Wheel' in the Lave system.",
+    "category":"Ambience",
+    "author":"Murgh & phkb",
+    "license":"CC-BY-SA-NC 4.0",
+    "download_url":"https://wiki.alioth.net/img_auth.php/f/ff/Lave_2.1.oxz",
+    "information_url":"https://wiki.alioth.net/index.php/Lave_OXP",
+    "file_size":59079933,
+    "upload_date":1709981096,
+    "tags":[
+    ],
+    "conflict_oxps":[
+      {
+        "identifier":"oolite.oxp.stranger.FPO_Lave",
+        "version":null,
+        "maximum_version":null,
+        "description":null
+      }
+    ],
+    "optional_oxps":[
+    ],
+    "requires_oxps":[
+      {
+        "identifier":"oolite.oxp.Thargoid.LaveAcademy",
+        "version":null,
+        "maximum_version":null,
+        "description":null
+      }
+    ]
+  },
+  {
     "identifier":"oolite.oxp.nicholasmenchise.target-system-plugins",
     "version":"0.81",
     "required_oolite_version":"1.88",
@@ -13781,7 +13869,7 @@
   },
   {
     "identifier":"oolite.oxp.phkb.BulletinBoardSystem",
-    "version":"2.5",
+    "version":"2.6",
     "required_oolite_version":"1.82",
     "maximum_oolite_version":null,
     "title":"Bulletin Board System",
@@ -13789,10 +13877,10 @@
     "category":"Miscellaneous",
     "author":"phkb",
     "license":"CC-BY-NC-SA 4.0",
-    "download_url":"https://wiki.alioth.net/img_auth.php/a/af/BulletinBoardSystem_2.5.oxz",
+    "download_url":"https://wiki.alioth.net/img_auth.php/0/01/BulletinBoardSystem_2.6.oxz",
     "information_url":"https://wiki.alioth.net/index.php/Bulletin_Board_System",
-    "file_size":54367,
-    "upload_date":1700746739,
+    "file_size":54927,
+    "upload_date":1709981674,
     "tags":[
     ],
     "conflict_oxps":[
@@ -13881,7 +13969,7 @@
   },
   {
     "identifier":"oolite.oxp.phkb.ContractsOnBB",
-    "version":"1.10",
+    "version":"1.11",
     "required_oolite_version":"1.84",
     "maximum_oolite_version":null,
     "title":"Contracts on Bulletin Board",
@@ -13891,8 +13979,8 @@
     "license":"CC-BY-NC-SA 4.0",
     "download_url":"https://wiki.alioth.net/img_auth.php/b/b1/ContractsOnBB.oxz",
     "information_url":"https://wiki.alioth.net/index.php/Bulletin_Board_Contracts",
-    "file_size":76487,
-    "upload_date":1708757296,
+    "file_size":76540,
+    "upload_date":1709981698,
     "tags":[
     ],
     "conflict_oxps":[
@@ -13954,6 +14042,35 @@
     "optional_oxps":[
     ],
     "requires_oxps":[
+    ]
+  },
+  {
+    "identifier":"oolite.oxp.phkb.DeepSpaceDredgers_Facelift",
+    "version":"1.1",
+    "required_oolite_version":"1.89",
+    "maximum_oolite_version":null,
+    "title":"Deep Space Dredgers Facelift",
+    "description":"Updates the look of the Deep Space Dredgers.",
+    "category":"Retextures",
+    "author":"phkb",
+    "license":"CC-BY-NC-SA 4.0",
+    "download_url":"https://wiki.alioth.net/img_auth.php/e/eb/DeepSpaceDredgers_Facelift_1.1.oxz",
+    "information_url":"https://wiki.alioth.net/index.php/Deep_Space_Dredgers_Facelift",
+    "file_size":27447401,
+    "upload_date":1709981477,
+    "tags":[
+    ],
+    "conflict_oxps":[
+    ],
+    "optional_oxps":[
+    ],
+    "requires_oxps":[
+      {
+        "identifier":"oolite.oxp.EricWalch.DeepSpaceDredger",
+        "version":null,
+        "maximum_version":null,
+        "description":null
+      }
     ]
   },
   {
@@ -14116,7 +14233,7 @@
   },
   {
     "identifier":"oolite.oxp.phkb.ExpandedWeaponInfo",
-    "version":"1.0",
+    "version":"1.1",
     "required_oolite_version":"1.90",
     "maximum_oolite_version":null,
     "title":"Expanded Weapon Info",
@@ -14126,8 +14243,8 @@
     "license":"CC-BY-SA 4.0",
     "download_url":"https://wiki.alioth.net/img_auth.php/5/5f/ExpandedWeaponInfo.oxz",
     "information_url":"https://wiki.alioth.net/index.php/Expanded_Weapon_Info",
-    "file_size":7238,
-    "upload_date":1701581412,
+    "file_size":8401,
+    "upload_date":1709981717,
     "tags":[
     ],
     "conflict_oxps":[
@@ -14783,7 +14900,7 @@
   },
   {
     "identifier":"oolite.oxp.phkb.GalacticRegistry",
-    "version":"5.8",
+    "version":"5.9",
     "required_oolite_version":"1.79",
     "maximum_oolite_version":null,
     "title":"Galactic Registry",
@@ -14791,10 +14908,10 @@
     "category":"Ambience",
     "author":"phkb",
     "license":"CC-BY-NC-SA 3.0",
-    "download_url":"https://wiki.alioth.net/img_auth.php/e/e4/GalCopGalacticRegistry_5.8.oxz",
+    "download_url":"https://wiki.alioth.net/img_auth.php/b/b8/GalCopGalacticRegistry_5.9.oxz",
     "information_url":"http://wiki.alioth.net/index.php/GalCop_Galactic_Registry",
-    "file_size":31944,
-    "upload_date":1707625359,
+    "file_size":32104,
+    "upload_date":1709981554,
     "tags":[
     ],
     "conflict_oxps":[
@@ -15049,7 +15166,7 @@
   },
   {
     "identifier":"oolite.oxp.phkb.MissileSummary",
-    "version":"1.5",
+    "version":"1.6",
     "required_oolite_version":"1.80",
     "maximum_oolite_version":null,
     "title":"Missile Summary",
@@ -15057,10 +15174,10 @@
     "category":"Miscellaneous",
     "author":"phkb",
     "license":"CC-BY-SA 4.0",
-    "download_url":"https://wiki.alioth.net/img_auth.php/6/6b/MissileSummary_1.5.oxz",
+    "download_url":"https://wiki.alioth.net/img_auth.php/e/e3/MissileSummary_1.6.oxz",
     "information_url":"https://wiki.alioth.net/index.php/Missile_Summary",
-    "file_size":4358,
-    "upload_date":1707740221,
+    "file_size":4312,
+    "upload_date":1709981744,
     "tags":[
     ],
     "conflict_oxps":[
@@ -15189,7 +15306,7 @@
   },
   {
     "identifier":"oolite.oxp.phkb.PlanetForestsAndOceans",
-    "version":"1.0",
+    "version":"1.1",
     "required_oolite_version":"1.85",
     "maximum_oolite_version":null,
     "title":"Planet Forests and Oceans",
@@ -15199,8 +15316,8 @@
     "license":"CC-BY-NC-SA 4.0",
     "download_url":"https://wiki.alioth.net/img_auth.php/e/ec/PlanetForestsAndOceans.oxz",
     "information_url":"http://aegidian.org/bb/viewtopic.php?f=4&t=20179",
-    "file_size":4090,
-    "upload_date":1709650317,
+    "file_size":4265,
+    "upload_date":1709981734,
     "tags":[
     ],
     "conflict_oxps":[
@@ -15434,7 +15551,7 @@
   },
   {
     "identifier":"oolite.oxp.phkb.Smugglers_TGU",
-    "version":"2.3",
+    "version":"2.4",
     "required_oolite_version":"1.82",
     "maximum_oolite_version":null,
     "title":"Smugglers - The Galactic Underworld",
@@ -15442,10 +15559,10 @@
     "category":"Mechanics",
     "author":"phkb",
     "license":"CC-BY-NC-SA 3.0",
-    "download_url":"https://wiki.alioth.net/img_auth.php/1/19/Smugglers_2.3.oxz",
+    "download_url":"https://wiki.alioth.net/img_auth.php/0/04/Smugglers_2.4.oxz",
     "information_url":"https://wiki.alioth.net/index.php/Smugglers_-_The_Galactic_Underworld",
-    "file_size":139129,
-    "upload_date":1708758195,
+    "file_size":139147,
+    "upload_date":1709981629,
     "tags":[
     ],
     "conflict_oxps":[
@@ -15527,7 +15644,7 @@
   },
   {
     "identifier":"oolite.oxp.phkb.StationDockControl",
-    "version":"1.1.27",
+    "version":"1.1.28",
     "required_oolite_version":"1.80",
     "maximum_oolite_version":null,
     "title":"Station Dock Control",
@@ -15535,10 +15652,10 @@
     "category":"Mechanics",
     "author":"phkb",
     "license":"CC-BY-NC-SA 3.0",
-    "download_url":"https://wiki.alioth.net/img_auth.php/3/38/StationDockControl_1.1.27.oxz",
+    "download_url":"https://wiki.alioth.net/img_auth.php/1/10/StationDockControl_1.1.28.oxz",
     "information_url":"http://wiki.alioth.net/index.php/Station_Dock_Control",
-    "file_size":125783,
-    "upload_date":1701501978,
+    "file_size":125887,
+    "upload_date":1709981651,
     "tags":[
     ],
     "conflict_oxps":[
@@ -15683,7 +15800,7 @@
   },
   {
     "identifier":"oolite.oxp.phkb.VimanaX_HUD",
-    "version":"1.17",
+    "version":"1.18",
     "required_oolite_version":"1.81",
     "maximum_oolite_version":null,
     "title":"Vimana-X HUD",
@@ -15691,10 +15808,10 @@
     "category":"HUD",
     "author":"Gnievmir, phkb",
     "license":"CC BY-SA 4.0",
-    "download_url":"https://wiki.alioth.net/img_auth.php/1/13/VimanaX_HUD_1.17.oxz",
+    "download_url":"https://wiki.alioth.net/img_auth.php/5/5c/VimanaX_HUD_1.18.oxz",
     "information_url":"https://wiki.alioth.net/index.php/Vimana-X_HUD",
-    "file_size":22149428,
-    "upload_date":1707892400,
+    "file_size":22170093,
+    "upload_date":1709981604,
     "tags":[
     ],
     "conflict_oxps":[
