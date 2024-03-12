@@ -13869,7 +13869,7 @@
   },
   {
     "identifier":"oolite.oxp.phkb.BulletinBoardSystem",
-    "version":"2.6",
+    "version":"2.6.1",
     "required_oolite_version":"1.82",
     "maximum_oolite_version":null,
     "title":"Bulletin Board System",
@@ -13877,10 +13877,10 @@
     "category":"Miscellaneous",
     "author":"phkb",
     "license":"CC-BY-NC-SA 4.0",
-    "download_url":"https://wiki.alioth.net/img_auth.php/0/01/BulletinBoardSystem_2.6.oxz",
+    "download_url":"https://wiki.alioth.net/img_auth.php/5/57/BulletinBoardSystem_2.6.1.oxz",
     "information_url":"https://wiki.alioth.net/index.php/Bulletin_Board_System",
-    "file_size":54927,
-    "upload_date":1709981674,
+    "file_size":54941,
+    "upload_date":1710250129,
     "tags":[
     ],
     "conflict_oxps":[
