@@ -13032,7 +13032,7 @@
   },
   {
     "identifier":"oolite.oxp.cim.ships-library",
-    "version":"0.8",
+    "version":"0.8.1",
     "required_oolite_version":"1.79",
     "maximum_oolite_version":"1.90",
     "title":"Ship's Library",
@@ -13040,10 +13040,10 @@
     "category":"Equipment",
     "author":"cim",
     "license":"GPL v2+ / CC-BY-NC-SA 3.0",
-    "download_url":"https://wiki.alioth.net/img_auth.php/b/b7/Ships_Library_0.8.oxz",
+    "download_url":"https://wiki.alioth.net/img_auth.php/0/0f/Ships_Library_0.8.1.oxz",
     "information_url":null,
-    "file_size":1798736,
-    "upload_date":1710799122,
+    "file_size":1798733,
+    "upload_date":1710799961,
     "tags":[
     ],
     "conflict_oxps":[
@@ -13065,8 +13065,8 @@
     "license":"GPL v2+ / CC-BY-NC-SA 3.0",
     "download_url":"https://wiki.alioth.net/img_auth.php/e/eb/Ships_Library_0.9.oxz",
     "information_url":"https://wiki.alioth.net/index.php/Ship%27s_Library_OXP",
-    "file_size":1798674,
-    "upload_date":1710799163,
+    "file_size":1798672,
+    "upload_date":1710799948,
     "tags":[
     ],
     "conflict_oxps":[
