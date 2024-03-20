@@ -7336,7 +7336,7 @@
   },
   {
     "identifier":"oolite.oxp.Okti.Coyotes_Run",
-    "version":"2.4",
+    "version":"2.5",
     "required_oolite_version":"1.82",
     "maximum_oolite_version":null,
     "title":"Coyote's Run",
@@ -7344,10 +7344,10 @@
     "category":"Missions",
     "author":"Okti",
     "license":"CC-BY-SA-NC 3.0",
-    "download_url":"https://wiki.alioth.net/img_auth.php/0/08/Coyotes_Run_2.4.oxz",
+    "download_url":"https://wiki.alioth.net/img_auth.php/c/c7/Coyotes_Run_2.5.oxz",
     "information_url":"https://wiki.alioth.net/index.php/Coyote%27s_Run",
-    "file_size":12582526,
-    "upload_date":1710927849,
+    "file_size":12582576,
+    "upload_date":1710967252,
     "tags":[
     ],
     "conflict_oxps":[
