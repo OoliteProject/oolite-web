@@ -1,1 +1,36 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?><ExpansionList><Expansion downloadUrl="http://wiki.alioth.net/img_auth.php/6/68/DTT_Atlas_1.1.oxz" identifier="DTT.Atlas 1.1.Paradox" version="1.0"/><Expansion downloadUrl="http://wiki.alioth.net/img_auth.php/e/ec/DTT_Cyclops_1.0.oxz" identifier="DTT.Cyclops 1.0.Paradox" version="1.0"/><Expansion downloadUrl="http://wiki.alioth.net/img_auth.php/2/2f/DTT_Galaxy_Liner_1.0.oxz" identifier="DTT.Galaxy_Liner 1.0.Paradox" version="1.0"/></ExpansionList>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<ExpansionList generatedAt="2024-04-12T08:10:09.558365493Z" generatedBy="null null">
+    <Expansion downloadUrl="https://wiki.alioth.net/img_auth.php/b/b7/Oolite.oxp.CaptMurphy.BreakableEnergyUnit.oxz" identifier="oolite.oxp.CaptMurphy.BreakableEnergyUnit" version="1.1"/>
+    <Expansion downloadUrl="https://wiki.alioth.net/img_auth.php/8/84/Oolite.oxp.CaptMurphy.BreakableShieldGenerators.oxz" identifier="oolite.oxp.CaptMurphy.BreakableShieldGenerators" version="1.2"/>
+    <Expansion downloadUrl="https://wiki.alioth.net/img_auth.php/5/55/Explorers_Club_1.4.4.oxz" identifier="oolite.oxp.CaptMurphy.ExplorersClub" version="1.4.6"/>
+    <Expansion downloadUrl="https://wiki.alioth.net/img_auth.php/b/b9/Planetary_Compass_1.01.oxz" identifier="oolite.oxp.Thargoid.PlanetaryCompass" version="1.02"/>
+    <Expansion downloadUrl="https://wiki.alioth.net/img_auth.php/0/06/Start_choices_1.8.2.oxz" identifier="oolite.oxp.spara.start_choices" version="1.8.2"/>
+    <Expansion downloadUrl="https://wiki.alioth.net/img_auth.php/4/4b/ComboF7Layout.oxz" identifier="oolite.oxp.stranger.ComboF7Layout" version="0.1"/>
+    <Expansion downloadUrl="https://wiki.alioth.net/img_auth.php/c/cb/DarkRay.oxz" identifier="oolite.oxp.stranger.DarkRay" version="0.1.2"/>
+    <Expansion downloadUrl="https://wiki.alioth.net/img_auth.php/d/d6/EnergyRebalance.oxz" identifier="oolite.oxp.stranger.EnergyRebalance" version="0.3.0"/>
+    <Expansion downloadUrl="https://wiki.alioth.net/img_auth.php/1/1a/FPO_Lave.oxz" identifier="oolite.oxp.stranger.FPO_Lave" version="0.1.0"/>
+    <Expansion downloadUrl="https://wiki.alioth.net/img_auth.php/b/b2/FPO_Zaonce.oxz" identifier="oolite.oxp.stranger.FPO_Zaonce" version="0.2.0"/>
+    <Expansion downloadUrl="https://wiki.alioth.net/img_auth.php/0/0c/HabitableMainPlanets.oxz" identifier="oolite.oxp.stranger.HabitableMainPlanets" version="1.6.0"/>
+    <Expansion downloadUrl="https://wiki.alioth.net/img_auth.php/e/e1/HardEject.oxz" identifier="oolite.oxp.stranger.HardEject" version="0.4.1"/>
+    <Expansion downloadUrl="https://wiki.alioth.net/img_auth.php/d/d9/HardWay.oxz" identifier="oolite.oxp.stranger.HardWay" version="2.8.0"/>
+    <Expansion downloadUrl="https://wiki.alioth.net/img_auth.php/a/ac/HereBeDragons.oxz" identifier="oolite.oxp.stranger.HereBeDragons" version="1.1.0"/>
+    <Expansion downloadUrl="https://wiki.alioth.net/img_auth.php/6/61/InSystemCargoDelivery.oxz" identifier="oolite.oxp.stranger.InSystemCargoDelivery" version="0.6.0"/>
+    <Expansion downloadUrl="https://wiki.alioth.net/img_auth.php/c/c7/InternalFuelTank.oxz" identifier="oolite.oxp.stranger.InternalFuelTank" version="0.1.3"/>
+    <Expansion downloadUrl="https://wiki.alioth.net/img_auth.php/b/b0/MineralStoreReset.oxz" identifier="oolite.oxp.stranger.MineralStoreReset" version="0.4.2"/>
+    <Expansion downloadUrl="https://wiki.alioth.net/img_auth.php/3/30/Moons.oxz" identifier="oolite.oxp.stranger.Moons" version="1.1.1"/>
+    <Expansion downloadUrl="https://wiki.alioth.net/img_auth.php/1/10/OrbitalStations.oxz" identifier="oolite.oxp.stranger.OrbitalStations" version="2.7.0"/>
+    <Expansion downloadUrl="https://wiki.alioth.net/img_auth.php/a/ac/PlanetarySystems.oxz" identifier="oolite.oxp.stranger.PlanetarySystems" version="1.8.0"/>
+    <Expansion downloadUrl="https://wiki.alioth.net/img_auth.php/c/c3/PlanetarySystemsTexturePack_A.oxz" identifier="oolite.oxp.stranger.PlanetarySystemsTexturePack_A" version="1.6.0"/>
+    <Expansion downloadUrl="https://wiki.alioth.net/img_auth.php/8/8d/PlanetarySystemsTexturePack_B.oxz" identifier="oolite.oxp.stranger.PlanetarySystemsTexturePack_B" version="1.6.0"/>
+    <Expansion downloadUrl="https://wiki.alioth.net/img_auth.php/3/35/PlanetarySystemsTexturePack_C.oxz" identifier="oolite.oxp.stranger.PlanetarySystemsTexturePack_C" version="1.6.0"/>
+    <Expansion downloadUrl="https://wiki.alioth.net/img_auth.php/0/04/PlanetarySystemsTexturePack_D.oxz" identifier="oolite.oxp.stranger.PlanetarySystemsTexturePack_D" version="1.6.0"/>
+    <Expansion downloadUrl="https://wiki.alioth.net/img_auth.php/3/3b/PlanetarySystemsTexturePack_E.oxz" identifier="oolite.oxp.stranger.PlanetarySystemsTexturePack_E" version="1.6.0"/>
+    <Expansion downloadUrl="https://wiki.alioth.net/img_auth.php/0/07/PlanetarySystemsTexturePack_F.oxz" identifier="oolite.oxp.stranger.PlanetarySystemsTexturePack_F" version="1.6.0"/>
+    <Expansion downloadUrl="https://wiki.alioth.net/img_auth.php/e/ef/PlanetarySystemsTexturePack_G.oxz" identifier="oolite.oxp.stranger.PlanetarySystemsTexturePack_G" version="1.6.0"/>
+    <Expansion downloadUrl="https://wiki.alioth.net/img_auth.php/9/91/PlanetarySystemsTexturePack_H.oxz" identifier="oolite.oxp.stranger.PlanetarySystemsTexturePack_H" version="1.6.0"/>
+    <Expansion downloadUrl="https://wiki.alioth.net/img_auth.php/4/44/SW_Economy.oxz" identifier="oolite.oxp.stranger.SW_Economy" version="3.8.0"/>
+    <Expansion downloadUrl="https://wiki.alioth.net/img_auth.php/8/8f/SW_HUD_CAI.oxz" identifier="oolite.oxp.stranger.SW_HUD_CAI" version="1.0.1"/>
+    <Expansion downloadUrl="https://wiki.alioth.net/img_auth.php/2/28/SunGear.oxz" identifier="oolite.oxp.stranger.SunGear" version="4.5.2"/>
+    <Expansion downloadUrl="https://wiki.alioth.net/img_auth.php/3/3c/TrafficLights.oxz" identifier="oolite.oxp.stranger.TrafficLights" version="1.1.1"/>
+    <Expansion downloadUrl="https://wiki.alioth.net/img_auth.php/9/93/StartChoicesAddenda.oxz" identifier="oolite.oxp.stranger.start_choices_addenda" version="0.6.1"/>
+</ExpansionList>

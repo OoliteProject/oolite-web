@@ -35,5 +35,4 @@
     <Expansion downloadUrl="https://wiki.alioth.net/img_auth.php/a/a9/Astrofactory.oxz" identifier="oolite.oxp.spara.ImperialAstrofactory" version="2.4"/>
     <Expansion downloadUrl="https://wiki.alioth.net/img_auth.php/f/f8/Behemoth_3.1.1.oxz" identifier="oolite.oxp.spara.behemoth" version="3.1.1"/>
     <Expansion downloadUrl="https://wiki.alioth.net/img_auth.php/3/33/Nuit_Station_2.3.oxz" identifier="oolite.oxp.zzz.Montana05.KillerWolf.nuit_station" version="2.3"/>
-    <Expansion downloadUrl="" identifier="org.oolite.oolite.debug" version="1.91"/>
 </ExpansionList>
