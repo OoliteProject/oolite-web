@@ -1,1 +1,30 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?><ExpansionList><Expansion downloadUrl="http://wiki.alioth.net/img_auth.php/6/68/DTT_Atlas_1.1.oxz" identifier="DTT.Atlas 1.1.Paradox" version="1.0"/><Expansion downloadUrl="http://wiki.alioth.net/img_auth.php/e/ec/DTT_Cyclops_1.0.oxz" identifier="DTT.Cyclops 1.0.Paradox" version="1.0"/><Expansion downloadUrl="http://wiki.alioth.net/img_auth.php/2/2f/DTT_Galaxy_Liner_1.0.oxz" identifier="DTT.Galaxy_Liner 1.0.Paradox" version="1.0"/></ExpansionList>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<ExpansionList generatedAt="2024-04-12T07:11:24.771668630Z" generatedBy="null null">
+    <Expansion downloadUrl="https://wiki.alioth.net/img_auth.php/7/74/Oolite.oxp.LittleBear.GalacticAlmanac.oxz" identifier="oolite.oxp.LittleBear.GalacticAlmanac" version="0.92"/>
+    <Expansion downloadUrl="https://wiki.alioth.net/img_auth.php/7/71/CombatMFD-1.18.oxz" identifier="oolite.oxp.Norby.CombatMFD" version="1.18"/>
+    <Expansion downloadUrl="https://wiki.alioth.net/img_auth.php/8/80/HUDSelector-1.26.oxz" identifier="oolite.oxp.Norby.HUDSelector" version="1.26"/>
+    <Expansion downloadUrl="https://wiki.alioth.net/img_auth.php/9/95/Ils-1.15.oxz" identifier="oolite.oxp.Norby.ILS" version="1.15"/>
+    <Expansion downloadUrl="https://wiki.alioth.net/img_auth.php/8/83/LogEvents_1.4.oxz" identifier="oolite.oxp.Norby.LogEvents" version="1.4"/>
+    <Expansion downloadUrl="https://wiki.alioth.net/img_auth.php/3/3a/BGS2.5.4.oxz" identifier="oolite.oxp.Svengali.BGS" version="2.5.4"/>
+    <Expansion downloadUrl="https://wiki.alioth.net/img_auth.php/f/f2/Library1.7.1.oxz" identifier="oolite.oxp.Svengali.Library" version="1.7.1"/>
+    <Expansion downloadUrl="https://wiki.alioth.net/img_auth.php/e/eb/Ships_Library_0.9.oxz" identifier="oolite.oxp.cim.ships-library" version="0.9"/>
+    <Expansion downloadUrl="https://wiki.alioth.net/img_auth.php/d/db/BarrelRoll-1.1.oxz" identifier="oolite.oxp.dybal.BarrelRoll" version="1.1"/>
+    <Expansion downloadUrl="https://wiki.alioth.net/img_auth.php/2/2b/AutoPrimeEquipment.oxz" identifier="oolite.oxp.phkb.AutoPrimeEquipment" version="1.2"/>
+    <Expansion downloadUrl="https://wiki.alioth.net/img_auth.php/9/96/DisplayCurrentCourse.oxz" identifier="oolite.oxp.phkb.DisplayCurrentCourse" version="1.9"/>
+    <Expansion downloadUrl="https://wiki.alioth.net/img_auth.php/9/99/EquipmentRemoveItemColor.oxz" identifier="oolite.oxp.phkb.EquipmentRemoveItemColor" version="1.4"/>
+    <Expansion downloadUrl="https://wiki.alioth.net/img_auth.php/5/5f/ExpandedWeaponInfo.oxz" identifier="oolite.oxp.phkb.ExpandedWeaponInfo" version="1.1"/>
+    <Expansion downloadUrl="https://wiki.alioth.net/img_auth.php/a/ac/FastTargetSelector_1.6.oxz" identifier="oolite.oxp.phkb.FastTargetSelector" version="1.6"/>
+    <Expansion downloadUrl="https://wiki.alioth.net/img_auth.php/d/d4/GalCopGalacticRegistry_5.9.1.oxz" identifier="oolite.oxp.phkb.GalacticRegistry" version="5.9.1"/>
+    <Expansion downloadUrl="https://wiki.alioth.net/img_auth.php/e/e3/MissileSummary_1.6.oxz" identifier="oolite.oxp.phkb.MissileSummary" version="1.6"/>
+    <Expansion downloadUrl="https://wiki.alioth.net/img_auth.php/0/07/ModernStart.oxz" identifier="oolite.oxp.phkb.ModernStart" version="1.1"/>
+    <Expansion downloadUrl="https://wiki.alioth.net/img_auth.php/0/0c/NoMarketNotification_1.3.oxz" identifier="oolite.oxp.phkb.NoMarketNotification" version="1.3"/>
+    <Expansion downloadUrl="https://wiki.alioth.net/img_auth.php/e/ec/PlanetForestsAndOceans.oxz" identifier="oolite.oxp.phkb.PlanetForestsAndOceans" version="1.1"/>
+    <Expansion downloadUrl="https://wiki.alioth.net/img_auth.php/7/7e/RemoveIndividualPylon.oxz" identifier="oolite.oxp.phkb.RemoveIndividualPylon" version="1.0"/>
+    <Expansion downloadUrl="https://wiki.alioth.net/img_auth.php/5/5c/VimanaX_HUD_1.18.oxz" identifier="oolite.oxp.phkb.VimanaX_HUD" version="1.18"/>
+    <Expansion downloadUrl="https://wiki.alioth.net/img_auth.php/8/82/TechnicalReferenceLibrary-1.0.1.oxz" identifier="oolite.oxp.spara.TechnicalReferenceLibrary" version="1.0.1"/>
+    <Expansion downloadUrl="https://wiki.alioth.net/img_auth.php/c/cb/Market_observer_3.7.oxz" identifier="oolite.oxp.spara.market_observer" version="3.7"/>
+    <Expansion downloadUrl="https://wiki.alioth.net/img_auth.php/3/3c/Start_advice_0.3.oxz" identifier="oolite.oxp.spara.start_advice" version="0.3"/>
+    <Expansion downloadUrl="https://wiki.alioth.net/img_auth.php/0/06/Start_choices_1.8.2.oxz" identifier="oolite.oxp.spara.start_choices" version="1.8.2"/>
+    <Expansion downloadUrl="https://wiki.alioth.net/img_auth.php/0/0b/XenonUI.oxz" identifier="oolite.oxp.z.phkb.XenonUI" version="3.7"/>
+    <Expansion downloadUrl="" identifier="org.oolite.oolite.debug" version="1.91"/>
+</ExpansionList>
