@@ -1,1 +1,39 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?><ExpansionList></ExpansionList>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<ExpansionList generatedAt="2024-04-12T06:53:07.289837711Z" generatedBy="null null">
+    <Expansion downloadUrl="https://wiki.alioth.net/img_auth.php/9/9f/Anarchies-2.9.4.oxz" identifier="oolite.oxp.Commander_McLane.Anarchies" version="2.9.4"/>
+    <Expansion downloadUrl="https://wiki.alioth.net/img_auth.php/1/19/Diplomacy.oxz" identifier="oolite.oxp.Day.Diplomacy" version="0.19"/>
+    <Expansion downloadUrl="https://wiki.alioth.net/img_auth.php/d/dd/Commies_2.19.oxz" identifier="oolite.oxp.DrNil.Commies" version="2.19"/>
+    <Expansion downloadUrl="https://wiki.alioth.net/img_auth.php/e/e6/Tianve_2.5.oxz" identifier="oolite.oxp.DrewWagar.TianvePulsar" version="2.5"/>
+    <Expansion downloadUrl="https://wiki.alioth.net/img_auth.php/9/9a/DeepSpaceDredger.oxz" identifier="oolite.oxp.EricWalch.DeepSpaceDredger" version="2.4.10"/>
+    <Expansion downloadUrl="https://wiki.alioth.net/img_auth.php/c/c8/Tionisla_Reporter.oxz" identifier="oolite.oxp.EricWalch.TionislaReporter" version="1.3.9"/>
+    <Expansion downloadUrl="https://wiki.alioth.net/img_auth.php/a/a5/Dictators.oxz" identifier="oolite.oxp.Ramirez.Dictators" version="2.6"/>
+    <Expansion downloadUrl="https://wiki.alioth.net/img_auth.php/4/4c/Feudal_States_1.16.3.oxz" identifier="oolite.oxp.Ramirez.FeudalStates" version="1.16.3"/>
+    <Expansion downloadUrl="https://wiki.alioth.net/img_auth.php/d/dd/Taranis_2.1.oxz" identifier="oolite.oxp.RobertTodd.Taranis" version="2.1"/>
+    <Expansion downloadUrl="https://wiki.alioth.net/img_auth.php/7/73/RRSBlackBoxHC_0.1.oxz" identifier="oolite.oxp.SMax.RRSBlackBoxHC" version="0.1"/>
+    <Expansion downloadUrl="https://wiki.alioth.net/img_auth.php/4/49/TionislaChronicleArray.oxz" identifier="oolite.oxp.Storm.TionislaChronicleArray" version="1.05"/>
+    <Expansion downloadUrl="https://wiki.alioth.net/img_auth.php/1/1e/GNN1.2.oxz" identifier="oolite.oxp.Svengali.GNN" version="1.2"/>
+    <Expansion downloadUrl="https://wiki.alioth.net/img_auth.php/f/f2/Library1.7.1.oxz" identifier="oolite.oxp.Svengali.Library" version="1.7.1"/>
+    <Expansion downloadUrl="https://wiki.alioth.net/img_auth.php/6/69/LaveAcademy_2.1.oxz" identifier="oolite.oxp.Thargoid.LaveAcademy" version="2.1"/>
+    <Expansion downloadUrl="https://wiki.alioth.net/img_auth.php/2/24/PlanetFall_1.51.oxz" identifier="oolite.oxp.Thargoid.Planetfall" version="1.51"/>
+    <Expansion downloadUrl="https://wiki.alioth.net/img_auth.php/c/ce/Ring_Racer_1.21.oxz" identifier="oolite.oxp.Thargoid.RingRacer" version="1.21"/>
+    <Expansion downloadUrl="https://wiki.alioth.net/img_auth.php/0/03/Riredi_2.1.oxz" identifier="oolite.oxp.captain_beatnik.Riredi" version="2.1"/>
+    <Expansion downloadUrl="https://wiki.alioth.net/img_auth.php/3/3f/Tori_2.1.oxz" identifier="oolite.oxp.captsolo.tori2.02" version="2.1"/>
+    <Expansion downloadUrl="https://wiki.alioth.net/img_auth.php/8/89/Z-GrOovY_SmallSystemStations_1.10.oxz" identifier="oolite.oxp.dertien.Z_GrOovY_SmallSystemStations" version="1.10"/>
+    <Expansion downloadUrl="https://wiki.alioth.net/img_auth.php/f/ff/GlobeStation_2.1.oxz" identifier="oolite.oxp.murgh.GlobeStation" version="2.1"/>
+    <Expansion downloadUrl="https://wiki.alioth.net/img_auth.php/f/ff/Lave_2.1.oxz" identifier="oolite.oxp.murgh.Lave" version="2.1"/>
+    <Expansion downloadUrl="https://wiki.alioth.net/img_auth.php/a/a9/BlackMarket_1.2.oxz" identifier="oolite.oxp.phkb.BlackMarket" version="1.2"/>
+    <Expansion downloadUrl="https://wiki.alioth.net/img_auth.php/5/5d/BountySystem.oxz" identifier="oolite.oxp.phkb.BountySystem" version="0.13"/>
+    <Expansion downloadUrl="https://wiki.alioth.net/img_auth.php/1/15/ExtraRockHermits_1.5.oxz" identifier="oolite.oxp.phkb.ExtraRockHermits" version="1.5"/>
+    <Expansion downloadUrl="https://wiki.alioth.net/img_auth.php/d/d8/MarketScriptInterface_1.1.oxz" identifier="oolite.oxp.phkb.MarketScriptInterface" version="1.1"/>
+    <Expansion downloadUrl="https://wiki.alioth.net/img_auth.php/0/04/Smugglers_2.4.oxz" identifier="oolite.oxp.phkb.Smugglers_TGU" version="2.4"/>
+    <Expansion downloadUrl="https://wiki.alioth.net/img_auth.php/a/a6/TionislaOrbitalGraveyard.oxz" identifier="oolite.oxp.phkb.TionislaOrbitalGraveyard" version="2.7"/>
+    <Expansion downloadUrl="https://wiki.alioth.net/img_auth.php/a/ae/TionislaOrbitalGraveyard_Memorials.oxz" identifier="oolite.oxp.phkb.TionislaOrbitalGraveyard_Memorials" version="2.0"/>
+    <Expansion downloadUrl="https://wiki.alioth.net/img_auth.php/1/1b/TionislaOrbitalGraveyard_Monuments.oxz" identifier="oolite.oxp.phkb.TionislaOrbitalGraveyard_Monuments" version="2.1"/>
+    <Expansion downloadUrl="https://wiki.alioth.net/img_auth.php/e/ed/TionislaOrbitalGraveyard_Shipwrecks.oxz" identifier="oolite.oxp.phkb.TionislaOrbitalGraveyard_Shipwrecks" version="1.1"/>
+    <Expansion downloadUrl="https://wiki.alioth.net/img_auth.php/f/fd/Oolite.oxp.redspear.weapon_laws.oxz" identifier="oolite.oxp.redspear.weapon_laws" version="1.6"/>
+    <Expansion downloadUrl="https://wiki.alioth.net/img_auth.php/7/76/Liners_v1.7.0.oxz" identifier="oolite.oxp.smivs.Liners" version="1.7.0"/>
+    <Expansion downloadUrl="https://wiki.alioth.net/img_auth.php/a/a9/Astrofactory.oxz" identifier="oolite.oxp.spara.ImperialAstrofactory" version="2.4"/>
+    <Expansion downloadUrl="https://wiki.alioth.net/img_auth.php/f/f8/Behemoth_3.1.1.oxz" identifier="oolite.oxp.spara.behemoth" version="3.1.1"/>
+    <Expansion downloadUrl="https://wiki.alioth.net/img_auth.php/3/33/Nuit_Station_2.3.oxz" identifier="oolite.oxp.zzz.Montana05.KillerWolf.nuit_station" version="2.3"/>
+    <Expansion downloadUrl="" identifier="org.oolite.oolite.debug" version="1.91"/>
+</ExpansionList>
