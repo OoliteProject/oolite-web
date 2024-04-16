@@ -14302,7 +14302,7 @@
   },
   {
     "identifier":"oolite.oxp.phkb.ExternalDockSystem",
-    "version":"1.7",
+    "version":"1.8",
     "required_oolite_version":"1.85",
     "maximum_oolite_version":null,
     "title":"External Dock System",
@@ -14310,10 +14310,10 @@
     "category":"Mechanics",
     "author":"phkb",
     "license":"CC-BY-NC-SA 4.0",
-    "download_url":"https://wiki.alioth.net/img_auth.php/b/b4/ExternalDockingSystem_1.7.oxz",
-    "information_url":"https://wiki.alioth.net/index.php/External_Dock_System",
-    "file_size":6504,
-    "upload_date":1712638722,
+    "download_url":"https://wiki.alioth.net/img_auth.php/c/c8/ExternalDockingSystem_1.8.oxz",
+    "information_url":"https://wiki.alioth.net/index.php/External_Docking_System",
+    "file_size":6554,
+    "upload_date":1713269448,
     "tags":[
     ],
     "conflict_oxps":[
