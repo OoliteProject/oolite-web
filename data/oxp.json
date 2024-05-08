@@ -488,6 +488,34 @@
     ]
   },
   {
+    "identifier":"gsagostinho.DangerousHUD.OrangeVariant",
+    "version":"2.0.2",
+    "required_oolite_version":"1.87",
+    "maximum_oolite_version":null,
+    "title":"Dangerous HUD Orange Variant",
+    "description":"This is a HUD in the style of Elite Dangerous, featuring an orange theme for both the HUD and for the GUI, cockpit views (fighter, hauler or glass only), glass effect, monitor effect for aft view, new sounds effects (ECM, hyperjumps, low energy, missile warning), custom made warnings signs, HUD animations including a pulsating scanner. Based on phkb's Xenon HUD. Tested with vanilla Oolite as well as with BGS (Backgroundset) and Xenon UI OXPs, all of which work fine with the orange color scheme.",
+    "category":"HUDs",
+    "author":"gsagostinho",
+    "license":"CC BY-NC-SA 4.0",
+    "download_url":"https://wiki.alioth.net/img_auth.php/2/28/Gsagostinho.DangerousHUD.OrangeVariant.oxz",
+    "information_url":null,
+    "file_size":24803132,
+    "upload_date":1610873256,
+    "tags":[
+      "Balance=green",
+      "HUD",
+      "HUDs",
+      "hud",
+      "huds"
+    ],
+    "conflict_oxps":[
+    ],
+    "optional_oxps":[
+    ],
+    "requires_oxps":[
+    ]
+  },
+  {
     "identifier":"gsagostinho.DangerousHUD.PinkVariant",
     "version":"2.0.2",
     "required_oolite_version":"1.87",
@@ -2739,6 +2767,32 @@
     "information_url":"http://wiki.alioth.net/index.php/Your_Ad_Here!",
     "file_size":5954416,
     "upload_date":1610873242,
+    "tags":[
+      "dockables",
+      "ambience",
+      "systems"
+    ],
+    "conflict_oxps":[
+    ],
+    "optional_oxps":[
+    ],
+    "requires_oxps":[
+    ]
+  },
+  {
+    "identifier":"oolite.oxp.DrNil.YAH-SetG",
+    "version":"4.5",
+    "required_oolite_version":"1.84",
+    "maximum_oolite_version":null,
+    "title":"Your Ad Here Set G",
+    "description":"Advert set G for YAH - Oodles",
+    "category":"Ambience",
+    "author":"Dr. Nil and contributors",
+    "license":"Creative Commons Attribution - Non-Commercial - Share Alike 4.0 license",
+    "download_url":"https://wiki.alioth.net/img_auth.php/e/ef/Yah_setg_4.5.oxz",
+    "information_url":"http://wiki.alioth.net/index.php/Your_Ad_Here!",
+    "file_size":5089756,
+    "upload_date":1610873508,
     "tags":[
       "dockables",
       "ambience",
@@ -7572,6 +7626,41 @@
     ]
   },
   {
+    "identifier":"oolite.oxp.Ramirez.Dictators",
+    "version":"2.6",
+    "required_oolite_version":"1.82",
+    "maximum_oolite_version":null,
+    "title":"Dictators",
+    "description":"Adds a range of ships and stations to each dictatorship and offers new trading opportunities to players.",
+    "category":"Systems",
+    "author":"Ramirez, phkb, gsagostinho",
+    "license":"CC BY-NC-SA 3",
+    "download_url":"https://wiki.alioth.net/img_auth.php/a/a5/Dictators.oxz",
+    "information_url":"http://wiki.alioth.net/index.php/Dictators_OXP",
+    "file_size":10361441,
+    "upload_date":1693696776,
+    "tags":[
+    ],
+    "conflict_oxps":[
+    ],
+    "optional_oxps":[
+      {
+        "identifier":"oolite.oxp.Ramirez.FeudalStates",
+        "version":"1.16.2",
+        "maximum_version":null,
+        "description":null
+      }
+    ],
+    "requires_oxps":[
+      {
+        "identifier":"oolite.oxp.spara.ImperialAstrofactory",
+        "version":"2.1",
+        "maximum_version":null,
+        "description":null
+      }
+    ]
+  },
+  {
     "identifier":"oolite.oxp.Ramirez.ExecutiveSpaceWays",
     "version":"2.4.4",
     "required_oolite_version":"1.79",
@@ -8192,6 +8281,29 @@
     "information_url":"http://www.aegidian.org/bb/viewtopic.php?f=4&t=15451",
     "file_size":1138404,
     "upload_date":1610873398,
+    "tags":[
+    ],
+    "conflict_oxps":[
+    ],
+    "optional_oxps":[
+    ],
+    "requires_oxps":[
+    ]
+  },
+  {
+    "identifier":"oolite.oxp.Rorschachhamster.Satellites",
+    "version":"1.10",
+    "required_oolite_version":"1.79",
+    "maximum_oolite_version":null,
+    "title":"Satellites",
+    "description":"Adds some (0 to 15, dependent on tech level and size of population) of four small satellites to every main planet.",
+    "category":"Ambience",
+    "author":"Rorschachhamster",
+    "license":"CC BY-NC-SA 3",
+    "download_url":"https://wiki.alioth.net/img_auth.php/9/9d/Satellites.oxz",
+    "information_url":"http://aegidian.org/bb/viewtopic.php?f=4&t=13687",
+    "file_size":5532945,
+    "upload_date":1610873392,
     "tags":[
     ],
     "conflict_oxps":[
@@ -14442,6 +14554,29 @@
     ]
   },
   {
+    "identifier":"oolite.oxp.phkb.FactoryPaintJobs_Mamba",
+    "version":"1.2",
+    "required_oolite_version":"1.80",
+    "maximum_oolite_version":null,
+    "title":"phkb's Factory Paint Jobs: Mamba",
+    "description":"This bundle adds 27 new paint jobs for the Mamba and 14 for the Mamba Escort.",
+    "category":"Retextures",
+    "author":"phkb",
+    "license":"CC-BY-SA-NC 4.0",
+    "download_url":"https://wiki.alioth.net/img_auth.php/4/43/FactoryPaintJobs_Mamba_1.2.oxz",
+    "information_url":"https://wiki.alioth.net/index.php/Factory_Paint_Jobs",
+    "file_size":33022113,
+    "upload_date":1700191944,
+    "tags":[
+    ],
+    "conflict_oxps":[
+    ],
+    "optional_oxps":[
+    ],
+    "requires_oxps":[
+    ]
+  },
+  {
     "identifier":"oolite.oxp.phkb.FactoryPaintJobs_Moray",
     "version":"1.2",
     "required_oolite_version":"1.80",
@@ -20442,6 +20577,115 @@
     ]
   },
   {
+    "identifier":"oolite.oxp.z.phkb.XenonUIResourcesE",
+    "version":"2.1",
+    "required_oolite_version":"1.80",
+    "maximum_oolite_version":null,
+    "title":"Xenon UI Resources Pack E (16:9)",
+    "description":"Background image resources (16:9 format) for the Xenon UI OXP, using Dangerous Square font.",
+    "category":"Ambience",
+    "author":"phkb",
+    "license":"CC-BY-NC-SA 4.0",
+    "download_url":"https://wiki.alioth.net/img_auth.php/1/15/XenonUIResourcesE.oxz",
+    "information_url":"http://wiki.alioth.net/index.php/XenonUI",
+    "file_size":9737808,
+    "upload_date":1703677405,
+    "tags":[
+      "Balance=green",
+      "Backgrounds"
+    ],
+    "conflict_oxps":[
+      {
+        "identifier":"oolite.oxp.z.phkb.XenonUIResources",
+        "version":null,
+        "maximum_version":null,
+        "description":"Only one Xenon UI Resources pack is required."
+      },
+      {
+        "identifier":"oolite.oxp.z.phkb.XenonUIResourcesB",
+        "version":null,
+        "maximum_version":null,
+        "description":"Only one Xenon UI Resources pack is required."
+      },
+      {
+        "identifier":"oolite.oxp.z.phkb.XenonUIResourcesC",
+        "version":null,
+        "maximum_version":null,
+        "description":"Only one Xenon UI Resources pack is required."
+      },
+      {
+        "identifier":"oolite.oxp.z.phkb.XenonUIResourcesD",
+        "version":null,
+        "maximum_version":null,
+        "description":"Only one Xenon UI Resources pack is required."
+      },
+      {
+        "identifier":"oolite.oxp.z.phkb.XenonUIResourcesF",
+        "version":null,
+        "maximum_version":null,
+        "description":"Only one Xenon UI Resources pack is required."
+      },
+      {
+        "identifier":"oolite.oxp.z.phkb.XenonUIResourcesG",
+        "version":null,
+        "maximum_version":null,
+        "description":"Only one Xenon UI Resources pack is required."
+      },
+      {
+        "identifier":"oolite.oxp.z.phkb.XenonUIResourcesH",
+        "version":null,
+        "maximum_version":null,
+        "description":"Only one Xenon UI Resources pack is required."
+      },
+      {
+        "identifier":"oolite.oxp.z.phkb.XenonUIResourcesI",
+        "version":null,
+        "maximum_version":null,
+        "description":"Only one Xenon UI Resources pack is required."
+      },
+      {
+        "identifier":"oolite.oxp.z.phkb.XenonUIResourcesJ",
+        "version":null,
+        "maximum_version":null,
+        "description":"Only one Xenon UI Resources pack is required."
+      },
+      {
+        "identifier":"oolite.oxp.z.phkb.XenonUIResourcesK",
+        "version":null,
+        "maximum_version":null,
+        "description":"Only one Xenon UI Resources pack is required."
+      },
+      {
+        "identifier":"oolite.oxp.z.phkb.XenonUIResourcesL",
+        "version":null,
+        "maximum_version":null,
+        "description":"Only one Xenon UI Resources pack is required."
+      },
+      {
+        "identifier":"oolite.oxp.z.phkb.XenonUIResourcesM",
+        "version":null,
+        "maximum_version":null,
+        "description":"Only one Xenon UI Resources pack is required."
+      },
+      {
+        "identifier":"oolite.oxp.z.phkb.XenonUIResourcesN",
+        "version":null,
+        "maximum_version":null,
+        "description":"Only one Xenon UI Resources pack is required."
+      }
+    ],
+    "optional_oxps":[
+    ],
+    "requires_oxps":[
+      {
+        "identifier":"oolite.oxp.z.phkb.XenonUI",
+        "version":"1.2.0",
+        "maximum_version":null,
+        "description":"Requires the main Xenon UI OXP."
+      }
+    ]
+  },
+  {
     "identifier":"oolite.oxp.z.phkb.XenonUIResourcesF",
     "version":"2.1",
     "required_oolite_version":"1.80",
@@ -21514,6 +21758,60 @@
     "optional_oxps":[
     ],
     "requires_oxps":[
+    ]
+  },
+  {
+    "identifier":"oolite.oxp.zzz.Montana05.BUS_MegaBat",
+    "version":"0.50",
+    "required_oolite_version":"1.88",
+    "maximum_oolite_version":null,
+    "title":"Mega Bat",
+    "description":"A, based on the Fruit Bat and the Flying Fox, somewhat maneuverable medium fighter/escort. This ship is often used by pirates, assassins, hunters and escorts alike. For more details, please check the wiki page.",
+    "category":"Ships",
+    "author":"Montana05",
+    "license":"CC BY-NC-SA 4.0",
+    "download_url":"https://wiki.alioth.net/img_auth.php/e/ed/Oolite.oxp.zzz.Montana05.BUS_MegaBat.OXZ",
+    "information_url":null,
+    "file_size":13713696,
+    "upload_date":1637641163,
+    "tags":[
+      "ships"
+    ],
+    "conflict_oxps":[
+    ],
+    "optional_oxps":[
+    ],
+    "requires_oxps":[
+    ]
+  },
+  {
+    "identifier":"oolite.oxp.zzz.Montana05.BUS_gecko_dragon",
+    "version":"0.52",
+    "required_oolite_version":"1.88",
+    "maximum_oolite_version":null,
+    "title":"Gecko 'Dragon Class'",
+    "description":"A Gecko heavy fighter based on the technology of a wrecked Green Gecko from the Green Knights of Lago. Warning, this ship is significant stronger than most core-ships. For more details please check the wiki page.",
+    "category":"Ships",
+    "author":"Montana05",
+    "license":"CC BY-NC-SA 4.0",
+    "download_url":"https://wiki.alioth.net/img_auth.php/3/36/Oolite.oxp.zzz.Montana05.BUS_gecko_dragon.OXZ",
+    "information_url":null,
+    "file_size":21679928,
+    "upload_date":1638498197,
+    "tags":[
+      "ships"
+    ],
+    "conflict_oxps":[
+    ],
+    "optional_oxps":[
+    ],
+    "requires_oxps":[
+      {
+        "identifier":"oolite.oxp.zzz.Montana05.resource_pack_01",
+        "version":"0.53",
+        "maximum_version":null,
+        "description":"Add effects, additional cargo and commodities plus new escape pods required by this OXP."
+      }
     ]
   },
   {
