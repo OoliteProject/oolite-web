@@ -625,30 +625,6 @@
     ]
   },
   {
-    "identifier":"gsagostinho.TexturePack.Adder",
-    "version":"1.1",
-    "required_oolite_version":"1.80",
-    "maximum_oolite_version":null,
-    "title":"gsagostinho's Texture Pack: Adder",
-    "description":"This bundle adds 6 new paint jobs for the Adder.",
-    "category":"Retextures",
-    "author":"gsagostinho",
-    "license":"CC-BY-NC-SA 3.0",
-    "download_url":"https://wiki.alioth.net/img_auth.php/a/a7/Gsagostinho.TexturePack.Adder.oxz",
-    "information_url":null,
-    "file_size":11130343,
-    "upload_date":1610873405,
-    "tags":[
-      "ships"
-    ],
-    "conflict_oxps":[
-    ],
-    "optional_oxps":[
-    ],
-    "requires_oxps":[
-    ]
-  },
-  {
     "identifier":"gsagostinho.TexturePack.AspMkII",
     "version":"1.4",
     "required_oolite_version":"1.80",
@@ -673,30 +649,6 @@
     ]
   },
   {
-    "identifier":"gsagostinho.TexturePack.CobraMkIII",
-    "version":"1.5",
-    "required_oolite_version":"1.80",
-    "maximum_oolite_version":null,
-    "title":"gsagostinho's Texture Pack: Cobra Mk III",
-    "description":"This bundle adds 23 new paint jobs for the Cobra Mk III.",
-    "category":"Retextures",
-    "author":"gsagostinho",
-    "license":"CC-BY-NC-SA 3.0",
-    "download_url":"https://wiki.alioth.net/img_auth.php/2/23/Gsagostinho.TexturePack.CobraMkIII.oxz",
-    "information_url":null,
-    "file_size":31085408,
-    "upload_date":1610873250,
-    "tags":[
-      "ships"
-    ],
-    "conflict_oxps":[
-    ],
-    "optional_oxps":[
-    ],
-    "requires_oxps":[
-    ]
-  },
-  {
     "identifier":"gsagostinho.TexturePack.FerDeLance",
     "version":"1.5",
     "required_oolite_version":"1.80",
@@ -710,30 +662,6 @@
     "information_url":null,
     "file_size":16770077,
     "upload_date":1610873512,
-    "tags":[
-      "ships"
-    ],
-    "conflict_oxps":[
-    ],
-    "optional_oxps":[
-    ],
-    "requires_oxps":[
-    ]
-  },
-  {
-    "identifier":"gsagostinho.TexturePack.Python",
-    "version":"1.1",
-    "required_oolite_version":"1.80",
-    "maximum_oolite_version":null,
-    "title":"gsagostinho's Texture Pack: Python",
-    "description":"This bundle adds 6 new paint jobs for the Python.",
-    "category":"Retextures",
-    "author":"gsagostinho",
-    "license":"CC-BY-NC-SA 4.0",
-    "download_url":"https://wiki.alioth.net/img_auth.php/8/8c/Gsagostinho.TexturePack.Python.oxz",
-    "information_url":null,
-    "file_size":9643973,
-    "upload_date":1610873357,
     "tags":[
       "ships"
     ],
@@ -5087,31 +5015,6 @@
     ]
   },
   {
-    "identifier":"oolite.oxp.Murgh.HoOpyCasino",
-    "version":"1.3.5",
-    "required_oolite_version":"1.80",
-    "maximum_oolite_version":null,
-    "title":"HoOpy Casino",
-    "description":"Commanders who chose to dock with a HoOpy Casino are quickly ushered into the vast gaming halls, here to be offered the opportunity to win or lose credits in games of chance.",
-    "category":"Dockables",
-    "author":"Eric Walch, Murgh, CaptSolo, spara",
-    "license":null,
-    "download_url":"https://wiki.alioth.net/img_auth.php/6/6f/HOopyCasino1.3.5.oxz",
-    "information_url":"http://wiki.alioth.net/index.php/HoOpy_Casino",
-    "file_size":8276587,
-    "upload_date":1610873331,
-    "tags":[
-      "Casino",
-      "Gambling"
-    ],
-    "conflict_oxps":[
-    ],
-    "optional_oxps":[
-    ],
-    "requires_oxps":[
-    ]
-  },
-  {
     "identifier":"oolite.oxp.Murgh.MilitaryFiasco",
     "version":"2.5.3",
     "required_oolite_version":"1.74",
@@ -7423,29 +7326,6 @@
     "information_url":"http://wiki.alioth.net/index.php/Superhub",
     "file_size":9356670,
     "upload_date":1610873443,
-    "tags":[
-    ],
-    "conflict_oxps":[
-    ],
-    "optional_oxps":[
-    ],
-    "requires_oxps":[
-    ]
-  },
-  {
-    "identifier":"oolite.oxp.Pleb.TaxiGalactica",
-    "version":"2.1",
-    "required_oolite_version":"1.79",
-    "maximum_oolite_version":null,
-    "title":"Taxi Galactica",
-    "description":"Taxi Stations in corporate systems offers exotic passenger contracts.",
-    "category":"Missions",
-    "author":"Pleb",
-    "license":"CC BY-NC-SA 3",
-    "download_url":"https://wiki.alioth.net/img_auth.php/8/81/Taxi_Galactica_2.1.oxz",
-    "information_url":"http://wiki.alioth.net/index.php/Taxi_Galactica",
-    "file_size":4640475,
-    "upload_date":1610873346,
     "tags":[
     ],
     "conflict_oxps":[
@@ -10632,31 +10512,6 @@
     ]
   },
   {
-    "identifier":"oolite.oxp.Thargoid.TAP",
-    "version":"1.14",
-    "required_oolite_version":"1.79",
-    "maximum_oolite_version":null,
-    "title":"Target Autolock Plus",
-    "description":"A software update for the standard scanner targeting enhancement equipment that automatically locks onto attacking ships if you have no prior target selected.",
-    "category":"Equipment",
-    "author":"Thargoid",
-    "license":"CC BY-NC-SA 3.0",
-    "download_url":"https://wiki.alioth.net/img_auth.php/8/86/TargetAutolockPlus-1.14.oxz",
-    "information_url":"http://wiki.alioth.net/index.php/Target_Autolock_OXP",
-    "file_size":4350,
-    "upload_date":1610873352,
-    "tags":[
-      "equipment",
-      "weapons"
-    ],
-    "conflict_oxps":[
-    ],
-    "optional_oxps":[
-    ],
-    "requires_oxps":[
-    ]
-  },
-  {
     "identifier":"oolite.oxp.Thargoid.TCAT",
     "version":"1.11",
     "required_oolite_version":"1.79",
@@ -12436,29 +12291,6 @@
     ]
   },
   {
-    "identifier":"oolite.oxp.another_commander.ZaonceIsVenus8k",
-    "version":"1.0",
-    "required_oolite_version":"1.89",
-    "maximum_oolite_version":null,
-    "title":"Zaonce is Venus 8k",
-    "description":"Converts Zaonce to Venus by fully retexturing it with an 8k diffuse texture. This is a demonstration of the custom planet texturing capabilities present in Oolite version 1.89 and later.",
-    "category":"Ambience",
-    "author":null,
-    "license":"CC BY-NC-SA 4.0",
-    "download_url":"https://wiki.alioth.net/img_auth.php/5/53/ZaonceIsVenus8k.oxz",
-    "information_url":"http://wiki.alioth.net/index.php/Zaonce_is_Venus_8k",
-    "file_size":33527732,
-    "upload_date":1610873301,
-    "tags":[
-    ],
-    "conflict_oxps":[
-    ],
-    "optional_oxps":[
-    ],
-    "requires_oxps":[
-    ]
-  },
-  {
     "identifier":"oolite.oxp.astrobe.compassautoswitch",
     "version":"1.0.0",
     "required_oolite_version":"1.86",
@@ -13311,29 +13143,6 @@
     "information_url":null,
     "file_size":1277,
     "upload_date":1610873522,
-    "tags":[
-    ],
-    "conflict_oxps":[
-    ],
-    "optional_oxps":[
-    ],
-    "requires_oxps":[
-    ]
-  },
-  {
-    "identifier":"oolite.oxp.dybal.BarrelRoll",
-    "version":"1.1",
-    "required_oolite_version":"1.81",
-    "maximum_oolite_version":null,
-    "title":"Barrel Roll",
-    "description":"Adds a barrel roll function to your auto-pilot.",
-    "category":"Equipment",
-    "author":"Dybal",
-    "license":"CC-BY-NC-SA 4.0",
-    "download_url":"https://wiki.alioth.net/img_auth.php/d/db/BarrelRoll-1.1.oxz",
-    "information_url":null,
-    "file_size":3133,
-    "upload_date":1610873485,
     "tags":[
     ],
     "conflict_oxps":[
@@ -15225,6 +15034,52 @@
     ]
   },
   {
+    "identifier":"oolite.oxp.phkb.LoadoutByCategory",
+    "version":"1.3",
+    "required_oolite_version":null,
+    "maximum_oolite_version":"1.90",
+    "title":"Loadout By Category",
+    "description":"Orders all equipment on the F3 Ship Outfitting and F5 Status screens into a grouped structure with headers to make them easier to navigate.",
+    "category":"Miscellaneous",
+    "author":"phkb",
+    "license":"CC-BY-SA 4.0",
+    "download_url":"https://wiki.alioth.net/img_auth.php/1/1d/LoadoutByCategory_190.oxz",
+    "information_url":null,
+    "file_size":70058,
+    "upload_date":1716782492,
+    "tags":[
+    ],
+    "conflict_oxps":[
+    ],
+    "optional_oxps":[
+    ],
+    "requires_oxps":[
+    ]
+  },
+  {
+    "identifier":"oolite.oxp.phkb.LoadoutByCategory",
+    "version":"1.3",
+    "required_oolite_version":"1.91",
+    "maximum_oolite_version":null,
+    "title":"Loadout By Category",
+    "description":"Orders all equipment on the F3 Ship Outfitting and F5 Status screens into a grouped structure with headers to make them easier to navigate.",
+    "category":"Miscellaneous",
+    "author":"phkb",
+    "license":"CC-BY-SA 4.0",
+    "download_url":"https://wiki.alioth.net/img_auth.php/4/49/LoadoutByCategory.oxz",
+    "information_url":null,
+    "file_size":70058,
+    "upload_date":1716782450,
+    "tags":[
+    ],
+    "conflict_oxps":[
+    ],
+    "optional_oxps":[
+    ],
+    "requires_oxps":[
+    ]
+  },
+  {
     "identifier":"oolite.oxp.phkb.MFDFastConfiguration",
     "version":"2.2",
     "required_oolite_version":"1.82",
@@ -16532,65 +16387,6 @@
     "optional_oxps":[
     ],
     "requires_oxps":[
-    ]
-  },
-  {
-    "identifier":"oolite.oxp.redspear.free_bitmaps_dusty",
-    "version":"1.0",
-    "required_oolite_version":"1.79",
-    "maximum_oolite_version":null,
-    "title":"Additional Planets SR: free bitmaps dusty",
-    "description":"Provides 14 high resolution dusty planet/moon textures for use with the Additional Planets SR oxz.",
-    "category":"Ambience",
-    "author":"Redspear",
-    "license":"cc-by-nc-sa 3.0",
-    "download_url":"https://wiki.alioth.net/img_auth.php/9/9a/Oolite.oxp.redspear.free_bitmaps_dusty.oxz",
-    "information_url":"http://aegidian.org/bb/viewtopic.php?f=4&t=15683",
-    "file_size":96170363,
-    "upload_date":1610873387,
-    "tags":[
-    ],
-    "conflict_oxps":[
-    ],
-    "optional_oxps":[
-    ],
-    "requires_oxps":[
-      {
-        "identifier":"oolite.oxp.spara.additional_planets_sr_base",
-        "version":null,
-        "maximum_version":null,
-        "description":null
-      }
-    ]
-  },
-  {
-    "identifier":"oolite.oxp.redspear.free_bitmaps_icy",
-    "version":"1.0",
-    "required_oolite_version":"1.82",
-    "maximum_oolite_version":null,
-    "title":"Additional Planets SR: free bitmaps icy",
-    "description":"Provides 9 high resolution icy planet/moon textures for use with the Additional Planets SR oxz.",
-    "category":"Ambience",
-    "author":"Redspear, spara and collaborators",
-    "license":"cc-by-nc-sa 3.0",
-    "download_url":"https://wiki.alioth.net/img_auth.php/c/c9/Oolite.oxp.redspear.free_bitmaps_icy.oxz",
-    "information_url":"http://aegidian.org/bb/viewtopic.php?f=4&t=15683",
-    "file_size":70651354,
-    "upload_date":1610873471,
-    "tags":[
-      "additional planets"
-    ],
-    "conflict_oxps":[
-    ],
-    "optional_oxps":[
-    ],
-    "requires_oxps":[
-      {
-        "identifier":"oolite.oxp.spara.additional_planets_sr_base",
-        "version":null,
-        "maximum_version":null,
-        "description":null
-      }
     ]
   },
   {
@@ -19242,29 +19038,6 @@
     "information_url":null,
     "file_size":15108378,
     "upload_date":1610873242,
-    "tags":[
-    ],
-    "conflict_oxps":[
-    ],
-    "optional_oxps":[
-    ],
-    "requires_oxps":[
-    ]
-  },
-  {
-    "identifier":"oolite.oxp.stranger.FPO_Zaonce",
-    "version":"0.2.0",
-    "required_oolite_version":"1.90",
-    "maximum_oolite_version":null,
-    "title":"FPO Zaonce",
-    "description":"4K custom texture of Zaonce with diffuse and specular maps.",
-    "category":"Ambience",
-    "author":"stranger",
-    "license":"CC-BY-NC-SA 3.0",
-    "download_url":"https://wiki.alioth.net/img_auth.php/b/b2/FPO_Zaonce.oxz",
-    "information_url":null,
-    "file_size":16602303,
-    "upload_date":1610873447,
     "tags":[
     ],
     "conflict_oxps":[
@@ -22052,29 +21825,6 @@
     "information_url":"http://wiki.alioth.net/index.php/Military_Missile",
     "file_size":385086,
     "upload_date":1639300938,
-    "tags":[
-    ],
-    "conflict_oxps":[
-    ],
-    "optional_oxps":[
-    ],
-    "requires_oxps":[
-    ]
-  },
-  {
-    "identifier":"oolite.oxp.zzz.Montana05.GalTech_chimera_gunship_Fix",
-    "version":"1.12",
-    "required_oolite_version":"1.88",
-    "maximum_oolite_version":null,
-    "title":"Chimera Gunship Fix",
-    "description":"Update of the Chimera Gunship: Fixes problems and adjusts to later Oolite versions",
-    "category":"Ships",
-    "author":"Montana05",
-    "license":"CC BY-NC-SA 4.0",
-    "download_url":"https://wiki.alioth.net/img_auth.php/a/a0/Oolite.oxp.zzz.Montana05.GalTech_chimera_gunship_Fix.OXZ",
-    "information_url":"http://aegidian.org/bb/viewtopic.php?p=272543#p272543",
-    "file_size":12541305,
-    "upload_date":1610873396,
     "tags":[
     ],
     "conflict_oxps":[
