@@ -10322,7 +10322,7 @@
   },
   {
     "identifier":"oolite.oxp.Thargoid.Planetfall",
-    "version":"2.6",
+    "version":"2.7",
     "required_oolite_version":"1.90",
     "maximum_oolite_version":null,
     "title":"Planetfall",
@@ -10332,8 +10332,8 @@
     "license":"Creative Commons Attribution - Non-Commercial - Share Alike 3.0 license with clauses - see readme file",
     "download_url":"https://wiki.alioth.net/img_auth.php/1/1f/PlanetFall2.oxz",
     "information_url":"http://wiki.alioth.net/index.php/Planetfall2_OXP",
-    "file_size":1944802,
-    "upload_date":1716770457,
+    "file_size":1945931,
+    "upload_date":1717375957,
     "tags":[
       "dockables",
       "system"
