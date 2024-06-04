@@ -10322,7 +10322,7 @@
   },
   {
     "identifier":"oolite.oxp.Thargoid.Planetfall",
-    "version":"2.7",
+    "version":"2.8",
     "required_oolite_version":"1.90",
     "maximum_oolite_version":null,
     "title":"Planetfall",
@@ -10332,8 +10332,8 @@
     "license":"Creative Commons Attribution - Non-Commercial - Share Alike 3.0 license with clauses - see readme file",
     "download_url":"https://wiki.alioth.net/img_auth.php/1/1f/PlanetFall2.oxz",
     "information_url":"http://wiki.alioth.net/index.php/Planetfall2_OXP",
-    "file_size":1945931,
-    "upload_date":1717375957,
+    "file_size":1945000,
+    "upload_date":1717463901,
     "tags":[
       "dockables",
       "system"
@@ -10353,6 +10353,12 @@
       }
     ],
     "optional_oxps":[
+      {
+        "identifier":"oolite.oxp.phkb.PlanetRotationCosmetics",
+        "version":null,
+        "maximum_version":null,
+        "description":null
+      }
     ],
     "requires_oxps":[
       {
@@ -15564,6 +15570,29 @@
     "information_url":"http://aegidian.org/bb/viewtopic.php?f=4&t=20179",
     "file_size":4265,
     "upload_date":1709981734,
+    "tags":[
+    ],
+    "conflict_oxps":[
+    ],
+    "optional_oxps":[
+    ],
+    "requires_oxps":[
+    ]
+  },
+  {
+    "identifier":"oolite.oxp.phkb.PlanetRotationCosmetics",
+    "version":"1.0",
+    "required_oolite_version":"1.90",
+    "maximum_oolite_version":null,
+    "title":"Planet Rotation Cosmetics",
+    "description":"Slows rotation of planet when player ship approaches surface.",
+    "category":"Ambience",
+    "author":"phkb",
+    "license":"CC-BY-NC-SA 4.0",
+    "download_url":"https://wiki.alioth.net/img_auth.php/1/19/PlanetRotationCosmetics.oxz",
+    "information_url":"http://wiki.alioth.net/index.php/Planet_Rotation_Cosmetics_OXP",
+    "file_size":1408,
+    "upload_date":1717463915,
     "tags":[
     ],
     "conflict_oxps":[
