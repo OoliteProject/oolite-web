@@ -1715,18 +1715,18 @@
   },
   {
     "identifier":"oolite.oxp.Cholmondeley.Lore_Collection_(Classic_Elite)",
-    "version":"1.1",
-    "required_oolite_version":"1.88",
+    "version":"1.2",
+    "required_oolite_version":"1.90",
     "maximum_oolite_version":null,
     "title":"Lore Collection (Classic Elite)",
-    "description":"A collection of oxp's to make your Ooniverse resemble that of the Dark Wheel/Classic Elite Press \\\"i\\\" for the installation list. This pack does nothing after being installed so you can remove it and then remove any unwanted packages.\n\nInstalls: FPO Lave, Lave Academy, Tionisla Orbital GraveYard, Generation Ships, Deep Space Dredgers, Liners, BigShips, Griff Moray, Energy Bomb & New Cargoes.\n\nWarning: do not install this collection if you plan to read through the whole addon list and can spend enough time to build up your very unique Ooniverse.",
+    "description":"A collection of oxp's to make your Ooniverse resemble that of the Dark Wheel/Classic Elite Press \\\"i\\\" for the installation list. This pack does nothing after being installed so you can remove it and then remove any unwanted packages.\n\nInstalls: Lave OXP, Lave Academy, Tionisla Orbital GraveYard, Jane's Galactic Shipset, Generation Ships, Deep Space Dredgers, Liners, BigShips, Ophidian, HIMSN, Energy Bomb, New Cargoes and PlanetForestsAndOceans.\n\nWarning: do not install this collection if you plan to read through the whole addon list and can spend enough time to design your very unique Ooniverse.",
     "category":"Systems",
     "author":"Cholmondeley",
     "license":"CC-BY-NC-SA 4.0",
     "download_url":"https://wiki.alioth.net/img_auth.php/c/cc/Oolite.oxp.Cholmondeley.Lore_Collection_%28Classic_Elite%29.oxz",
     "information_url":"http://wiki.alioth.net/index.php/Lore_Collection_(Classic_Elite)",
-    "file_size":2422,
-    "upload_date":1630508450,
+    "file_size":1484,
+    "upload_date":1719203323,
     "tags":[
       "collection"
     ],
@@ -1736,10 +1736,10 @@
     ],
     "requires_oxps":[
       {
-        "identifier":"oolite.oxp.stranger.FPO_Lave",
+        "identifier":"oolite.oxp.murgh.Lave",
         "version":null,
         "maximum_version":null,
-        "description":"FPO Lave - Stranger's lore-based depiction"
+        "description":"Lave OXP - Murgh's lore-based OXP, adding the moon, ships, etc."
       },
       {
         "identifier":"oolite.oxp.Thargoid.LaveAcademy",
@@ -1752,6 +1752,12 @@
         "version":null,
         "maximum_version":null,
         "description":"TOGY - the famous Tionisla Orbital GraveYard"
+      },
+      {
+        "identifier":"oolite.oxp.phkb.TionislaOrbitalGraveyard_Memorials",
+        "version":null,
+        "maximum_version":null,
+        "description":"Memorials adds memorials for Ironfist and Svengali"
       },
       {
         "identifier":"oolite.oxp.phkb.TionislaOrbitalGraveyard_Monuments",
@@ -1808,16 +1814,28 @@
         "description":"Ophidian yacht as mentioned in the Dark Wheel"
       },
       {
+        "identifier":"oolite.oxp.tsoj.himsn",
+        "version":null,
+        "maximum_version":null,
+        "description":"HIMSN introduces Her Imperial Majesty's Space Navy into your Ooniverse"
+      },
+      {
         "identifier":"oolite.oxp.cim.energy-bomb",
         "version":null,
         "maximum_version":null,
         "description":"Energy bomb from Classic Elite"
       },
       {
-        "identifier":"ooolite.oxp.cim.new-cargoes",
+        "identifier":"oolite.oxp.cim.new-cargoes",
         "version":null,
         "maximum_version":null,
         "description":"New Cargoes allows trade in Dark Wheel goods such as Shanaskilk furs"
+      },
+      {
+        "identifier":"oolite.oxp.phkb.PlanetForestsAndOceans",
+        "version":null,
+        "maximum_version":null,
+        "description":"PlanetForestsAndOceans makes sure that systems that include 'forests' or 'oceans' in their description have landscapes that match."
       }
     ]
   },
