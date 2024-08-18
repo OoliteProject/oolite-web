@@ -26,4 +26,5 @@
     <Expansion downloadUrl="https://wiki.alioth.net/img_auth.php/3/3c/Start_advice_0.3.oxz" identifier="oolite.oxp.spara.start_advice" version="0.3"/>
     <Expansion downloadUrl="https://wiki.alioth.net/img_auth.php/0/06/Start_choices_1.8.2.oxz" identifier="oolite.oxp.spara.start_choices" version="1.8.2"/>
     <Expansion downloadUrl="https://wiki.alioth.net/img_auth.php/0/0b/XenonUI.oxz" identifier="oolite.oxp.z.phkb.XenonUI" version="3.7"/>
+    <Expansion downloadUrl="https://wiki.alioth.net/img_auth.php/9/96/ContextualJukebox.oxz" identifier="oolite.oxp.Arquebus.ContextualJukebox" version="0.1"/>
 </ExpansionList>
