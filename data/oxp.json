@@ -13967,7 +13967,7 @@
   },
   {
     "identifier":"oolite.oxp.phkb.BountySystem",
-    "version":"0.15",
+    "version":"0.16",
     "required_oolite_version":"1.82",
     "maximum_oolite_version":null,
     "title":"Bounty System",
@@ -13977,8 +13977,8 @@
     "license":"CC-BY-NC-SA 4.0",
     "download_url":"https://wiki.alioth.net/img_auth.php/5/5d/BountySystem.oxz",
     "information_url":"http://wiki.alioth.net/index.php/Bounty_System",
-    "file_size":74801,
-    "upload_date":1716770065,
+    "file_size":75230,
+    "upload_date":1728881271,
     "tags":[
     ],
     "conflict_oxps":[
