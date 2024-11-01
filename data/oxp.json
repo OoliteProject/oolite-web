@@ -15529,6 +15529,29 @@
     ]
   },
   {
+    "identifier":"oolite.oxp.phkb.NoMarketNotification",
+    "version":"1.4",
+    "required_oolite_version":"1.80",
+    "maximum_oolite_version":null,
+    "title":"'No Market' Notification",
+    "description":"Displays a message instead of an unusable market screen.",
+    "category":"Miscellaneous",
+    "author":"phkb",
+    "license":"CC-BY-NC-SA 4.0",
+    "download_url":"https://wiki.alioth.net/img_auth.php/3/3c/NoMarketNotification.oxz",
+    "information_url":"https://wiki.alioth.net/index.php/%27No_Market%27_Notification",
+    "file_size":2470,
+    "upload_date":1728881228,
+    "tags":[
+    ],
+    "conflict_oxps":[
+    ],
+    "optional_oxps":[
+    ],
+    "requires_oxps":[
+    ]
+  },
+  {
     "identifier":"oolite.oxp.phkb.PitviperMarkII_Facelift",
     "version":"1.0",
     "required_oolite_version":"1.79",
