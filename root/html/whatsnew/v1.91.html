@@ -138,3 +138,19 @@ the "Activate" and "Mode" functions of prime-able equipment to any joystick butt
 <p>
 A number of found bugs have been corrected.
 </p>
+<li>Prevented native code exception when more choices have been defined for a mission screen than will fit on the current screen size.</li>
+<li>Splinters that have a defined cargo will now spawn with that, instead of defaulting to minerals.</li>
+<li>Fixed issue where destination ID was not being passed to shipWillEnterWitchspace when the player is docked with another vessel.</li>
+<li>Fixed issue where hyperspace destination on the status screen and the witchspace destination HUD element were not honouring the system concealment property.</li>
+<li>Added guard against NaNs in the atmosphere shader with large planets.</li>
+<li>Fixed "index out of range" error that could occur if a HUD did not define MFD's and player tried to select one.</li>
+<li>(Windows port): Fixed inability to launch Oolite properly from within the Windows command console.</li>
+<li>Fixed missiles for Fer-de-lance in shipyard.plist to match shipdata.plist.</li>
+<li>Fixed issue where escaping a nova would result in the destination system's sun having the same size of the nova system's sun.</li> 
+<li>Fixed issue with ships that have forward mining laser refusing mining opportunities.</li>
+<li>Fixed crash in the tutorial caused by non-retained objects.</li>
+<li>Fixed issue where weapon spec in shipyard.plist was not being applied to new ships.</li>
+<li>Fixed crash when scan_description was defined in shipdata.plist.</li>
+<li>Fixed issue where context was not being considered when adding weapons to player.ship.</li>
+<li>Fixed exception when nil would be passed as an object for a weapon sound when that weapon doesn't exist in equipment.plist.</li>
+<li>Added extra docking tip in the tutorial, reminding pilots to keep moving towards the rear of the docking back, until the auto-dock takes over.</li>
