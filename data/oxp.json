@@ -13311,18 +13311,18 @@
   },
   {
     "identifier":"oolite.oxp.davidkroc.Sidewinder-ng",
-    "version":"1.4",
-    "required_oolite_version":"1.9",
+    "version":"1.5",
+    "required_oolite_version":"1.86",
     "maximum_oolite_version":null,
     "title":"Sidewinder NG",
-    "description":"Sidewinder NG",
+    "description":"The NG is a scaled-down version of the Sidewinder Scout with a modern and compact (but slow to engage) Witchdrive making it the smaller ship capable of hyperspace jump. Its great maneuverability and relative low cost make it a good choice for carriers or unwealthy systems police's fighters. The Sidewinder NG is built by Spalder and Starblaze for Faulcon de Lacy in Onrira Orbital Shipyards.",
     "category":"Ship",
     "author":"DavidKroc",
     "license":"CC-BY-NC-SA 4.0",
     "download_url":"https://wiki.alioth.net/img_auth.php/d/d6/Oolite.oxp.davidkroc.sidewinder-ng.oxz",
     "information_url":null,
-    "file_size":3306,
-    "upload_date":1739119411,
+    "file_size":5533,
+    "upload_date":1739376816,
     "tags":[
     ],
     "conflict_oxps":[
