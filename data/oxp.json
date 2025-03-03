@@ -12964,6 +12964,58 @@
     ]
   },
   {
+    "identifier":"oolite.oxp.cim.combat-simulator",
+    "version":"1.1",
+    "required_oolite_version":"1.79",
+    "maximum_oolite_version":null,
+    "title":"Combat Simulator",
+    "description":"Adds a combat simulator to the interfaces screen of some high-tech stations where you can set up controlled battles against particular opponents. Requires Ship Storage Helper.",
+    "category":"Activities",
+    "author":"cim",
+    "license":"CC-BY-SA 3.0",
+    "download_url":"https://cim.sotl.org.uk/games/files/oolite/Combat_Simulator_1.1.oxz",
+    "information_url":"http://wiki.alioth.net/index.php/Combat_Simulator_OXP",
+    "file_size":5826,
+    "upload_date":1398458244,
+    "tags":[
+    ],
+    "conflict_oxps":[
+    ],
+    "optional_oxps":[
+    ],
+    "requires_oxps":[
+      {
+        "identifier":"oolite.oxp.CaptMurphy.ShipStorageHelper",
+        "version":"0.21",
+        "maximum_version":null,
+        "description":"Ship Storage Helper"
+      }
+    ]
+  },
+  {
+    "identifier":"oolite.oxp.cim.cotbs",
+    "version":"1.0.2",
+    "required_oolite_version":"1.79",
+    "maximum_oolite_version":null,
+    "title":"Curse of the Black Sunspot",
+    "description":"An informal mission for experienced players set in Chart 3",
+    "category":"Missions",
+    "author":"cim",
+    "license":"CC-BY-SA 3.0",
+    "download_url":"https://cim.sotl.org.uk/games/files/oolite/Curse_of_the_Black_Sunspot_1.0.2.oxz",
+    "information_url":"http://wiki.alioth.net/index.php/Curse_of_the_Black_Sunspot",
+    "file_size":651873,
+    "upload_date":1397678091,
+    "tags":[
+    ],
+    "conflict_oxps":[
+    ],
+    "optional_oxps":[
+    ],
+    "requires_oxps":[
+    ]
+  },
+  {
     "identifier":"oolite.oxp.cim.escort-formations",
     "version":"1.3",
     "required_oolite_version":"1.79",
@@ -12984,6 +13036,35 @@
     "optional_oxps":[
     ],
     "requires_oxps":[
+    ]
+  },
+  {
+    "identifier":"oolite.oxp.cim.extracts-tre-clan",
+    "version":"1.2",
+    "required_oolite_version":"1.79",
+    "maximum_oolite_version":null,
+    "title":"Extracts from the Tre Clan",
+    "description":"Adds the 'Extracts from the Tre Clan Addresses on Interplanetary Life' book to your ship's library, containing selected lectures from an experienced trader.",
+    "category":"Equipment",
+    "author":"cim",
+    "license":"CC-BY-SA 3.0",
+    "download_url":"https://cim.sotl.org.uk/games/files/oolite/Library_Extracts_1.2.oxz",
+    "information_url":null,
+    "file_size":36848,
+    "upload_date":1389545723,
+    "tags":[
+    ],
+    "conflict_oxps":[
+    ],
+    "optional_oxps":[
+    ],
+    "requires_oxps":[
+      {
+        "identifier":"oolite.oxp.cim.ships-library",
+        "version":"0.6",
+        "maximum_version":null,
+        "description":"Requires the Ship's Library to be read"
+      }
     ]
   },
   {
@@ -13086,6 +13167,29 @@
         "maximum_version":null,
         "description":"Configuration options can be adjusted via this OXP."
       }
+    ],
+    "requires_oxps":[
+    ]
+  },
+  {
+    "identifier":"oolite.oxp.cim.systemfeatures.sunspots",
+    "version":"1.5",
+    "required_oolite_version":"1.79",
+    "maximum_oolite_version":null,
+    "title":"System Features: Sunspots",
+    "description":"Adds occasional sunspots to stars. Requires a shader-capable graphics card.",
+    "category":"Ambience",
+    "author":"cim",
+    "license":"CC-BY-SA 3.0",
+    "download_url":"https://cim.sotl.org.uk/games/files/oolite/System_Features_Sunspots_1.5.oxz",
+    "information_url":"http://wiki.alioth.net/index.php/System_Features_Sunspots",
+    "file_size":6029,
+    "upload_date":1397505898,
+    "tags":[
+    ],
+    "conflict_oxps":[
+    ],
+    "optional_oxps":[
     ],
     "requires_oxps":[
     ]
@@ -13571,6 +13675,29 @@
     "information_url":"http://wiki.alioth.net/index.php/Beer_Cooler",
     "file_size":2423,
     "upload_date":1610873229,
+    "tags":[
+    ],
+    "conflict_oxps":[
+    ],
+    "optional_oxps":[
+    ],
+    "requires_oxps":[
+    ]
+  },
+  {
+    "identifier":"oolite.oxp.mils32k.EnergyContainmentUnit",
+    "version":"1.0.0",
+    "required_oolite_version":"1.90",
+    "maximum_oolite_version":null,
+    "title":"Energy Containment Unit",
+    "description":"Energy Containment Unit enhancements to Standard Equipment available to buy.",
+    "category":"Misc",
+    "author":"mlewissmith",
+    "license":"UNLICENSE",
+    "download_url":"https://wiki.alioth.net/img_auth.php/c/c1/Oolite.oxp.mils32k.EnergyContainmentUnit.oxz",
+    "information_url":"https://wiki.alioth.net/index.php/Energy_Containment_Unit_OXP",
+    "file_size":11498,
+    "upload_date":1741016457,
     "tags":[
     ],
     "conflict_oxps":[
