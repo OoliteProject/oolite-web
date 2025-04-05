@@ -6101,7 +6101,7 @@
   },
   {
     "identifier":"oolite.oxp.Norby.CombatMFD",
-    "version":"1.20",
+    "version":"1.21",
     "required_oolite_version":"1.79",
     "maximum_oolite_version":null,
     "title":"MFD - Combat MFD",
@@ -6109,10 +6109,10 @@
     "category":"HUDs",
     "author":"Norby, Zireael",
     "license":"CC BY-NC-SA 3",
-    "download_url":"https://wiki.alioth.net/img_auth.php/b/bd/CombatMFD-1.20.oxz",
+    "download_url":"https://wiki.alioth.net/img_auth.php/6/66/CombatMFD-1.21.oxz",
     "information_url":"https://wiki.alioth.net/index.php/CombatMFD",
-    "file_size":16540,
-    "upload_date":1743141352,
+    "file_size":16577,
+    "upload_date":1743828630,
     "tags":[
     ],
     "conflict_oxps":[
