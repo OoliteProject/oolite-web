@@ -11105,7 +11105,7 @@
   },
   {
     "identifier":"oolite.oxp.UK_Eliter.InterstellarTweaks",
-    "version":"6.96",
+    "version":"6.97",
     "required_oolite_version":"1.82",
     "maximum_oolite_version":null,
     "title":"Interstellar Tweaks",
@@ -11115,8 +11115,8 @@
     "license":"Creative Commons Attribution - Non-Commercial - Share Alike 4.0 license",
     "download_url":"https://wiki.alioth.net/img_auth.php/7/7c/Oolite.oxp.UK_Eliter.InterstellarTweaks.oxz",
     "information_url":"http://www.aegidian.org/bb/viewtopic.php?f=4&t=11864&hilit=interstellar+tweaks",
-    "file_size":303837,
-    "upload_date":1647017414,
+    "file_size":304630,
+    "upload_date":1744319117,
     "tags":[
       "interstellar",
       "ambience",
