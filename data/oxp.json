@@ -15768,6 +15768,29 @@
     ]
   },
   {
+    "identifier":"oolite.oxp.phkb.ShipComparison",
+    "version":"2.6",
+    "required_oolite_version":"1.79",
+    "maximum_oolite_version":null,
+    "title":"Ship Comparison",
+    "description":"Displays side-by-side comparison of ships, helping players making decisions about new ship purchases.",
+    "category":"Ambience",
+    "author":"phkb",
+    "license":"CC-BY-NC-SA 4.0",
+    "download_url":"https://wiki.alioth.net/img_auth.php/5/58/ShipComparison.oxz",
+    "information_url":"https://wiki.alioth.net/index.php/Ship_Comparison",
+    "file_size":15806,
+    "upload_date":1744265305,
+    "tags":[
+    ],
+    "conflict_oxps":[
+    ],
+    "optional_oxps":[
+    ],
+    "requires_oxps":[
+    ]
+  },
+  {
     "identifier":"oolite.oxp.phkb.ShipConfiguration",
     "version":"1.4.4",
     "required_oolite_version":"1.90",
