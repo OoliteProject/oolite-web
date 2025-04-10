@@ -9519,7 +9519,7 @@
   },
   {
     "identifier":"oolite.oxp.Svengali.Library",
-    "version":"1.7.1",
+    "version":"1.7.2",
     "required_oolite_version":"1.88",
     "maximum_oolite_version":null,
     "title":"Library",
@@ -9527,10 +9527,10 @@
     "category":"Misc",
     "author":"Svengali & BlackWolf",
     "license":"CC-by-nc-sa 4.0, partly MIT",
-    "download_url":"https://wiki.alioth.net/img_auth.php/f/f2/Library1.7.1.oxz",
+    "download_url":"https://wiki.alioth.net/img_auth.php/a/a6/Library_1.7.2.oxz",
     "information_url":"http://wiki.alioth.net/index.php/Library",
-    "file_size":5169315,
-    "upload_date":1610873512,
+    "file_size":5190835,
+    "upload_date":1744255338,
     "tags":[
       "config",
       "configuration",
@@ -13020,6 +13020,29 @@
     ]
   },
   {
+    "identifier":"oolite.oxp.cim.camera-drones",
+    "version":"1.4",
+    "required_oolite_version":"1.77",
+    "maximum_oolite_version":null,
+    "title":"Camera Drones",
+    "description":"Drone cameras which provide a variety of alternative external views for your ship",
+    "category":"Equipment",
+    "author":"cim",
+    "license":"CC-BY-SA 3.0",
+    "download_url":"https://cim.sotl.org.uk/games/files/oolite/CameraDrones_1.4.oxz",
+    "information_url":"http://wiki.alioth.net/index.php/Camera_Drones",
+    "file_size":3890,
+    "upload_date":1403455179,
+    "tags":[
+    ],
+    "conflict_oxps":[
+    ],
+    "optional_oxps":[
+    ],
+    "requires_oxps":[
+    ]
+  },
+  {
     "identifier":"oolite.oxp.cim.combat-simulator",
     "version":"1.1",
     "required_oolite_version":"1.79",
@@ -13046,6 +13069,29 @@
         "maximum_version":null,
         "description":"Ship Storage Helper"
       }
+    ]
+  },
+  {
+    "identifier":"oolite.oxp.cim.comms-pack-a",
+    "version":"0.5",
+    "required_oolite_version":"1.79",
+    "maximum_oolite_version":null,
+    "title":"Communications Pack A",
+    "description":"Adds lots of extra NPC communications to the game, increasing the variety of existing messages and also adding several new ones.",
+    "category":"Ambience",
+    "author":"cim",
+    "license":"MIT",
+    "download_url":"https://cim.sotl.org.uk/games/files/oolite/Comms_Pack_A_0.5.oxz",
+    "information_url":null,
+    "file_size":25107,
+    "upload_date":1404062251,
+    "tags":[
+    ],
+    "conflict_oxps":[
+    ],
+    "optional_oxps":[
+    ],
+    "requires_oxps":[
     ]
   },
   {
@@ -13206,6 +13252,29 @@
     "information_url":"https://wiki.alioth.net/index.php/Ship%27s_Library_OXP",
     "file_size":1798672,
     "upload_date":1710799948,
+    "tags":[
+    ],
+    "conflict_oxps":[
+    ],
+    "optional_oxps":[
+    ],
+    "requires_oxps":[
+    ]
+  },
+  {
+    "identifier":"oolite.oxp.cim.shipset-compatibility",
+    "version":"1.4",
+    "required_oolite_version":"1.79",
+    "maximum_oolite_version":null,
+    "title":"Shipset Compatibility",
+    "description":"Makes replacement shipsets compatible with Oolite 1.79",
+    "category":"Misc",
+    "author":"cim",
+    "license":"GPL v2+ / CC-BY-NC-SA 3.0",
+    "download_url":"https://cim.sotl.org.uk/games/files/oolite/ShipsetCompatibility_1.4.oxz",
+    "information_url":null,
+    "file_size":1964,
+    "upload_date":1565763958,
     "tags":[
     ],
     "conflict_oxps":[
@@ -15699,29 +15768,6 @@
     ]
   },
   {
-    "identifier":"oolite.oxp.phkb.ShipComparison",
-    "version":"2.4",
-    "required_oolite_version":"1.79",
-    "maximum_oolite_version":null,
-    "title":"Ship Comparison",
-    "description":"Displays side-by-side comparison of ships, helping players making decisions about new ship purchases.",
-    "category":"Ambience",
-    "author":"phkb",
-    "license":"CC-BY-NC-SA 4.0",
-    "download_url":"https://wiki.alioth.net/img_auth.php/5/58/ShipComparison.oxz",
-    "information_url":"https://wiki.alioth.net/index.php/Ship_Comparison",
-    "file_size":14817,
-    "upload_date":1743745811,
-    "tags":[
-    ],
-    "conflict_oxps":[
-    ],
-    "optional_oxps":[
-    ],
-    "requires_oxps":[
-    ]
-  },
-  {
     "identifier":"oolite.oxp.phkb.ShipConfiguration",
     "version":"1.4.4",
     "required_oolite_version":"1.90",
@@ -16238,6 +16284,29 @@
     "information_url":"https://wiki.alioth.net/index.php/WildShips_Facelift",
     "file_size":11350728,
     "upload_date":1700550116,
+    "tags":[
+    ],
+    "conflict_oxps":[
+    ],
+    "optional_oxps":[
+    ],
+    "requires_oxps":[
+    ]
+  },
+  {
+    "identifier":"oolite.oxp.phkb.WireframeShipImages",
+    "version":"1.0",
+    "required_oolite_version":"1.79",
+    "maximum_oolite_version":null,
+    "title":"Wireframe Ship Images",
+    "description":"Wireframe Ship images of over 600 ships, stations, rocks and weapons.",
+    "category":"Miscellaneous",
+    "author":"phkb",
+    "license":"CC-BY-SA-NC 4.0",
+    "download_url":"https://wiki.alioth.net/img_auth.php/d/d9/WireframeShipImages.oxz",
+    "information_url":"https://wiki.alioth.net/index.php/Wireframe_Ship_Images",
+    "file_size":21516989,
+    "upload_date":1744255311,
     "tags":[
     ],
     "conflict_oxps":[
@@ -20332,7 +20401,7 @@
   },
   {
     "identifier":"oolite.oxp.z.phkb.XenonReduxUI",
-    "version":"3.5",
+    "version":"3.6",
     "required_oolite_version":"1.80",
     "maximum_oolite_version":null,
     "title":"Xenon Redux UI",
@@ -20342,8 +20411,8 @@
     "license":"CC-BY-NC-SA 3.0",
     "download_url":"https://wiki.alioth.net/img_auth.php/9/90/XenonReduxUI.oxz",
     "information_url":"http://wiki.alioth.net/index.php/XenonUI",
-    "file_size":852671,
-    "upload_date":1624987211,
+    "file_size":758490,
+    "upload_date":1744255190,
     "tags":[
     ],
     "conflict_oxps":[
@@ -20386,7 +20455,7 @@
   },
   {
     "identifier":"oolite.oxp.z.phkb.XenonUI",
-    "version":"3.7",
+    "version":"3.8",
     "required_oolite_version":"1.80",
     "maximum_oolite_version":null,
     "title":"Xenon UI",
@@ -20396,8 +20465,8 @@
     "license":"CC-BY-NC-SA 3.0",
     "download_url":"https://wiki.alioth.net/img_auth.php/0/0b/XenonUI.oxz",
     "information_url":"http://wiki.alioth.net/index.php/XenonUI",
-    "file_size":6923184,
-    "upload_date":1703677530,
+    "file_size":6924868,
+    "upload_date":1744255152,
     "tags":[
     ],
     "conflict_oxps":[
