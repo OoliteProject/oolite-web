@@ -15688,7 +15688,7 @@
   },
   {
     "identifier":"oolite.oxp.phkb.PlanetRotationCosmetics",
-    "version":"1.1",
+    "version":"1.2",
     "required_oolite_version":"1.90",
     "maximum_oolite_version":null,
     "title":"Planet Rotation Cosmetics",
@@ -15698,8 +15698,8 @@
     "license":"CC-BY-NC-SA 4.0",
     "download_url":"https://wiki.alioth.net/img_auth.php/1/19/PlanetRotationCosmetics.oxz",
     "information_url":"http://wiki.alioth.net/index.php/Planet_Rotation_Cosmetics_OXP",
-    "file_size":1474,
-    "upload_date":1722859696,
+    "file_size":1796,
+    "upload_date":1744413484,
     "tags":[
     ],
     "conflict_oxps":[
@@ -16182,7 +16182,7 @@
   },
   {
     "identifier":"oolite.oxp.phkb.VimanaX_HUD",
-    "version":"1.20",
+    "version":"1.21",
     "required_oolite_version":"1.81",
     "maximum_oolite_version":null,
     "title":"Vimana-X HUD",
@@ -16190,10 +16190,10 @@
     "category":"HUD",
     "author":"Gnievmir, phkb",
     "license":"CC BY-SA 4.0",
-    "download_url":"https://wiki.alioth.net/img_auth.php/6/6d/VimanaX_HUD_1.20.oxz",
+    "download_url":"https://wiki.alioth.net/img_auth.php/c/c8/VimanaX_HUD_1.21.oxz",
     "information_url":"https://wiki.alioth.net/index.php/Vimana-X_HUD",
-    "file_size":23099370,
-    "upload_date":1743141244,
+    "file_size":4445929,
+    "upload_date":1744413561,
     "tags":[
     ],
     "conflict_oxps":[
@@ -16287,6 +16287,12 @@
     "requires_oxps":[
       {
         "identifier":"oolite.oxp.Norby.CombatMFD",
+        "version":null,
+        "maximum_version":null,
+        "description":null
+      },
+      {
+        "identifier":"oolite.oxp.phkb.WireframeShipImages",
         "version":null,
         "maximum_version":null,
         "description":null
