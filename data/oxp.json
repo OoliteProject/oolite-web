@@ -4956,7 +4956,7 @@
   },
   {
     "identifier":"oolite.oxp.LittleBear.GalacticAlmanac",
-    "version":"0.93",
+    "version":"0.94",
     "required_oolite_version":"1.80",
     "maximum_oolite_version":null,
     "title":"Galactic Almanac",
@@ -4966,8 +4966,8 @@
     "license":"CC BY-NC-SA 4.0",
     "download_url":"https://wiki.alioth.net/img_auth.php/7/74/Oolite.oxp.LittleBear.GalacticAlmanac.oxz",
     "information_url":"https://wiki.alioth.net/index.php/The_Galactic_Almanac_OXZ",
-    "file_size":1262852,
-    "upload_date":1714830424,
+    "file_size":1319803,
+    "upload_date":1744670758,
     "tags":[
     ],
     "conflict_oxps":[
