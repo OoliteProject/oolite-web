@@ -13118,29 +13118,6 @@
     ]
   },
   {
-    "identifier":"oolite.oxp.cim.energy-bomb",
-    "version":"1.0.2",
-    "required_oolite_version":"1.79",
-    "maximum_oolite_version":null,
-    "title":"Energy Bomb",
-    "description":"The original indiscriminate superweapon. Available as primable equipment from TL:8 systems and above. Previous versions of this expansion pack are not compatible with Oolite 1.79 or later.",
-    "category":"Weapons",
-    "author":"cim",
-    "license":"CC-BY-NC-SA 3.0",
-    "download_url":"https://cim.sotl.org.uk/games/files/oolite/EnergyBomb_1.0.2.oxz",
-    "information_url":"http://wiki.alioth.net/index.php/Energy_Bomb",
-    "file_size":1906,
-    "upload_date":1417342940,
-    "tags":[
-    ],
-    "conflict_oxps":[
-    ],
-    "optional_oxps":[
-    ],
-    "requires_oxps":[
-    ]
-  },
-  {
     "identifier":"oolite.oxp.cim.escort-formations",
     "version":"1.3",
     "required_oolite_version":"1.79",
@@ -16324,7 +16301,7 @@
   },
   {
     "identifier":"oolite.oxp.phkb.WireframeShipImages",
-    "version":"1.1",
+    "version":"1.2",
     "required_oolite_version":"1.79",
     "maximum_oolite_version":null,
     "title":"Wireframe Ship Images",
@@ -16334,8 +16311,8 @@
     "license":"CC-BY-SA-NC 4.0",
     "download_url":"https://wiki.alioth.net/img_auth.php/d/d9/WireframeShipImages.oxz",
     "information_url":"https://wiki.alioth.net/index.php/Wireframe_Ship_Images",
-    "file_size":23327413,
-    "upload_date":1744656296,
+    "file_size":23719656,
+    "upload_date":1744790024,
     "tags":[
     ],
     "conflict_oxps":[
