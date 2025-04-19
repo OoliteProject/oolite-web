@@ -13118,6 +13118,29 @@
     ]
   },
   {
+    "identifier":"oolite.oxp.cim.energy-bomb",
+    "version":"1.0.2",
+    "required_oolite_version":"1.79",
+    "maximum_oolite_version":null,
+    "title":"Energy Bomb",
+    "description":"The original indiscriminate superweapon. Available as primable equipment from TL:8 systems and above. Previous versions of this expansion pack are not compatible with Oolite 1.79 or later.",
+    "category":"Weapons",
+    "author":"cim",
+    "license":"CC-BY-NC-SA 3.0",
+    "download_url":"https://cim.sotl.org.uk/games/files/oolite/EnergyBomb_1.0.2.oxz",
+    "information_url":"http://wiki.alioth.net/index.php/Energy_Bomb",
+    "file_size":1906,
+    "upload_date":1417342940,
+    "tags":[
+    ],
+    "conflict_oxps":[
+    ],
+    "optional_oxps":[
+    ],
+    "requires_oxps":[
+    ]
+  },
+  {
     "identifier":"oolite.oxp.cim.escort-formations",
     "version":"1.3",
     "required_oolite_version":"1.79",
@@ -15038,8 +15061,8 @@
   },
   {
     "identifier":"oolite.oxp.phkb.FuelTweaks",
-    "version":"1.14.5",
-    "required_oolite_version":"1.82",
+    "version":"1.15",
+    "required_oolite_version":"1.90",
     "maximum_oolite_version":null,
     "title":"Fuel Tweaks",
     "description":"Changes how fuel works, to make sun skimming more useful and profitable.",
@@ -15048,8 +15071,8 @@
     "license":"Creative Commons Attribution - Non-Commercial - Share Alike 3.0 license with clauses - see readme file",
     "download_url":"https://wiki.alioth.net/img_auth.php/3/35/FuelTweaks.oxz",
     "information_url":"https://wiki.alioth.net/index.php/Fuel_Tweaks",
-    "file_size":7824468,
-    "upload_date":1697074383,
+    "file_size":3442848,
+    "upload_date":1745036844,
     "tags":[
     ],
     "conflict_oxps":[
