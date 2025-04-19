@@ -11373,6 +11373,114 @@
     ]
   },
   {
+    "identifier":"oolite.oxp.Wildeblood.DistantSpace",
+    "version":"1.1",
+    "required_oolite_version":"1.81",
+    "maximum_oolite_version":null,
+    "title":"Distant Realms & Distant Locales",
+    "description":"On the navigation chart, replaces the static screen title with the names or co-ordinates of various galactic regions as planets are selected on the chart.",
+    "category":"Ambience",
+    "author":"Wildeblood",
+    "license":"CC-BY-NC-SA 3.0",
+    "download_url":"https://wiki.alioth.net/img_auth.php/0/05/DistantSpace.oxz",
+    "information_url":"https://wiki.alioth.net/index.php/Distant_Realms",
+    "file_size":571,
+    "upload_date":1745046538,
+    "tags":[
+      "charts"
+    ],
+    "conflict_oxps":[
+    ],
+    "optional_oxps":[
+    ],
+    "requires_oxps":[
+      {
+        "identifier":"oolite.oxp.Wildeblood.Distant_Realms",
+        "version":"1.1",
+        "maximum_version":null,
+        "description":"Provides the region names for all systems in named regions."
+      },
+      {
+        "identifier":"oolite.oxp.Wildeblood.Distant_Locales",
+        "version":"1.1",
+        "maximum_version":null,
+        "description":"Provides the chart co-ordinates for all systems not in named regions."
+      }
+    ]
+  },
+  {
+    "identifier":"oolite.oxp.Wildeblood.Distant_Locales",
+    "version":"1.1",
+    "required_oolite_version":"1.81",
+    "maximum_oolite_version":null,
+    "title":"Distant Locales",
+    "description":"On the navigation chart, replaces the static screen title with the galactic co-ordinates of the selected planets on the chart.",
+    "category":"Ambience",
+    "author":"Wildeblood",
+    "license":"CC-BY-NC-SA 3.0",
+    "download_url":"https://wiki.alioth.net/img_auth.php/a/a5/Distant_Locales.oxz",
+    "information_url":"https://wiki.alioth.net/index.php/Distant_Realms",
+    "file_size":14672,
+    "upload_date":1745007886,
+    "tags":[
+      "charts"
+    ],
+    "conflict_oxps":[
+    ],
+    "optional_oxps":[
+    ],
+    "requires_oxps":[
+    ]
+  },
+  {
+    "identifier":"oolite.oxp.Wildeblood.Distant_Realms",
+    "version":"1.1",
+    "required_oolite_version":"1.81",
+    "maximum_oolite_version":null,
+    "title":"Distant Realms",
+    "description":"On the navigation chart, replaces the static screen title with the names of various galactic regions as planets are selected on the chart.",
+    "category":"Ambience",
+    "author":"Wildeblood",
+    "license":"CC-BY-NC-SA 3.0",
+    "download_url":"https://wiki.alioth.net/img_auth.php/e/e3/Distant_Realms.oxz",
+    "information_url":"https://wiki.alioth.net/index.php/Distant_Realms",
+    "file_size":5113,
+    "upload_date":1745023476,
+    "tags":[
+      "charts"
+    ],
+    "conflict_oxps":[
+    ],
+    "optional_oxps":[
+    ],
+    "requires_oxps":[
+    ]
+  },
+  {
+    "identifier":"oolite.oxp.Wildeblood.Distant_Realms_US",
+    "version":"1.1",
+    "required_oolite_version":"1.81",
+    "maximum_oolite_version":null,
+    "title":"Distant Realms (U.S. spelling)",
+    "description":"On the navigation chart, replaces the static screen title with the names of various galactic regions as planets are selected on the chart.",
+    "category":"Ambience",
+    "author":"Wildeblood",
+    "license":"CC-BY-NC-SA 3.0",
+    "download_url":"https://wiki.alioth.net/img_auth.php/b/b9/Distant_Realms_US.oxz",
+    "information_url":"https://wiki.alioth.net/index.php/Distant_Realms",
+    "file_size":5137,
+    "upload_date":1745023566,
+    "tags":[
+      "charts"
+    ],
+    "conflict_oxps":[
+    ],
+    "optional_oxps":[
+    ],
+    "requires_oxps":[
+    ]
+  },
+  {
     "identifier":"oolite.oxp.Wildeblood.GalacticHyperdrive",
     "version":"1.3.2",
     "required_oolite_version":"1.77",
@@ -15071,8 +15179,8 @@
     "license":"Creative Commons Attribution - Non-Commercial - Share Alike 3.0 license with clauses - see readme file",
     "download_url":"https://wiki.alioth.net/img_auth.php/3/35/FuelTweaks.oxz",
     "information_url":"https://wiki.alioth.net/index.php/Fuel_Tweaks",
-    "file_size":3442848,
-    "upload_date":1745036844,
+    "file_size":3442816,
+    "upload_date":1745038545,
     "tags":[
     ],
     "conflict_oxps":[
