@@ -14389,7 +14389,7 @@
   },
   {
     "identifier":"oolite.oxp.phkb.DamageReportMFD",
-    "version":"2.4",
+    "version":"2.5",
     "required_oolite_version":"1.82",
     "maximum_oolite_version":null,
     "title":"Damage Report MFD",
@@ -14398,9 +14398,9 @@
     "author":"phkb",
     "license":"CC-BY-NC-SA 4.0",
     "download_url":"https://wiki.alioth.net/img_auth.php/3/3d/DamageReportMFD.oxz",
-    "information_url":null,
-    "file_size":19114,
-    "upload_date":1610873279,
+    "information_url":"https://wiki.alioth.net/index.php/Damage_Report_MFD",
+    "file_size":18227,
+    "upload_date":1745535558,
     "tags":[
       "mfd",
       "equipment"
@@ -14578,7 +14578,7 @@
   },
   {
     "identifier":"oolite.oxp.phkb.EquipmentStorage",
-    "version":"1.9",
+    "version":"1.10",
     "required_oolite_version":"1.82",
     "maximum_oolite_version":null,
     "title":"Equipment Storage",
@@ -14586,10 +14586,10 @@
     "category":"Mechanics",
     "author":"phkb",
     "license":"CC-BY-NC-SA 4.0",
-    "download_url":"https://wiki.alioth.net/img_auth.php/a/a9/EquipmentStorage_1.9.oxz",
+    "download_url":"https://wiki.alioth.net/img_auth.php/9/91/EquipmentStorage_1.10.oxz",
     "information_url":"https://wiki.alioth.net/index.php/Equipment_Storage_OXP",
-    "file_size":34150,
-    "upload_date":1743745623,
+    "file_size":34231,
+    "upload_date":1745535543,
     "tags":[
     ],
     "conflict_oxps":[
