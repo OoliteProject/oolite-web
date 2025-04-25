@@ -10050,7 +10050,7 @@
   },
   {
     "identifier":"oolite.oxp.Thargoid.LaserBooster",
-    "version":"2.0",
+    "version":"2.1",
     "required_oolite_version":"1.79",
     "maximum_oolite_version":null,
     "title":"Laser Booster",
@@ -10058,10 +10058,10 @@
     "category":"Equipment",
     "author":"Thargoid",
     "license":"Creative Commons Attribution - Non-Commercial - Share Alike 3.0 license with clauses - see readme file",
-    "download_url":"https://wiki.alioth.net/img_auth.php/c/c8/Laser_Booster_2.0.oxz",
+    "download_url":"https://wiki.alioth.net/img_auth.php/8/82/Laser_Booster_2.1.oxz",
     "information_url":"https://wiki.alioth.net/index.php/Laser_Booster_OXP",
-    "file_size":15462,
-    "upload_date":1745497939,
+    "file_size":15484,
+    "upload_date":1745544685,
     "tags":[
       "equipment",
       "weapons"
@@ -14389,7 +14389,7 @@
   },
   {
     "identifier":"oolite.oxp.phkb.DamageReportMFD",
-    "version":"2.5",
+    "version":"2.6",
     "required_oolite_version":"1.82",
     "maximum_oolite_version":null,
     "title":"Damage Report MFD",
@@ -14399,8 +14399,8 @@
     "license":"CC-BY-NC-SA 4.0",
     "download_url":"https://wiki.alioth.net/img_auth.php/3/3d/DamageReportMFD.oxz",
     "information_url":"https://wiki.alioth.net/index.php/Damage_Report_MFD",
-    "file_size":18227,
-    "upload_date":1745535558,
+    "file_size":18408,
+    "upload_date":1745544608,
     "tags":[
       "mfd",
       "equipment"
