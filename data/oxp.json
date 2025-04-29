@@ -15454,29 +15454,6 @@
   {
     "identifier":"oolite.oxp.phkb.LoadoutByCategory",
     "version":"1.3.5",
-    "required_oolite_version":null,
-    "maximum_oolite_version":"1.90",
-    "title":"Loadout By Category",
-    "description":"Orders all equipment on the F3 Ship Outfitting and F5 Status screens into a grouped structure with headers to make them easier to navigate. For Oolite 1.90",
-    "category":"Miscellaneous",
-    "author":"phkb",
-    "license":"CC-BY-SA 4.0",
-    "download_url":"https://wiki.alioth.net/img_auth.php/1/1d/LoadoutByCategory_190.oxz",
-    "information_url":"https://wiki.alioth.net/index.php/Loadout_by_Category",
-    "file_size":38103,
-    "upload_date":1745533995,
-    "tags":[
-    ],
-    "conflict_oxps":[
-    ],
-    "optional_oxps":[
-    ],
-    "requires_oxps":[
-    ]
-  },
-  {
-    "identifier":"oolite.oxp.phkb.LoadoutByCategory",
-    "version":"1.3.5",
     "required_oolite_version":"1.91",
     "maximum_oolite_version":null,
     "title":"Loadout By Category",
@@ -15488,6 +15465,29 @@
     "information_url":"https://wiki.alioth.net/index.php/Loadout_by_Category",
     "file_size":38184,
     "upload_date":1745533977,
+    "tags":[
+    ],
+    "conflict_oxps":[
+    ],
+    "optional_oxps":[
+    ],
+    "requires_oxps":[
+    ]
+  },
+  {
+    "identifier":"oolite.oxp.phkb.LoadoutByCategory",
+    "version":"1.3.6",
+    "required_oolite_version":"1.82",
+    "maximum_oolite_version":"1.90",
+    "title":"Loadout By Category",
+    "description":"Orders all equipment on the F3 Ship Outfitting and F5 Status screens into a grouped structure with headers to make them easier to navigate. For Oolite 1.90",
+    "category":"Miscellaneous",
+    "author":"phkb",
+    "license":"CC-BY-SA 4.0",
+    "download_url":"https://wiki.alioth.net/img_auth.php/1/1d/LoadoutByCategory_190.oxz",
+    "information_url":"https://wiki.alioth.net/index.php/Loadout_by_Category",
+    "file_size":38115,
+    "upload_date":1745964368,
     "tags":[
     ],
     "conflict_oxps":[
