@@ -9929,7 +9929,7 @@
   },
   {
     "identifier":"oolite.oxp.Thargoid.FuelStation",
-    "version":"2.2",
+    "version":"2.3",
     "required_oolite_version":"1.79",
     "maximum_oolite_version":null,
     "title":"Fuel Station",
@@ -9938,9 +9938,9 @@
     "author":"Thargoid, gsagostinho",
     "license":"Creative Commons Attribution - Non-Commercial - Share Alike 3.0 license with clauses - see readme file",
     "download_url":"https://wiki.alioth.net/img_auth.php/7/7d/Oolite.oxp.Thargoid.FuelStation.oxz",
-    "information_url":"http://wiki.alioth.net/index.php/Fuel_Station_OXP",
-    "file_size":1481743,
-    "upload_date":1610873345,
+    "information_url":"https://wiki.alioth.net/index.php/Fuel_Station_OXP",
+    "file_size":1486923,
+    "upload_date":1746835264,
     "tags":[
       "activities",
       "system"
@@ -11091,8 +11091,8 @@
     "license":"Creative Commons Attribution - Non-Commercial - Share Alike 4.0 license",
     "download_url":"https://wiki.alioth.net/img_auth.php/7/7c/Oolite.oxp.UK_Eliter.InterstellarTweaks.oxz",
     "information_url":"http://www.aegidian.org/bb/viewtopic.php?f=4&t=11864&hilit=interstellar+tweaks",
-    "file_size":304513,
-    "upload_date":1746401361,
+    "file_size":318648,
+    "upload_date":1746729204,
     "tags":[
       "interstellar",
       "ambience",
@@ -11121,7 +11121,7 @@
   {
     "identifier":"oolite.oxp.UK_Eliter.NexusMissile",
     "version":"2.81",
-    "required_oolite_version":"1.82",
+    "required_oolite_version":"1.83",
     "maximum_oolite_version":null,
     "title":"Nexus Missile",
     "description":"Provides various multi-warhead, semi-automatically-targetting, missiles. Available for purchase in various locations.",
@@ -11131,7 +11131,7 @@
     "download_url":"https://wiki.alioth.net/img_auth.php/d/da/Oolite.oxp.UK_Eliter.NexusMissile.oxz",
     "information_url":"http://www.aegidian.org/bb/viewtopic.php?f=4&t=14420",
     "file_size":198120,
-    "upload_date":1746400983,
+    "upload_date":1746729347,
     "tags":[
       "Weapons"
     ],
@@ -11150,7 +11150,7 @@
   },
   {
     "identifier":"oolite.oxp.UK_Eliter.SuperSidewinder",
-    "version":"1.56",
+    "version":"1.57",
     "required_oolite_version":"1.80",
     "maximum_oolite_version":null,
     "title":"SuperSidewinder",
@@ -11161,7 +11161,7 @@
     "download_url":"https://wiki.alioth.net/img_auth.php/3/37/Oolite.oxp.UK_Eliter.SuperSidewinder.oxz",
     "information_url":"http://aegidian.org/bb/viewtopic.php?f=4&t=12605&p=204209&hilit=sidewinder+super#p204209",
     "file_size":104547,
-    "upload_date":1746401047,
+    "upload_date":1746729404,
     "tags":[
     ],
     "conflict_oxps":[
@@ -15135,6 +15135,35 @@
     "optional_oxps":[
     ],
     "requires_oxps":[
+    ]
+  },
+  {
+    "identifier":"oolite.oxp.phkb.FuelStation_Facelift",
+    "version":"1.0",
+    "required_oolite_version":"1.79",
+    "maximum_oolite_version":null,
+    "title":"Fuel Station Facelift",
+    "description":"Updates the models and textures of Fuel Stations and Fuel Satellites.",
+    "category":"Activities",
+    "author":"phkb, Thargoid",
+    "license":"Creative Commons Attribution - Non-Commercial - Share Alike 3.0 license with clauses - see readme file",
+    "download_url":"https://wiki.alioth.net/img_auth.php/2/20/FuelStation_Facelift.oxz",
+    "information_url":"http://wiki.alioth.net/index.php/Fuel_Station_OXP",
+    "file_size":4455764,
+    "upload_date":1746835292,
+    "tags":[
+    ],
+    "conflict_oxps":[
+    ],
+    "optional_oxps":[
+    ],
+    "requires_oxps":[
+      {
+        "identifier":"oolite.oxp.Thargoid.FuelStation",
+        "version":"2.3",
+        "maximum_version":null,
+        "description":null
+      }
     ]
   },
   {
