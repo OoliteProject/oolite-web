@@ -13033,35 +13033,6 @@
     ]
   },
   {
-    "identifier":"oolite.oxp.cim.combat-simulator",
-    "version":"1.1",
-    "required_oolite_version":"1.79",
-    "maximum_oolite_version":null,
-    "title":"Combat Simulator",
-    "description":"Adds a combat simulator to the interfaces screen of some high-tech stations where you can set up controlled battles against particular opponents. Requires Ship Storage Helper.",
-    "category":"Activities",
-    "author":"cim",
-    "license":"CC-BY-SA 3.0",
-    "download_url":"https://cim.sotl.org.uk/games/files/oolite/Combat_Simulator_1.1.oxz",
-    "information_url":"http://wiki.alioth.net/index.php/Combat_Simulator_OXP",
-    "file_size":5826,
-    "upload_date":1398458244,
-    "tags":[
-    ],
-    "conflict_oxps":[
-    ],
-    "optional_oxps":[
-    ],
-    "requires_oxps":[
-      {
-        "identifier":"oolite.oxp.CaptMurphy.ShipStorageHelper",
-        "version":"0.21",
-        "maximum_version":null,
-        "description":"Ship Storage Helper"
-      }
-    ]
-  },
-  {
     "identifier":"oolite.oxp.cim.comms-pack-a",
     "version":"0.5",
     "required_oolite_version":"1.79",
@@ -13075,29 +13046,6 @@
     "information_url":null,
     "file_size":25107,
     "upload_date":1404062251,
-    "tags":[
-    ],
-    "conflict_oxps":[
-    ],
-    "optional_oxps":[
-    ],
-    "requires_oxps":[
-    ]
-  },
-  {
-    "identifier":"oolite.oxp.cim.cotbs",
-    "version":"1.0.2",
-    "required_oolite_version":"1.79",
-    "maximum_oolite_version":null,
-    "title":"Curse of the Black Sunspot",
-    "description":"An informal mission for experienced players set in Chart 3",
-    "category":"Missions",
-    "author":"cim",
-    "license":"CC-BY-SA 3.0",
-    "download_url":"https://cim.sotl.org.uk/games/files/oolite/Curse_of_the_Black_Sunspot_1.0.2.oxz",
-    "information_url":"http://wiki.alioth.net/index.php/Curse_of_the_Black_Sunspot",
-    "file_size":651873,
-    "upload_date":1397678091,
     "tags":[
     ],
     "conflict_oxps":[
@@ -13151,35 +13099,6 @@
     "optional_oxps":[
     ],
     "requires_oxps":[
-    ]
-  },
-  {
-    "identifier":"oolite.oxp.cim.extracts-tre-clan",
-    "version":"1.2",
-    "required_oolite_version":"1.79",
-    "maximum_oolite_version":null,
-    "title":"Extracts from the Tre Clan",
-    "description":"Adds the 'Extracts from the Tre Clan Addresses on Interplanetary Life' book to your ship's library, containing selected lectures from an experienced trader.",
-    "category":"Equipment",
-    "author":"cim",
-    "license":"CC-BY-SA 3.0",
-    "download_url":"https://cim.sotl.org.uk/games/files/oolite/Library_Extracts_1.2.oxz",
-    "information_url":null,
-    "file_size":36848,
-    "upload_date":1389545723,
-    "tags":[
-    ],
-    "conflict_oxps":[
-    ],
-    "optional_oxps":[
-    ],
-    "requires_oxps":[
-      {
-        "identifier":"oolite.oxp.cim.ships-library",
-        "version":"0.6",
-        "maximum_version":null,
-        "description":"Requires the Ship's Library to be read"
-      }
     ]
   },
   {
@@ -13305,29 +13224,6 @@
         "maximum_version":null,
         "description":"Configuration options can be adjusted via this OXP."
       }
-    ],
-    "requires_oxps":[
-    ]
-  },
-  {
-    "identifier":"oolite.oxp.cim.systemfeatures.sunspots",
-    "version":"1.5",
-    "required_oolite_version":"1.79",
-    "maximum_oolite_version":null,
-    "title":"System Features: Sunspots",
-    "description":"Adds occasional sunspots to stars. Requires a shader-capable graphics card.",
-    "category":"Ambience",
-    "author":"cim",
-    "license":"CC-BY-SA 3.0",
-    "download_url":"https://cim.sotl.org.uk/games/files/oolite/System_Features_Sunspots_1.5.oxz",
-    "information_url":"http://wiki.alioth.net/index.php/System_Features_Sunspots",
-    "file_size":6029,
-    "upload_date":1397505898,
-    "tags":[
-    ],
-    "conflict_oxps":[
-    ],
-    "optional_oxps":[
     ],
     "requires_oxps":[
     ]
@@ -15383,18 +15279,18 @@
   },
   {
     "identifier":"oolite.oxp.phkb.LoadoutByCategory",
-    "version":"1.3.5",
-    "required_oolite_version":"1.91",
-    "maximum_oolite_version":null,
+    "version":"1.4",
+    "required_oolite_version":"1.82",
+    "maximum_oolite_version":"1.90",
     "title":"Loadout By Category",
-    "description":"Orders all equipment on the F3 Ship Outfitting and F5 Status screens into a grouped structure with headers to make them easier to navigate. For Oolite 1.91",
+    "description":"Orders all equipment on the F3 Ship Outfitting and F5 Status screens into a grouped structure with headers to make them easier to navigate. For Oolite 1.90",
     "category":"Miscellaneous",
     "author":"phkb",
     "license":"CC-BY-SA 4.0",
-    "download_url":"https://wiki.alioth.net/img_auth.php/4/49/LoadoutByCategory.oxz",
+    "download_url":"https://wiki.alioth.net/img_auth.php/1/1d/LoadoutByCategory_190.oxz",
     "information_url":"https://wiki.alioth.net/index.php/Loadout_by_Category",
-    "file_size":38184,
-    "upload_date":1745533977,
+    "file_size":39088,
+    "upload_date":1747810834,
     "tags":[
     ],
     "conflict_oxps":[
@@ -15406,18 +15302,18 @@
   },
   {
     "identifier":"oolite.oxp.phkb.LoadoutByCategory",
-    "version":"1.3.6",
-    "required_oolite_version":"1.82",
-    "maximum_oolite_version":"1.90",
+    "version":"1.4",
+    "required_oolite_version":"1.91",
+    "maximum_oolite_version":null,
     "title":"Loadout By Category",
-    "description":"Orders all equipment on the F3 Ship Outfitting and F5 Status screens into a grouped structure with headers to make them easier to navigate. For Oolite 1.90",
+    "description":"Orders all equipment on the F3 Ship Outfitting and F5 Status screens into a grouped structure with headers to make them easier to navigate. For Oolite 1.91",
     "category":"Miscellaneous",
     "author":"phkb",
     "license":"CC-BY-SA 4.0",
-    "download_url":"https://wiki.alioth.net/img_auth.php/1/1d/LoadoutByCategory_190.oxz",
+    "download_url":"https://wiki.alioth.net/img_auth.php/4/49/LoadoutByCategory.oxz",
     "information_url":"https://wiki.alioth.net/index.php/Loadout_by_Category",
-    "file_size":38115,
-    "upload_date":1745964368,
+    "file_size":39127,
+    "upload_date":1747810847,
     "tags":[
     ],
     "conflict_oxps":[
