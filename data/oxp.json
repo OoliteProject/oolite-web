@@ -13033,29 +13033,6 @@
     ]
   },
   {
-    "identifier":"oolite.oxp.cim.comms-pack-a",
-    "version":"0.5",
-    "required_oolite_version":"1.79",
-    "maximum_oolite_version":null,
-    "title":"Communications Pack A",
-    "description":"Adds lots of extra NPC communications to the game, increasing the variety of existing messages and also adding several new ones.",
-    "category":"Ambience",
-    "author":"cim",
-    "license":"MIT",
-    "download_url":"https://cim.sotl.org.uk/games/files/oolite/Comms_Pack_A_0.5.oxz",
-    "information_url":null,
-    "file_size":25107,
-    "upload_date":1404062251,
-    "tags":[
-    ],
-    "conflict_oxps":[
-    ],
-    "optional_oxps":[
-    ],
-    "requires_oxps":[
-    ]
-  },
-  {
     "identifier":"oolite.oxp.cim.energy-bomb",
     "version":"1.0.2",
     "required_oolite_version":"1.79",
@@ -14815,7 +14792,7 @@
   },
   {
     "identifier":"oolite.oxp.phkb.FeudalPlanetFall",
-    "version":"1.2",
+    "version":"1.3",
     "required_oolite_version":"1.90",
     "maximum_oolite_version":null,
     "title":"Feudal PlanetFall Customisations",
@@ -14823,10 +14800,10 @@
     "category":"Dockables",
     "author":"phkb",
     "license":"CC-BY-SA-NC 4.0",
-    "download_url":"https://wiki.alioth.net/img_auth.php/d/dd/Feudal_PlanetFall2_1.2.oxz",
+    "download_url":"https://wiki.alioth.net/img_auth.php/f/f2/Feudal_PlanetFall2_1.3.oxz",
     "information_url":"http://wiki.alioth.net/index.php/Planetfall2_OXP",
-    "file_size":10906203,
-    "upload_date":1716997498,
+    "file_size":10908943,
+    "upload_date":1747982644,
     "tags":[
       "dockables",
       "system"
