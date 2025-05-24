@@ -13033,6 +13033,29 @@
     ]
   },
   {
+    "identifier":"oolite.oxp.cim.comms-pack-a",
+    "version":"0.5",
+    "required_oolite_version":"1.79",
+    "maximum_oolite_version":null,
+    "title":"Communications Pack A",
+    "description":"Adds lots of extra NPC communications to the game, increasing the variety of existing messages and also adding several new ones.",
+    "category":"Ambience",
+    "author":"cim",
+    "license":"MIT",
+    "download_url":"https://cim.sotl.org.uk/games/files/oolite/Comms_Pack_A_0.5.oxz",
+    "information_url":null,
+    "file_size":25107,
+    "upload_date":1404062251,
+    "tags":[
+    ],
+    "conflict_oxps":[
+    ],
+    "optional_oxps":[
+    ],
+    "requires_oxps":[
+    ]
+  },
+  {
     "identifier":"oolite.oxp.cim.energy-bomb",
     "version":"1.0.2",
     "required_oolite_version":"1.79",
@@ -13201,6 +13224,29 @@
         "maximum_version":null,
         "description":"Configuration options can be adjusted via this OXP."
       }
+    ],
+    "requires_oxps":[
+    ]
+  },
+  {
+    "identifier":"oolite.oxp.cim.systemfeatures.sunspots",
+    "version":"1.5",
+    "required_oolite_version":"1.79",
+    "maximum_oolite_version":null,
+    "title":"System Features: Sunspots",
+    "description":"Adds occasional sunspots to stars. Requires a shader-capable graphics card.",
+    "category":"Ambience",
+    "author":"cim",
+    "license":"CC-BY-SA 3.0",
+    "download_url":"https://cim.sotl.org.uk/games/files/oolite/System_Features_Sunspots_1.5.oxz",
+    "information_url":"http://wiki.alioth.net/index.php/System_Features_Sunspots",
+    "file_size":6029,
+    "upload_date":1397505898,
+    "tags":[
+    ],
+    "conflict_oxps":[
+    ],
+    "optional_oxps":[
     ],
     "requires_oxps":[
     ]
@@ -15350,7 +15396,7 @@
   },
   {
     "identifier":"oolite.oxp.phkb.ManualWitchspaceAlignment",
-    "version":"2.12",
+    "version":"2.13",
     "required_oolite_version":"1.85",
     "maximum_oolite_version":null,
     "title":"Manual Witchspace Alignment",
@@ -15358,10 +15404,10 @@
     "category":"Mechanics",
     "author":"phkb, Cmdr. Cheyd, Phantor Gorth, Svengali, Submersible, spara",
     "license":"CC BY-NC-SA 4.0",
-    "download_url":"https://wiki.alioth.net/img_auth.php/2/2d/ManualWitchspaceAlignment_2.12.oxz",
+    "download_url":"https://wiki.alioth.net/img_auth.php/6/64/ManualWitchspaceAlignment_2.13.oxz",
     "information_url":"https://wiki.alioth.net/index.php/Manual_Witchspace_Alignment",
-    "file_size":340015,
-    "upload_date":1747287925,
+    "file_size":340359,
+    "upload_date":1748088780,
     "tags":[
     ],
     "conflict_oxps":[
