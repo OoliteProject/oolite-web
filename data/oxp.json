@@ -13108,6 +13108,29 @@
     ]
   },
   {
+    "identifier":"oolite.oxp.cim.energy-bomb",
+    "version":"1.0.2",
+    "required_oolite_version":"1.79",
+    "maximum_oolite_version":null,
+    "title":"Energy Bomb",
+    "description":"The original indiscriminate superweapon. Available as primable equipment from TL:8 systems and above. Previous versions of this expansion pack are not compatible with Oolite 1.79 or later.",
+    "category":"Weapons",
+    "author":"cim",
+    "license":"CC-BY-NC-SA 3.0",
+    "download_url":"https://cim.sotl.org.uk/games/files/oolite/EnergyBomb_1.0.2.oxz",
+    "information_url":"http://wiki.alioth.net/index.php/Energy_Bomb",
+    "file_size":1906,
+    "upload_date":1417342940,
+    "tags":[
+    ],
+    "conflict_oxps":[
+    ],
+    "optional_oxps":[
+    ],
+    "requires_oxps":[
+    ]
+  },
+  {
     "identifier":"oolite.oxp.cim.escort-formations",
     "version":"1.3",
     "required_oolite_version":"1.79",
@@ -13941,6 +13964,29 @@
       "Witchdrive",
       "SUWitchdrive",
       "SU-Witchdrive"
+    ],
+    "conflict_oxps":[
+    ],
+    "optional_oxps":[
+    ],
+    "requires_oxps":[
+    ]
+  },
+  {
+    "identifier":"oolite.oxp.phkb.AnacondaCruiseLiners",
+    "version":"0.3",
+    "required_oolite_version":"1.90",
+    "maximum_oolite_version":null,
+    "title":"Anaconda Cruise Liners",
+    "description":"Adds some cruise ships to the space lanes, based on the Anaconda.",
+    "category":"Ships",
+    "author":"phkb",
+    "license":"CC-BY-SA-NC 4.0",
+    "download_url":"https://wiki.alioth.net/img_auth.php/b/ba/AnacondaCruiseLiners.oxz",
+    "information_url":"https://wiki.alioth.net/index.php/Anaconda_Cruise_Liners",
+    "file_size":29873923,
+    "upload_date":1748330556,
+    "tags":[
     ],
     "conflict_oxps":[
     ],
@@ -15708,6 +15754,41 @@
     ]
   },
   {
+    "identifier":"oolite.oxp.phkb.QuickVisa",
+    "version":"1.2",
+    "required_oolite_version":"1.90",
+    "maximum_oolite_version":null,
+    "title":"Quick-Visa",
+    "description":"Adds Quick-Visa Service stations to witchpoints, and alerts the player, when arriving in a system, whether visa are required at system stations.",
+    "category":"Miscellaneous",
+    "author":"phkb",
+    "license":"CC-BY-SA-NC 4.0",
+    "download_url":"https://wiki.alioth.net/img_auth.php/5/55/QuickVisa.oxz",
+    "information_url":null,
+    "file_size":3683375,
+    "upload_date":1748330426,
+    "tags":[
+    ],
+    "conflict_oxps":[
+    ],
+    "optional_oxps":[
+    ],
+    "requires_oxps":[
+      {
+        "identifier":"oolite.oxp.Day.Diplomacy",
+        "version":null,
+        "maximum_version":null,
+        "description":null
+      },
+      {
+        "identifier":"oolite.oxp.phkb.BroadcastCommsMFD",
+        "version":null,
+        "maximum_version":null,
+        "description":null
+      }
+    ]
+  },
+  {
     "identifier":"oolite.oxp.phkb.RemoveIndividualPylon",
     "version":"1.0",
     "required_oolite_version":"1.80",
@@ -15759,6 +15840,35 @@
     "requires_oxps":[
       {
         "identifier":"oolite.oxp.phkb.MarketScriptInterface",
+        "version":null,
+        "maximum_version":null,
+        "description":null
+      }
+    ]
+  },
+  {
+    "identifier":"oolite.oxp.phkb.RoughGuideToTheOoniverse",
+    "version":"1.0",
+    "required_oolite_version":"1.79",
+    "maximum_oolite_version":null,
+    "title":"Rough Guide to the Ooniverse",
+    "description":"Adds the 'Rough Guide to the Ooniverse' to the Ship's Library",
+    "category":"Ambience",
+    "author":"phkb",
+    "license":"CC-BY-SA 4.0",
+    "download_url":"https://wiki.alioth.net/img_auth.php/2/25/RoughGuide.oxz",
+    "information_url":"https://wiki.alioth.net/index.php/Rough_Guide_to_the_Ooniverse",
+    "file_size":62729,
+    "upload_date":1748330386,
+    "tags":[
+    ],
+    "conflict_oxps":[
+    ],
+    "optional_oxps":[
+    ],
+    "requires_oxps":[
+      {
+        "identifier":"oolite.oxp.cim.ships-library",
         "version":null,
         "maximum_version":null,
         "description":null
