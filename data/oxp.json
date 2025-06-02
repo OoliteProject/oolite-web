@@ -8518,7 +8518,7 @@
   },
   {
     "identifier":"oolite.oxp.Rxke.BlackBaron",
-    "version":"2.0",
+    "version":"2.1",
     "required_oolite_version":"1.80",
     "maximum_oolite_version":null,
     "title":"Scourge of the Black Baron",
@@ -8527,9 +8527,9 @@
     "author":"Rxke",
     "license":"CC-BY-NC-SA 3.0",
     "download_url":"https://wiki.alioth.net/img_auth.php/5/54/BlackBaron.oxz",
-    "information_url":null,
-    "file_size":1362755,
-    "upload_date":1610873301,
+    "information_url":"https://wiki.alioth.net/index.php/Scourge_of_the_Black_Baron",
+    "file_size":4515091,
+    "upload_date":1748848428,
     "tags":[
     ],
     "conflict_oxps":[
@@ -14066,7 +14066,7 @@
   },
   {
     "identifier":"oolite.oxp.phkb.BountySystem",
-    "version":"0.16",
+    "version":"0.17",
     "required_oolite_version":"1.82",
     "maximum_oolite_version":null,
     "title":"Bounty System",
@@ -14076,8 +14076,8 @@
     "license":"CC-BY-NC-SA 4.0",
     "download_url":"https://wiki.alioth.net/img_auth.php/5/5d/BountySystem.oxz",
     "information_url":"http://wiki.alioth.net/index.php/Bounty_System",
-    "file_size":75230,
-    "upload_date":1728881271,
+    "file_size":81988,
+    "upload_date":1748848555,
     "tags":[
     ],
     "conflict_oxps":[
@@ -14290,7 +14290,7 @@
   },
   {
     "identifier":"oolite.oxp.phkb.DamageReportMFD",
-    "version":"2.6",
+    "version":"2.7",
     "required_oolite_version":"1.82",
     "maximum_oolite_version":null,
     "title":"Damage Report MFD",
@@ -14300,8 +14300,8 @@
     "license":"CC-BY-NC-SA 4.0",
     "download_url":"https://wiki.alioth.net/img_auth.php/3/3d/DamageReportMFD.oxz",
     "information_url":"https://wiki.alioth.net/index.php/Damage_Report_MFD",
-    "file_size":18408,
-    "upload_date":1745544608,
+    "file_size":20679,
+    "upload_date":1748848492,
     "tags":[
       "mfd",
       "equipment"
@@ -15211,7 +15211,7 @@
   },
   {
     "identifier":"oolite.oxp.phkb.GalacticRegistry",
-    "version":"5.9.1",
+    "version":"5.10",
     "required_oolite_version":"1.79",
     "maximum_oolite_version":null,
     "title":"Galactic Registry",
@@ -15219,10 +15219,10 @@
     "category":"Ambience",
     "author":"phkb",
     "license":"CC-BY-NC-SA 3.0",
-    "download_url":"https://wiki.alioth.net/img_auth.php/d/d4/GalCopGalacticRegistry_5.9.1.oxz",
+    "download_url":"https://wiki.alioth.net/img_auth.php/e/ea/GalCopGalacticRegistry_5.10.oxz",
     "information_url":"http://wiki.alioth.net/index.php/GalCop_Galactic_Registry",
-    "file_size":32118,
-    "upload_date":1710158235,
+    "file_size":34455,
+    "upload_date":1748848563,
     "tags":[
     ],
     "conflict_oxps":[
@@ -15234,7 +15234,7 @@
   },
   {
     "identifier":"oolite.oxp.phkb.HomeSystem",
-    "version":"0.14",
+    "version":"0.15",
     "required_oolite_version":"1.85",
     "maximum_oolite_version":null,
     "title":"Home System",
@@ -15244,8 +15244,8 @@
     "license":"CC-BY-NC-SA 4.0",
     "download_url":"https://wiki.alioth.net/img_auth.php/f/fb/HomeSystem.oxz",
     "information_url":"https://wiki.alioth.net/index.php/Home_System",
-    "file_size":32688,
-    "upload_date":1708757420,
+    "file_size":37342,
+    "upload_date":1748848528,
     "tags":[
     ],
     "conflict_oxps":[
