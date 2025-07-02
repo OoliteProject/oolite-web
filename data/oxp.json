@@ -18588,7 +18588,7 @@
   },
   {
     "identifier":"oolite.oxp.spara.in-system_taxi",
-    "version":"1.4",
+    "version":"1.5",
     "required_oolite_version":"1.79",
     "maximum_oolite_version":null,
     "title":"In-System Taxi",
@@ -18596,10 +18596,10 @@
     "category":"Activities",
     "author":"spara",
     "license":"CC-BY-NC-SA 3.0",
-    "download_url":"https://wiki.alioth.net/img_auth.php/a/a5/In-System_Taxi_1.4.oxz",
+    "download_url":"https://wiki.alioth.net/img_auth.php/2/22/In-System_Taxi_1.5.oxz",
     "information_url":"https://wiki.alioth.net/index.php/In-System_Taxi",
-    "file_size":21329,
-    "upload_date":1751175987,
+    "file_size":21171,
+    "upload_date":1751447855,
     "tags":[
     ],
     "conflict_oxps":[
