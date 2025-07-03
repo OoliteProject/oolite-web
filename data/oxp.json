@@ -13108,29 +13108,6 @@
     ]
   },
   {
-    "identifier":"oolite.oxp.cim.energy-bomb",
-    "version":"1.0.2",
-    "required_oolite_version":"1.79",
-    "maximum_oolite_version":null,
-    "title":"Energy Bomb",
-    "description":"The original indiscriminate superweapon. Available as primable equipment from TL:8 systems and above. Previous versions of this expansion pack are not compatible with Oolite 1.79 or later.",
-    "category":"Weapons",
-    "author":"cim",
-    "license":"CC-BY-NC-SA 3.0",
-    "download_url":"https://cim.sotl.org.uk/games/files/oolite/EnergyBomb_1.0.2.oxz",
-    "information_url":"http://wiki.alioth.net/index.php/Energy_Bomb",
-    "file_size":1906,
-    "upload_date":1417342940,
-    "tags":[
-    ],
-    "conflict_oxps":[
-    ],
-    "optional_oxps":[
-    ],
-    "requires_oxps":[
-    ]
-  },
-  {
     "identifier":"oolite.oxp.cim.escort-formations",
     "version":"1.3",
     "required_oolite_version":"1.79",
@@ -14571,7 +14548,7 @@
   },
   {
     "identifier":"oolite.oxp.phkb.ExternalDockSystem",
-    "version":"1.8",
+    "version":"1.9",
     "required_oolite_version":"1.85",
     "maximum_oolite_version":null,
     "title":"External Dock System",
@@ -14579,10 +14556,10 @@
     "category":"Mechanics",
     "author":"phkb",
     "license":"CC-BY-NC-SA 4.0",
-    "download_url":"https://wiki.alioth.net/img_auth.php/c/c8/ExternalDockingSystem_1.8.oxz",
+    "download_url":"https://wiki.alioth.net/img_auth.php/5/51/ExternalDockingSystem_1.9.oxz",
     "information_url":"https://wiki.alioth.net/index.php/External_Docking_System",
-    "file_size":6554,
-    "upload_date":1713269448,
+    "file_size":7010,
+    "upload_date":1751514548,
     "tags":[
     ],
     "conflict_oxps":[
@@ -22526,7 +22503,7 @@
   },
   {
     "identifier":"oolite.oxp.zzz.Montana05.KillerWolf.nuit_station",
-    "version":"2.4",
+    "version":"2.5",
     "required_oolite_version":"1.88",
     "maximum_oolite_version":null,
     "title":"Nuit Space Station",
@@ -22534,10 +22511,10 @@
     "category":"Dockables",
     "author":"Killer Wolf, Griff, Montana05, phkb",
     "license":"CC BY-NC-SA 4.0",
-    "download_url":"https://wiki.alioth.net/img_auth.php/3/33/Nuit_Station_2.4.oxz",
+    "download_url":"https://wiki.alioth.net/img_auth.php/8/8f/Nuit_Station_2.5.oxz",
     "information_url":"https://wiki.alioth.net/index.php/Nuit_Space_Station_OXP",
-    "file_size":28906819,
-    "upload_date":1736213603,
+    "file_size":28901294,
+    "upload_date":1751514524,
     "tags":[
       "station",
       "ships"
