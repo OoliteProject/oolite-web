@@ -3047,8 +3047,8 @@
     "license":"CC-BY-NC-SA 3.0",
     "download_url":"https://wiki.alioth.net/img_auth.php/c/c8/Tionisla_Reporter.oxz",
     "information_url":"http://wiki.alioth.net/index.php/Tionisla_Reporter",
-    "file_size":6025584,
-    "upload_date":1752106067,
+    "file_size":6025666,
+    "upload_date":1752106822,
     "tags":[
     ],
     "conflict_oxps":[
@@ -7486,7 +7486,7 @@
   },
   {
     "identifier":"oolite.oxp.Pleb.TaxiGalactica",
-    "version":"2.1",
+    "version":"2.2",
     "required_oolite_version":"1.79",
     "maximum_oolite_version":null,
     "title":"Taxi Galactica",
@@ -7494,10 +7494,10 @@
     "category":"Missions",
     "author":"Pleb",
     "license":"CC BY-NC-SA 3",
-    "download_url":"https://wiki.alioth.net/img_auth.php/8/81/Taxi_Galactica_2.1.oxz",
+    "download_url":"https://wiki.alioth.net/img_auth.php/8/8f/Taxi_Galactica_2.2.oxz",
     "information_url":"http://wiki.alioth.net/index.php/Taxi_Galactica",
-    "file_size":4640475,
-    "upload_date":1610873346,
+    "file_size":14296079,
+    "upload_date":1752640630,
     "tags":[
     ],
     "conflict_oxps":[
@@ -10257,18 +10257,18 @@
   },
   {
     "identifier":"oolite.oxp.Thargoid.Planetfall",
-    "version":"2.19",
+    "version":"2.20",
     "required_oolite_version":"1.90",
     "maximum_oolite_version":null,
-    "title":"Planetfall",
+    "title":"PlanetFall",
     "description":"Allows landing on planets and moons in the system at various locations.",
     "category":"Dockables",
     "author":"Thargoid, phkb",
     "license":"Creative Commons Attribution - Non-Commercial - Share Alike 3.0 license with clauses - see readme file",
     "download_url":"https://wiki.alioth.net/img_auth.php/1/1f/PlanetFall2.oxz",
     "information_url":"http://wiki.alioth.net/index.php/Planetfall2_OXP",
-    "file_size":1949289,
-    "upload_date":1750909781,
+    "file_size":1950254,
+    "upload_date":1752640391,
     "tags":[
       "dockables",
       "system"
@@ -15234,7 +15234,7 @@
   },
   {
     "identifier":"oolite.oxp.phkb.GalacticRegistry",
-    "version":"5.11",
+    "version":"5.12",
     "required_oolite_version":"1.79",
     "maximum_oolite_version":null,
     "title":"Galactic Registry",
@@ -15242,10 +15242,10 @@
     "category":"Ambience",
     "author":"phkb",
     "license":"CC-BY-NC-SA 3.0",
-    "download_url":"https://wiki.alioth.net/img_auth.php/7/75/GalCopGalacticRegistry_5.11.oxz",
+    "download_url":"https://wiki.alioth.net/img_auth.php/e/e3/GalCopGalacticRegistry_5.12.oxz",
     "information_url":"http://wiki.alioth.net/index.php/GalCop_Galactic_Registry",
-    "file_size":34498,
-    "upload_date":1749449967,
+    "file_size":34603,
+    "upload_date":1752640589,
     "tags":[
     ],
     "conflict_oxps":[
@@ -20598,7 +20598,7 @@
   },
   {
     "identifier":"oolite.oxp.z.phkb.XenonUI",
-    "version":"3.8",
+    "version":"3.9",
     "required_oolite_version":"1.80",
     "maximum_oolite_version":null,
     "title":"Xenon UI",
@@ -20608,8 +20608,8 @@
     "license":"CC-BY-NC-SA 3.0",
     "download_url":"https://wiki.alioth.net/img_auth.php/0/0b/XenonUI.oxz",
     "information_url":"http://wiki.alioth.net/index.php/XenonUI",
-    "file_size":6924868,
-    "upload_date":1744255152,
+    "file_size":7667145,
+    "upload_date":1752640422,
     "tags":[
     ],
     "conflict_oxps":[
