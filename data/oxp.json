@@ -20598,7 +20598,7 @@
   },
   {
     "identifier":"oolite.oxp.z.phkb.XenonUI",
-    "version":"3.9",
+    "version":"3.10",
     "required_oolite_version":"1.80",
     "maximum_oolite_version":null,
     "title":"Xenon UI",
@@ -20608,8 +20608,8 @@
     "license":"CC-BY-NC-SA 3.0",
     "download_url":"https://wiki.alioth.net/img_auth.php/0/0b/XenonUI.oxz",
     "information_url":"http://wiki.alioth.net/index.php/XenonUI",
-    "file_size":7667145,
-    "upload_date":1752640422,
+    "file_size":7658139,
+    "upload_date":1752647619,
     "tags":[
     ],
     "conflict_oxps":[
