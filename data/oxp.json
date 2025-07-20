@@ -7485,6 +7485,29 @@
     ]
   },
   {
+    "identifier":"oolite.oxp.Pleb.TaxiGalactica",
+    "version":"2.2",
+    "required_oolite_version":"1.79",
+    "maximum_oolite_version":null,
+    "title":"Taxi Galactica",
+    "description":"Taxi Stations in corporate systems offers exotic passenger contracts.",
+    "category":"Missions",
+    "author":"Pleb",
+    "license":"CC BY-NC-SA 3",
+    "download_url":"https://wiki.alioth.net/img_auth.php/8/8f/Taxi_Galactica_2.2.oxz",
+    "information_url":"http://wiki.alioth.net/index.php/Taxi_Galactica",
+    "file_size":14296079,
+    "upload_date":1752640630,
+    "tags":[
+    ],
+    "conflict_oxps":[
+    ],
+    "optional_oxps":[
+    ],
+    "requires_oxps":[
+    ]
+  },
+  {
     "identifier":"oolite.oxp.QCS.QTHI_AntiZap",
     "version":"0.1",
     "required_oolite_version":"1.84",
@@ -14390,7 +14413,7 @@
   },
   {
     "identifier":"oolite.oxp.phkb.EmailSystem",
-    "version":"1.12",
+    "version":"1.13",
     "required_oolite_version":"1.79",
     "maximum_oolite_version":null,
     "title":"Email System",
@@ -14400,8 +14423,8 @@
     "license":"CC-BY-NC-SA 4.0",
     "download_url":"https://wiki.alioth.net/img_auth.php/f/f1/EmailSystem.oxz",
     "information_url":"https://wiki.alioth.net/index.php/Email_System_OXP",
-    "file_size":173306,
-    "upload_date":1749450375,
+    "file_size":173318,
+    "upload_date":1752992931,
     "tags":[
       "email",
       "comms"
@@ -14415,7 +14438,7 @@
   },
   {
     "identifier":"oolite.oxp.phkb.EnhancedPassengerContracts",
-    "version":"0.4",
+    "version":"0.5",
     "required_oolite_version":"1.84",
     "maximum_oolite_version":null,
     "title":"Enhanced Passenger Contracts",
@@ -14424,9 +14447,9 @@
     "author":"phkb",
     "license":"CC-BY-NC-SA 4.0",
     "download_url":"https://wiki.alioth.net/img_auth.php/d/d9/EnhancedPassengerContracts.oxz",
-    "information_url":null,
-    "file_size":28187,
-    "upload_date":1670936999,
+    "information_url":"https://wiki.alioth.net/index.php/Enhanced_Passenger_Contracts",
+    "file_size":28874,
+    "upload_date":1752993287,
     "tags":[
     ],
     "conflict_oxps":[
@@ -15383,7 +15406,7 @@
   },
   {
     "identifier":"oolite.oxp.phkb.LoadoutByCategory",
-    "version":"1.5",
+    "version":"1.6",
     "required_oolite_version":"1.82",
     "maximum_oolite_version":"1.90",
     "title":"Loadout By Category",
@@ -15393,8 +15416,8 @@
     "license":"CC-BY-SA 4.0",
     "download_url":"https://wiki.alioth.net/img_auth.php/1/1d/LoadoutByCategory_190.oxz",
     "information_url":"https://wiki.alioth.net/index.php/Loadout_by_Category",
-    "file_size":39497,
-    "upload_date":1748732936,
+    "file_size":39561,
+    "upload_date":1752993105,
     "tags":[
     ],
     "conflict_oxps":[
@@ -15406,7 +15429,7 @@
   },
   {
     "identifier":"oolite.oxp.phkb.LoadoutByCategory",
-    "version":"1.5",
+    "version":"1.6",
     "required_oolite_version":"1.91",
     "maximum_oolite_version":null,
     "title":"Loadout By Category",
@@ -15416,8 +15439,8 @@
     "license":"CC-BY-SA 4.0",
     "download_url":"https://wiki.alioth.net/img_auth.php/4/49/LoadoutByCategory.oxz",
     "information_url":"https://wiki.alioth.net/index.php/Loadout_by_Category",
-    "file_size":39534,
-    "upload_date":1748732950,
+    "file_size":39621,
+    "upload_date":1752993117,
     "tags":[
     ],
     "conflict_oxps":[
@@ -15900,7 +15923,7 @@
   },
   {
     "identifier":"oolite.oxp.phkb.ShipConfiguration",
-    "version":"1.5",
+    "version":"1.5.1",
     "required_oolite_version":"1.90",
     "maximum_oolite_version":null,
     "title":"Ship Configuration",
@@ -15910,8 +15933,8 @@
     "license":"CC-BY-NC-SA 3.0",
     "download_url":"https://wiki.alioth.net/img_auth.php/8/81/ShipConfiguration.oxz",
     "information_url":"https://wiki.alioth.net/index.php/Ship_Configuration_OXP",
-    "file_size":1550771,
-    "upload_date":1748261063,
+    "file_size":1550859,
+    "upload_date":1752993224,
     "tags":[
     ],
     "conflict_oxps":[
@@ -16684,6 +16707,29 @@
         "maximum_version":null,
         "description":null
       }
+    ]
+  },
+  {
+    "identifier":"oolite.oxp.redspear.alien_systems",
+    "version":"0.5",
+    "required_oolite_version":"1.79",
+    "maximum_oolite_version":null,
+    "title":"Alien Systems",
+    "description":"Adds flavour to non colonial systems based on inhabitant type",
+    "category":"Systems",
+    "author":"Redspear",
+    "license":"CC-BY-NC-SA 4.0",
+    "download_url":"https://wiki.alioth.net/img_auth.php/2/29/Oolite.oxp.redspear.alien_systems.oxz",
+    "information_url":null,
+    "file_size":28418145,
+    "upload_date":1751840511,
+    "tags":[
+    ],
+    "conflict_oxps":[
+    ],
+    "optional_oxps":[
+    ],
+    "requires_oxps":[
     ]
   },
   {
