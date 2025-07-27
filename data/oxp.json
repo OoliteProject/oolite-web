@@ -14187,7 +14187,7 @@
   },
   {
     "identifier":"oolite.oxp.phkb.ChangeViewSound",
-    "version":"1.0",
+    "version":"1.1",
     "required_oolite_version":"1.80",
     "maximum_oolite_version":null,
     "title":"Change View Sound",
@@ -14196,9 +14196,9 @@
     "author":"phkb",
     "license":"CC BY-NC-SA 4.0",
     "download_url":"https://wiki.alioth.net/img_auth.php/0/05/ChangeViewSound.oxz",
-    "information_url":null,
-    "file_size":1396,
-    "upload_date":1610873213,
+    "information_url":"https://wiki.alioth.net/index.php/Change_View_Sound",
+    "file_size":1910,
+    "upload_date":1753589749,
     "tags":[
     ],
     "conflict_oxps":[
