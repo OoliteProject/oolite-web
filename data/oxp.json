@@ -2594,18 +2594,18 @@
   },
   {
     "identifier":"oolite.oxp.Diziet.hyperradioCATACLYSM",
-    "version":"1.0",
+    "version":"2.0",
     "required_oolite_version":"1.79",
     "maximum_oolite_version":null,
-    "title":"Hyperradio CATACLYSM - Electronica",
-    "description":"This musicpack contains the Electronica album '+cataclysm+'. Depends on Hyperradio.",
+    "title":"HyperRadio CATACLYSM - Electronica",
+    "description":"This musicpack contains the Electronica album '+cataclysm+'. Works with HyperRadio 1.x or HyperRadio 2.x with Library OXP.",
     "category":"Ambience",
     "author":"Diziet Sma",
     "license":"CC-BY-NC-SA 3.0",
     "download_url":"https://wiki.alioth.net/img_auth.php/0/04/HyperradioCATACLYSM.oxz",
-    "information_url":"http://aegidian.org/bb/viewtopic.php?f=4&t=16567",
-    "file_size":43859348,
-    "upload_date":1610873211,
+    "information_url":"http://bb.oolite.space/viewtopic.php?f=4&t=16567",
+    "file_size":43965163,
+    "upload_date":1754287988,
     "tags":[
     ],
     "conflict_oxps":[
@@ -2613,12 +2613,6 @@
     "optional_oxps":[
     ],
     "requires_oxps":[
-      {
-        "identifier":"oolite.oxp.Svengali.Hyperradio",
-        "version":"1.26",
-        "maximum_version":null,
-        "description":"Requires Hyperradio v1.26 or greater."
-      }
     ]
   },
   {
@@ -9186,6 +9180,47 @@
     ]
   },
   {
+    "identifier":"oolite.oxp.Svengali.HyperRadio2",
+    "version":"2.0",
+    "required_oolite_version":"1.79",
+    "maximum_oolite_version":null,
+    "title":"HyperRadio 2",
+    "description":"Your personal tool for playing music in the game. Depends on Library and GNN, suggests Musicpacks.",
+    "category":"Equipment",
+    "author":"Svengali, phkb",
+    "license":"CC BY-NC-SA 3.0",
+    "download_url":"https://wiki.alioth.net/img_auth.php/4/40/HyperRadio_2.0.oxz",
+    "information_url":"http://wiki.alioth.net/index.php/Hyperradio_js_OXP",
+    "file_size":775800,
+    "upload_date":1754288551,
+    "tags":[
+    ],
+    "conflict_oxps":[
+      {
+        "identifier":"oolite.oxp.Svengali.Hyperradio",
+        "version":null,
+        "maximum_version":null,
+        "description":null
+      }
+    ],
+    "optional_oxps":[
+    ],
+    "requires_oxps":[
+      {
+        "identifier":"oolite.oxp.Svengali.Library",
+        "version":null,
+        "maximum_version":null,
+        "description":null
+      },
+      {
+        "identifier":"oolite.oxp.Svengali.GNN",
+        "version":null,
+        "maximum_version":null,
+        "description":null
+      }
+    ]
+  },
+  {
     "identifier":"oolite.oxp.Svengali.Hyperradio",
     "version":"1.26.1",
     "required_oolite_version":"1.79",
@@ -9222,18 +9257,18 @@
   },
   {
     "identifier":"oolite.oxp.Svengali.HyperradioAFC01",
-    "version":"1.0",
+    "version":"2.0",
     "required_oolite_version":"1.79",
     "maximum_oolite_version":null,
-    "title":"Hyperradio AFC01 - Accoustic, Folk and Country",
-    "description":"This musicpack contains 5 Accoustic, Folk and Country songs. Depends on Hyperradio.",
+    "title":"HyperRadio AFC01 - Acoustic, Folk and Country",
+    "description":"This musicpack contains 5 Acoustic, Folk and Country songs. Works with HyperRadio 1.x or HyperRadio 2.x with Library OXP.",
     "category":"Ambience",
     "author":"Svengali",
     "license":"CC BY-NC-SA variations, see in the readme",
     "download_url":"https://wiki.alioth.net/img_auth.php/4/48/HyperradioAFC01.oxz",
     "information_url":"http://wiki.alioth.net/index.php/Hyperradio_Musicpacks",
-    "file_size":17885940,
-    "upload_date":1610873292,
+    "file_size":17912485,
+    "upload_date":1754287928,
     "tags":[
     ],
     "conflict_oxps":[
@@ -9241,28 +9276,22 @@
     "optional_oxps":[
     ],
     "requires_oxps":[
-      {
-        "identifier":"oolite.oxp.Svengali.Hyperradio",
-        "version":"1.26",
-        "maximum_version":null,
-        "description":null
-      }
     ]
   },
   {
     "identifier":"oolite.oxp.Svengali.HyperradioHH01",
-    "version":"1.0",
+    "version":"2.0",
     "required_oolite_version":"1.79",
     "maximum_oolite_version":null,
-    "title":"Hyperradio HH01 - Hardrock and Metal",
-    "description":"This musicpack contains 5 Hardrock and Metal songs. Depends on Hyperradio.",
+    "title":"HyperRadio HH01 - Hardrock and Metal",
+    "description":"This musicpack contains 5 Hardrock and Metal songs. Works with HyperRadio 1.x or HyperRadio 2.x with Library OXP.",
     "category":"Ambience",
     "author":"Svengali",
     "license":"CC BY-NC-SA variations, see in the readme",
     "download_url":"https://wiki.alioth.net/img_auth.php/b/ba/HyperradioHH01.oxz",
     "information_url":"http://wiki.alioth.net/index.php/Hyperradio_Musicpacks",
-    "file_size":22664428,
-    "upload_date":1610873454,
+    "file_size":22695872,
+    "upload_date":1754288025,
     "tags":[
     ],
     "conflict_oxps":[
@@ -9270,28 +9299,22 @@
     "optional_oxps":[
     ],
     "requires_oxps":[
-      {
-        "identifier":"oolite.oxp.Svengali.Hyperradio",
-        "version":"1.26",
-        "maximum_version":null,
-        "description":null
-      }
     ]
   },
   {
     "identifier":"oolite.oxp.Svengali.HyperradioJFRG01",
-    "version":"1.0",
+    "version":"2.0",
     "required_oolite_version":"1.79",
     "maximum_oolite_version":null,
-    "title":"Hyperradio JFRG01 - Jazz, Funk, RnB and Groove",
-    "description":"This musicpack contains 5 Jazz, Funk, RnB and Groove songs. Depends on Hyperradio.",
+    "title":"HyperRadio JFRG01 - Jazz, Funk, RnB and Groove",
+    "description":"This musicpack contains 5 Jazz, Funk, RnB and Groove songs. Works with HyperRadio 1.x or HyperRadio 2.x with Library OXP.",
     "category":"Ambience",
     "author":"Svengali",
     "license":"CC BY-NC-SA variations, see in the readme",
     "download_url":"https://wiki.alioth.net/img_auth.php/a/a7/HyperradioJFRG01.oxz",
     "information_url":"http://wiki.alioth.net/index.php/Hyperradio_Musicpacks",
-    "file_size":18371906,
-    "upload_date":1610873404,
+    "file_size":18397393,
+    "upload_date":1754288133,
     "tags":[
     ],
     "conflict_oxps":[
@@ -9299,28 +9322,22 @@
     "optional_oxps":[
     ],
     "requires_oxps":[
-      {
-        "identifier":"oolite.oxp.Svengali.Hyperradio",
-        "version":"1.26",
-        "maximum_version":null,
-        "description":null
-      }
     ]
   },
   {
     "identifier":"oolite.oxp.Svengali.HyperradioPSY01",
-    "version":"1.0",
+    "version":"2.0",
     "required_oolite_version":"1.79",
     "maximum_oolite_version":null,
-    "title":"Hyperradio PSY01 - Ambient Psychedelic",
-    "description":"This musicpack contains 5 Ambient Psychedelic songs. Depends on Hyperradio.",
+    "title":"HyperRadio PSY01 - Ambient Psychedelic",
+    "description":"This musicpack contains 5 Ambient Psychedelic songs. Works with HyperRadio 1.x or HyperRadio 2.x with Library OXP.",
     "category":"Ambience",
     "author":"Svengali",
     "license":"CC BY-NC-SA variations, see in the readme",
     "download_url":"https://wiki.alioth.net/img_auth.php/3/32/HyperradioPSY01.oxz",
     "information_url":"http://wiki.alioth.net/index.php/Hyperradio_Musicpacks",
-    "file_size":30828812,
-    "upload_date":1610873264,
+    "file_size":30872732,
+    "upload_date":1754288181,
     "tags":[
     ],
     "conflict_oxps":[
@@ -9328,28 +9345,22 @@
     "optional_oxps":[
     ],
     "requires_oxps":[
-      {
-        "identifier":"oolite.oxp.Svengali.Hyperradio",
-        "version":"1.26",
-        "maximum_version":null,
-        "description":null
-      }
     ]
   },
   {
     "identifier":"oolite.oxp.Svengali.HyperradioST01",
-    "version":"1.0",
+    "version":"2.0",
     "required_oolite_version":"1.79",
     "maximum_oolite_version":null,
-    "title":"Hyperradio ST01 - Ambient",
-    "description":"This musicpack contains the full album: Lifes path by mindthings - Ambient. Depends on Hyperradio.",
+    "title":"HyperRadio ST01 - Ambient",
+    "description":"This musicpack contains the full album: Lifes path by mindthings - Ambient. Works with HyperRadio 1.x or HyperRadio 2.x with Library OXP.",
     "category":"Ambience",
     "author":"Svengali",
     "license":"CC BY-NC 2.0 fr",
     "download_url":"https://wiki.alioth.net/img_auth.php/9/9c/HyperradioST01.oxz",
     "information_url":"http://wiki.alioth.net/index.php/Hyperradio_Musicpacks",
-    "file_size":39427587,
-    "upload_date":1610873390,
+    "file_size":39484720,
+    "upload_date":1754288271,
     "tags":[
     ],
     "conflict_oxps":[
@@ -9357,12 +9368,6 @@
     "optional_oxps":[
     ],
     "requires_oxps":[
-      {
-        "identifier":"oolite.oxp.Svengali.Hyperradio",
-        "version":"1.26",
-        "maximum_version":null,
-        "description":null
-      }
     ]
   },
   {
@@ -9370,15 +9375,15 @@
     "version":"1.0",
     "required_oolite_version":"1.79",
     "maximum_oolite_version":null,
-    "title":"Hyperradio ST02 - Ambient",
-    "description":"This musicpack contains 5 songs by PeerGynt Lobogris - Ambient. Depends on Hyperradio.",
+    "title":"HyperRadio ST02 - Ambient",
+    "description":"This musicpack contains 5 songs by PeerGynt Lobogris - Ambient. Works with HyperRadio 1.x or HyperRadio 2.x with Library OXP.",
     "category":"Ambience",
     "author":"Svengali",
     "license":"CC BY-NC-SA 3",
     "download_url":"https://wiki.alioth.net/img_auth.php/e/e3/HyperradioST02.oxz",
     "information_url":"http://wiki.alioth.net/index.php/Hyperradio_Musicpacks",
-    "file_size":29573047,
-    "upload_date":1610873495,
+    "file_size":29614234,
+    "upload_date":1754288317,
     "tags":[
     ],
     "conflict_oxps":[
@@ -9386,28 +9391,22 @@
     "optional_oxps":[
     ],
     "requires_oxps":[
-      {
-        "identifier":"oolite.oxp.Svengali.Hyperradio",
-        "version":"1.26",
-        "maximum_version":null,
-        "description":null
-      }
     ]
   },
   {
     "identifier":"oolite.oxp.Svengali.HyperradioTN01",
-    "version":"1.0",
+    "version":"2.0",
     "required_oolite_version":"1.79",
     "maximum_oolite_version":null,
-    "title":"Hyperradio TN01 - Technofunk",
-    "description":"This musicpack contains 5 Technopop, Technofunk songs. Depends on Hyperradio.",
+    "title":"HyperRadio TN01 - Technofunk",
+    "description":"This musicpack contains 5 Technopop, Technofunk songs. Works with HyperRadio 1.x or HyperRadio 2.x with Library OXP.",
     "category":"Ambience",
     "author":"Svengali",
     "license":"CC BY-NC-SA 3",
     "download_url":"https://wiki.alioth.net/img_auth.php/8/82/HyperradioTN01.oxz",
     "information_url":"http://wiki.alioth.net/index.php/Hyperradio_Musicpacks",
-    "file_size":25706566,
-    "upload_date":1610873349,
+    "file_size":25741523,
+    "upload_date":1754288364,
     "tags":[
     ],
     "conflict_oxps":[
@@ -9415,12 +9414,6 @@
     "optional_oxps":[
     ],
     "requires_oxps":[
-      {
-        "identifier":"oolite.oxp.Svengali.Hyperradio",
-        "version":"1.26",
-        "maximum_version":null,
-        "description":null
-      }
     ]
   },
   {
@@ -15301,6 +15294,52 @@
     "information_url":"https://wiki.alioth.net/index.php/Home_System",
     "file_size":37342,
     "upload_date":1748848528,
+    "tags":[
+    ],
+    "conflict_oxps":[
+    ],
+    "optional_oxps":[
+    ],
+    "requires_oxps":[
+    ]
+  },
+  {
+    "identifier":"oolite.oxp.phkb.HyperradioROCK01",
+    "version":"1.0",
+    "required_oolite_version":"1.79",
+    "maximum_oolite_version":null,
+    "title":"HyperRadio ROCK01 - Instrumental Rock",
+    "description":"This musicpack contains 22 Instrumental Rock tracks, sourced from FreePik. Works with HyperRadio 1.x or HyperRadio 2.x with Library OXP.",
+    "category":"Ambience",
+    "author":"phkb",
+    "license":"CC BY-NC-SA 4",
+    "download_url":"https://wiki.alioth.net/img_auth.php/7/79/HyperradioROCK01.oxz",
+    "information_url":"http://wiki.alioth.net/index.php/Hyperradio_Musicpacks",
+    "file_size":57393888,
+    "upload_date":1754288440,
+    "tags":[
+    ],
+    "conflict_oxps":[
+    ],
+    "optional_oxps":[
+    ],
+    "requires_oxps":[
+    ]
+  },
+  {
+    "identifier":"oolite.oxp.phkb.HyperradioSYN01",
+    "version":"1.0",
+    "required_oolite_version":"1.79",
+    "maximum_oolite_version":null,
+    "title":"HyperRadio SYN01 - Synthwave",
+    "description":"This musicpack contains 23 Synthwave songs, sourced from FreePik. Works with HyperRadio 1.x or HyperRadio 2.x with Library OXP.",
+    "category":"Ambience",
+    "author":"phkb",
+    "license":"CC BY-NC-SA 4",
+    "download_url":"https://wiki.alioth.net/img_auth.php/9/93/HyperradioSYN01.oxz",
+    "information_url":"http://wiki.alioth.net/index.php/Hyperradio_Musicpacks",
+    "file_size":57829463,
+    "upload_date":1754288530,
     "tags":[
     ],
     "conflict_oxps":[
