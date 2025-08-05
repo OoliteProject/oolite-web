@@ -13133,29 +13133,6 @@
     ]
   },
   {
-    "identifier":"oolite.oxp.cim.energy-bomb",
-    "version":"1.0.2",
-    "required_oolite_version":"1.79",
-    "maximum_oolite_version":null,
-    "title":"Energy Bomb",
-    "description":"The original indiscriminate superweapon. Available as primable equipment from TL:8 systems and above. Previous versions of this expansion pack are not compatible with Oolite 1.79 or later.",
-    "category":"Weapons",
-    "author":"cim",
-    "license":"CC-BY-NC-SA 3.0",
-    "download_url":"https://cim.sotl.org.uk/games/files/oolite/EnergyBomb_1.0.2.oxz",
-    "information_url":"http://wiki.alioth.net/index.php/Energy_Bomb",
-    "file_size":1906,
-    "upload_date":1417342940,
-    "tags":[
-    ],
-    "conflict_oxps":[
-    ],
-    "optional_oxps":[
-    ],
-    "requires_oxps":[
-    ]
-  },
-  {
     "identifier":"oolite.oxp.cim.escort-formations",
     "version":"1.3",
     "required_oolite_version":"1.79",
@@ -14163,7 +14140,7 @@
   },
   {
     "identifier":"oolite.oxp.phkb.BulletinBoardSystem",
-    "version":"2.8",
+    "version":"2.9",
     "required_oolite_version":"1.82",
     "maximum_oolite_version":null,
     "title":"Bulletin Board System",
@@ -14171,10 +14148,10 @@
     "category":"Miscellaneous",
     "author":"phkb",
     "license":"CC-BY-NC-SA 4.0",
-    "download_url":"https://wiki.alioth.net/img_auth.php/d/d8/BulletinBoardSystem_2.8.oxz",
+    "download_url":"https://wiki.alioth.net/img_auth.php/6/67/BulletinBoardSystem_2.9.oxz",
     "information_url":"https://wiki.alioth.net/index.php/Bulletin_Board_System",
-    "file_size":57216,
-    "upload_date":1754394401,
+    "file_size":57243,
+    "upload_date":1754431164,
     "tags":[
     ],
     "conflict_oxps":[
