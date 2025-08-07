@@ -8367,7 +8367,7 @@
   },
   {
     "identifier":"oolite.oxp.Rorschachhamster.Satellites",
-    "version":"1.10",
+    "version":"1.11",
     "required_oolite_version":"1.79",
     "maximum_oolite_version":null,
     "title":"Satellites",
@@ -8376,9 +8376,9 @@
     "author":"Rorschachhamster",
     "license":"CC BY-NC-SA 3",
     "download_url":"https://wiki.alioth.net/img_auth.php/9/9d/Satellites.oxz",
-    "information_url":"http://aegidian.org/bb/viewtopic.php?f=4&t=13687",
-    "file_size":5532945,
-    "upload_date":1610873392,
+    "information_url":"https://wiki.alioth.net/index.php/Satellites",
+    "file_size":12623947,
+    "upload_date":1754530298,
     "tags":[
     ],
     "conflict_oxps":[
@@ -15304,6 +15304,75 @@
     ]
   },
   {
+    "identifier":"oolite.oxp.phkb.HyperradioCJ01",
+    "version":"1.0",
+    "required_oolite_version":"1.79",
+    "maximum_oolite_version":null,
+    "title":"HyperRadio CJ01 - Cool Jazz",
+    "description":"This musicpack contains 21 Cool Jazz tracks, sourced from FreePik. Works with HyperRadio 1.x or HyperRadio 2.x with Library OXP.",
+    "category":"Ambience",
+    "author":"phkb",
+    "license":"CC BY-NC-SA 4",
+    "download_url":"https://wiki.alioth.net/img_auth.php/5/5c/HyperradioCJ01.oxz",
+    "information_url":"http://wiki.alioth.net/index.php/Hyperradio_Musicpacks",
+    "file_size":52166682,
+    "upload_date":1754531460,
+    "tags":[
+    ],
+    "conflict_oxps":[
+    ],
+    "optional_oxps":[
+    ],
+    "requires_oxps":[
+    ]
+  },
+  {
+    "identifier":"oolite.oxp.phkb.HyperradioCLS01",
+    "version":"1.0",
+    "required_oolite_version":"1.79",
+    "maximum_oolite_version":null,
+    "title":"HyperRadio CLS01 - Classical",
+    "description":"This musicpack contains 24 Classical-style tracks, sourced from FreePik. Works with HyperRadio 1.x or HyperRadio 2.x with Library OXP.",
+    "category":"Ambience",
+    "author":"phkb",
+    "license":"CC BY-NC-SA 4",
+    "download_url":"https://wiki.alioth.net/img_auth.php/4/4c/HyperradioCLS01.oxz",
+    "information_url":"http://wiki.alioth.net/index.php/Hyperradio_Musicpacks",
+    "file_size":52789954,
+    "upload_date":1754531372,
+    "tags":[
+    ],
+    "conflict_oxps":[
+    ],
+    "optional_oxps":[
+    ],
+    "requires_oxps":[
+    ]
+  },
+  {
+    "identifier":"oolite.oxp.phkb.HyperradioLOFI01",
+    "version":"1.0",
+    "required_oolite_version":"1.79",
+    "maximum_oolite_version":null,
+    "title":"HyperRadio LOFI01 - Lo-Fi",
+    "description":"This musicpack contains 25 Lo-Fi tracks, sourced from FreePik. Works with HyperRadio 1.x or HyperRadio 2.x with Library OXP.",
+    "category":"Ambience",
+    "author":"phkb",
+    "license":"CC BY-NC-SA 4",
+    "download_url":"https://wiki.alioth.net/img_auth.php/2/24/HyperradioLOFI01.oxz",
+    "information_url":"http://wiki.alioth.net/index.php/Hyperradio_Musicpacks",
+    "file_size":60150047,
+    "upload_date":1754531282,
+    "tags":[
+    ],
+    "conflict_oxps":[
+    ],
+    "optional_oxps":[
+    ],
+    "requires_oxps":[
+    ]
+  },
+  {
     "identifier":"oolite.oxp.phkb.HyperradioROCK01",
     "version":"1.0",
     "required_oolite_version":"1.79",
@@ -15317,6 +15386,29 @@
     "information_url":"http://wiki.alioth.net/index.php/Hyperradio_Musicpacks",
     "file_size":57393888,
     "upload_date":1754288440,
+    "tags":[
+    ],
+    "conflict_oxps":[
+    ],
+    "optional_oxps":[
+    ],
+    "requires_oxps":[
+    ]
+  },
+  {
+    "identifier":"oolite.oxp.phkb.HyperradioST03",
+    "version":"1.0",
+    "required_oolite_version":"1.79",
+    "maximum_oolite_version":null,
+    "title":"HyperRadio ST03 - Ambient",
+    "description":"This musicpack contains 20 Ambient piano songs, sourced from FreePik. Works with HyperRadio 1.x or HyperRadio 2.x with Library OXP.",
+    "category":"Ambience",
+    "author":"phkb",
+    "license":"CC BY-NC-SA 4",
+    "download_url":"https://wiki.alioth.net/img_auth.php/0/0d/HyperradioST03.oxz",
+    "information_url":"http://wiki.alioth.net/index.php/Hyperradio_Musicpacks",
+    "file_size":41976863,
+    "upload_date":1754531120,
     "tags":[
     ],
     "conflict_oxps":[
