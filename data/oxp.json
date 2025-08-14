@@ -11228,18 +11228,18 @@
   },
   {
     "identifier":"oolite.oxp.Wildeblood.Display_Reputation",
-    "version":"1.4",
-    "required_oolite_version":"1.81",
+    "version":"1.5",
+    "required_oolite_version":"1.82",
     "maximum_oolite_version":null,
     "title":"Display Reputation",
     "description":"Displays your current reputations as a passenger, parcel and contract cargo carrier under the heading 'Reputation' on your ship's manifest screen.",
     "category":"Ambience",
     "author":"Wildeblood",
-    "license":"CC BY-NC-SA 3.0",
-    "download_url":"https://wiki.alioth.net/img_auth.php/b/bb/DisplayReputation1.3.oxz",
-    "information_url":"http://wiki.alioth.net/index.php/Display_reputation_OXP",
-    "file_size":1745,
-    "upload_date":1745273915,
+    "license":"CC BY-NC-SA 4.0",
+    "download_url":"https://wiki.alioth.net/img_auth.php/9/94/Display_Reputation.oxz",
+    "information_url":"http://wiki.alioth.net/index.php/Display_Reputation",
+    "file_size":1998,
+    "upload_date":1755074371,
     "tags":[
     ],
     "conflict_oxps":[
@@ -11281,18 +11281,18 @@
   },
   {
     "identifier":"oolite.oxp.Wildeblood.DistantSpace",
-    "version":"1.1",
-    "required_oolite_version":"1.81",
+    "version":"1.1.1",
+    "required_oolite_version":"1.82",
     "maximum_oolite_version":null,
-    "title":"Distant Realms & Distant Locales",
-    "description":"On the navigation chart, replaces the static screen title with the names or co-ordinates of various galactic regions as planets are selected on the chart.",
+    "title":"Distant Space series",
+    "description":"Explore distant space with improvements to the navigation charts, etc.",
     "category":"Ambience",
     "author":"Wildeblood",
-    "license":"CC-BY-NC-SA 3.0",
+    "license":"CC-BY-NC-SA 4.0",
     "download_url":"https://wiki.alioth.net/img_auth.php/0/05/DistantSpace.oxz",
     "information_url":"https://wiki.alioth.net/index.php/Distant_Realms",
-    "file_size":571,
-    "upload_date":1745046538,
+    "file_size":649,
+    "upload_date":1755015992,
     "tags":[
       "charts"
     ],
@@ -11302,16 +11302,34 @@
     ],
     "requires_oxps":[
       {
-        "identifier":"oolite.oxp.Wildeblood.Distant_Realms",
-        "version":"1.1",
+        "identifier":"oolite.oxp.CaptMurphy.ExplorersClub",
+        "version":"1.4.6",
         "maximum_version":null,
-        "description":"Provides the region names for all systems in named regions."
+        "description":"Tracks and charts your progress as you explore."
       },
       {
         "identifier":"oolite.oxp.Wildeblood.Distant_Locales",
         "version":"1.1",
         "maximum_version":null,
-        "description":"Provides the chart co-ordinates for all systems not in named regions."
+        "description":"Chart co-ordinates for all systems not in named regions."
+      },
+      {
+        "identifier":"oolite.oxp.Wildeblood.Distant_Realms",
+        "version":"1.1",
+        "maximum_version":null,
+        "description":"Chart screen titles for all systems in named regions."
+      },
+      {
+        "identifier":"oolite.oxp.Wildeblood.Distant_Thunder",
+        "version":"0.1",
+        "maximum_version":null,
+        "description":"Miss Sexy Voice."
+      },
+      {
+        "identifier":"oolite.oxp.Wildeblood.Display_Reputation",
+        "version":"1.5",
+        "maximum_version":null,
+        "description":"Displays your progress on the manifest screen."
       }
     ]
   },
@@ -11379,6 +11397,29 @@
     "upload_date":1745023566,
     "tags":[
       "charts"
+    ],
+    "conflict_oxps":[
+    ],
+    "optional_oxps":[
+    ],
+    "requires_oxps":[
+    ]
+  },
+  {
+    "identifier":"oolite.oxp.Wildeblood.Distant_Thunder",
+    "version":"0.1",
+    "required_oolite_version":"1.90",
+    "maximum_oolite_version":null,
+    "title":"Distant Thunder (sound set)",
+    "description":"Miss Sexy Voice announces goings on, and thunderous hyperspace sound.",
+    "category":"Ambience",
+    "author":"Wildeblood",
+    "license":"CC-BY-NC-SA 4.0",
+    "download_url":"https://wiki.alioth.net/img_auth.php/7/77/Distant_Thunder.oxz",
+    "information_url":"",
+    "file_size":950181,
+    "upload_date":1754822188,
+    "tags":[
     ],
     "conflict_oxps":[
     ],
