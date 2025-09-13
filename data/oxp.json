@@ -14209,7 +14209,7 @@
   },
   {
     "identifier":"oolite.oxp.phkb.BulkCargoProcessor",
-    "version":"1.7",
+    "version":"1.8",
     "required_oolite_version":"1.82",
     "maximum_oolite_version":null,
     "title":"Bulk Cargo Processor",
@@ -14219,8 +14219,8 @@
     "license":"CC BY-NC-SA 4.0",
     "download_url":"https://wiki.alioth.net/img_auth.php/9/9c/BulkCargoProcessor.oxz",
     "information_url":"https://wiki.alioth.net/index.php/Bulk_Cargo_Processor",
-    "file_size":5731,
-    "upload_date":1757659638,
+    "file_size":5781,
+    "upload_date":1757748003,
     "tags":[
     ],
     "conflict_oxps":[
