@@ -16791,7 +16791,7 @@
   },
   {
     "identifier":"oolite.oxp.popsch.Stashes",
-    "version":"0.3.1",
+    "version":"0.3.2",
     "required_oolite_version":"1.82",
     "maximum_oolite_version":null,
     "title":"Stashes",
@@ -16799,10 +16799,10 @@
     "category":"Activities",
     "author":"Popsch",
     "license":"CC-BY-NC-SA 4.0",
-    "download_url":"https://wiki.alioth.net/img_auth.php/3/3d/Stashes-0.3.1.oxz",
-    "information_url":null,
-    "file_size":4831,
-    "upload_date":1610873279,
+    "download_url":"https://wiki.alioth.net/img_auth.php/c/c3/Stashes-0.3.2.oxz",
+    "information_url":"https://wiki.alioth.net/index.php/Stashes",
+    "file_size":5390,
+    "upload_date":1761538753,
     "tags":[
       "popsch",
       "proximity"
