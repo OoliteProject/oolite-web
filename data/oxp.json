@@ -1999,7 +1999,7 @@
   },
   {
     "identifier":"oolite.oxp.ClymAngus.NeoCaduceus",
-    "version":"1.01",
+    "version":"1.02",
     "required_oolite_version":"1.79",
     "maximum_oolite_version":null,
     "title":"NeoCaduceus",
@@ -2009,8 +2009,8 @@
     "license":"CC-BY-NC-SA 4.0",
     "download_url":"https://wiki.alioth.net/img_auth.php/4/4e/NeoCaduceus.oxz",
     "information_url":"http://wiki.alioth.net/index.php/Caduceus",
-    "file_size":3224151,
-    "upload_date":1626940523,
+    "file_size":3226325,
+    "upload_date":1763932026,
     "tags":[
     ],
     "conflict_oxps":[
