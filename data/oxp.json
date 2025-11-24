@@ -17670,18 +17670,18 @@
   },
   {
     "identifier":"oolite.oxp.sdrubble.Dark_Rainbow",
-    "version":"1.3",
+    "version":"1.4",
     "required_oolite_version":"1.79",
     "maximum_oolite_version":null,
     "title":"Dark Rainbow",
     "description":"Uber-Caduceus ship firing colorful plasma balls from 10 turrets.",
     "category":"Ships",
     "author":"sdrubble",
-    "license":"CC BY-NC-SA 4",
+    "license":"CC-BY-NC-SA 4.0",
     "download_url":"https://wiki.alioth.net/img_auth.php/5/54/Dark_Rainbow.oxz",
-    "information_url":"http://aegidian.org/bb/viewtopic.php?f=4&t=10842",
-    "file_size":15238,
-    "upload_date":1625553730,
+    "information_url":"http://bb.oolite.space/viewtopic.php?f=4&t=10842",
+    "file_size":16211,
+    "upload_date":1763946595,
     "tags":[
     ],
     "conflict_oxps":[
