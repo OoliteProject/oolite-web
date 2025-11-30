@@ -22689,7 +22689,7 @@
   },
   {
     "identifier":"oolite.oxp.zzz.Montana05.GalTech_colonial_viper_mark_I_Restore",
-    "version":"0.50",
+    "version":"0.51",
     "required_oolite_version":"1.88",
     "maximum_oolite_version":null,
     "title":"Colonial Viper Mark I Restore",
@@ -22699,8 +22699,8 @@
     "license":"CC BY-NC-SA 4.0",
     "download_url":"https://wiki.alioth.net/img_auth.php/b/b3/Oolite.oxp.zzz.Montana05.GalTech_colonial_viper_mark_I_Restore.OXZ",
     "information_url":"http://aegidian.org/bb/viewtopic.php?p=272886#p272886",
-    "file_size":1209282,
-    "upload_date":1610873448,
+    "file_size":1208504,
+    "upload_date":1764468794,
     "tags":[
     ],
     "conflict_oxps":[
@@ -22708,6 +22708,12 @@
     "optional_oxps":[
     ],
     "requires_oxps":[
+      {
+        "identifier":"oolite.oxp.zzz.Montana05.resource_pack_01",
+        "version":"0.51",
+        "maximum_version":null,
+        "description":"While mainly designed to support other OXP's a stand-alone download is adding Griff's alloy and the new commodity Quirium Crystal"
+      }
     ]
   },
   {
