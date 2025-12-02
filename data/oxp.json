@@ -23088,7 +23088,7 @@
   },
   {
     "identifier":"oolite.oxp.zzz.Montana05.resource_pack_01",
-    "version":"0.53",
+    "version":"0.54",
     "required_oolite_version":"1.88",
     "maximum_oolite_version":null,
     "title":"Montanas Resource Pack 01",
@@ -23098,8 +23098,8 @@
     "license":"CC BY-NC-SA 4.0",
     "download_url":"https://wiki.alioth.net/img_auth.php/4/43/Oolite.oxp.zzz.Montana05.resource_pack_01.OXZ",
     "information_url":"http://aegidian.org/bb/viewtopic.php?f=4&p=272527#p272527",
-    "file_size":34982457,
-    "upload_date":1613196993,
+    "file_size":34988134,
+    "upload_date":1764653498,
     "tags":[
     ],
     "conflict_oxps":[
