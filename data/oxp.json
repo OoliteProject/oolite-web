@@ -13115,7 +13115,7 @@
   },
   {
     "identifier":"oolite.oxp.captsolo.tori2.02",
-    "version":"2.1",
+    "version":"2.2",
     "required_oolite_version":"1.80",
     "maximum_oolite_version":null,
     "title":"Torus Stations",
@@ -13123,10 +13123,10 @@
     "category":"Dockables",
     "author":"Murgh, Svengali, & CaptSolo",
     "license":"CC-BY-SA 3.0",
-    "download_url":"https://wiki.alioth.net/img_auth.php/3/3f/Tori_2.1.oxz",
+    "download_url":"https://wiki.alioth.net/img_auth.php/4/42/Tori_2.2.oxz",
     "information_url":"https://wiki.alioth.net/index.php/Torus_station",
-    "file_size":12727621,
-    "upload_date":1699070153,
+    "file_size":4959837,
+    "upload_date":1768198318,
     "tags":[
     ],
     "conflict_oxps":[
@@ -13968,7 +13968,7 @@
   },
   {
     "identifier":"oolite.oxp.murgh.GlobeStation",
-    "version":"2.1",
+    "version":"2.1.2",
     "required_oolite_version":"1.79",
     "maximum_oolite_version":null,
     "title":"Globe Station",
@@ -13978,8 +13978,8 @@
     "license":"Public Domain",
     "download_url":"https://wiki.alioth.net/img_auth.php/f/ff/GlobeStation_2.1.oxz",
     "information_url":"https://wiki.alioth.net/index.php/Globe_station",
-    "file_size":5956263,
-    "upload_date":1699069887,
+    "file_size":6491462,
+    "upload_date":1768198299,
     "tags":[
     ],
     "conflict_oxps":[
