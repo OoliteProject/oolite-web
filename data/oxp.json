@@ -1069,7 +1069,7 @@
   },
   {
     "identifier":"oolite.oxp.ArexackHeretic.att1",
-    "version":"2.1",
+    "version":"2.2",
     "required_oolite_version":"1.90",
     "maximum_oolite_version":null,
     "title":"Armoured Transport Type 1",
@@ -1077,10 +1077,10 @@
     "category":"Ships",
     "author":"Arexack Heretic",
     "license":null,
-    "download_url":"https://wiki.alioth.net/img_auth.php/8/8d/Att1_2.1.oxz",
+    "download_url":"https://wiki.alioth.net/img_auth.php/1/1a/Att1_2.2.oxz",
     "information_url":"https://wiki.alioth.net/index.php/Armoured_Transport_Type_1",
-    "file_size":14456811,
-    "upload_date":1747150365,
+    "file_size":14335389,
+    "upload_date":1770185536,
     "tags":[
     ],
     "conflict_oxps":[
@@ -1519,7 +1519,7 @@
   },
   {
     "identifier":"oolite.oxp.CaptMurphy.EscortContracts",
-    "version":"1.7.1",
+    "version":"1.7.2",
     "required_oolite_version":"1.79",
     "maximum_oolite_version":null,
     "title":"Escort Contracts",
@@ -1527,10 +1527,10 @@
     "category":"Missions",
     "author":"Capt. Murphy, Keeper, Norby, ZygoUgo, Fritz G.",
     "license":"CC BY-NC-SA 3",
-    "download_url":"https://wiki.alioth.net/img_auth.php/5/58/Escort_Contracts_1.7.1.oxz",
+    "download_url":"https://wiki.alioth.net/img_auth.php/7/7a/Escort_Contracts_1.7.2.oxz",
     "information_url":"http://wiki.alioth.net/index.php/Escort_Contracts_OXP",
-    "file_size":3569907,
-    "upload_date":1610873302,
+    "file_size":3582687,
+    "upload_date":1770186692,
     "tags":[
     ],
     "conflict_oxps":[
@@ -2022,7 +2022,7 @@
   },
   {
     "identifier":"oolite.oxp.CmdCheyd.DH_AdvancedNavigationComputer",
-    "version":"1.1",
+    "version":"1.2",
     "required_oolite_version":"1.80",
     "maximum_oolite_version":null,
     "title":"Deep Horizon Advanced Navigation Computer",
@@ -2030,10 +2030,10 @@
     "category":"Equipment",
     "author":"Cmd. Cheyd, PhantorGorth",
     "license":"CC-BY-NC-SA 3.0",
-    "download_url":"https://wiki.alioth.net/img_auth.php/b/bd/Deep_Horizon_Advanced_Navigation_Computer.oxz",
+    "download_url":"https://wiki.alioth.net/img_auth.php/6/61/DH_ANC.oxz",
     "information_url":"https://wiki.alioth.net/index.php/Deep_Horizon_Advanced_Navigation_Computer",
-    "file_size":306048,
-    "upload_date":1747150397,
+    "file_size":301824,
+    "upload_date":1770188851,
     "tags":[
       "navigation"
     ],
@@ -2069,7 +2069,7 @@
   },
   {
     "identifier":"oolite.oxp.CmdrWombat.Deposed",
-    "version":"2.0",
+    "version":"2.1",
     "required_oolite_version":"1.80",
     "maximum_oolite_version":null,
     "title":"Deposed",
@@ -2077,10 +2077,10 @@
     "category":"Missions",
     "author":"Cmdr. Wombat",
     "license":"CC-BY-NC-SA 3.0",
-    "download_url":"https://wiki.alioth.net/img_auth.php/e/ef/Deposed_2.0.oxz",
+    "download_url":"https://wiki.alioth.net/img_auth.php/a/aa/Deposed_2.1.oxz",
     "information_url":"https://wiki.alioth.net/index.php/Deposed_OXP",
-    "file_size":9717997,
-    "upload_date":1709981273,
+    "file_size":9699615,
+    "upload_date":1770187814,
     "tags":[
     ],
     "conflict_oxps":[
@@ -2116,7 +2116,7 @@
   },
   {
     "identifier":"oolite.oxp.Commander_McLane.Anarchies",
-    "version":"2.9.4",
+    "version":"2.9.5",
     "required_oolite_version":"1.79",
     "maximum_oolite_version":null,
     "title":"Anarchies",
@@ -2124,10 +2124,10 @@
     "category":"Systems",
     "author":"Commander McLane, Killer Wolf, Arexack Heretic, Eric Walch, spara, Norby, phkb and Griff",
     "license":"CC BY-NC-SA 3",
-    "download_url":"https://wiki.alioth.net/img_auth.php/9/9f/Anarchies-2.9.4.oxz",
+    "download_url":"https://wiki.alioth.net/img_auth.php/b/b8/Anarchies_2.9.5.oxz",
     "information_url":"http://wiki.alioth.net/index.php/Anarchies_OXP",
-    "file_size":21718316,
-    "upload_date":1610873396,
+    "file_size":21796533,
+    "upload_date":1770184349,
     "tags":[
     ],
     "conflict_oxps":[
@@ -2162,7 +2162,7 @@
   },
   {
     "identifier":"oolite.oxp.Commander_McLane.Cataclysm",
-    "version":"2.4",
+    "version":"2.5",
     "required_oolite_version":"1.84",
     "maximum_oolite_version":null,
     "title":"Cataclysm",
@@ -2170,10 +2170,10 @@
     "category":"Missions",
     "author":"Commander McLane",
     "license":"CC-BY-NC-SA 3.0",
-    "download_url":"https://wiki.alioth.net/img_auth.php/5/56/Cataclysm_2.4.oxz",
+    "download_url":"https://wiki.alioth.net/img_auth.php/d/df/Cataclysm_2.5.oxz",
     "information_url":"https://wiki.alioth.net/index.php/Cataclysm_OXP",
-    "file_size":50853349,
-    "upload_date":1766987071,
+    "file_size":49954735,
+    "upload_date":1770186916,
     "tags":[
     ],
     "conflict_oxps":[
@@ -2544,7 +2544,7 @@
   },
   {
     "identifier":"oolite.oxp.Disembodied.FreeTradeZone",
-    "version":"0.31",
+    "version":"0.32",
     "required_oolite_version":"1.80",
     "maximum_oolite_version":null,
     "title":"Free Trade Zones",
@@ -2554,8 +2554,8 @@
     "license":"CC BY-NC-SA 3",
     "download_url":"https://wiki.alioth.net/img_auth.php/3/34/FTZ.oxz",
     "information_url":"http://wiki.alioth.net/index.php/Free_Trade_Zone",
-    "file_size":14478471,
-    "upload_date":1626941722,
+    "file_size":14465390,
+    "upload_date":1770184575,
     "tags":[
     ],
     "conflict_oxps":[
@@ -2617,7 +2617,7 @@
   },
   {
     "identifier":"oolite.oxp.DrNil.Commies",
-    "version":"2.19",
+    "version":"2.20",
     "required_oolite_version":"1.79",
     "maximum_oolite_version":null,
     "title":"Commies",
@@ -2625,10 +2625,10 @@
     "category":"Systems",
     "author":"Amaranth, Dr. Nil, Eric Walch, Norby, phkb, GearsNSuch",
     "license":"CC BY-NC-SA 3.0",
-    "download_url":"https://wiki.alioth.net/img_auth.php/d/dd/Commies_2.19.oxz",
+    "download_url":"https://wiki.alioth.net/img_auth.php/3/3c/Commies_2.20.oxz",
     "information_url":"http://wiki.alioth.net/index.php/Commies",
-    "file_size":35272230,
-    "upload_date":1693710644,
+    "file_size":35340515,
+    "upload_date":1770184096,
     "tags":[
     ],
     "conflict_oxps":[
@@ -4428,18 +4428,18 @@
   },
   {
     "identifier":"oolite.oxp.Griff.TradeOutpost",
-    "version":"2.0",
+    "version":"2.0.1",
     "required_oolite_version":"1.90",
     "maximum_oolite_version":null,
     "title":"Trade Outpost",
     "description":"Adds Griff's Trade Outpost to certain systems, and updates the textures on Constores.",
-    "category":"Ships",
+    "category":"Dockables",
     "author":"Griff",
     "license":"Creative Commons Attribution - Non-Commercial - Share Alike 3.0 license with clauses - see readme file",
-    "download_url":"https://wiki.alioth.net/img_auth.php/4/42/TradeOutpost_2.0.oxz",
-    "information_url":null,
-    "file_size":33750015,
-    "upload_date":1763254301,
+    "download_url":"https://wiki.alioth.net/img_auth.php/d/d6/Trade_Outpost_2.0.1.oxz",
+    "information_url":"https://wiki.alioth.net/index.php/Trader_Outpost_(Oolite)",
+    "file_size":33748047,
+    "upload_date":1770185964,
     "tags":[
     ],
     "conflict_oxps":[
@@ -7457,7 +7457,7 @@
   },
   {
     "identifier":"oolite.oxp.Okti.Coyotes_Run",
-    "version":"2.5",
+    "version":"2.6",
     "required_oolite_version":"1.82",
     "maximum_oolite_version":null,
     "title":"Coyote's Run",
@@ -7465,10 +7465,10 @@
     "category":"Missions",
     "author":"Okti",
     "license":"CC-BY-SA-NC 3.0",
-    "download_url":"https://wiki.alioth.net/img_auth.php/c/c7/Coyotes_Run_2.5.oxz",
+    "download_url":"https://wiki.alioth.net/img_auth.php/8/8c/Coyotes_Run_2.6.oxz",
     "information_url":"https://wiki.alioth.net/index.php/Coyote%27s_Run",
-    "file_size":12582576,
-    "upload_date":1710967252,
+    "file_size":7329896,
+    "upload_date":1770187064,
     "tags":[
     ],
     "conflict_oxps":[
@@ -7526,7 +7526,7 @@
   },
   {
     "identifier":"oolite.oxp.Pleb.TaxiGalactica",
-    "version":"2.6",
+    "version":"2.7",
     "required_oolite_version":"1.79",
     "maximum_oolite_version":null,
     "title":"Taxi Galactica",
@@ -7534,10 +7534,10 @@
     "category":"Missions",
     "author":"Pleb",
     "license":"CC BY-NC-SA 3",
-    "download_url":"https://wiki.alioth.net/img_auth.php/4/42/Taxi_Galactica_2.6.oxz",
+    "download_url":"https://wiki.alioth.net/img_auth.php/e/ed/Taxi_Galactica_2.7.oxz",
     "information_url":"http://wiki.alioth.net/index.php/Taxi_Galactica",
-    "file_size":17435186,
-    "upload_date":1769808374,
+    "file_size":17442009,
+    "upload_date":1770186460,
     "tags":[
     ],
     "conflict_oxps":[
@@ -7748,7 +7748,7 @@
   },
   {
     "identifier":"oolite.oxp.Ramirez.Dictators",
-    "version":"2.7",
+    "version":"2.8",
     "required_oolite_version":"1.82",
     "maximum_oolite_version":null,
     "title":"Dictators",
@@ -7756,10 +7756,10 @@
     "category":"Systems",
     "author":"Ramirez, phkb, gsagostinho",
     "license":"CC BY-NC-SA 3",
-    "download_url":"https://wiki.alioth.net/img_auth.php/e/e9/Dictators_2.7.oxz",
+    "download_url":"https://wiki.alioth.net/img_auth.php/e/e2/Dictators_2.8.oxz",
     "information_url":"http://wiki.alioth.net/index.php/Dictators_OXP",
-    "file_size":30011686,
-    "upload_date":1716769557,
+    "file_size":29949446,
+    "upload_date":1770183837,
     "tags":[
     ],
     "conflict_oxps":[
@@ -7864,7 +7864,7 @@
   },
   {
     "identifier":"oolite.oxp.Ramirez.IronRaven",
-    "version":"1.4.2.1",
+    "version":"2.0.2",
     "required_oolite_version":"1.82",
     "maximum_oolite_version":null,
     "title":"Iron Raven",
@@ -7872,10 +7872,10 @@
     "category":"Missions",
     "author":"Ramirez, updated by Milo",
     "license":"CC BY-NC-SA 3",
-    "download_url":"https://wiki.alioth.net/img_auth.php/5/5f/Oolite.oxp.Ramirez.IronRaven.oxz",
+    "download_url":"https://wiki.alioth.net/img_auth.php/7/7f/Iron_Raven_2.0.2.oxz",
     "information_url":"http://wiki.alioth.net/index.php/Iron_Raven",
-    "file_size":10323602,
-    "upload_date":1610873314,
+    "file_size":77387646,
+    "upload_date":1770188052,
     "tags":[
     ],
     "conflict_oxps":[
@@ -7896,8 +7896,14 @@
         "description":null
       },
       {
-        "identifier":"oolite.oxp.Murgh.NuVipers",
-        "version":"1.0",
+        "identifier":"oolite.oxp.Killer_Wolf.Adder_Mark_III",
+        "version":"1.52",
+        "maximum_version":null,
+        "description":null
+      },
+      {
+        "identifier":"oolite.oxp.cim.ships-library",
+        "version":null,
         "maximum_version":null,
         "description":null
       }
@@ -10545,7 +10551,7 @@
   },
   {
     "identifier":"oolite.oxp.Thargoid.Stealth",
-    "version":"2.1",
+    "version":"2.2",
     "required_oolite_version":"1.79",
     "maximum_oolite_version":null,
     "title":"Stealth",
@@ -10553,10 +10559,10 @@
     "category":"Missions",
     "author":"Thargoid",
     "license":"Creative Commons Attribution - Non-Commercial - Share Alike 3.0 license with clauses - see readme file",
-    "download_url":"https://wiki.alioth.net/img_auth.php/7/75/Stealth_2.1.oxz",
+    "download_url":"https://wiki.alioth.net/img_auth.php/2/28/Stealth_2.2.oxz",
     "information_url":"http://wiki.alioth.net/index.php/Stealth_OXP",
-    "file_size":3017874,
-    "upload_date":1766987142,
+    "file_size":3010934,
+    "upload_date":1770187619,
     "tags":[
       "missions",
       "ships"
@@ -10644,7 +10650,7 @@
   },
   {
     "identifier":"oolite.oxp.Thargoid.TCAT",
-    "version":"1.11",
+    "version":"2.1",
     "required_oolite_version":"1.79",
     "maximum_oolite_version":null,
     "title":"To Catch a Thargoid",
@@ -10652,10 +10658,10 @@
     "category":"Missions",
     "author":"Thargoid",
     "license":"Creative Commons Attribution - Non-Commercial - Share Alike 3.0 license with clauses - see readme file",
-    "download_url":"https://wiki.alioth.net/img_auth.php/3/3a/TCAT_1.11.oxz",
-    "information_url":"http://wiki.alioth.net/index.php/TCAT_OXP",
-    "file_size":5474215,
-    "upload_date":1610873275,
+    "download_url":"https://wiki.alioth.net/img_auth.php/9/9d/TCAT_2.1.oxz",
+    "information_url":"https://wiki.alioth.net/index.php/TCAT_OXP",
+    "file_size":103960334,
+    "upload_date":1770186273,
     "tags":[
       "equipment",
       "ships",
@@ -13138,7 +13144,7 @@
   },
   {
     "identifier":"oolite.oxp.cheyd.DHI_nav_buoy",
-    "version":"1.0.3",
+    "version":"1.0.4",
     "required_oolite_version":"1.79",
     "maximum_oolite_version":null,
     "title":"Deep Horizon Nav Buoy",
@@ -13146,10 +13152,10 @@
     "category":"Retextures",
     "author":"Cmdr. Cheyd",
     "license":"CC-BY-NC-SA 3.0",
-    "download_url":"https://wiki.alioth.net/img_auth.php/0/02/Oolite.oxp.cheyd.dhi_nav_buoy.oxz",
+    "download_url":"https://wiki.alioth.net/img_auth.php/f/fb/DH_Nav_Buoy_1.0.4.oxz",
     "information_url":null,
-    "file_size":11785573,
-    "upload_date":1610873210,
+    "file_size":11810944,
+    "upload_date":1770185413,
     "tags":[
     ],
     "conflict_oxps":[
@@ -14434,7 +14440,7 @@
   },
   {
     "identifier":"oolite.oxp.phkb.ContractsOnBB",
-    "version":"1.12",
+    "version":"1.13",
     "required_oolite_version":"1.84",
     "maximum_oolite_version":null,
     "title":"Contracts on Bulletin Board",
@@ -14444,8 +14450,8 @@
     "license":"CC-BY-NC-SA 4.0",
     "download_url":"https://wiki.alioth.net/img_auth.php/b/b1/ContractsOnBB.oxz",
     "information_url":"https://wiki.alioth.net/index.php/Bulletin_Board_Contracts",
-    "file_size":78143,
-    "upload_date":1753398619,
+    "file_size":78763,
+    "upload_date":1770188722,
     "tags":[
     ],
     "conflict_oxps":[
@@ -14744,7 +14750,7 @@
   },
   {
     "identifier":"oolite.oxp.phkb.ExtraRockHermits",
-    "version":"1.6",
+    "version":"1.7",
     "required_oolite_version":"1.84",
     "maximum_oolite_version":null,
     "title":"Extra Rock Hermits",
@@ -14752,10 +14758,10 @@
     "category":"Dockables",
     "author":"phkb, Griff",
     "license":"CC-BY-SA-NC 4.0",
-    "download_url":"https://wiki.alioth.net/img_auth.php/7/75/ExtraRockHermits_1.6.oxz",
+    "download_url":"https://wiki.alioth.net/img_auth.php/f/f3/ExtraRockHermits_1.7.oxz",
     "information_url":"https://wiki.alioth.net/index.php/Extra_Rock_Hermits",
-    "file_size":24190535,
-    "upload_date":1743647069,
+    "file_size":24343275,
+    "upload_date":1770187481,
     "tags":[
     ],
     "conflict_oxps":[
@@ -15307,7 +15313,7 @@
   },
   {
     "identifier":"oolite.oxp.phkb.GalCopMissions",
-    "version":"0.10",
+    "version":"0.11",
     "required_oolite_version":"1.84",
     "maximum_oolite_version":null,
     "title":"GalCop Missions",
@@ -15315,10 +15321,10 @@
     "category":"Missions",
     "author":"phkb",
     "license":"CC-BY-NC-SA 4.0",
-    "download_url":"https://wiki.alioth.net/img_auth.php/3/38/GalCopMissions_0.10.oxz",
+    "download_url":"https://wiki.alioth.net/img_auth.php/e/e0/GalCopMissions_0.11.oxz",
     "information_url":"https://wiki.alioth.net/index.php/GalCop_Missions",
-    "file_size":4630088,
-    "upload_date":1754528236,
+    "file_size":4622090,
+    "upload_date":1770188616,
     "tags":[
     ],
     "conflict_oxps":[
@@ -15788,7 +15794,7 @@
   },
   {
     "identifier":"oolite.oxp.phkb.ManualWitchspaceAlignment",
-    "version":"2.13",
+    "version":"2.14",
     "required_oolite_version":"1.85",
     "maximum_oolite_version":null,
     "title":"Manual Witchspace Alignment",
@@ -15796,10 +15802,10 @@
     "category":"Mechanics",
     "author":"phkb, Cmdr. Cheyd, Phantor Gorth, Svengali, Submersible, spara",
     "license":"CC BY-NC-SA 4.0",
-    "download_url":"https://wiki.alioth.net/img_auth.php/6/64/ManualWitchspaceAlignment_2.13.oxz",
+    "download_url":"https://wiki.alioth.net/img_auth.php/e/ec/ManualWitchspaceAlignment_2.14.oxz",
     "information_url":"https://wiki.alioth.net/index.php/Manual_Witchspace_Alignment",
-    "file_size":340359,
-    "upload_date":1748088780,
+    "file_size":315045,
+    "upload_date":1770189005,
     "tags":[
     ],
     "conflict_oxps":[
@@ -16468,7 +16474,7 @@
   },
   {
     "identifier":"oolite.oxp.phkb.SpacebarFacelift",
-    "version":"1.7",
+    "version":"1.8",
     "required_oolite_version":"1.85",
     "maximum_oolite_version":null,
     "title":"Space Bar Facelift",
@@ -16476,10 +16482,10 @@
     "category":"Retextures",
     "author":"phkb",
     "license":"CC-BY-NC-SA 4.0",
-    "download_url":"https://wiki.alioth.net/img_auth.php/b/b6/SpaceBarFacelift_1.7.oxz",
+    "download_url":"https://wiki.alioth.net/img_auth.php/3/3c/SpacebarFacelift_1.8.oxz",
     "information_url":"https://wiki.alioth.net/index.php/Space_Bar_Facelift",
-    "file_size":12383285,
-    "upload_date":1743647188,
+    "file_size":12460765,
+    "upload_date":1770187244,
     "tags":[
     ],
     "conflict_oxps":[
@@ -18394,7 +18400,7 @@
   },
   {
     "identifier":"oolite.oxp.spara.ImperialAstrofactory",
-    "version":"2.5.1",
+    "version":"2.5.2",
     "required_oolite_version":"1.90",
     "maximum_oolite_version":null,
     "title":"Imperial Astrofactory",
@@ -18402,10 +18408,10 @@
     "category":"Dockables",
     "author":"spara, phkb, gsagostinho",
     "license":"CC-BY-SA 3.0",
-    "download_url":"https://wiki.alioth.net/img_auth.php/a/ad/AstroFactory_2.5.oxz",
+    "download_url":"https://wiki.alioth.net/img_auth.php/a/af/Astrofactory_2.5.2.oxz",
     "information_url":"https://wiki.alioth.net/index.php/Imperial_AstroFactory",
-    "file_size":24026750,
-    "upload_date":1716769823,
+    "file_size":24043855,
+    "upload_date":1770185048,
     "tags":[
     ],
     "conflict_oxps":[
@@ -19259,7 +19265,7 @@
   },
   {
     "identifier":"oolite.oxp.spara.sfep_stations",
-    "version":"2.0.1",
+    "version":"2.0.2",
     "required_oolite_version":"1.84",
     "maximum_oolite_version":null,
     "title":"Stations for Extra Planets - Stations",
@@ -19267,10 +19273,10 @@
     "category":"Dockables",
     "author":"spara and collaborators",
     "license":"CC-BY-NC-SA 4.0",
-    "download_url":"https://wiki.alioth.net/img_auth.php/8/87/Sfep_stations_2.0.1.oxz",
+    "download_url":"https://wiki.alioth.net/img_auth.php/d/dc/Sfep_stations_2.0.2.oxz",
     "information_url":"http://wiki.alioth.net/index.php/Stations_for_Extra_Planets",
-    "file_size":70525346,
-    "upload_date":1610873354,
+    "file_size":71010161,
+    "upload_date":1770184850,
     "tags":[
       "stations"
     ],
@@ -19362,18 +19368,18 @@
   },
   {
     "identifier":"oolite.oxp.spara.station_ads",
-    "version":"1.1",
+    "version":"1.2",
     "required_oolite_version":"1.82",
     "maximum_oolite_version":null,
     "title":"Station Ads",
     "description":"Enhance busy system stations by decorating them with dock and front ads. Over 400 selected ads from YAH oxp and thread included. Compatible with the default and Griff's normalmapped system stations.",
-    "category":"Ambiance",
+    "category":"Ambience",
     "author":"spara",
     "license":"CC-BY-NC-SA 4.0",
-    "download_url":"https://wiki.alioth.net/img_auth.php/2/20/Station_ads_1.1.oxz",
-    "information_url":null,
-    "file_size":18921964,
-    "upload_date":1610873246,
+    "download_url":"https://wiki.alioth.net/img_auth.php/a/ad/Station_Ads_1.2.oxz",
+    "information_url":"https://wiki.alioth.net/index.php/Station_Ads",
+    "file_size":19106706,
+    "upload_date":1770189168,
     "tags":[
     ],
     "conflict_oxps":[
@@ -22861,7 +22867,7 @@
   },
   {
     "identifier":"oolite.oxp.zzz.Montana05.KillerWolf.nuit_station",
-    "version":"2.5",
+    "version":"2.6",
     "required_oolite_version":"1.88",
     "maximum_oolite_version":null,
     "title":"Nuit Space Station",
@@ -22869,10 +22875,10 @@
     "category":"Dockables",
     "author":"Killer Wolf, Griff, Montana05, phkb",
     "license":"CC BY-NC-SA 4.0",
-    "download_url":"https://wiki.alioth.net/img_auth.php/8/8f/Nuit_Station_2.5.oxz",
+    "download_url":"https://wiki.alioth.net/img_auth.php/2/23/Nuit_Station_2.6.oxz",
     "information_url":"https://wiki.alioth.net/index.php/Nuit_Space_Station_OXP",
-    "file_size":28901294,
-    "upload_date":1751514524,
+    "file_size":28891957,
+    "upload_date":1770185708,
     "tags":[
       "station",
       "ships"
