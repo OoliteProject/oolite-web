@@ -1,5 +1,5 @@
 <p>
-Welcome to <strong>Oolite 1.91 Nightly Build</strong>. Bug fixes and new features, 
+Welcome to <strong>Oolite 1.92</strong>. Bug fixes and new features, 
 under test and development with frequent updates, will be listed here. 
 If you would like to try out the <strong>bleeding edge stuff</strong>, and give us 
 feedback on the new features, then you can download the installer from
@@ -134,6 +134,7 @@ the "Activate" and "Mode" functions of prime-able equipment to any joystick butt
 <div class="img-wrp">
     <img src="https://addons.oolite.space/i/whatsnew/EarthCoriolisCloseup.jpg" alt="Coriolis close-up with background moon. (screenshot by another_commander)">
 </div>
+<ul>
 <li>keyconfig2.plist is the new keyboard configuration plist. keyconfig.plist has been deprecated.</li>
 <li>planetinfo.plist: illumination_color added (used with illumination map in planet texture).</li>
 <li>planetinfo.plist: added air_density (default value 0.75).</li>
@@ -141,7 +142,12 @@ the "Activate" and "Mode" functions of prime-able equipment to any joystick butt
 <li>equipment.plist: hide_values allows an equipment item to hide the cost and install time values on the F3 Ship Outfitting screen.</li>
 <li>equipment.plist: purchase_sort_order allows the sorting of the F3 Ship Outfitting screen to be sorted independently of the F5 Status screen.</li>
 <li>equipment.plist: default_activate_key and default_mode_key allows a default key setting for the activate and mode keys. If, when loading, a conflict with another key is encountered, the setting will be ignored.</li>
+<li>Added ability to select SDR (and, for Windows only, HDR too) tone mappers. To achieve this, the JS properties oolite.sdrToneMapper and oolite.hdrToneMapper are now available. Potential values for oolite.sdrToneMapper are "OOSDR_TONEMAPPER_ACES" (default), "OOSDR_TONEMAPPER_AgX", "OOSDR_TONEMAPPER_UC2", "OOSDR_TONEMAPPER_HEJLDAWSON", "OOSDR_TONEMAPPER_UCHIMURA", "OOSDR_TONEMAPPER_REINHARD" and "OOSDR_TONEMAPPER_NONE". Potential values for oolite.hdrToneMapper (Windows only) are "OOHDR_TONEMAPPER_ACES_APPROX" (default), "OOHDR_TONEMAPPER_DICE", "OOHDR_TONEMAPPER_UCHIMURA", "OOHDR_TONEMAPPER_REINHARD" and "OOHDR_TONEMAPPER_NONE".</li>
+<li>Added the oolite.postFX JS property. Takes as argument a number from 1 to 8 and applies a specific shader post-processing effect to the output image. Options are protanopia filter, deuteranopia filter, tritanopia filter, cloak effect, FXAA, old movie effect, CRT effect and ECM effect respectively. Set postFX=0 to return to normal state.</li>
+<li>Added the oolite.colorSaturation JS property, ranging from 0.0 (black and white image) to 2.0 (fully color saturated). Best results are achieved if this is kept below 1.5.</li>
 <li>Added world event consoleMessageReceived.</li>
+<li>Added world event guiSelectedRowChanged.</li>
+<li>Added world event guiSelectedRow.</li>
 <li>ship.canAwardEquipment now accepts optional additional parameter of "context", enabling checking of any context for the equipment item.</li>
 <li>Added player.ship.previousSystem property, which contains the system ID of where the player as jumped from.</li>
 <li>shipWillExitWitchspace and shipExitedWitchspace world events now include the jump cause parameter.</li>
@@ -154,25 +160,36 @@ the "Activate" and "Mode" functions of prime-able equipment to any joystick butt
 <li>Added equipment.weaponInfo dictionary.</li>
 <li>Added equipment.defaultActivateKey and equipment.defaultModeKey, each are read-only arrays of the default key settings for the equipment item. values and null if the values haven't been defined.</li>
 <li>Added the global methods getColorSaturation() and setColorSaturation(<float>), enabling control of output color saturation. Range is 0.0 .. 2.0.</li>
+</ul>
 
 <h2 id="191sub3">Bug Fixes</h2>
 <p>
 A number of found bugs have been corrected.
 </p>
-<li>Prevented native code exception when more choices have been defined for a mission screen than will fit on the current screen size.</li>
-<li>Fixed crash where the player was in witchspace and attempted to display data for the planet they misjumped from in the planet info screen.</li>
+<ul>
+<li>Prevented native code exception when too many choices have been defined for a mission screen than will fit on the current screen size.</li>
+<li>Fixed crash when attempting to display the planet the player misjumped from in the system information screen.</li>
 <li>Splinters that have a defined cargo will now spawn with that, instead of defaulting to minerals.</li>
 <li>Fixed issue where destination ID was not being passed to shipWillEnterWitchspace when the player is docked with another vessel.</li>
+<li>Fixed some JS errors in oolite-populator.js and priorityAI.js.</li>
 <li>Fixed issue where hyperspace destination on the status screen and the witchspace destination HUD element were not honouring the system concealment property.</li>
 <li>Added guard against NaNs in the atmosphere shader with large planets.</li>
-<li>Fixed "index out of range" error that could occur if a HUD did not define MFD's and player tried to select one.</li>
-<li>(Windows port): Fixed inability to launch Oolite properly from within the Windows command console.</li>
+<li>Fixed "index out of range" error that can occur if a HUD did not define MFD's and player tried to select one.</li>
+<li>Fixed inability to launch Oolite properly from within the Windows command console in recent Windows versions.</li>
 <li>Fixed missiles for Fer-de-lance in shipyard.plist to match shipdata.plist.</li>
-<li>Fixed issue where escaping a nova would result in the destination system's sun having the same size of the nova system's sun.</li> 
+<li>Fixed transition to black and white on death when TAF not zero.</li>
+<li>Fixed issue where escaping a nova would result in the destination system's sun having the same size as the nova system's sun.</li>
 <li>Fixed issue with ships that have forward mining laser refusing mining opportunities.</li>
 <li>Fixed crash in the tutorial caused by non-retained objects.</li>
-<li>Fixed issue where weapon spec in shipyard.plist was not being applied to new ships.</li>
+<li>Fixed issue where weapon spec in shipyard.plist not being applied to new ships.</li>
 <li>Fixed crash when scan_description was defined in shipdata.plist.</li>
 <li>Fixed issue where context was not being considered when adding weapons to player.ship.</li>
 <li>Fixed exception when nil would be passed as an object for a weapon sound when that weapon doesn't exist in equipment.plist.</li>
+<li>Fixed issue where viewDirectionChanged event was not firing for "VIEW_GUI_SCREEN".</li>
 <li>Added extra docking tip in the tutorial, reminding pilots to keep moving towards the rear of the docking back, until the auto-dock takes over.</li>
+<li>Fixed bad memory allocation of environment variable strings during startup under Windows.</li>
+<li>Mines spawned by script now get their owners properly assigned.</li>
+<li>Added protection for when addGroup fails to add any ships in the populator script.</li>
+<li>Fixed bug where misjumping from within a planet's atmosphere would result in death by overheating as soon as the player attempted to move.</li>
+<li>Fixed a bug where loading a game from the command line would result in an extra key press being required before keyboard input started getting processed.</li>
+</ul>
