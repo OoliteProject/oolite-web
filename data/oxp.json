@@ -2871,7 +2871,7 @@
   },
   {
     "identifier":"oolite.oxp.DrewWagar.TianvePulsar",
-    "version":"2.6",
+    "version":"2.7",
     "required_oolite_version":"1.79",
     "maximum_oolite_version":null,
     "title":"Tianve Pulsar",
@@ -2879,10 +2879,10 @@
     "category":"Ambience",
     "author":"Drew Wagar, phkb",
     "license":"CC-BY-NC-SA 3.0",
-    "download_url":"https://wiki.alioth.net/img_auth.php/4/42/Tianve_2.6.oxz",
+    "download_url":"https://wiki.alioth.net/img_auth.php/f/fb/Tianve_2.7.oxz",
     "information_url":"https://wiki.alioth.net/index.php/Tianve_OXP",
-    "file_size":29173134,
-    "upload_date":1716769133,
+    "file_size":26740361,
+    "upload_date":1770237533,
     "tags":[
     ],
     "conflict_oxps":[
@@ -9856,7 +9856,7 @@
   },
   {
     "identifier":"oolite.oxp.Thargoid.FlightLog",
-    "version":"1.11",
+    "version":"1.14",
     "required_oolite_version":"1.79",
     "maximum_oolite_version":null,
     "title":"Flight Log",
@@ -9865,9 +9865,9 @@
     "author":"Thargoid",
     "license":"Creative Commons Attribution - Non-Commercial - Share Alike 3.0 license with clauses - see readme file",
     "download_url":"https://wiki.alioth.net/img_auth.php/1/19/FlightLog.oxz",
-    "information_url":"http://wiki.alioth.net/index.php/Flight_Log_OXP",
-    "file_size":9112,
-    "upload_date":1610873240,
+    "information_url":"https://wiki.alioth.net/index.php/Flight_Log_OXP",
+    "file_size":8813,
+    "upload_date":1770239687,
     "tags":[
       "equipment"
     ],
@@ -10302,7 +10302,7 @@
   },
   {
     "identifier":"oolite.oxp.Thargoid.Planetfall",
-    "version":"2.24",
+    "version":"2.26",
     "required_oolite_version":"1.90",
     "maximum_oolite_version":null,
     "title":"PlanetFall",
@@ -10312,8 +10312,8 @@
     "license":"Creative Commons Attribution - Non-Commercial - Share Alike 3.0 license with clauses - see readme file",
     "download_url":"https://wiki.alioth.net/img_auth.php/1/1f/PlanetFall2.oxz",
     "information_url":"http://wiki.alioth.net/index.php/Planetfall2_OXP",
-    "file_size":1957430,
-    "upload_date":1759962955,
+    "file_size":1957387,
+    "upload_date":1770240806,
     "tags":[
       "dockables",
       "system"
@@ -12923,7 +12923,7 @@
   },
   {
     "identifier":"oolite.oxp.captain_beatnik.Riredi",
-    "version":"2.3",
+    "version":"2.4",
     "required_oolite_version":"1.90",
     "maximum_oolite_version":null,
     "title":"Riredi",
@@ -12931,10 +12931,10 @@
     "category":"Ambience",
     "author":"Captain Beatnik and phkb",
     "license":"CC-BY-NC-SA 3.0",
-    "download_url":"https://wiki.alioth.net/img_auth.php/1/18/Riredi_2.3.oxz",
+    "download_url":"https://wiki.alioth.net/img_auth.php/f/f2/Riredi_2.4.oxz",
     "information_url":"https://wiki.alioth.net/index.php/Riredi_OXP",
-    "file_size":30143082,
-    "upload_date":1753243878,
+    "file_size":29597131,
+    "upload_date":1770237741,
     "tags":[
     ],
     "conflict_oxps":[
@@ -13363,7 +13363,7 @@
   },
   {
     "identifier":"oolite.oxp.cim.ships-library",
-    "version":"0.11",
+    "version":"0.12",
     "required_oolite_version":"1.79",
     "maximum_oolite_version":null,
     "title":"Ship's Library",
@@ -13371,10 +13371,10 @@
     "category":"Equipment",
     "author":"cim",
     "license":"GPL v2+ / CC-BY-NC-SA 3.0",
-    "download_url":"https://wiki.alioth.net/img_auth.php/a/a7/Ships_Library_0.11.oxz",
+    "download_url":"https://wiki.alioth.net/img_auth.php/5/5d/Ships_Library_0.12.oxz",
     "information_url":"https://wiki.alioth.net/index.php/Ship%27s_Library_OXP",
-    "file_size":1808853,
-    "upload_date":1766988763,
+    "file_size":1808891,
+    "upload_date":1770240496,
     "tags":[
     ],
     "conflict_oxps":[
@@ -13997,7 +13997,7 @@
   },
   {
     "identifier":"oolite.oxp.murgh.Lave",
-    "version":"2.3",
+    "version":"2.4",
     "required_oolite_version":"1.90",
     "maximum_oolite_version":null,
     "title":"Lave",
@@ -14005,10 +14005,10 @@
     "category":"Ambience",
     "author":"Murgh & phkb",
     "license":"CC-BY-SA-NC 4.0",
-    "download_url":"https://wiki.alioth.net/img_auth.php/0/01/Lave_2.3.oxz",
+    "download_url":"https://wiki.alioth.net/img_auth.php/2/21/Lave_2.4.oxz",
     "information_url":"https://wiki.alioth.net/index.php/Lave_OXP",
-    "file_size":59890274,
-    "upload_date":1749450165,
+    "file_size":59890775,
+    "upload_date":1770237917,
     "tags":[
     ],
     "conflict_oxps":[
@@ -14199,7 +14199,7 @@
   },
   {
     "identifier":"oolite.oxp.phkb.BlackMarket",
-    "version":"1.4",
+    "version":"1.5",
     "required_oolite_version":"1.82",
     "maximum_oolite_version":null,
     "title":"Black Market",
@@ -14207,10 +14207,10 @@
     "category":"Mechanics",
     "author":"phkb",
     "license":"CC-BY-NC-SA 3.0",
-    "download_url":"https://wiki.alioth.net/img_auth.php/5/58/BlackMarket_1.4.oxz",
+    "download_url":"https://wiki.alioth.net/img_auth.php/8/83/BlackMarket_1.5.oxz",
     "information_url":"https://wiki.alioth.net/index.php/Black_Market",
-    "file_size":64114,
-    "upload_date":1753243730,
+    "file_size":63861,
+    "upload_date":1770238885,
     "tags":[
     ],
     "conflict_oxps":[
@@ -14222,7 +14222,7 @@
   },
   {
     "identifier":"oolite.oxp.phkb.BountySystem",
-    "version":"0.17",
+    "version":"0.18",
     "required_oolite_version":"1.82",
     "maximum_oolite_version":null,
     "title":"Bounty System",
@@ -14232,8 +14232,8 @@
     "license":"CC-BY-NC-SA 4.0",
     "download_url":"https://wiki.alioth.net/img_auth.php/5/5d/BountySystem.oxz",
     "information_url":"http://wiki.alioth.net/index.php/Bounty_System",
-    "file_size":81988,
-    "upload_date":1748848555,
+    "file_size":84077,
+    "upload_date":1770239002,
     "tags":[
     ],
     "conflict_oxps":[
@@ -14294,7 +14294,7 @@
   },
   {
     "identifier":"oolite.oxp.phkb.BulletinBoardSystem",
-    "version":"2.10",
+    "version":"2.11",
     "required_oolite_version":"1.82",
     "maximum_oolite_version":null,
     "title":"Bulletin Board System",
@@ -14302,10 +14302,10 @@
     "category":"Miscellaneous",
     "author":"phkb",
     "license":"CC-BY-NC-SA 4.0",
-    "download_url":"https://wiki.alioth.net/img_auth.php/c/cc/BulletinBoardSystem_2.10.oxz",
+    "download_url":"https://wiki.alioth.net/img_auth.php/8/8a/BulletinBoardSystem_2.11.oxz",
     "information_url":"https://wiki.alioth.net/index.php/Bulletin_Board_System",
-    "file_size":57256,
-    "upload_date":1754528179,
+    "file_size":57772,
+    "upload_date":1770238051,
     "tags":[
     ],
     "conflict_oxps":[
@@ -14340,7 +14340,7 @@
   },
   {
     "identifier":"oolite.oxp.phkb.CommsLogMFD",
-    "version":"1.8.1",
+    "version":"1.8.2",
     "required_oolite_version":"1.79",
     "maximum_oolite_version":null,
     "title":"CommsLog MFD",
@@ -14350,8 +14350,8 @@
     "license":"CC-BY-NC-SA 4.0",
     "download_url":"https://wiki.alioth.net/img_auth.php/e/e4/CommsLogMFD.oxz",
     "information_url":"https://wiki.alioth.net/index.php/CommsLogMFD",
-    "file_size":20601,
-    "upload_date":1751859932,
+    "file_size":20799,
+    "upload_date":1770239360,
     "tags":[
       "mfd",
       "comms"
@@ -14394,7 +14394,7 @@
   },
   {
     "identifier":"oolite.oxp.phkb.ConsoleLogMFD",
-    "version":"1.1",
+    "version":"1.2",
     "required_oolite_version":"1.91",
     "maximum_oolite_version":null,
     "title":"Console Log MFD",
@@ -14404,8 +14404,8 @@
     "license":"CC-BY-NC-SA 4.0",
     "download_url":"https://wiki.alioth.net/img_auth.php/d/dd/ConsoleLogMFD.oxz",
     "information_url":"https://wiki.alioth.net/index.php/ConsoleLogMFD",
-    "file_size":8927,
-    "upload_date":1749109289,
+    "file_size":8809,
+    "upload_date":1770239216,
     "tags":[
     ],
     "conflict_oxps":[
@@ -14469,7 +14469,7 @@
   },
   {
     "identifier":"oolite.oxp.phkb.DamageReportMFD",
-    "version":"2.7",
+    "version":"2.8",
     "required_oolite_version":"1.82",
     "maximum_oolite_version":null,
     "title":"Damage Report MFD",
@@ -14479,8 +14479,8 @@
     "license":"CC-BY-NC-SA 4.0",
     "download_url":"https://wiki.alioth.net/img_auth.php/3/3d/DamageReportMFD.oxz",
     "information_url":"https://wiki.alioth.net/index.php/Damage_Report_MFD",
-    "file_size":20679,
-    "upload_date":1748848492,
+    "file_size":20892,
+    "upload_date":1770239118,
     "tags":[
       "mfd",
       "equipment"
@@ -14569,7 +14569,7 @@
   },
   {
     "identifier":"oolite.oxp.phkb.EmailSystem",
-    "version":"1.13",
+    "version":"1.14",
     "required_oolite_version":"1.79",
     "maximum_oolite_version":null,
     "title":"Email System",
@@ -14579,8 +14579,8 @@
     "license":"CC-BY-NC-SA 4.0",
     "download_url":"https://wiki.alioth.net/img_auth.php/f/f1/EmailSystem.oxz",
     "information_url":"https://wiki.alioth.net/index.php/Email_System_OXP",
-    "file_size":173318,
-    "upload_date":1752992931,
+    "file_size":173701,
+    "upload_date":1770239776,
     "tags":[
       "email",
       "comms"
@@ -14658,7 +14658,7 @@
   },
   {
     "identifier":"oolite.oxp.phkb.EquipmentStorage",
-    "version":"1.13",
+    "version":"1.14",
     "required_oolite_version":"1.82",
     "maximum_oolite_version":null,
     "title":"Equipment Storage",
@@ -14666,10 +14666,10 @@
     "category":"Mechanics",
     "author":"phkb",
     "license":"CC-BY-NC-SA 4.0",
-    "download_url":"https://wiki.alioth.net/img_auth.php/4/40/EquipmentStorage_1.13.oxz",
+    "download_url":"https://wiki.alioth.net/img_auth.php/2/27/EquipmentStorage_1.14.oxz",
     "information_url":"https://wiki.alioth.net/index.php/Equipment_Storage_OXP",
-    "file_size":39520,
-    "upload_date":1748498020,
+    "file_size":39447,
+    "upload_date":1770238616,
     "tags":[
     ],
     "conflict_oxps":[
@@ -15284,7 +15284,7 @@
   },
   {
     "identifier":"oolite.oxp.phkb.FuelTweaks",
-    "version":"1.18",
+    "version":"1.19",
     "required_oolite_version":"1.90",
     "maximum_oolite_version":null,
     "title":"Fuel Tweaks",
@@ -15294,8 +15294,8 @@
     "license":"Creative Commons Attribution - Non-Commercial - Share Alike 3.0 license with clauses - see readme file",
     "download_url":"https://wiki.alioth.net/img_auth.php/3/35/FuelTweaks.oxz",
     "information_url":"https://wiki.alioth.net/index.php/Fuel_Tweaks",
-    "file_size":3432079,
-    "upload_date":1759963076,
+    "file_size":3440737,
+    "upload_date":1770238525,
     "tags":[
     ],
     "conflict_oxps":[
@@ -15390,7 +15390,7 @@
   },
   {
     "identifier":"oolite.oxp.phkb.GalacticRegistry",
-    "version":"5.12",
+    "version":"5.13",
     "required_oolite_version":"1.79",
     "maximum_oolite_version":null,
     "title":"Galactic Registry",
@@ -15398,10 +15398,10 @@
     "category":"Ambience",
     "author":"phkb",
     "license":"CC-BY-NC-SA 3.0",
-    "download_url":"https://wiki.alioth.net/img_auth.php/e/e3/GalCopGalacticRegistry_5.12.oxz",
+    "download_url":"https://wiki.alioth.net/img_auth.php/7/7f/GalCopGalacticRegistry_5.13.oxz",
     "information_url":"http://wiki.alioth.net/index.php/GalCop_Galactic_Registry",
-    "file_size":34603,
-    "upload_date":1752640589,
+    "file_size":34452,
+    "upload_date":1770240210,
     "tags":[
     ],
     "conflict_oxps":[
@@ -15413,7 +15413,7 @@
   },
   {
     "identifier":"oolite.oxp.phkb.HomeSystem",
-    "version":"0.15",
+    "version":"0.16",
     "required_oolite_version":"1.85",
     "maximum_oolite_version":null,
     "title":"Home System",
@@ -15423,8 +15423,8 @@
     "license":"CC-BY-NC-SA 4.0",
     "download_url":"https://wiki.alioth.net/img_auth.php/f/fb/HomeSystem.oxz",
     "information_url":"https://wiki.alioth.net/index.php/Home_System",
-    "file_size":37342,
-    "upload_date":1748848528,
+    "file_size":38037,
+    "upload_date":1770240115,
     "tags":[
     ],
     "conflict_oxps":[
@@ -15597,7 +15597,7 @@
   },
   {
     "identifier":"oolite.oxp.phkb.LMSS",
-    "version":"2.8",
+    "version":"2.9",
     "required_oolite_version":"1.79",
     "maximum_oolite_version":null,
     "title":"Laser Mount Switching System",
@@ -15605,10 +15605,10 @@
     "category":"Equipment",
     "author":"phkb",
     "license":"CC-BY-NC-SA 4.0",
-    "download_url":"https://wiki.alioth.net/img_auth.php/c/cf/LaserMountSwitchingSystem_2.8.oxz",
+    "download_url":"https://wiki.alioth.net/img_auth.php/d/d2/LaserMountSwitchingSystem_2.9.oxz",
     "information_url":"https://wiki.alioth.net/index.php/Laser_Mount_Switching_System_OXP",
-    "file_size":239259,
-    "upload_date":1749450090,
+    "file_size":239605,
+    "upload_date":1770239467,
     "tags":[
       "Equipment",
       "Weapons"
@@ -15622,7 +15622,7 @@
   },
   {
     "identifier":"oolite.oxp.phkb.LaserArrangement",
-    "version":"1.5",
+    "version":"1.6",
     "required_oolite_version":"1.83",
     "maximum_oolite_version":null,
     "title":"Laser Arrangement",
@@ -15632,8 +15632,8 @@
     "license":"CC-BY-NC-SA 4.0",
     "download_url":"https://wiki.alioth.net/img_auth.php/6/68/LaserArrangement.oxz",
     "information_url":"https://wiki.alioth.net/index.php/Laser_Arrangement",
-    "file_size":9422,
-    "upload_date":1749450358,
+    "file_size":9783,
+    "upload_date":1770239579,
     "tags":[
       "Equipment",
       "Weapons"
@@ -16003,7 +16003,7 @@
   },
   {
     "identifier":"oolite.oxp.phkb.PlanetFall2_ResourcesA",
-    "version":"1.0",
+    "version":"1.1",
     "required_oolite_version":"1.90",
     "maximum_oolite_version":null,
     "title":"PlanetFall2 Resources Pack A",
@@ -16013,8 +16013,8 @@
     "license":"Creative Commons Attribution - Non-Commercial - Share Alike 3.0 license with clauses - see readme file",
     "download_url":"https://wiki.alioth.net/img_auth.php/6/68/PlanetFall2_ResourcesA.oxz",
     "information_url":"http://wiki.alioth.net/index.php/Planetfall2_OXP",
-    "file_size":89099743,
-    "upload_date":1754032399,
+    "file_size":89104944,
+    "upload_date":1770240778,
     "tags":[
     ],
     "conflict_oxps":[
@@ -16217,7 +16217,7 @@
   },
   {
     "identifier":"oolite.oxp.phkb.ShipComparison",
-    "version":"2.7",
+    "version":"2.8",
     "required_oolite_version":"1.79",
     "maximum_oolite_version":null,
     "title":"Ship Comparison",
@@ -16227,8 +16227,8 @@
     "license":"CC-BY-NC-SA 4.0",
     "download_url":"https://wiki.alioth.net/img_auth.php/5/58/ShipComparison.oxz",
     "information_url":"https://wiki.alioth.net/index.php/Ship_Comparison",
-    "file_size":17526,
-    "upload_date":1749450298,
+    "file_size":17707,
+    "upload_date":1770240003,
     "tags":[
     ],
     "conflict_oxps":[
@@ -16240,7 +16240,7 @@
   },
   {
     "identifier":"oolite.oxp.phkb.ShipConfiguration",
-    "version":"1.5.1",
+    "version":"1.5.4",
     "required_oolite_version":"1.90",
     "maximum_oolite_version":null,
     "title":"Ship Configuration",
@@ -16250,8 +16250,8 @@
     "license":"CC-BY-NC-SA 3.0",
     "download_url":"https://wiki.alioth.net/img_auth.php/8/81/ShipConfiguration.oxz",
     "information_url":"https://wiki.alioth.net/index.php/Ship_Configuration_OXP",
-    "file_size":1550859,
-    "upload_date":1752993224,
+    "file_size":1551624,
+    "upload_date":1770238402,
     "tags":[
     ],
     "conflict_oxps":[
@@ -16329,7 +16329,7 @@
   },
   {
     "identifier":"oolite.oxp.phkb.ShipRepurchase",
-    "version":"0.6.3",
+    "version":"0.6.4",
     "required_oolite_version":"1.89",
     "maximum_oolite_version":null,
     "title":"Ship Repurchase",
@@ -16339,8 +16339,8 @@
     "license":"CC-BY-NC-SA 4.0",
     "download_url":"https://wiki.alioth.net/img_auth.php/e/ef/ShipRepurchase.oxz",
     "information_url":"https://wiki.alioth.net/index.php/Ship_Repurchase",
-    "file_size":26763,
-    "upload_date":1749450325,
+    "file_size":26987,
+    "upload_date":1770238195,
     "tags":[
     ],
     "conflict_oxps":[
@@ -16358,7 +16358,7 @@
   },
   {
     "identifier":"oolite.oxp.phkb.ShipRespray",
-    "version":"1.4.1",
+    "version":"1.4.2",
     "required_oolite_version":"1.79",
     "maximum_oolite_version":null,
     "title":"Ship Respray",
@@ -16366,10 +16366,10 @@
     "category":"Ambience",
     "author":"phkb",
     "license":"CC-BY-NC-SA 4.0",
-    "download_url":"https://wiki.alioth.net/img_auth.php/e/e9/ShipRespray_1.4.1.oxz",
+    "download_url":"https://wiki.alioth.net/img_auth.php/1/1b/ShipRespray_1.4.2.oxz",
     "information_url":"https://wiki.alioth.net/index.php/Ship_Respray_OXP",
-    "file_size":20765,
-    "upload_date":1753244108,
+    "file_size":20788,
+    "upload_date":1770239880,
     "tags":[
     ],
     "conflict_oxps":[
@@ -16410,7 +16410,7 @@
   },
   {
     "identifier":"oolite.oxp.phkb.Smugglers_TGU",
-    "version":"2.6",
+    "version":"2.7",
     "required_oolite_version":"1.82",
     "maximum_oolite_version":null,
     "title":"Smugglers - The Galactic Underworld",
@@ -16418,10 +16418,10 @@
     "category":"Mechanics",
     "author":"phkb",
     "license":"CC-BY-NC-SA 3.0",
-    "download_url":"https://wiki.alioth.net/img_auth.php/f/fc/Smugglers_2.6.oxz",
+    "download_url":"https://wiki.alioth.net/img_auth.php/e/eb/Smugglers_2.7.oxz",
     "information_url":"https://wiki.alioth.net/index.php/Smugglers_-_The_Galactic_Underworld",
-    "file_size":142560,
-    "upload_date":1749449924,
+    "file_size":144226,
+    "upload_date":1770238750,
     "tags":[
     ],
     "conflict_oxps":[
@@ -16526,7 +16526,7 @@
   },
   {
     "identifier":"oolite.oxp.phkb.TionislaOrbitalGraveyard",
-    "version":"2.9",
+    "version":"2.10",
     "required_oolite_version":"1.79",
     "maximum_oolite_version":null,
     "title":"Tionisla Orbital Graveyard",
@@ -16536,8 +16536,8 @@
     "license":"CC-BY-NC-SA 3.0",
     "download_url":"https://wiki.alioth.net/img_auth.php/a/a6/TionislaOrbitalGraveyard.oxz",
     "information_url":"https://wiki.alioth.net/index.php/Tionisla_Orbital_Graveyard",
-    "file_size":19451894,
-    "upload_date":1753243948,
+    "file_size":19476703,
+    "upload_date":1770237278,
     "tags":[
     ],
     "conflict_oxps":[
@@ -18905,7 +18905,7 @@
   },
   {
     "identifier":"oolite.oxp.spara.in-system_taxi",
-    "version":"1.7",
+    "version":"1.8",
     "required_oolite_version":"1.79",
     "maximum_oolite_version":null,
     "title":"In-System Taxi",
@@ -18913,10 +18913,10 @@
     "category":"Activities",
     "author":"spara",
     "license":"CC-BY-NC-SA 3.0",
-    "download_url":"https://wiki.alioth.net/img_auth.php/3/30/In-System_Taxi_1.7.oxz",
+    "download_url":"https://wiki.alioth.net/img_auth.php/b/bd/In-System_Taxi_1.8.oxz",
     "information_url":"https://wiki.alioth.net/index.php/In-System_Taxi",
-    "file_size":21333,
-    "upload_date":1753398362,
+    "file_size":21252,
+    "upload_date":1770240352,
     "tags":[
     ],
     "conflict_oxps":[
@@ -20861,7 +20861,7 @@
   },
   {
     "identifier":"oolite.oxp.z.phkb.XenonReduxUI",
-    "version":"3.6",
+    "version":"3.7",
     "required_oolite_version":"1.80",
     "maximum_oolite_version":null,
     "title":"Xenon Redux UI",
@@ -20871,8 +20871,8 @@
     "license":"CC-BY-NC-SA 3.0",
     "download_url":"https://wiki.alioth.net/img_auth.php/9/90/XenonReduxUI.oxz",
     "information_url":"http://wiki.alioth.net/index.php/XenonUI",
-    "file_size":758490,
-    "upload_date":1744255190,
+    "file_size":757769,
+    "upload_date":1770240953,
     "tags":[
     ],
     "conflict_oxps":[
@@ -20915,7 +20915,7 @@
   },
   {
     "identifier":"oolite.oxp.z.phkb.XenonUI",
-    "version":"3.10",
+    "version":"3.11",
     "required_oolite_version":"1.80",
     "maximum_oolite_version":null,
     "title":"Xenon UI",
@@ -20925,8 +20925,8 @@
     "license":"CC-BY-NC-SA 3.0",
     "download_url":"https://wiki.alioth.net/img_auth.php/0/0b/XenonUI.oxz",
     "information_url":"http://wiki.alioth.net/index.php/XenonUI",
-    "file_size":7658139,
-    "upload_date":1752647619,
+    "file_size":7659248,
+    "upload_date":1770241029,
     "tags":[
     ],
     "conflict_oxps":[
