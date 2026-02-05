@@ -434,7 +434,7 @@ a.ctrl-btn {
     border: 1px solid var(--main-secondary-color);
     background-color: var(--main-ctrl-bg-color);
     min-height: 10em;
-    flex: 0 1 32%;
+    flex: 0 1 50%;
 }
 
 .download-blk p.req {
