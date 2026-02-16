@@ -8419,7 +8419,7 @@
   },
   {
     "identifier":"oolite.oxp.Rorschachhamster.Satellites",
-    "version":"1.11",
+    "version":"1.12",
     "required_oolite_version":"1.79",
     "maximum_oolite_version":null,
     "title":"Satellites",
@@ -8429,8 +8429,8 @@
     "license":"CC BY-NC-SA 3",
     "download_url":"https://wiki.alioth.net/img_auth.php/9/9d/Satellites.oxz",
     "information_url":"https://wiki.alioth.net/index.php/Satellites",
-    "file_size":12623947,
-    "upload_date":1754530298,
+    "file_size":12624482,
+    "upload_date":1771214305,
     "tags":[
     ],
     "conflict_oxps":[
@@ -11926,56 +11926,6 @@
     ]
   },
   {
-    "identifier":"oolite.oxp.ZygoUgo.Buoy",
-    "version":"v1.0.1",
-    "required_oolite_version":"1.80",
-    "maximum_oolite_version":null,
-    "title":"ZygoUgo's Buoy",
-    "description":"ZygoUgo's flashy Buoy.",
-    "category":"Ambience",
-    "author":"ZygoUgo, Michael -Amah- Doering",
-    "license":"CC-BY-NC-SA 3.0",
-    "download_url":"https://wiki.alioth.net/img_auth.php/5/5d/Oolite.oxp.ZygoUgo.Buoy.oxz",
-    "information_url":"http://www.aegidian.org/bb/viewtopic.php?f=4&t=8541",
-    "file_size":1571,
-    "upload_date":1610873307,
-    "tags":[
-      "buoy",
-      "accessories"
-    ],
-    "conflict_oxps":[
-    ],
-    "optional_oxps":[
-    ],
-    "requires_oxps":[
-    ]
-  },
-  {
-    "identifier":"oolite.oxp.ZygoUgo.Explosions",
-    "version":"v1.0.1",
-    "required_oolite_version":"1.80",
-    "maximum_oolite_version":null,
-    "title":"ZygoUgo's Explosions",
-    "description":"ZygoUgo's fancier explosion effects.",
-    "category":"Ambience",
-    "author":"ZygoUgo, Michael -Amah- Doering",
-    "license":"CC-BY-NC-SA 3.0",
-    "download_url":"https://wiki.alioth.net/img_auth.php/3/3f/Oolite.oxp.ZygoUgo.Explosions.oxz",
-    "information_url":"http://www.aegidian.org/bb/viewtopic.php?f=4&t=8541",
-    "file_size":164415,
-    "upload_date":1610873281,
-    "tags":[
-      "explosions",
-      "accessories"
-    ],
-    "conflict_oxps":[
-    ],
-    "optional_oxps":[
-    ],
-    "requires_oxps":[
-    ]
-  },
-  {
     "identifier":"oolite.oxp.ZygoUgo.ZygoCinematicSkyNebulas",
     "version":"1.3",
     "required_oolite_version":"1.80",
@@ -14772,52 +14722,6 @@
     ]
   },
   {
-    "identifier":"oolite.oxp.phkb.FactoryPaintJobs_Adder",
-    "version":"1.0",
-    "required_oolite_version":"1.80",
-    "maximum_oolite_version":null,
-    "title":"phkb's Factory Paint Jobs: Adder",
-    "description":"This bundle adds 27 new paint jobs for the Adder.",
-    "category":"Retextures",
-    "author":"phkb",
-    "license":"CC-BY-SA-NC 4.0",
-    "download_url":"https://wiki.alioth.net/img_auth.php/c/cf/FactoryPaintJobs_Adder.oxz",
-    "information_url":null,
-    "file_size":24941921,
-    "upload_date":1656895174,
-    "tags":[
-    ],
-    "conflict_oxps":[
-    ],
-    "optional_oxps":[
-    ],
-    "requires_oxps":[
-    ]
-  },
-  {
-    "identifier":"oolite.oxp.phkb.FactoryPaintJobs_Anaconda",
-    "version":"1.2",
-    "required_oolite_version":"1.80",
-    "maximum_oolite_version":null,
-    "title":"phkb's Factory Paint Jobs: Anaconda",
-    "description":"This bundle adds 36 new paint jobs for the Anaconda.",
-    "category":"Retextures",
-    "author":"phkb",
-    "license":"CC-BY-SA-NC 4.0",
-    "download_url":"https://wiki.alioth.net/img_auth.php/2/2f/FactoryPaintJobs_Anaconda_1.2.oxz",
-    "information_url":"https://wiki.alioth.net/index.php/Factory_Paint_Jobs",
-    "file_size":27669189,
-    "upload_date":1700192340,
-    "tags":[
-    ],
-    "conflict_oxps":[
-    ],
-    "optional_oxps":[
-    ],
-    "requires_oxps":[
-    ]
-  },
-  {
     "identifier":"oolite.oxp.phkb.FactoryPaintJobs_AspMk2",
     "version":"1.0",
     "required_oolite_version":"1.80",
@@ -15390,7 +15294,7 @@
   },
   {
     "identifier":"oolite.oxp.phkb.GalacticRegistry",
-    "version":"5.13",
+    "version":"5.14",
     "required_oolite_version":"1.79",
     "maximum_oolite_version":null,
     "title":"Galactic Registry",
@@ -15398,10 +15302,10 @@
     "category":"Ambience",
     "author":"phkb",
     "license":"CC-BY-NC-SA 3.0",
-    "download_url":"https://wiki.alioth.net/img_auth.php/7/7f/GalCopGalacticRegistry_5.13.oxz",
+    "download_url":"https://wiki.alioth.net/img_auth.php/f/f1/GalCopGalacticRegistry_5.14.oxz",
     "information_url":"http://wiki.alioth.net/index.php/GalCop_Galactic_Registry",
-    "file_size":34452,
-    "upload_date":1770240210,
+    "file_size":34465,
+    "upload_date":1771214176,
     "tags":[
     ],
     "conflict_oxps":[
@@ -16410,7 +16314,7 @@
   },
   {
     "identifier":"oolite.oxp.phkb.Smugglers_TGU",
-    "version":"2.8",
+    "version":"2.9",
     "required_oolite_version":"1.82",
     "maximum_oolite_version":null,
     "title":"Smugglers - The Galactic Underworld",
@@ -16418,10 +16322,10 @@
     "category":"Mechanics",
     "author":"phkb",
     "license":"CC-BY-NC-SA 3.0",
-    "download_url":"https://wiki.alioth.net/img_auth.php/f/f1/Smugglers_2.8.oxz",
+    "download_url":"https://wiki.alioth.net/img_auth.php/2/20/Smugglers_2.9.oxz",
     "information_url":"https://wiki.alioth.net/index.php/Smugglers_-_The_Galactic_Underworld",
-    "file_size":144261,
-    "upload_date":1770723039,
+    "file_size":144656,
+    "upload_date":1771214625,
     "tags":[
     ],
     "conflict_oxps":[
@@ -18057,7 +17961,7 @@
   },
   {
     "identifier":"oolite.oxp.smivs.Liners",
-    "version":"1.7.0",
+    "version":"1.8",
     "required_oolite_version":"1.79",
     "maximum_oolite_version":null,
     "title":"Liners",
@@ -18065,16 +17969,22 @@
     "category":"Ships",
     "author":"Smivs, P.A.Groove, Griff and Thargoid",
     "license":"Creative Commons Attribution - Non-Commercial - Share Alike 3.0 license",
-    "download_url":"https://wiki.alioth.net/img_auth.php/7/76/Liners_v1.7.0.oxz",
+    "download_url":"https://wiki.alioth.net/img_auth.php/b/bf/Liners_v1.8.oxz",
     "information_url":"http://wiki.alioth.net/index.php/Liners",
-    "file_size":114774579,
-    "upload_date":1610873341,
+    "file_size":109099145,
+    "upload_date":1771214517,
     "tags":[
       "ships"
     ],
     "conflict_oxps":[
     ],
     "optional_oxps":[
+      {
+        "identifier":"oolite.oxp.Thargoid.Bigships",
+        "version":"1.02",
+        "maximum_version":null,
+        "description":"If Bigships OXP is present, it is used in place of the built-in populator."
+      }
     ],
     "requires_oxps":[
     ]
