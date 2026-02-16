@@ -11926,6 +11926,56 @@
     ]
   },
   {
+    "identifier":"oolite.oxp.ZygoUgo.Buoy",
+    "version":"v1.0.1",
+    "required_oolite_version":"1.80",
+    "maximum_oolite_version":null,
+    "title":"ZygoUgo's Buoy",
+    "description":"ZygoUgo's flashy Buoy.",
+    "category":"Ambience",
+    "author":"ZygoUgo, Michael -Amah- Doering",
+    "license":"CC-BY-NC-SA 3.0",
+    "download_url":"https://wiki.alioth.net/img_auth.php/5/5d/Oolite.oxp.ZygoUgo.Buoy.oxz",
+    "information_url":"http://www.aegidian.org/bb/viewtopic.php?f=4&t=8541",
+    "file_size":1571,
+    "upload_date":1610873307,
+    "tags":[
+      "buoy",
+      "accessories"
+    ],
+    "conflict_oxps":[
+    ],
+    "optional_oxps":[
+    ],
+    "requires_oxps":[
+    ]
+  },
+  {
+    "identifier":"oolite.oxp.ZygoUgo.Explosions",
+    "version":"v1.0.1",
+    "required_oolite_version":"1.80",
+    "maximum_oolite_version":null,
+    "title":"ZygoUgo's Explosions",
+    "description":"ZygoUgo's fancier explosion effects.",
+    "category":"Ambience",
+    "author":"ZygoUgo, Michael -Amah- Doering",
+    "license":"CC-BY-NC-SA 3.0",
+    "download_url":"https://wiki.alioth.net/img_auth.php/3/3f/Oolite.oxp.ZygoUgo.Explosions.oxz",
+    "information_url":"http://www.aegidian.org/bb/viewtopic.php?f=4&t=8541",
+    "file_size":164415,
+    "upload_date":1610873281,
+    "tags":[
+      "explosions",
+      "accessories"
+    ],
+    "conflict_oxps":[
+    ],
+    "optional_oxps":[
+    ],
+    "requires_oxps":[
+    ]
+  },
+  {
     "identifier":"oolite.oxp.ZygoUgo.ZygoCinematicSkyNebulas",
     "version":"1.3",
     "required_oolite_version":"1.80",
@@ -14712,6 +14762,52 @@
     "information_url":"https://wiki.alioth.net/index.php/Extra_Rock_Hermits",
     "file_size":24343275,
     "upload_date":1770187481,
+    "tags":[
+    ],
+    "conflict_oxps":[
+    ],
+    "optional_oxps":[
+    ],
+    "requires_oxps":[
+    ]
+  },
+  {
+    "identifier":"oolite.oxp.phkb.FactoryPaintJobs_Adder",
+    "version":"1.0",
+    "required_oolite_version":"1.80",
+    "maximum_oolite_version":null,
+    "title":"phkb's Factory Paint Jobs: Adder",
+    "description":"This bundle adds 27 new paint jobs for the Adder.",
+    "category":"Retextures",
+    "author":"phkb",
+    "license":"CC-BY-SA-NC 4.0",
+    "download_url":"https://wiki.alioth.net/img_auth.php/c/cf/FactoryPaintJobs_Adder.oxz",
+    "information_url":null,
+    "file_size":24941921,
+    "upload_date":1656895174,
+    "tags":[
+    ],
+    "conflict_oxps":[
+    ],
+    "optional_oxps":[
+    ],
+    "requires_oxps":[
+    ]
+  },
+  {
+    "identifier":"oolite.oxp.phkb.FactoryPaintJobs_Anaconda",
+    "version":"1.2",
+    "required_oolite_version":"1.80",
+    "maximum_oolite_version":null,
+    "title":"phkb's Factory Paint Jobs: Anaconda",
+    "description":"This bundle adds 36 new paint jobs for the Anaconda.",
+    "category":"Retextures",
+    "author":"phkb",
+    "license":"CC-BY-SA-NC 4.0",
+    "download_url":"https://wiki.alioth.net/img_auth.php/2/2f/FactoryPaintJobs_Anaconda_1.2.oxz",
+    "information_url":"https://wiki.alioth.net/index.php/Factory_Paint_Jobs",
+    "file_size":27669189,
+    "upload_date":1700192340,
     "tags":[
     ],
     "conflict_oxps":[
