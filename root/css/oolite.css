@@ -428,6 +428,14 @@ a.ctrl-btn {
 }
 /* = = = = = = = = = = = = = = = = = = = = = = = = = = */
 
+.download-btns-ms-fh {
+    height: 3.8rem;
+}
+
+.download-btns-ms-fh img {
+    height: 3.6rem;
+}
+
 .download-blk {
     padding-top: 0.42em;
     padding-bottom: 0.42em;
