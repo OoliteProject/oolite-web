@@ -335,7 +335,7 @@ const galleryManager = (()=>{
             _oxpSetActiveSlide(idx);
             if ( oxpPage < oxpMaxPage ) _oxpLoadThumbsPage(oxpPage+1);
         });
-        
+
         oxpCarousel.addEventListener('slide.bs.carousel', event => {
             oxpSlideMove = 1;
             _oxpSetActiveThumb( event.to );
@@ -572,4 +572,3 @@ function processNews( container, html ) {
 
     bindLinks(container);
 }
-
