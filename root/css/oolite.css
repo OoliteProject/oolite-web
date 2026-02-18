@@ -426,29 +426,43 @@ a.ctrl-btn {
 . version-navigator .btn-wrp {
     flex: 0 1 min-content;
 }
+
 /* = = = = = = = = = = = = = = = = = = = = = = = = = = */
 
 .download-btns-ms-fh {
     height: 3.8rem;
+    align-items: center;
+    margin: 1.4rem 0 0.5rem 0;
 }
 
 .download-btns-ms-fh img {
+    height: 3.8rem;
+    display: inline-block;
+}
+
+.download-btns-ms-fh .download-btn-fh-wrp img {
     height: 3.6rem;
 }
 
 .download-blk {
-    padding-top: 0.42em;
-    padding-bottom: 0.42em;
+    padding-top: 0.42rem;
+    padding-bottom: 0.42rem;
     border: 1px solid var(--main-secondary-color);
     background-color: var(--main-ctrl-bg-color);
-    min-height: 10em;
+    min-height: 10rem;
     flex: 0 1 50%;
+    border-radius: 5px;
+    margin-left: 0.5rem;
+}
+
+.download-blk:first-child {
+    margin-left: 0;
 }
 
 .download-blk p.req {
     font-size: 90%;
-    padding: 0 1em;
-    margin: 0.5em 0;
+    padding: 0 1rem;
+    margin: 0.5rem 0;
 }
 
 .download-blk ul {
@@ -458,18 +472,20 @@ a.ctrl-btn {
 }
 
 .download-blk li {
-    margin: 0 1em;
-    padding-bottom: 0.5em;
+    margin: 0 1rem;
+    padding-bottom: 0.5rem;
 }
 
 .download-blk h3:before {
-    content: "↓";
-    padding: 0 1em;
+    content: "\1F80B";
+    padding: 0 0.5rem 0 1rem;
+    position: relative;
+    top: 0.1rem;
 }
 
 .download-blk h3 {
     font-size: 110%;
-    margin: 0.5em 0 0.5em 0;
+    margin: 0.5rem 0 0.5rem 0;
 }
 
 .download-note {
