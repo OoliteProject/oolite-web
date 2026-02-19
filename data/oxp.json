@@ -15816,6 +15816,29 @@
     ]
   },
   {
+    "identifier":"oolite.oxp.phkb.MarketScreenLegalColumn",
+    "version":"1.0",
+    "required_oolite_version":"1.79",
+    "maximum_oolite_version":null,
+    "title":"Market Screen Legal Column",
+    "description":"Changes how the legal column is displayed on the Market screen.",
+    "category":"Miscellaneous",
+    "author":"phkb",
+    "license":"CC-BY-NC-SA 3.0",
+    "download_url":"https://wiki.alioth.net/img_auth.php/1/1c/MarketScreenLegalColumn.oxz",
+    "information_url":"http://wiki.alioth.net/index.php/Market_Screen_Legal_Column",
+    "file_size":880,
+    "upload_date":1771464604,
+    "tags":[
+    ],
+    "conflict_oxps":[
+    ],
+    "optional_oxps":[
+    ],
+    "requires_oxps":[
+    ]
+  },
+  {
     "identifier":"oolite.oxp.phkb.MarketScriptInterface",
     "version":"1.1",
     "required_oolite_version":"1.82",
@@ -16410,7 +16433,7 @@
   },
   {
     "identifier":"oolite.oxp.phkb.Smugglers_TGU",
-    "version":"2.9",
+    "version":"2.10",
     "required_oolite_version":"1.82",
     "maximum_oolite_version":null,
     "title":"Smugglers - The Galactic Underworld",
@@ -16418,10 +16441,10 @@
     "category":"Mechanics",
     "author":"phkb",
     "license":"CC-BY-NC-SA 3.0",
-    "download_url":"https://wiki.alioth.net/img_auth.php/2/20/Smugglers_2.9.oxz",
+    "download_url":"https://wiki.alioth.net/img_auth.php/a/aa/Smugglers_2.10.oxz",
     "information_url":"https://wiki.alioth.net/index.php/Smugglers_-_The_Galactic_Underworld",
-    "file_size":144656,
-    "upload_date":1771214625,
+    "file_size":144682,
+    "upload_date":1771464476,
     "tags":[
     ],
     "conflict_oxps":[
