@@ -15597,7 +15597,7 @@
   },
   {
     "identifier":"oolite.oxp.phkb.LMSS",
-    "version":"2.10",
+    "version":"2.11",
     "required_oolite_version":"1.79",
     "maximum_oolite_version":null,
     "title":"Laser Mount Switching System",
@@ -15605,10 +15605,10 @@
     "category":"Equipment",
     "author":"phkb",
     "license":"CC-BY-NC-SA 4.0",
-    "download_url":"https://wiki.alioth.net/img_auth.php/7/7f/LaserMountSwitchingSystem_2.10.oxz",
+    "download_url":"https://wiki.alioth.net/img_auth.php/3/37/LaserMountSwitchingSystem_2.11.oxz",
     "information_url":"https://wiki.alioth.net/index.php/Laser_Mount_Switching_System_OXP",
-    "file_size":239616,
-    "upload_date":1771721647,
+    "file_size":239653,
+    "upload_date":1771801419,
     "tags":[
       "Equipment",
       "Weapons"
