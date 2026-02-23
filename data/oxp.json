@@ -18086,7 +18086,7 @@
   },
   {
     "identifier":"oolite.oxp.smivs.Liners",
-    "version":"1.8",
+    "version":"1.9",
     "required_oolite_version":"1.79",
     "maximum_oolite_version":null,
     "title":"Liners",
@@ -18094,10 +18094,10 @@
     "category":"Ships",
     "author":"Smivs, P.A.Groove, Griff and Thargoid",
     "license":"Creative Commons Attribution - Non-Commercial - Share Alike 3.0 license",
-    "download_url":"https://wiki.alioth.net/img_auth.php/b/bf/Liners_v1.8.oxz",
+    "download_url":"https://wiki.alioth.net/img_auth.php/6/6e/Liners_1.9.oxz",
     "information_url":"http://wiki.alioth.net/index.php/Liners",
-    "file_size":109099145,
-    "upload_date":1771214517,
+    "file_size":119502709,
+    "upload_date":1771814291,
     "tags":[
       "ships"
     ],
