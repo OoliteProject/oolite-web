@@ -15622,7 +15622,7 @@
   },
   {
     "identifier":"oolite.oxp.phkb.LaserArrangement",
-    "version":"1.7",
+    "version":"1.8",
     "required_oolite_version":"1.83",
     "maximum_oolite_version":null,
     "title":"Laser Arrangement",
@@ -15632,8 +15632,8 @@
     "license":"CC-BY-NC-SA 4.0",
     "download_url":"https://wiki.alioth.net/img_auth.php/6/68/LaserArrangement.oxz",
     "information_url":"https://wiki.alioth.net/index.php/Laser_Arrangement",
-    "file_size":9814,
-    "upload_date":1771721679,
+    "file_size":9833,
+    "upload_date":1771879289,
     "tags":[
       "Equipment",
       "Weapons"
