@@ -834,18 +834,18 @@
   },
   {
     "identifier":"oolite.hud.data.Wildeblood.Docked_HUDs",
-    "version":"1.1",
+    "version":"1.4.3",
     "required_oolite_version":"1.80",
-    "maximum_oolite_version":null,
+    "maximum_oolite_version":"",
     "title":"Docked HUDs",
     "description":"Sleek, minimalist HUD design when docked. If you use a HUD expansion pack, instead of the standard HUD, check the forum for compatibility notes.",
     "category":"HUDs",
     "author":"Wildeblood",
-    "license":"Use your common sense.",
-    "download_url":"https://wiki.alioth.net/img_auth.php/7/79/Wildefire_Docked_HUDs_1.1.oxz",
-    "information_url":"http://aegidian.org/bb/viewtopic.php?f=4&t=17217",
-    "file_size":3186,
-    "upload_date":1610873342,
+    "license":"Limited time preview version.",
+    "download_url":"https://wiki.alioth.net/img_auth.php/d/d1/Docked_HUDs.oxz",
+    "information_url":"https://bb.oolite.space/viewtopic.php?t=17217",
+    "file_size":78543,
+    "upload_date":1775402021,
     "tags":[
     ],
     "conflict_oxps":[
@@ -16223,6 +16223,29 @@
     "information_url":"http://wiki.alioth.net/index.php/Planet_Rotation_Cosmetics_OXP",
     "file_size":1796,
     "upload_date":1744413484,
+    "tags":[
+    ],
+    "conflict_oxps":[
+    ],
+    "optional_oxps":[
+    ],
+    "requires_oxps":[
+    ]
+  },
+  {
+    "identifier":"oolite.oxp.phkb.QMine_Facelift",
+    "version":"1.1",
+    "required_oolite_version":"1.79",
+    "maximum_oolite_version":null,
+    "title":"Quirium Cascade Mine Facelift",
+    "description":"Updates the look of the Quirium Cascade Mine.",
+    "category":"Retextures",
+    "author":"phkb",
+    "license":"CC-BY-NC-SA 4.0",
+    "download_url":"https://wiki.alioth.net/img_auth.php/5/5f/QMine_Facelift.oxz",
+    "information_url":null,
+    "file_size":263573,
+    "upload_date":1775358367,
     "tags":[
     ],
     "conflict_oxps":[
