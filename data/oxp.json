@@ -8383,6 +8383,29 @@
     ]
   },
   {
+    "identifier":"oolite.oxp.Reval.Partner_Trader",
+    "version":"1.1.1",
+    "required_oolite_version":"1.82",
+    "maximum_oolite_version":null,
+    "title":"Partner Trader",
+    "description":"Perhaps you are not interested in Guilds or Leagues; perhaps leading a multi-ship convoy leaves you cold, perhaps forever fighting palls. But perhaps you do have a partner in trade or in love, or in both... Partner Trader lets you travel with them and share your income and your Merchanter lives.",
+    "category":"Mechanics",
+    "author":"Reval",
+    "license":"CC-BY-NC-SA 4.0",
+    "download_url":"https://wiki.alioth.net/img_auth.php/e/e0/Partner_Trader.oxz",
+    "information_url":null,
+    "file_size":14558,
+    "upload_date":1746523402,
+    "tags":[
+    ],
+    "conflict_oxps":[
+    ],
+    "optional_oxps":[
+    ],
+    "requires_oxps":[
+    ]
+  },
+  {
     "identifier":"oolite.oxp.Reval.Teleportation_Drive",
     "version":"1.2",
     "required_oolite_version":"1.82",
