@@ -6303,7 +6303,7 @@
   },
   {
     "identifier":"oolite.oxp.Norby.EscortDeck",
-    "version":"1.12",
+    "version":"1.13",
     "required_oolite_version":"1.79",
     "maximum_oolite_version":null,
     "title":"Escort Deck",
@@ -6311,10 +6311,10 @@
     "category":"Activities",
     "author":"Norby",
     "license":"CC BY-NC-SA 4.0",
-    "download_url":"https://wiki.alioth.net/img_auth.php/9/92/EscortDeck-1.12.oxz",
+    "download_url":"https://wiki.alioth.net/img_auth.php/0/02/EscortDeck_1.13.oxz",
     "information_url":"http://wiki.alioth.net/index.php/EscortDecks",
-    "file_size":674119,
-    "upload_date":1671037018,
+    "file_size":675590,
+    "upload_date":1777772936,
     "tags":[
     ],
     "conflict_oxps":[
