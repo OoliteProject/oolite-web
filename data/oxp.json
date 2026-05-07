@@ -8429,6 +8429,29 @@
     ]
   },
   {
+    "identifier":"oolite.oxp.Reval.Small_Ships",
+    "version":"1.2",
+    "required_oolite_version":"1.89",
+    "maximum_oolite_version":null,
+    "title":"Small Ships",
+    "description":"Flyable and essentially unaltered versions of the Asp, Fer-de-Lance, Gecko, Krait, Mamba, Sidewinder, Constrictor, Viper, Viper Interceptor, Worm, and Transporter. Those ships originally sans Hyperdrive now have one; those without cargo space remain without. Newly rationalized price-adjustments applied.",
+    "category":"Ships",
+    "author":"Reval",
+    "license":"CC-BY-NC-SA 4.0",
+    "download_url":"https://wiki.alioth.net/img_auth.php/1/1f/Small_Ships.oxz",
+    "information_url":"https://wiki.alioth.net/index.php/Small_Ships_OXZ",
+    "file_size":5549,
+    "upload_date":1778181017,
+    "tags":[
+    ],
+    "conflict_oxps":[
+    ],
+    "optional_oxps":[
+    ],
+    "requires_oxps":[
+    ]
+  },
+  {
     "identifier":"oolite.oxp.Reval.Teleportation_Drive",
     "version":"1.2",
     "required_oolite_version":"1.82",
