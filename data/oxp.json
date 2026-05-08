@@ -9574,7 +9574,7 @@
   },
   {
     "identifier":"oolite.oxp.Svengali.Library",
-    "version":"1.9",
+    "version":"1.9.1",
     "required_oolite_version":"1.88",
     "maximum_oolite_version":null,
     "title":"Library",
@@ -9582,10 +9582,10 @@
     "category":"Miscellaneous",
     "author":"Svengali & BlackWolf",
     "license":"CC-by-nc-sa 4.0, partly MIT",
-    "download_url":"https://wiki.alioth.net/img_auth.php/e/e7/Library_1.9.oxz",
+    "download_url":"https://wiki.alioth.net/img_auth.php/0/04/Library_1.9.1.oxz",
     "information_url":"https://wiki.alioth.net/index.php/Library",
-    "file_size":5196068,
-    "upload_date":1776658232,
+    "file_size":5196146,
+    "upload_date":1778224578,
     "tags":[
       "config",
       "configuration",
