@@ -10511,7 +10511,7 @@
   },
   {
     "identifier":"oolite.oxp.Thargoid.Planetfall",
-    "version":"2.31",
+    "version":"2.32",
     "required_oolite_version":"1.90",
     "maximum_oolite_version":null,
     "title":"PlanetFall2",
@@ -10519,10 +10519,10 @@
     "category":"Systems",
     "author":"Thargoid, phkb",
     "license":"Creative Commons Attribution - Non-Commercial - Share Alike 3.0 license with clauses - see readme file",
-    "download_url":"https://wiki.alioth.net/img_auth.php/e/ea/PlanetFall2_2.31.oxz",
+    "download_url":"https://wiki.alioth.net/img_auth.php/4/4c/PlanetFall2_2.32.oxz",
     "information_url":"https://wiki.alioth.net/index.php/Planetfall2_OXP",
-    "file_size":1971892,
-    "upload_date":1778117979,
+    "file_size":1972133,
+    "upload_date":1778395354,
     "tags":[
       "dockables",
       "system"
@@ -14413,7 +14413,7 @@
   },
   {
     "identifier":"oolite.oxp.phkb.BlackMarket",
-    "version":"1.5",
+    "version":"1.6",
     "required_oolite_version":"1.82",
     "maximum_oolite_version":null,
     "title":"Black Market",
@@ -14421,10 +14421,10 @@
     "category":"Mechanics",
     "author":"phkb",
     "license":"CC-BY-NC-SA 3.0",
-    "download_url":"https://wiki.alioth.net/img_auth.php/8/83/BlackMarket_1.5.oxz",
+    "download_url":"https://wiki.alioth.net/img_auth.php/4/48/BlackMarket_1.6.oxz",
     "information_url":"https://wiki.alioth.net/index.php/Black_Market",
-    "file_size":63861,
-    "upload_date":1770238885,
+    "file_size":67185,
+    "upload_date":1778395139,
     "tags":[
     ],
     "conflict_oxps":[
@@ -15914,7 +15914,7 @@
   },
   {
     "identifier":"oolite.oxp.phkb.LoadoutByCategory",
-    "version":"1.10",
+    "version":"1.11",
     "required_oolite_version":"1.82",
     "maximum_oolite_version":"1.90",
     "title":"Loadout By Category",
@@ -15924,8 +15924,8 @@
     "license":"CC-BY-SA 4.0",
     "download_url":"https://wiki.alioth.net/img_auth.php/1/1d/LoadoutByCategory_190.oxz",
     "information_url":"https://wiki.alioth.net/index.php/Loadout_by_Category",
-    "file_size":40264,
-    "upload_date":1766987179,
+    "file_size":40531,
+    "upload_date":1778395263,
     "tags":[
     ],
     "conflict_oxps":[
@@ -15937,7 +15937,7 @@
   },
   {
     "identifier":"oolite.oxp.phkb.LoadoutByCategory",
-    "version":"1.10",
+    "version":"1.11",
     "required_oolite_version":"1.91",
     "maximum_oolite_version":null,
     "title":"Loadout By Category",
@@ -15947,8 +15947,8 @@
     "license":"CC-BY-SA 4.0",
     "download_url":"https://wiki.alioth.net/img_auth.php/4/49/LoadoutByCategory.oxz",
     "information_url":"https://wiki.alioth.net/index.php/Loadout_by_Category",
-    "file_size":40305,
-    "upload_date":1766987190,
+    "file_size":40589,
+    "upload_date":1778395282,
     "tags":[
     ],
     "conflict_oxps":[
@@ -16595,7 +16595,7 @@
   },
   {
     "identifier":"oolite.oxp.phkb.ShipRepurchase",
-    "version":"0.6.4",
+    "version":"0.7",
     "required_oolite_version":"1.89",
     "maximum_oolite_version":null,
     "title":"Ship Repurchase",
@@ -16605,8 +16605,8 @@
     "license":"CC-BY-NC-SA 4.0",
     "download_url":"https://wiki.alioth.net/img_auth.php/e/ef/ShipRepurchase.oxz",
     "information_url":"https://wiki.alioth.net/index.php/Ship_Repurchase",
-    "file_size":26987,
-    "upload_date":1770238195,
+    "file_size":31182,
+    "upload_date":1778395234,
     "tags":[
     ],
     "conflict_oxps":[
@@ -16676,7 +16676,7 @@
   },
   {
     "identifier":"oolite.oxp.phkb.Smugglers_TGU",
-    "version":"2.10",
+    "version":"2.11",
     "required_oolite_version":"1.82",
     "maximum_oolite_version":null,
     "title":"Smugglers - The Galactic Underworld",
@@ -16684,10 +16684,10 @@
     "category":"Mechanics",
     "author":"phkb",
     "license":"CC-BY-NC-SA 3.0",
-    "download_url":"https://wiki.alioth.net/img_auth.php/a/aa/Smugglers_2.10.oxz",
+    "download_url":"https://wiki.alioth.net/img_auth.php/1/1f/Smugglers_2.11.oxz",
     "information_url":"https://wiki.alioth.net/index.php/Smugglers_-_The_Galactic_Underworld",
-    "file_size":144682,
-    "upload_date":1771464476,
+    "file_size":150055,
+    "upload_date":1778395177,
     "tags":[
     ],
     "conflict_oxps":[
@@ -21162,7 +21162,7 @@
   },
   {
     "identifier":"oolite.oxp.z.phkb.XenonReduxUI",
-    "version":"3.9",
+    "version":"3.10",
     "required_oolite_version":"1.80",
     "maximum_oolite_version":null,
     "title":"Xenon Redux UI",
@@ -21172,8 +21172,8 @@
     "license":"CC-BY-NC-SA 3.0",
     "download_url":"https://wiki.alioth.net/img_auth.php/9/90/XenonReduxUI.oxz",
     "information_url":"http://wiki.alioth.net/index.php/XenonUI",
-    "file_size":757941,
-    "upload_date":1774852764,
+    "file_size":757953,
+    "upload_date":1778395311,
     "tags":[
     ],
     "conflict_oxps":[
@@ -21216,7 +21216,7 @@
   },
   {
     "identifier":"oolite.oxp.z.phkb.XenonUI",
-    "version":"3.13",
+    "version":"3.14",
     "required_oolite_version":"1.80",
     "maximum_oolite_version":null,
     "title":"Xenon UI",
@@ -21226,8 +21226,8 @@
     "license":"CC-BY-NC-SA 3.0",
     "download_url":"https://wiki.alioth.net/img_auth.php/0/0b/XenonUI.oxz",
     "information_url":"http://wiki.alioth.net/index.php/XenonUI",
-    "file_size":7659426,
-    "upload_date":1774852788,
+    "file_size":7659440,
+    "upload_date":1778395340,
     "tags":[
     ],
     "conflict_oxps":[
