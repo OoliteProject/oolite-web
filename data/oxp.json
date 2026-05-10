@@ -8177,7 +8177,7 @@
   },
   {
     "identifier":"oolite.oxp.Reval.Defence_Rider_Drones",
-    "version":"1.1",
+    "version":"1.2",
     "required_oolite_version":"1.92",
     "maximum_oolite_version":null,
     "title":"Defence Rider Drones",
@@ -8187,8 +8187,8 @@
     "license":"CC-BY-NC-SA 4.0",
     "download_url":"https://wiki.alioth.net/img_auth.php/3/3e/Defence_Rider_Drones.oxz",
     "information_url":"https://wiki.alioth.net/index.php/Defence_Rider_Drones_OXZ",
-    "file_size":20713,
-    "upload_date":1778074157,
+    "file_size":21814,
+    "upload_date":1778350762,
     "tags":[
     ],
     "conflict_oxps":[
