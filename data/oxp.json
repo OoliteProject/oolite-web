@@ -7102,6 +7102,41 @@
     ]
   },
   {
+    "identifier":"oolite.oxp.Norby.Telescope",
+    "version":"1.15",
+    "required_oolite_version":"1.79",
+    "maximum_oolite_version":null,
+    "title":"Telescope",
+    "description":"Extended targeting and scanning features, masslock borders and sniper ring.",
+    "category":"Equipment",
+    "author":"Norby",
+    "license":"CC BY-NC-SA 4",
+    "download_url":"https://wiki.alioth.net/img_auth.php/7/77/Telescope_1.15.oxz",
+    "information_url":"http://wiki.alioth.net/index.php/Telescope",
+    "file_size":333291,
+    "upload_date":1610873341,
+    "tags":[
+    ],
+    "conflict_oxps":[
+    ],
+    "optional_oxps":[
+      {
+        "identifier":"oolite.oxp.Norby.Telescope_Extender",
+        "version":"1.0",
+        "maximum_version":null,
+        "description":"Extends the range of Telescope and scan even farther with Gravity Scanner."
+      },
+      {
+        "identifier":"oolite.oxp.Norby.CombatMFD",
+        "version":"1.9",
+        "maximum_version":null,
+        "description":"Show the newest target detected by Telescope in the last line of Combat MFD."
+      }
+    ],
+    "requires_oxps":[
+    ]
+  },
+  {
     "identifier":"oolite.oxp.Norby.Telescope_Extender",
     "version":"1.0",
     "required_oolite_version":"1.79",
@@ -13662,6 +13697,29 @@
     ]
   },
   {
+    "identifier":"oolite.oxp.davidkroc.Sidewinder-ng",
+    "version":"1.9",
+    "required_oolite_version":"1.86",
+    "maximum_oolite_version":null,
+    "title":"Sidewinder NG",
+    "description":"This expansion adds the Sidewinder NG to Oolite: a scaled-down version of the Sidewinder with a modern and compact (but slow to engage) Witchdrive making it the smaller ship capable of hyperspace jump. This expansion also adds the GalCop Police version of this ship and the possibility to start the game in Easy or Normal mode with a Sidewinder NG instead of the Cobra MK III.",
+    "category":"Ships",
+    "author":"DavidKroc",
+    "license":"CC-BY-NC-SA 4.0",
+    "download_url":"https://wiki.alioth.net/img_auth.php/d/d6/Oolite.oxp.davidkroc.sidewinder-ng.oxz",
+    "information_url":"https://wiki.alioth.net/index.php/Sidewinder_NG",
+    "file_size":12089924,
+    "upload_date":1778113315,
+    "tags":[
+    ],
+    "conflict_oxps":[
+    ],
+    "optional_oxps":[
+    ],
+    "requires_oxps":[
+    ]
+  },
+  {
     "identifier":"oolite.oxp.dertien.Z_GrOovY_SmallSystemStations",
     "version":"1.10",
     "required_oolite_version":"1.79",
@@ -14143,6 +14201,41 @@
     "optional_oxps":[
     ],
     "requires_oxps":[
+    ]
+  },
+  {
+    "identifier":"oolite.oxp.murgh.Lave",
+    "version":"2.4",
+    "required_oolite_version":"1.90",
+    "maximum_oolite_version":null,
+    "title":"Lave",
+    "description":"Adds some eye candy and background story to the Ooniverse by recreating elements from the Holdstock novella 'The Dark Wheel' in the Lave system.",
+    "category":"Ambience",
+    "author":"Murgh & phkb",
+    "license":"CC-BY-SA-NC 4.0",
+    "download_url":"https://wiki.alioth.net/img_auth.php/2/21/Lave_2.4.oxz",
+    "information_url":"https://wiki.alioth.net/index.php/Lave_OXP",
+    "file_size":59890775,
+    "upload_date":1770237917,
+    "tags":[
+    ],
+    "conflict_oxps":[
+      {
+        "identifier":"oolite.oxp.stranger.FPO_Lave",
+        "version":null,
+        "maximum_version":null,
+        "description":null
+      }
+    ],
+    "optional_oxps":[
+    ],
+    "requires_oxps":[
+      {
+        "identifier":"oolite.oxp.Thargoid.LaveAcademy",
+        "version":null,
+        "maximum_version":null,
+        "description":null
+      }
     ]
   },
   {
@@ -14848,7 +14941,7 @@
   },
   {
     "identifier":"oolite.oxp.phkb.ExpandedWeaponInfo",
-    "version":"1.1",
+    "version":"1.2",
     "required_oolite_version":"1.90",
     "maximum_oolite_version":null,
     "title":"Expanded Weapon Info",
@@ -14858,8 +14951,8 @@
     "license":"CC-BY-SA 4.0",
     "download_url":"https://wiki.alioth.net/img_auth.php/5/5f/ExpandedWeaponInfo.oxz",
     "information_url":"https://wiki.alioth.net/index.php/Expanded_Weapon_Info",
-    "file_size":8401,
-    "upload_date":1709981717,
+    "file_size":8818,
+    "upload_date":1778503977,
     "tags":[
     ],
     "conflict_oxps":[
@@ -16698,6 +16791,29 @@
     ]
   },
   {
+    "identifier":"oolite.oxp.phkb.SystemDataConfig",
+    "version":"1.3",
+    "required_oolite_version":"1.85",
+    "maximum_oolite_version":null,
+    "title":"System Data Config",
+    "description":"Allows OXP configuration of the layout of the System Data (F7) screen",
+    "category":"Miscellaneous",
+    "author":"phkb",
+    "license":null,
+    "download_url":"https://wiki.alioth.net/img_auth.php/5/58/SystemDataConfig.oxz",
+    "information_url":"https://wiki.alioth.net/index.php/System_Data_Config",
+    "file_size":5156,
+    "upload_date":1753398559,
+    "tags":[
+    ],
+    "conflict_oxps":[
+    ],
+    "optional_oxps":[
+    ],
+    "requires_oxps":[
+    ]
+  },
+  {
     "identifier":"oolite.oxp.phkb.TionislaOrbitalGraveyard",
     "version":"2.10",
     "required_oolite_version":"1.79",
@@ -16951,7 +17067,7 @@
   },
   {
     "identifier":"oolite.oxp.phkb.WireframeShipImages",
-    "version":"1.10",
+    "version":"1.11",
     "required_oolite_version":"1.79",
     "maximum_oolite_version":null,
     "title":"Wireframe Ship Images",
@@ -16961,8 +17077,8 @@
     "license":"CC-BY-SA-NC 4.0",
     "download_url":"https://wiki.alioth.net/img_auth.php/d/d9/WireframeShipImages.oxz",
     "information_url":"https://wiki.alioth.net/index.php/Wireframe_Ship_Images",
-    "file_size":25032109,
-    "upload_date":1777713456,
+    "file_size":24866250,
+    "upload_date":1778504077,
     "tags":[
     ],
     "conflict_oxps":[
@@ -19395,6 +19511,31 @@
     ]
   },
   {
+    "identifier":"oolite.oxp.spara.rescue_stations",
+    "version":"1.5.4",
+    "required_oolite_version":"1.80",
+    "maximum_oolite_version":null,
+    "title":"Rescue Stations",
+    "description":"The RRS Group is the leading specialist for official retrieval and rescue work. This OXP adds their stations and ships to some safe systems, where Commanders with a suitable reputation may find a variety of employment offers.",
+    "category":"Systems",
+    "author":"cim, spara",
+    "license":"CC-BY-NC-SA 3.0",
+    "download_url":"https://wiki.alioth.net/img_auth.php/0/05/Rescue_stations_1.5.4.oxz",
+    "information_url":"http://wiki.alioth.net/index.php/RRS_Group",
+    "file_size":40215295,
+    "upload_date":1610873215,
+    "tags":[
+      "missions",
+      "stations"
+    ],
+    "conflict_oxps":[
+    ],
+    "optional_oxps":[
+    ],
+    "requires_oxps":[
+    ]
+  },
+  {
     "identifier":"oolite.oxp.spara.sb-faves",
     "version":"1.1.3",
     "required_oolite_version":"1.79",
@@ -20257,6 +20398,29 @@
     "upload_date":1610873467,
     "tags":[
       "fuel"
+    ],
+    "conflict_oxps":[
+    ],
+    "optional_oxps":[
+    ],
+    "requires_oxps":[
+    ]
+  },
+  {
+    "identifier":"oolite.oxp.stranger.LeestiIsMoon8k",
+    "version":"0.3.0",
+    "required_oolite_version":"1.90",
+    "maximum_oolite_version":null,
+    "title":"Leesti is Moon 8k",
+    "description":"Converts Leesti to Moon using 8k diffuse + normal maps",
+    "category":"Ambience",
+    "author":"stranger",
+    "license":"CC-BY-NC-SA 3.0",
+    "download_url":"https://wiki.alioth.net/img_auth.php/0/0b/LeestiIsMoon8k.oxz",
+    "information_url":null,
+    "file_size":95723577,
+    "upload_date":1610873228,
+    "tags":[
     ],
     "conflict_oxps":[
     ],
