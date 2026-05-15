@@ -8384,18 +8384,18 @@
   },
   {
     "identifier":"oolite.oxp.Reval.Neutralizer",
-    "version":"1.1",
+    "version":"1.2",
     "required_oolite_version":"1.82",
     "maximum_oolite_version":null,
     "title":"NPB Neutralizer",
-    "description":"Galcop's Neutral Particle Beam weapon causes catastrophic internal damage - frying computers, disabling power, knocking out weapons and critical systems - while throwing off little energy as surface heat. A direct hit leaves the target a drifting derelict without triggering fatal explosions of fuel or ordinance.",
+    "description":"Galcop's Neutral Particle Beam weapon causes catastrophic internal damage - frying computers, disabling power, knocking out weapons and critical systems - while throwing off little energy as surface heat. A direct hit leaves the target a drifting hulk without triggering fatal explosions of fuel or ordinance.",
     "category":"Weapons",
     "author":"Reval",
     "license":"CC-BY-NC-SA 4.0",
     "download_url":"https://wiki.alioth.net/img_auth.php/f/f7/Neutralizer.oxz",
     "information_url":"https://wiki.alioth.net/index.php/NPB_Neutralizer_OXZ",
-    "file_size":8204,
-    "upload_date":1778638217,
+    "file_size":11222,
+    "upload_date":1778865890,
     "tags":[
     ],
     "conflict_oxps":[
