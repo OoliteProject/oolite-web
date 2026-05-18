@@ -2045,6 +2045,29 @@
     ]
   },
   {
+    "identifier":"oolite.oxp.CmdCheyd.DH_EmergencyWitchspaceInitiator",
+    "version":"1.0.1",
+    "required_oolite_version":"1.79",
+    "maximum_oolite_version":null,
+    "title":"Deep Horizon Emergency Witchspace Initiator",
+    "description":"Adds a prime-able piece of equipment that improves the countdown time required to initiate a hyperspace (or witchspace) jump, but at a cost.",
+    "category":"Equipment",
+    "author":"Cmd. Cheyd",
+    "license":"CC-BY-NC-ND 3.0",
+    "download_url":"https://wiki.alioth.net/img_auth.php/2/27/Deep_Horizon_Emergency_Witchspace_Initiator.oxz",
+    "information_url":"http://aegidian.org/bb/viewtopic.php?f=4&t=13526",
+    "file_size":9053,
+    "upload_date":1626941301,
+    "tags":[
+    ],
+    "conflict_oxps":[
+    ],
+    "optional_oxps":[
+    ],
+    "requires_oxps":[
+    ]
+  },
+  {
     "identifier":"oolite.oxp.CmdrWombat.Deposed",
     "version":"2.1",
     "required_oolite_version":"1.80",
@@ -2266,6 +2289,29 @@
     "information_url":"http://wiki.alioth.net/index.php/Randomshipnames_OXP",
     "file_size":86127,
     "upload_date":1610873245,
+    "tags":[
+    ],
+    "conflict_oxps":[
+    ],
+    "optional_oxps":[
+    ],
+    "requires_oxps":[
+    ]
+  },
+  {
+    "identifier":"oolite.oxp.Commander_McLane.Sell_Equipment",
+    "version":"1.5",
+    "required_oolite_version":"1.79",
+    "maximum_oolite_version":null,
+    "title":"Sell Equipment",
+    "description":"Allows to resell most original equipments and some more in stations with the same techlevel necessary to buy the equipment. The resell value is generally 60 per cent of the original recommended retail price.",
+    "category":"Equipment",
+    "author":"Commander McLane",
+    "license":"CC-BY-NC-SA 3.0",
+    "download_url":"https://wiki.alioth.net/img_auth.php/4/4a/Sell_Equipment_1.5.oxz",
+    "information_url":"http://wiki.alioth.net/index.php/Sell_equipment_OXP",
+    "file_size":6773,
+    "upload_date":1610873296,
     "tags":[
     ],
     "conflict_oxps":[
@@ -2876,6 +2922,41 @@
     ]
   },
   {
+    "identifier":"oolite.oxp.EricWalch.DeepSpaceDredger",
+    "version":"2.4.10",
+    "required_oolite_version":"1.79",
+    "maximum_oolite_version":null,
+    "title":"Deep Space Dredger",
+    "description":"Dredgers operate mainly in deep space as mobile shipyards and markets, scooping up wreckage, hydrogen and space dust. Salvage drones are offered to a clean player to launch as a missile to derelict ships. Super Dredgers can launch big ships also.",
+    "category":"Dockables",
+    "author":"Captain Berf, Eric Walch, Little Bear, Norby, Sabre, phkb, spara",
+    "license":"CC-BY-NC-SA 3.0",
+    "download_url":"https://wiki.alioth.net/img_auth.php/9/9a/DeepSpaceDredger.oxz",
+    "information_url":"http://wiki.alioth.net/index.php/Deep_Space_Dredger",
+    "file_size":20606423,
+    "upload_date":1610873387,
+    "tags":[
+    ],
+    "conflict_oxps":[
+    ],
+    "optional_oxps":[
+      {
+        "identifier":"oolite.oxp.Thargoid.Bigships",
+        "version":null,
+        "maximum_version":null,
+        "description":"Bigships"
+      },
+      {
+        "identifier":"oolite.oxp.Norby.Towbar",
+        "version":null,
+        "maximum_version":null,
+        "description":"Towbar"
+      }
+    ],
+    "requires_oxps":[
+    ]
+  },
+  {
     "identifier":"oolite.oxp.EricWalch.DeepSpacePirates",
     "version":"1.9",
     "required_oolite_version":"1.80",
@@ -3314,6 +3395,41 @@
         "version":"2.06",
         "maximum_version":null,
         "description":null
+      }
+    ]
+  },
+  {
+    "identifier":"oolite.oxp.Griff.Adder",
+    "version":"1.04.3",
+    "required_oolite_version":"1.80",
+    "maximum_oolite_version":null,
+    "title":"Griff Adder",
+    "description":"Griff Adder. Requires a video card capable of supporting Oolite Shaders. Note - this OXP suppresses the spawning of the Default Oolite Adder, replacing it with the version in this oxp",
+    "category":"Retextures",
+    "author":"Griff",
+    "license":"CC-BY-NC-SA 4.0",
+    "download_url":"https://wiki.alioth.net/img_auth.php/f/f5/Oolite.oxp.Griff.Adder.oxz",
+    "information_url":"http://wiki.alioth.net/index.php/Griff_Industries",
+    "file_size":2473971,
+    "upload_date":1610873516,
+    "tags":[
+    ],
+    "conflict_oxps":[
+    ],
+    "optional_oxps":[
+    ],
+    "requires_oxps":[
+      {
+        "identifier":"oolite.oxp.Griff.Griff_shipset_decals",
+        "version":"1.0",
+        "maximum_version":null,
+        "description":"Griff_shipset_decals"
+      },
+      {
+        "identifier":"oolite.oxp.Griff_alloys_and_wreckage",
+        "version":"1.0",
+        "maximum_version":null,
+        "description":"Griff Alloys and Wreckage"
       }
     ]
   },
@@ -4433,6 +4549,29 @@
     ]
   },
   {
+    "identifier":"oolite.oxp.Griff.Viper_Interceptor_exp",
+    "version":"1.0.3",
+    "required_oolite_version":"1.80",
+    "maximum_oolite_version":null,
+    "title":"Viper Interceptor_exp",
+    "description":"Highpoly remake of the Oolite Viper Interceptor. Requires a video card capable of supporting Oolite Shaders",
+    "category":"Ships",
+    "author":"Griff",
+    "license":"CC-BY-NC-SA 4.0",
+    "download_url":"https://wiki.alioth.net/img_auth.php/d/db/Oolite.oxp.Griff.Viper_Interceptor.oxz",
+    "information_url":"http://wiki.alioth.net/index.php/Griff_Industries",
+    "file_size":5388291,
+    "upload_date":1610873485,
+    "tags":[
+    ],
+    "conflict_oxps":[
+    ],
+    "optional_oxps":[
+    ],
+    "requires_oxps":[
+    ]
+  },
+  {
     "identifier":"oolite.oxp.Griff.Viper_exp",
     "version":"1.3.1",
     "required_oolite_version":"1.80",
@@ -4517,6 +4656,29 @@
         "maximum_version":null,
         "description":"Griff Alloys and Wreckage"
       }
+    ]
+  },
+  {
+    "identifier":"oolite.oxp.Griff_alloys_and_wreckage",
+    "version":"1.0.1",
+    "required_oolite_version":"1.80",
+    "maximum_oolite_version":null,
+    "title":"Griff Alloys and Wreckage",
+    "description":"Alloys and Wreckage. Requires a video card capable of supporting Oolite Shaders.",
+    "category":"Retextures",
+    "author":"Griff",
+    "license":"CC-BY-NC-SA 4.0",
+    "download_url":"https://wiki.alioth.net/img_auth.php/0/01/Oolite.oxp.Griff.Alloys_and_wreckage.oxz",
+    "information_url":"http://wiki.alioth.net/index.php/Griff_Industries",
+    "file_size":1117783,
+    "upload_date":1610873209,
+    "tags":[
+    ],
+    "conflict_oxps":[
+    ],
+    "optional_oxps":[
+    ],
+    "requires_oxps":[
     ]
   },
   {
@@ -4619,6 +4781,43 @@
     ]
   },
   {
+    "identifier":"oolite.oxp.KillerWolf.SothisTC",
+    "version":"2.0",
+    "required_oolite_version":"1.90",
+    "maximum_oolite_version":null,
+    "title":"Sothis Trade Center",
+    "description":"A large space station often used for corporate offices, a six-star hotel, a huge orbital shopping mall, as well as numerous high class luxury accommodations for the rich and famous.",
+    "category":"Dockables",
+    "author":"Killer Wolf, spara, phkb",
+    "license":"Killer Wolf special",
+    "download_url":"https://wiki.alioth.net/img_auth.php/8/8c/SothisTC_2.0.oxz",
+    "information_url":"https://wiki.alioth.net/index.php/Sothis",
+    "file_size":16923690,
+    "upload_date":1779080966,
+    "tags":[
+      "station",
+      "buoy"
+    ],
+    "conflict_oxps":[
+      {
+        "identifier":"oolite.oxp.Spara.SothisTC",
+        "version":null,
+        "maximum_version":null,
+        "description":null
+      },
+      {
+        "identifier":"oolite.oxp.KillerWolf.Sothis_station",
+        "version":null,
+        "maximum_version":null,
+        "description":null
+      }
+    ],
+    "optional_oxps":[
+    ],
+    "requires_oxps":[
+    ]
+  },
+  {
     "identifier":"oolite.oxp.Killer_Wolf.Adder_Mark_III",
     "version":"1.52",
     "required_oolite_version":"1.88",
@@ -4674,6 +4873,29 @@
     ]
   },
   {
+    "identifier":"oolite.oxp.Knotty.RealisticStars",
+    "version":"1.1",
+    "required_oolite_version":"1.80",
+    "maximum_oolite_version":null,
+    "title":"Reaistic Stars",
+    "description":"To give OoLite a more realistic Ambience, this OXP sets various universal settings to match the colours we can see in the night sky. The numbers of stars has also been set to match what the average eye can see in this part of the galaxy (which would vary if you were moving significant distances in a real galaxy, but not over 50 light years :-) ), with a more natural light ambient_level, and the Sun's been moved to give it a more realistic size when near the planet (you might notice this when skimming)",
+    "category":"Ambience",
+    "author":"Knotty",
+    "license":"CC-BY-NC-SA 4.0",
+    "download_url":"https://wiki.alioth.net/img_auth.php/4/41/RealisticStars.oxz",
+    "information_url":"http://wiki.alioth.net/index.php/Realistic_Stars",
+    "file_size":20095,
+    "upload_date":1610873283,
+    "tags":[
+    ],
+    "conflict_oxps":[
+    ],
+    "optional_oxps":[
+    ],
+    "requires_oxps":[
+    ]
+  },
+  {
     "identifier":"oolite.oxp.Knotty.RealisticStarsSSC",
     "version":"1.1",
     "required_oolite_version":"1.80",
@@ -4689,6 +4911,29 @@
     "upload_date":1610873230,
     "tags":[
       "Stars"
+    ],
+    "conflict_oxps":[
+    ],
+    "optional_oxps":[
+    ],
+    "requires_oxps":[
+    ]
+  },
+  {
+    "identifier":"oolite.oxp.Knotty.mvm_veloceeappuntita",
+    "version":"1.0",
+    "required_oolite_version":"1.80",
+    "maximum_oolite_version":null,
+    "title":"MvM Veloce e Appuntita",
+    "description":"The Marziani verdi Martelli Veloce e Appuntita is the utimate super Grand tourer for exhilarating performace and unparalleled comfort. It's smooth lines hide the raw power of the most powerful sub light engines placed in a spaceframe, and it's tentacle crafted cabin ensures absolute luxury wherever you go. A multitude of colour options with a high spec of standard features (*convertable option no longer available). For even greater performance, a Sport Edition is avaliable, with 10% higher top speed.",
+    "category":"Ships",
+    "author":"Knotty",
+    "license":"CC-BY-NC-SA 4.0",
+    "download_url":"https://wiki.alioth.net/img_auth.php/b/b3/MvM_veloceeappuntita.oxz",
+    "information_url":"http://wiki.alioth.net/index.php/Mvm_veloceeappuntita",
+    "file_size":2192347,
+    "upload_date":1610873448,
+    "tags":[
     ],
     "conflict_oxps":[
     ],
@@ -7283,6 +7528,29 @@
     ]
   },
   {
+    "identifier":"oolite.oxp.Okti.Coyotes_Run",
+    "version":"2.6",
+    "required_oolite_version":"1.82",
+    "maximum_oolite_version":null,
+    "title":"Coyote's Run",
+    "description":"A mission pack based on the Oolite fiction short story 'Coyote', by El Viejo.",
+    "category":"Missions",
+    "author":"Okti",
+    "license":"CC-BY-SA-NC 3.0",
+    "download_url":"https://wiki.alioth.net/img_auth.php/8/8c/Coyotes_Run_2.6.oxz",
+    "information_url":"https://wiki.alioth.net/index.php/Coyote%27s_Run",
+    "file_size":7329896,
+    "upload_date":1770187064,
+    "tags":[
+    ],
+    "conflict_oxps":[
+    ],
+    "optional_oxps":[
+    ],
+    "requires_oxps":[
+    ]
+  },
+  {
     "identifier":"oolite.oxp.Pagroove.FamousPlanets",
     "version":"3.1",
     "required_oolite_version":"1.90",
@@ -7296,6 +7564,29 @@
     "information_url":"http://wiki.alioth.net/index.php/Famous_Planets_OXP",
     "file_size":236772,
     "upload_date":1751731203,
+    "tags":[
+    ],
+    "conflict_oxps":[
+    ],
+    "optional_oxps":[
+    ],
+    "requires_oxps":[
+    ]
+  },
+  {
+    "identifier":"oolite.oxp.Pagroove.Superhub",
+    "version":"1.6.3",
+    "required_oolite_version":"1.82",
+    "maximum_oolite_version":null,
+    "title":"Superhub",
+    "description":"This huge station in the most productive systems is far more than a space port. It's a modern hospital, office space or even an industrial park.",
+    "category":"Dockables",
+    "author":"Pagroove",
+    "license":"CC BY-NC-SA 4",
+    "download_url":"https://wiki.alioth.net/img_auth.php/b/b1/Superhub_1.6.3.oxz",
+    "information_url":"http://wiki.alioth.net/index.php/Superhub",
+    "file_size":9356670,
+    "upload_date":1610873443,
     "tags":[
     ],
     "conflict_oxps":[
@@ -8130,7 +8421,7 @@
   },
   {
     "identifier":"oolite.oxp.Reval.Neutralizer",
-    "version":"1.2",
+    "version":"1.2a",
     "required_oolite_version":"1.82",
     "maximum_oolite_version":null,
     "title":"NPB Neutralizer",
@@ -8140,8 +8431,8 @@
     "license":"CC-BY-NC-SA 4.0",
     "download_url":"https://wiki.alioth.net/img_auth.php/f/f7/Neutralizer.oxz",
     "information_url":"https://wiki.alioth.net/index.php/NPB_Neutralizer_OXZ",
-    "file_size":11222,
-    "upload_date":1778865890,
+    "file_size":11296,
+    "upload_date":1779076853,
     "tags":[
     ],
     "conflict_oxps":[
@@ -9777,6 +10068,31 @@
     ]
   },
   {
+    "identifier":"oolite.oxp.Thargoid.Gates",
+    "version":"1.13",
+    "required_oolite_version":"1.79",
+    "maximum_oolite_version":null,
+    "title":"Gates",
+    "description":"Adds a pair of jump gates to suitable tech/govt systems, enabling quick and safe transfer by-passing route one. All for only 250Cr per journey.",
+    "category":"Activities",
+    "author":"Thargoid",
+    "license":"Creative Commons Attribution - Non-Commercial - Share Alike 3.0 license with clauses - see readme file",
+    "download_url":"https://wiki.alioth.net/img_auth.php/d/d0/Gates_1.13.oxz",
+    "information_url":"http://wiki.alioth.net/index.php/Gates_OXP",
+    "file_size":367862,
+    "upload_date":1610873477,
+    "tags":[
+      "activities",
+      "system"
+    ],
+    "conflict_oxps":[
+    ],
+    "optional_oxps":[
+    ],
+    "requires_oxps":[
+    ]
+  },
+  {
     "identifier":"oolite.oxp.Thargoid.HiredGuns",
     "version":"2.02",
     "required_oolite_version":"1.79",
@@ -10167,6 +10483,81 @@
     "information_url":"http://wiki.alioth.net/index.php/Planetary_Compass_OXP",
     "file_size":3096,
     "upload_date":1610873237,
+    "tags":[
+      "equipment",
+      "system"
+    ],
+    "conflict_oxps":[
+    ],
+    "optional_oxps":[
+    ],
+    "requires_oxps":[
+    ]
+  },
+  {
+    "identifier":"oolite.oxp.Thargoid.PlanetaryCompassPackB",
+    "version":"1.00",
+    "required_oolite_version":"1.79",
+    "maximum_oolite_version":null,
+    "title":"Planetary Compass Name Pack B",
+    "description":"Add-on name pack B to Planetary Compass OXP",
+    "category":"Equipment",
+    "author":"Thargoid",
+    "license":"Creative Commons Attribution - Non-Commercial - Share Alike 3.0 license with clauses - see readme file",
+    "download_url":"https://wiki.alioth.net/img_auth.php/e/e5/Planetary_Compass_Name_Pack_B.oxz",
+    "information_url":"http://wiki.alioth.net/index.php/Planetary_Compass_OXP",
+    "file_size":3001,
+    "upload_date":1610873499,
+    "tags":[
+      "equipment",
+      "system"
+    ],
+    "conflict_oxps":[
+    ],
+    "optional_oxps":[
+    ],
+    "requires_oxps":[
+    ]
+  },
+  {
+    "identifier":"oolite.oxp.Thargoid.PlanetaryCompassPackC",
+    "version":"1.00",
+    "required_oolite_version":"1.79",
+    "maximum_oolite_version":null,
+    "title":"Planetary Compass Name Pack C",
+    "description":"Add-on name pack C to Planetary Compass OXP",
+    "category":"Equipment",
+    "author":"Thargoid",
+    "license":"Creative Commons Attribution - Non-Commercial - Share Alike 3.0 license with clauses - see readme file",
+    "download_url":"https://wiki.alioth.net/img_auth.php/4/45/Planetary_Compass_Name_Pack_C.oxz",
+    "information_url":"http://wiki.alioth.net/index.php/Planetary_Compass_OXP",
+    "file_size":2906,
+    "upload_date":1610873286,
+    "tags":[
+      "equipment",
+      "system"
+    ],
+    "conflict_oxps":[
+    ],
+    "optional_oxps":[
+    ],
+    "requires_oxps":[
+    ]
+  },
+  {
+    "identifier":"oolite.oxp.Thargoid.PlanetaryCompassPackD",
+    "version":"1.00",
+    "required_oolite_version":"1.79",
+    "maximum_oolite_version":null,
+    "title":"Planetary Compass Name Pack D",
+    "description":"Add-on name pack D to Planetary Compass OXP",
+    "category":"Equipment",
+    "author":"Thargoid",
+    "license":"Creative Commons Attribution - Non-Commercial - Share Alike 3.0 license with clauses - see readme file",
+    "download_url":"https://wiki.alioth.net/img_auth.php/e/eb/Planetary_Compass_Name_Pack_D.oxz",
+    "information_url":"http://wiki.alioth.net/index.php/Planetary_Compass_OXP",
+    "file_size":2950,
+    "upload_date":1610873505,
     "tags":[
       "equipment",
       "system"
@@ -11159,6 +11550,35 @@
       "market"
     ],
     "conflict_oxps":[
+    ],
+    "optional_oxps":[
+    ],
+    "requires_oxps":[
+    ]
+  },
+  {
+    "identifier":"oolite.oxp.Wildeblood.Display_Reputation",
+    "version":"1.5",
+    "required_oolite_version":"1.82",
+    "maximum_oolite_version":null,
+    "title":"Display Reputation",
+    "description":"Displays your current reputations as a passenger, parcel and contract cargo carrier under the heading 'Reputation' on your ship's manifest screen.",
+    "category":"Ambience",
+    "author":"Wildeblood",
+    "license":"CC BY-NC-SA 4.0",
+    "download_url":"https://wiki.alioth.net/img_auth.php/9/94/Display_Reputation.oxz",
+    "information_url":"http://wiki.alioth.net/index.php/Display_Reputation",
+    "file_size":1998,
+    "upload_date":1755074371,
+    "tags":[
+    ],
+    "conflict_oxps":[
+      {
+        "identifier":"oolite.oxp.Commander_McLane.Display_reputation",
+        "version":null,
+        "maximum_version":null,
+        "description":null
+      }
     ],
     "optional_oxps":[
     ],
@@ -14075,6 +14495,29 @@
     ]
   },
   {
+    "identifier":"oolite.oxp.phkb.BountySystem",
+    "version":"0.19",
+    "required_oolite_version":"1.82",
+    "maximum_oolite_version":null,
+    "title":"Bounty System",
+    "description":"(WIP) This OXP seeks to add depth and meaning to the bounty system by making crimes persistent (removing the old mechanic of having bounties slowly disappear over time). Bounties might persist, but they are not always visible in every location. A Warrant Scanner can be used by the player or NPC's to uncover bounties registered in other systems.",
+    "category":"Mechanics",
+    "author":"phkb",
+    "license":"CC-BY-NC-SA 4.0",
+    "download_url":"https://wiki.alioth.net/img_auth.php/5/5d/BountySystem.oxz",
+    "information_url":"http://wiki.alioth.net/index.php/Bounty_System",
+    "file_size":84242,
+    "upload_date":1776658457,
+    "tags":[
+    ],
+    "conflict_oxps":[
+    ],
+    "optional_oxps":[
+    ],
+    "requires_oxps":[
+    ]
+  },
+  {
     "identifier":"oolite.oxp.phkb.BroadcastCommsMFD",
     "version":"1.4",
     "required_oolite_version":"1.79",
@@ -14626,6 +15069,75 @@
     ]
   },
   {
+    "identifier":"oolite.oxp.phkb.FactoryPaintJobs_Anaconda",
+    "version":"1.2",
+    "required_oolite_version":"1.80",
+    "maximum_oolite_version":null,
+    "title":"phkb's Factory Paint Jobs: Anaconda",
+    "description":"This bundle adds 36 new paint jobs for the Anaconda.",
+    "category":"Retextures",
+    "author":"phkb",
+    "license":"CC-BY-SA-NC 4.0",
+    "download_url":"https://wiki.alioth.net/img_auth.php/2/2f/FactoryPaintJobs_Anaconda_1.2.oxz",
+    "information_url":"https://wiki.alioth.net/index.php/Factory_Paint_Jobs",
+    "file_size":27669189,
+    "upload_date":1700192340,
+    "tags":[
+    ],
+    "conflict_oxps":[
+    ],
+    "optional_oxps":[
+    ],
+    "requires_oxps":[
+    ]
+  },
+  {
+    "identifier":"oolite.oxp.phkb.FactoryPaintJobs_AspMk2",
+    "version":"1.0",
+    "required_oolite_version":"1.80",
+    "maximum_oolite_version":null,
+    "title":"phkb's Factory Paint Jobs: Asp Mk 2",
+    "description":"This bundle adds 27 new paint jobs for the Asp Mk 2.",
+    "category":"Retextures",
+    "author":"phkb",
+    "license":"CC-BY-SA-NC 4.0",
+    "download_url":"https://wiki.alioth.net/img_auth.php/3/3f/FactoryPaintJobs_Asp.oxz",
+    "information_url":null,
+    "file_size":24212415,
+    "upload_date":1656895655,
+    "tags":[
+    ],
+    "conflict_oxps":[
+    ],
+    "optional_oxps":[
+    ],
+    "requires_oxps":[
+    ]
+  },
+  {
+    "identifier":"oolite.oxp.phkb.FactoryPaintJobs_Boa",
+    "version":"1.2",
+    "required_oolite_version":"1.80",
+    "maximum_oolite_version":null,
+    "title":"phkb's Factory Paint Jobs: Boa",
+    "description":"This bundle adds 36 new paint jobs for the Boa.",
+    "category":"Retextures",
+    "author":"phkb",
+    "license":"CC-BY-SA-NC 4.0",
+    "download_url":"https://wiki.alioth.net/img_auth.php/f/f5/FactoryPaintJobs_Boa_1.2.oxz",
+    "information_url":"https://wiki.alioth.net/index.php/Factory_Paint_Jobs",
+    "file_size":27291814,
+    "upload_date":1700192290,
+    "tags":[
+    ],
+    "conflict_oxps":[
+    ],
+    "optional_oxps":[
+    ],
+    "requires_oxps":[
+    ]
+  },
+  {
     "identifier":"oolite.oxp.phkb.FactoryPaintJobs_BoaMk2",
     "version":"1.2",
     "required_oolite_version":"1.80",
@@ -14856,6 +15368,43 @@
     "optional_oxps":[
     ],
     "requires_oxps":[
+    ]
+  },
+  {
+    "identifier":"oolite.oxp.phkb.FeudalPlanetFall",
+    "version":"1.6",
+    "required_oolite_version":"1.90",
+    "maximum_oolite_version":null,
+    "title":"Feudal PlanetFall Customisations",
+    "description":"Creates custom PlanetFall configurations for select Feudal Systems",
+    "category":"Dockables",
+    "author":"phkb",
+    "license":"CC-BY-SA-NC 4.0",
+    "download_url":"https://wiki.alioth.net/img_auth.php/7/75/Feudal_PlanetFall2_1.6.oxz",
+    "information_url":"http://wiki.alioth.net/index.php/Planetfall2_OXP",
+    "file_size":10909044,
+    "upload_date":1775870730,
+    "tags":[
+      "dockables",
+      "system"
+    ],
+    "conflict_oxps":[
+    ],
+    "optional_oxps":[
+    ],
+    "requires_oxps":[
+      {
+        "identifier":"oolite.oxp.Thargoid.Planetfall",
+        "version":"2.0",
+        "maximum_version":null,
+        "description":null
+      },
+      {
+        "identifier":"oolite.oxp.Ramirez.FeudalStates",
+        "version":null,
+        "maximum_version":null,
+        "description":null
+      }
     ]
   },
   {
@@ -15903,6 +16452,29 @@
         "maximum_version":null,
         "description":null
       }
+    ]
+  },
+  {
+    "identifier":"oolite.oxp.phkb.RemoveIndividualPylon",
+    "version":"1.0",
+    "required_oolite_version":"1.80",
+    "maximum_oolite_version":null,
+    "title":"Remove Individual Pylon",
+    "description":"Allows an individual pylon-mounted weapon to be removed.",
+    "category":"Equipment",
+    "author":"phkb",
+    "license":"CC BY-NC-SA 4.0",
+    "download_url":"https://wiki.alioth.net/img_auth.php/7/7e/RemoveIndividualPylon.oxz",
+    "information_url":"http://wiki.alioth.net/index.php/Remove_Individual_Pylon_OXP",
+    "file_size":2897,
+    "upload_date":1627014844,
+    "tags":[
+    ],
+    "conflict_oxps":[
+    ],
+    "optional_oxps":[
+    ],
+    "requires_oxps":[
     ]
   },
   {
@@ -19150,6 +19722,29 @@
     ]
   },
   {
+    "identifier":"oolite.oxp.spara.station_validator",
+    "version":"1.1",
+    "required_oolite_version":"1.79",
+    "maximum_oolite_version":null,
+    "title":"Station Validator",
+    "description":"Tracks when stations are destroyed and then the station OXP's can query how much time has passed since destruction to enable a station to shown as partially built.",
+    "category":"Miscellaneous",
+    "author":"spara",
+    "license":"CC-BY-NC-SA 3.0",
+    "download_url":"https://wiki.alioth.net/img_auth.php/2/23/StationValidator.oxz",
+    "information_url":"https://wiki.alioth.net/index.php/Station_Validator",
+    "file_size":4706,
+    "upload_date":1779080996,
+    "tags":[
+    ],
+    "conflict_oxps":[
+    ],
+    "optional_oxps":[
+    ],
+    "requires_oxps":[
+    ]
+  },
+  {
     "identifier":"oolite.oxp.spara.stations_for_extra_planets",
     "version":"2.1",
     "required_oolite_version":"1.84",
@@ -19638,6 +20233,29 @@
     "information_url":null,
     "file_size":15108378,
     "upload_date":1610873242,
+    "tags":[
+    ],
+    "conflict_oxps":[
+    ],
+    "optional_oxps":[
+    ],
+    "requires_oxps":[
+    ]
+  },
+  {
+    "identifier":"oolite.oxp.stranger.FPO_Zaonce",
+    "version":"0.2.0",
+    "required_oolite_version":"1.90",
+    "maximum_oolite_version":null,
+    "title":"FPO Zaonce",
+    "description":"4K custom texture of Zaonce with diffuse and specular maps.",
+    "category":"Ambience",
+    "author":"stranger",
+    "license":"CC-BY-NC-SA 3.0",
+    "download_url":"https://wiki.alioth.net/img_auth.php/b/b2/FPO_Zaonce.oxz",
+    "information_url":null,
+    "file_size":16602303,
+    "upload_date":1610873447,
     "tags":[
     ],
     "conflict_oxps":[
@@ -20564,6 +21182,29 @@
     "information_url":"http://www.aegidian.org/bb/viewtopic.php?f=4&t=9686&start=750",
     "file_size":1790246,
     "upload_date":1610873503,
+    "tags":[
+    ],
+    "conflict_oxps":[
+    ],
+    "optional_oxps":[
+    ],
+    "requires_oxps":[
+    ]
+  },
+  {
+    "identifier":"oolite.oxp.wesfire.StarSystemLaneIndicator",
+    "version":"0.8",
+    "required_oolite_version":"1.86",
+    "maximum_oolite_version":null,
+    "title":"Star System Lane Indicator",
+    "description":"An upgrade to the compass, indicating lane position of spaceship in the current star system and/or a beacon to the nearest point of a lane.",
+    "category":"Equipment",
+    "author":"wesfire",
+    "license":"CC BY-NC-SA 4",
+    "download_url":"https://wiki.alioth.net/img_auth.php/4/42/StarSystemLaneIndicator.oxz",
+    "information_url":null,
+    "file_size":5206,
+    "upload_date":1610873283,
     "tags":[
     ],
     "conflict_oxps":[
@@ -22658,6 +23299,43 @@
     ]
   },
   {
+    "identifier":"oolite.oxp.zzz.Montana05.SIRF",
+    "version":"2.62",
+    "required_oolite_version":"1.88",
+    "maximum_oolite_version":null,
+    "title":"S.I.R.F.",
+    "description":"System Independent Repair Facilities could be found in medium to high Tech level systems with reasonably safe governments. They provide alternative shipyards and trading. This package includes 3 NPC ships as well, for more details please check the wiki page.",
+    "category":"Dockables",
+    "author":"milinks, tinker, Montana05",
+    "license":"CC BY-NC-SA 4.0",
+    "download_url":"https://wiki.alioth.net/img_auth.php/8/84/Oolite.oxp.zzz.Montana05.SIRF.OXZ",
+    "information_url":"http://wiki.alioth.net/index.php/S.I.R.F.",
+    "file_size":33512228,
+    "upload_date":1628743073,
+    "tags":[
+      "station",
+      "ships"
+    ],
+    "conflict_oxps":[
+      {
+        "identifier":"oolite.oxp.zzz.Montana05.SIRF_compact",
+        "version":"1.00",
+        "maximum_version":null,
+        "description":"This original version and the simplified version are using the same keys and extensions and therefore can't coexist."
+      }
+    ],
+    "optional_oxps":[
+    ],
+    "requires_oxps":[
+      {
+        "identifier":"oolite.oxp.zzz.Montana05.resource_pack_01",
+        "version":"0.53",
+        "maximum_version":null,
+        "description":"Adds effects, additional cargo and commodities plus new escape pods required by this OXP."
+      }
+    ]
+  },
+  {
     "identifier":"oolite.oxp.zzz.Montana05.SIRF_compact",
     "version":"1.01",
     "required_oolite_version":"1.88",
@@ -22962,6 +23640,29 @@
     "information_url":"http://wiki.alioth.net/index.php/Outrider_(Oolite)",
     "file_size":14351618,
     "upload_date":1656994380,
+    "tags":[
+    ],
+    "conflict_oxps":[
+    ],
+    "optional_oxps":[
+    ],
+    "requires_oxps":[
+    ]
+  },
+  {
+    "identifier":"tws_satnav",
+    "version":"0.0.2",
+    "required_oolite_version":"1.80",
+    "maximum_oolite_version":null,
+    "title":"Galactic SatNav",
+    "description":"A navigation aid for long journeys",
+    "category":"Equipment",
+    "author":"Wyn Sleeman",
+    "license":"CC-BY-NC-SA 4.0",
+    "download_url":"https://wiki.alioth.net/img_auth.php/a/ac/Tws_satnav.oxz",
+    "information_url":"http://wiki.alioth.net/index.php/GalacticSatNav",
+    "file_size":3204,
+    "upload_date":1610873407,
     "tags":[
     ],
     "conflict_oxps":[
