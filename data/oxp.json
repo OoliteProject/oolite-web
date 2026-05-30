@@ -8558,6 +8558,29 @@
     ]
   },
   {
+    "identifier":"oolite.oxp.Reval.Witch-Charger",
+    "version":"1.0",
+    "required_oolite_version":"1.82",
+    "maximum_oolite_version":null,
+    "title":"Witch-Charger",
+    "description":"This emergency capacitor conducts potential energy from the Witchdrive to shore up shield resistance when hull integrity is critical. If the ship remains under fire, the unit's last-ditch replenishing action will finally drain all fuel.",
+    "category":"Equipment",
+    "author":"Reval",
+    "license":"CC-BY-NC-SA 4.0",
+    "download_url":"https://wiki.alioth.net/img_auth.php/b/b5/Witch-Charger.oxz",
+    "information_url":"https://wiki.alioth.net/index.php/Witch-Charger_OXZ",
+    "file_size":5305,
+    "upload_date":1780112798,
+    "tags":[
+    ],
+    "conflict_oxps":[
+    ],
+    "optional_oxps":[
+    ],
+    "requires_oxps":[
+    ]
+  },
+  {
     "identifier":"oolite.oxp.RobertTodd.Taranis",
     "version":"2.1",
     "required_oolite_version":"1.74",
