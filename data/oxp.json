@@ -8214,7 +8214,7 @@
   },
   {
     "identifier":"oolite.oxp.Reval.Defence_Rider_Drones",
-    "version":"1.8",
+    "version":"1.9",
     "required_oolite_version":"1.92",
     "maximum_oolite_version":null,
     "title":"Defence Rider Drones",
@@ -8224,8 +8224,8 @@
     "license":"CC-BY-NC-SA 4.0",
     "download_url":"https://wiki.alioth.net/img_auth.php/3/3e/Defence_Rider_Drones.oxz",
     "information_url":"https://wiki.alioth.net/index.php/Defence_Rider_Drones_OXZ",
-    "file_size":27569,
-    "upload_date":1780371899,
+    "file_size":27584,
+    "upload_date":1780640449,
     "tags":[
     ],
     "conflict_oxps":[
@@ -8467,7 +8467,7 @@
   },
   {
     "identifier":"oolite.oxp.Reval.PT-BVR-Missile",
-    "version":"1.3",
+    "version":"1.4",
     "required_oolite_version":"1.92",
     "maximum_oolite_version":null,
     "title":"PT-BVR Missile",
@@ -8477,8 +8477,8 @@
     "license":"CC-BY-NC-SA 4.0",
     "download_url":"https://wiki.alioth.net/img_auth.php/e/e5/PT-BVRM_Pteranodon.oxz",
     "information_url":"https://wiki.alioth.net/index.php/PT-BVRM_Pteranodon_OXZ",
-    "file_size":21235,
-    "upload_date":1780372477,
+    "file_size":24044,
+    "upload_date":1780639477,
     "tags":[
     ],
     "conflict_oxps":[
