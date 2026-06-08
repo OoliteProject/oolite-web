@@ -13451,6 +13451,29 @@
     ]
   },
   {
+    "identifier":"oolite.oxp.cim.camera-drones",
+    "version":"1.4",
+    "required_oolite_version":"1.77",
+    "maximum_oolite_version":null,
+    "title":"Camera Drones",
+    "description":"Drone cameras which provide a variety of alternative external views for your ship",
+    "category":"Equipment",
+    "author":"cim",
+    "license":"CC-BY-SA 3.0",
+    "download_url":"https://cim.sotl.org.uk/games/files/oolite/CameraDrones_1.4.oxz",
+    "information_url":"http://wiki.alioth.net/index.php/Camera_Drones",
+    "file_size":3890,
+    "upload_date":1403455179,
+    "tags":[
+    ],
+    "conflict_oxps":[
+    ],
+    "optional_oxps":[
+    ],
+    "requires_oxps":[
+    ]
+  },
+  {
     "identifier":"oolite.oxp.cim.combat-simulator",
     "version":"1.2",
     "required_oolite_version":"1.79",
@@ -13480,6 +13503,75 @@
     ]
   },
   {
+    "identifier":"oolite.oxp.cim.comms-pack-a",
+    "version":"0.5",
+    "required_oolite_version":"1.79",
+    "maximum_oolite_version":null,
+    "title":"Communications Pack A",
+    "description":"Adds lots of extra NPC communications to the game, increasing the variety of existing messages and also adding several new ones.",
+    "category":"Ambience",
+    "author":"cim",
+    "license":"MIT",
+    "download_url":"https://cim.sotl.org.uk/games/files/oolite/Comms_Pack_A_0.5.oxz",
+    "information_url":null,
+    "file_size":25107,
+    "upload_date":1404062251,
+    "tags":[
+    ],
+    "conflict_oxps":[
+    ],
+    "optional_oxps":[
+    ],
+    "requires_oxps":[
+    ]
+  },
+  {
+    "identifier":"oolite.oxp.cim.cotbs",
+    "version":"1.0.2",
+    "required_oolite_version":"1.79",
+    "maximum_oolite_version":null,
+    "title":"Curse of the Black Sunspot",
+    "description":"An informal mission for experienced players set in Chart 3",
+    "category":"Missions",
+    "author":"cim",
+    "license":"CC-BY-SA 3.0",
+    "download_url":"https://cim.sotl.org.uk/games/files/oolite/Curse_of_the_Black_Sunspot_1.0.2.oxz",
+    "information_url":"http://wiki.alioth.net/index.php/Curse_of_the_Black_Sunspot",
+    "file_size":651873,
+    "upload_date":1397678091,
+    "tags":[
+    ],
+    "conflict_oxps":[
+    ],
+    "optional_oxps":[
+    ],
+    "requires_oxps":[
+    ]
+  },
+  {
+    "identifier":"oolite.oxp.cim.energy-bomb",
+    "version":"1.0.2",
+    "required_oolite_version":"1.79",
+    "maximum_oolite_version":null,
+    "title":"Energy Bomb",
+    "description":"The original indiscriminate superweapon. Available as primable equipment from TL:8 systems and above. Previous versions of this expansion pack are not compatible with Oolite 1.79 or later.",
+    "category":"Weapons",
+    "author":"cim",
+    "license":"CC-BY-NC-SA 3.0",
+    "download_url":"https://cim.sotl.org.uk/games/files/oolite/EnergyBomb_1.0.2.oxz",
+    "information_url":"http://wiki.alioth.net/index.php/Energy_Bomb",
+    "file_size":1906,
+    "upload_date":1417342940,
+    "tags":[
+    ],
+    "conflict_oxps":[
+    ],
+    "optional_oxps":[
+    ],
+    "requires_oxps":[
+    ]
+  },
+  {
     "identifier":"oolite.oxp.cim.escort-formations",
     "version":"1.3",
     "required_oolite_version":"1.79",
@@ -13500,6 +13592,35 @@
     "optional_oxps":[
     ],
     "requires_oxps":[
+    ]
+  },
+  {
+    "identifier":"oolite.oxp.cim.extracts-tre-clan",
+    "version":"1.2",
+    "required_oolite_version":"1.79",
+    "maximum_oolite_version":null,
+    "title":"Extracts from the Tre Clan",
+    "description":"Adds the 'Extracts from the Tre Clan Addresses on Interplanetary Life' book to your ship's library, containing selected lectures from an experienced trader.",
+    "category":"Equipment",
+    "author":"cim",
+    "license":"CC-BY-SA 3.0",
+    "download_url":"https://cim.sotl.org.uk/games/files/oolite/Library_Extracts_1.2.oxz",
+    "information_url":null,
+    "file_size":36848,
+    "upload_date":1389545723,
+    "tags":[
+    ],
+    "conflict_oxps":[
+    ],
+    "optional_oxps":[
+    ],
+    "requires_oxps":[
+      {
+        "identifier":"oolite.oxp.cim.ships-library",
+        "version":"0.6",
+        "maximum_version":null,
+        "description":"Requires the Ship's Library to be read"
+      }
     ]
   },
   {
@@ -13602,6 +13723,29 @@
         "maximum_version":null,
         "description":"Configuration options can be adjusted via this OXP."
       }
+    ],
+    "requires_oxps":[
+    ]
+  },
+  {
+    "identifier":"oolite.oxp.cim.systemfeatures.sunspots",
+    "version":"1.5",
+    "required_oolite_version":"1.79",
+    "maximum_oolite_version":null,
+    "title":"System Features: Sunspots",
+    "description":"Adds occasional sunspots to stars. Requires a shader-capable graphics card.",
+    "category":"Ambience",
+    "author":"cim",
+    "license":"CC-BY-SA 3.0",
+    "download_url":"https://cim.sotl.org.uk/games/files/oolite/System_Features_Sunspots_1.5.oxz",
+    "information_url":"http://wiki.alioth.net/index.php/System_Features_Sunspots",
+    "file_size":6029,
+    "upload_date":1397505898,
+    "tags":[
+    ],
+    "conflict_oxps":[
+    ],
+    "optional_oxps":[
     ],
     "requires_oxps":[
     ]
@@ -14610,7 +14754,7 @@
   },
   {
     "identifier":"oolite.oxp.phkb.ContractsOnBB",
-    "version":"1.13",
+    "version":"1.14",
     "required_oolite_version":"1.84",
     "maximum_oolite_version":null,
     "title":"Contracts on Bulletin Board",
@@ -14620,8 +14764,8 @@
     "license":"CC-BY-NC-SA 4.0",
     "download_url":"https://wiki.alioth.net/img_auth.php/b/b1/ContractsOnBB.oxz",
     "information_url":"https://wiki.alioth.net/index.php/Bulletin_Board_Contracts",
-    "file_size":78763,
-    "upload_date":1770188722,
+    "file_size":78839,
+    "upload_date":1780931883,
     "tags":[
     ],
     "conflict_oxps":[
@@ -16462,7 +16606,7 @@
   },
   {
     "identifier":"oolite.oxp.phkb.ShipConfiguration",
-    "version":"1.5.5",
+    "version":"1.5.6",
     "required_oolite_version":"1.90",
     "maximum_oolite_version":null,
     "title":"Ship Configuration",
@@ -16472,8 +16616,8 @@
     "license":"CC-BY-NC-SA 3.0",
     "download_url":"https://wiki.alioth.net/img_auth.php/8/81/ShipConfiguration.oxz",
     "information_url":"https://wiki.alioth.net/index.php/Ship_Configuration_OXP",
-    "file_size":1551809,
-    "upload_date":1778502319,
+    "file_size":1551871,
+    "upload_date":1780931818,
     "tags":[
     ],
     "conflict_oxps":[
@@ -16580,7 +16724,7 @@
   },
   {
     "identifier":"oolite.oxp.phkb.ShipRespray",
-    "version":"1.4.2",
+    "version":"1.4.3",
     "required_oolite_version":"1.79",
     "maximum_oolite_version":null,
     "title":"Ship Respray",
@@ -16588,10 +16732,10 @@
     "category":"Ambience",
     "author":"phkb",
     "license":"CC-BY-NC-SA 4.0",
-    "download_url":"https://wiki.alioth.net/img_auth.php/1/1b/ShipRespray_1.4.2.oxz",
+    "download_url":"https://wiki.alioth.net/img_auth.php/4/4b/ShipRespray_1.4.3.oxz",
     "information_url":"https://wiki.alioth.net/index.php/Ship_Respray_OXP",
-    "file_size":20788,
-    "upload_date":1770239880,
+    "file_size":20912,
+    "upload_date":1780931567,
     "tags":[
     ],
     "conflict_oxps":[
@@ -21141,7 +21285,7 @@
   },
   {
     "identifier":"oolite.oxp.z.phkb.XenonReduxUI",
-    "version":"3.10",
+    "version":"3.11",
     "required_oolite_version":"1.80",
     "maximum_oolite_version":null,
     "title":"Xenon Redux UI",
@@ -21151,8 +21295,8 @@
     "license":"CC-BY-NC-SA 3.0",
     "download_url":"https://wiki.alioth.net/img_auth.php/9/90/XenonReduxUI.oxz",
     "information_url":"http://wiki.alioth.net/index.php/XenonUI",
-    "file_size":757953,
-    "upload_date":1778395311,
+    "file_size":757974,
+    "upload_date":1780931734,
     "tags":[
     ],
     "conflict_oxps":[
@@ -21195,7 +21339,7 @@
   },
   {
     "identifier":"oolite.oxp.z.phkb.XenonUI",
-    "version":"3.14",
+    "version":"3.15",
     "required_oolite_version":"1.80",
     "maximum_oolite_version":null,
     "title":"Xenon UI",
@@ -21205,8 +21349,8 @@
     "license":"CC-BY-NC-SA 3.0",
     "download_url":"https://wiki.alioth.net/img_auth.php/0/0b/XenonUI.oxz",
     "information_url":"http://wiki.alioth.net/index.php/XenonUI",
-    "file_size":7659440,
-    "upload_date":1778395340,
+    "file_size":7659455,
+    "upload_date":1780931710,
     "tags":[
     ],
     "conflict_oxps":[
