@@ -11468,18 +11468,18 @@
   },
   {
     "identifier":"oolite.oxp.UK_Eliter.NexusMissile",
-    "version":"2.82",
+    "version":"2.83",
     "required_oolite_version":"1.84",
     "maximum_oolite_version":null,
     "title":"Nexus Missile",
-    "description":"Provides various multi-warhead, semi-automatically-targetting, missiles. Available for purchase in various locations.",
+    "description":"Provides several multi-warhead, semi-automatically-targetting, missiles. Available for purchase in various locations.",
     "category":"Weapons",
     "author":"UK_Eliter",
     "license":"Creative Commons Attribution - Non-Commercial - Share Alike 4.0 license",
     "download_url":"https://wiki.alioth.net/img_auth.php/d/da/Oolite.oxp.UK_Eliter.NexusMissile.oxz",
     "information_url":"https://wiki.alioth.net/index.php/Nexus_Missile",
-    "file_size":197765,
-    "upload_date":1780596830,
+    "file_size":197828,
+    "upload_date":1781273466,
     "tags":[
       "Weapons"
     ],
