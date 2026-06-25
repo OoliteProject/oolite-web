@@ -9715,7 +9715,7 @@
   },
   {
     "identifier":"oolite.oxp.Svengali.Library",
-    "version":"1.9.1",
+    "version":"1.10.4",
     "required_oolite_version":"1.88",
     "maximum_oolite_version":null,
     "title":"Library",
@@ -9723,10 +9723,10 @@
     "category":"Miscellaneous",
     "author":"Svengali & BlackWolf",
     "license":"CC-by-nc-sa 4.0, partly MIT",
-    "download_url":"https://wiki.alioth.net/img_auth.php/0/04/Library_1.9.1.oxz",
+    "download_url":"https://wiki.alioth.net/img_auth.php/6/68/Library_1.10.4.oxz",
     "information_url":"https://wiki.alioth.net/index.php/Library",
-    "file_size":5196146,
-    "upload_date":1778224578,
+    "file_size":5198854,
+    "upload_date":1782349227,
     "tags":[
       "config",
       "configuration",
@@ -16124,7 +16124,7 @@
   },
   {
     "identifier":"oolite.oxp.phkb.MFDFastConfiguration",
-    "version":"2.2",
+    "version":"2.3",
     "required_oolite_version":"1.82",
     "maximum_oolite_version":null,
     "title":"MFD Fast Config",
@@ -16134,8 +16134,8 @@
     "license":"CC-BY-NC-SA 4.0",
     "download_url":"https://wiki.alioth.net/img_auth.php/6/67/MFDFastConfiguration.oxz",
     "information_url":null,
-    "file_size":603788,
-    "upload_date":1610873324,
+    "file_size":615064,
+    "upload_date":1782348691,
     "tags":[
       "MFD",
       "HUDS"
@@ -16247,7 +16247,7 @@
   },
   {
     "identifier":"oolite.oxp.phkb.MissileSummary",
-    "version":"1.6",
+    "version":"1.7",
     "required_oolite_version":"1.80",
     "maximum_oolite_version":null,
     "title":"Missile Summary",
@@ -16255,10 +16255,10 @@
     "category":"Miscellaneous",
     "author":"phkb",
     "license":"CC-BY-SA 4.0",
-    "download_url":"https://wiki.alioth.net/img_auth.php/e/e3/MissileSummary_1.6.oxz",
+    "download_url":"https://wiki.alioth.net/img_auth.php/3/30/MissileSummary_1.7.oxz",
     "information_url":"https://wiki.alioth.net/index.php/Missile_Summary",
-    "file_size":4312,
-    "upload_date":1709981744,
+    "file_size":4861,
+    "upload_date":1782348918,
     "tags":[
     ],
     "conflict_oxps":[
@@ -16987,6 +16987,35 @@
     "optional_oxps":[
     ],
     "requires_oxps":[
+    ]
+  },
+  {
+    "identifier":"oolite.oxp.phkb.SystemMap",
+    "version":"0.6",
+    "required_oolite_version":"1.90",
+    "maximum_oolite_version":null,
+    "title":"System Map",
+    "description":"Adds a local system map, accessible from the F7 screen, showing sun, planets, moons and main stations.",
+    "category":"Miscellaneous",
+    "author":"phkb",
+    "license":"CC-BY-SA-NC 4.0",
+    "download_url":"https://wiki.alioth.net/img_auth.php/4/45/SystemMap_0.6.oxz",
+    "information_url":"https://wiki.alioth.net/index.php/System_Map",
+    "file_size":1569093,
+    "upload_date":1782349134,
+    "tags":[
+    ],
+    "conflict_oxps":[
+    ],
+    "optional_oxps":[
+    ],
+    "requires_oxps":[
+      {
+        "identifier":"oolite.oxp.Svengali.Library",
+        "version":"1.10.3",
+        "maximum_version":null,
+        "description":null
+      }
     ]
   },
   {
