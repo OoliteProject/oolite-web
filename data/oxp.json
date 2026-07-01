@@ -16133,9 +16133,9 @@
     "author":"phkb",
     "license":"CC-BY-NC-SA 4.0",
     "download_url":"https://wiki.alioth.net/img_auth.php/6/67/MFDFastConfiguration.oxz",
-    "information_url":null,
-    "file_size":615064,
-    "upload_date":1782348691,
+    "information_url":"https://wiki.alioth.net/index.php/MFD_Fast_Configuration",
+    "file_size":615106,
+    "upload_date":1782353378,
     "tags":[
       "MFD",
       "HUDS"
