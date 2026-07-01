@@ -16300,7 +16300,7 @@
   },
   {
     "identifier":"oolite.oxp.phkb.NavigationBeaconsMFD",
-    "version":"1.2",
+    "version":"1.3",
     "required_oolite_version":"1.79",
     "maximum_oolite_version":null,
     "title":"Navigation Beacons MFD",
@@ -16310,8 +16310,8 @@
     "license":"CC-BY-NC-SA 4.0",
     "download_url":"https://wiki.alioth.net/img_auth.php/3/3c/NavigationBeaconsMFD.oxz",
     "information_url":"https://wiki.alioth.net/index.php/Navigation_Beacons_MFD",
-    "file_size":5157,
-    "upload_date":1778111714,
+    "file_size":5684,
+    "upload_date":1782910575,
     "tags":[
     ],
     "conflict_oxps":[
@@ -16991,7 +16991,7 @@
   },
   {
     "identifier":"oolite.oxp.phkb.SystemMap",
-    "version":"0.6",
+    "version":"0.7",
     "required_oolite_version":"1.90",
     "maximum_oolite_version":null,
     "title":"System Map",
@@ -16999,10 +16999,10 @@
     "category":"Miscellaneous",
     "author":"phkb",
     "license":"CC-BY-SA-NC 4.0",
-    "download_url":"https://wiki.alioth.net/img_auth.php/4/45/SystemMap_0.6.oxz",
+    "download_url":"https://wiki.alioth.net/img_auth.php/c/cb/SystemMap_0.7.oxz",
     "information_url":"https://wiki.alioth.net/index.php/System_Map",
-    "file_size":1569093,
-    "upload_date":1782349134,
+    "file_size":1570441,
+    "upload_date":1782910536,
     "tags":[
     ],
     "conflict_oxps":[
