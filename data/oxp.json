@@ -2116,7 +2116,7 @@
   },
   {
     "identifier":"oolite.oxp.Commander_McLane.Anarchies",
-    "version":"2.9.5",
+    "version":"2.10",
     "required_oolite_version":"1.79",
     "maximum_oolite_version":null,
     "title":"Anarchies",
@@ -2124,10 +2124,10 @@
     "category":"Systems",
     "author":"Commander McLane, Killer Wolf, Arexack Heretic, Eric Walch, spara, Norby, phkb and Griff",
     "license":"CC BY-NC-SA 3",
-    "download_url":"https://wiki.alioth.net/img_auth.php/b/b8/Anarchies_2.9.5.oxz",
+    "download_url":"https://wiki.alioth.net/img_auth.php/5/5f/Anarchies_2.10.oxz",
     "information_url":"http://wiki.alioth.net/index.php/Anarchies_OXP",
-    "file_size":21796533,
-    "upload_date":1770184349,
+    "file_size":25221257,
+    "upload_date":1783426937,
     "tags":[
     ],
     "conflict_oxps":[
@@ -14469,6 +14469,35 @@
     "optional_oxps":[
     ],
     "requires_oxps":[
+    ]
+  },
+  {
+    "identifier":"oolite.oxp.phkb.Anarchies_Facelift",
+    "version":"1.0",
+    "required_oolite_version":"1.79",
+    "maximum_oolite_version":null,
+    "title":"Anarchies Facelift",
+    "description":"Updates the look of Hacker Stations, Salvage Stations, Sentinel stations, Vipers and Phoenixes",
+    "category":"Systems",
+    "author":"Killer Wolf, Commander McLane, Arexack Heretic, Eric Walch, spara, Norby, phkb and Griff",
+    "license":"CC BY-NC-SA 3.0",
+    "download_url":"https://wiki.alioth.net/img_auth.php/f/f4/Anarchies_Facelift.oxz",
+    "information_url":"http://wiki.alioth.net/index.php/Anarchies_OXP",
+    "file_size":82185801,
+    "upload_date":1783427035,
+    "tags":[
+    ],
+    "conflict_oxps":[
+    ],
+    "optional_oxps":[
+    ],
+    "requires_oxps":[
+      {
+        "identifier":"oolite.oxp.Commander_McLane.Anarchies",
+        "version":"2.10",
+        "maximum_version":null,
+        "description":null
+      }
     ]
   },
   {
