@@ -9446,7 +9446,7 @@
   },
   {
     "identifier":"oolite.oxp.Svengali.GNN",
-    "version":"1.2",
+    "version":"1.4",
     "required_oolite_version":"1.88",
     "maximum_oolite_version":null,
     "title":"GNN",
@@ -9454,10 +9454,10 @@
     "category":"Ambience",
     "author":"Svengali",
     "license":"CC-by-nc-sa 4.0",
-    "download_url":"https://wiki.alioth.net/img_auth.php/1/1e/GNN1.2.oxz",
-    "information_url":"http://wiki.alioth.net/index.php/GNN",
-    "file_size":4292708,
-    "upload_date":1610873245,
+    "download_url":"https://wiki.alioth.net/img_auth.php/9/93/GNN_1.4.oxz",
+    "information_url":"https://wiki.alioth.net/index.php/GNN",
+    "file_size":4296066,
+    "upload_date":1783750771,
     "tags":[
       "ambience",
       "child",
@@ -9470,9 +9470,9 @@
     "requires_oxps":[
       {
         "identifier":"oolite.oxp.Svengali.Library",
-        "version":"1.7.1",
+        "version":"1.8.1",
         "maximum_version":null,
-        "description":"Depends on Library 1.7.1."
+        "description":"Depends on Library 1.8.1."
       }
     ]
   },
@@ -10652,7 +10652,7 @@
   },
   {
     "identifier":"oolite.oxp.Thargoid.Planetfall",
-    "version":"2.33",
+    "version":"2.34",
     "required_oolite_version":"1.90",
     "maximum_oolite_version":null,
     "title":"PlanetFall2",
@@ -10660,10 +10660,10 @@
     "category":"Systems",
     "author":"Thargoid, phkb",
     "license":"Creative Commons Attribution - Non-Commercial - Share Alike 3.0 license with clauses - see readme file",
-    "download_url":"https://wiki.alioth.net/img_auth.php/3/37/PlanetFall2_2.33.oxz",
+    "download_url":"https://wiki.alioth.net/img_auth.php/b/bb/PlanetFall2_2.34.oxz",
     "information_url":"https://wiki.alioth.net/index.php/Planetfall2_OXP",
-    "file_size":1972192,
-    "upload_date":1781984606,
+    "file_size":1972726,
+    "upload_date":1783750892,
     "tags":[
       "dockables",
       "system"
@@ -10705,7 +10705,7 @@
       },
       {
         "identifier":"oolite.oxp.Svengali.GNN",
-        "version":null,
+        "version":"1.4",
         "maximum_version":null,
         "description":null
       },
@@ -15476,7 +15476,7 @@
   },
   {
     "identifier":"oolite.oxp.phkb.FeudalPlanetFall",
-    "version":"1.6",
+    "version":"1.7",
     "required_oolite_version":"1.90",
     "maximum_oolite_version":null,
     "title":"Feudal PlanetFall Customisations",
@@ -15484,10 +15484,10 @@
     "category":"Dockables",
     "author":"phkb",
     "license":"CC-BY-SA-NC 4.0",
-    "download_url":"https://wiki.alioth.net/img_auth.php/7/75/Feudal_PlanetFall2_1.6.oxz",
+    "download_url":"https://wiki.alioth.net/img_auth.php/7/7d/Feudal_PlanetFall2_1.7.oxz",
     "information_url":"http://wiki.alioth.net/index.php/Planetfall2_OXP",
-    "file_size":10909044,
-    "upload_date":1775870730,
+    "file_size":10909072,
+    "upload_date":1783750861,
     "tags":[
       "dockables",
       "system"
@@ -15499,7 +15499,7 @@
     "requires_oxps":[
       {
         "identifier":"oolite.oxp.Thargoid.Planetfall",
-        "version":"2.0",
+        "version":"2.34",
         "maximum_version":null,
         "description":null
       },
