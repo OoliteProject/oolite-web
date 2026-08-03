@@ -381,7 +381,7 @@
   },
   {
     "identifier":"cim.gsagostinho.systemfeatures.rings",
-    "version":"2.10.3",
+    "version":"2.10.4",
     "required_oolite_version":"1.84",
     "maximum_oolite_version":null,
     "title":"System Features: Rings",
@@ -390,9 +390,9 @@
     "author":"cim, gsagostinho",
     "license":"CC-BY-SA 3.0",
     "download_url":"https://wiki.alioth.net/img_auth.php/5/5d/Cim.gsagostinho.SystemFeatures.Rings.oxz",
-    "information_url":"http://wiki.alioth.net/index.php/System_Features_Rings",
-    "file_size":783819,
-    "upload_date":1610873308,
+    "information_url":"https://wiki.alioth.net/index.php/System_Features_Rings",
+    "file_size":784186,
+    "upload_date":1785727793,
     "tags":[
     ],
     "conflict_oxps":[
@@ -4944,7 +4944,7 @@
   },
   {
     "identifier":"oolite.oxp.Layne.DockingFees",
-    "version":"2.2",
+    "version":"2.3",
     "required_oolite_version":"1.80",
     "maximum_oolite_version":null,
     "title":"Docking Fees",
@@ -4952,10 +4952,10 @@
     "category":"Ambience",
     "author":"Layne & Eris",
     "license":"CC-BY-NC-SA 4.0",
-    "download_url":"https://wiki.alioth.net/img_auth.php/5/59/DockingFees_2.2.oxz",
+    "download_url":"https://wiki.alioth.net/img_auth.php/8/83/DockingFees_2.3.oxz",
     "information_url":"https://wiki.alioth.net/index.php/Docking_Fees",
-    "file_size":16836,
-    "upload_date":1701399393,
+    "file_size":17511,
+    "upload_date":1785727856,
     "tags":[
     ],
     "conflict_oxps":[
@@ -11050,7 +11050,7 @@
   },
   {
     "identifier":"oolite.oxp.Thargoid.TrafficControl",
-    "version":"2.3.1",
+    "version":"2.4",
     "required_oolite_version":"1.88",
     "maximum_oolite_version":null,
     "title":"Traffic Control",
@@ -11058,10 +11058,10 @@
     "category":"Mechanics",
     "author":"Thargoid, Milo",
     "license":"Creative Commons Attribution - Non-Commercial - Share Alike 4.0 license with clauses - see readme file",
-    "download_url":"https://wiki.alioth.net/img_auth.php/4/48/TrafficControl_2.3.1.oxz",
+    "download_url":"https://wiki.alioth.net/img_auth.php/4/4d/TrafficControl_2.4.oxz",
     "information_url":"https://wiki.alioth.net/index.php/Traffic_Control_OXP",
-    "file_size":16712,
-    "upload_date":1753398282,
+    "file_size":16790,
+    "upload_date":1785727711,
     "tags":[
       "mechanics"
     ],
@@ -15769,7 +15769,7 @@
   },
   {
     "identifier":"oolite.oxp.phkb.GalCopMissions",
-    "version":"0.14",
+    "version":"0.15",
     "required_oolite_version":"1.84",
     "maximum_oolite_version":null,
     "title":"GalCop Missions",
@@ -15777,10 +15777,10 @@
     "category":"Missions",
     "author":"phkb",
     "license":"CC-BY-NC-SA 4.0",
-    "download_url":"https://wiki.alioth.net/img_auth.php/6/63/GalCopMissions_0.14.oxz",
+    "download_url":"https://wiki.alioth.net/img_auth.php/b/b0/GalCopMissions_0.15.oxz",
     "information_url":"https://wiki.alioth.net/index.php/GalCop_Missions",
-    "file_size":4624374,
-    "upload_date":1776658481,
+    "file_size":4599691,
+    "upload_date":1785727759,
     "tags":[
     ],
     "conflict_oxps":[
@@ -16632,7 +16632,7 @@
   },
   {
     "identifier":"oolite.oxp.phkb.QuickVisa",
-    "version":"1.5",
+    "version":"1.6",
     "required_oolite_version":"1.90",
     "maximum_oolite_version":null,
     "title":"Quick-Visa",
@@ -16642,8 +16642,8 @@
     "license":"CC-BY-SA-NC 4.0",
     "download_url":"https://wiki.alioth.net/img_auth.php/5/55/QuickVisa.oxz",
     "information_url":"https://wiki.alioth.net/index.php/Quick-Visa",
-    "file_size":4386653,
-    "upload_date":1776658295,
+    "file_size":4386723,
+    "upload_date":1785727843,
     "tags":[
     ],
     "conflict_oxps":[
@@ -16713,7 +16713,7 @@
   },
   {
     "identifier":"oolite.oxp.phkb.RiskyBusiness",
-    "version":"0.2",
+    "version":"0.3",
     "required_oolite_version":"1.81",
     "maximum_oolite_version":null,
     "title":"Risky Business",
@@ -16721,10 +16721,10 @@
     "category":"Mechanics",
     "author":"phkb",
     "license":"CC-BY-SA-NC 4.0",
-    "download_url":"https://wiki.alioth.net/img_auth.php/9/91/RiskyBusiness.oxz",
+    "download_url":"https://wiki.alioth.net/img_auth.php/9/91/RiskyBusiness_0.3.oxz",
     "information_url":"https://wiki.alioth.net/index.php/Risky_Business",
-    "file_size":3627,
-    "upload_date":1697073264,
+    "file_size":4230,
+    "upload_date":1785727917,
     "tags":[
     ],
     "conflict_oxps":[
@@ -16889,7 +16889,7 @@
   },
   {
     "identifier":"oolite.oxp.phkb.ShipRepurchase",
-    "version":"0.7",
+    "version":"0.8",
     "required_oolite_version":"1.89",
     "maximum_oolite_version":null,
     "title":"Ship Repurchase",
@@ -16899,8 +16899,8 @@
     "license":"CC-BY-NC-SA 4.0",
     "download_url":"https://wiki.alioth.net/img_auth.php/e/ef/ShipRepurchase.oxz",
     "information_url":"https://wiki.alioth.net/index.php/Ship_Repurchase",
-    "file_size":31182,
-    "upload_date":1778395234,
+    "file_size":33362,
+    "upload_date":1785727907,
     "tags":[
     ],
     "conflict_oxps":[
