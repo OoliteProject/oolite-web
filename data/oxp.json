@@ -11326,7 +11326,7 @@
   },
   {
     "identifier":"oolite.oxp.UK_Eliter.ExtraThargoids",
-    "version":"6.81",
+    "version":"7.0",
     "required_oolite_version":"1.82",
     "maximum_oolite_version":null,
     "title":"Extra Thargoids",
@@ -11336,8 +11336,8 @@
     "license":"Creative Commons Attribution - Non-Commercial - Share Alike 4.0 license",
     "download_url":"https://wiki.alioth.net/img_auth.php/8/8a/Oolite.oxp.UK_Eliter.Extra_Thargoids.oxz",
     "information_url":"http://aegidian.org/bb/viewtopic.php?t=10154&p=143763",
-    "file_size":1688760,
-    "upload_date":1779651172,
+    "file_size":1689136,
+    "upload_date":1789431282,
     "tags":[
       "thargoids",
       "ships",
@@ -11348,13 +11348,13 @@
     "optional_oxps":[
       {
         "identifier":"oolite.oxp.UK_Eliter.Ferdelance_3G",
-        "version":"6.5",
+        "version":"7.0",
         "maximum_version":null,
         "description":null
       },
       {
         "identifier":"oolite.oxp.UK_Eliter.InterstellarTweaks",
-        "version":"6.5",
+        "version":"8.0",
         "maximum_version":null,
         "description":null
       }
@@ -11364,7 +11364,7 @@
   },
   {
     "identifier":"oolite.oxp.UK_Eliter.Ferdelance_3G",
-    "version":"6.660",
+    "version":"7.0",
     "required_oolite_version":"1.82",
     "maximum_oolite_version":null,
     "title":"Fer-de-Lance 3G",
@@ -11374,8 +11374,8 @@
     "license":"Creative Commons Attribution - Non-Commercial - Share Alike 4.0 license",
     "download_url":"https://wiki.alioth.net/img_auth.php/d/da/Oolite.oxp.UK_Eliter.Ferdelance_3G.oxz",
     "information_url":"https://wiki.alioth.net/index.php/Fer-de-Lance_3G_OXP",
-    "file_size":968956,
-    "upload_date":1781642353,
+    "file_size":966260,
+    "upload_date":1789431311,
     "tags":[
       "ships"
     ],
@@ -11430,7 +11430,7 @@
   },
   {
     "identifier":"oolite.oxp.UK_Eliter.InterstellarTweaks",
-    "version":"7.07",
+    "version":"8",
     "required_oolite_version":"1.82",
     "maximum_oolite_version":null,
     "title":"Interstellar Tweaks",
@@ -11440,8 +11440,8 @@
     "license":"Creative Commons Attribution - Non-Commercial - Share Alike 4.0 license",
     "download_url":"https://wiki.alioth.net/img_auth.php/7/7c/Oolite.oxp.UK_Eliter.InterstellarTweaks.oxz",
     "information_url":"https://wiki.alioth.net/index.php/Interstellar_Tweaks",
-    "file_size":317906,
-    "upload_date":1785494901,
+    "file_size":302503,
+    "upload_date":1789431384,
     "tags":[
       "interstellar",
       "ambience",
@@ -11452,50 +11452,8 @@
     ],
     "optional_oxps":[
       {
-        "identifier":"oolite.oxp.UK_Eliter.Ferdelance_3G",
-        "version":"6.5",
-        "maximum_version":null,
-        "description":null
-      },
-      {
-        "identifier":"oolite.oxp.UK_Eliter.ExtraThargoids",
-        "version":"6.5",
-        "maximum_version":null,
-        "description":null
-      },
-      {
-        "identifier":"oolite.oxp.Thargoid.Armoury.oxz",
-        "version":"1,22",
-        "maximum_version":null,
-        "description":null
-      },
-      {
-        "identifier":"oolite.oxp.spara.behemoth.oxz",
-        "version":"3.1.1",
-        "maximum_version":null,
-        "description":null
-      },
-      {
-        "identifier":"oolite.oxp.CaptMurphy.BreakableWitchDrive.oxz",
-        "version":"1.3.2",
-        "maximum_version":null,
-        "description":null
-      },
-      {
-        "identifier":"oolite.oxp.Frame.FuelCollector.oxz",
-        "version":"0.07",
-        "maximum_version":null,
-        "description":null
-      },
-      {
         "identifier":"oolite.oxp.Draco_Caeles.GenerationShips.oxz",
         "version":"1.6",
-        "maximum_version":null,
-        "description":null
-      },
-      {
-        "identifier":"oolite.oxp.Commander_McLane.Interstellar_Help.oxz",
-        "version":"2.3",
         "maximum_version":null,
         "description":null
       },
@@ -11506,38 +11464,20 @@
         "description":null
       },
       {
-        "identifier":"oolite.oxp.EricWalch.MisjumpAnalyser.oxz",
-        "version":"1.1",
+        "identifier":"oolite.oxp.spara.behemoth.oxz",
+        "version":"3.1.1",
         "maximum_version":null,
         "description":null
       },
       {
-        "identifier":"oolite.oxp.Thargoid.TCAT.oxz",
-        "version":"2.1",
+        "identifier":"oolite.oxp.UK_Eliter.Ferdelance_3G",
+        "version":"7.0",
         "maximum_version":null,
         "description":null
       },
       {
-        "identifier":"oolite.oxp.ArexackHeretic.ThargornThreat.oxz",
-        "version":"1.5.2",
-        "maximum_version":null,
-        "description":null
-      },
-      {
-        "identifier":"oolite.oxp.phkb.TionislaOrbitalGraveyard.oxz",
-        "version":"2.10",
-        "maximum_version":null,
-        "description":null
-      },
-      {
-        "identifier":"oolite.oxp.phkb.TionislaOrbitalGraveyard_Shipwrecks.oxz",
-        "version":"1.02",
-        "maximum_version":null,
-        "description":null
-      },
-      {
-        "identifier":"oolite.oxp.Commander_McLane.Wormhole_Restoration.oxz",
-        "version":"1.2",
+        "identifier":"oolite.oxp.UK_Eliter.ExtraThargoids",
+        "version":"7.0",
         "maximum_version":null,
         "description":null
       }
@@ -11547,7 +11487,7 @@
   },
   {
     "identifier":"oolite.oxp.UK_Eliter.NexusMissile",
-    "version":"2.83",
+    "version":"3.0",
     "required_oolite_version":"1.84",
     "maximum_oolite_version":null,
     "title":"Nexus Missile",
@@ -11557,8 +11497,8 @@
     "license":"Creative Commons Attribution - Non-Commercial - Share Alike 4.0 license",
     "download_url":"https://wiki.alioth.net/img_auth.php/d/da/Oolite.oxp.UK_Eliter.NexusMissile.oxz",
     "information_url":"https://wiki.alioth.net/index.php/Nexus_Missile",
-    "file_size":197828,
-    "upload_date":1781273466,
+    "file_size":198263,
+    "upload_date":1789431410,
     "tags":[
       "Weapons"
     ],
@@ -17403,7 +17343,7 @@
   },
   {
     "identifier":"oolite.oxp.phkb.WireframeShipImages",
-    "version":"1.14",
+    "version":"1.15",
     "required_oolite_version":"1.79",
     "maximum_oolite_version":null,
     "title":"Wireframe Ship Images",
@@ -17413,8 +17353,8 @@
     "license":"CC-BY-SA-NC 4.0",
     "download_url":"https://wiki.alioth.net/img_auth.php/d/d9/WireframeShipImages.oxz",
     "information_url":"https://wiki.alioth.net/index.php/Wireframe_Ship_Images",
-    "file_size":25181454,
-    "upload_date":1785132893,
+    "file_size":25184746,
+    "upload_date":1789474773,
     "tags":[
     ],
     "conflict_oxps":[
