@@ -13557,6 +13557,75 @@
     ]
   },
   {
+    "identifier":"oolite.oxp.cim.comms-pack-a",
+    "version":"0.5",
+    "required_oolite_version":"1.79",
+    "maximum_oolite_version":null,
+    "title":"Communications Pack A",
+    "description":"Adds lots of extra NPC communications to the game, increasing the variety of existing messages and also adding several new ones.",
+    "category":"Ambience",
+    "author":"cim",
+    "license":"MIT",
+    "download_url":"https://wiki.alioth.net/img_auth.php/b/b9/Comms_Pack_A_0.5.oxz",
+    "information_url":null,
+    "file_size":25541,
+    "upload_date":1794547549,
+    "tags":[
+    ],
+    "conflict_oxps":[
+    ],
+    "optional_oxps":[
+    ],
+    "requires_oxps":[
+    ]
+  },
+  {
+    "identifier":"oolite.oxp.cim.cotbs",
+    "version":"1.0.2",
+    "required_oolite_version":"1.79",
+    "maximum_oolite_version":null,
+    "title":"Curse of the Black Sunspot",
+    "description":"An informal mission for experienced players set in Chart 3",
+    "category":"Missions",
+    "author":"cim",
+    "license":"CC-BY-SA 3.0",
+    "download_url":"https://wiki.alioth.net/img_auth.php/5/5c/Curse_of_the_Black_Sunspot_1.0.2.oxz",
+    "information_url":"http://wiki.alioth.net/index.php/Curse_of_the_Black_Sunspot",
+    "file_size":650179,
+    "upload_date":1794547988,
+    "tags":[
+    ],
+    "conflict_oxps":[
+    ],
+    "optional_oxps":[
+    ],
+    "requires_oxps":[
+    ]
+  },
+  {
+    "identifier":"oolite.oxp.cim.energy-bomb",
+    "version":"1.0.2",
+    "required_oolite_version":"1.79",
+    "maximum_oolite_version":null,
+    "title":"Energy Bomb",
+    "description":"The original indiscriminate superweapon. Available as primable equipment from TL:8 systems and above. Previous versions of this expansion pack are not compatible with Oolite 1.79 or later.",
+    "category":"Weapons",
+    "author":"cim",
+    "license":"CC-BY-NC-SA 3.0",
+    "download_url":"https://wiki.alioth.net/img_auth.php/7/77/EnergyBomb_1.0.2.oxz",
+    "information_url":"http://wiki.alioth.net/index.php/Energy_Bomb",
+    "file_size":1994,
+    "upload_date":1794547517,
+    "tags":[
+    ],
+    "conflict_oxps":[
+    ],
+    "optional_oxps":[
+    ],
+    "requires_oxps":[
+    ]
+  },
+  {
     "identifier":"oolite.oxp.cim.escort-formations",
     "version":"1.3",
     "required_oolite_version":"1.79",
@@ -13679,6 +13748,29 @@
         "maximum_version":null,
         "description":"Configuration options can be adjusted via this OXP."
       }
+    ],
+    "requires_oxps":[
+    ]
+  },
+  {
+    "identifier":"oolite.oxp.cim.systemfeatures.sunspots",
+    "version":"1.5",
+    "required_oolite_version":"1.79",
+    "maximum_oolite_version":null,
+    "title":"System Features: Sunspots",
+    "description":"Adds occasional sunspots to stars. Requires a shader-capable graphics card.",
+    "category":"Ambience",
+    "author":"cim",
+    "license":"CC-BY-SA 3.0",
+    "download_url":"https://wiki.alioth.net/img_auth.php/f/f5/System_Features_Sunspots_1.5.oxz",
+    "information_url":"http://wiki.alioth.net/index.php/System_Features_Sunspots",
+    "file_size":6243,
+    "upload_date":1794547944,
+    "tags":[
+    ],
+    "conflict_oxps":[
+    ],
+    "optional_oxps":[
     ],
     "requires_oxps":[
     ]
