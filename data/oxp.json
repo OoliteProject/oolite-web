@@ -13505,6 +13505,29 @@
     ]
   },
   {
+    "identifier":"oolite.oxp.cim.camera-drones",
+    "version":"1.4",
+    "required_oolite_version":"1.77",
+    "maximum_oolite_version":null,
+    "title":"Camera Drones",
+    "description":"Drone cameras which provide a variety of alternative external views for your ship",
+    "category":"Equipment",
+    "author":"cim",
+    "license":"CC-BY-SA 3.0",
+    "download_url":"https://wiki.alioth.net/img_auth.php/9/90/CameraDrones_1.4.oxz",
+    "information_url":"http://wiki.alioth.net/index.php/Camera_Drones",
+    "file_size":4026,
+    "upload_date":1794544183,
+    "tags":[
+    ],
+    "conflict_oxps":[
+    ],
+    "optional_oxps":[
+    ],
+    "requires_oxps":[
+    ]
+  },
+  {
     "identifier":"oolite.oxp.cim.combat-simulator",
     "version":"1.2",
     "required_oolite_version":"1.79",
